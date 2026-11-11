@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/editCategory.tsx",
+  "editTitle": "Edit listing category",
+  "editDescription": "Update this listing category.",
+  "errorTitle": "Failed to load category",
+  "errorDescription": "Could not load this category. Try again.",
+  "form": {
+    "_idLabel": "Record ID",
+    "nameLabel": "Name",
+    "namePlaceholder": "e.g. Home cleaning",
+    "parentListingCategoryLabel": "Parent category",
+    "parentListingCategoryPlaceholder": "Top level if left empty",
+    "orderLabel": "Sort order",
+    "orderPlaceholder": "0",
+    "editCategoryTitle": "Edit listing category",
+    "editCategoryDescription": "Update this listing category.",
+    "basicsSectionTitle": "Basics",
+    "visibilitySectionTitle": "Visibility"
+  },
+  "axios": {
+    "start": {
+      "title": "Saving listing category",
+      "time": 3000
+    },
+    "success": {
+      "title": "Listing category updated",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not update listing category",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Edit listing category",
+    "description": "Update this listing category."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Save changes"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/changeDisputeLifecycleAction.tsx",
+  "cancel": "Abbrechen",
+  "resolutionLabel": "Notizen zur Lösung",
+  "resolutionPlaceholder": "Beschreiben Sie, wie der Streitfall behandelt wurde (für die Prüfspur erforderlich).",
+  "resolutionHint": "Erforderlich. 1–2000 Zeichen.",
+  "startReview": {
+    "title": "Streitfall als in Prüfung markieren",
+    "description": "Der Streitfall bleibt offen, während Sie ihn untersuchen. Die Parteien können die Lieferung erst annehmen, wenn der Streitfall entschieden oder geschlossen ist.",
+    "confirm": "Prüfung starten",
+    "axios": {
+      "start": {
+        "title": "Streitfall wird aktualisiert",
+        "time": 3000
+      },
+      "success": {
+        "title": "Streitfall als in Prüfung markiert",
+        "time": 3000
+      },
+      "error": {
+        "title": "Streitfall konnte nicht aktualisiert werden",
+        "time": 3000
+      }
+    }
+  },
+  "resolve": {
+    "title": "Streitfall entscheiden",
+    "description": "Markiert den Streitfall als entschieden und schliesst den verknüpften Auftrag mit derselben Treuhandlogik ab wie bei der Annahme einer Lieferung.",
+    "confirm": "Erledigen",
+    "axios": {
+      "start": {
+        "title": "Streitfall wird entschieden",
+        "time": 3000
+      },
+      "success": {
+        "title": "Streitfall entschieden",
+        "time": 3000
+      },
+      "error": {
+        "title": "Streitfall konnte nicht entschieden werden",
+        "time": 3000
+      }
+    }
+  },
+  "close": {
+    "title": "Streitfall schliessen (Auftrag stornieren)",
+    "description": "Schliesst den Streitfall und storniert den verknüpften Auftrag mit denselben Treuhand-Rückerstattungsregeln wie bei einer normalen Stornierung.",
+    "confirm": "Streitfall schliessen",
+    "axios": {
+      "start": {
+        "title": "Streitfall wird geschlossen",
+        "time": 3000
+      },
+      "success": {
+        "title": "Streitfall geschlossen",
+        "time": 3000
+      },
+      "error": {
+        "title": "Streitfall konnte nicht geschlossen werden",
+        "time": 3000
+      }
+    }
+  }
+}

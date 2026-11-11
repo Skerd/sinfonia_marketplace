@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/createListingPackage.tsx",
+  "formHeader": {
+    "title": "Inseratpaket erstellen",
+    "description": "Definieren Sie eine Leistungsstufe, die Kunden bei der Bestellung aus einem Inserat wählen können."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Inseratpaket erstellen"
+  },
+  "form": {
+    "listingIdLabel": "Inserat",
+    "listingIdPlaceholder": "Inserat auswählen",
+    "nameLabel": "Paketname",
+    "namePlaceholder": "z. B. Basic, Standard, Premium",
+    "descriptionLabel": "Beschreibung",
+    "descriptionPlaceholder": "Was in diesem Paket enthalten ist...",
+    "priceAmountLabel": "Preis",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Währung",
+    "currencyPlaceholder": "Währung des Inserats, wenn leer",
+    "deliveryDaysLabel": "Liefertage",
+    "deliveryDaysPlaceholder": "z. B. 3",
+    "sortOrderLabel": "Anzeigereihenfolge",
+    "sortOrderPlaceholder": "z. B. 1",
+    "basicsSectionTitle": "Grunddaten",
+    "pricingSectionTitle": "Preise",
+    "visibilitySectionTitle": "Sichtbarkeit"
+  },
+  "axios": {
+    "start": {
+      "title": "Paket wird erstellt",
+      "time": 3000
+    },
+    "success": {
+      "title": "Paket erstellt",
+      "time": 3000
+    },
+    "error": {
+      "title": "Paket konnte nicht erstellt werden",
+      "time": 3000
+    }
+  }
+}

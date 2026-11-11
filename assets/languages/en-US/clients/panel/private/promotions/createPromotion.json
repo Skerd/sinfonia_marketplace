@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/createPromotion.tsx",
+  "formHeader": {
+    "title": "Create promotion",
+    "description": "Boost a listing's visibility with a featured or sponsored promotion."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Create promotion"
+  },
+  "form": {
+    "listingLabel": "Listing",
+    "listingPlaceholder": "Select listing",
+    "typeLabel": "Promotion type",
+    "promotionTypeLabel": "Promotion type",
+    "promotionTypePlaceholder": "Select promotion type",
+    "promotionTypeFeatured": "Featured",
+    "promotionTypeSponsored": "Sponsored",
+    "startAtLabel": "Start date & time",
+    "startAtPlaceholder": "Promotion start",
+    "endAtLabel": "End date & time",
+    "endAtPlaceholder": "Promotion end",
+    "promotionSectionTitle": "Promotion",
+    "scheduleSectionTitle": "Schedule"
+  },
+  "axios": {
+    "start": {
+      "title": "Creating promotion",
+      "time": 3000
+    },
+    "success": {
+      "title": "Promotion created",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not create promotion",
+      "time": 3000
+    }
+  }
+}

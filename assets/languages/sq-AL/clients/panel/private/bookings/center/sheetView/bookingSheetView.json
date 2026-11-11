@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/sheetView/bookingSheetView.tsx",
+  "failedTitle": "Dështoi ngarkimi i rezervimit",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të rezervimit. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "bookingSubtitle": "Rezervimi",
+  "overview": "Përmbledhje",
+  "order": "Porosia",
+  "provider": "Ofruesi",
+  "startAt": "Ora e fillimit",
+  "endAt": "Ora e mbarimit",
+  "timezone": "Zona orare",
+  "createdAt": "Krijuar",
+  "lifecycle": "Cikli i jetës",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "orderStatus": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "in_progress": "Në progres",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar"
+  }
+}

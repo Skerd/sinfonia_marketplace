@@ -1,0 +1,14 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderDeliveries/center/cardView/orderDeliveryCard.tsx",
+  "failedTitle": "Failed to load",
+  "failedDescription": "Tap to retry.",
+  "attachments": "Attachments",
+  "orderDeliveryStatus": {
+    "submitted": "Submitted",
+    "accepted": "Accepted",
+    "revision_requested": "Revision requested"
+  },
+  "status": "Status",
+  "message": "Message",
+  "delivery": "Delivery"
+}

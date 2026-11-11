@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/cardView/taskRequestCard.tsx",
+  "failedTitle": "Échec du chargement de la demande de devis",
+  "failedDescription": "Une erreur s'est produite lors du chargement de cette demande de devis. Cliquez pour réessayer.",
+  "title": "Titre",
+  "name": "Nom",
+  "status": "Statut",
+  "category": "Catégorie",
+  "budget": "Budget",
+  "city": "Ville",
+  "expiresAt": "Expire",
+  "statuses": {
+    "open": "Ouvert",
+    "closed": "Fermé",
+    "awarded": "Attribuée"
+  },
+  "requester": "Demandeur",
+  "bids": "Offres"
+}

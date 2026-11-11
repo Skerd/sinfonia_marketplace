@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/createOrderFromListingAction.tsx",
+  "createOrder": {
+    "title": "Order this service",
+    "description": "Place an order directly from this listing. The provider will receive a notification and can accept or decline.",
+    "noteLabel": "Additional note (optional)",
+    "notePlaceholder": "Any special instructions or details for the provider…",
+    "confirm": "Place order",
+    "axios": {
+      "start": { "title": "Placing order", "time": 3000 },
+      "success": { "title": "Order placed successfully", "time": 3000 },
+      "error": { "title": "Could not place order, please try again", "time": 3000 }
+    }
+  },
+  "cancel": "Cancel"
+}

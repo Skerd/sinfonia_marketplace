@@ -1,0 +1,80 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
+  "accept": {
+    "title": "Accepter cette commande ?",
+    "description": "La commande sera marquée comme acceptée et les fonds seront conservés sous séquestre.",
+    "confirm": "Accepter la commande",
+    "axios": {
+      "start": {
+        "title": "Acceptation de la commande",
+        "time": 3000
+      },
+      "success": {
+        "title": "Commande acceptée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible d'accepter la commande, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "start": {
+    "title": "Démarrer cette commande ?",
+    "description": "La commande passera en cours. Seul le prestataire peut démarrer une commande acceptée.",
+    "confirm": "Démarrer la commande",
+    "axios": {
+      "start": {
+        "title": "Démarrage de la commande",
+        "time": 3000
+      },
+      "success": {
+        "title": "Commande démarrée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de démarrer la commande, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancelOrder": {
+    "title": "Annuler cette commande ?",
+    "description": "La commande sera marquée annulée. Les fonds bloqués peuvent être remboursés s’ils sont déjà détenus.",
+    "confirm": "Annuler la commande",
+    "axios": {
+      "start": {
+        "title": "Annulation de la commande",
+        "time": 3000
+      },
+      "success": {
+        "title": "Commande annulée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible d'annuler la commande, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "acceptDelivery": {
+    "title": "Accepter la livraison et finaliser la commande ?",
+    "description": "La livraison du prestataire sera acceptée, les fonds en séquestre libérés et la commande marquée comme terminée.",
+    "confirm": "Terminer la commande",
+    "axios": {
+      "start": {
+        "title": "Finalisation de la commande",
+        "time": 3000
+      },
+      "success": {
+        "title": "Commande terminée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de finaliser la commande, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

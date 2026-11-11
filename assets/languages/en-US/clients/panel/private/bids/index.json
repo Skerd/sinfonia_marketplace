@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/index.tsx",
+  "title": "Bids",
+  "description": "View and manage bids on task requests.",
+  "help": {
+    "ariaLabel": "About Bids",
+    "title": "About Bids",
+    "overview": "A bid is a provider's quote on a task request: amount, delivery days, and a written proposal. The requester accepts one bid, which awards the task and opens an order.",
+    "sections": [
+      {
+        "title": "Placing a bid",
+        "items": [
+          "The task request must be open and not expired, and must belong to someone else.",
+          "One live bid per bidder and request. The bidder and the currency are set by the server, from the caller and the request.",
+          "Bids are not edited after placing; withdraw and bid again instead."
+        ]
+      },
+      {
+        "title": "Statuses and actions",
+        "body": "Only a pending bid can be accepted or rejected.",
+        "items": [
+          "Accept (requester only): this bid becomes accepted, every other pending bid on the request is rejected, the request becomes awarded, and a pending order is opened with the bid amount and a due date from its delivery days. Bidders are notified.",
+          "Reject: the requester declines it, or the bidder withdraws it. Only a declined bidder is notified."
+        ]
+      },
+      {
+        "title": "Who sees what",
+        "body": "Bids are private to the bidder and the requester.",
+        "items": [
+          "A non-administrator sees their own bids and the bids on their own requests, never a competitor's.",
+          "The bidder, or an administrator, can delete a bid while it is still pending."
+        ]
+      }
+    ]
+  },
+  "createBid": "Create bid",
+  "fields": {
+    "amount": "Amount",
+    "currency": "Currency",
+    "proposal": "Proposal",
+    "deliveryDays": "Delivery days",
+    "status": "Status",
+    "bidder": "Bidder",
+    "taskRequest": "Task Request",
+    "createdAt": "Created",
+    "!enums": {
+      "status": {
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "rejected": "Rejected"
+      }
+    }
+  },
+  "searchPlaceholder": "Search or add filters...",
+  "status": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "rejected": "Rejected"
+  },
+  "accept": "Accept",
+  "reject": "Reject / Withdraw"
+}

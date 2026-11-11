@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/components/custom/promotions/changePromotionLifecycleAction.tsx",
+  "cancel": "Anulo",
+  "pause": {
+    "title": "Pauzo promovimin",
+    "description": "Jeni të sigurt që doni të pauzoni promovimin",
+    "confirm": "Pauzo",
+    "axios": {
+      "start": { "title": "Duke pauzuar promovimin", "time": 3000 },
+      "success": { "title": "Promovimi u pauzua me sukses", "time": 3000 },
+      "error": { "title": "Nuk mund të pauzohet promovimi, provoni përsëri", "time": 3000 }
+    }
+  },
+  "resume": {
+    "title": "Rifillo promovimin",
+    "description": "Jeni të sigurt që doni të rifilloni promovimin",
+    "confirm": "Rifillo",
+    "axios": {
+      "start": { "title": "Duke rifilluar promovimin", "time": 3000 },
+      "success": { "title": "Promovimi u rifillua me sukses", "time": 3000 },
+      "error": { "title": "Nuk mund të rifillohet promovimi, provoni përsëri", "time": 3000 }
+    }
+  },
+  "stop": {
+    "title": "Ndalo promovimin përgjithmonë",
+    "description": "Ky veprim nuk kthehet mbrapsht. Promovimi mbetet në regjistër me arsyen që jepni",
+    "confirm": "Ndalo përgjithmonë",
+    "reasonLabel": "Arsyeja e ndalimit",
+    "reasonPlaceholder": "p.sh. Fundi i kampanjës, ndryshim buxheti…",
+    "reasonHint": "E detyrueshme për auditimin. 1–2000 karaktere.",
+    "axios": {
+      "start": { "title": "Duke ndalur promovimin", "time": 3000 },
+      "success": { "title": "Promovimi u ndal me sukses", "time": 3000 },
+      "error": { "title": "Nuk mund të ndalet promovimi, provoni përsëri", "time": 3000 }
+    }
+  }
+}

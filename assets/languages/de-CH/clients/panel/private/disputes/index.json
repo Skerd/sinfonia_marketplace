@@ -1,0 +1,61 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
+  "title": "Streitfälle",
+  "description": "Streitfälle zwischen Kunden und Anbietern prüfen und entscheiden.",
+  "help": {
+    "ariaLabel": "Über Streitfälle",
+    "title": "Über Streitfälle",
+    "overview": "Ein Streitfall ist eine Uneinigkeit über einen Marktplatz-Auftrag, die ein Administrator entscheidet. Solange er offen ist, ist das Geld des Auftrags eingefroren: keine Lieferabnahme, keine Meilenstein-Freigabe, keine automatische Abnahme und keine Stornierung. Der Entscheid legt fest, wer erhält, was noch gehalten wird.",
+    "sections": [
+      {
+        "title": "Einen Streitfall eröffnen",
+        "items": [
+          "Jede Partei des Auftrags kann einen eröffnen, bei einem Auftrag, der weder abgeschlossen noch storniert ist. Ein Streitfall pro Auftrag.",
+          "Der Aufrufer ist der Initiant; die andere Partei wird benachrichtigt.",
+          "Kunden können auch aus ihrem Shop-Konto einen eröffnen."
+        ]
+      },
+      {
+        "title": "Status und Entscheide",
+        "body": "Nur ein Administrator entscheidet, und eine Begründung ist Pflicht.",
+        "items": [
+          "Offen: eröffnet und wartend. Prüfung starten setzt ihn auf in Prüfung.",
+          "Lösen (aus offen oder in Prüfung) entscheidet für den Anbieter: Eine wartende Lieferung wird abgenommen, der Auftrag abgeschlossen und der Rest des Treuhandbetrags an den Anbieter freigegeben.",
+          "Schliessen (aus offen oder in Prüfung) entscheidet für den Kunden: Der Auftrag wird storniert und der Rest des Treuhandbetrags erstattet.",
+          "Beide Parteien werden über den Ausgang benachrichtigt."
+        ]
+      },
+      {
+        "title": "Löschen",
+        "items": [
+          "Nur ein Administrator kann einen Streitfall löschen, weil ein offener die Auszahlung blockiert. Auf einen gelöschten Streitfall kann nicht reagiert werden, bis er wiederhergestellt ist."
+        ]
+      }
+    ]
+  },
+  "createDispute": "Streitfall erstellen",
+  "fields": {
+    "status": "Status",
+    "reason": "Grund",
+    "resolution": "Lösung",
+    "initiator": "Initiator",
+    "createdAt": "Eröffnet",
+    "deletedAt": "Gelöscht",
+    "deletedBy": "Gelöscht von",
+    "!enums": {
+      "status": {
+        "open": "Offen",
+        "under_review": "In Prüfung",
+        "resolved": "Erledigt",
+        "closed": "Geschlossen"
+      }
+    }
+  },
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "status": {
+    "open": "Offen",
+    "under_review": "In Prüfung",
+    "resolved": "Erledigt",
+    "closed": "Geschlossen"
+  }
+}

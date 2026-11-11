@@ -1,0 +1,15 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/shared/shopListingCard.tsx",
+  "noImage": "No image",
+  "fromPrice": "From {price}",
+  "perHour": "{price}/hr",
+  "priceOnRequest": "Price on request",
+  "rating": "Rated {average} out of 5 from {count} reviews",
+  "deliveryDay": "{days} day",
+  "deliveryDays": "{days} days",
+  "promotion": {
+    "featured": "Featured",
+    "sponsored": "Sponsored"
+  },
+  "soldBy": "Sold by {name}"
+}

@@ -1,0 +1,55 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/index.tsx",
+  "title": "Prenotazioni",
+  "description": "Gestisci le prenotazioni dei servizi programmati.",
+  "help": {
+    "ariaLabel": "Informazioni sulle prenotazioni",
+    "title": "Informazioni sulle prenotazioni",
+    "overview": "Una prenotazione mette un ordine del marketplace in calendario: un orario di inizio e di fine, con il fuso orario concordato. Usala quando il lavoro avviene su appuntamento, non solo entro una scadenza.",
+    "sections": [
+      {
+        "title": "Creare",
+        "items": [
+          "Ciascuna parte dell’ordine può prenotare, finché l’ordine è accettato o in corso.",
+          "Una prenotazione per ordine. Il fornitore viene preso dall’ordine.",
+          "La fine deve essere dopo l’inizio."
+        ]
+      },
+      {
+        "title": "Modificare",
+        "items": [
+          "Solo il fornitore, o un amministratore, ripianifica.",
+          "L’eliminazione è logica e la prenotazione può essere ripristinata.",
+          "I non amministratori vedono solo le prenotazioni dei propri ordini."
+        ]
+      }
+    ]
+  },
+  "createBooking": "Crea prenotazione",
+  "fields": {
+    "order": "Ordine",
+    "provider": "Fornitore",
+    "startAt": "Inizio",
+    "endAt": "Fine",
+    "timezone": "Fuso orario",
+    "status": "Stato",
+    "createdAt": "Creato",
+    "deletedAt": "Eliminato",
+    "deletedBy": "Eliminato da",
+    "when": "Quando",
+    "!enums": {
+      "when": {
+        "upcoming": "In arrivo",
+        "today": "Oggi",
+        "past": "Passate"
+      }
+    }
+  },
+  "searchPlaceholder": "Cerca o aggiungi filtri...",
+  "status": {
+    "scheduled": "Pianificata",
+    "in_progress": "In corso",
+    "completed": "Completata",
+    "cancelled": "Annullata"
+  }
+}

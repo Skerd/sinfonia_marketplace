@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/editListingFlag.tsx",
+  "editTitle": "Ndrysho raportimin e listimit",
+  "editDescription": "Përditëso arsyen dhe detajet e këtij raportimi.",
+  "errorTitle": "Nuk u ngarkua raportimi",
+  "errorDescription": "Kontrollo lidhjen ose kthehu te lista dhe provo përsëri.",
+  "formHeader": {
+    "title": "Ndrysho raportimin e listimit",
+    "description": "Përditëso arsyen dhe detajet shtesë. Listimi nuk mund të ndryshohet."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Ruaj ndryshimet"
+  },
+  "form": {
+    "reasonLabel": "Arsyeja",
+    "reasonPlaceholder": "Zgjidh arsyen",
+    "commentLabel": "Detaje shtesë",
+    "commentPlaceholder": "Detaje opsionale...",
+    "reason_values": {
+      "inappropriate": "Përmbajtje e papërshtatshme",
+      "spam": "Spam",
+      "misleading": "Mashtruese",
+      "other": "Tjetër"
+    },
+    "reportSectionTitle": "Raportimi"
+  },
+  "axios": {
+    "start": {
+      "title": "Duke ruajtur raportimin",
+      "time": 3000
+    },
+    "success": {
+      "title": "Raportimi u përditësua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Nuk u përditësua raportimi",
+      "time": 3000
+    }
+  }
+}

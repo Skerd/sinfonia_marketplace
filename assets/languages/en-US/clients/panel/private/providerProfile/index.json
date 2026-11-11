@@ -1,0 +1,48 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/index.tsx",
+  "title": "Provider profiles",
+  "description": "Every provider profile in the company.",
+  "help": {
+    "ariaLabel": "About Provider profiles",
+    "title": "About Provider profiles",
+    "overview": "A provider profile is a user's seller record on the marketplace: bio, skills, portfolio, weekly availability, reputation, and the Stripe Connect account that receives payouts. Each user has at most one live profile.",
+    "sections": [
+      {
+        "title": "Profile fields",
+        "items": [
+          "Bio, skills, and portfolio describe the provider on the storefront.",
+          "Availability is a list of weekly slots: day of week, start time, and end time.",
+          "Reputation is computed, not typed: the average rating of reviews on all their orders, and the share of finished orders that completed rather than being cancelled."
+        ]
+      },
+      {
+        "title": "Where profiles are edited",
+        "items": [
+          "This page lists every provider profile in the company; a new one asks which user it belongs to.",
+          "Each user also edits their own under Settings → Provider profile, where it opens straight as a form."
+        ]
+      },
+      {
+        "title": "Payouts with Stripe Connect",
+        "body": "Payouts need the payment gateway and the Connect return and refresh addresses configured.",
+        "items": [
+          "Create account link starts or resumes Stripe Express onboarding for the signed-in user's own profile and returns the page to open.",
+          "Refresh account status pulls the charges-enabled, payouts-enabled, and details-submitted flags from Stripe onto the profile.",
+          "When an order's escrow is released, the provider's share is transferred to this account if one exists.",
+          "Deleting a profile is a soft delete and it can be restored; a deleted profile is not used for Connect."
+        ]
+      }
+    ]
+  },
+  "createProviderProfile": "Create provider profile",
+  "fields": {
+    "provider": "Provider",
+    "bio": "Bio",
+    "skills": "Skills",
+    "rating": "Rating",
+    "createdAt": "Created",
+    "deletedAt": "Deleted",
+    "deletedBy": "Deleted by"
+  },
+  "searchPlaceholder": "Search or add filters..."
+}

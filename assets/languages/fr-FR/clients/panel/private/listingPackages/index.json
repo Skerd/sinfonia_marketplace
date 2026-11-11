@@ -1,0 +1,47 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/index.tsx",
+  "title": "Packages d'annonce",
+  "description": "Gérez les packages de services proposés par les prestataires pour leurs annonces.",
+  "help": {
+    "ariaLabel": "À propos des packages d'annonce",
+    "title": "À propos des packages d'annonce",
+    "overview": "Un package est un palier tarifaire d’une annonce, comme Basique, Standard ou Premium. Quand un acheteur commande avec un package, le prix et les jours de livraison du package remplacent ceux de base de l’annonce.",
+    "sections": [
+      {
+        "title": "Champs",
+        "items": [
+          "L’annonce est obligatoire et figée ; seul le prestataire de cette annonce peut créer ou supprimer ses packages.",
+          "Nom et description décrivent le palier. L’ordre d’affichage trie les packages sur l’annonce, les plus petits d’abord.",
+          "Montant et devise du prix sont ce que la commande facture. Les jours de livraison deviennent la fenêtre d’échéance de la commande."
+        ]
+      },
+      {
+        "title": "Commander avec un package",
+        "items": [
+          "Les modules choisis avec le package doivent utiliser la devise du package ; leurs jours supplémentaires s’ajoutent.",
+          "Une annonce n’a pas besoin de packages ; sans package, son propre prix est utilisé.",
+          "La suppression est douce. Un package ne peut pas être restauré tant que son annonce est supprimée."
+        ]
+      }
+    ]
+  },
+  "createListingPackage": "Créer un package d'annonce",
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "fields": {
+    "name": "Nom",
+    "listing": "Annonce",
+    "description": "Description",
+    "price": {
+      "amount": "Prix",
+      "currency": "Devise"
+    },
+    "deliveryDays": "Jours de livraison",
+    "order": "Ordre d'affichage",
+    "company": "Entreprise",
+    "createdBy": "Créé par",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "deletedAt": "Supprimé le",
+    "deletedBy": "Supprimé par"
+  }
+}

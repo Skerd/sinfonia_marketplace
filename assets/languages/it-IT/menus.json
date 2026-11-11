@@ -1,0 +1,63 @@
+{
+  "marketplace": {
+    "title": "Marketplace",
+    "listings": {
+      "title": "Annunci"
+    },
+    "taskrequests": {
+      "title": "Richieste di preventivo"
+    },
+    "orders": {
+      "title": "Ordini"
+    },
+    "bids": {
+      "title": "Offerte"
+    },
+    "bookings": {
+      "title": "Prenotazioni"
+    },
+    "disputes": {
+      "title": "Controversie"
+    },
+    "reviews": {
+      "title": "Recensioni"
+    },
+    "promotions": {
+      "title": "Promozioni"
+    },
+    "listingflags": {
+      "title": "Segnalazioni degli annunci"
+    },
+    "listingaddons": {
+      "title": "Componenti aggiuntivi degli annunci"
+    },
+    "listingpackages": {
+      "title": "Pacchetti degli annunci"
+    },
+    "marketplacesystemmap": {
+      "title": "Mappa di sistema"
+    },
+    "listingcategories": {
+      "title": "Categorie di annunci"
+    },
+    "providerprofile": {
+      "title": "Profilo fornitore"
+    }
+  },
+  "tenancy": {
+    "systemSettings": {
+      "marketplace": {
+        "title": "Marketplace"
+      },
+      "marketplacesettings": {
+        "title": "Impostazioni del marketplace"
+      },
+      "listingcategories": {
+        "title": "Categorie di annunci"
+      },
+      "providerprofile": {
+        "title": "Profili dei fornitori"
+      }
+    }
+  }
+}

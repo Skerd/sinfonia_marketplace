@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/requestRevisionAction.tsx",
+  "requestRevision": {
+    "title": "Kërkoni rishikim",
+    "description": "Përshkruani çfarë duhet ndryshuar. Ofruesi do të punojë dhe ridërgojë dorëzimin.",
+    "reasonLabel": "Arsyeja e rishikimit",
+    "reasonPlaceholder": "Shpjegoni çfarë duhet rishikuar dhe pse…",
+    "minChars": "Kërkohen minimumi 10 karaktere.",
+    "confirm": "Kërko rishikim",
+    "axios": {
+      "start": { "title": "Duke kërkuar rishikim", "time": 3000 },
+      "success": { "title": "Rishikimi u kërkua me sukses", "time": 3000 },
+      "error": { "title": "Rishikimi nuk u kërkua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancel": "Anulo"
+}

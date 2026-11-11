@@ -1,0 +1,48 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/index.tsx",
+  "title": "Avis",
+  "description": "Consultez les notes et les avis laissés par les clients.",
+  "help": {
+    "ariaLabel": "À propos des avis",
+    "title": "À propos des avis",
+    "overview": "Un avis de la place de marché est la note et le commentaire du client sur une commande terminée. Il appartient à la commande et à son annonce, et alimente la note moyenne et le nombre d’avis de l’annonce ainsi que la réputation du prestataire.",
+    "sections": [
+      {
+        "title": "Qui peut évaluer",
+        "items": [
+          "Seul le client de la commande, seulement une fois la commande terminée, et une seule fois par commande.",
+          "Annonce et auteur sont fixés par le serveur à partir de la commande et de l’appelant.",
+          "Les clients peuvent aussi évaluer depuis leur compte boutique, qui propose les commandes terminées sans avis."
+        ]
+      },
+      {
+        "title": "Ce qu’il change",
+        "items": [
+          "La note moyenne et le nombre d’avis de l’annonce sont recalculés depuis ses avis actifs.",
+          "Le profil du prestataire affiche la note moyenne sur toutes ses commandes, issues d’annonces comme de demandes de tâches."
+        ]
+      },
+      {
+        "title": "Modération",
+        "items": [
+          "Les avis ne sont pas modifiés après leur rédaction.",
+          "Seul un administrateur peut supprimer un avis ; la suppression est douce et restaurer rétablit la note."
+        ]
+      }
+    ]
+  },
+  "createReview": "Créer un avis",
+  "fields": {
+    "rating": "Note",
+    "comment": "Commentaire",
+    "reviewer": "Auteur de l'avis",
+    "order": "Commande",
+    "listing": "Annonce",
+    "listingId": "Annonce",
+    "orderId": "Commande",
+    "createdAt": "Créé",
+    "deletedAt": "Supprimé",
+    "deletedBy": "Supprimé par"
+  },
+  "searchPlaceholder": "Rechercher ou ajouter des filtres..."
+}

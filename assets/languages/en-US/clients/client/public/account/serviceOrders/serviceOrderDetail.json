@@ -1,0 +1,85 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderDetail.tsx",
+  "loading": "Loading order",
+  "notFound": "Order not found",
+  "backToOrders": "Back to service orders",
+  "placedTitle": "Your order is in",
+  "placedMessage": "The provider has been notified and will confirm shortly. You'll get updates here and by notification.",
+  "placedOn": "Placed {date}",
+  "disputeOpen": "Dispute open",
+  "cancelledBanner": "This order was cancelled. Anything held for it has been refunded.",
+  "progressLabel": "Order progress",
+  "steps": {
+    "pending": "Ordered",
+    "accepted": "Accepted",
+    "in_progress": "In progress",
+    "completed": "Completed"
+  },
+  "deliveryReadyTitle": "Your delivery is ready",
+  "deliveryReadyMessage": "Check the work below. Accept it to complete the order and release payment, or ask for changes.",
+  "acceptDelivery": "Accept delivery",
+  "requestRevision": "Request changes",
+  "panel": {
+    "cancel": {
+      "title": "Cancel this order?",
+      "message": "The provider hasn't started yet, so you can cancel without a dispute. Anything held is refunded.",
+      "submit": "Yes, cancel order"
+    },
+    "revision": {
+      "title": "Request changes",
+      "message": "Tell the provider what to change. They'll send a new delivery.",
+      "field": "What should change? (at least 10 characters)",
+      "submit": "Send request"
+    },
+    "dispute": {
+      "title": "Report a problem",
+      "message": "Our team reviews the order with you and the provider. Payment stays on hold until it's resolved.",
+      "field": "What went wrong?",
+      "submit": "Open dispute"
+    },
+    "review": {
+      "title": "Rate this service",
+      "message": "Your review helps other customers choose.",
+      "field": "Your review (optional)",
+      "submit": "Post review"
+    }
+  },
+  "ratingLabel": "Rating",
+  "starsOption": "{count} stars",
+  "working": "Working…",
+  "back": "Back",
+  "noteTitle": "Your message to the provider",
+  "deliveriesTitle": "Deliveries",
+  "noDeliveries": "Nothing delivered yet. Files and messages from the provider appear here.",
+  "attachment": "Attachment",
+  "downloadError": "The file couldn't be downloaded.",
+  "revisionsTitle": "Change requests",
+  "revisionStatus": {
+    "pending": "Open",
+    "completed": "Done"
+  },
+  "milestonesTitle": "Milestones",
+  "releaseMilestone": "Release payment",
+  "bookingsTitle": "Scheduled sessions",
+  "provider": "Provider",
+  "dueDate": "Due date",
+  "total": "Total",
+  "viewService": "View the service",
+  "leaveReview": "Leave a review",
+  "bookSession": "Book a session",
+  "reportProblem": "Report a problem",
+  "cancelOrder": "Cancel order",
+  "reviewedNote": "Thanks — you reviewed this order.",
+  "actionError": "That didn't work. Please try again.",
+  "deliveryAccepted": "Delivery accepted. The order is complete.",
+  "revisionSent": "Change request sent",
+  "disputeOpened": "Dispute opened. We'll be in touch.",
+  "reviewThanks": "Thanks for your review!",
+  "cancelled": "Order cancelled",
+  "milestoneReleased": "Milestone payment released",
+  "payEscrowTitle": "Pay for this order",
+  "payEscrowHint": "Your provider accepted the order. Complete payment to fund escrow.",
+  "payEscrowButton": "Pay now",
+  "payEscrowSuccess": "Payment submitted",
+  "payEscrowError": "Payment failed"
+}

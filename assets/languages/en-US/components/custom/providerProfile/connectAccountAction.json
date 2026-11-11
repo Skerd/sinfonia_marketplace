@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/components/custom/providerProfile/connectAccountAction.tsx",
+  "cancel": "Cancel",
+  "createAccountLink": {
+    "title": "Connect Stripe payouts",
+    "description": "You will be redirected to Stripe to set up (or continue) Express payouts for this provider profile. Escrow releases can only pay you after onboarding is complete.",
+    "confirm": "Open Stripe",
+    "axios": {
+      "start": {
+        "title": "Creating Stripe link…"
+      },
+      "success": {
+        "title": "Stripe onboarding link ready"
+      },
+      "error": {
+        "title": "Could not create Stripe onboarding link"
+      }
+    }
+  },
+  "refreshAccountStatus": {
+    "title": "Refresh Stripe status",
+    "description": "Pull the latest Connect account status from Stripe and update charges/payouts eligibility on this profile.",
+    "confirm": "Refresh status",
+    "axios": {
+      "start": {
+        "title": "Refreshing Stripe status…"
+      },
+      "success": {
+        "title": "Stripe status updated"
+      },
+      "error": {
+        "title": "Could not refresh Stripe status"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/submitOrderDeliveryAction.tsx",
+  "submitDelivery": {
+    "title": "Soumettre la livraison",
+    "description": "Envoyez votre travail terminé au client pour examen. Vous pouvez inclure un message facultatif.",
+    "messageLabel": "Message de livraison",
+    "messagePlaceholder": "Décrivez ce qui a été livré ou ajoutez des notes pour le client…",
+    "confirm": "Soumettre la livraison",
+    "attachmentsLabel": "Fichiers",
+    "addFile": "Ajouter un fichier",
+    "axios": {
+      "start": {
+        "title": "Soumission de la livraison",
+        "time": 3000
+      },
+      "success": {
+        "title": "Livraison soumise avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de soumettre la livraison, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

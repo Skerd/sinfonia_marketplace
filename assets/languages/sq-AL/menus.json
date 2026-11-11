@@ -1,0 +1,63 @@
+{
+  "marketplace": {
+    "title": "Tregu",
+    "listings": {
+      "title": "Listimet"
+    },
+    "taskrequests": {
+      "title": "Kërkesat për ofertë"
+    },
+    "orders": {
+      "title": "Porositë"
+    },
+    "bids": {
+      "title": "Ofertat"
+    },
+    "bookings": {
+      "title": "Rezervimet"
+    },
+    "disputes": {
+      "title": "Mosmarrëveshjet"
+    },
+    "reviews": {
+      "title": "Vlerësimet"
+    },
+    "promotions": {
+      "title": "Promovimet"
+    },
+    "listingflags": {
+      "title": "Raportimet e listimeve"
+    },
+    "listingaddons": {
+      "title": "Shtesat e listimeve"
+    },
+    "listingpackages": {
+      "title": "Paketat e listimeve"
+    },
+    "marketplacesystemmap": {
+      "title": "Harta e sistemit"
+    },
+    "listingcategories": {
+      "title": "Kategoritë e listimeve"
+    },
+    "providerprofile": {
+      "title": "Profili i ofruesit"
+    }
+  },
+  "tenancy": {
+    "systemSettings": {
+      "marketplace": {
+        "title": "Tregu"
+      },
+      "marketplacesettings": {
+        "title": "Cilësimet e tregut"
+      },
+      "listingcategories": {
+        "title": "Kategoritë e listimeve"
+      },
+      "providerprofile": {
+        "title": "Profilet e ofruesve"
+      }
+    }
+  }
+}

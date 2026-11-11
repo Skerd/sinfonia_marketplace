@@ -1,0 +1,39 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/createListingAddOn.tsx",
+  "formHeader": {
+    "title": "Inserat-Zusatzleistung erstellen",
+    "description": "Fügen Sie eine optionale Leistung oder ein Upgrade hinzu, das Kunden zusätzlich zu einem Inserat kaufen können."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Inserat-Zusatzleistung erstellen"
+  },
+  "form": {
+    "listingIdLabel": "Inserat",
+    "listingIdPlaceholder": "Inserat auswählen",
+    "nameLabel": "Name der Zusatzleistung",
+    "namePlaceholder": "z. B. Expresslieferung",
+    "priceAmountLabel": "Preis",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Währung",
+    "currencyPlaceholder": "Währung des Inserats, wenn leer",
+    "deliveryDaysLabel": "Liefertage",
+    "deliveryDaysPlaceholder": "z. B. 2",
+    "basicsSectionTitle": "Grunddaten",
+    "pricingSectionTitle": "Preise"
+  },
+  "axios": {
+    "start": {
+      "title": "Zusatzleistung wird erstellt",
+      "time": 3000
+    },
+    "success": {
+      "title": "Zusatzleistung erstellt",
+      "time": 3000
+    },
+    "error": {
+      "title": "Zusatzleistung konnte nicht erstellt werden",
+      "time": 3000
+    }
+  }
+}

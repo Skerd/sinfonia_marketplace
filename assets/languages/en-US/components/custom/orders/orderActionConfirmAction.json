@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
+  "accept": {
+    "title": "Accept this order?",
+    "description": "The order will be marked accepted and funds will be held in escrow.",
+    "confirm": "Accept order",
+    "axios": {
+      "start": { "title": "Accepting order", "time": 3000 },
+      "success": { "title": "Order accepted successfully", "time": 3000 },
+      "error": { "title": "Could not accept order, please try again", "time": 3000 }
+    }
+  },
+  "start": {
+    "title": "Start this order?",
+    "description": "The order will move to in progress. Only the provider can start an accepted order.",
+    "confirm": "Start order",
+    "axios": {
+      "start": { "title": "Starting order", "time": 3000 },
+      "success": { "title": "Order started successfully", "time": 3000 },
+      "error": { "title": "Could not start order, please try again", "time": 3000 }
+    }
+  },
+  "cancelOrder": {
+    "title": "Cancel this order?",
+    "description": "The order will be marked cancelled. Escrow funds may be refunded if already held.",
+    "confirm": "Cancel order",
+    "axios": {
+      "start": { "title": "Cancelling order", "time": 3000 },
+      "success": { "title": "Order cancelled successfully", "time": 3000 },
+      "error": { "title": "Could not cancel order, please try again", "time": 3000 }
+    }
+  },
+  "acceptDelivery": {
+    "title": "Accept delivery and complete order?",
+    "description": "The provider's delivery will be accepted, escrow funds released, and the order marked completed.",
+    "confirm": "Complete order",
+    "axios": {
+      "start": { "title": "Completing order", "time": 3000 },
+      "success": { "title": "Order completed successfully", "time": 3000 },
+      "error": { "title": "Could not complete order, please try again", "time": 3000 }
+    }
+  },
+  "cancel": "Cancel"
+}

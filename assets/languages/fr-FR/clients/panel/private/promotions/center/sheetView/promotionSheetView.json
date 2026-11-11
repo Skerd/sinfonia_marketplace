@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/center/sheetView/promotionSheetView.tsx",
+  "failedTitle": "Échec du chargement de la promotion",
+  "failedDescription": "Une erreur s'est produite lors du chargement de cette promotion. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "overview": "Vue d'ensemble",
+  "lifecycle": "Cycle de vie",
+  "promotion": "Promotion",
+  "name": "Nom",
+  "listing": "Annonce",
+  "type": "Type",
+  "lifecycleStatus": "Statut du cycle de vie",
+  "startAt": "Date de début",
+  "endAt": "Date de fin",
+  "createdAt": "Créé le",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par",
+  "stopReasonSection": "Motif de l'arrêt",
+  "stopReason": "Motif",
+  "type_values": {
+    "featured": "Mis en avant",
+    "sponsored": "Sponsorisé"
+  },
+  "lifecycleStatuses": {
+    "active": "Actif",
+    "paused": "En pause",
+    "stopped": "Arrêté"
+  },
+  "listingStatus": {
+    "draft": "Brouillon",
+    "active": "Actif",
+    "inactive": "Inactif"
+  }
+}

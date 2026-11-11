@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/center/sheetView/reviewSheetView.tsx",
+  "review": "Avis",
+  "eCommerce": {
+    "review": "Avis"
+  },
+  "overview": "Vue d'ensemble",
+  "details": "Détails",
+  "order": "Commande",
+  "reviewer": "Auteur de l'avis",
+  "rating": "Note",
+  "comment": "Commentaire",
+  "listing": "Annonce",
+  "listing.title": "Annonce",
+  "createdAt": "Créé",
+  "failedTitle": "Échec du chargement de l'avis",
+  "failedDescription": "Une erreur s'est produite lors du chargement de cet avis. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "lifecycle": "Cycle de vie",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par"
+}

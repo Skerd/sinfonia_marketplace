@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/cardView/listingFlagCard.tsx",
+  "failedTitle": "Failed to load listing report",
+  "failedDescription": "Tap to retry.",
+  "listing": "Listing",
+  "reason": "Reason",
+  "reporter": "Reporter",
+  "status": "Status",
+  "status_values": {
+    "pending": "Pending",
+    "reviewed": "Reviewed",
+    "dismissed": "Dismissed"
+  },
+  "reason_values": {
+    "inappropriate": "Inappropriate content",
+    "spam": "Spam",
+    "misleading": "Misleading",
+    "other": "Other"
+  },
+  "reportedAt": "Reported on"
+}

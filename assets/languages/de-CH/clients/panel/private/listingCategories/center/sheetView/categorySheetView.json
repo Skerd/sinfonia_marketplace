@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/center/sheetView/categorySheetView.tsx",
+  "failedTitle": "Inseratkategorie konnte nicht geladen werden",
+  "failedDescription": "Die Kategorie konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "categorySubtitle": "Kategorie",
+  "listingCategorySubtitle": "Inseratkategorie",
+  "name": "Name",
+  "overview": "Übersicht",
+  "lifecycle": "Lebenszyklus",
+  "slug": "Slug",
+  "order": "Auftrag",
+  "parentListingCategory": "Übergeordnete Kategorie",
+  "createdAt": "Erstellt am",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von"
+}

@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/changeListingStatusAction.tsx",
+  "activate": {
+    "title": "Activate listing",
+    "description": "Are you sure you want to activate",
+    "confirm": "Activate",
+    "axios": {
+      "start": { "title": "Activating listing", "time": 3000 },
+      "success": { "title": "Listing activated successfully", "time": 3000 },
+      "error": { "title": "Could not activate listing, please try again", "time": 3000 }
+    }
+  },
+  "deactivate": {
+    "title": "Deactivate listing",
+    "description": "Are you sure you want to deactivate",
+    "confirm": "Deactivate",
+    "axios": {
+      "start": { "title": "Deactivating listing", "time": 3000 },
+      "success": { "title": "Listing deactivated successfully", "time": 3000 },
+      "error": { "title": "Could not deactivate listing, please try again", "time": 3000 }
+    }
+  },
+  "cancel": "Cancel"
+}

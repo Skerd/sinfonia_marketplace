@@ -1,0 +1,31 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/center/sheetView/bidSheetView.tsx",
+  "bid": "Bid",
+  "name": "Name",
+  "overview": "Overview",
+  "amount": "Amount",
+  "currency": "Currency",
+  "deliveryDays": "Delivery time",
+  "proposal": "Proposal",
+  "status": "Status",
+  "bidder": "Bidder",
+  "taskRequest": "Task request",
+  "failedTitle": "Failed to load bid",
+  "failedDescription": "Something went wrong while loading this bid. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "bidStatus": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "rejected": "Rejected"
+  },
+  "lifecycle": "Lifecycle",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "deliveryDaysValue": {
+    "one": "{value} day",
+    "other": "{value} days"
+  }
+}

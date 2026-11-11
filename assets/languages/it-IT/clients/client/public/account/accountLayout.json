@@ -1,0 +1,7 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/accountLayout.tsx",
+  "navLabel": "Account",
+  "navAccount": "← Il mio account",
+  "navServiceOrders": "Ordini di servizi",
+  "navJobs": "I miei lavori"
+}

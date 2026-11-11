@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/cardView/orderCard.tsx",
+  "failedTitle": "Dështoi ngarkimi i porosisë",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "listing": "Listimi",
+  "provider": "Ofruesi",
+  "amount": "Shuma",
+  "dueDate": "Afati",
+  "status": "Statusi",
+  "total": "Totali",
+  "statuses": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "in_progress": "Në progres",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar"
+  },
+  "customer": "Klienti"
+}

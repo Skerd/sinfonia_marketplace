@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/jobs/index.tsx",
+  "title": "My jobs",
+  "lead": "Describe what you need and providers send you offers.",
+  "postJob": "Post a job",
+  "loading": "Loading jobs",
+  "emptyTitle": "No jobs posted",
+  "emptyMessage": "Post a job with your budget and location, and compare the offers providers send.",
+  "expiresOn": "Open until {date}",
+  "bidCount": "{count} offers",
+  "bidCountOne": "1 offer",
+  "pagination": "Pages",
+  "previousPage": "Previous page",
+  "nextPage": "Next page",
+  "pageOf": "Page {page} of {total}"
+}

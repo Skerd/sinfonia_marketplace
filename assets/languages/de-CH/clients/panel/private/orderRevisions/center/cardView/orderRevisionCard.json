@@ -1,0 +1,13 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderRevisions/center/cardView/orderRevisionCard.tsx",
+  "failedTitle": "Laden fehlgeschlagen",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "orderRevisionStatus": {
+    "pending": "Ausstehend",
+    "completed": "Beantwortet"
+  },
+  "status": "Status",
+  "reason": "Grund",
+  "requestedBy": "Angefordert von",
+  "revision": "Überarbeitungsanfrage"
+}

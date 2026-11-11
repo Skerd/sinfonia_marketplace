@@ -1,0 +1,80 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
+  "accept": {
+    "title": "Diesen Auftrag annehmen?",
+    "description": "Der Auftrag wird als angenommen markiert und das Geld treuhänderisch gehalten.",
+    "confirm": "Auftrag annehmen",
+    "axios": {
+      "start": {
+        "title": "Auftrag wird angenommen",
+        "time": 3000
+      },
+      "success": {
+        "title": "Auftrag erfolgreich angenommen",
+        "time": 3000
+      },
+      "error": {
+        "title": "Auftrag konnte nicht angenommen werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "start": {
+    "title": "Diesen Auftrag starten?",
+    "description": "Der Auftrag wechselt zu «In Bearbeitung». Nur der Anbieter kann einen angenommenen Auftrag starten.",
+    "confirm": "Auftrag starten",
+    "axios": {
+      "start": {
+        "title": "Auftrag wird gestartet",
+        "time": 3000
+      },
+      "success": {
+        "title": "Auftrag erfolgreich gestartet",
+        "time": 3000
+      },
+      "error": {
+        "title": "Auftrag konnte nicht gestartet werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancelOrder": {
+    "title": "Diesen Auftrag stornieren?",
+    "description": "Der Auftrag wird als storniert markiert. Bereits treuhänderisch gehaltenes Geld kann erstattet werden.",
+    "confirm": "Auftrag stornieren",
+    "axios": {
+      "start": {
+        "title": "Auftrag wird storniert",
+        "time": 3000
+      },
+      "success": {
+        "title": "Auftrag erfolgreich storniert",
+        "time": 3000
+      },
+      "error": {
+        "title": "Auftrag konnte nicht storniert werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "acceptDelivery": {
+    "title": "Lieferung annehmen und Auftrag abschliessen?",
+    "description": "Die Lieferung des Anbieters wird angenommen, das Treuhandgeld freigegeben und der Auftrag als abgeschlossen markiert.",
+    "confirm": "Auftrag abschliessen",
+    "axios": {
+      "start": {
+        "title": "Auftrag wird abgeschlossen",
+        "time": 3000
+      },
+      "success": {
+        "title": "Auftrag erfolgreich abgeschlossen",
+        "time": 3000
+      },
+      "error": {
+        "title": "Auftrag konnte nicht abgeschlossen werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

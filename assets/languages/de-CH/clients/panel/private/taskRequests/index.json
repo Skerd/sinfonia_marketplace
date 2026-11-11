@@ -1,0 +1,75 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/index.tsx",
+  "title": "Ausschreibungen",
+  "description": "Käuferanfragen für Offerten, Auftragsarbeiten oder Beschaffung veröffentlichen und verwalten.",
+  "help": {
+    "ariaLabel": "Über Ausschreibungen",
+    "title": "Über Ausschreibungen",
+    "overview": "Eine Ausschreibung ist die Anfrage eines Käufers, der Anbieter um Offerten bittet: was er braucht, in welcher Kategorie und an welchem Ort, mit welchem Budget. Sie ist 30 Tage für Offerten offen. Das Annehmen einer Offerte vergibt sie und eröffnet einen Auftrag.",
+    "sections": [
+      {
+        "title": "Felder",
+        "items": [
+          "Titel, Kategorie, Budget-Minimum und -Maximum, Währung, Adresse und Hauptbild sind Pflicht; Beschreibung und Galerien sind optional.",
+          "Auftraggeber ist, wer sie veröffentlicht. Kategorie und Ort bestimmen, welche Anbieter informiert werden."
+        ]
+      },
+      {
+        "title": "Status",
+        "items": [
+          "Offen: nimmt Offerten an, bis sie abläuft.",
+          "Geschlossen: nimmt keine Offerten mehr an, nach Wahl des Auftraggebers oder weil 30 Tage vergangen sind. Ein stündlicher Job schliesst abgelaufene Ausschreibungen.",
+          "Vergeben: Eine Offerte wurde angenommen; der Status kann sich nicht mehr ändern."
+        ]
+      },
+      {
+        "title": "Aktionen",
+        "body": "Nur der Auftraggeber oder ein Administrator kann den Status ändern.",
+        "items": [
+          "Schliessen: aus offen. Alle mit einer ausstehenden Offerte werden benachrichtigt.",
+          "Wieder öffnen: aus geschlossen. Es startet das 30-Tage-Fenster neu, damit eine abgelaufene Ausschreibung nicht sofort wieder geschlossen wird.",
+          "Alle benachrichtigen: informiert erneut jeden Anbieter mit einem aktiven Inserat in derselben Kategorie und am selben Ort."
+        ]
+      },
+      {
+        "title": "Offerten und Vergabe",
+        "items": [
+          "Anbieter bieten, solange sie offen und nicht abgelaufen ist; niemand kann auf seine eigene Ausschreibung bieten.",
+          "Das Annehmen einer Offerte lehnt die anderen ab, markiert die Ausschreibung als vergeben und eröffnet einen ausstehenden Auftrag zwischen Auftraggeber und Bieter.",
+          "Jede Zeile zeigt, wie viele aktive Offerten sie hat. Nicht-Administratoren sehen ihre eigenen Ausschreibungen.",
+          "Löschen ist ein Soft Delete und kann wiederhergestellt werden."
+        ]
+      }
+    ]
+  },
+  "createTaskRequest": "Ausschreibung erstellen",
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "fields": {
+    "title": "Bezeichnung",
+    "description": "Beschreibung",
+    "requester": "Auftraggeber",
+    "category": "Kategorie",
+    "budgetMin": "Budget (min.)",
+    "budgetMax": "Budget (max.)",
+    "currency": "Währung",
+    "address": "Adresse",
+    "expiresAt": "Läuft ab",
+    "status": "Status",
+    "mainImage": "Hauptbild",
+    "imageGallery": "Bild galerie",
+    "videoGallery": "Video galerie",
+    "company": "Firma",
+    "createdBy": "Erstellt von",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "deletedAt": "Gelöscht am",
+    "deletedBy": "Gelöscht von",
+    "!enums": {
+      "status": {
+        "open": "Offen",
+        "closed": "Geschlossen",
+        "awarded": "Zuschlag"
+      }
+    }
+  }
+}

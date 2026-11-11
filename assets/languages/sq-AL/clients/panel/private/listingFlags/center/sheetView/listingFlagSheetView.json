@@ -1,0 +1,35 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/sheetView/listingFlagSheetView.tsx",
+  "failedTitle": "Raportimi i listimit nuk u ngarkua",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të raportimit. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "listingFlagSubtitle": "Raportim listimi",
+  "listingFlag": "Raportim listimi",
+  "overview": "Përmbledhje",
+  "lifecycle": "Cikli i jetës",
+  "details": "Detaje",
+  "listing": "Listimi",
+  "reason": "Arsyeja",
+  "comment": "Komenti",
+  "user": "Raportuesi",
+  "reporter": "Raportuesi",
+  "status": "Statusi",
+  "resolution": "Zgjidhja",
+  "listingAction": "Veprimi ndaj listimit",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "status_values": {
+    "pending": "Në pritje",
+    "reviewed": "Shqyrtuar",
+    "dismissed": "Hedhur poshtë"
+  },
+  "reason_values": {
+    "inappropriate": "Përmbajtje e papërshtatshme",
+    "spam": "Spam",
+    "misleading": "Mashtruese",
+    "other": "Tjetër"
+  }
+}

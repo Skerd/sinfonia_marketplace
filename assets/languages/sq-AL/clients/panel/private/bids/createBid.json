@@ -1,0 +1,43 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Nuk u dërgua oferta"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Duke dërguar ofertën"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Oferta u dërgua"
+    }
+  },
+  "form": {
+    "amountLabel": "Shuma e ofertës",
+    "amountPlaceholder": "0.00",
+    "currencyIdLabel": "Valuta",
+    "currencyIdPlaceholder": "Zgjidh valutën",
+    "deliveryDaysLabel": "Ditë dorëzimi",
+    "deliveryDaysPlaceholder": "p.sh. 7",
+    "proposalLabel": "Propozimi",
+    "proposalPlaceholder": "Përshkruani qasjen tuaj...",
+    "taskRequestIdLabel": "Kërkesë për ofertë",
+    "taskRequestIdPlaceholder": "Zgjidh kërkesën",
+    "section": {
+      "taskRequest": "Kërkesë për ofertë",
+      "offer": "Oferta juaj"
+    },
+    "amountCurrencyDescription": "Në monedhën e kërkesës për ofertë."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Dërgo ofertën"
+  },
+  "formHeader": {
+    "description": "Dërgo ofertë për një kërkesë për ofertë.",
+    "title": "Krijo ofertë"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/bids/createBid.tsx",
+  "title": "Titulli"
+}

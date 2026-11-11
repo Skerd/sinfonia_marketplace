@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/cardView/taskRequestCard.tsx",
+  "failedTitle": "Ausschreibung konnte nicht geladen werden",
+  "failedDescription": "Die Ausschreibung konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "title": "Bezeichnung",
+  "name": "Name",
+  "status": "Status",
+  "category": "Kategorie",
+  "budget": "Kostenvoranschlag",
+  "city": "Ort",
+  "expiresAt": "Läuft ab",
+  "statuses": {
+    "open": "Offen",
+    "closed": "Geschlossen",
+    "awarded": "Zuschlag"
+  },
+  "requester": "Auftraggeber",
+  "bids": "Offerten"
+}

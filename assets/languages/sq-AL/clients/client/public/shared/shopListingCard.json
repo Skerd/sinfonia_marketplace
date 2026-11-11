@@ -1,0 +1,15 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/shared/shopListingCard.tsx",
+  "noImage": "Pa imazh",
+  "fromPrice": "Nga {price}",
+  "perHour": "{price}/orë",
+  "priceOnRequest": "Çmimi me kërkesë",
+  "rating": "Vlerësuar {average} nga 5 me {count} vlerësime",
+  "deliveryDay": "{days} ditë",
+  "deliveryDays": "{days} ditë",
+  "promotion": {
+    "featured": "I veçuar",
+    "sponsored": "I sponsorizuar"
+  },
+  "soldBy": "Shitet nga {name}"
+}

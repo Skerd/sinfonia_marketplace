@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/sheetView/listingPackageSheetView.tsx",
+  "failedTitle": "Inseratpaket konnte nicht geladen werden",
+  "failedDescription": "Das Inseratpaket konnte nicht geladen werden. Klicken Sie, um es erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "listingPackageSubtitle": "Inseratpaket",
+  "overview": "Übersicht",
+  "lifecycle": "Lebenszyklus",
+  "description": "Beschreibung",
+  "name": "Name",
+  "listing": "Inserat",
+  "provider": "Anbieter",
+  "priceAmount": "Preis",
+  "currency": "Währung",
+  "deliveryDays": "Lieferzeit",
+  "displayOrder": "Anzeigereihenfolge",
+  "createdAt": "Erstellt am",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "deliveryDaysValue": {
+    "one": "{value} Tag",
+    "other": "{value} Tage"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/editListingPackage.tsx",
+  "editTitle": "Modifier le package d'annonce",
+  "editDescription": "Mettez à jour les détails de ce package de services.",
+  "errorTitle": "Impossible de charger le package",
+  "errorDescription": "Vérifiez le lien ou revenez à la liste et réessayez.",
+  "formHeader": {
+    "title": "Modifier le package d'annonce",
+    "description": "Modifiez le nom du package, le prix ou le délai de livraison."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Enregistrer les modifications"
+  },
+  "form": {
+    "idLabel": "Identifiant",
+    "listingIdLabel": "Annonce",
+    "listingIdPlaceholder": "Sélectionnez une annonce",
+    "nameLabel": "Nom du package",
+    "namePlaceholder": "par ex. Basique, Standard, Premium",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Ce qui est inclus dans ce package...",
+    "priceAmountLabel": "Prix",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Devise",
+    "currencyPlaceholder": "Devise de l'annonce si vide",
+    "deliveryDaysLabel": "Jours de livraison",
+    "deliveryDaysPlaceholder": "par ex. 3",
+    "sortOrderLabel": "Ordre d'affichage",
+    "sortOrderPlaceholder": "par ex. 1",
+    "basicsSectionTitle": "Informations de base",
+    "pricingSectionTitle": "Prix",
+    "visibilitySectionTitle": "Visibilité"
+  },
+  "axios": {
+    "start": {
+      "title": "Enregistrement du package",
+      "time": 3000
+    },
+    "success": {
+      "title": "Package mis à jour",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de mettre à jour le package",
+      "time": 3000
+    }
+  }
+}

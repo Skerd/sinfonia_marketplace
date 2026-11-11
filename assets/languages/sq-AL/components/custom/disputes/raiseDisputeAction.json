@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/raiseDisputeAction.tsx",
+  "cancel": "Anulo",
+  "raise": {
+    "title": "Hap një mosmarrëveshje",
+    "description": "Përshkruani problemin. Një administrator mund ta vendosë mosmarrëveshjen në shqyrtim; pranimi i dorëzimit bllokohet derisa mosmarrëveshja të përfundohet.",
+    "reasonLabel": "Arsyeja",
+    "reasonPlaceholder": "Çfarë shkoi keq?",
+    "confirm": "Dërgo mosmarrëveshjen",
+    "axios": {
+      "start": { "title": "Po dërgohet mosmarrëveshja", "time": 3000 },
+      "success": { "title": "Mosmarrëveshja u hap", "time": 3000 },
+      "error": { "title": "S’u hap dot mosmarrëveshja", "time": 3000 }
+    }
+  }
+}

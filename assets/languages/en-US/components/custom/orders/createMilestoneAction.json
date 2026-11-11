@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/createMilestoneAction.tsx",
+  "title": "Add milestone",
+  "description": "Split the order into a part you can pay out to the provider before the final delivery. It uses the order's currency.",
+  "nameLabel": "Name",
+  "amountLabel": "Amount",
+  "amountHint": "All milestones together cannot exceed the order amount.",
+  "confirm": "Add milestone",
+  "cancel": "Cancel",
+  "axios": {
+    "start": {
+      "title": "Adding milestone",
+      "time": 3000
+    },
+    "success": {
+      "title": "Milestone added",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not add the milestone, please try again",
+      "time": 3000
+    }
+  }
+}

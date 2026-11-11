@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/components/custom/promotions/changePromotionLifecycleAction.tsx",
+  "cancel": "Cancel",
+  "pause": {
+    "title": "Pause promotion",
+    "description": "Are you sure you want to pause",
+    "confirm": "Pause",
+    "axios": {
+      "start": { "title": "Pausing promotion", "time": 3000 },
+      "success": { "title": "Promotion paused successfully", "time": 3000 },
+      "error": { "title": "Could not pause promotion, please try again", "time": 3000 }
+    }
+  },
+  "resume": {
+    "title": "Resume promotion",
+    "description": "Are you sure you want to resume",
+    "confirm": "Resume",
+    "axios": {
+      "start": { "title": "Resuming promotion", "time": 3000 },
+      "success": { "title": "Promotion resumed successfully", "time": 3000 },
+      "error": { "title": "Could not resume promotion, please try again", "time": 3000 }
+    }
+  },
+  "stop": {
+    "title": "Stop promotion permanently",
+    "description": "This cannot be undone. The promotion will stay on record with the reason you provide",
+    "confirm": "Stop permanently",
+    "reasonLabel": "Reason for stopping",
+    "reasonPlaceholder": "e.g. End of campaign, budget change, compliance…",
+    "reasonHint": "Required for audit and review. 1–2000 characters.",
+    "axios": {
+      "start": { "title": "Stopping promotion", "time": 3000 },
+      "success": { "title": "Promotion stopped successfully", "time": 3000 },
+      "error": { "title": "Could not stop promotion, please try again", "time": 3000 }
+    }
+  }
+}

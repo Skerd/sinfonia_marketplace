@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/bids/bidActionConfirmAction.tsx",
+  "accept": {
+    "title": "Të pranohet kjo ofertë?",
+    "description": "Oferta do të shënohet si e pranuar, kërkesa si e dhënë dhe do të krijohet një porosi. Kjo nuk zhbëhet nga këtu.",
+    "confirm": "Prano ofertën",
+    "axios": {
+      "start": { "title": "Duke pranuar ofertën", "time": 3000 },
+      "success": { "title": "Oferta u pranua me sukses", "time": 3000 },
+      "error": { "title": "Oferta nuk u pranua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "reject": {
+    "title": "Të refuzohet kjo ofertë?",
+    "description": "Oferta do të shënohet si e refuzuar. Kërkuesi ose ofertuesi mund të refuzojë një ofertë në pritje.",
+    "confirm": "Refuzo ofertën",
+    "axios": {
+      "start": { "title": "Duke refuzuar ofertën", "time": 3000 },
+      "success": { "title": "Oferta u refuzua me sukses", "time": 3000 },
+      "error": { "title": "Oferta nuk u refuzua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancel": "Anulo"
+}

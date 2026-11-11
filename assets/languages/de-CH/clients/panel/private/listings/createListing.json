@@ -1,0 +1,93 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Inserat konnte nicht erstellt werden"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Inserat wird erstellt"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Inserat erstellt"
+    }
+  },
+  "form": {
+    "addressCityIdLabel": "Ort",
+    "addressCityLabel": "Ort",
+    "addressCityPlaceholder": "Ort",
+    "addressCountryIdLabel": "Land",
+    "addressCountryLabel": "Land",
+    "addressCountryPlaceholder": "Land",
+    "addressStateIdLabel": "Region / kanton",
+    "addressStateLabel": "Region / kanton",
+    "addressStatePlaceholder": "Kanton oder region",
+    "categoryLabel": "Kategorie",
+    "categoryPlaceholder": "Kategorie wählen",
+    "deliveryDaysLabel": "Lieferzeit (Tage)",
+    "deliveryDaysPlaceholder": "z. B. 3",
+    "descriptionLabel": "Beschreibung",
+    "faqAddRow": "FAQ hinzufügen",
+    "faqAnswerLabel": "Antwort",
+    "faqAnswerPlaceholder": "Antwort",
+    "faqQuestionLabel": "Frage",
+    "faqQuestionPlaceholder": "Frage",
+    "faqRemoveRow": "FAQ entfernen",
+    "faqRowTitle": "FAQ",
+    "faqsSectionTitle": "FAQ",
+    "imageGalleryLabel": "Bild galerie",
+    "listingCreateDescription": "Veröffentlichen Sie ein Inserat mit Preis-, Kategorie- und Standortangaben.",
+    "listingCreateTitle": "Inserat erstellen",
+    "listingStatus": {
+      "active": "Aktiv",
+      "draft": "Entwurf",
+      "inactive": "Inaktiv"
+    },
+    "mainImageLabel": "Hauptbild",
+    "priceCurrencyIdLabel": "Währung",
+    "priceCurrencyLabel": "Währung",
+    "priceCurrencyPlaceholder": "Shopwährung, wenn leer",
+    "priceLabel": "Preis",
+    "providerLabel": "Anbieter",
+    "providerPlaceholder": "Benutzer wählen, der die Leistung dieses Inserats erbringt",
+    "pricingType": {
+      "fixed": "Festpreis",
+      "hourly": "Stundensatz"
+    },
+    "pricingTypeLabel": "Preismodell",
+    "pricingTypePlaceholder": "Preismodell auswählen",
+    "requirementsLabel": "Anforderungen",
+    "requirementsPlaceholder": "Anforderung eingeben und Enter drücken",
+    "requirementsRemoveTooltip": "Anforderung entfernen",
+    "section": {
+      "general": "Allgemein",
+      "images": "Bilder",
+      "location": "Standort",
+      "video": "Video",
+      "pricing": "Preise",
+      "details": "Details"
+    },
+    "statusLabel": "Status",
+    "statusPlaceholder": "Status auswählen",
+    "tagsLabel": "Schlagwörter",
+    "tagsPlaceholder": "Schlagwort eingeben und Enter drücken",
+    "tagsRemoveTooltip": "Entfernen tag",
+    "tagsSectionTitle": "Schlagwörter",
+    "titleLabel": "Bezeichnung",
+    "titlePlaceholder": "Inserattitel",
+    "videoGalleryLabel": "Video galerie",
+    "pricePlaceholder": "z. B. 150",
+    "descriptionPlaceholder": "Was der Käufer erhält, wie und wann"
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Inserat erstellen"
+  },
+  "formHeader": {
+    "description": "Veröffentlichen Sie ein Inserat mit Preis-, Kategorie- und Standortangaben.",
+    "title": "Inserat erstellen"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/listings/createListing.tsx",
+  "title": "Bezeichnung"
+}

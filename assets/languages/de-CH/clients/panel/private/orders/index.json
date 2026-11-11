@@ -1,0 +1,87 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/index.tsx",
+  "title": "Aufträge",
+  "description": "Dienstleistungsaufträge zwischen Kunden und Anbietern verwalten.",
+  "help": {
+    "ariaLabel": "Über Aufträge",
+    "title": "Über Aufträge",
+    "overview": "Ein Marktplatz-Auftrag ist eine Dienstleistung zwischen einem Kunden und einem Anbieter, deren Preis treuhänderisch gehalten wird, bis die Arbeit abgenommen ist. Er beginnt aus einem aktiven Inserat oder einer angenommenen Offerte. Jeder Schritt ist eine Aktion mit Regeln, wer sie wann ausführen darf; der Status wird nie direkt bearbeitet.",
+    "sections": [
+      {
+        "title": "Status",
+        "items": [
+          "Ausstehend: angelegt, wartet darauf, dass der Anbieter annimmt.",
+          "Angenommen: Der Anbieter hat den Auftrag übernommen; der Auftragsbetrag wird treuhänderisch gehalten.",
+          "In Arbeit: Der Anbieter hat begonnen; Lieferungen, Überarbeitungen und Meilenstein-Freigaben finden hier statt.",
+          "Abgeschlossen: Die Arbeit wurde abgenommen und der Rest des Treuhandbetrags ausbezahlt.",
+          "Storniert: vor dem Abschluss gestoppt; was noch gehalten wurde, wurde erstattet."
+        ]
+      },
+      {
+        "title": "Aktionen des Anbieters",
+        "items": [
+          "Annehmen (aus ausstehend) bucht die Treuhandsperre für den Auftragsbetrag im Finanzjournal; sind Kartenzahlungen eingerichtet, wird beim Gateway eine Zahlung über diesen Betrag eröffnet.",
+          "Beginnen (aus angenommen) setzt den Auftrag auf in Arbeit.",
+          "Lieferung einreichen (in Arbeit) sendet eine Nachricht und Dateien. Es kann jeweils nur eine Lieferung auf Antwort warten, und eine neue beantwortet eine offene Überarbeitungsanfrage.",
+          "Verlängern fügt dem Fälligkeitsdatum jederzeit vor dem Abschluss Tage hinzu; der Kunde wird benachrichtigt."
+        ]
+      },
+      {
+        "title": "Aktionen des Kunden",
+        "items": [
+          "Lieferung annehmen schliesst den Auftrag ab und gibt das noch Gehaltene an den Anbieter frei, abzüglich der Plattformgebühr von 10 %. Gesperrt, solange ein Streitfall offen ist.",
+          "Überarbeitung anfordern schickt die wartende Lieferung mit einem Grund zurück. Höchstens 3 Überarbeitungen pro Auftrag.",
+          "Antwortet der Kunde 3 Tage lang nicht auf eine Lieferung, nimmt ein stündlicher Job sie für ihn an, ausser ein Streitfall ist offen.",
+          "Meilensteine teilen den gehaltenen Betrag auf: Der Kunde legt sie an (insgesamt nie mehr als der Auftragsbetrag) und gibt sie während der Arbeit einzeln frei. Die Freigabe des letzten, wenn nichts mehr gehalten wird, schliesst den Auftrag ab."
+        ]
+      },
+      {
+        "title": "Stornieren und Streitfälle",
+        "items": [
+          "Der Anbieter kann jederzeit vor dem Abschluss stornieren; der Kunde nur, bevor die Arbeit beginnt. Danach geht eine Uneinigkeit über einen Streitfall.",
+          "Niemand kann stornieren, solange ein Streitfall offen ist. Stornieren erstattet alles noch Gehaltene.",
+          "Ein Streitfall zugunsten des Anbieters schliesst den Auftrag ab und zahlt aus; zugunsten des Kunden storniert er und erstattet."
+        ]
+      },
+      {
+        "title": "Geld und Datensätze",
+        "body": "Freigaben und Erstattungen können nur auszahlen, was noch gehalten wird, sodass Meilensteine, Abnahme, Streitfälle und Stornierung zusammen nie die Sperre übersteigen.",
+        "items": [
+          "Jede Freigabe zahlt auf das verbundene Stripe-Konto des Anbieters, falls er eines hat; im Journal wird die Freigabe in jedem Fall erfasst.",
+          "Das Auftragsblatt zeigt seine Lieferungen, Meilensteine und Überarbeitungen. Buchungen, Streitfälle und Bewertungen hängen ebenfalls am Auftrag.",
+          "Nicht-Administratoren sehen nur Aufträge, an denen sie beteiligt sind. Nur ein Administrator kann einen Auftrag löschen, und erst wenn er abgeschlossen oder storniert ist."
+        ]
+      }
+    ]
+  },
+  "createOrder": "Auftrag erstellen",
+  "fields": {
+    "status": "Status",
+    "customer": "Kunde",
+    "provider": "Anbieter",
+    "amount": "Betrag",
+    "currency": "Währung",
+    "deliveryDueDate": "Fälligkeitsdatum",
+    "createdAt": "Erstellt",
+    "deletedAt": "Gelöscht",
+    "deletedBy": "Gelöscht von",
+    "!enums": {
+      "status": {
+        "pending": "Ausstehend",
+        "accepted": "Angenommen",
+        "in_progress": "In Bearbeitung",
+        "completed": "Abgeschlossen",
+        "cancelled": "Storniert"
+      }
+    }
+  },
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "status": {
+    "pending": "Ausstehend",
+    "in_progress": "In Bearbeitung",
+    "submitted": "Eingereicht",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert",
+    "disputed": "Bestritten"
+  }
+}

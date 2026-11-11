@@ -1,0 +1,98 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Could not update listing"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Saving listing"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Listing updated"
+    }
+  },
+  "editDescription": "Update listing details.",
+  "editTitle": "Edit listing",
+  "errorDescription": "Could not load this listing. Try again.",
+  "errorTitle": "Failed to load listing",
+  "form": {
+    "_idLabel": "Record ID",
+    "addressCityIdLabel": "City",
+    "addressCityLabel": "City",
+    "addressCityPlaceholder": "City",
+    "addressCountryIdLabel": "Country",
+    "addressCountryLabel": "Country",
+    "addressCountryPlaceholder": "Country",
+    "addressStateIdLabel": "Region / state",
+    "addressStateLabel": "Region / state",
+    "addressStatePlaceholder": "State or region",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "Choose a category",
+    "deliveryDaysLabel": "Delivery time (days)",
+    "deliveryDaysPlaceholder": "e.g. 3",
+    "descriptionLabel": "Description",
+    "faqAddRow": "Add FAQ",
+    "faqAnswerLabel": "Answer",
+    "faqAnswerPlaceholder": "Answer",
+    "faqQuestionLabel": "Question",
+    "faqQuestionPlaceholder": "Question",
+    "faqRemoveRow": "Remove FAQ",
+    "faqRowTitle": "FAQ",
+    "faqsSectionTitle": "FAQs",
+    "imageGalleryLabel": "Image gallery",
+    "listingEditDescription": "Update listing information visible to buyers.",
+    "listingEditTitle": "Edit listing",
+    "listingStatus": {
+      "active": "Active",
+      "draft": "Draft",
+      "inactive": "Inactive"
+    },
+    "mainImageLabel": "Main image",
+    "priceCurrencyIdLabel": "Currency",
+    "priceCurrencyLabel": "Currency",
+    "priceCurrencyPlaceholder": "Shop currency if left empty",
+    "priceLabel": "Price",
+    "providerLabel": "Provider",
+    "providerPlaceholder": "Select the user who provides this listing",
+    "pricingType": {
+      "fixed": "Fixed price",
+      "hourly": "Hourly rate"
+    },
+    "pricingTypeLabel": "Pricing type",
+    "pricingTypePlaceholder": "Select pricing type",
+    "requirementsLabel": "Requirements",
+    "requirementsPlaceholder": "Add a requirement and press Enter",
+    "requirementsRemoveTooltip": "Remove requirement",
+    "section": {
+      "general": "General",
+      "images": "Images",
+      "location": "Location",
+      "video": "Video",
+      "pricing": "Prices",
+      "details": "Details"
+    },
+    "statusLabel": "Status",
+    "statusPlaceholder": "Select status",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "Type a tag and press Enter",
+    "tagsRemoveTooltip": "Remove tag",
+    "tagsSectionTitle": "Tags",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Listing title",
+    "videoGalleryLabel": "Video gallery",
+    "pricePlaceholder": "e.g. 150",
+    "descriptionPlaceholder": "What the buyer gets, how and when"
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Save changes"
+  },
+  "formHeader": {
+    "description": "Update listing details.",
+    "title": "Edit listing"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/listings/editListing.tsx",
+  "title": "Title"
+}

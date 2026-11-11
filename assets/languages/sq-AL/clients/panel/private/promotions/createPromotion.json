@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/createPromotion.tsx",
+  "formHeader": {
+    "title": "Krijo promovim",
+    "description": "Rrit dukshmërinë e një listimi me promovim të veçuar ose të sponsorizuar."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Krijo promovimin"
+  },
+  "form": {
+    "listingLabel": "Listimi",
+    "listingPlaceholder": "Zgjidh listimin",
+    "typeLabel": "Lloji i promovimit",
+    "promotionTypeLabel": "Lloji i promovimit",
+    "promotionTypePlaceholder": "Zgjidh llojin e promovimit",
+    "promotionTypeFeatured": "I veçuar",
+    "promotionTypeSponsored": "I sponsorizuar",
+    "startAtLabel": "Data dhe ora e fillimit",
+    "startAtPlaceholder": "Fillimi i promovimit",
+    "endAtLabel": "Data dhe ora e mbarimit",
+    "endAtPlaceholder": "Mbarimi i promovimit",
+    "promotionSectionTitle": "Promovimi",
+    "scheduleSectionTitle": "Periudha"
+  },
+  "axios": {
+    "start": {
+      "title": "Duke krijuar promovimin",
+      "time": 3000
+    },
+    "success": {
+      "title": "Promovimi u krijua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Nuk u krijua promovimi",
+      "time": 3000
+    }
+  }
+}

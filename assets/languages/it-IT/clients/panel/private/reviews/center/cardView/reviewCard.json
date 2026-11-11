@@ -1,0 +1,11 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/center/cardView/reviewCard.tsx",
+  "failedTitle": "Impossibile caricare la recensione",
+  "failedDescription": "Tocca per riprovare.",
+  "rating": "Valutazione",
+  "comment": "Commento",
+  "reviewer": "Autore della recensione",
+  "order": "Ordine",
+  "listing": "Annuncio",
+  "reviewedAt": "Recensito il"
+}

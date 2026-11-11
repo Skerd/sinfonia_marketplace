@@ -1,0 +1,63 @@
+{
+  "marketplace": {
+    "title": "Marketplace",
+    "listings": {
+      "title": "Listings"
+    },
+    "taskrequests": {
+      "title": "Task requests"
+    },
+    "orders": {
+      "title": "Orders"
+    },
+    "bids": {
+      "title": "Bids"
+    },
+    "bookings": {
+      "title": "Bookings"
+    },
+    "disputes": {
+      "title": "Disputes"
+    },
+    "reviews": {
+      "title": "Reviews"
+    },
+    "promotions": {
+      "title": "Promotions"
+    },
+    "listingflags": {
+      "title": "Listing reports"
+    },
+    "listingaddons": {
+      "title": "Listing add-ons"
+    },
+    "listingpackages": {
+      "title": "Listing packages"
+    },
+    "marketplacesystemmap": {
+      "title": "System map"
+    },
+    "listingcategories": {
+      "title": "Listing categories"
+    },
+    "providerprofile": {
+      "title": "Provider profile"
+    }
+  },
+  "tenancy": {
+    "systemSettings": {
+      "marketplace": {
+        "title": "Marketplace"
+      },
+      "marketplacesettings": {
+        "title": "Marketplace settings"
+      },
+      "listingcategories": {
+        "title": "Listing categories"
+      },
+      "providerprofile": {
+        "title": "Provider profiles"
+      }
+    }
+  }
+}

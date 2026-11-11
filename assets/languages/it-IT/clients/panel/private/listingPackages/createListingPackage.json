@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/createListingPackage.tsx",
+  "formHeader": {
+    "title": "Crea pacchetto dell'annuncio",
+    "description": "Definisci un livello di servizio che i clienti possono selezionare quando ordinano da un annuncio."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Crea pacchetto dell'annuncio"
+  },
+  "form": {
+    "listingIdLabel": "Annuncio",
+    "listingIdPlaceholder": "Seleziona l'annuncio",
+    "nameLabel": "Nome del pacchetto",
+    "namePlaceholder": "ad es. Base, Standard, Premium",
+    "descriptionLabel": "Descrizione",
+    "descriptionPlaceholder": "Cosa è incluso in questo pacchetto...",
+    "priceAmountLabel": "Prezzo",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Valuta",
+    "currencyPlaceholder": "Valuta dell'annuncio se vuoto",
+    "deliveryDaysLabel": "Giorni di consegna",
+    "deliveryDaysPlaceholder": "ad es. 3",
+    "sortOrderLabel": "Ordine di visualizzazione",
+    "sortOrderPlaceholder": "ad es. 1",
+    "basicsSectionTitle": "Dati principali",
+    "pricingSectionTitle": "Prezzi",
+    "visibilitySectionTitle": "Visibilità"
+  },
+  "axios": {
+    "start": {
+      "title": "Creazione del pacchetto",
+      "time": 3000
+    },
+    "success": {
+      "title": "Pacchetto creato",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile creare il pacchetto",
+      "time": 3000
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/shared/serviceStatus.tsx",
+  "serviceStatus": {
+    "pending": "Në pritje të ofruesit",
+    "accepted": "Pranuar",
+    "in_progress": "Në punë",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar"
+  },
+  "jobStatus": {
+    "open": "E hapur",
+    "closed": "E mbyllur",
+    "awarded": "E dhënë"
+  },
+  "bidStatus": {
+    "pending": "E re",
+    "accepted": "Pranuar",
+    "rejected": "Refuzuar"
+  },
+  "deliveryStatus": {
+    "submitted": "Pret shqyrtimin tuaj",
+    "accepted": "Pranuar",
+    "revision_requested": "Kërkuar ndryshime"
+  },
+  "milestoneStatus": {
+    "pending": "Në pritje",
+    "released": "Liruar",
+    "delivered": "Dorëzuar"
+  }
+}

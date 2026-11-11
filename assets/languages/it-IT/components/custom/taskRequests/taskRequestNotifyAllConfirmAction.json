@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestNotifyAllConfirmAction.tsx",
+  "notifyAll": {
+    "title": "Avvisare tutti i fornitori?",
+    "description": "Invia una notifica ai fornitori con annunci attivi in questa categoria e città.",
+    "confirm": "Avvisa tutti",
+    "axios": {
+      "start": {
+        "title": "Invio notifiche",
+        "time": 3000
+      },
+      "success": {
+        "title": "Fornitori notificati con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile inviare la notifica ai fornitori, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

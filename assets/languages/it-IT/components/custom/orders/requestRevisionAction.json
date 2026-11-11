@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/requestRevisionAction.tsx",
+  "requestRevision": {
+    "title": "Richiedi revisione",
+    "description": "Descrivi cosa deve essere cambiato. Il fornitore rielaborerà e invierà nuovamente la consegna.",
+    "reasonLabel": "Motivo della revisione",
+    "reasonPlaceholder": "Spiega cosa deve essere rivisto e perché...",
+    "minChars": "Sono richiesti minimo 10 caratteri.",
+    "confirm": "Richiedi revisione",
+    "axios": {
+      "start": {
+        "title": "Richiesta di revisione",
+        "time": 3000
+      },
+      "success": {
+        "title": "Revisione richiesta con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile richiedere la revisione, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

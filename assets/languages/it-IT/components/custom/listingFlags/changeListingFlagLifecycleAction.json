@@ -1,0 +1,51 @@
+{
+  "path": "src/modules/marketplace/components/custom/listingFlags/changeListingFlagLifecycleAction.tsx",
+  "cancel": "Annulla",
+  "resolutionLabel": "Note sulla risoluzione",
+  "resolutionPlaceholder": "Descrivi come è stata gestita questa segnalazione (obbligatorio).",
+  "resolutionHint": "Obbligatorio. 1–2000 caratteri.",
+  "listingActionLabel": "Azione sull'annuncio",
+  "listingActionPlaceholder": "Seleziona l'azione",
+  "listingAction_values": {
+    "none": "Nessuna azione",
+    "deactivate": "Disattiva l'annuncio"
+  },
+  "resolve": {
+    "title": "Risolvi la segnalazione dell'annuncio",
+    "description": "Contrassegna la segnalazione come esaminata. Facoltativamente, disattiva l'annuncio.",
+    "confirm": "Risolvi",
+    "axios": {
+      "start": {
+        "title": "Risoluzione della segnalazione",
+        "time": 3000
+      },
+      "success": {
+        "title": "Segnalazione risolta",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile risolvere la segnalazione",
+        "time": 3000
+      }
+    }
+  },
+  "dismiss": {
+    "title": "Ignora la segnalazione dell'annuncio",
+    "description": "Contrassegna la segnalazione come ignorata senza ulteriori azioni sull'annuncio.",
+    "confirm": "Ignora",
+    "axios": {
+      "start": {
+        "title": "Archiviazione della segnalazione",
+        "time": 3000
+      },
+      "success": {
+        "title": "Segnalazione ignorata",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile ignorare la segnalazione",
+        "time": 3000
+      }
+    }
+  }
+}

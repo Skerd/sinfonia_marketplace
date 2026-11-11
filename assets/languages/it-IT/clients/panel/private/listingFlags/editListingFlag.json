@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/editListingFlag.tsx",
+  "editTitle": "Modifica segnalazione dell'annuncio",
+  "editDescription": "Aggiorna il motivo e i dettagli di questa segnalazione.",
+  "errorTitle": "Impossibile caricare la segnalazione",
+  "errorDescription": "Controlla il collegamento o torna all'elenco e riprova.",
+  "formHeader": {
+    "title": "Modifica segnalazione dell'annuncio",
+    "description": "Aggiorna il motivo e i dettagli aggiuntivi. L'annuncio non può essere modificato."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Salva modifiche"
+  },
+  "form": {
+    "reasonLabel": "Motivo",
+    "reasonPlaceholder": "Seleziona il motivo",
+    "commentLabel": "Ulteriori dettagli",
+    "commentPlaceholder": "Dettagli facoltativi...",
+    "reason_values": {
+      "inappropriate": "Contenuti inappropriati",
+      "spam": "Spam",
+      "misleading": "Fuorviante",
+      "other": "Altro"
+    },
+    "reportSectionTitle": "Segnalazione"
+  },
+  "axios": {
+    "start": {
+      "title": "Salvataggio della segnalazione",
+      "time": 3000
+    },
+    "success": {
+      "title": "Segnalazione aggiornata",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile aggiornare la segnalazione",
+      "time": 3000
+    }
+  }
+}

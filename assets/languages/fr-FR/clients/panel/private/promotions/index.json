@@ -1,0 +1,63 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/index.tsx",
+  "title": "Promotions",
+  "description": "Gérez les promotions des annonces en vedette et sponsorisées.",
+  "help": {
+    "ariaLabel": "À propos des promotions",
+    "title": "À propos des promotions",
+    "overview": "Une promotion met en valeur une annonce, mise en avant ou sponsorisée, pour une fenêtre de début à fin. Elle tourne tant que son cycle de vie est actif et qu’aujourd’hui est dans ses dates. Le cycle de vie est actif, en pause ou arrêté et ne change que par des actions.",
+    "sections": [
+      {
+        "title": "Créer",
+        "items": [
+          "Le prestataire de l’annonce, ou un administrateur, promeut une annonce active.",
+          "Le type est mise en avant ou sponsorisée. Début et fin bornent quand la mise en valeur s’applique."
+        ]
+      },
+      {
+        "title": "Cycle de vie",
+        "body": "Mettre en pause, reprendre et arrêter exigent d’être propriétaire de l’annonce, ou administrateur.",
+        "items": [
+          "Mettre en pause n’est possible que depuis actif : la mise en valeur s’arrête sans terminer la campagne.",
+          "Reprendre n’est possible que depuis en pause, et seulement tant que la date de fin est dans le futur.",
+          "Arrêter termine définitivement la promotion avec un motif d’arrêt ; elle ne peut pas être reprise."
+        ]
+      },
+      {
+        "title": "Effet",
+        "items": [
+          "Dans le tri recommandé de la boutique, les annonces avec une promotion en cours passent en premier, les plus récentes d’abord, puis le reste.",
+          "Les promotions supprimées ne peuvent être ni mises en pause, ni reprises, ni arrêtées avant d’être restaurées."
+        ]
+      }
+    ]
+  },
+  "createPromotion": "Créer une promotion",
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "fields": {
+    "name": "Nom",
+    "listing": "Annonce",
+    "type": "Type",
+    "lifecycleStatus": "Statut du cycle de vie",
+    "stopReason": "Motif de l'arrêt",
+    "startAt": "Début",
+    "endAt": "Fin",
+    "company": "Entreprise",
+    "createdBy": "Créé par",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "deletedAt": "Supprimé le",
+    "deletedBy": "Supprimé par",
+    "!enums": {
+      "type": {
+        "featured": "Mis en avant",
+        "sponsored": "Sponsorisé"
+      },
+      "lifecycleStatus": {
+        "active": "Actif",
+        "paused": "En pause",
+        "stopped": "Arrêté"
+      }
+    }
+  }
+}

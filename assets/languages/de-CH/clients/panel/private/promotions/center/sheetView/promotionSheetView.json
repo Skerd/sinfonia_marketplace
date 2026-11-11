@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/center/sheetView/promotionSheetView.tsx",
+  "failedTitle": "Promotion konnten nicht geladen werden",
+  "failedDescription": "Die Promotion konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "overview": "Übersicht",
+  "lifecycle": "Lebenszyklus",
+  "promotion": "Promotion",
+  "name": "Name",
+  "listing": "Inserat",
+  "type": "Typ",
+  "lifecycleStatus": "Lebenszyklusstatus",
+  "startAt": "Startdatum",
+  "endAt": "Enddatum",
+  "createdAt": "Erstellt am",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "stopReasonSection": "Grund für das Beenden",
+  "stopReason": "Grund",
+  "type_values": {
+    "featured": "Hervorgehoben",
+    "sponsored": "Gesponsert"
+  },
+  "lifecycleStatuses": {
+    "active": "Aktiv",
+    "paused": "Pausiert",
+    "stopped": "Beendet"
+  },
+  "listingStatus": {
+    "draft": "Entwurf",
+    "active": "Aktiv",
+    "inactive": "Inaktiv"
+  }
+}

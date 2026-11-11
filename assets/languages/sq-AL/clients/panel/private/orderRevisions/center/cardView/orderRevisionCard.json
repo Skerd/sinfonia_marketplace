@@ -1,0 +1,13 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderRevisions/center/cardView/orderRevisionCard.tsx",
+  "failedTitle": "Ngarkimi dështoi",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "orderRevisionStatus": {
+    "pending": "Në pritje",
+    "completed": "Trajtuar"
+  },
+  "status": "Statusi",
+  "reason": "Arsyeja",
+  "requestedBy": "Kërkuar nga",
+  "revision": "Kërkesë rishikimi"
+}

@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/accountProviderProfile.tsx",
+  "title": "Profilo fornitore",
+  "description": "La tua scheda venditore nel marketplace: biografia, competenze, portfolio e disponibilità settimanale.",
+  "failTitle": "Impossibile caricare il profilo fornitore",
+  "failDescription": "Fai clic per riprovare.",
+  "connect": {
+    "notConnected": "Pagamenti non collegati",
+    "setupIncomplete": "Configurazione di Stripe incompleta",
+    "payoutsEnabled": "Pagamenti abilitati",
+    "start": "Collega i pagamenti Stripe",
+    "continue": "Continua la configurazione di Stripe",
+    "refresh": "Aggiorna lo stato di Stripe"
+  },
+  "empty": {
+    "title": "Nessun profilo fornitore",
+    "description": "Creane uno per presentare ai clienti competenze, disponibilità e lavori svolti.",
+    "create": "Crea profilo fornitore",
+    "createFailed": "Impossibile creare il profilo fornitore."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossible de soumettre une offre"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Envoi de l'offre"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Offre soumise"
+    }
+  },
+  "form": {
+    "amountLabel": "Montant de l'offre",
+    "amountPlaceholder": "0.00",
+    "currencyIdLabel": "Devise",
+    "currencyIdPlaceholder": "Sélectionner une devise",
+    "deliveryDaysLabel": "Jours de livraison",
+    "deliveryDaysPlaceholder": "ex. 7",
+    "proposalLabel": "Proposition",
+    "proposalPlaceholder": "Décrivez votre approche...",
+    "taskRequestIdLabel": "Demande de devis",
+    "taskRequestIdPlaceholder": "Sélectionner une demande de devis",
+    "section": {
+      "taskRequest": "Demande de devis",
+      "offer": "Votre offre"
+    },
+    "amountCurrencyDescription": "Dans la devise de la demande de devis."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Soumettre une offre"
+  },
+  "formHeader": {
+    "description": "Soumettez une offre pour une demande de devis.",
+    "title": "Créer une offre"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/bids/createBid.tsx",
+  "title": "Titre"
+}

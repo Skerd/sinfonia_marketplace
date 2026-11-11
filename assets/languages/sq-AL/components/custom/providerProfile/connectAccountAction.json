@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/components/custom/providerProfile/connectAccountAction.tsx",
+  "cancel": "Anulo",
+  "createAccountLink": {
+    "title": "Lidh pagesat Stripe",
+    "description": "Do të ridrejtoheni te Stripe për të konfiguruar (ose vazhduar) pagesat Express për këtë profil ofruesi. Lirimet nga depozita mund t'ju paguajnë vetëm pasi të përfundojë regjistrimi në Stripe.",
+    "confirm": "Hap Stripe",
+    "axios": {
+      "start": {
+        "title": "Duke krijuar lidhjen Stripe…"
+      },
+      "success": {
+        "title": "Lidhja e regjistrimit në Stripe është gati"
+      },
+      "error": {
+        "title": "Nuk u krijua lidhja e regjistrimit në Stripe"
+      }
+    }
+  },
+  "refreshAccountStatus": {
+    "title": "Rifresko statusin Stripe",
+    "description": "Merr statusin e fundit të llogarisë Connect nga Stripe dhe përditëso të drejtën për arkëtime/pagesa dalëse në këtë profil.",
+    "confirm": "Rifresko statusin",
+    "axios": {
+      "start": {
+        "title": "Duke rifreskuar statusin Stripe…"
+      },
+      "success": {
+        "title": "Statusi Stripe u përditësua"
+      },
+      "error": {
+        "title": "Nuk u rifreskua statusi Stripe"
+      }
+    }
+  }
+}

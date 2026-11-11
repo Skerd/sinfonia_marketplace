@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/center/cardView/bidCard.tsx",
+  "failedTitle": "Échec du chargement de l'offre",
+  "failedDescription": "Touchez pour réessayer.",
+  "taskRequest": "Demande de devis",
+  "name": "Nom",
+  "status": "Statut",
+  "amount": "Montant",
+  "deliveryDays": "Livraison",
+  "days": "jours",
+  "bidder": "Soumissionnaire",
+  "offer": "Offre",
+  "statuses": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "rejected": "Rejeté"
+  }
+}

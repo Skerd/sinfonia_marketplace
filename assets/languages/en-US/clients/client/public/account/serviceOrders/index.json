@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/index.tsx",
+  "title": "Service orders",
+  "browse": "Browse services",
+  "filterLabel": "Filter by status",
+  "allStatuses": "All",
+  "statusFilter": {
+    "pending": "Awaiting provider",
+    "accepted": "Accepted",
+    "in_progress": "In progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "loading": "Loading service orders",
+  "emptyTitle": "No service orders yet",
+  "emptyMessage": "When you order a service it shows up here, with every update from the provider.",
+  "emptyFiltered": "No orders with this status.",
+  "dueOn": "Due {date}",
+  "deliveryWaiting": "A delivery is waiting for your review",
+  "pagination": "Pages",
+  "previousPage": "Previous page",
+  "nextPage": "Next page",
+  "pageOf": "Page {page} of {total}"
+}

@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/createListingPackage.tsx",
+  "formHeader": {
+    "title": "Create listing package",
+    "description": "Define a service tier that customers can select when ordering from a listing."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Create listing package"
+  },
+  "form": {
+    "listingIdLabel": "Listing",
+    "listingIdPlaceholder": "Select listing",
+    "nameLabel": "Package name",
+    "namePlaceholder": "e.g. Basic, Standard, Premium",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "What's included in this package...",
+    "priceAmountLabel": "Price",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Currency",
+    "currencyPlaceholder": "The listing's currency if left empty",
+    "deliveryDaysLabel": "Delivery days",
+    "deliveryDaysPlaceholder": "e.g. 3",
+    "sortOrderLabel": "Display order",
+    "sortOrderPlaceholder": "e.g. 1",
+    "basicsSectionTitle": "Basics",
+    "pricingSectionTitle": "Prices",
+    "visibilitySectionTitle": "Visibility"
+  },
+  "axios": {
+    "start": {
+      "title": "Creating package",
+      "time": 3000
+    },
+    "success": {
+      "title": "Package created",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not create package",
+      "time": 3000
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestStatusConfirmAction.tsx",
+  "close": {
+    "title": "Close this task request?",
+    "description": "Providers will no longer be able to place new bids. You can reopen it later unless the request has been awarded.",
+    "confirm": "Confirm",
+    "axios": {
+      "start": { "title": "Closing task request", "time": 3000 },
+      "success": { "title": "Task request closed successfully", "time": 3000 },
+      "error": { "title": "Could not close task request, please try again", "time": 3000 }
+    }
+  },
+  "reopen": {
+    "title": "Reopen this task request?",
+    "description": "The request will be open again so providers can submit bids.",
+    "confirm": "Confirm",
+    "axios": {
+      "start": { "title": "Reopening task request", "time": 3000 },
+      "success": { "title": "Task request reopened successfully", "time": 3000 },
+      "error": { "title": "Could not reopen task request, please try again", "time": 3000 }
+    }
+  },
+  "cancel": "Cancel"
+}

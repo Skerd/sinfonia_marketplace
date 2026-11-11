@@ -1,0 +1,15 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/center/cardView/providerProfileCard.tsx",
+  "failedTitle": "Failed to load provider profile",
+  "failedDescription": "Tap to retry.",
+  "provider": "Provider",
+  "bio": "Bio",
+  "skills": "Skills",
+  "rating": "Rating",
+  "connect": {
+    "notConnected": "Payouts not connected",
+    "setupIncomplete": "Stripe setup incomplete",
+    "payoutsEnabled": "Payouts enabled"
+  },
+  "payouts": "Payouts"
+}

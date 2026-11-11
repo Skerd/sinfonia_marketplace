@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/submitOrderDeliveryAction.tsx",
+  "submitDelivery": {
+    "title": "Submit delivery",
+    "description": "Send your completed work to the customer for review. You can include an optional message.",
+    "messageLabel": "Delivery message",
+    "messagePlaceholder": "Describe what was delivered or add notes for the customer…",
+    "confirm": "Submit delivery",
+    "attachmentsLabel": "Files",
+    "addFile": "Add file",
+    "axios": {
+      "start": { "title": "Submitting delivery", "time": 3000 },
+      "success": { "title": "Delivery submitted successfully", "time": 3000 },
+      "error": { "title": "Could not submit delivery, please try again", "time": 3000 }
+    }
+  },
+  "cancel": "Cancel"
+}

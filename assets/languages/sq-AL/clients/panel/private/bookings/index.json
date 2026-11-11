@@ -1,0 +1,55 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/index.tsx",
+  "title": "Rezervimet",
+  "description": "Menaxho rezervimet e shërbimeve.",
+  "help": {
+    "ariaLabel": "Rreth rezervimeve",
+    "title": "Rreth rezervimeve",
+    "overview": "Një rezervim e vendos një porosi tregu në kalendar: një orë fillimi dhe mbarimi, me zonën kohore të rënë dakord. Përdoreni kur puna bëhet me takim, jo vetëm brenda një afati.",
+    "sections": [
+      {
+        "title": "Krijimi",
+        "items": [
+          "Secila palë e porosisë mund ta rezervojë, sa kohë porosia është e pranuar ose në vazhdim.",
+          "Një rezervim për porosi. Ofruesi merret nga porosia.",
+          "Mbarimi duhet të jetë pas fillimit."
+        ]
+      },
+      {
+        "title": "Ndryshimi",
+        "items": [
+          "Vetëm ofruesi, ose një administrator, e riplanifikon.",
+          "Fshirja është e butë dhe rezervimi mund të rikthehet.",
+          "Joadministratorët shohin vetëm rezervimet e porosive të veta."
+        ]
+      }
+    ]
+  },
+  "createBooking": "Krijo rezervim",
+  "fields": {
+    "order": "Porosia",
+    "provider": "Ofruesi",
+    "startAt": "Fillim",
+    "endAt": "Mbarim",
+    "timezone": "Zona orare",
+    "status": "Statusi",
+    "createdAt": "Krijuar",
+    "deletedAt": "Fshirë",
+    "deletedBy": "Fshirë nga",
+    "when": "Kur",
+    "!enums": {
+      "when": {
+        "upcoming": "Të ardhshme",
+        "today": "Sot",
+        "past": "Të kaluara"
+      }
+    }
+  },
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "status": {
+    "scheduled": "Planifikuar",
+    "in_progress": "Në progres",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar"
+  }
+}

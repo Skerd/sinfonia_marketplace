@@ -1,0 +1,87 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/index.tsx",
+  "title": "Porositë",
+  "description": "Menaxho porositë e shërbimeve ndërmjet klientëve dhe ofruesve.",
+  "help": {
+    "ariaLabel": "Rreth porosive",
+    "title": "Rreth porosive",
+    "overview": "Një porosi tregu është një angazhim shërbimi mes një klienti dhe një ofruesi, çmimi i së cilës mbahet në depozitë garancie derisa puna të pranohet. Nis nga një listim aktiv ose nga një ofertë e pranuar. Çdo hap është veprim me rregulla se kush mund ta bëjë dhe kur; statusi nuk ndryshohet kurrë drejtpërdrejt.",
+    "sections": [
+      {
+        "title": "Statuset",
+        "items": [
+          "Në pritje: e krijuar, pret që ofruesi ta pranojë.",
+          "E pranuar: ofruesi e mori punën; shuma e porosisë mbahet në depozitë.",
+          "Në vazhdim: ofruesi nisi; dorëzimet, rishikimet dhe lirimet e fazave ndodhin këtu.",
+          "E përfunduar: puna u pranua dhe pjesa e mbetur e depozitës u pagua.",
+          "E anuluar: u ndal para përfundimit; ajo që mbahej ende u rimbursua."
+        ]
+      },
+      {
+        "title": "Veprimet e ofruesit",
+        "items": [
+          "Prano (nga në pritje) regjistron bllokimin në depozitë për shumën e porosisë në regjistrin financiar; kur pagesat me kartë janë konfiguruar, hapet në portën e pagesës një pagesë për atë shumë.",
+          "Nis (nga e pranuar) e kalon porosinë në vazhdim.",
+          "Dërgo dorëzimin (në vazhdim) dërgon një mesazh dhe skedarë. Vetëm një dorëzim mund të presë përgjigje njëherësh, dhe një i ri i përgjigjet një kërkese të hapur rishikimi.",
+          "Zgjat i shton ditë afatit në çdo kohë para se porosia të jetë përfundimtare; klienti njoftohet."
+        ]
+      },
+      {
+        "title": "Veprimet e klientit",
+        "items": [
+          "Prano dorëzimin e përfundon porosinë dhe i liron ofruesit atë që mbahet ende, minus tarifën 10% të platformës. E bllokuar sa kohë ka mosmarrëveshje të hapur.",
+          "Kërko rishikim e kthen dorëzimin në pritje me një arsye. Të shumtën 3 rishikime për porosi.",
+          "Nëse klienti nuk i përgjigjet një dorëzimi për 3 ditë, një proces çdo orë e pranon për të, përveç kur ka mosmarrëveshje të hapur.",
+          "Fazat e ndajnë shumën e mbajtur: klienti i krijon (gjithsej kurrë më shumë se shuma e porosisë) dhe i liron një nga një gjatë punës. Lirimi i të fundit kur nuk mbahet më asgjë e përfundon porosinë."
+        ]
+      },
+      {
+        "title": "Anulimi dhe mosmarrëveshjet",
+        "items": [
+          "Ofruesi mund të anulojë në çdo kohë para se porosia të jetë përfundimtare; klienti vetëm para se të nisë puna. Pas kësaj, një kundërshti kalon përmes një mosmarrëveshjeje.",
+          "Askush nuk mund të anulojë sa kohë ka mosmarrëveshje të hapur. Anulimi rimburson gjithçka që mbahet ende.",
+          "Një mosmarrëveshje e vendosur në favor të ofruesit e përfundon porosinë dhe paguan; në favor të klientit e anulon dhe rimburson."
+        ]
+      },
+      {
+        "title": "Paratë dhe të dhënat",
+        "body": "Lirimet dhe rimbursimet mund të paguajnë vetëm atë që mbahet ende, ndaj fazat, pranimi, mosmarrëveshjet dhe anulimi bashkë nuk e kalojnë kurrë bllokimin.",
+        "items": [
+          "Çdo lirim paguhet në llogarinë Stripe të lidhur të ofruesit nëse ka; lirimi regjistrohet në regjistër në çdo rast.",
+          "Kartela e porosisë tregon dorëzimet, fazat dhe rishikimet. Rezervimet, mosmarrëveshjet dhe vlerësimet varen gjithashtu nga porosia.",
+          "Joadministratorët shohin vetëm porositë ku janë palë. Vetëm një administrator mund ta fshijë një porosi, dhe vetëm kur është përfundimtare."
+        ]
+      }
+    ]
+  },
+  "createOrder": "Krijo porosi",
+  "fields": {
+    "status": "Statusi",
+    "customer": "Klienti",
+    "provider": "Ofruesi",
+    "amount": "Shuma",
+    "currency": "Valuta",
+    "deliveryDueDate": "Data e dorëzimit",
+    "createdAt": "Krijuar",
+    "deletedAt": "Fshirë",
+    "deletedBy": "Fshirë nga",
+    "!enums": {
+      "status": {
+        "pending": "Në pritje",
+        "accepted": "Pranuar",
+        "in_progress": "Në progres",
+        "completed": "Përfunduar",
+        "cancelled": "Anuluar"
+      }
+    }
+  },
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "status": {
+    "pending": "Në pritje",
+    "in_progress": "Në progres",
+    "submitted": "Dorëzuar",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar",
+    "disputed": "Kontestuar"
+  }
+}

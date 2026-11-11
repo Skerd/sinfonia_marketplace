@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/center/sheetView/categorySheetView.tsx",
+  "failedTitle": "Kategoria e listimit nuk u ngarkua",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të kësaj kategorie. Klikoni për të riprovuar.",
+  "failedTooltipDescription": "Klikoni për të riprovuar marrjen e të dhënave.",
+  "categorySubtitle": "Kategori",
+  "listingCategorySubtitle": "Kategori listimi",
+  "name": "Emri",
+  "overview": "Përmbledhje",
+  "lifecycle": "Cikli i jetës",
+  "slug": "Slug",
+  "order": "Rendi",
+  "parentListingCategory": "Kategoria prind",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga"
+}

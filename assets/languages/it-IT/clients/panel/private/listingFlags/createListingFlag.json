@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/createListingFlag.tsx",
+  "formHeader": {
+    "title": "Crea segnalazione dell'annuncio",
+    "description": "Segnala un annuncio per la revisione da parte del team di moderazione."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Invia segnalazione"
+  },
+  "form": {
+    "listingLabel": "Annuncio",
+    "listingPlaceholder": "Seleziona l'annuncio",
+    "reasonLabel": "Motivo",
+    "reasonPlaceholder": "Seleziona il motivo",
+    "commentLabel": "Ulteriori dettagli",
+    "commentPlaceholder": "Dettagli facoltativi...",
+    "reason_values": {
+      "inappropriate": "Contenuti inappropriati",
+      "spam": "Spam",
+      "misleading": "Fuorviante",
+      "other": "Altro"
+    },
+    "reportSectionTitle": "Segnalazione"
+  },
+  "axios": {
+    "start": {
+      "title": "Invio della segnalazione",
+      "time": 3000
+    },
+    "success": {
+      "title": "Segnalazione inviata",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile inviare la segnalazione",
+      "time": 3000
+    }
+  }
+}

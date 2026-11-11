@@ -1,0 +1,48 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/index.tsx",
+  "title": "Profils de prestataires",
+  "description": "Tous les profils de prestataires de l'entreprise.",
+  "help": {
+    "ariaLabel": "À propos des profils prestataires",
+    "title": "À propos des profils prestataires",
+    "overview": "Un profil de prestataire est la fiche vendeur d’un utilisateur sur la place de marché : bio, compétences, portfolio, disponibilités hebdomadaires, réputation et le compte Stripe Connect qui reçoit les versements. Chaque utilisateur a au plus un profil actif.",
+    "sections": [
+      {
+        "title": "Champs du profil",
+        "items": [
+          "Bio, compétences et portfolio décrivent le prestataire en boutique.",
+          "La disponibilité est une liste de créneaux hebdomadaires : jour de la semaine, heure de début et heure de fin.",
+          "La réputation est calculée, pas saisie : la note moyenne des avis sur toutes ses commandes, et la part des commandes finies qui se sont terminées plutôt qu’annulées."
+        ]
+      },
+      {
+        "title": "Où les profils se modifient",
+        "items": [
+          "Cette page liste tous les profils de prestataires de la société ; un nouveau demande à quel utilisateur il appartient.",
+          "Chaque utilisateur modifie aussi le sien sous Paramètres → Profil de prestataire, où il s’ouvre directement en formulaire."
+        ]
+      },
+      {
+        "title": "Versements avec Stripe Connect",
+        "body": "Les versements exigent la passerelle de paiement et les adresses de retour et de rafraîchissement Connect configurées.",
+        "items": [
+          "Créer un lien de compte démarre ou reprend l’inscription Stripe Express pour le profil de l’utilisateur connecté et renvoie la page à ouvrir.",
+          "Actualiser le statut du compte récupère depuis Stripe les indicateurs paiements activés, versements activés et informations soumises.",
+          "Quand le séquestre d’une commande est libéré, la part du prestataire est virée sur ce compte s’il existe.",
+          "Supprimer un profil est une suppression douce et il peut être restauré ; un profil supprimé n’est pas utilisé pour Connect."
+        ]
+      }
+    ]
+  },
+  "createProviderProfile": "Créer un profil de prestataire",
+  "fields": {
+    "provider": "Prestataire",
+    "bio": "Biographie",
+    "skills": "Compétences",
+    "rating": "Note",
+    "createdAt": "Créé",
+    "deletedAt": "Supprimé",
+    "deletedBy": "Supprimé par"
+  },
+  "searchPlaceholder": "Rechercher ou ajouter des filtres..."
+}

@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/sheetView/taskRequestSheetView.tsx",
+  "taskRequest": "Task request",
+  "overview": "Overview",
+  "lifecycle": "Lifecycle",
+  "description": "Description",
+  "section": {
+    "generalInfo": "Overview",
+    "description": "Description",
+    "media": "Gallery"
+  },
+  "name": "Name",
+  "title": "Title",
+  "status": "Status",
+  "category": "Category",
+  "requester": "Requester",
+  "budgetMin": "Budget (min)",
+  "budgetMax": "Budget (max)",
+  "currency": "Currency",
+  "address": "Address",
+  "country": "Country",
+  "state": "State",
+  "city": "City",
+  "street": "Street",
+  "postalCode": "Postal code",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
+  "expiresAt": "Expires",
+  "gallery": "Gallery",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "failedTitle": "Failed to load task request",
+  "failedDescription": "Something went wrong while loading this task request. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "taskRequestStatus": {
+    "open": "Open",
+    "closed": "Closed",
+    "awarded": "Awarded"
+  },
+  "bidsGroup": "Bids",
+  "ordersGroup": "Order",
+  "bidRow": "Bid",
+  "orderRow": "Order",
+  "bidStatus": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "rejected": "Rejected"
+  },
+  "orderStatus": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "compactView": "Compact",
+  "cardsView": "Cards",
+  "toggleReferenceListView": "Toggle view"
+}

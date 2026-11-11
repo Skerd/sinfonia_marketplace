@@ -1,0 +1,61 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
+  "title": "Controversie",
+  "description": "Esamina e risolvi le controversie tra clienti e fornitori.",
+  "help": {
+    "ariaLabel": "Informazioni sulle controversie",
+    "title": "Informazioni sulle controversie",
+    "overview": "Una controversia è un disaccordo su un ordine del marketplace deciso da un amministratore. Finché è aperta, il denaro dell’ordine è congelato: niente accettazione di consegne, rilascio di milestone, accettazione automatica o annullamento. La decisione stabilisce chi riceve ciò che è ancora trattenuto.",
+    "sections": [
+      {
+        "title": "Aprire una controversia",
+        "items": [
+          "Ciascuna parte dell’ordine può aprirne una, su un ordine né completato né annullato. Una controversia per ordine.",
+          "Il chiamante è l’iniziatore; l’altra parte viene avvisata.",
+          "I clienti possono aprirne una anche dal proprio account del negozio."
+        ]
+      },
+      {
+        "title": "Stati e decisioni",
+        "body": "Solo un amministratore decide, e una nota di risoluzione è obbligatoria.",
+        "items": [
+          "Aperta: sollevata e in attesa. Avvia esame la porta in esame.",
+          "Risolvi (da aperta o in esame) decide per il fornitore: una consegna in attesa viene accettata, l’ordine completato e il resto del deposito rilasciato al fornitore.",
+          "Chiudi (da aperta o in esame) decide per il cliente: l’ordine viene annullato e il resto del deposito rimborsato.",
+          "Entrambe le parti vengono avvisate dell’esito."
+        ]
+      },
+      {
+        "title": "Eliminazione",
+        "items": [
+          "Solo un amministratore può eliminare una controversia, perché una aperta blocca il pagamento. Una controversia eliminata non può essere gestita finché non viene ripristinata."
+        ]
+      }
+    ]
+  },
+  "createDispute": "Crea controversia",
+  "fields": {
+    "status": "Stato",
+    "reason": "Motivo",
+    "resolution": "Risoluzione",
+    "initiator": "Iniziatore",
+    "createdAt": "Aperta il",
+    "deletedAt": "Eliminato",
+    "deletedBy": "Eliminato da",
+    "!enums": {
+      "status": {
+        "open": "Aperta",
+        "under_review": "In fase di revisione",
+        "resolved": "Risolta",
+        "closed": "Chiusa"
+      }
+    }
+  },
+  "searchPlaceholder": "Cerca o aggiungi filtri...",
+  "status": {
+    "open": "Aperta",
+    "under_review": "In fase di revisione",
+    "resolved": "Risolta",
+    "closed": "Chiusa"
+  }
+}

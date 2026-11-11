@@ -1,0 +1,61 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
+  "title": "Mosmarrëveshjet",
+  "description": "Shqyrtoni dhe zgjidhni mosmarrëveshjet ndërmjet klientëve dhe ofruesve.",
+  "help": {
+    "ariaLabel": "Rreth mosmarrëveshjeve",
+    "title": "Rreth mosmarrëveshjeve",
+    "overview": "Një mosmarrëveshje është një kundërshti për një porosi tregu që e vendos një administrator. Sa kohë është e hapur, paratë e porosisë janë të ngrira: pa pranim dorëzimi, lirim faze, pranim automatik apo anulim. Vendimi thotë kush merr atë që mbahet ende.",
+    "sections": [
+      {
+        "title": "Hapja e një mosmarrëveshjeje",
+        "items": [
+          "Secila palë e porosisë mund të hapë një, për një porosi që nuk është as e përfunduar as e anuluar. Një mosmarrëveshje për porosi.",
+          "Thirrësi është nismëtari; pala tjetër njoftohet.",
+          "Klientët mund të hapin një edhe nga llogaria e tyre në dyqan."
+        ]
+      },
+      {
+        "title": "Statuset dhe vendimet",
+        "body": "Vetëm një administrator vendos, dhe një shënim zgjidhjeje është i detyrueshëm.",
+        "items": [
+          "E hapur: e ngritur dhe në pritje. Nis shqyrtimin e kalon në shqyrtim.",
+          "Zgjidh (nga e hapur ose në shqyrtim) vendos për ofruesin: një dorëzim në pritje pranohet, porosia përfundon dhe pjesa e mbetur e depozitës i lirohet ofruesit.",
+          "Mbyll (nga e hapur ose në shqyrtim) vendos për klientin: porosia anulohet dhe pjesa e mbetur e depozitës rimbursohet.",
+          "Të dyja palët njoftohen për rezultatin."
+        ]
+      },
+      {
+        "title": "Fshirja",
+        "items": [
+          "Vetëm një administrator mund ta fshijë një mosmarrëveshje, sepse një e hapur bllokon pagesën. Mbi një mosmarrëveshje të fshirë nuk mund të veprohet derisa të rikthehet."
+        ]
+      }
+    ]
+  },
+  "createDispute": "Hap mosmarrëveshje",
+  "fields": {
+    "status": "Statusi",
+    "reason": "Arsyeja",
+    "resolution": "Zgjidhja",
+    "initiator": "Iniciatori",
+    "createdAt": "Hapur",
+    "deletedAt": "Fshirë",
+    "deletedBy": "Fshirë nga",
+    "!enums": {
+      "status": {
+        "open": "Hapur",
+        "under_review": "Nën shqyrtim",
+        "resolved": "Zgjidhur",
+        "closed": "Mbyllur"
+      }
+    }
+  },
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "status": {
+    "open": "Hapur",
+    "under_review": "Nën shqyrtim",
+    "resolved": "Zgjidhur",
+    "closed": "Mbyllur"
+  }
+}

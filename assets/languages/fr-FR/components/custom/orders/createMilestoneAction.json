@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/createMilestoneAction.tsx",
+  "title": "Ajouter une étape",
+  "description": "Divisez la commande en une partie que vous pouvez verser au prestataire avant la livraison finale. La devise de la commande s'applique.",
+  "nameLabel": "Nom",
+  "amountLabel": "Montant",
+  "amountHint": "L'ensemble des étapes ne peut pas dépasser le montant de la commande.",
+  "confirm": "Ajouter l'étape",
+  "cancel": "Annuler",
+  "axios": {
+    "start": {
+      "title": "Ajout de l'étape",
+      "time": 3000
+    },
+    "success": {
+      "title": "Étape ajoutée",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible d'ajouter l'étape, veuillez réessayer",
+      "time": 3000
+    }
+  }
+}

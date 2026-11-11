@@ -1,0 +1,22 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderRevisions/center/sheetView/orderRevisionSheetView.tsx",
+  "failedTitle": "Échec du chargement",
+  "failedDescription": "Une erreur s'est produite lors du chargement. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "overview": "Vue d'ensemble",
+  "lifecycle": "Cycle de vie",
+  "createdAt": "Créé le",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par",
+  "order": "Commande",
+  "status": "Statut",
+  "orderRevisionSubtitle": "Demande de révision",
+  "requestedBy": "Demandée par",
+  "reason": "Motif",
+  "orderRevisionStatus": {
+    "pending": "En attente",
+    "completed": "Traitée"
+  }
+}

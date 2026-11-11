@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderMilestones/center/sheetView/orderMilestoneSheetView.tsx",
+  "failedTitle": "Failed to load",
+  "failedDescription": "Something went wrong while loading. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "overview": "Overview",
+  "lifecycle": "Lifecycle",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "order": "Order",
+  "status": "Status",
+  "orderMilestoneSubtitle": "Milestone",
+  "amount": "Amount",
+  "orderIndex": "Order in sequence",
+  "orderMilestoneStatus": {
+    "pending": "Pending",
+    "released": "Released",
+    "delivered": "Delivered"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/cardView/bookingCard.tsx",
+  "failedTitle": "Dështoi ngarkimi i rezervimit",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "provider": "Ofruesi",
+  "startAt": "Fillimi",
+  "endAt": "Mbarimi",
+  "timezone": "Zona orare",
+  "order": "Porosia",
+  "time": "Ora",
+  "orderStatus": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "in_progress": "Në progres",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar"
+  }
+}

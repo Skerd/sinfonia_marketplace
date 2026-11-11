@@ -1,0 +1,67 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/editProviderProfile.tsx",
+  "editTitle": "Edit provider profile",
+  "editDescription": "Update skills, bio, portfolio, and weekly availability for this provider.",
+  "errorTitle": "Could not load provider profile",
+  "errorDescription": "Check the link or return to the list and try again.",
+  "formHeader": {
+    "title": "Edit provider profile",
+    "description": "Update skills, bio, portfolio, and availability."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Save changes"
+  },
+  "form": {
+    "skillsLabel": "Skills",
+    "skillsPlaceholder": "e.g. plumbing, electrical...",
+    "skillsRemoveTooltip": "Remove skill",
+    "bioLabel": "Bio",
+    "bioPlaceholder": "Tell clients about yourself...",
+    "portfolioLabel": "Portfolio images",
+    "timezoneLabel": "Time zone",
+    "timezonePlaceholder": "The company's time zone if left empty",
+    "section": {
+      "profile": "Profile",
+      "availability": "Weekly availability",
+      "portfolio": "Portfolio"
+    },
+    "availabilityAddRow": "Add time window",
+    "availabilityRemoveRow": "Remove",
+    "availabilityRowTitle": "Availability window",
+    "dayOfWeekLabel": "Day of week",
+    "startTimeLabel": "Start time",
+    "startTimePlaceholder": "Pick start time",
+    "endTimeLabel": "End time",
+    "endTimePlaceholder": "Pick end time"
+  },
+  "weekday": {
+    "0": "Sunday",
+    "1": "Monday",
+    "2": "Tuesday",
+    "3": "Wednesday",
+    "4": "Thursday",
+    "5": "Friday",
+    "6": "Saturday"
+  },
+  "axios": {
+    "start": {
+      "title": "Saving profile",
+      "time": 3000
+    },
+    "success": {
+      "title": "Profile updated",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not update profile",
+      "time": 3000
+    }
+  },
+  "account": {
+    "edit": "Edit",
+    "empty": "Nothing added yet.",
+    "timezoneDefault": "Not set: the company's time zone applies.",
+    "notAvailable": "Not available"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/sheetView/orderSheetView.tsx",
+  "order": "Auftrag",
+  "listingLabel": "Inserat",
+  "listing": {
+    "title": "Inserat"
+  },
+  "taskRequest": "Ausschreibung",
+  "bid": "Offerte",
+  "customer": "Kunde",
+  "provider": "Anbieter",
+  "amount": "Betrag",
+  "currency": "Währung",
+  "deliveryDueDate": "Fälligkeitsdatum",
+  "status": "Status",
+  "createdAt": "Erstellt",
+  "overview": "Übersicht",
+  "references": "Referenzen",
+  "failedTitle": "Auftrag konnte nicht geladen werden",
+  "failedDescription": "Der Auftrag konnte nicht geladen werden. Klicken Sie, um ihn erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "orderStatus": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "in_progress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert"
+  },
+  "note": "Notiz des Kunden",
+  "deliveries": "Lieferungen",
+  "milestones": "Meilensteine",
+  "revisions": "Überarbeitungsanfragen",
+  "lifecycle": "Lebenszyklus",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "milestone": "Meilenstein",
+  "delivery": "Lieferung",
+  "revision": "Überarbeitungsanfrage",
+  "orderMilestoneStatus": {
+    "pending": "Ausstehend",
+    "released": "Freigegeben",
+    "delivered": "Geliefert"
+  },
+  "orderDeliveryStatus": {
+    "submitted": "Eingereicht",
+    "accepted": "Angenommen",
+    "revision_requested": "Überarbeitung angefordert"
+  },
+  "orderRevisionStatus": {
+    "pending": "Ausstehend",
+    "completed": "Beantwortet"
+  },
+  "disputesGroup": "Streitfälle",
+  "bookingsGroup": "Buchungen",
+  "reviewsGroup": "Bewertungen",
+  "disputeRow": "Streitfall",
+  "bookingRow": "Buchung",
+  "reviewRow": "Bewertung",
+  "disputeStatus": {
+    "open": "Offen",
+    "under_review": "In Prüfung",
+    "resolved": "Erledigt",
+    "closed": "Geschlossen"
+  },
+  "compactView": "Kompakt",
+  "cardsView": "Karten",
+  "toggleReferenceListView": "Ansicht umschalten"
+}

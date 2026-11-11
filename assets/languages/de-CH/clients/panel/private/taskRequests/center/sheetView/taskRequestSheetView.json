@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/sheetView/taskRequestSheetView.tsx",
+  "taskRequest": "Ausschreibung",
+  "overview": "Übersicht",
+  "lifecycle": "Lebenszyklus",
+  "description": "Beschreibung",
+  "section": {
+    "generalInfo": "Übersicht",
+    "description": "Beschreibung",
+    "media": "Galerie"
+  },
+  "name": "Name",
+  "title": "Bezeichnung",
+  "status": "Status",
+  "category": "Kategorie",
+  "requester": "Auftraggeber",
+  "budgetMin": "Budget (min.)",
+  "budgetMax": "Budget (max.)",
+  "currency": "Währung",
+  "address": "Adresse",
+  "country": "Land",
+  "state": "Kanton",
+  "city": "Ort",
+  "street": "Strasse",
+  "postalCode": "Postleitzahl",
+  "latitude": "Breitengrad",
+  "longitude": "Längengrad",
+  "expiresAt": "Läuft ab",
+  "gallery": "Galerie",
+  "createdAt": "Erstellt am",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "failedTitle": "Ausschreibung konnte nicht geladen werden",
+  "failedDescription": "Die Ausschreibung konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "taskRequestStatus": {
+    "open": "Offen",
+    "closed": "Geschlossen",
+    "awarded": "Zuschlag"
+  },
+  "bidsGroup": "Offerten",
+  "ordersGroup": "Auftrag",
+  "bidRow": "Offerte",
+  "orderRow": "Auftrag",
+  "bidStatus": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "rejected": "Abgelehnt"
+  },
+  "orderStatus": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "in_progress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert"
+  },
+  "compactView": "Kompakt",
+  "cardsView": "Karten",
+  "toggleReferenceListView": "Ansicht umschalten"
+}

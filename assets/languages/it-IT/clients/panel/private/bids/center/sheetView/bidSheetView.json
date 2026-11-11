@@ -1,0 +1,31 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/center/sheetView/bidSheetView.tsx",
+  "bid": "Offerta",
+  "name": "Nome",
+  "overview": "Panoramica",
+  "amount": "Importo",
+  "currency": "Valuta",
+  "deliveryDays": "Tempi di consegna",
+  "proposal": "Proposta",
+  "status": "Stato",
+  "bidder": "Offerente",
+  "taskRequest": "Richiesta di preventivo",
+  "failedTitle": "Impossibile caricare l'offerta",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questa offerta. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "bidStatus": {
+    "pending": "In sospeso",
+    "accepted": "Accettata",
+    "rejected": "Rifiutata"
+  },
+  "lifecycle": "Ciclo di vita",
+  "createdAt": "Creato il",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da",
+  "deliveryDaysValue": {
+    "one": "{value} giorno",
+    "other": "{value} giorni"
+  }
+}

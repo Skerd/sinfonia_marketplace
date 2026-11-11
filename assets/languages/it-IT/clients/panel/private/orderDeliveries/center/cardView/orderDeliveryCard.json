@@ -1,0 +1,14 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderDeliveries/center/cardView/orderDeliveryCard.tsx",
+  "failedTitle": "Caricamento non riuscito",
+  "failedDescription": "Tocca per riprovare.",
+  "attachments": "Allegati",
+  "orderDeliveryStatus": {
+    "submitted": "Inviata",
+    "accepted": "Accettata",
+    "revision_requested": "Revisione richiesta"
+  },
+  "status": "Stato",
+  "message": "Messaggio",
+  "delivery": "Consegna"
+}

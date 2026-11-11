@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/center/sheetView/disputeSheetView.tsx",
+  "dispute": "Mosmarrëveshja",
+  "overview": "Vështrim i përgjithshëm",
+  "details": "Detajet",
+  "order": "Porosia",
+  "initiator": "Iniciatori",
+  "reason": "Arsyeja",
+  "resolution": "Zgjidhja",
+  "status": "Statusi",
+  "createdAt": "Hapur",
+  "failedTitle": "Ngarkimi i mosmarrëveshjes dështoi",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të mosmarrëveshjes. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "status_values": {
+    "open": "Hapur",
+    "under_review": "Nën shqyrtim",
+    "resolved": "Zgjidhur",
+    "closed": "Mbyllur"
+  },
+  "lifecycle": "Cikli i jetës",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga"
+}

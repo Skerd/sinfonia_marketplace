@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/jobs/index.tsx",
+  "title": "Meine Ausschreibungen",
+  "lead": "Beschreiben Sie Ihren Bedarf, und Anbieter senden Ihnen Angebote.",
+  "postJob": "Auftrag ausschreiben",
+  "loading": "Ausschreibungen werden geladen",
+  "emptyTitle": "Keine Ausschreibungen",
+  "emptyMessage": "Schreiben Sie einen Auftrag mit Budget und Ort aus und vergleichen Sie die Angebote der Anbieter.",
+  "expiresOn": "Offen bis {date}",
+  "bidCount": "{count} Angebote",
+  "bidCountOne": "1 Angebot",
+  "pagination": "Seiten",
+  "previousPage": "Vorherige Seite",
+  "nextPage": "Nächste Seite",
+  "pageOf": "Seite {page} von {total}"
+}

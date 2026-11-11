@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/center/cardView/disputeCard.tsx",
+  "failedTitle": "Streitfall konnten nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "reason": "Grund",
+  "initiator": "Initiator",
+  "order": "Auftrag",
+  "status": "Status",
+  "amount": "Betrag",
+  "status_values": {
+    "open": "Offen",
+    "under_review": "In Prüfung",
+    "resolved": "Erledigt",
+    "closed": "Geschlossen"
+  },
+  "createdAt": "Eröffnet"
+}

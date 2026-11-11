@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/sheetView/listingPackageSheetView.tsx",
+  "failedTitle": "Failed to load listing package",
+  "failedDescription": "Something went wrong while loading this listing package. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "listingPackageSubtitle": "Listing package",
+  "overview": "Overview",
+  "lifecycle": "Lifecycle",
+  "description": "Description",
+  "name": "Name",
+  "listing": "Listing",
+  "provider": "Provider",
+  "priceAmount": "Price",
+  "currency": "Currency",
+  "deliveryDays": "Delivery time",
+  "displayOrder": "Display order",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "deliveryDaysValue": {
+    "one": "{value} day",
+    "other": "{value} days"
+  }
+}

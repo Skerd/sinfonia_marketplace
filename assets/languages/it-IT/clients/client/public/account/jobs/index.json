@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/jobs/index.tsx",
+  "title": "I miei lavori",
+  "lead": "Descrivi ciò che ti serve e i fornitori ti inviano offerte.",
+  "postJob": "Pubblica un lavoro",
+  "loading": "Caricamento dei lavori",
+  "emptyTitle": "Nessun lavoro pubblicato",
+  "emptyMessage": "Pubblica un lavoro con budget e luogo, e confronta le offerte dei fornitori.",
+  "expiresOn": "Aperto fino al {date}",
+  "bidCount": "{count} offerte",
+  "bidCountOne": "1 offerta",
+  "pagination": "Pagine",
+  "previousPage": "Pagina precedente",
+  "nextPage": "Pagina successiva",
+  "pageOf": "Pagina {page} di {total}"
+}

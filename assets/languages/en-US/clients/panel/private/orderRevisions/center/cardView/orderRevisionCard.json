@@ -1,0 +1,13 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderRevisions/center/cardView/orderRevisionCard.tsx",
+  "failedTitle": "Failed to load",
+  "failedDescription": "Tap to retry.",
+  "orderRevisionStatus": {
+    "pending": "Pending",
+    "completed": "Answered"
+  },
+  "status": "Status",
+  "reason": "Reason",
+  "requestedBy": "Requested by",
+  "revision": "Revision request"
+}

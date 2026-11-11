@@ -1,0 +1,39 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/createListingAddOn.tsx",
+  "formHeader": {
+    "title": "Create listing add-on",
+    "description": "Add an optional service or upgrade that customers can purchase alongside a listing."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Create listing add-on"
+  },
+  "form": {
+    "listingIdLabel": "Listing",
+    "listingIdPlaceholder": "Select listing",
+    "nameLabel": "Add-on name",
+    "namePlaceholder": "e.g. Express delivery",
+    "priceAmountLabel": "Price",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Currency",
+    "currencyPlaceholder": "The listing's currency if left empty",
+    "deliveryDaysLabel": "Delivery days",
+    "deliveryDaysPlaceholder": "e.g. 2",
+    "basicsSectionTitle": "Basics",
+    "pricingSectionTitle": "Prices"
+  },
+  "axios": {
+    "start": {
+      "title": "Creating add-on",
+      "time": 3000
+    },
+    "success": {
+      "title": "Add-on created",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not create add-on",
+      "time": 3000
+    }
+  }
+}

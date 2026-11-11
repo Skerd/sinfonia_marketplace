@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/index.tsx",
+  "title": "Segnalazioni degli annunci",
+  "description": "Esamina le segnalazioni inviate dagli utenti per annunci inappropriati.",
+  "help": {
+    "ariaLabel": "Informazioni sulle segnalazioni degli annunci",
+    "title": "Informazioni sulle segnalazioni degli annunci",
+    "overview": "Una segnalazione di annuncio è un rapporto di moderazione: un utente indica un annuncio come inappropriato, spam, ingannevole o altro, con un commento facoltativo. Gli amministratori esaminano e decidono le segnalazioni.",
+    "sections": [
+      {
+        "title": "Segnalare",
+        "items": [
+          "L’autore è chi crea la segnalazione. Una sola segnalazione attiva per utente e annuncio.",
+          "Finché è in attesa, l’autore può ancora modificare motivo e commento; l’annuncio è fisso.",
+          "Le segnalazioni sono private: gli amministratori le vedono tutte, gli altri solo le proprie."
+        ]
+      },
+      {
+        "title": "Stati e decisioni",
+        "body": "Solo un amministratore decide, solo finché la segnalazione è in attesa, e una nota di risoluzione è sempre obbligatoria.",
+        "items": [
+          "In attesa: attende una decisione.",
+          "Risolvi segna la segnalazione come esaminata (accolta). Scegli disattiva per mettere offline l’annuncio contestualmente, o nessuna per lasciarlo online.",
+          "Archivia segna la segnalazione come respinta."
+        ]
+      },
+      {
+        "title": "Eliminazione",
+        "items": [
+          "L’eliminazione è logica e la segnalazione può essere ripristinata, salvo che lo stesso utente abbia nel frattempo segnalato di nuovo quell’annuncio."
+        ]
+      }
+    ]
+  },
+  "createListingFlag": "Crea segnalazione dell'annuncio",
+  "searchPlaceholder": "Cerca o aggiungi filtri...",
+  "fields": {
+    "listing": "Annuncio",
+    "reason": "Motivo",
+    "status": "Stato",
+    "user": "Segnalatore",
+    "comment": "Commento",
+    "resolution": "Risoluzione",
+    "company": "Azienda",
+    "createdBy": "Creato da",
+    "createdAt": "Creato il",
+    "updatedAt": "Aggiornato il",
+    "deletedAt": "Eliminato il",
+    "deletedBy": "Eliminato da",
+    "!enums": {
+      "status": {
+        "pending": "In sospeso",
+        "reviewed": "Esaminata",
+        "dismissed": "Respinta"
+      },
+      "reason": {
+        "inappropriate": "Contenuti inappropriati",
+        "spam": "Spam",
+        "misleading": "Fuorviante",
+        "other": "Altro"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/index.tsx",
+  "title": "Inserat-Meldungen",
+  "description": "Von Benutzern eingereichte Meldungen zu unangemessenen Inseraten prüfen.",
+  "help": {
+    "ariaLabel": "Über Inserat-Meldungen",
+    "title": "Über Inserat-Meldungen",
+    "overview": "Eine Inseratmeldung ist ein Moderationshinweis: Ein Benutzer markiert ein Inserat als unangemessen, Spam, irreführend oder anderes, mit optionalem Kommentar. Administratoren prüfen und entscheiden Meldungen.",
+    "sections": [
+      {
+        "title": "Melden",
+        "items": [
+          "Der Meldende ist, wer die Meldung anlegt. Eine aktive Meldung pro Benutzer und Inserat.",
+          "Solange sie ausstehend ist, kann der Meldende Grund und Kommentar noch bearbeiten; das Inserat ist fest.",
+          "Meldungen sind privat: Administratoren sehen alle, alle anderen nur ihre eigenen."
+        ]
+      },
+      {
+        "title": "Status und Entscheide",
+        "body": "Nur ein Administrator kann entscheiden, nur solange die Meldung ausstehend ist, und eine Begründung ist immer Pflicht.",
+        "items": [
+          "Ausstehend: wartet auf einen Entscheid.",
+          "Erledigen markiert die Meldung als geprüft (bestätigt). Wählen Sie Deaktivieren, um das Inserat gleichzeitig offline zu nehmen, oder Keine, um es online zu lassen.",
+          "Verwerfen markiert die Meldung als verworfen (abgewiesen)."
+        ]
+      },
+      {
+        "title": "Löschen",
+        "items": [
+          "Löschen ist ein Soft Delete und kann wiederhergestellt werden, ausser derselbe Benutzer hat inzwischen eine neue Meldung zu diesem Inserat erstellt."
+        ]
+      }
+    ]
+  },
+  "createListingFlag": "Inserat-Meldung erstellen",
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "fields": {
+    "listing": "Inserat",
+    "reason": "Grund",
+    "status": "Status",
+    "user": "Meldende Person",
+    "comment": "Kommentar",
+    "resolution": "Lösung",
+    "company": "Firma",
+    "createdBy": "Erstellt von",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "deletedAt": "Gelöscht am",
+    "deletedBy": "Gelöscht von",
+    "!enums": {
+      "status": {
+        "pending": "Ausstehend",
+        "reviewed": "Geprüft",
+        "dismissed": "Verworfen"
+      },
+      "reason": {
+        "inappropriate": "Unangemessener Inhalt",
+        "spam": "Spam",
+        "misleading": "Irreführend",
+        "other": "Andere"
+      }
+    }
+  }
+}

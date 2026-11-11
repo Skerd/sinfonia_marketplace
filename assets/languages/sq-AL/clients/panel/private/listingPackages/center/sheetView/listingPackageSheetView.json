@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/sheetView/listingPackageSheetView.tsx",
+  "failedTitle": "Dështoi ngarkimi i paketës së listimit",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të paketës së listimit. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "listingPackageSubtitle": "Paketë listimi",
+  "overview": "Përmbledhje",
+  "lifecycle": "Cikli i jetës",
+  "description": "Përshkrimi",
+  "name": "Emri",
+  "listing": "Listimi",
+  "provider": "Ofruesi",
+  "priceAmount": "Çmimi",
+  "currency": "Valuta",
+  "deliveryDays": "Koha e dorëzimit",
+  "displayOrder": "Renditja",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "deliveryDaysValue": {
+    "one": "{value} ditë",
+    "other": "{value} ditë"
+  }
+}

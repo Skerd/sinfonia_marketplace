@@ -1,0 +1,9 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/center/cardView/categoryCard.tsx",
+  "failedTitle": "Échec du chargement de la catégorie d'annonce",
+  "failedDescription": "Touchez pour réessayer.",
+  "name": "Nom",
+  "slug": "Identifiant",
+  "parentListingCategory": "Catégorie parente",
+  "order": "Commande"
+}

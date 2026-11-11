@@ -1,0 +1,43 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossibile inviare l'offerta"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Invio offerta"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Offerta presentata"
+    }
+  },
+  "form": {
+    "amountLabel": "Importo dell'offerta",
+    "amountPlaceholder": "0.00",
+    "currencyIdLabel": "Valuta",
+    "currencyIdPlaceholder": "Seleziona valuta",
+    "deliveryDaysLabel": "Giorni di consegna",
+    "deliveryDaysPlaceholder": "es. 7",
+    "proposalLabel": "Proposta",
+    "proposalPlaceholder": "Descrivi il tuo approccio...",
+    "taskRequestIdLabel": "Richiesta di preventivo",
+    "taskRequestIdPlaceholder": "Seleziona la richiesta di preventivo",
+    "section": {
+      "taskRequest": "Richiesta di preventivo",
+      "offer": "La tua offerta"
+    },
+    "amountCurrencyDescription": "Nella valuta della richiesta di preventivo."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Invia offerta"
+  },
+  "formHeader": {
+    "description": "Invia un'offerta per una richiesta di preventivo.",
+    "title": "Crea offerta"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/bids/createBid.tsx",
+  "title": "Titolo"
+}

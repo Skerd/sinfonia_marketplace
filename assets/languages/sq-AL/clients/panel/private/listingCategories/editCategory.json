@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/editCategory.tsx",
+  "editTitle": "Redakto kategorinë e listimit",
+  "editDescription": "Përditësoni këtë kategori listimi.",
+  "errorTitle": "Nuk u ngarkua kategoria",
+  "errorDescription": "Nuk mund të ngarkohej kategoria. Provoni përsëri.",
+  "form": {
+    "_idLabel": "ID e regjistrit",
+    "nameLabel": "Emri",
+    "namePlaceholder": "p.sh. Pastrim shtëpie",
+    "parentListingCategoryLabel": "Kategoria prind",
+    "parentListingCategoryPlaceholder": "Nivel kryesor nëse lihet bosh",
+    "orderLabel": "Rendi",
+    "orderPlaceholder": "0",
+    "editCategoryTitle": "Redakto kategorinë e listimit",
+    "editCategoryDescription": "Përditësoni këtë kategori listimi.",
+    "basicsSectionTitle": "Të dhënat bazë",
+    "visibilitySectionTitle": "Dukshmëria"
+  },
+  "axios": {
+    "start": {
+      "title": "Duke ruajtur kategorinë e listimit",
+      "time": 3000
+    },
+    "success": {
+      "title": "Kategoria e listimit u përditësua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Kategoria e listimit nuk u përditësua dot",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Redakto kategorinë e listimit",
+    "description": "Përditësoni këtë kategori listimi."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Ruaj ndryshimet"
+  }
+}

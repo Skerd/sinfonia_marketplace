@@ -1,0 +1,85 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderDetail.tsx",
+  "loading": "Caricamento dell'ordine",
+  "notFound": "Ordine non trovato",
+  "backToOrders": "Torna agli ordini di servizi",
+  "placedTitle": "Ordine inviato",
+  "placedMessage": "Il fornitore è stato avvisato e confermerà a breve. Riceverai aggiornamenti qui e tramite notifica.",
+  "placedOn": "Effettuato il {date}",
+  "disputeOpen": "Controversia aperta",
+  "cancelledBanner": "Questo ordine è stato annullato. Gli importi trattenuti sono stati rimborsati.",
+  "progressLabel": "Avanzamento dell'ordine",
+  "steps": {
+    "pending": "Ordinato",
+    "accepted": "Accettato",
+    "in_progress": "In corso",
+    "completed": "Completato"
+  },
+  "deliveryReadyTitle": "La consegna è pronta",
+  "deliveryReadyMessage": "Controlla il lavoro qui sotto. Accettalo per completare l'ordine e rilasciare il pagamento, oppure chiedi modifiche.",
+  "acceptDelivery": "Accetta la consegna",
+  "requestRevision": "Chiedi modifiche",
+  "panel": {
+    "cancel": {
+      "title": "Annullare questo ordine?",
+      "message": "Il fornitore non ha ancora iniziato, quindi puoi annullare senza aprire una controversia. Gli importi trattenuti vengono rimborsati.",
+      "submit": "Sì, annulla l'ordine"
+    },
+    "revision": {
+      "title": "Chiedi modifiche",
+      "message": "Spiega al fornitore cosa cambiare. Invierà una nuova consegna.",
+      "field": "Cosa va cambiato? (almeno 10 caratteri)",
+      "submit": "Invia richiesta"
+    },
+    "dispute": {
+      "title": "Segnala un problema",
+      "message": "Il nostro team esamina l'ordine con te e con il fornitore. Il pagamento resta bloccato fino alla risoluzione.",
+      "field": "Cosa è andato storto?",
+      "submit": "Apri controversia"
+    },
+    "review": {
+      "title": "Valuta questo servizio",
+      "message": "La tua recensione aiuta gli altri clienti a scegliere.",
+      "field": "La tua recensione (facoltativa)",
+      "submit": "Pubblica recensione"
+    }
+  },
+  "ratingLabel": "Valutazione",
+  "starsOption": "{count} stelle",
+  "working": "Attendere…",
+  "back": "Indietro",
+  "noteTitle": "Il tuo messaggio al fornitore",
+  "deliveriesTitle": "Consegne",
+  "noDeliveries": "Ancora nessuna consegna. File e messaggi del fornitore compaiono qui.",
+  "attachment": "Allegato",
+  "downloadError": "Impossibile scaricare il file.",
+  "revisionsTitle": "Richieste di modifica",
+  "revisionStatus": {
+    "pending": "Aperta",
+    "completed": "Completata"
+  },
+  "milestonesTitle": "Milestone",
+  "releaseMilestone": "Rilascia pagamento",
+  "bookingsTitle": "Sessioni programmate",
+  "provider": "Fornitore",
+  "dueDate": "Scadenza",
+  "total": "Totale",
+  "viewService": "Vedi il servizio",
+  "leaveReview": "Lascia una recensione",
+  "bookSession": "Prenota una sessione",
+  "reportProblem": "Segnala un problema",
+  "cancelOrder": "Annulla ordine",
+  "reviewedNote": "Grazie — hai recensito questo ordine.",
+  "actionError": "Non è andata a buon fine. Riprova.",
+  "deliveryAccepted": "Consegna accettata. L'ordine è completato.",
+  "revisionSent": "Richiesta di modifica inviata",
+  "disputeOpened": "Controversia aperta. Ti contatteremo.",
+  "reviewThanks": "Grazie per la recensione!",
+  "cancelled": "Ordine annullato",
+  "milestoneReleased": "Pagamento della milestone rilasciato",
+  "payEscrowTitle": "Paga questo ordine",
+  "payEscrowHint": "Il fornitore ha accettato l'ordine. Completa il pagamento per depositare l'importo in garanzia.",
+  "payEscrowButton": "Paga ora",
+  "payEscrowSuccess": "Pagamento inviato",
+  "payEscrowError": "Pagamento non riuscito"
+}

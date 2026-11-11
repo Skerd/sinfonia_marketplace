@@ -1,0 +1,67 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/editProviderProfile.tsx",
+  "editTitle": "Anbieterprofil bearbeiten",
+  "editDescription": "Fähigkeiten, Biografie, Portfolio und wöchentliche Verfügbarkeit dieses Anbieters aktualisieren.",
+  "errorTitle": "Anbieterprofil konnte nicht geladen werden",
+  "errorDescription": "Prüfen Sie den Link oder kehren Sie zur Liste zurück und versuchen Sie es erneut.",
+  "formHeader": {
+    "title": "Anbieterprofil bearbeiten",
+    "description": "Fähigkeiten, Biografie, Portfolio und Verfügbarkeit aktualisieren."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Änderungen speichern"
+  },
+  "form": {
+    "skillsLabel": "Fähigkeiten",
+    "skillsPlaceholder": "z. B. Sanitär, Elektro...",
+    "skillsRemoveTooltip": "Fähigkeit entfernen",
+    "bioLabel": "Biografie",
+    "bioPlaceholder": "Erzählen Sie Ihren Kunden etwas über sich...",
+    "portfolioLabel": "Portfoliobilder",
+    "timezoneLabel": "Zeitzone",
+    "timezonePlaceholder": "Zeitzone der Firma, wenn leer",
+    "section": {
+      "profile": "Profil",
+      "availability": "Wöchentliche Verfügbarkeit",
+      "portfolio": "Portfolio"
+    },
+    "availabilityAddRow": "Zeitfenster hinzufügen",
+    "availabilityRemoveRow": "Entfernen",
+    "availabilityRowTitle": "Zeitfenster",
+    "dayOfWeekLabel": "Wochentag",
+    "startTimeLabel": "Startzeit",
+    "startTimePlaceholder": "Startzeit wählen",
+    "endTimeLabel": "Endzeit",
+    "endTimePlaceholder": "Endzeit wählen"
+  },
+  "weekday": {
+    "0": "Sonntag",
+    "1": "Montag",
+    "2": "Dienstag",
+    "3": "Mittwoch",
+    "4": "Donnerstag",
+    "5": "Freitag",
+    "6": "Samstag"
+  },
+  "axios": {
+    "start": {
+      "title": "Profil wird gespeichert",
+      "time": 3000
+    },
+    "success": {
+      "title": "Profil aktualisiert",
+      "time": 3000
+    },
+    "error": {
+      "title": "Profil konnte nicht aktualisiert werden",
+      "time": 3000
+    }
+  },
+  "account": {
+    "edit": "Bearbeiten",
+    "empty": "Noch nichts erfasst.",
+    "timezoneDefault": "Nicht gesetzt: Es gilt die Zeitzone der Firma.",
+    "notAvailable": "Nicht verfügbar"
+  }
+}

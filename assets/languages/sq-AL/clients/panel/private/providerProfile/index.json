@@ -1,0 +1,48 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/index.tsx",
+  "title": "Profilet e ofruesve",
+  "description": "Të gjitha profilet e ofruesve në kompani.",
+  "help": {
+    "ariaLabel": "Rreth profileve të ofruesit",
+    "title": "Rreth profileve të ofruesit",
+    "overview": "Një profil ofruesi është kartela e shitësit të një përdoruesi në treg: biografia, aftësitë, portofoli, disponueshmëria javore, reputacioni dhe llogaria Stripe Connect që merr pagesat. Çdo përdorues ka të shumtën një profil aktiv.",
+    "sections": [
+      {
+        "title": "Fushat e profilit",
+        "items": [
+          "Biografia, aftësitë dhe portofoli e përshkruajnë ofruesin në dyqan.",
+          "Disponueshmëria është një listë intervalesh javore: dita e javës, ora e fillimit dhe ora e mbarimit.",
+          "Reputacioni llogaritet, nuk shkruhet: nota mesatare e vlerësimeve në të gjitha porositë e tij, dhe pjesa e porosive të mbaruara që përfunduan në vend që të anuloheshin."
+        ]
+      },
+      {
+        "title": "Ku ndryshohen profilet",
+        "items": [
+          "Kjo faqe liston çdo profil ofruesi të kompanisë; një i ri pyet cilit përdorues i përket.",
+          "Çdo përdorues ndryshon edhe të vetin te Cilësimet → Profili i ofruesit, ku hapet drejtpërdrejt si formular."
+        ]
+      },
+      {
+        "title": "Pagesat me Stripe Connect",
+        "body": "Pagesat kërkojnë portën e pagesës dhe adresat e kthimit dhe rifreskimit të Connect të konfiguruara.",
+        "items": [
+          "Krijo lidhjen e llogarisë nis ose vazhdon regjistrimin në Stripe Express për profilin e përdoruesit të identifikuar dhe kthen faqen që duhet hapur.",
+          "Rifresko statusin e llogarisë sjell nga Stripe në profil shenjat «arkëtimet aktive», «pagesat dalëse aktive» dhe «të dhënat e dorëzuara».",
+          "Kur lirohet depozita e një porosie, pjesa e ofruesit transferohet në këtë llogari nëse ekziston.",
+          "Fshirja e një profili është fshirje e butë dhe mund të rikthehet; një profil i fshirë nuk përdoret për Connect."
+        ]
+      }
+    ]
+  },
+  "createProviderProfile": "Krijo profil ofruesi",
+  "fields": {
+    "provider": "Ofruesi",
+    "bio": "Biografia",
+    "skills": "Aftësi",
+    "rating": "Vlerësimi",
+    "createdAt": "Krijuar",
+    "deletedAt": "Fshirë",
+    "deletedBy": "Fshirë nga"
+  },
+  "searchPlaceholder": "Kërko ose shto filtra..."
+}

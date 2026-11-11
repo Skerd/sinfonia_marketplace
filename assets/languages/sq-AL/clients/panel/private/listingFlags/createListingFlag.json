@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/createListingFlag.tsx",
+  "formHeader": {
+    "title": "Krijo raportim listimi",
+    "description": "Raporto një listim për shqyrtim nga ekipi i moderimit."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Dërgo raportimin"
+  },
+  "form": {
+    "listingLabel": "Listimi",
+    "listingPlaceholder": "Zgjidh listimin",
+    "reasonLabel": "Arsyeja",
+    "reasonPlaceholder": "Zgjidh arsyen",
+    "commentLabel": "Detaje shtesë",
+    "commentPlaceholder": "Detaje opsionale...",
+    "reason_values": {
+      "inappropriate": "Përmbajtje e papërshtatshme",
+      "spam": "Spam",
+      "misleading": "Mashtruese",
+      "other": "Tjetër"
+    },
+    "reportSectionTitle": "Raportimi"
+  },
+  "axios": {
+    "start": {
+      "title": "Duke dërguar raportimin",
+      "time": 3000
+    },
+    "success": {
+      "title": "Raportimi u dërgua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Nuk u dërgua raportimi",
+      "time": 3000
+    }
+  }
+}

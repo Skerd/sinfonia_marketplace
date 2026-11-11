@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/center/sheetView/disputeSheetView.tsx",
+  "dispute": "Streitfall",
+  "overview": "Übersicht",
+  "details": "Details",
+  "order": "Auftrag",
+  "initiator": "Initiator",
+  "reason": "Grund",
+  "resolution": "Lösung",
+  "status": "Status",
+  "createdAt": "Eröffnet",
+  "failedTitle": "Streitfall konnten nicht geladen werden",
+  "failedDescription": "Der Streitfall konnte nicht geladen werden. Klicken Sie, um ihn erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "status_values": {
+    "open": "Offen",
+    "under_review": "In Prüfung",
+    "resolved": "Erledigt",
+    "closed": "Geschlossen"
+  },
+  "lifecycle": "Lebenszyklus",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von"
+}

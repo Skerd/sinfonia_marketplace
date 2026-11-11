@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/index.tsx",
+  "title": "Offerten",
+  "description": "Offerten auf Ausschreibungen anzeigen und verwalten.",
+  "help": {
+    "ariaLabel": "Über Offerten",
+    "title": "Über Offerten",
+    "overview": "Eine Offerte ist das Angebot eines Anbieters auf eine Ausschreibung: Betrag, Liefertage und ein schriftlicher Vorschlag. Nimmt der Auftraggeber eine Offerte an, wird die Ausschreibung vergeben und ein Auftrag eröffnet.",
+    "sections": [
+      {
+        "title": "Eine Offerte einreichen",
+        "items": [
+          "Die Ausschreibung muss offen, nicht abgelaufen und von jemand anderem sein.",
+          "Eine aktive Offerte pro Bieter und Ausschreibung. Bieter und Währung setzt der Server, aus dem Aufrufer und der Ausschreibung.",
+          "Offerten werden nach dem Einreichen nicht bearbeitet; ziehen Sie sie zurück und reichen Sie eine neue ein."
+        ]
+      },
+      {
+        "title": "Status und Aktionen",
+        "body": "Nur eine ausstehende Offerte kann angenommen oder abgelehnt werden.",
+        "items": [
+          "Annehmen (nur Auftraggeber): Diese Offerte wird angenommen, jede andere ausstehende Offerte auf die Ausschreibung abgelehnt, die Ausschreibung vergeben und ein ausstehender Auftrag mit dem Offertbetrag und einem Fälligkeitsdatum aus ihren Liefertagen eröffnet. Die Bieter werden benachrichtigt.",
+          "Ablehnen: Der Auftraggeber lehnt sie ab, oder der Bieter zieht sie zurück. Nur ein abgelehnter Bieter wird benachrichtigt."
+        ]
+      },
+      {
+        "title": "Wer was sieht",
+        "body": "Offerten sind privat zwischen Bieter und Auftraggeber.",
+        "items": [
+          "Ein Nicht-Administrator sieht seine eigenen Offerten und die Offerten auf seine eigenen Ausschreibungen, nie die eines Mitbewerbers.",
+          "Der Bieter oder ein Administrator kann eine Offerte löschen, solange sie aussteht."
+        ]
+      }
+    ]
+  },
+  "createBid": "Offerte erstellen",
+  "fields": {
+    "amount": "Betrag",
+    "currency": "Währung",
+    "proposal": "Vorschlag",
+    "deliveryDays": "Liefertage",
+    "status": "Status",
+    "bidder": "Bieter",
+    "taskRequest": "Ausschreibung",
+    "createdAt": "Erstellt",
+    "!enums": {
+      "status": {
+        "pending": "Ausstehend",
+        "accepted": "Angenommen",
+        "rejected": "Abgelehnt"
+      }
+    }
+  },
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "status": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "rejected": "Abgelehnt"
+  },
+  "accept": "Annehmen",
+  "reject": "Ablehnen / Zurückziehen"
+}

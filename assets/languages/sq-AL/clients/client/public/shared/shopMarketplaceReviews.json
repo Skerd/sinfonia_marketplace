@@ -1,0 +1,8 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/shared/shopMarketplaceReviews.tsx",
+  "title": "Vlerësime",
+  "empty": "Ende pa vlerësime.",
+  "count": "{count} vlerësime",
+  "countOne": "1 vlerësim",
+  "starsValue": "{count} nga 5 yje"
+}

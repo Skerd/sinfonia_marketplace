@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/bids/bidActionConfirmAction.tsx",
+  "accept": {
+    "title": "Accepter cette offre ?",
+    "description": "L'offre sera marquée comme acceptée, la demande de devis attribuée et une commande sera créée. Cela ne peut pas être annulé à partir d’ici.",
+    "confirm": "Accepter l'offre",
+    "axios": {
+      "start": {
+        "title": "Acceptation de l'offre",
+        "time": 3000
+      },
+      "success": {
+        "title": "Offre acceptée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible d'accepter l'offre, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "reject": {
+    "title": "Rejeter cette offre ?",
+    "description": "L'offre sera marquée comme rejetée. Le demandeur de la tâche ou le soumissionnaire peut rejeter une offre en attente.",
+    "confirm": "Rejeter l'offre",
+    "axios": {
+      "start": {
+        "title": "Rejet de l'offre",
+        "time": 3000
+      },
+      "success": {
+        "title": "Offre rejetée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de rejeter l'offre, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

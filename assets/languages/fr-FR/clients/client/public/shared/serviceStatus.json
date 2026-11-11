@@ -1,0 +1,30 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/shared/serviceStatus.tsx",
+  "serviceStatus": {
+    "pending": "En attente du prestataire",
+    "accepted": "Acceptée",
+    "in_progress": "En cours",
+    "completed": "Terminée",
+    "cancelled": "Annulée"
+  },
+  "jobStatus": {
+    "open": "Ouverte",
+    "closed": "Fermée",
+    "awarded": "Attribuée"
+  },
+  "bidStatus": {
+    "pending": "Nouvelle",
+    "accepted": "Acceptée",
+    "rejected": "Refusée"
+  },
+  "deliveryStatus": {
+    "submitted": "En attente de votre validation",
+    "accepted": "Acceptée",
+    "revision_requested": "Modifications demandées"
+  },
+  "milestoneStatus": {
+    "pending": "En attente",
+    "released": "Versé",
+    "delivered": "Livré"
+  }
+}

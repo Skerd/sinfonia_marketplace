@@ -1,0 +1,70 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/sheetView/orderSheetView.tsx",
+  "order": "Order",
+  "listingLabel": "Listing",
+  "listing": {
+    "title": "Listing"
+  },
+  "taskRequest": "Task request",
+  "bid": "Bid",
+  "customer": "Customer",
+  "provider": "Provider",
+  "amount": "Amount",
+  "currency": "Currency",
+  "deliveryDueDate": "Due date",
+  "status": "Status",
+  "createdAt": "Created",
+  "overview": "Overview",
+  "references": "References",
+  "failedTitle": "Failed to load order",
+  "failedDescription": "Something went wrong while loading this order. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "orderStatus": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "note": "Customer note",
+  "deliveries": "Deliveries",
+  "milestones": "Milestones",
+  "revisions": "Revision requests",
+  "lifecycle": "Lifecycle",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "milestone": "Milestone",
+  "delivery": "Delivery",
+  "revision": "Revision request",
+  "orderMilestoneStatus": {
+    "pending": "Pending",
+    "released": "Released",
+    "delivered": "Delivered"
+  },
+  "orderDeliveryStatus": {
+    "submitted": "Submitted",
+    "accepted": "Accepted",
+    "revision_requested": "Revision requested"
+  },
+  "orderRevisionStatus": {
+    "pending": "Pending",
+    "completed": "Answered"
+  },
+  "disputesGroup": "Disputes",
+  "bookingsGroup": "Bookings",
+  "reviewsGroup": "Reviews",
+  "disputeRow": "Dispute",
+  "bookingRow": "Booking",
+  "reviewRow": "Review",
+  "disputeStatus": {
+    "open": "Open",
+    "under_review": "Under Review",
+    "resolved": "Resolved",
+    "closed": "Closed"
+  },
+  "compactView": "Compact",
+  "cardsView": "Cards",
+  "toggleReferenceListView": "Toggle view"
+}

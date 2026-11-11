@@ -1,0 +1,30 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderBookingForm.tsx",
+  "title": "Prenota la tua sessione",
+  "message": "Scegli quando inizia e finisce la sessione. Gli orari sono in {zone}.",
+  "availability": {
+    "title": "Quando il fornitore è disponibile",
+    "zone": "La sessione deve rientrare interamente in una di queste fasce. Sono nel fuso orario del fornitore, {zone}.",
+    "converted": "La sessione deve rientrare interamente in una di queste fasce. Sono indicate nel tuo fuso orario, {zone}; dove gli orari del fornitore ({providerZone}) sono diversi, seguono tra parentesi."
+  },
+  "form": {
+    "startAtLabel": "Inizio",
+    "startAtPlaceholder": "Scegli data e ora di inizio",
+    "endAtLabel": "Fine",
+    "endAtPlaceholder": "Scegli data e ora di fine"
+  },
+  "submit": "Prenota la sessione",
+  "working": "Attendere…",
+  "back": "Indietro",
+  "booked": "Sessione prenotata",
+  "bookError": "Non è stato possibile prenotare la sessione. Riprova.",
+  "weekday": {
+    "0": "Domenica",
+    "1": "Lunedì",
+    "2": "Martedì",
+    "3": "Mercoledì",
+    "4": "Giovedì",
+    "5": "Venerdì",
+    "6": "Sabato"
+  }
+}

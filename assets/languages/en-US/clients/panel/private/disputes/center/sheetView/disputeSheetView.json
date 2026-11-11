@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/center/sheetView/disputeSheetView.tsx",
+  "dispute": "Dispute",
+  "overview": "Overview",
+  "details": "Details",
+  "order": "Order",
+  "initiator": "Initiator",
+  "reason": "Reason",
+  "resolution": "Resolution",
+  "status": "Status",
+  "createdAt": "Opened",
+  "failedTitle": "Failed to load dispute",
+  "failedDescription": "Something went wrong while loading this dispute. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "status_values": {
+    "open": "Open",
+    "under_review": "Under Review",
+    "resolved": "Resolved",
+    "closed": "Closed"
+  },
+  "lifecycle": "Lifecycle",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by"
+}

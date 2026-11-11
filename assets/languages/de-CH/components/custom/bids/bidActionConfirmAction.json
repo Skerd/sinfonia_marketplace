@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/bids/bidActionConfirmAction.tsx",
+  "accept": {
+    "title": "Diese Offerte annehmen?",
+    "description": "Die Offerte wird als angenommen markiert, die Ausschreibung vergeben und ein Auftrag erstellt. Dies kann hier nicht rückgängig gemacht werden.",
+    "confirm": "Offerte annehmen",
+    "axios": {
+      "start": {
+        "title": "Offerte wird angenommen",
+        "time": 3000
+      },
+      "success": {
+        "title": "Offerte erfolgreich angenommen",
+        "time": 3000
+      },
+      "error": {
+        "title": "Offerte konnte nicht angenommen werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "reject": {
+    "title": "Diese Offerte ablehnen?",
+    "description": "Die Offerte wird als abgelehnt markiert. Auftraggeber oder Bieter können eine ausstehende Offerte ablehnen.",
+    "confirm": "Offerte ablehnen",
+    "axios": {
+      "start": {
+        "title": "Offerte wird abgelehnt",
+        "time": 3000
+      },
+      "success": {
+        "title": "Offerte erfolgreich abgelehnt",
+        "time": 3000
+      },
+      "error": {
+        "title": "Offerte konnte nicht abgelehnt werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

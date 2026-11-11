@@ -1,0 +1,46 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/index.tsx",
+  "title": "Componenti aggiuntivi degli annunci",
+  "description": "Gestisci i componenti aggiuntivi opzionali che i fornitori associano ai loro annunci.",
+  "help": {
+    "ariaLabel": "Informazioni sui componenti aggiuntivi degli annunci",
+    "title": "Informazioni sui componenti aggiuntivi degli annunci",
+    "overview": "Un componente aggiuntivo è un extra facoltativo che un acquirente può aggiungere ordinando un annuncio, come consegna espressa o una revisione in più. Appartiene a un annuncio e aggiunge il proprio prezzo e, facoltativamente, giorni di consegna.",
+    "sections": [
+      {
+        "title": "Campi",
+        "items": [
+          "L’annuncio è obbligatorio e fisso; solo il fornitore di quell’annuncio può creare o eliminare i suoi componenti.",
+          "Il nome è ciò che vede l’acquirente. Importo e valuta del prezzo sono ciò che aggiunge.",
+          "I giorni di consegna, se impostati, si sommano alla finestra di consegna dell’annuncio o del pacchetto."
+        ]
+      },
+      {
+        "title": "Ordinare con componenti aggiuntivi",
+        "items": [
+          "Si possono scegliere solo i componenti dell’annuncio ordinato, ciascuno una volta.",
+          "Ogni componente deve usare la stessa valuta dell’ordine (quella del pacchetto, o dell’annuncio senza pacchetto); una differenza blocca l’ordine.",
+          "L’eliminazione è logica. Un componente non può essere ripristinato finché il suo annuncio è eliminato."
+        ]
+      }
+    ]
+  },
+  "createListingAddOn": "Crea componente aggiuntivo dell'annuncio",
+  "searchPlaceholder": "Cerca o aggiungi filtri...",
+  "fields": {
+    "name": "Nome",
+    "listing": "Annuncio",
+    "provider": "Fornitore",
+    "price": {
+      "amount": "Prezzo",
+      "currency": "Valuta"
+    },
+    "deliveryDays": "Giorni di consegna",
+    "company": "Azienda",
+    "createdBy": "Creato da",
+    "createdAt": "Creato il",
+    "updatedAt": "Aggiornato il",
+    "deletedAt": "Eliminato il",
+    "deletedBy": "Eliminato da"
+  }
+}

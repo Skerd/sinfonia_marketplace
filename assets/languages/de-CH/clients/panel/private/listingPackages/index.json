@@ -1,0 +1,47 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/index.tsx",
+  "title": "Inseratpakete",
+  "description": "Leistungspakete verwalten, die Anbieter für ihre Inserate anbieten.",
+  "help": {
+    "ariaLabel": "Über Inserat-Pakete",
+    "title": "Über Inserat-Pakete",
+    "overview": "Ein Paket ist eine Preisstufe eines Inserats, etwa Basic, Standard oder Premium. Bestellt ein Käufer mit einem Paket, ersetzen Preis und Liefertage des Pakets den Grundpreis und die Liefertage des Inserats.",
+    "sections": [
+      {
+        "title": "Felder",
+        "items": [
+          "Inserat ist Pflicht und fest; nur der Anbieter dieses Inserats kann seine Pakete anlegen oder löschen.",
+          "Name und Beschreibung beschreiben die Stufe. Anzeigereihenfolge sortiert Pakete auf dem Inserat, kleinere zuerst.",
+          "Preisbetrag und Währung sind, was die Bestellung berechnet. Liefertage werden zum Fälligkeitsfenster der Bestellung."
+        ]
+      },
+      {
+        "title": "Mit einem Paket bestellen",
+        "items": [
+          "Mit dem Paket gewählte Zusatzleistungen müssen die Währung des Pakets nutzen; ihre zusätzlichen Tage werden dazugezählt.",
+          "Ein Inserat braucht keine Pakete; ohne Paket gilt sein eigener Preis.",
+          "Löschen ist ein Soft Delete. Ein Paket kann nicht wiederhergestellt werden, solange sein Inserat gelöscht ist."
+        ]
+      }
+    ]
+  },
+  "createListingPackage": "Inseratpaket erstellen",
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "fields": {
+    "name": "Name",
+    "listing": "Inserat",
+    "description": "Beschreibung",
+    "price": {
+      "amount": "Preis",
+      "currency": "Währung"
+    },
+    "deliveryDays": "Liefertage",
+    "order": "Anzeigereihenfolge",
+    "company": "Firma",
+    "createdBy": "Erstellt von",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "deletedAt": "Gelöscht am",
+    "deletedBy": "Gelöscht von"
+  }
+}

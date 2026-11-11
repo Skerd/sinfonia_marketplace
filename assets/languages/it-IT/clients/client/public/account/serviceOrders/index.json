@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/index.tsx",
+  "title": "Ordini di servizi",
+  "browse": "Sfoglia i servizi",
+  "filterLabel": "Filtra per stato",
+  "allStatuses": "Tutti",
+  "statusFilter": {
+    "pending": "In attesa del fornitore",
+    "accepted": "Accettati",
+    "in_progress": "In corso",
+    "completed": "Completati",
+    "cancelled": "Annullati"
+  },
+  "loading": "Caricamento degli ordini",
+  "emptyTitle": "Ancora nessun ordine di servizi",
+  "emptyMessage": "Quando ordini un servizio compare qui, con ogni aggiornamento del fornitore.",
+  "emptyFiltered": "Nessun ordine con questo stato.",
+  "dueOn": "Scadenza {date}",
+  "deliveryWaiting": "Una consegna attende la tua revisione",
+  "pagination": "Pagine",
+  "previousPage": "Pagina precedente",
+  "nextPage": "Pagina successiva",
+  "pageOf": "Pagina {page} di {total}"
+}

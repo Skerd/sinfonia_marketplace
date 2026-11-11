@@ -1,0 +1,46 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/index.tsx",
+  "title": "Shtesat e listimeve",
+  "description": "Menaxhoni shtesat opsionale që ofruesit i bashkangjisin listimeve të tyre.",
+  "help": {
+    "ariaLabel": "Rreth shtesave të listimeve",
+    "title": "Rreth shtesave të listimeve",
+    "overview": "Një shtesë është një ekstra opsionale që blerësi mund t’ia bashkëngjisë porosisë së një listimi, si dorëzim ekspres ose një rishikim shtesë. I përket një listimi dhe shton çmimin e vet dhe, opsionalisht, ditë dorëzimi.",
+    "sections": [
+      {
+        "title": "Fushat",
+        "items": [
+          "Listimi është i detyrueshëm dhe i fiksuar; vetëm ofruesi i atij listimi mund të krijojë ose fshijë shtesat e tij.",
+          "Emri është ajo që sheh blerësi. Shuma dhe monedha e çmimit janë ajo që shton.",
+          "Ditët e dorëzimit, nëse vendosen, i shtohen dritares së dorëzimit të listimit ose paketës."
+        ]
+      },
+      {
+        "title": "Porosia me shtesa",
+        "items": [
+          "Mund të zgjidhen vetëm shtesat e listimit që porositet, secila një herë.",
+          "Çdo shtesë duhet të përdorë të njëjtën monedhë si porosia (atë të paketës, ose të listimit pa paketë); një mospërputhje e bllokon porosinë.",
+          "Fshirja është e butë. Një shtesë nuk mund të rikthehet sa kohë listimi i saj është i fshirë."
+        ]
+      }
+    ]
+  },
+  "createListingAddOn": "Krijo shtesë listimi",
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "fields": {
+    "name": "Emri",
+    "listing": "Listimi",
+    "provider": "Ofruesi",
+    "price": {
+      "amount": "Çmimi",
+      "currency": "Valuta"
+    },
+    "deliveryDays": "Ditë dorëzimi",
+    "company": "Kompania",
+    "createdBy": "Krijuar nga",
+    "createdAt": "Krijuar më",
+    "updatedAt": "Përditësuar më",
+    "deletedAt": "Fshirë më",
+    "deletedBy": "Fshirë nga"
+  }
+}

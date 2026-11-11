@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/cardView/taskRequestCard.tsx",
+  "failedTitle": "Failed to load task request",
+  "failedDescription": "Something went wrong while loading this task request. Click to retry.",
+  "title": "Title",
+  "name": "Name",
+  "status": "Status",
+  "category": "Category",
+  "budget": "Budget",
+  "city": "City",
+  "expiresAt": "Expires",
+  "statuses": {
+    "open": "Open",
+    "closed": "Closed",
+    "awarded": "Awarded"
+  },
+  "requester": "Requester",
+  "bids": "Bids"
+}

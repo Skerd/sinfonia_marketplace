@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
+  "title": "Catégories d'annonces",
+  "description": "Organisez le catalogue marketplace en une arborescence parent/enfant utilisée par les annonces et les demandes de tâches.",
+  "help": {
+    "ariaLabel": "À propos des catégories d'annonces",
+    "title": "À propos des catégories d'annonces",
+    "overview": "Les catégories d’annonces sont l’arbre propre de la place de marché, distinct des catégories de produits. Annonces et demandes de tâches en choisissent chacune une. Les acheteurs naviguent par elles, et les prestataires sont associés aux nouvelles demandes de tâches par catégorie et ville.",
+    "sections": [
+      {
+        "title": "L’arbre",
+        "items": [
+          "Le nom est obligatoire. Le parent est facultatif ; laissez vide pour une catégorie de premier niveau. Une catégorie ne peut pas être sous elle-même ni sous un de ses descendants.",
+          "L’ordre trie les catégories sœurs, les plus petites d’abord ; les listes trient par ordre, puis par nom.",
+          "Le slug est généré à la création et est unique dans la société."
+        ]
+      },
+      {
+        "title": "Comment la place de marché les utilise",
+        "items": [
+          "Chaque annonce et chaque demande de tâche a une catégorie.",
+          "Quand une demande de tâche est publiée ou ré-annoncée, les prestataires ayant une annonce active dans la même catégorie et la même ville sont prévenus.",
+          "Les menus et filtres de services de la boutique sont construits à partir de cet arbre.",
+          "La suppression est douce et la catégorie peut être restaurée. Réaffectez les annonces avant de supprimer une catégorie encore utilisée."
+        ]
+      }
+    ]
+  },
+  "createCategory": "Créer une catégorie d'annonce",
+  "fields": {
+    "name": "Nom",
+    "slug": "Identifiant",
+    "order": "Commande",
+    "parentListingCategory": "Catégorie parente",
+    "createdBy": "Créé par",
+    "deletedAt": "Supprimé",
+    "deletedBy": "Supprimé par"
+  },
+  "searchPlaceholder": "Rechercher ou ajouter des filtres..."
+}

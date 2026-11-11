@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
+  "accept": {
+    "title": "Të pranohet kjo porosi?",
+    "description": "Porosia do të shënohet si e pranuar dhe fondet do të mbahen në depozitë.",
+    "confirm": "Prano porosinë",
+    "axios": {
+      "start": { "title": "Duke pranuar porosinë", "time": 3000 },
+      "success": { "title": "Porosia u pranua me sukses", "time": 3000 },
+      "error": { "title": "Porosia nuk u pranua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "start": {
+    "title": "Të fillohet kjo porosi?",
+    "description": "Porosia do të kalojë në progres. Vetëm ofruesi mund të fillojë një porosi të pranuar.",
+    "confirm": "Fillo porosinë",
+    "axios": {
+      "start": { "title": "Duke filluar porosinë", "time": 3000 },
+      "success": { "title": "Porosia filloi me sukses", "time": 3000 },
+      "error": { "title": "Porosia nuk u fillua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancelOrder": {
+    "title": "Të anulohet kjo porosi?",
+    "description": "Porosia do të shënohet si e anuluar. Fondet në depozitë mund të kthehen nëse janë mbajtur.",
+    "confirm": "Anulo porosinë",
+    "axios": {
+      "start": { "title": "Duke anuluar porosinë", "time": 3000 },
+      "success": { "title": "Porosia u anulua me sukses", "time": 3000 },
+      "error": { "title": "Porosia nuk u anulua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "acceptDelivery": {
+    "title": "Të pranohet dorëzimi dhe të përfundojë porosia?",
+    "description": "Dorëzimi i ofruesit do të pranohet, fondet në depozitë do të lirohen dhe porosia do të shënohet si e përfunduar.",
+    "confirm": "Përfundo porosinë",
+    "axios": {
+      "start": { "title": "Duke përfunduar porosinë", "time": 3000 },
+      "success": { "title": "Porosia u përfundua me sukses", "time": 3000 },
+      "error": { "title": "Porosia nuk u përfundua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancel": "Anulo"
+}

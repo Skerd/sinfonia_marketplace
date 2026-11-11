@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/center/sheetView/listingAddOnSheetView.tsx",
+  "failedTitle": "Dështoi ngarkimi i shtesës së listimit",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të shtesës së listimit. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "listingAddOnSubtitle": "Shtesë listimi",
+  "overview": "Përmbledhje",
+  "lifecycle": "Cikli i jetës",
+  "name": "Emri",
+  "listing": "Listimi",
+  "provider": "Ofruesi",
+  "priceAmount": "Çmimi",
+  "currency": "Valuta",
+  "deliveryDays": "Koha e dorëzimit",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "deliveryDaysValue": {
+    "one": "{value} ditë",
+    "other": "{value} ditë"
+  }
+}

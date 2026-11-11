@@ -1,0 +1,85 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderDetail.tsx",
+  "loading": "Chargement de la commande",
+  "notFound": "Commande introuvable",
+  "backToOrders": "Retour aux commandes de services",
+  "placedTitle": "Commande envoyée",
+  "placedMessage": "Le prestataire a été prévenu et confirmera rapidement. Vous recevrez les mises à jour ici et par notification.",
+  "placedOn": "Passée le {date}",
+  "disputeOpen": "Litige ouvert",
+  "cancelledBanner": "Cette commande a été annulée. Les montants retenus ont été remboursés.",
+  "progressLabel": "Avancement de la commande",
+  "steps": {
+    "pending": "Commandée",
+    "accepted": "Acceptée",
+    "in_progress": "En cours",
+    "completed": "Terminée"
+  },
+  "deliveryReadyTitle": "Votre livraison est prête",
+  "deliveryReadyMessage": "Vérifiez le travail ci-dessous. Acceptez-le pour terminer la commande et libérer le paiement, ou demandez des modifications.",
+  "acceptDelivery": "Accepter la livraison",
+  "requestRevision": "Demander des modifications",
+  "panel": {
+    "cancel": {
+      "title": "Annuler cette commande ?",
+      "message": "Le prestataire n'a pas encore commencé : vous pouvez annuler sans litige. Les montants retenus sont remboursés.",
+      "submit": "Oui, annuler la commande"
+    },
+    "revision": {
+      "title": "Demander des modifications",
+      "message": "Indiquez au prestataire ce qu'il faut changer. Il enverra une nouvelle livraison.",
+      "field": "Que faut-il changer ? (10 caractères minimum)",
+      "submit": "Envoyer la demande"
+    },
+    "dispute": {
+      "title": "Signaler un problème",
+      "message": "Notre équipe examine la commande avec vous et le prestataire. Le paiement reste bloqué jusqu'à la résolution.",
+      "field": "Que s'est-il passé ?",
+      "submit": "Ouvrir un litige"
+    },
+    "review": {
+      "title": "Notez ce service",
+      "message": "Votre avis aide les autres clients à choisir.",
+      "field": "Votre avis (facultatif)",
+      "submit": "Publier l'avis"
+    }
+  },
+  "ratingLabel": "Note",
+  "starsOption": "{count} étoiles",
+  "working": "Un instant…",
+  "back": "Retour",
+  "noteTitle": "Votre message au prestataire",
+  "deliveriesTitle": "Livraisons",
+  "noDeliveries": "Rien de livré pour l'instant. Les fichiers et messages du prestataire apparaissent ici.",
+  "attachment": "Pièce jointe",
+  "downloadError": "Le fichier n'a pas pu être téléchargé.",
+  "revisionsTitle": "Demandes de modification",
+  "revisionStatus": {
+    "pending": "Ouverte",
+    "completed": "Traitée"
+  },
+  "milestonesTitle": "Étapes",
+  "releaseMilestone": "Libérer le paiement",
+  "bookingsTitle": "Séances planifiées",
+  "provider": "Prestataire",
+  "dueDate": "Échéance",
+  "total": "Total",
+  "viewService": "Voir le service",
+  "leaveReview": "Laisser un avis",
+  "bookSession": "Réserver une séance",
+  "reportProblem": "Signaler un problème",
+  "cancelOrder": "Annuler la commande",
+  "reviewedNote": "Merci — vous avez évalué cette commande.",
+  "actionError": "Cela n'a pas fonctionné. Veuillez réessayer.",
+  "deliveryAccepted": "Livraison acceptée. La commande est terminée.",
+  "revisionSent": "Demande de modification envoyée",
+  "disputeOpened": "Litige ouvert. Nous vous recontacterons.",
+  "reviewThanks": "Merci pour votre avis !",
+  "cancelled": "Commande annulée",
+  "milestoneReleased": "Paiement de l'étape libéré",
+  "payEscrowTitle": "Payer cette commande",
+  "payEscrowHint": "Votre prestataire a accepté la commande. Effectuez le paiement pour alimenter le séquestre.",
+  "payEscrowButton": "Payer maintenant",
+  "payEscrowSuccess": "Paiement envoyé",
+  "payEscrowError": "Échec du paiement"
+}

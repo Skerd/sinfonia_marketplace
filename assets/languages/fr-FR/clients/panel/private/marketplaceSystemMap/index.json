@@ -1,0 +1,58 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/marketplaceSystemMap/index.tsx",
+  "title": "Carte système de la place de marché",
+  "description": "Carte interactive des modèles de la place de marché, des flux d'annonces et d'offres, du lien avec le séquestre et des capacités. Déplacez, zoomez et cliquez sur les nœuds pour plus de détails.",
+  "help": {
+    "ariaLabel": "À propos de la carte système de la place de marché",
+    "title": "À propos de la carte système de la place de marché",
+    "overview": "Cette carte est une image en lecture seule de la place de marché de services : ses modèles, comment le travail et l’argent circulent entre client et prestataire, et ce que le module offre. Elle ne modifie aucune donnée.",
+    "sections": [
+      {
+        "title": "Graphe des modèles",
+        "items": [
+          "Annonces avec leurs packages, modules, signalements et promotions ; demandes de tâches et offres ; commandes avec livraisons, étapes, révisions, réservations, litiges et avis ; profils de prestataires ; et le registre de séquestre de la finance.",
+          "Cliquez sur un nœud pour sa description, ses champs clés, son chemin d’API, ses actions et sa page du panneau."
+        ]
+      },
+      {
+        "title": "Comment ça marche",
+        "items": [
+          "« Acheter une annonce » et « tâche → offre → commande » montrent comment une commande commence.",
+          "Le cycle de vie de la commande (livraisons, révisions, étapes, acceptation automatique après 3 jours, libération moins les frais) et litiges → remboursement montrent comment elle se termine.",
+          "Modération et promotion couvre les signalements et mises en avant ; l’inscription du prestataire couvre la configuration du profil et les versements Stripe Connect."
+        ]
+      },
+      {
+        "title": "Capacités",
+        "items": [
+          "Ce que la place de marché permet aujourd’hui, ses domaines d’API, tâches planifiées et routes de la boutique.",
+          "Le travail quotidien se fait sur les pages Marketplace ; utilisez la carte pour former le personnel ou planifier les droits."
+        ]
+      }
+    ]
+  },
+  "tabs": {
+    "models": "Graphe des modèles",
+    "flows": "Comment ça marche",
+    "capabilities": "Capacités"
+  },
+  "nodes": {
+    "ListingCategory": "Catégorie d'annonce",
+    "ProviderProfile": "Profil de prestataire",
+    "Listing": "Annonce",
+    "ListingPackage": "Package d'annonce",
+    "ListingAddOn": "Module complémentaire d'annonce",
+    "ListingFlag": "Signalement d'annonce",
+    "Promotion": "Promotion",
+    "TaskRequest": "Demande de tâche",
+    "Bid": "Offre",
+    "MarketplaceOrder": "Commande",
+    "Booking": "Réservation",
+    "Dispute": "Litige",
+    "Review": "Avis",
+    "EscrowTransaction": "Transaction séquestre",
+    "OrderMilestone": "Jalon de commande",
+    "OrderDelivery": "Livraison de commande",
+    "OrderRevision": "Révision de commande"
+  }
+}

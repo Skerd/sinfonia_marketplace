@@ -1,0 +1,25 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/raiseDisputeAction.tsx",
+  "cancel": "Abbrechen",
+  "raise": {
+    "title": "Streitfall eröffnen",
+    "description": "Beschreiben Sie das Problem. Ein Admin kann den Streitfall in Prüfung nehmen; die Annahme der Lieferung bleibt gesperrt, bis der Streitfall bereinigt ist.",
+    "reasonLabel": "Grund",
+    "reasonPlaceholder": "Was ist schiefgelaufen?",
+    "confirm": "Streitfall einreichen",
+    "axios": {
+      "start": {
+        "title": "Streitfall wird eingereicht",
+        "time": 3000
+      },
+      "success": {
+        "title": "Streitfall eröffnet",
+        "time": 3000
+      },
+      "error": {
+        "title": "Streitfall konnte nicht eröffnet werden",
+        "time": 3000
+      }
+    }
+  }
+}

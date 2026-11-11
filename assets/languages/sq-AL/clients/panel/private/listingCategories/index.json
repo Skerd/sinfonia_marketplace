@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
+  "title": "Kategoritë e listimeve",
+  "description": "Organizoni katalogun e tregut në një pemë kategorish prind/fëmijë që përdoret nga listimet dhe kërkesat për detyra.",
+  "help": {
+    "ariaLabel": "Rreth kategorive të listimeve",
+    "title": "Rreth kategorive të listimeve",
+    "overview": "Kategoritë e listimeve janë pema e vetë tregut, e ndarë nga kategoritë e produkteve. Listimet dhe kërkesat për detyra zgjedhin secila një. Blerësit shfletojnë sipas tyre, dhe ofruesit lidhen me kërkesat e reja për detyra sipas kategorisë dhe qytetit.",
+    "sections": [
+      {
+        "title": "Pema",
+        "items": [
+          "Emri është i detyrueshëm. Prindi është opsional; lëreni bosh për një kategori të nivelit të parë. Një kategori nuk mund të jetë nën veten ose nën një pasardhës të saj.",
+          "Rendi rendit kategoritë motra, më të voglat së pari; listat renditen sipas rendit, pastaj emrit.",
+          "Slug-u krijohet gjatë krijimit dhe është unik në kompani."
+        ]
+      },
+      {
+        "title": "Si i përdor tregu",
+        "items": [
+          "Çdo listim dhe çdo kërkesë për detyrë ka një kategori.",
+          "Kur publikohet ose rishpallet një kërkesë për detyrë, njoftohen ofruesit me listim aktiv në të njëjtën kategori dhe qytet.",
+          "Menytë dhe filtrat e shërbimeve në dyqan ndërtohen nga kjo pemë.",
+          "Fshirja është e butë dhe kategoria mund të rikthehet. Ricaktoni listimet para se të fshini një kategori ende në përdorim."
+        ]
+      }
+    ]
+  },
+  "createCategory": "Krijo kategori listimi",
+  "fields": {
+    "name": "Emri",
+    "slug": "Slug",
+    "order": "Rendi",
+    "parentListingCategory": "Kategoria prind",
+    "createdBy": "Krijuar nga",
+    "deletedAt": "Fshirë",
+    "deletedBy": "Fshirë nga"
+  },
+  "searchPlaceholder": "Kërko ose shto filtra..."
+}

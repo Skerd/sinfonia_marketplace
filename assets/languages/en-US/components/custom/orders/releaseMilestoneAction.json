@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/releaseMilestoneAction.tsx",
+  "title": "Release milestone",
+  "description": "Pay this milestone out of the order's escrow to the provider. This cannot be undone.",
+  "milestoneLabel": "Milestone",
+  "milestonePlaceholder": "Choose a milestone",
+  "confirm": "Release payment",
+  "cancel": "Cancel",
+  "axios": {
+    "start": {
+      "title": "Releasing milestone",
+      "time": 3000
+    },
+    "success": {
+      "title": "Milestone released",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not release the milestone, please try again",
+      "time": 3000
+    }
+  }
+}

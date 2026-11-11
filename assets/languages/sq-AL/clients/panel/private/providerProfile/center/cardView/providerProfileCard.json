@@ -1,0 +1,15 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/center/cardView/providerProfileCard.tsx",
+  "failedTitle": "Dështoi ngarkimi i profilit të ofruesit",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "provider": "Ofruesi",
+  "bio": "Biografia",
+  "skills": "Aftësitë",
+  "rating": "Vlerësimi",
+  "connect": {
+    "notConnected": "Pagesat nuk janë lidhur",
+    "setupIncomplete": "Konfigurimi Stripe i paplotë",
+    "payoutsEnabled": "Pagesat janë aktive"
+  },
+  "payouts": "Pagesat"
+}

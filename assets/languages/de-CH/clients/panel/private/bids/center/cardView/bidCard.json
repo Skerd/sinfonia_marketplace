@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/center/cardView/bidCard.tsx",
+  "failedTitle": "Offerte konnten nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "taskRequest": "Ausschreibung",
+  "name": "Name",
+  "status": "Status",
+  "amount": "Betrag",
+  "deliveryDays": "Lieferung",
+  "days": "tage",
+  "bidder": "Bieter",
+  "offer": "Offerte",
+  "statuses": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "rejected": "Abgelehnt"
+  }
+}

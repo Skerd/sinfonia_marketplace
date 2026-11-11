@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/provider/index.tsx",
+  "loading": "Po ngarkohet ofruesi",
+  "breadcrumb": "Navigimi",
+  "services": "Shërbime",
+  "ratingSummary": "{average} · {count} vlerësime",
+  "completionRate": "{rate}% e porosive të përfunduara",
+  "memberSince": "Anëtar që nga {date}",
+  "skills": "Aftësitë",
+  "availability": "Disponueshmëria",
+  "availabilityTimeZone": "Oraret janë në zonën kohore të ofruesit, {zone}.",
+  "servicesBy": "Shërbimet e {name}",
+  "portfolio": "Portofoli",
+  "notFound": "Ofruesi nuk u gjet",
+  "notFoundMessage": "Ky ofrues nuk ka shërbime në dyqan për momentin.",
+  "backToServices": "Shfleto shërbimet"
+}

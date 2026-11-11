@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/createBooking.tsx",
+  "formHeader": {
+    "title": "Krijo rezervim",
+    "description": "Planifiko një rezervim shërbimi për një porosi."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Krijo rezervimin"
+  },
+  "form": {
+    "orderLabel": "Porosia",
+    "orderPlaceholder": "Zgjidh porosinë",
+    "startAtLabel": "Ora e fillimit",
+    "endAtLabel": "Ora e mbarimit",
+    "section": {
+      "order": "Porosia",
+      "schedule": "Kur"
+    },
+    "providerHoursHint": "Oraret janë në zonën tuaj kohore. Rezervimi duhet të bjerë brenda orarit të punës së ofruesit."
+  },
+  "axios": {
+    "start": {
+      "title": "Duke krijuar rezervimin",
+      "time": 3000
+    },
+    "success": {
+      "title": "Rezervimi u krijua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Nuk u krijua rezervimi",
+      "time": 3000
+    }
+  }
+}

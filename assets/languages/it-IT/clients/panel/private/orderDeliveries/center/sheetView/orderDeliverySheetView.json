@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderDeliveries/center/sheetView/orderDeliverySheetView.tsx",
+  "failedTitle": "Caricamento non riuscito",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "overview": "Panoramica",
+  "lifecycle": "Ciclo di vita",
+  "createdAt": "Creato il",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da",
+  "order": "Ordine",
+  "status": "Stato",
+  "orderDeliverySubtitle": "Consegna",
+  "message": "Messaggio",
+  "attachments": "Allegati",
+  "orderDeliveryStatus": {
+    "submitted": "Inviata",
+    "accepted": "Accettata",
+    "revision_requested": "Revisione richiesta"
+  }
+}

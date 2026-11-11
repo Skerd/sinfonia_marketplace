@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/center/sheetView/reviewSheetView.tsx",
+  "review": "Review",
+  "eCommerce": {
+    "review": "Review"
+  },
+  "overview": "Overview",
+  "details": "Details",
+  "order": "Order",
+  "reviewer": "Reviewer",
+  "rating": "Rating",
+  "comment": "Comment",
+  "listing": "Listing",
+  "listing.title": "Listing",
+  "createdAt": "Created",
+  "failedTitle": "Failed to load review",
+  "failedDescription": "Something went wrong while loading this review. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "lifecycle": "Lifecycle",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by"
+}

@@ -1,0 +1,13 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderRevisions/center/cardView/orderRevisionCard.tsx",
+  "failedTitle": "Caricamento non riuscito",
+  "failedDescription": "Tocca per riprovare.",
+  "orderRevisionStatus": {
+    "pending": "In sospeso",
+    "completed": "Gestita"
+  },
+  "status": "Stato",
+  "reason": "Motivo",
+  "requestedBy": "Richiesto da",
+  "revision": "Richiesta di revisione"
+}

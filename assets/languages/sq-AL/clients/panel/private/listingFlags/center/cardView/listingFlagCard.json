@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/cardView/listingFlagCard.tsx",
+  "failedTitle": "Raportimi i listimit nuk u ngarkua",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "listing": "Listimi",
+  "reason": "Arsyeja",
+  "reporter": "Raportuesi",
+  "status": "Statusi",
+  "status_values": {
+    "pending": "Në pritje",
+    "reviewed": "Shqyrtuar",
+    "dismissed": "Hedhur poshtë"
+  },
+  "reason_values": {
+    "inappropriate": "Përmbajtje e papërshtatshme",
+    "spam": "Spam",
+    "misleading": "Mashtruese",
+    "other": "Tjetër"
+  },
+  "reportedAt": "Raportuar më"
+}

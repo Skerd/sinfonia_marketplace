@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/editListingFlag.tsx",
+  "editTitle": "Edit listing report",
+  "editDescription": "Update the reason and details of this report.",
+  "errorTitle": "Could not load report",
+  "errorDescription": "Check the link or return to the list and try again.",
+  "formHeader": {
+    "title": "Edit listing report",
+    "description": "Update the reason and additional details. Listing cannot be changed."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Save changes"
+  },
+  "form": {
+    "reasonLabel": "Reason",
+    "reasonPlaceholder": "Select reason",
+    "commentLabel": "Additional details",
+    "commentPlaceholder": "Optional details...",
+    "reason_values": {
+      "inappropriate": "Inappropriate content",
+      "spam": "Spam",
+      "misleading": "Misleading",
+      "other": "Other"
+    },
+    "reportSectionTitle": "Report"
+  },
+  "axios": {
+    "start": {
+      "title": "Saving report",
+      "time": 3000
+    },
+    "success": {
+      "title": "Report updated",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not update report",
+      "time": 3000
+    }
+  }
+}

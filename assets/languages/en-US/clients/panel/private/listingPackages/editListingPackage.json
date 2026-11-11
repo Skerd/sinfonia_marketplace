@@ -1,0 +1,49 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/editListingPackage.tsx",
+  "editTitle": "Edit listing package",
+  "editDescription": "Update the details of this service package.",
+  "errorTitle": "Could not load package",
+  "errorDescription": "Check the link or return to the list and try again.",
+  "formHeader": {
+    "title": "Edit listing package",
+    "description": "Modify the package name, price, or delivery time."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Save changes"
+  },
+  "form": {
+    "idLabel": "Record ID",
+    "listingIdLabel": "Listing",
+    "listingIdPlaceholder": "Select listing",
+    "nameLabel": "Package name",
+    "namePlaceholder": "e.g. Basic, Standard, Premium",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "What's included in this package...",
+    "priceAmountLabel": "Price",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Currency",
+    "currencyPlaceholder": "The listing's currency if left empty",
+    "deliveryDaysLabel": "Delivery days",
+    "deliveryDaysPlaceholder": "e.g. 3",
+    "sortOrderLabel": "Display order",
+    "sortOrderPlaceholder": "e.g. 1",
+    "basicsSectionTitle": "Basics",
+    "pricingSectionTitle": "Prices",
+    "visibilitySectionTitle": "Visibility"
+  },
+  "axios": {
+    "start": {
+      "title": "Saving package",
+      "time": 3000
+    },
+    "success": {
+      "title": "Package updated",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not update package",
+      "time": 3000
+    }
+  }
+}

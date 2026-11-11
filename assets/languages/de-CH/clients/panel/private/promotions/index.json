@@ -1,0 +1,63 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/index.tsx",
+  "title": "Promotionen",
+  "description": "Hervorgehobene und gesponserte Inserat-Promotionen verwalten.",
+  "help": {
+    "ariaLabel": "Über Promotionen",
+    "title": "Über Promotionen",
+    "overview": "Eine Promotion hebt ein Inserat als hervorgehoben oder gesponsert für ein Zeitfenster von Start bis Ende hervor. Sie läuft, solange ihr Lebenszyklus aktiv ist und heute innerhalb ihrer Daten liegt. Der Lebenszyklus ist aktiv, pausiert oder gestoppt und wird nur durch Aktionen geändert.",
+    "sections": [
+      {
+        "title": "Anlegen",
+        "items": [
+          "Der Anbieter des Inserats oder ein Administrator bewirbt ein aktives Inserat.",
+          "Typ ist hervorgehoben oder gesponsert. Start und Ende begrenzen, wann die Hervorhebung gilt."
+        ]
+      },
+      {
+        "title": "Lebenszyklus",
+        "body": "Pausieren, Fortsetzen und Stoppen brauchen den Besitz des Inserats oder einen Administrator.",
+        "items": [
+          "Pausieren geht nur aus aktiv: Die Hervorhebung stoppt, ohne die Kampagne zu beenden.",
+          "Fortsetzen geht nur aus pausiert und nur, solange das Enddatum noch in der Zukunft liegt.",
+          "Stoppen beendet die Promotion endgültig mit einem Stoppgrund; sie kann nicht fortgesetzt werden."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "items": [
+          "In der empfohlenen Sortierung des Shops kommen Inserate mit laufender Promotion zuerst, die neuesten zuerst, danach der Rest.",
+          "Gelöschte Promotionen können nicht pausiert, fortgesetzt oder gestoppt werden, bis sie wiederhergestellt sind."
+        ]
+      }
+    ]
+  },
+  "createPromotion": "Promotion erstellen",
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "fields": {
+    "name": "Name",
+    "listing": "Inserat",
+    "type": "Typ",
+    "lifecycleStatus": "Lebenszyklusstatus",
+    "stopReason": "Grund für das Beenden",
+    "startAt": "Beginn",
+    "endAt": "Ende",
+    "company": "Firma",
+    "createdBy": "Erstellt von",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "deletedAt": "Gelöscht am",
+    "deletedBy": "Gelöscht von",
+    "!enums": {
+      "type": {
+        "featured": "Hervorgehoben",
+        "sponsored": "Gesponsert"
+      },
+      "lifecycleStatus": {
+        "active": "Aktiv",
+        "paused": "Pausiert",
+        "stopped": "Beendet"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/changeDisputeLifecycleAction.tsx",
+  "cancel": "Annuler",
+  "resolutionLabel": "Notes de résolution",
+  "resolutionPlaceholder": "Décrivez comment le litige a été traité (obligatoire pour l'audit).",
+  "resolutionHint": "Obligatoire. 1 à 2 000 caractères.",
+  "startReview": {
+    "title": "Marquer un litige en cours d'examen",
+    "description": "Le litige reste ouvert pendant que vous enquêtez. Les parties ne peuvent pas accepter la livraison tant que le litige n'est pas résolu ou clôturé.",
+    "confirm": "Commencer l'examen",
+    "axios": {
+      "start": {
+        "title": "Mise à jour du litige",
+        "time": 3000
+      },
+      "success": {
+        "title": "Litige marqué en cours d'examen",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de mettre à jour le litige",
+        "time": 3000
+      }
+    }
+  },
+  "resolve": {
+    "title": "Résoudre le litige",
+    "description": "Marque le litige comme résolu et termine la commande liée avec la même logique de séquestre que l'acceptation de la livraison.",
+    "confirm": "Résoudre",
+    "axios": {
+      "start": {
+        "title": "Résolution du litige",
+        "time": 3000
+      },
+      "success": {
+        "title": "Litige résolu",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de résoudre le litige",
+        "time": 3000
+      }
+    }
+  },
+  "close": {
+    "title": "Clôturer le litige (annuler la commande)",
+    "description": "Clôture le litige et annule la commande liée avec des règles de remboursement par séquestre correspondant à une annulation normale.",
+    "confirm": "Clôturer le litige",
+    "axios": {
+      "start": {
+        "title": "Clôture du litige",
+        "time": 3000
+      },
+      "success": {
+        "title": "Litige clôturé",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de clôturer le litige",
+        "time": 3000
+      }
+    }
+  }
+}

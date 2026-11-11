@@ -1,0 +1,15 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/center/cardView/providerProfileCard.tsx",
+  "failedTitle": "Anbieterprofil konnte nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "provider": "Anbieter",
+  "bio": "Biografie",
+  "skills": "Fähigkeiten",
+  "rating": "Bewertung",
+  "connect": {
+    "notConnected": "Auszahlungen nicht verbunden",
+    "setupIncomplete": "Stripe-Einrichtung unvollständig",
+    "payoutsEnabled": "Auszahlungen aktiviert"
+  },
+  "payouts": "Auszahlungen"
+}

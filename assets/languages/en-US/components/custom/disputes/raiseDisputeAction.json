@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/raiseDisputeAction.tsx",
+  "cancel": "Cancel",
+  "raise": {
+    "title": "Open a dispute",
+    "description": "Describe the issue. An admin may put the dispute under review; delivery acceptance stays blocked until the dispute is cleared.",
+    "reasonLabel": "Reason",
+    "reasonPlaceholder": "What went wrong?",
+    "confirm": "Submit dispute",
+    "axios": {
+      "start": { "title": "Submitting dispute", "time": 3000 },
+      "success": { "title": "Dispute opened", "time": 3000 },
+      "error": { "title": "Could not open dispute", "time": 3000 }
+    }
+  }
+}

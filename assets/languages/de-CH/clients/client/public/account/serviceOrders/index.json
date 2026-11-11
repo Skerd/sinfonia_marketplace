@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/index.tsx",
+  "title": "Dienstleistungsaufträge",
+  "browse": "Dienstleistungen durchsuchen",
+  "filterLabel": "Nach Status filtern",
+  "allStatuses": "Alle",
+  "statusFilter": {
+    "pending": "Wartet auf Anbieter",
+    "accepted": "Angenommen",
+    "in_progress": "In Arbeit",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert"
+  },
+  "loading": "Aufträge werden geladen",
+  "emptyTitle": "Noch keine Dienstleistungsaufträge",
+  "emptyMessage": "Bestellte Dienstleistungen erscheinen hier, mit jedem Update des Anbieters.",
+  "emptyFiltered": "Keine Aufträge mit diesem Status.",
+  "dueOn": "Fällig am {date}",
+  "deliveryWaiting": "Eine Lieferung wartet auf Ihre Prüfung",
+  "pagination": "Seiten",
+  "previousPage": "Vorherige Seite",
+  "nextPage": "Nächste Seite",
+  "pageOf": "Seite {page} von {total}"
+}

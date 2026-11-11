@@ -1,0 +1,67 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/editProviderProfile.tsx",
+  "editTitle": "Modifier le profil de prestataire",
+  "editDescription": "Mettez à jour les compétences, la biographie, le portfolio et la disponibilité hebdomadaire de ce prestataire.",
+  "errorTitle": "Impossible de charger le profil du prestataire",
+  "errorDescription": "Vérifiez le lien ou revenez à la liste et réessayez.",
+  "formHeader": {
+    "title": "Modifier le profil de prestataire",
+    "description": "Mettre à jour les compétences, la biographie, le portfolio et la disponibilité."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Enregistrer les modifications"
+  },
+  "form": {
+    "skillsLabel": "Compétences",
+    "skillsPlaceholder": "par ex. plomberie, électricité...",
+    "skillsRemoveTooltip": "Supprimer la compétence",
+    "bioLabel": "Biographie",
+    "bioPlaceholder": "Parlez de vous aux clients...",
+    "portfolioLabel": "Images du portfolio",
+    "timezoneLabel": "Fuseau horaire",
+    "timezonePlaceholder": "Fuseau horaire de l'entreprise si vide",
+    "section": {
+      "profile": "Profil",
+      "availability": "Disponibilité hebdomadaire",
+      "portfolio": "Portfolio"
+    },
+    "availabilityAddRow": "Ajouter une fenêtre horaire",
+    "availabilityRemoveRow": "Retirer",
+    "availabilityRowTitle": "Fenêtre de disponibilité",
+    "dayOfWeekLabel": "Jour de la semaine",
+    "startTimeLabel": "Heure de début",
+    "startTimePlaceholder": "Choisissez l'heure de début",
+    "endTimeLabel": "Heure de fin",
+    "endTimePlaceholder": "Choisir l'heure de fin"
+  },
+  "weekday": {
+    "0": "Dimanche",
+    "1": "Lundi",
+    "2": "Mardi",
+    "3": "Mercredi",
+    "4": "Jeudi",
+    "5": "Vendredi",
+    "6": "Samedi"
+  },
+  "axios": {
+    "start": {
+      "title": "Enregistrement du profil",
+      "time": 3000
+    },
+    "success": {
+      "title": "Profil mis à jour",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de mettre à jour le profil",
+      "time": 3000
+    }
+  },
+  "account": {
+    "edit": "Modifier",
+    "empty": "Rien n'a encore été ajouté.",
+    "timezoneDefault": "Non défini : le fuseau horaire de l'entreprise s'applique.",
+    "notAvailable": "Indisponible"
+  }
+}

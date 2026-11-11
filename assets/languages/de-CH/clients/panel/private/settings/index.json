@@ -1,0 +1,4 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/settings/index.tsx",
+  "loadError": "Die Marktplatz-Einstellungen konnten nicht geöffnet werden. Legen Sie zuerst eine Währung an und versuchen Sie es erneut."
+}

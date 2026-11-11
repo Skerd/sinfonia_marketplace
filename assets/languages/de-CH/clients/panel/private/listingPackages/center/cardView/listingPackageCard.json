@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/cardView/listingPackageCard.tsx",
+  "failedTitle": "Inseratpaket konnte nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "name": "Name",
+  "listing": "Inserat",
+  "priceAmount": "Preis",
+  "deliveryDays": "Liefertage",
+  "displayOrder": "Anzeigereihenfolge",
+  "days": "d",
+  "provider": "Anbieter"
+}

@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/cardView/bookingCard.tsx",
+  "failedTitle": "Buchung konnten nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "provider": "Anbieter",
+  "startAt": "Beginn",
+  "endAt": "Ende",
+  "timezone": "Zeitzone",
+  "order": "Auftrag",
+  "time": "Zeit",
+  "orderStatus": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "in_progress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert"
+  }
+}

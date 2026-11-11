@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/sheetView/taskRequestSheetView.tsx",
+  "taskRequest": "Demande de devis",
+  "overview": "Vue d'ensemble",
+  "lifecycle": "Cycle de vie",
+  "description": "Description",
+  "section": {
+    "generalInfo": "Vue d'ensemble",
+    "description": "Description",
+    "media": "Galerie"
+  },
+  "name": "Nom",
+  "title": "Titre",
+  "status": "Statut",
+  "category": "Catégorie",
+  "requester": "Demandeur",
+  "budgetMin": "Budget (min)",
+  "budgetMax": "Budget (maximum)",
+  "currency": "Devise",
+  "address": "Adresse",
+  "country": "Pays",
+  "state": "Région / État",
+  "city": "Ville",
+  "street": "Rue",
+  "postalCode": "Code postal",
+  "latitude": "Latitude",
+  "longitude": "Longitude",
+  "expiresAt": "Expire",
+  "gallery": "Galerie",
+  "createdAt": "Créé le",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par",
+  "failedTitle": "Échec du chargement de la demande de devis",
+  "failedDescription": "Une erreur s'est produite lors du chargement de cette demande de devis. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "taskRequestStatus": {
+    "open": "Ouvert",
+    "closed": "Fermé",
+    "awarded": "Attribuée"
+  },
+  "bidsGroup": "Offres",
+  "ordersGroup": "Commande",
+  "bidRow": "Offre",
+  "orderRow": "Commande",
+  "bidStatus": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "rejected": "Rejeté"
+  },
+  "orderStatus": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "in_progress": "En cours",
+    "completed": "Terminé",
+    "cancelled": "Annulé"
+  },
+  "compactView": "Compacte",
+  "cardsView": "Cartes",
+  "toggleReferenceListView": "Basculer l'affichage"
+}

@@ -1,0 +1,75 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/index.tsx",
+  "title": "Richieste di preventivo",
+  "description": "Pubblica e gestisci le richieste degli acquirenti per preventivi, lavori personalizzati o appalti.",
+  "help": {
+    "ariaLabel": "Informazioni sulle richieste di preventivo",
+    "title": "Informazioni sulle richieste di preventivo",
+    "overview": "Una richiesta di preventivo è il brief di un acquirente che chiede preventivi ai fornitori: cosa gli serve, in quale categoria e dove, con quale budget. Resta aperta alle offerte per 30 giorni. Accettare un’offerta la assegna e apre un ordine.",
+    "sections": [
+      {
+        "title": "Campi",
+        "items": [
+          "Titolo, categoria, budget minimo e massimo, valuta, indirizzo e immagine principale sono obbligatori; descrizione e gallerie sono facoltative.",
+          "Il richiedente è chi la pubblica. Categoria e città decidono quali fornitori vengono informati."
+        ]
+      },
+      {
+        "title": "Stati",
+        "items": [
+          "Aperta: accetta offerte fino alla scadenza.",
+          "Chiusa: non accetta più offerte, per scelta del richiedente o perché sono passati 30 giorni. Un processo orario chiude le richieste scadute.",
+          "Assegnata: un’offerta è stata accettata; lo stato non può più cambiare."
+        ]
+      },
+      {
+        "title": "Azioni",
+        "body": "Solo il richiedente, o un amministratore, può cambiare lo stato.",
+        "items": [
+          "Chiudi: da aperta. Tutti quelli con un’offerta in attesa vengono avvisati.",
+          "Riapri: da chiusa. Fa ripartire la finestra di 30 giorni, così una richiesta scaduta non viene richiusa subito.",
+          "Avvisa tutti: informa di nuovo ogni fornitore con un annuncio attivo nella stessa categoria e città."
+        ]
+      },
+      {
+        "title": "Offerte e assegnazione",
+        "items": [
+          "I fornitori fanno offerte finché è aperta e non scaduta; nessuno può fare offerte sulla propria richiesta.",
+          "Accettare un’offerta rifiuta le altre, segna la richiesta come assegnata e apre un ordine in attesa tra richiedente e offerente.",
+          "Ogni riga mostra quante offerte attive ha. I non amministratori vedono le proprie richieste.",
+          "L’eliminazione è logica e la richiesta può essere ripristinata."
+        ]
+      }
+    ]
+  },
+  "createTaskRequest": "Crea richiesta di preventivo",
+  "searchPlaceholder": "Cerca o aggiungi filtri...",
+  "fields": {
+    "title": "Titolo",
+    "description": "Descrizione",
+    "requester": "Richiedente",
+    "category": "Categoria",
+    "budgetMin": "Budget (min)",
+    "budgetMax": "Budget (massimo)",
+    "currency": "Valuta",
+    "address": "Indirizzo",
+    "expiresAt": "Scade",
+    "status": "Stato",
+    "mainImage": "Immagine principale",
+    "imageGallery": "Galleria immagini",
+    "videoGallery": "Galleria video",
+    "company": "Azienda",
+    "createdBy": "Creato da",
+    "createdAt": "Creato il",
+    "updatedAt": "Aggiornato il",
+    "deletedAt": "Eliminato il",
+    "deletedBy": "Eliminato da",
+    "!enums": {
+      "status": {
+        "open": "Aperta",
+        "closed": "Chiusa",
+        "awarded": "Assegnata"
+      }
+    }
+  }
+}

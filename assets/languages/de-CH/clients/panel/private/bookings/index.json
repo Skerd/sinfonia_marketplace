@@ -1,0 +1,55 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/index.tsx",
+  "title": "Buchungen",
+  "description": "Geplante Service-Buchungen verwalten",
+  "help": {
+    "ariaLabel": "Über Buchungen",
+    "title": "Über Buchungen",
+    "overview": "Eine Buchung setzt einen Marktplatz-Auftrag in den Kalender: Start- und Endzeit in der Zeitzone des Anbieters. Nutzen Sie sie, wenn die Arbeit zu einem Termin stattfindet, nicht nur bis zu einem Fälligkeitsdatum.",
+    "sections": [
+      {
+        "title": "Anlegen",
+        "items": [
+          "Jede Partei des Auftrags kann ihn buchen, solange der Auftrag angenommen oder in Arbeit ist.",
+          "Eine Buchung pro Auftrag. Der Anbieter wird aus dem Auftrag übernommen.",
+          "Das Ende muss nach dem Start liegen."
+        ]
+      },
+      {
+        "title": "Ändern",
+        "items": [
+          "Nur der Anbieter oder ein Administrator verschiebt.",
+          "Löschen ist ein Soft Delete und kann wiederhergestellt werden.",
+          "Nicht-Administratoren sehen nur die Buchungen ihrer eigenen Aufträge."
+        ]
+      }
+    ]
+  },
+  "createBooking": "Buchung erstellen",
+  "fields": {
+    "order": "Auftrag",
+    "provider": "Anbieter",
+    "startAt": "Beginn",
+    "endAt": "Ende",
+    "timezone": "Zeitzone",
+    "status": "Status",
+    "createdAt": "Erstellt",
+    "deletedAt": "Gelöscht",
+    "deletedBy": "Gelöscht von",
+    "when": "Wann",
+    "!enums": {
+      "when": {
+        "upcoming": "Bevorstehend",
+        "today": "Heute",
+        "past": "Vergangen"
+      }
+    }
+  },
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "status": {
+    "scheduled": "Geplant",
+    "in_progress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert"
+  }
+}

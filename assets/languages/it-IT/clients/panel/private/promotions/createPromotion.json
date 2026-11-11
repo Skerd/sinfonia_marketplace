@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/createPromotion.tsx",
+  "formHeader": {
+    "title": "Crea promozione",
+    "description": "Aumenta la visibilità di un annuncio con una promozione in primo piano o sponsorizzata."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Crea promozione"
+  },
+  "form": {
+    "listingLabel": "Annuncio",
+    "listingPlaceholder": "Seleziona l'annuncio",
+    "typeLabel": "Tipo di promozione",
+    "promotionTypeLabel": "Tipo di promozione",
+    "promotionTypePlaceholder": "Seleziona il tipo di promozione",
+    "promotionTypeFeatured": "In evidenza",
+    "promotionTypeSponsored": "Sponsorizzato",
+    "startAtLabel": "Data e ora di inizio",
+    "startAtPlaceholder": "Inizio promozione",
+    "endAtLabel": "Data e ora di fine",
+    "endAtPlaceholder": "Fine della promozione",
+    "promotionSectionTitle": "Promozione",
+    "scheduleSectionTitle": "Periodo"
+  },
+  "axios": {
+    "start": {
+      "title": "Creazione della promozione",
+      "time": 3000
+    },
+    "success": {
+      "title": "Promozione creata",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile creare la promozione",
+      "time": 3000
+    }
+  }
+}

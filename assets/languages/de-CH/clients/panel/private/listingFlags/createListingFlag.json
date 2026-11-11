@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/createListingFlag.tsx",
+  "formHeader": {
+    "title": "Inserat-Meldung erstellen",
+    "description": "Melden Sie ein Inserat zur Prüfung durch das Moderationsteam."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Meldung senden"
+  },
+  "form": {
+    "listingLabel": "Inserat",
+    "listingPlaceholder": "Inserat auswählen",
+    "reasonLabel": "Grund",
+    "reasonPlaceholder": "Grund auswählen",
+    "commentLabel": "Zusätzlich details",
+    "commentPlaceholder": "Optionale Details...",
+    "reason_values": {
+      "inappropriate": "Unangemessener Inhalt",
+      "spam": "Spam",
+      "misleading": "Irreführend",
+      "other": "Andere"
+    },
+    "reportSectionTitle": "Meldung"
+  },
+  "axios": {
+    "start": {
+      "title": "Meldung wird gesendet",
+      "time": 3000
+    },
+    "success": {
+      "title": "Meldung gesendet",
+      "time": 3000
+    },
+    "error": {
+      "title": "Meldung konnte nicht gesendet werden",
+      "time": 3000
+    }
+  }
+}

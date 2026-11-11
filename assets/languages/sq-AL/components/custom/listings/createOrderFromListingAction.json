@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/createOrderFromListingAction.tsx",
+  "createOrder": {
+    "title": "Porosit këtë shërbim",
+    "description": "Vendos një porosi direkt nga ky listim. Ofruesi do të marrë njoftim dhe mund të pranojë ose refuzojë.",
+    "noteLabel": "Shënim shtesë (opsional)",
+    "notePlaceholder": "Udhëzime ose detaje të veçanta për ofruesin…",
+    "confirm": "Vendos porosinë",
+    "axios": {
+      "start": { "title": "Duke vendosur porosinë", "time": 3000 },
+      "success": { "title": "Porosia u vendos me sukses", "time": 3000 },
+      "error": { "title": "Porosia nuk u vendos, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancel": "Anulo"
+}

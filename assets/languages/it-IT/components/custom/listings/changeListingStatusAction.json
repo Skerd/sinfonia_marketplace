@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/changeListingStatusAction.tsx",
+  "activate": {
+    "title": "Attiva l'annuncio",
+    "description": "Vuoi davvero attivare",
+    "confirm": "Attiva",
+    "axios": {
+      "start": {
+        "title": "Attivazione dell'annuncio",
+        "time": 3000
+      },
+      "success": {
+        "title": "Annuncio attivato con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile attivare l'annuncio, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "deactivate": {
+    "title": "Disattiva l'annuncio",
+    "description": "Vuoi davvero disattivare",
+    "confirm": "Disattiva",
+    "axios": {
+      "start": {
+        "title": "Disattivazione dell'annuncio",
+        "time": 3000
+      },
+      "success": {
+        "title": "Annuncio disattivato con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile disattivare l'annuncio, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

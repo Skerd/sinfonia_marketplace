@@ -1,0 +1,14 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestNotifyAllConfirmAction.tsx",
+  "notifyAll": {
+    "title": "Të njoftohen të gjithë ofruesit?",
+    "description": "Dërgon njoftim te ofruesit me listime aktive në këtë kategori dhe qytet.",
+    "confirm": "Njofto të gjithë",
+    "axios": {
+      "start": { "title": "Duke dërguar njoftimet", "time": 3000 },
+      "success": { "title": "Ofruesit u njoftuan me sukses", "time": 3000 },
+      "error": { "title": "Njoftimet nuk u dërguan, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancel": "Anulo"
+}

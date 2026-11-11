@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/createCategory.tsx",
+  "form": {
+    "nameLabel": "Nome",
+    "namePlaceholder": "es. Pulizie di casa",
+    "parentListingCategoryLabel": "Categoria padre",
+    "parentListingCategoryPlaceholder": "Livello principale se vuoto",
+    "orderLabel": "Ordine di visualizzazione",
+    "orderPlaceholder": "0",
+    "createCategoryTitle": "Crea categoria di annunci",
+    "createCategoryDescription": "Aggiungi una categoria che raggruppa gli annunci e le richieste di attività del marketplace.",
+    "basicsSectionTitle": "Dati principali",
+    "visibilitySectionTitle": "Visibilità"
+  },
+  "axios": {
+    "start": {
+      "title": "Creazione della categoria di annunci",
+      "time": 3000
+    },
+    "success": {
+      "title": "Categoria di annunci creata",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile creare la categoria di annunci",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Crea categoria di annunci",
+    "description": "Aggiungi una categoria che raggruppa gli annunci e le richieste di attività del marketplace."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Crea categoria di annunci"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/submitOrderDeliveryAction.tsx",
+  "submitDelivery": {
+    "title": "Lieferung einreichen",
+    "description": "Senden Sie Ihre fertige Arbeit dem Kunden zur Prüfung. Sie können eine optionale Nachricht beifügen.",
+    "messageLabel": "Nachricht zur Lieferung",
+    "messagePlaceholder": "Beschreiben Sie, was geliefert wurde, oder fügen Sie Notizen für den Kunden hinzu…",
+    "confirm": "Lieferung einreichen",
+    "attachmentsLabel": "Dateien",
+    "addFile": "Datei hinzufügen",
+    "axios": {
+      "start": {
+        "title": "Lieferung wird eingereicht",
+        "time": 3000
+      },
+      "success": {
+        "title": "Lieferung erfolgreich eingereicht",
+        "time": 3000
+      },
+      "error": {
+        "title": "Lieferung konnte nicht eingereicht werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

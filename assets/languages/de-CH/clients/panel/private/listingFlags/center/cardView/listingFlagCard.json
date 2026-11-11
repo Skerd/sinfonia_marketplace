@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/cardView/listingFlagCard.tsx",
+  "failedTitle": "Inserat-Meldung konnte nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "listing": "Inserat",
+  "reason": "Grund",
+  "reporter": "Meldende Person",
+  "status": "Status",
+  "status_values": {
+    "pending": "Ausstehend",
+    "reviewed": "Geprüft",
+    "dismissed": "Verworfen"
+  },
+  "reason_values": {
+    "inappropriate": "Unangemessener Inhalt",
+    "spam": "Spam",
+    "misleading": "Irreführend",
+    "other": "Andere"
+  },
+  "reportedAt": "Gemeldet am"
+}

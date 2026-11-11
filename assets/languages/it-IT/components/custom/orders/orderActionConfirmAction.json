@@ -1,0 +1,80 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
+  "accept": {
+    "title": "Accettare questo ordine?",
+    "description": "L'ordine verrà contrassegnato come accettato e i fondi verranno trattenuti in garanzia.",
+    "confirm": "Accetta l'ordine",
+    "axios": {
+      "start": {
+        "title": "Accettazione dell'ordine",
+        "time": 3000
+      },
+      "success": {
+        "title": "Ordine accettato con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile accettare l'ordine, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "start": {
+    "title": "Avviare questo ordine?",
+    "description": "L'ordine passerà allo stato In corso. Solo il fornitore può avviare un ordine accettato.",
+    "confirm": "Inizia l'ordine",
+    "axios": {
+      "start": {
+        "title": "Avvio dell'ordine",
+        "time": 3000
+      },
+      "success": {
+        "title": "Ordine avviato con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile avviare l'ordine, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancelOrder": {
+    "title": "Annullare questo ordine?",
+    "description": "L'ordine verrà contrassegnato come annullato. I fondi depositati in garanzia possono essere rimborsati se già trattenuti.",
+    "confirm": "Annulla l'ordine",
+    "axios": {
+      "start": {
+        "title": "Annullamento dell'ordine",
+        "time": 3000
+      },
+      "success": {
+        "title": "Ordine annullato con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile annullare l'ordine, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "acceptDelivery": {
+    "title": "Accettare la consegna e completare l'ordine?",
+    "description": "La consegna del fornitore verrà accettata, i fondi depositati in garanzia verranno rilasciati e l'ordine verrà contrassegnato come completato.",
+    "confirm": "Completa l'ordine",
+    "axios": {
+      "start": {
+        "title": "Completamento dell'ordine",
+        "time": 3000
+      },
+      "success": {
+        "title": "Ordine completato con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile completare l'ordine, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

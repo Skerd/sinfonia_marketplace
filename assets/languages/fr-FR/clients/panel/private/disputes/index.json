@@ -1,0 +1,61 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
+  "title": "Litiges",
+  "description": "Examinez et résolvez les litiges entre clients et prestataires.",
+  "help": {
+    "ariaLabel": "À propos des litiges",
+    "title": "À propos des litiges",
+    "overview": "Un litige est un désaccord sur une commande de la place de marché, tranché par un administrateur. Tant qu’il est ouvert, l’argent de la commande est gelé : pas d’acceptation de livraison, de libération d’étape, d’acceptation automatique ni d’annulation. La décision dit qui reçoit ce qui est encore conservé.",
+    "sections": [
+      {
+        "title": "Ouvrir un litige",
+        "items": [
+          "Chaque partie de la commande peut en ouvrir un, sur une commande ni terminée ni annulée. Un litige par commande.",
+          "L’appelant est l’initiateur ; l’autre partie est prévenue.",
+          "Les clients peuvent aussi en ouvrir un depuis leur compte boutique."
+        ]
+      },
+      {
+        "title": "Statuts et décisions",
+        "body": "Seul un administrateur tranche, et une note de résolution est obligatoire.",
+        "items": [
+          "Ouvert : soulevé et en attente. Démarrer l’examen le passe en cours d’examen.",
+          "Résoudre (depuis ouvert ou en cours d’examen) tranche pour le prestataire : une livraison en attente est acceptée, la commande terminée et le reste du séquestre libéré au prestataire.",
+          "Clore (depuis ouvert ou en cours d’examen) tranche pour le client : la commande est annulée et le reste du séquestre remboursé.",
+          "Les deux parties sont prévenues de l’issue."
+        ]
+      },
+      {
+        "title": "Suppression",
+        "items": [
+          "Seul un administrateur peut supprimer un litige, car un litige ouvert bloque le versement. Un litige supprimé ne peut faire l’objet d’aucune action avant d’être restauré."
+        ]
+      }
+    ]
+  },
+  "createDispute": "Créer un litige",
+  "fields": {
+    "status": "Statut",
+    "reason": "Motif",
+    "resolution": "Résolution",
+    "initiator": "Initiateur",
+    "createdAt": "Ouvert",
+    "deletedAt": "Supprimé",
+    "deletedBy": "Supprimé par",
+    "!enums": {
+      "status": {
+        "open": "Ouvert",
+        "under_review": "En cours d'examen",
+        "resolved": "Résolu",
+        "closed": "Fermé"
+      }
+    }
+  },
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "status": {
+    "open": "Ouvert",
+    "under_review": "En cours d'examen",
+    "resolved": "Résolu",
+    "closed": "Fermé"
+  }
+}

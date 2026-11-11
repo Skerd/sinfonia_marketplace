@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/cardView/listingFlagCard.tsx",
+  "failedTitle": "Échec du chargement du signalement d'annonce",
+  "failedDescription": "Touchez pour réessayer.",
+  "listing": "Annonce",
+  "reason": "Motif",
+  "reporter": "Signaleur",
+  "status": "Statut",
+  "status_values": {
+    "pending": "En attente",
+    "reviewed": "Examiné",
+    "dismissed": "Rejeté"
+  },
+  "reason_values": {
+    "inappropriate": "Contenu inapproprié",
+    "spam": "Spam",
+    "misleading": "Trompeur",
+    "other": "Autre"
+  },
+  "reportedAt": "Signalé le"
+}

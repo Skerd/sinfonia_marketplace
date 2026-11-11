@@ -1,0 +1,35 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/sheetView/listingFlagSheetView.tsx",
+  "failedTitle": "Impossibile caricare la segnalazione dell'annuncio",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento della segnalazione dell'annuncio. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "listingFlagSubtitle": "Segnalazione dell'annuncio",
+  "listingFlag": "Segnalazione dell'annuncio",
+  "overview": "Panoramica",
+  "lifecycle": "Ciclo di vita",
+  "details": "Dettagli",
+  "listing": "Annuncio",
+  "reason": "Motivo",
+  "comment": "Commento",
+  "user": "Segnalatore",
+  "reporter": "Segnalatore",
+  "status": "Stato",
+  "resolution": "Risoluzione",
+  "listingAction": "Azione sull'annuncio",
+  "createdAt": "Creato il",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da",
+  "status_values": {
+    "pending": "In sospeso",
+    "reviewed": "Esaminata",
+    "dismissed": "Respinta"
+  },
+  "reason_values": {
+    "inappropriate": "Contenuti inappropriati",
+    "spam": "Spam",
+    "misleading": "Fuorviante",
+    "other": "Altro"
+  }
+}

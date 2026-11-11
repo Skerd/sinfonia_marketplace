@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/accountProviderProfile.tsx",
+  "title": "Provider profile",
+  "description": "Your marketplace seller profile: bio, skills, portfolio, and weekly availability.",
+  "failTitle": "Could not load the provider profile",
+  "failDescription": "Click to try again.",
+  "connect": {
+    "notConnected": "Payouts not connected",
+    "setupIncomplete": "Stripe setup incomplete",
+    "payoutsEnabled": "Payouts enabled",
+    "start": "Connect Stripe payouts",
+    "continue": "Continue Stripe setup",
+    "refresh": "Refresh Stripe status"
+  },
+  "empty": {
+    "title": "No provider profile yet",
+    "description": "Create one to describe your skills, availability, and past work to clients.",
+    "create": "Create provider profile",
+    "createFailed": "Could not create the provider profile."
+  }
+}

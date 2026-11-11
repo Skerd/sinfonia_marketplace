@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestNotifyAllConfirmAction.tsx",
+  "notifyAll": {
+    "title": "Informer tous les prestataires ?",
+    "description": "Envoyez une notification aux prestataires ayant des annonces actives dans cette catégorie et cette ville.",
+    "confirm": "Notifier tout le monde",
+    "axios": {
+      "start": {
+        "title": "Envoi de notifications",
+        "time": 3000
+      },
+      "success": {
+        "title": "Prestataires notifiés avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible d'avertir les prestataires, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

@@ -1,0 +1,28 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/orderExtendAction.tsx",
+  "extend": {
+    "title": "Liefertermin verlängern",
+    "description": "Fügen Sie dem Liefertermin zusätzliche Tage hinzu. Nur der Anbieter kann einen aktiven Auftrag verlängern.",
+    "additionalDaysLabel": "Zusätzliche Tage",
+    "additionalDaysHint": "Geben Sie einen Wert zwischen 1 und 90 Tagen ein.",
+    "confirm": "Lieferung verlängern",
+    "axios": {
+      "start": {
+        "title": "Auftrag wird verlängert",
+        "time": 3000
+      },
+      "success": {
+        "title": "Auftrag erfolgreich verlängert",
+        "time": 3000
+      },
+      "error": {
+        "title": "Auftrag konnte nicht verlängert werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    },
+    "currentDueDateLabel": "Aktuelles Fälligkeitsdatum",
+    "newDueDateLabel": "Neues Fälligkeitsdatum",
+    "noDueDate": "Nicht gesetzt"
+  },
+  "cancel": "Abbrechen"
+}

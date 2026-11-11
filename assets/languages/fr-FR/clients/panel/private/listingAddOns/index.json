@@ -1,0 +1,46 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/index.tsx",
+  "title": "Modules complémentaires d'annonce",
+  "description": "Gérez les modules complémentaires facultatifs que les prestataires ajoutent à leurs annonces.",
+  "help": {
+    "ariaLabel": "À propos des modules complémentaires d'annonce",
+    "title": "À propos des modules complémentaires d'annonce",
+    "overview": "Un module complémentaire est un supplément facultatif qu’un acheteur peut ajouter en commandant une annonce, comme une livraison express ou une révision supplémentaire. Il appartient à une annonce et ajoute son propre prix et, éventuellement, des jours de livraison.",
+    "sections": [
+      {
+        "title": "Champs",
+        "items": [
+          "L’annonce est obligatoire et figée ; seul le prestataire de cette annonce peut créer ou supprimer ses modules.",
+          "Le nom est ce que voit l’acheteur. Montant et devise du prix sont ce qu’il ajoute.",
+          "Les jours de livraison, s’ils sont renseignés, s’ajoutent à la fenêtre de livraison de l’annonce ou du package."
+        ]
+      },
+      {
+        "title": "Commander avec des modules",
+        "items": [
+          "Seuls les modules de l’annonce commandée peuvent être choisis, chacun une fois.",
+          "Chaque module doit utiliser la même devise que la commande (celle du package, ou de l’annonce sans package) ; un écart bloque la commande.",
+          "La suppression est douce. Un module ne peut pas être restauré tant que son annonce est supprimée."
+        ]
+      }
+    ]
+  },
+  "createListingAddOn": "Créer un module complémentaire d'annonce",
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "fields": {
+    "name": "Nom",
+    "listing": "Annonce",
+    "provider": "Prestataire",
+    "price": {
+      "amount": "Prix",
+      "currency": "Devise"
+    },
+    "deliveryDays": "Jours de livraison",
+    "company": "Entreprise",
+    "createdBy": "Créé par",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "deletedAt": "Supprimé le",
+    "deletedBy": "Supprimé par"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/settings/editMarketplaceConfig.tsx",
+  "title": "Marketplace settings",
+  "description": "Applies to this company's services marketplace.",
+  "form": {
+    "settingsSectionTitle": "Marketplace",
+    "listedOnPortalLabel": "List on the portal",
+    "listedOnPortalPlaceholder": "",
+    "currencyLabel": "Currency",
+    "currencyPlaceholder": "Select currency"
+  }
+}

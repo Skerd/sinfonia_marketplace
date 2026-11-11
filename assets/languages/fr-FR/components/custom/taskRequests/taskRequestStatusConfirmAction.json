@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestStatusConfirmAction.tsx",
+  "close": {
+    "title": "Fermer cette demande de devis ?",
+    "description": "Les prestataires ne pourront plus faire de nouvelles offres. Vous pourrez la rouvrir plus tard, sauf si la demande a été attribuée.",
+    "confirm": "Confirmer",
+    "axios": {
+      "start": {
+        "title": "Clôture de la demande de devis",
+        "time": 3000
+      },
+      "success": {
+        "title": "Demande de devis clôturée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de fermer la demande de devis, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "reopen": {
+    "title": "Rouvrir cette demande de devis ?",
+    "description": "La demande sera à nouveau ouverte afin que les prestataires puissent soumettre des offres.",
+    "confirm": "Confirmer",
+    "axios": {
+      "start": {
+        "title": "Réouverture de la demande de devis",
+        "time": 3000
+      },
+      "success": {
+        "title": "La demande de devis a été rouverte avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de rouvrir la demande de devis, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

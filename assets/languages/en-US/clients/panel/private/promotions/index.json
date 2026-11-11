@@ -1,0 +1,63 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/index.tsx",
+  "title": "Promotions",
+  "description": "Manage featured and sponsored listing promotions.",
+  "help": {
+    "ariaLabel": "About Promotions",
+    "title": "About Promotions",
+    "overview": "A promotion boosts one listing as featured or sponsored for a start-to-end window. It runs while its lifecycle is active and today is inside its dates. Lifecycle is active, paused, or stopped and is changed only by actions.",
+    "sections": [
+      {
+        "title": "Creating",
+        "items": [
+          "The listing's provider, or an administrator, promotes an active listing.",
+          "Type is featured or sponsored. Start and end bound when the boost applies."
+        ]
+      },
+      {
+        "title": "Lifecycle",
+        "body": "Pause, resume, and stop need ownership of the listing, or an administrator.",
+        "items": [
+          "Pause is only from active: the boost stops without ending the campaign.",
+          "Resume is only from paused, and only while the end date is still in the future.",
+          "Stop ends the promotion for good with a stop reason; it cannot be resumed."
+        ]
+      },
+      {
+        "title": "Effect",
+        "items": [
+          "On the storefront's recommended sort, listings with a running promotion come first, newest first, then the rest.",
+          "Deleted promotions cannot be paused, resumed, or stopped until restored."
+        ]
+      }
+    ]
+  },
+  "createPromotion": "Create promotion",
+  "searchPlaceholder": "Search or add filters...",
+  "fields": {
+    "name": "Name",
+    "listing": "Listing",
+    "type": "Type",
+    "lifecycleStatus": "Lifecycle status",
+    "stopReason": "Stop reason",
+    "startAt": "Start",
+    "endAt": "End",
+    "company": "Company",
+    "createdBy": "Created by",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "deletedAt": "Deleted at",
+    "deletedBy": "Deleted by",
+    "!enums": {
+      "type": {
+        "featured": "Featured",
+        "sponsored": "Sponsored"
+      },
+      "lifecycleStatus": {
+        "active": "Active",
+        "paused": "Paused",
+        "stopped": "Stopped"
+      }
+    }
+  }
+}

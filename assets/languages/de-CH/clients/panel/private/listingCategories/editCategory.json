@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/editCategory.tsx",
+  "editTitle": "Inseratkategorie bearbeiten",
+  "editDescription": "Diese Inseratkategorie aktualisieren.",
+  "errorTitle": "Kategorie konnten nicht geladen werden",
+  "errorDescription": "Die Kategorie konnte nicht geladen werden. Bitte erneut versuchen.",
+  "form": {
+    "_idLabel": "Protokoll ID",
+    "nameLabel": "Name",
+    "namePlaceholder": "z. B. Hausreinigung",
+    "parentListingCategoryLabel": "Übergeordnete Kategorie",
+    "parentListingCategoryPlaceholder": "Oberste Ebene, wenn leer",
+    "orderLabel": "Sortierreihenfolge",
+    "orderPlaceholder": "0",
+    "editCategoryTitle": "Inseratkategorie bearbeiten",
+    "editCategoryDescription": "Diese Inseratkategorie aktualisieren.",
+    "basicsSectionTitle": "Grunddaten",
+    "visibilitySectionTitle": "Sichtbarkeit"
+  },
+  "axios": {
+    "start": {
+      "title": "Inseratkategorie wird gespeichert",
+      "time": 3000
+    },
+    "success": {
+      "title": "Inseratkategorie aktualisiert",
+      "time": 3000
+    },
+    "error": {
+      "title": "Inseratkategorie konnte nicht aktualisiert werden",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Inseratkategorie bearbeiten",
+    "description": "Diese Inseratkategorie aktualisieren."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Änderungen speichern"
+  }
+}

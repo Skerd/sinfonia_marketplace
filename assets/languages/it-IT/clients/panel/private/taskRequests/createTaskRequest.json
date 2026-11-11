@@ -1,0 +1,62 @@
+{
+  "address": "Indirizzo",
+  "form": {
+    "addressPrivacyAlert": "I fornitori non possono vedere il tuo indirizzo esatto finché non accetti un'offerta. Il tuo indirizzo completo viene condiviso solo con il fornitore che scegli, dopo aver concordato il lavoro.",
+    "budgetMaxLabel": "Budget (massimo)",
+    "budgetMinLabel": "Budget (min)",
+    "categoryLabel": "Categoria",
+    "cityLabel": "Città",
+    "cityPlaceholder": "Seleziona la città",
+    "countryLabel": "Paese",
+    "countryPlaceholder": "Seleziona il paese",
+    "currencyLabel": "Valuta",
+    "descriptionLabel": "Descrizione",
+    "descriptionPlaceholder": "Cosa c’è da fare, quanto è grande il lavoro ed entro quando.",
+    "expiresAtLabel": "Scade",
+    "expiresAtPlaceholder": "aaaa-MM-gg",
+    "imageGalleryLabel": "Galleria immagini",
+    "latitudeLabel": "Latitudine",
+    "latitudePlaceholder": "Latitudine",
+    "longitudeLabel": "Longitudine",
+    "longitudePlaceholder": "Longitudine",
+    "mainImageLabel": "Immagine principale",
+    "postalCodeLabel": "CAP",
+    "postalCodePlaceholder": "CAP",
+    "section": {
+      "budget": "Budget",
+      "currencyExpires": "Valuta e scadenza",
+      "description": "Dettagli",
+      "general": "Generale",
+      "images": "Immagini",
+      "video": "Video",
+      "address": "Indirizzo"
+    },
+    "stateLabel": "Cantone / Stato",
+    "statePlaceholder": "Seleziona il cantone",
+    "streetLabel": "Via",
+    "streetPlaceholder": "Indirizzo stradale",
+    "taskRequestStatus": {
+      "awarded": "Assegnata",
+      "closed": "Chiusa",
+      "open": "Aperta"
+    },
+    "titleLabel": "Titolo",
+    "videoGalleryLabel": "Galleria video",
+    "titlePlaceholder": "es. Tinteggiare un trilocale",
+    "categoryPlaceholder": "Seleziona categoria",
+    "currencyPlaceholder": "Seleziona valuta",
+    "currencyDescription": "Le offerte su questa richiesta sono in questa valuta.",
+    "budgetMinPlaceholder": "es. 500",
+    "budgetMaxPlaceholder": "es. 900"
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Invia"
+  },
+  "formHeader": {
+    "description": "Descrivi ciò di cui hai bisogno. I fornitori possono rispondere con offerte.",
+    "title": "Crea richiesta di preventivo"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/createTaskRequest.tsx",
+  "title": "Titolo"
+}

@@ -1,0 +1,68 @@
+{
+  "address": "Adresa",
+  "editDescription": "Përditësoni fushat që ju lejohen.",
+  "editTitle": "Ndrysho kërkesën",
+  "errorDescription": "Kontrolloni lidhjen ose kthehuni te lista.",
+  "errorTitle": "Nuk u ngarkua kërkesa",
+  "form": {
+    "addressPrivacyAlert": "Ofruesit nuk e shohin adresën tuaj të saktë derisa të pranoni një ofertë. Adresa e plotë u jepet vetëm ofruesit që zgjidhni, pasi të keni rënë dakord për punën.",
+    "budgetMaxLabel": "Buxheti (max)",
+    "budgetMinLabel": "Buxheti (min)",
+    "categoryLabel": "Kategoria",
+    "cityLabel": "Qyteti",
+    "cityPlaceholder": "Zgjidh qytetin",
+    "countryLabel": "Shteti",
+    "countryPlaceholder": "Zgjidh shtetin",
+    "currencyLabel": "Monedha",
+    "descriptionLabel": "Përshkrimi",
+    "descriptionPlaceholder": "Çfarë duhet bërë, sa i madh është punimi dhe afati.",
+    "editStatusSection": "Statusi",
+    "expiresAtLabel": "Skadon",
+    "expiresAtPlaceholder": "YYYY-MM-DD",
+    "imageGalleryLabel": "Galeria e imazheve",
+    "latitudeLabel": "Gjerësia gjeografike",
+    "latitudePlaceholder": "Gjerësia",
+    "longitudeLabel": "Gjatësia gjeografike",
+    "longitudePlaceholder": "Gjatësia",
+    "mainImageLabel": "Imazhi kryesor",
+    "postalCodeLabel": "Kodi postar",
+    "postalCodePlaceholder": "Kodi postar",
+    "section": {
+      "budget": "Buxheti",
+      "currencyExpires": "Monedha dhe skadimi",
+      "description": "Detajet",
+      "general": "Të përgjithshme",
+      "images": "Imazhet",
+      "video": "Video",
+      "address": "Adresa"
+    },
+    "stateLabel": "Rajoni",
+    "statePlaceholder": "Zgjidh rajonin",
+    "statusLabel": "Statusi",
+    "streetLabel": "Rruga",
+    "streetPlaceholder": "Adresa",
+    "taskRequestStatus": {
+      "awarded": "E dhënë",
+      "closed": "Mbyllur",
+      "open": "Hapur"
+    },
+    "titleLabel": "Titulli",
+    "videoGalleryLabel": "Galeria e videove",
+    "titlePlaceholder": "p.sh. Lyerja e një apartamenti 2+1",
+    "categoryPlaceholder": "Zgjidh kategorinë",
+    "currencyPlaceholder": "Zgjidh monedhën",
+    "currencyDescription": "Ofertat për këtë kërkesë vijnë në këtë monedhë.",
+    "budgetMinPlaceholder": "p.sh. 500",
+    "budgetMaxPlaceholder": "p.sh. 900"
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Përditëso"
+  },
+  "formHeader": {
+    "description": "Përditësoni detajet.",
+    "title": "Ndrysho kërkesën"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/editTaskRequest.tsx",
+  "title": "Titulli"
+}

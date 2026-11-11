@@ -1,0 +1,9 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/center/cardView/categoryCard.tsx",
+  "failedTitle": "Kategoria e listimit nuk u ngarkua",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "name": "Emri",
+  "slug": "Slug",
+  "parentListingCategory": "Kategoria prind",
+  "order": "Rendi"
+}

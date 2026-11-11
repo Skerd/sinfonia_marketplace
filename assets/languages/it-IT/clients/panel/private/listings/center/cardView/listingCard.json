@@ -1,0 +1,20 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listings/center/cardView/listingCard.tsx",
+  "failedTitle": "Impossibile caricare l'annuncio",
+  "failedDescription": "Tocca per riprovare.",
+  "name": "Nome",
+  "title": "Titolo",
+  "status": "Stato",
+  "price": "Prezzo",
+  "category": "Categoria",
+  "city": "Città",
+  "perHour": "h",
+  "days": "d",
+  "featured": "In evidenza",
+  "sponsored": "Sponsorizzato",
+  "statuses": {
+    "active": "Attivo",
+    "draft": "Bozza",
+    "inactive": "Inattivo"
+  }
+}

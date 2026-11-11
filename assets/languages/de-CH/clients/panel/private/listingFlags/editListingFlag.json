@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/editListingFlag.tsx",
+  "editTitle": "Inserat-Meldung bearbeiten",
+  "editDescription": "Grund und Details dieser Meldung aktualisieren.",
+  "errorTitle": "Meldung konnte nicht geladen werden",
+  "errorDescription": "Prüfen Sie den Link oder kehren Sie zur Liste zurück und versuchen Sie es erneut.",
+  "formHeader": {
+    "title": "Inserat-Meldung bearbeiten",
+    "description": "Grund und zusätzliche Details aktualisieren. Das Inserat kann nicht geändert werden."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Änderungen speichern"
+  },
+  "form": {
+    "reasonLabel": "Grund",
+    "reasonPlaceholder": "Grund auswählen",
+    "commentLabel": "Zusätzlich details",
+    "commentPlaceholder": "Optionale Details...",
+    "reason_values": {
+      "inappropriate": "Unangemessener Inhalt",
+      "spam": "Spam",
+      "misleading": "Irreführend",
+      "other": "Andere"
+    },
+    "reportSectionTitle": "Meldung"
+  },
+  "axios": {
+    "start": {
+      "title": "Meldung wird gespeichert",
+      "time": 3000
+    },
+    "success": {
+      "title": "Meldung aktualisiert",
+      "time": 3000
+    },
+    "error": {
+      "title": "Meldung konnte nicht aktualisiert werden",
+      "time": 3000
+    }
+  }
+}

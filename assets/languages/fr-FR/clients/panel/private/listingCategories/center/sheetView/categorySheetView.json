@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/center/sheetView/categorySheetView.tsx",
+  "failedTitle": "Échec du chargement de la catégorie d'annonce",
+  "failedDescription": "Une erreur s'est produite lors du chargement de cette catégorie. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "categorySubtitle": "Catégorie",
+  "listingCategorySubtitle": "Catégorie d'annonce",
+  "name": "Nom",
+  "overview": "Vue d'ensemble",
+  "lifecycle": "Cycle de vie",
+  "slug": "Identifiant",
+  "order": "Commande",
+  "parentListingCategory": "Catégorie parente",
+  "createdAt": "Créé le",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par"
+}

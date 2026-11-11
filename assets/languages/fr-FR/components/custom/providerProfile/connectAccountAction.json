@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/components/custom/providerProfile/connectAccountAction.tsx",
+  "cancel": "Annuler",
+  "createAccountLink": {
+    "title": "Connecter les versements Stripe",
+    "description": "Vous serez redirigé vers Stripe pour configurer (ou poursuivre) les versements Express de ce profil de prestataire. Les fonds en séquestre ne peuvent vous être versés qu'une fois l'intégration terminée.",
+    "confirm": "Ouvrir Stripe",
+    "axios": {
+      "start": {
+        "title": "Création du lien Stripe…"
+      },
+      "success": {
+        "title": "Lien d'intégration Stripe prêt"
+      },
+      "error": {
+        "title": "Impossible de créer le lien d'intégration Stripe"
+      }
+    }
+  },
+  "refreshAccountStatus": {
+    "title": "Actualiser le statut de Stripe",
+    "description": "Récupère le dernier statut du compte Connect depuis Stripe et met à jour l’éligibilité aux paiements et aux versements de ce profil.",
+    "confirm": "Actualiser l'état",
+    "axios": {
+      "start": {
+        "title": "Actualisation du statut Stripe…"
+      },
+      "success": {
+        "title": "Statut Stripe mis à jour"
+      },
+      "error": {
+        "title": "Impossible d'actualiser le statut de Stripe"
+      }
+    }
+  }
+}

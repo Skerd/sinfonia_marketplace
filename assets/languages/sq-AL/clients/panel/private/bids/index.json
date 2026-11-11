@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/index.tsx",
+  "title": "Ofertat",
+  "description": "Shiko dhe menaxho ofertat për kërkesat për ofertë.",
+  "help": {
+    "ariaLabel": "Rreth ofertave",
+    "title": "Rreth ofertave",
+    "overview": "Një ofertë është propozimi i çmimit i një ofruesi për një kërkesë për ofertë: shuma, ditët e dorëzimit dhe një propozim me shkrim. Kërkuesi pranon një ofertë, që e cakton detyrën dhe hap një porosi.",
+    "sections": [
+      {
+        "title": "Bërja e një oferte",
+        "items": [
+          "Kërkesa për ofertë duhet të jetë e hapur, e paskaduar dhe e dikujt tjetër.",
+          "Një ofertë aktive për ofertues dhe kërkesë. Ofertuesi dhe monedha vendosen nga serveri, nga thirrësi dhe kërkesa.",
+          "Ofertat nuk ndryshohen pas dërgimit; tërhiqeni dhe bëni një të re."
+        ]
+      },
+      {
+        "title": "Statuset dhe veprimet",
+        "body": "Vetëm një ofertë në pritje mund të pranohet ose refuzohet.",
+        "items": [
+          "Prano (vetëm kërkuesi): kjo ofertë bëhet e pranuar, çdo ofertë tjetër në pritje për kërkesën refuzohet, kërkesa shënohet si e dhënë dhe hapet një porosi në pritje me shumën e ofertës dhe një afat nga ditët e saj të dorëzimit. Ofertuesit njoftohen.",
+          "Refuzo: kërkuesi e refuzon, ose ofertuesi e tërheq. Njoftohet vetëm një ofertues i refuzuar."
+        ]
+      },
+      {
+        "title": "Kush sheh çfarë",
+        "body": "Ofertat janë private mes ofertuesit dhe kërkuesit.",
+        "items": [
+          "Një joadministrator sheh ofertat e veta dhe ato për kërkesat e veta, kurrë ato të një konkurrenti.",
+          "Ofertuesi, ose një administrator, mund ta fshijë një ofertë sa kohë është në pritje."
+        ]
+      }
+    ]
+  },
+  "createBid": "Krijo ofertë",
+  "fields": {
+    "amount": "Shuma",
+    "currency": "Valuta",
+    "proposal": "Propozimi",
+    "deliveryDays": "Ditë dorëzimi",
+    "status": "Statusi",
+    "bidder": "Ofertues",
+    "taskRequest": "Kërkesë për ofertë",
+    "createdAt": "Krijuar",
+    "!enums": {
+      "status": {
+        "pending": "Në pritje",
+        "accepted": "Pranuar",
+        "rejected": "Refuzuar"
+      }
+    }
+  },
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "status": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "rejected": "Refuzuar"
+  },
+  "accept": "Prano",
+  "reject": "Refuzo / Tërhiq"
+}

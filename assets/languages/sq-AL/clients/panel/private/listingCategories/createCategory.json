@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/createCategory.tsx",
+  "form": {
+    "nameLabel": "Emri",
+    "namePlaceholder": "p.sh. Pastrim shtëpie",
+    "parentListingCategoryLabel": "Kategoria prind",
+    "parentListingCategoryPlaceholder": "Nivel kryesor nëse lihet bosh",
+    "orderLabel": "Rendi",
+    "orderPlaceholder": "0",
+    "createCategoryTitle": "Krijo kategori listimi",
+    "createCategoryDescription": "Shtoni një kategori që grupon listimet dhe kërkesat për detyra të tregut.",
+    "basicsSectionTitle": "Të dhënat bazë",
+    "visibilitySectionTitle": "Dukshmëria"
+  },
+  "axios": {
+    "start": {
+      "title": "Duke krijuar kategorinë e listimit",
+      "time": 3000
+    },
+    "success": {
+      "title": "Kategoria e listimit u krijua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Kategoria e listimit nuk u krijua dot",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Krijo kategori listimi",
+    "description": "Shtoni një kategori që grupon listimet dhe kërkesat për detyra të tregut."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Krijo kategori listimi"
+  }
+}

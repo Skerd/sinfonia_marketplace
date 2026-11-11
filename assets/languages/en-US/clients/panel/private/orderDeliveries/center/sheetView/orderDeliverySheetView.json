@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderDeliveries/center/sheetView/orderDeliverySheetView.tsx",
+  "failedTitle": "Failed to load",
+  "failedDescription": "Something went wrong while loading. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "overview": "Overview",
+  "lifecycle": "Lifecycle",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "order": "Order",
+  "status": "Status",
+  "orderDeliverySubtitle": "Delivery",
+  "message": "Message",
+  "attachments": "Attachments",
+  "orderDeliveryStatus": {
+    "submitted": "Submitted",
+    "accepted": "Accepted",
+    "revision_requested": "Revision requested"
+  }
+}

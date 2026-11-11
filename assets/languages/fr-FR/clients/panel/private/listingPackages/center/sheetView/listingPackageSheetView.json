@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/sheetView/listingPackageSheetView.tsx",
+  "failedTitle": "Échec du chargement du package d'annonce",
+  "failedDescription": "Une erreur s'est produite lors du chargement de ce package d'annonce. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "listingPackageSubtitle": "Package d'annonce",
+  "overview": "Vue d'ensemble",
+  "lifecycle": "Cycle de vie",
+  "description": "Description",
+  "name": "Nom",
+  "listing": "Annonce",
+  "provider": "Prestataire",
+  "priceAmount": "Prix",
+  "currency": "Devise",
+  "deliveryDays": "Délai de livraison",
+  "displayOrder": "Ordre d'affichage",
+  "createdAt": "Créé le",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par",
+  "deliveryDaysValue": {
+    "one": "{value} jour",
+    "other": "{value} jours"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/index.tsx",
+  "title": "Demandes de devis",
+  "description": "Publiez et gérez les demandes des acheteurs pour des devis, des travaux personnalisés ou des achats.",
+  "help": {
+    "ariaLabel": "À propos des demandes de devis",
+    "title": "À propos des demandes de devis",
+    "overview": "Une demande de devis est le brief d’un acheteur qui demande des devis aux prestataires : ce dont il a besoin, dans quelle catégorie et à quel endroit, pour quel budget. Elle reste ouverte aux offres pendant 30 jours. Accepter une offre l’attribue et ouvre une commande.",
+    "sections": [
+      {
+        "title": "Champs",
+        "items": [
+          "Titre, catégorie, budget minimum et maximum, devise, adresse et image principale sont obligatoires ; description et galeries sont facultatives.",
+          "Le demandeur est celui qui la publie. Catégorie et ville décident des prestataires informés."
+        ]
+      },
+      {
+        "title": "Statuts",
+        "items": [
+          "Ouverte : accepte des offres jusqu’à expiration.",
+          "Fermée : n’accepte plus d’offres, par choix du demandeur ou parce que 30 jours sont passés. Une tâche horaire ferme les demandes expirées.",
+          "Attribuée : une offre a été acceptée ; le statut ne peut plus changer."
+        ]
+      },
+      {
+        "title": "Actions",
+        "body": "Seul le demandeur, ou un administrateur, peut changer le statut.",
+        "items": [
+          "Fermer : depuis ouverte. Tous ceux qui ont une offre en attente sont prévenus.",
+          "Rouvrir : depuis fermée. Cela relance la fenêtre de 30 jours, pour qu’une demande expirée ne soit pas aussitôt refermée.",
+          "Prévenir tout le monde : informe à nouveau chaque prestataire ayant une annonce active dans la même catégorie et la même ville."
+        ]
+      },
+      {
+        "title": "Offres et attribution",
+        "items": [
+          "Les prestataires font des offres tant qu’elle est ouverte et non expirée ; personne ne peut faire d’offre sur sa propre demande.",
+          "Accepter une offre rejette les autres, marque la demande comme attribuée et ouvre une commande en attente entre le demandeur et l’auteur de l’offre.",
+          "Chaque ligne indique combien d’offres actives elle a. Les non-administrateurs voient leurs propres demandes.",
+          "La suppression est douce et la demande peut être restaurée."
+        ]
+      }
+    ]
+  },
+  "createTaskRequest": "Créer une demande de devis",
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "fields": {
+    "title": "Titre",
+    "description": "Description",
+    "requester": "Demandeur",
+    "category": "Catégorie",
+    "budgetMin": "Budget (min)",
+    "budgetMax": "Budget (maximum)",
+    "currency": "Devise",
+    "address": "Adresse",
+    "expiresAt": "Expire",
+    "status": "Statut",
+    "mainImage": "Image principale",
+    "imageGallery": "Galerie d’images",
+    "videoGallery": "Galerie vidéo",
+    "company": "Entreprise",
+    "createdBy": "Créé par",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "deletedAt": "Supprimé le",
+    "deletedBy": "Supprimé par",
+    "!enums": {
+      "status": {
+        "open": "Ouvert",
+        "closed": "Fermé",
+        "awarded": "Attribuée"
+      }
+    }
+  }
+}

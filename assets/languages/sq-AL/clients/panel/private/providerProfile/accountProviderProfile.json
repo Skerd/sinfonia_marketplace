@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/accountProviderProfile.tsx",
+  "title": "Profili i ofruesit",
+  "description": "Profili juaj i shitësit në treg: bio, aftësitë, portofoli dhe disponueshmëria javore.",
+  "failTitle": "Profili i ofruesit nuk u ngarkua",
+  "failDescription": "Kliko për të provuar përsëri.",
+  "connect": {
+    "notConnected": "Pagesat nuk janë lidhur",
+    "setupIncomplete": "Konfigurimi Stripe i paplotë",
+    "payoutsEnabled": "Pagesat janë aktive",
+    "start": "Lidh pagesat Stripe",
+    "continue": "Vazhdo konfigurimin Stripe",
+    "refresh": "Rifresko statusin Stripe"
+  },
+  "empty": {
+    "title": "Ende pa profil ofruesi",
+    "description": "Krijo një për t'u treguar klientëve aftësitë, disponueshmërinë dhe punët e mëparshme.",
+    "create": "Krijo profil ofruesi",
+    "createFailed": "Profili i ofruesit nuk u krijua."
+  }
+}

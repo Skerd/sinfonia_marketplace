@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/editCategory.tsx",
+  "editTitle": "Modifier la catégorie d'annonce",
+  "editDescription": "Mettre à jour cette catégorie d'annonce.",
+  "errorTitle": "Échec du chargement de la catégorie",
+  "errorDescription": "Impossible de charger cette catégorie. Réessayez.",
+  "form": {
+    "_idLabel": "Identifiant",
+    "nameLabel": "Nom",
+    "namePlaceholder": "ex. Ménage à domicile",
+    "parentListingCategoryLabel": "Catégorie parente",
+    "parentListingCategoryPlaceholder": "Niveau supérieur si vide",
+    "orderLabel": "Ordre de tri",
+    "orderPlaceholder": "0",
+    "editCategoryTitle": "Modifier la catégorie d'annonce",
+    "editCategoryDescription": "Mettre à jour cette catégorie d'annonce.",
+    "basicsSectionTitle": "Informations de base",
+    "visibilitySectionTitle": "Visibilité"
+  },
+  "axios": {
+    "start": {
+      "title": "Enregistrement de la catégorie d'annonce",
+      "time": 3000
+    },
+    "success": {
+      "title": "Catégorie d'annonce mise à jour",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de mettre à jour la catégorie d'annonce",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Modifier la catégorie d'annonce",
+    "description": "Mettre à jour cette catégorie d'annonce."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Enregistrer les modifications"
+  }
+}

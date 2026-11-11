@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestStatusConfirmAction.tsx",
+  "close": {
+    "title": "Të mbyllet kjo kërkesë?",
+    "description": "Ofruesit nuk do të mund të parashtrojnë oferta të reja. Mund ta rihapni më vonë për sa kohë kërkesa nuk është dhënë.",
+    "confirm": "Konfirmo",
+    "axios": {
+      "start": { "title": "Duke mbyllur kërkesën", "time": 3000 },
+      "success": { "title": "Kërkesa u mbyll me sukses", "time": 3000 },
+      "error": { "title": "Kërkesa nuk u mbyll, provoni përsëri", "time": 3000 }
+    }
+  },
+  "reopen": {
+    "title": "Të rihapet kjo kërkesë?",
+    "description": "Kërkesa do të jetë përsëri e hapur që ofruesit të mund të japin oferta.",
+    "confirm": "Konfirmo",
+    "axios": {
+      "start": { "title": "Duke rihapur kërkesën", "time": 3000 },
+      "success": { "title": "Kërkesa u rihap me sukses", "time": 3000 },
+      "error": { "title": "Kërkesa nuk u rihap, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancel": "Anulo"
+}

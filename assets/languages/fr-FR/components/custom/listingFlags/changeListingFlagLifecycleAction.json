@@ -1,0 +1,51 @@
+{
+  "path": "src/modules/marketplace/components/custom/listingFlags/changeListingFlagLifecycleAction.tsx",
+  "cancel": "Annuler",
+  "resolutionLabel": "Notes de résolution",
+  "resolutionPlaceholder": "Décrivez comment ce signalement a été traité (obligatoire).",
+  "resolutionHint": "Obligatoire. 1 à 2 000 caractères.",
+  "listingActionLabel": "Action sur l'annonce",
+  "listingActionPlaceholder": "Sélectionnez une action",
+  "listingAction_values": {
+    "none": "Aucune action",
+    "deactivate": "Désactiver l'annonce"
+  },
+  "resolve": {
+    "title": "Résoudre le signalement d'annonce",
+    "description": "Marque le signalement comme examiné. Vous pouvez aussi désactiver l'annonce.",
+    "confirm": "Résoudre",
+    "axios": {
+      "start": {
+        "title": "Résolution du signalement",
+        "time": 3000
+      },
+      "success": {
+        "title": "Signalement résolu",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de résoudre le signalement",
+        "time": 3000
+      }
+    }
+  },
+  "dismiss": {
+    "title": "Ignorer le signalement d'annonce",
+    "description": "Marque le signalement comme rejeté sans autre action sur l'annonce.",
+    "confirm": "Rejeter",
+    "axios": {
+      "start": {
+        "title": "Rejet du signalement",
+        "time": 3000
+      },
+      "success": {
+        "title": "Signalement rejeté",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de rejeter le signalement",
+        "time": 3000
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossible d'ouvrir un litige"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Ouverture du litige"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Litige ouvert"
+    }
+  },
+  "form": {
+    "orderLabel": "Commande",
+    "orderPlaceholder": "Sélectionnez la commande",
+    "reasonLabel": "Motif",
+    "reasonPlaceholder": "Décrivez le problème...",
+    "section": {
+      "order": "Commande",
+      "issue": "Le problème"
+    }
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Ouvrir un litige"
+  },
+  "formHeader": {
+    "description": "Soumettez un litige pour une commande qui présente un problème.",
+    "title": "Ouvrir un litige"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/disputes/createDispute.tsx",
+  "title": "Titre"
+}

@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/cardView/orderCard.tsx",
+  "failedTitle": "Failed to load order",
+  "failedDescription": "Tap to retry.",
+  "listing": "Listing",
+  "provider": "Provider",
+  "amount": "Amount",
+  "dueDate": "Due",
+  "status": "Status",
+  "total": "Total",
+  "statuses": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "customer": "Customer"
+}

@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/createListingFlag.tsx",
+  "formHeader": {
+    "title": "Créer un signalement d'annonce",
+    "description": "Signalez une annonce pour examen par l’équipe de modération."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Envoyer le signalement"
+  },
+  "form": {
+    "listingLabel": "Annonce",
+    "listingPlaceholder": "Sélectionnez une annonce",
+    "reasonLabel": "Motif",
+    "reasonPlaceholder": "Sélectionnez la raison",
+    "commentLabel": "Détails supplémentaires",
+    "commentPlaceholder": "Détails facultatifs...",
+    "reason_values": {
+      "inappropriate": "Contenu inapproprié",
+      "spam": "Spam",
+      "misleading": "Trompeur",
+      "other": "Autre"
+    },
+    "reportSectionTitle": "Signalement"
+  },
+  "axios": {
+    "start": {
+      "title": "Envoi du signalement",
+      "time": 3000
+    },
+    "success": {
+      "title": "Signalement envoyé",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible d'envoyer le signalement",
+      "time": 3000
+    }
+  }
+}

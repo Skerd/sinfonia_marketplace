@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/provider/index.tsx",
+  "loading": "Chargement du prestataire",
+  "breadcrumb": "Fil d'Ariane",
+  "services": "Services",
+  "ratingSummary": "{average} · {count} avis",
+  "completionRate": "{rate} % de commandes terminées",
+  "memberSince": "Membre depuis {date}",
+  "skills": "Compétences",
+  "availability": "Disponibilités",
+  "availabilityTimeZone": "Horaires dans le fuseau horaire du prestataire, {zone}.",
+  "servicesBy": "Services de {name}",
+  "portfolio": "Portfolio",
+  "notFound": "Prestataire introuvable",
+  "notFoundMessage": "Ce prestataire n'a aucun service dans la boutique pour le moment.",
+  "backToServices": "Parcourir les services"
+}

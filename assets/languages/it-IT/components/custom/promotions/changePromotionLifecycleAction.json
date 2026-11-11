@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/components/custom/promotions/changePromotionLifecycleAction.tsx",
+  "cancel": "Annulla",
+  "pause": {
+    "title": "Metti in pausa la promozione",
+    "description": "Vuoi davvero mettere in pausa",
+    "confirm": "Pausa",
+    "axios": {
+      "start": {
+        "title": "Messa in pausa della promozione",
+        "time": 3000
+      },
+      "success": {
+        "title": "Promozione messa in pausa correttamente",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile mettere in pausa la promozione, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "resume": {
+    "title": "Riprendi la promozione",
+    "description": "Vuoi davvero riprendere",
+    "confirm": "Riprendi",
+    "axios": {
+      "start": {
+        "title": "Ripresa della promozione",
+        "time": 3000
+      },
+      "success": {
+        "title": "La promozione è stata ripresa con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile riprendere la promozione, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "stop": {
+    "title": "Interrompi definitivamente la promozione",
+    "description": "Questa operazione non può essere annullata. La promozione rimarrà registrata con il motivo fornito",
+    "confirm": "Interrompi definitivamente",
+    "reasonLabel": "Motivo dell'arresto",
+    "reasonPlaceholder": "ad es. Fine della campagna, modifica del budget, conformità...",
+    "reasonHint": "Necessario per audit e revisione. 1–2000 caratteri.",
+    "axios": {
+      "start": {
+        "title": "Interruzione della promozione",
+        "time": 3000
+      },
+      "success": {
+        "title": "La promozione è stata interrotta correttamente",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile interrompere la promozione, riprova",
+        "time": 3000
+      }
+    }
+  }
+}

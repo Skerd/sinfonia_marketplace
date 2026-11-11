@@ -1,0 +1,48 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/index.tsx",
+  "title": "Vlerësimet",
+  "description": "Shiko vlerësimet dhe komentet e lëna nga klientët.",
+  "help": {
+    "ariaLabel": "Rreth vlerësimeve",
+    "title": "Rreth vlerësimeve",
+    "overview": "Një vlerësim tregu është nota dhe komenti i klientit për një porosi të përfunduar. I përket porosisë dhe listimit të saj, dhe ushqen notën mesatare dhe numrin e vlerësimeve të listimit si dhe reputacionin e ofruesit.",
+    "sections": [
+      {
+        "title": "Kush mund të vlerësojë",
+        "items": [
+          "Vetëm klienti i porosisë, vetëm kur porosia është përfunduar, dhe vetëm një herë për porosi.",
+          "Listimi dhe vlerësuesi vendosen nga serveri nga porosia dhe thirrësi.",
+          "Klientët mund të vlerësojnë edhe nga llogaria e tyre në dyqan, ku ofrohen porositë e përfunduara pa vlerësim."
+        ]
+      },
+      {
+        "title": "Çfarë ndryshon",
+        "items": [
+          "Nota mesatare dhe numri i vlerësimeve të listimit rillogariten nga vlerësimet e tij aktive.",
+          "Profili i ofruesit tregon notën mesatare mbi të gjitha porositë e tij, nga listimet dhe nga kërkesat për detyra."
+        ]
+      },
+      {
+        "title": "Moderimi",
+        "items": [
+          "Vlerësimet nuk ndryshohen pasi shkruhen.",
+          "Vetëm një administrator mund ta fshijë një vlerësim; fshirja është e butë dhe rikthimi e sjell notën përsëri."
+        ]
+      }
+    ]
+  },
+  "createReview": "Shto vlerësim",
+  "fields": {
+    "rating": "Vlerësimi",
+    "comment": "Komenti",
+    "reviewer": "Vlerësuesi",
+    "order": "Porosia",
+    "listing": "Listimi",
+    "listingId": "Listimi",
+    "orderId": "Porosia",
+    "createdAt": "Krijuar",
+    "deletedAt": "Fshirë",
+    "deletedBy": "Fshirë nga"
+  },
+  "searchPlaceholder": "Kërko ose shto filtra..."
+}

@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/createCategory.tsx",
+  "form": {
+    "nameLabel": "Nom",
+    "namePlaceholder": "ex. Ménage à domicile",
+    "parentListingCategoryLabel": "Catégorie parente",
+    "parentListingCategoryPlaceholder": "Niveau supérieur si vide",
+    "orderLabel": "Ordre de tri",
+    "orderPlaceholder": "0",
+    "createCategoryTitle": "Créer une catégorie d'annonce",
+    "createCategoryDescription": "Ajoutez une catégorie qui regroupe les annonces et les demandes de tâches de la marketplace.",
+    "basicsSectionTitle": "Informations de base",
+    "visibilitySectionTitle": "Visibilité"
+  },
+  "axios": {
+    "start": {
+      "title": "Création de la catégorie d'annonce",
+      "time": 3000
+    },
+    "success": {
+      "title": "Catégorie d'annonce créée",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de créer la catégorie d'annonce",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Créer une catégorie d'annonce",
+    "description": "Ajoutez une catégorie qui regroupe les annonces et les demandes de tâches de la marketplace."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Créer une catégorie d'annonce"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/sheetView/listingPackageSheetView.tsx",
+  "failedTitle": "Impossibile caricare il pacchetto dell'annuncio",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questo pacchetto dell'annuncio. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "listingPackageSubtitle": "Pacchetto dell'annuncio",
+  "overview": "Panoramica",
+  "lifecycle": "Ciclo di vita",
+  "description": "Descrizione",
+  "name": "Nome",
+  "listing": "Annuncio",
+  "provider": "Fornitore",
+  "priceAmount": "Prezzo",
+  "currency": "Valuta",
+  "deliveryDays": "Tempi di consegna",
+  "displayOrder": "Ordine di visualizzazione",
+  "createdAt": "Creato il",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da",
+  "deliveryDaysValue": {
+    "one": "{value} giorno",
+    "other": "{value} giorni"
+  }
+}

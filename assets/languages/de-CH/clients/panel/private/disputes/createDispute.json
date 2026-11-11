@@ -1,0 +1,36 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Streitfall konnte nicht eröffnet werden"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Streitfall wird eröffnet"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Streitfall eröffnet"
+    }
+  },
+  "form": {
+    "orderLabel": "Auftrag",
+    "orderPlaceholder": "Auftrag auswählen",
+    "reasonLabel": "Grund",
+    "reasonPlaceholder": "Beschreiben Sie das Problem...",
+    "section": {
+      "order": "Auftrag",
+      "issue": "Was ist schiefgelaufen"
+    }
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Streitfall eröffnen"
+  },
+  "formHeader": {
+    "description": "Eröffnen Sie einen Streitfall für einen Auftrag mit einem Problem.",
+    "title": "Streitfall eröffnen"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/disputes/createDispute.tsx",
+  "title": "Bezeichnung"
+}

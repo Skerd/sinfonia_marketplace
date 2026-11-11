@@ -1,0 +1,87 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/index.tsx",
+  "title": "Orders",
+  "description": "Manage service orders between customers and providers.",
+  "help": {
+    "ariaLabel": "About Orders",
+    "title": "About Orders",
+    "overview": "A marketplace order is a service engagement between a customer and a provider, with the price held in escrow until the work is accepted. It starts from an active listing or from an accepted bid. Every step is an action with rules about who may take it and when; status is never edited directly.",
+    "sections": [
+      {
+        "title": "Statuses",
+        "items": [
+          "Pending: created, waiting for the provider to accept.",
+          "Accepted: the provider took the job; the order amount is held in escrow.",
+          "In progress: the provider started work; deliveries, revisions, and milestone releases happen here.",
+          "Completed: the work was accepted and the rest of the escrow was paid out.",
+          "Cancelled: stopped before completion; whatever was still held was refunded."
+        ]
+      },
+      {
+        "title": "Provider actions",
+        "items": [
+          "Accept (from pending) places the escrow hold for the order amount in the finance ledger; with card payments set up, a payment for that amount is opened with the gateway.",
+          "Start (from accepted) moves the order in progress.",
+          "Submit delivery (in progress) sends a message and files. Only one delivery can wait for an answer at a time, and a new one answers an open revision request.",
+          "Extend adds days to the due date at any time before the order is final; the customer is notified."
+        ]
+      },
+      {
+        "title": "Customer actions",
+        "items": [
+          "Accept delivery completes the order and releases what is still held to the provider, minus the 10% platform fee. Blocked while a dispute is open.",
+          "Request revision sends the waiting delivery back with a reason. At most 3 revisions per order.",
+          "If the customer does not answer a delivery for 3 days, an hourly job accepts it for them, unless a dispute is open.",
+          "Milestones split the held amount: the customer creates them (never more than the order amount in total) and releases them one by one while work is in progress. Releasing the last one with nothing left held completes the order."
+        ]
+      },
+      {
+        "title": "Cancelling and disputes",
+        "items": [
+          "The provider can cancel at any time before the order is final; the customer only before work starts. After that, a disagreement goes through a dispute.",
+          "No one can cancel while a dispute is open. Cancelling refunds everything still held.",
+          "A dispute decided for the provider completes the order and pays out; decided for the customer, it cancels and refunds."
+        ]
+      },
+      {
+        "title": "Money and records",
+        "body": "Releases and refunds can only pay out what is still held, so milestones, acceptance, disputes, and cancellation together never exceed the hold.",
+        "items": [
+          "Each release pays the provider's connected Stripe account when they have one; the release is recorded in the ledger either way.",
+          "The order sheet shows its deliveries, milestones, and revisions. Bookings, disputes, and reviews hang off the order too.",
+          "Non-administrators see only orders they are a party to. Only an administrator can delete an order, and only once it is final."
+        ]
+      }
+    ]
+  },
+  "createOrder": "Create order",
+  "fields": {
+    "status": "Status",
+    "customer": "Customer",
+    "provider": "Provider",
+    "amount": "Amount",
+    "currency": "Currency",
+    "deliveryDueDate": "Due date",
+    "createdAt": "Created",
+    "deletedAt": "Deleted",
+    "deletedBy": "Deleted by",
+    "!enums": {
+      "status": {
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "in_progress": "In Progress",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      }
+    }
+  },
+  "searchPlaceholder": "Search or add filters...",
+  "status": {
+    "pending": "Pending",
+    "in_progress": "In Progress",
+    "submitted": "Submitted",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "disputed": "Disputed"
+  }
+}

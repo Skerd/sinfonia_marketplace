@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
+  "title": "Categorie di annunci",
+  "description": "Organizza il catalogo marketplace in un albero categorie padre/figlio usato da annunci e richieste di attività.",
+  "help": {
+    "ariaLabel": "Informazioni sulle categorie di annunci",
+    "title": "Informazioni sulle categorie di annunci",
+    "overview": "Le categorie di annunci sono l’albero proprio del marketplace, separato dalle categorie di prodotti. Annunci e richieste di attività ne scelgono una ciascuno. Gli acquirenti navigano per categorie, e i fornitori vengono abbinati alle nuove richieste di attività per categoria e città.",
+    "sections": [
+      {
+        "title": "L’albero",
+        "items": [
+          "Il nome è obbligatorio. La categoria padre è facoltativa; lasciala vuota per una categoria di primo livello. Una categoria non può stare sotto sé stessa o un suo discendente.",
+          "L’ordine ordina le categorie sorelle, le più piccole prima; gli elenchi ordinano per ordine, poi per nome.",
+          "Lo slug viene generato alla creazione ed è unico nella società."
+        ]
+      },
+      {
+        "title": "Come le usa il marketplace",
+        "items": [
+          "Ogni annuncio e ogni richiesta di attività ha una categoria.",
+          "Quando una richiesta di attività viene pubblicata o riannunciata, i fornitori con un annuncio attivo nella stessa categoria e città vengono avvisati.",
+          "I menu e i filtri dei servizi del negozio sono costruiti da questo albero.",
+          "L’eliminazione è logica e la categoria può essere ripristinata. Riassegna gli annunci prima di eliminare una categoria ancora usata."
+        ]
+      }
+    ]
+  },
+  "createCategory": "Crea categoria di annunci",
+  "fields": {
+    "name": "Nome",
+    "slug": "Slug",
+    "order": "Ordine",
+    "parentListingCategory": "Categoria padre",
+    "createdBy": "Creato da",
+    "deletedAt": "Eliminato",
+    "deletedBy": "Eliminato da"
+  },
+  "searchPlaceholder": "Cerca o aggiungi filtri..."
+}

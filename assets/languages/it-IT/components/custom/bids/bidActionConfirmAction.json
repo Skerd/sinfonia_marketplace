@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/bids/bidActionConfirmAction.tsx",
+  "accept": {
+    "title": "Accettare questa offerta?",
+    "description": "L'offerta verrà contrassegnata come accettata, la richiesta di preventivo sarà assegnata e verrà creato un ordine. L'operazione non può essere annullata da qui.",
+    "confirm": "Accetta l'offerta",
+    "axios": {
+      "start": {
+        "title": "Accettazione dell'offerta",
+        "time": 3000
+      },
+      "success": {
+        "title": "Offerta accettata con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile accettare l'offerta, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "reject": {
+    "title": "Rifiutare questa offerta?",
+    "description": "L'offerta verrà contrassegnata come rifiutata. Il richiedente o l'offerente dell'attività può rifiutare un'offerta in sospeso.",
+    "confirm": "Rifiuta l'offerta",
+    "axios": {
+      "start": {
+        "title": "Rifiuto dell'offerta",
+        "time": 3000
+      },
+      "success": {
+        "title": "Offerta rifiutata con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile rifiutare l'offerta, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

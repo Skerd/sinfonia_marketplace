@@ -1,0 +1,60 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/createProviderProfile.tsx",
+  "title": "Anbieterprofil erstellen",
+  "formHeader": {
+    "title": "Anbieterprofil erstellen",
+    "description": "Fähigkeiten, Biografie, Portfolio und wöchentliche Verfügbarkeit erfassen. Wählen Sie, zu welchem Benutzer das Profil gehört."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Anbieterprofil erstellen"
+  },
+  "form": {
+    "userLabel": "Benutzer",
+    "userPlaceholder": "Benutzer auswählen",
+    "skillsLabel": "Fähigkeiten",
+    "skillsPlaceholder": "z. B. Sanitär, Elektro...",
+    "skillsRemoveTooltip": "Fähigkeit entfernen",
+    "bioLabel": "Biografie",
+    "bioPlaceholder": "Erzählen Sie Ihren Kunden etwas über sich...",
+    "portfolioLabel": "Portfoliobilder",
+    "timezoneLabel": "Zeitzone",
+    "timezonePlaceholder": "Zeitzone der Firma, wenn leer",
+    "section": {
+      "profile": "Profil",
+      "availability": "Wöchentliche Verfügbarkeit",
+      "portfolio": "Portfolio"
+    },
+    "availabilityAddRow": "Zeitfenster hinzufügen",
+    "availabilityRemoveRow": "Entfernen",
+    "availabilityRowTitle": "Zeitfenster",
+    "dayOfWeekLabel": "Wochentag",
+    "startTimeLabel": "Startzeit",
+    "startTimePlaceholder": "Startzeit wählen",
+    "endTimeLabel": "Endzeit",
+    "endTimePlaceholder": "Endzeit wählen"
+  },
+  "weekday": {
+    "0": "Sonntag",
+    "1": "Montag",
+    "2": "Dienstag",
+    "3": "Mittwoch",
+    "4": "Donnerstag",
+    "5": "Freitag",
+    "6": "Samstag"
+  },
+  "axios": {
+    "start": {
+      "title": "Profil wird erstellt",
+      "time": 3000
+    },
+    "success": {
+      "title": "Profil erstellt",
+      "time": 3000
+    },
+    "error": {
+      "title": "Profil konnte nicht erstellt werden",
+      "time": 3000
+    }
+  }
+}

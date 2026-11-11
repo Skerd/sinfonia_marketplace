@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/center/sheetView/disputeSheetView.tsx",
+  "dispute": "Controversia",
+  "overview": "Panoramica",
+  "details": "Dettagli",
+  "order": "Ordine",
+  "initiator": "Iniziatore",
+  "reason": "Motivo",
+  "resolution": "Risoluzione",
+  "status": "Stato",
+  "createdAt": "Aperta il",
+  "failedTitle": "Impossibile caricare la controversia",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questa controversia. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "status_values": {
+    "open": "Aperta",
+    "under_review": "In fase di revisione",
+    "resolved": "Risolta",
+    "closed": "Chiusa"
+  },
+  "lifecycle": "Ciclo di vita",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da"
+}

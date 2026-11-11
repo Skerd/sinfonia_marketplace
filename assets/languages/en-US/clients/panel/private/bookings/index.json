@@ -1,0 +1,55 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/index.tsx",
+  "title": "Bookings",
+  "description": "Manage scheduled service bookings.",
+  "help": {
+    "ariaLabel": "About Bookings",
+    "title": "About Bookings",
+    "overview": "A booking puts a marketplace order on the calendar: a start and end time, with the timezone it was agreed in. Use it when the work happens at an appointment, not only by a due date.",
+    "sections": [
+      {
+        "title": "Creating",
+        "items": [
+          "Either party of the order can book it, while the order is accepted or in progress.",
+          "One booking per order. The provider is taken from the order.",
+          "End must be after start."
+        ]
+      },
+      {
+        "title": "Changing",
+        "items": [
+          "Only the provider, or an administrator, reschedules.",
+          "Deleting is a soft delete and it can be restored.",
+          "Non-administrators see only the bookings of their own orders."
+        ]
+      }
+    ]
+  },
+  "createBooking": "Create booking",
+  "fields": {
+    "order": "Order",
+    "provider": "Provider",
+    "startAt": "Start",
+    "endAt": "End",
+    "timezone": "Timezone",
+    "status": "Status",
+    "createdAt": "Created",
+    "deletedAt": "Deleted",
+    "deletedBy": "Deleted by",
+    "when": "When",
+    "!enums": {
+      "when": {
+        "upcoming": "Upcoming",
+        "today": "Today",
+        "past": "Past"
+      }
+    }
+  },
+  "searchPlaceholder": "Search or add filters...",
+  "status": {
+    "scheduled": "Scheduled",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  }
+}

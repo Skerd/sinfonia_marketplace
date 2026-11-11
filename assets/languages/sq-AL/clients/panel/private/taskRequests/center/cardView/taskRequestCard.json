@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/cardView/taskRequestCard.tsx",
+  "failedTitle": "Kërkesa nuk u ngarkua",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit. Klikoni për të provuar përsëri.",
+  "title": "Titulli",
+  "name": "Emri",
+  "status": "Statusi",
+  "category": "Kategoria",
+  "budget": "Buxheti",
+  "city": "Qyteti",
+  "expiresAt": "Skadon",
+  "statuses": {
+    "open": "Hapur",
+    "closed": "Mbyllur",
+    "awarded": "E dhënë"
+  },
+  "requester": "Kërkuesi",
+  "bids": "Ofertat"
+}

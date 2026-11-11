@@ -1,0 +1,48 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/index.tsx",
+  "title": "Bewertungen",
+  "description": "Von Kunden abgegebene Bewertungen anzeigen.",
+  "help": {
+    "ariaLabel": "Über Bewertungen",
+    "title": "Über Bewertungen",
+    "overview": "Eine Marktplatz-Bewertung ist die Note und der Kommentar des Kunden zu einer abgeschlossenen Bestellung. Sie gehört zur Bestellung und ihrem Inserat und speist den Bewertungsschnitt und die Anzahl Bewertungen des Inserats sowie den Ruf des Anbieters.",
+    "sections": [
+      {
+        "title": "Wer bewerten kann",
+        "items": [
+          "Nur der Kunde der Bestellung, erst wenn die Bestellung abgeschlossen ist, und nur einmal pro Bestellung.",
+          "Inserat und Bewertender setzt der Server aus der Bestellung und dem Aufrufer.",
+          "Kunden können auch aus ihrem Shop-Konto bewerten, wo abgeschlossene Bestellungen ohne Bewertung angeboten werden."
+        ]
+      },
+      {
+        "title": "Was sie ändert",
+        "items": [
+          "Bewertungsschnitt und Anzahl Bewertungen des Inserats werden aus seinen aktiven Bewertungen neu berechnet.",
+          "Das Anbieterprofil zeigt den Bewertungsschnitt über alle seine Bestellungen, aus Inseraten und Aufträgen gleichermassen."
+        ]
+      },
+      {
+        "title": "Moderation",
+        "items": [
+          "Bewertungen werden nach dem Schreiben nicht bearbeitet.",
+          "Nur ein Administrator kann eine Bewertung löschen; Löschen ist ein Soft Delete, und Wiederherstellen bringt die Bewertung zurück."
+        ]
+      }
+    ]
+  },
+  "createReview": "Bewertung erstellen",
+  "fields": {
+    "rating": "Bewertung",
+    "comment": "Kommentar",
+    "reviewer": "Bewerter/in",
+    "order": "Auftrag",
+    "listing": "Inserat",
+    "listingId": "Inserat",
+    "orderId": "Auftrag",
+    "createdAt": "Erstellt",
+    "deletedAt": "Gelöscht",
+    "deletedBy": "Gelöscht von"
+  },
+  "searchPlaceholder": "Suchen oder Filter hinzufügen..."
+}

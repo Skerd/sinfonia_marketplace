@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/center/cardView/disputeCard.tsx",
+  "failedTitle": "Failed to load dispute",
+  "failedDescription": "Tap to retry.",
+  "reason": "Reason",
+  "initiator": "Initiator",
+  "order": "Order",
+  "status": "Status",
+  "amount": "Amount",
+  "status_values": {
+    "open": "Open",
+    "under_review": "Under Review",
+    "resolved": "Resolved",
+    "closed": "Closed"
+  },
+  "createdAt": "Opened"
+}

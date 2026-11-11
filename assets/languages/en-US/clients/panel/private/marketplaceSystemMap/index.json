@@ -1,0 +1,58 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/marketplaceSystemMap/index.tsx",
+  "title": "Marketplace System Map",
+  "description": "Interactive map of marketplace models, listing/bid flows, escrow bridge, and capabilities. Pan, zoom, and click nodes for details.",
+  "help": {
+    "ariaLabel": "About Marketplace System Map",
+    "title": "About Marketplace System Map",
+    "overview": "This map is a read-only picture of the services marketplace: its models, how work and money move between customer and provider, and what the module offers. It changes no data.",
+    "sections": [
+      {
+        "title": "Model graph",
+        "items": [
+          "Listings with their packages, add-ons, reports, and promotions; task requests and bids; orders with deliveries, milestones, revisions, bookings, disputes, and reviews; provider profiles; and the finance escrow ledger.",
+          "Click a node for its description, key fields, API path, actions, and panel page."
+        ]
+      },
+      {
+        "title": "How it works",
+        "items": [
+          "Buy a listing and task-to-bid-to-order show how an order starts.",
+          "Order lifecycle (deliveries, revisions, milestones, auto-accept after 3 days, release minus the fee) and disputes → refund show how it ends.",
+          "Moderation & promotion covers reports and boosts; provider onboarding covers profile setup and Stripe Connect payouts."
+        ]
+      },
+      {
+        "title": "Capabilities",
+        "items": [
+          "What the marketplace supports today, its API areas, scheduled jobs, and storefront routes.",
+          "Day-to-day work happens on the Marketplace pages; use the map to onboard staff or plan permissions."
+        ]
+      }
+    ]
+  },
+  "tabs": {
+    "models": "Model graph",
+    "flows": "How it works",
+    "capabilities": "Capabilities"
+  },
+  "nodes": {
+    "ListingCategory": "Listing category",
+    "ProviderProfile": "Provider profile",
+    "Listing": "Listing",
+    "ListingPackage": "Listing package",
+    "ListingAddOn": "Listing add-on",
+    "ListingFlag": "Listing report",
+    "Promotion": "Promotion",
+    "TaskRequest": "Task request",
+    "Bid": "Bid",
+    "MarketplaceOrder": "Order",
+    "Booking": "Booking",
+    "Dispute": "Dispute",
+    "Review": "Review",
+    "EscrowTransaction": "Escrow transaction",
+    "OrderMilestone": "Order milestone",
+    "OrderDelivery": "Order delivery",
+    "OrderRevision": "Order revision"
+  }
+}

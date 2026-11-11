@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/createMilestoneAction.tsx",
+  "title": "Shto fazë",
+  "description": "Ndani porosinë në një pjesë që mund t'ia paguani ofruesit para dorëzimit përfundimtar. Përdoret monedha e porosisë.",
+  "nameLabel": "Emri",
+  "amountLabel": "Shuma",
+  "amountHint": "Të gjitha fazat së bashku nuk mund ta kalojnë shumën e porosisë.",
+  "confirm": "Shto fazën",
+  "cancel": "Anulo",
+  "axios": {
+    "start": {
+      "title": "Duke shtuar fazën",
+      "time": 3000
+    },
+    "success": {
+      "title": "Faza u shtua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Faza nuk u shtua, provoni përsëri",
+      "time": 3000
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderMilestones/center/cardView/orderMilestoneCard.tsx",
+  "failedTitle": "Failed to load",
+  "failedDescription": "Tap to retry.",
+  "orderMilestoneStatus": {
+    "pending": "Pending",
+    "released": "Released",
+    "delivered": "Delivered"
+  },
+  "status": "Status",
+  "amount": "Amount"
+}

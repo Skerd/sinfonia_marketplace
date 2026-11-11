@@ -1,0 +1,15 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/center/cardView/providerProfileCard.tsx",
+  "failedTitle": "Impossibile caricare il profilo del fornitore",
+  "failedDescription": "Tocca per riprovare.",
+  "provider": "Fornitore",
+  "bio": "Biografia",
+  "skills": "Competenze",
+  "rating": "Valutazione",
+  "connect": {
+    "notConnected": "Pagamenti non collegati",
+    "setupIncomplete": "Configurazione di Stripe incompleta",
+    "payoutsEnabled": "Pagamenti abilitati"
+  },
+  "payouts": "Pagamenti"
+}

@@ -1,0 +1,14 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestNotifyAllConfirmAction.tsx",
+  "notifyAll": {
+    "title": "Notify all providers?",
+    "description": "Send a notification to providers with active listings in this category and city.",
+    "confirm": "Notify all",
+    "axios": {
+      "start": { "title": "Sending notifications", "time": 3000 },
+      "success": { "title": "Providers notified successfully", "time": 3000 },
+      "error": { "title": "Could not notify providers, please try again", "time": 3000 }
+    }
+  },
+  "cancel": "Cancel"
+}

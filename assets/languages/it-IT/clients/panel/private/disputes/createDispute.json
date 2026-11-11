@@ -1,0 +1,36 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossibile aprire la controversia"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Apertura controversia"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Controversia aperta"
+    }
+  },
+  "form": {
+    "orderLabel": "Ordine",
+    "orderPlaceholder": "Seleziona l'ordine",
+    "reasonLabel": "Motivo",
+    "reasonPlaceholder": "Descrivi il problema...",
+    "section": {
+      "order": "Ordine",
+      "issue": "Il problema"
+    }
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Apri controversia"
+  },
+  "formHeader": {
+    "description": "Apri una controversia per un ordine che presenta un problema.",
+    "title": "Apri controversia"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/disputes/createDispute.tsx",
+  "title": "Titolo"
+}

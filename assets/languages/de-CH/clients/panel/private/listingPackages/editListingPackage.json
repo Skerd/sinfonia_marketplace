@@ -1,0 +1,49 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/editListingPackage.tsx",
+  "editTitle": "Inseratpaket bearbeiten",
+  "editDescription": "Details dieses Leistungspakets aktualisieren.",
+  "errorTitle": "Paket konnte nicht geladen werden",
+  "errorDescription": "Prüfen Sie den Link oder kehren Sie zur Liste zurück und versuchen Sie es erneut.",
+  "formHeader": {
+    "title": "Inseratpaket bearbeiten",
+    "description": "Name, Preis oder Lieferzeit des Pakets ändern."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Änderungen speichern"
+  },
+  "form": {
+    "idLabel": "Protokoll ID",
+    "listingIdLabel": "Inserat",
+    "listingIdPlaceholder": "Inserat auswählen",
+    "nameLabel": "Paketname",
+    "namePlaceholder": "z. B. Basic, Standard, Premium",
+    "descriptionLabel": "Beschreibung",
+    "descriptionPlaceholder": "Was in diesem Paket enthalten ist...",
+    "priceAmountLabel": "Preis",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Währung",
+    "currencyPlaceholder": "Währung des Inserats, wenn leer",
+    "deliveryDaysLabel": "Liefertage",
+    "deliveryDaysPlaceholder": "z. B. 3",
+    "sortOrderLabel": "Anzeigereihenfolge",
+    "sortOrderPlaceholder": "z. B. 1",
+    "basicsSectionTitle": "Grunddaten",
+    "pricingSectionTitle": "Preise",
+    "visibilitySectionTitle": "Sichtbarkeit"
+  },
+  "axios": {
+    "start": {
+      "title": "Paket wird gespeichert",
+      "time": 3000
+    },
+    "success": {
+      "title": "Paket aktualisiert",
+      "time": 3000
+    },
+    "error": {
+      "title": "Paket konnte nicht aktualisiert werden",
+      "time": 3000
+    }
+  }
+}

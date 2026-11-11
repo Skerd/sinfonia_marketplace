@@ -1,0 +1,20 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listings/center/cardView/listingCard.tsx",
+  "failedTitle": "Failed to load listing",
+  "failedDescription": "Tap to retry.",
+  "name": "Name",
+  "title": "Title",
+  "status": "Status",
+  "price": "Price",
+  "category": "Category",
+  "city": "City",
+  "perHour": "h",
+  "days": "d",
+  "featured": "Featured",
+  "sponsored": "Sponsored",
+  "statuses": {
+    "active": "Active",
+    "draft": "Draft",
+    "inactive": "Inactive"
+  }
+}

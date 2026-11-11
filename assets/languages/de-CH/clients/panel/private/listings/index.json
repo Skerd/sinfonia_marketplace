@@ -1,0 +1,101 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listings/index.tsx",
+  "title": "Inserate",
+  "description": "Produkt- und Dienstleistungsinserate für den Shop Ihres Mandanten verwalten.",
+  "help": {
+    "ariaLabel": "Über Inserate",
+    "title": "Über Inserate",
+    "overview": "Ein Inserat ist das Dienstleistungsangebot eines Anbieters auf dem Marktplatz: was er tut, in welcher Kategorie und an welchem Ort, zu welchem Preis, mit optionalen Paketen und Zusatzleistungen. Käufer bestellen aus aktiven Inseraten. Der Status ist Entwurf, aktiv oder inaktiv und wird nur durch die Aktionen Aktivieren und Deaktivieren geändert.",
+    "sections": [
+      {
+        "title": "Status",
+        "items": [
+          "Entwurf ist der Standard, solange das Inserat aufgebaut wird. Niemand kann es bestellen.",
+          "Aktivieren macht es bestellbar. Es braucht einen Preis und eine Währung, weil eine Bestellung ohne Paket daraus berechnet wird.",
+          "Deaktivieren nimmt es offline, ohne es zu löschen. Auch das Erledigen einer Meldung dagegen kann es deaktivieren.",
+          "Nur der Anbieter des Inserats oder ein Administrator kann aktivieren oder deaktivieren."
+        ]
+      },
+      {
+        "title": "Was Sie konfigurieren",
+        "items": [
+          "Titel, Beschreibung, Kategorie, Tags, FAQs und Anforderungen an Käufer beschreiben das Inserat. Die Kategorie ist eine Inseratkategorie, keine Produktkategorie.",
+          "Preisart ist fix oder pro Stunde. Preis und Währung sind der Grundpreis; Liefertage bestimmen das Standard-Fälligkeitsdatum einer Bestellung.",
+          "Hauptbild ist Pflicht; Bild- und Videogalerien sind optional.",
+          "Land, Kanton bzw. Bundesland und Ort verorten das Inserat. Ort und Kategorie bestimmen, über welche Aufträge der Anbieter informiert wird.",
+          "Anbieter ist der Benutzer, der es verkauft: Sie selbst oder ein anderer Benutzer derselben Firma."
+        ]
+      },
+      {
+        "title": "Wie eine Bestellung daraus berechnet wird",
+        "body": "Ein Käufer bestellt ein aktives Inserat, optional mit einem Paket und beliebigen Zusatzleistungen.",
+        "items": [
+          "Ohne Paket: Inseratpreis und Liefertage. Mit Paket: stattdessen Preis und Liefertage des Pakets.",
+          "Jede Zusatzleistung addiert ihren Preis und ihre zusätzlichen Liefertage. Zusatzleistungen müssen zu diesem Inserat gehören und die Währung der Bestellung nutzen.",
+          "Ein Anbieter kann sein eigenes Inserat nicht bestellen."
+        ]
+      },
+      {
+        "title": "Sichtbarkeit und Ruf",
+        "items": [
+          "Eine laufende Promotion (hervorgehoben oder gesponsert) setzt das Inserat während ihrer Daten an die Spitze der empfohlenen Sortierung im Shop.",
+          "Bewertungen abgeschlossener Bestellungen geben dem Inserat seinen Bewertungsschnitt und die Anzahl Bewertungen.",
+          "Benutzer können ein Inserat melden; Administratoren prüfen Meldungen unter Inseratmeldungen."
+        ]
+      },
+      {
+        "title": "Wer was sieht",
+        "items": [
+          "Administratoren sehen und verwalten jedes Inserat der Firma. Andere Benutzer ändern nur Inserate, die sie anbieten.",
+          "Löschen ist ein Soft Delete und kann wiederhergestellt werden. Seine Pakete und Zusatzleistungen können nicht wiederhergestellt werden, solange das Inserat gelöscht ist."
+        ]
+      }
+    ]
+  },
+  "createListing": "Inserat erstellen",
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "fields": {
+    "!enums": {
+      "status": {
+        "draft": "Entwurf",
+        "active": "Aktiv",
+        "inactive": "Inaktiv"
+      },
+      "pricingType": {
+        "fixed": "Festpreis",
+        "hourly": "Stundensatz"
+      }
+    },
+    "name": "Name",
+    "title": "Bezeichnung",
+    "description": "Beschreibung",
+    "category": "Kategorie",
+    "provider": "Anbieter",
+    "price": "Preis",
+    "priceCurrency": "Währung",
+    "status": "Status",
+    "pricingType": "Preismodell",
+    "deliveryDays": "Liefertage",
+    "address": "Standort",
+    "mainImage": "Hauptbild",
+    "imageGallery": "Bild galerie",
+    "videoGallery": "Video galerie",
+    "faqs": {
+      "question": "Frage",
+      "answer": "Antwort"
+    },
+    "requirements": "Anforderungen",
+    "tags": "Schlagwörter",
+    "promotions": "Promotionen",
+    "listingPackages": "Pakete",
+    "listingAddOns": "Zusatzleistungen",
+    "avgRating": "Bewertung",
+    "reviewCount": "Bewertungen",
+    "company": "Firma",
+    "createdBy": "Erstellt von",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "deletedAt": "Gelöscht am",
+    "deletedBy": "Gelöscht von"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/createListingFlag.tsx",
+  "formHeader": {
+    "title": "Create listing report",
+    "description": "Report a listing for review by the moderation team."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Submit report"
+  },
+  "form": {
+    "listingLabel": "Listing",
+    "listingPlaceholder": "Select listing",
+    "reasonLabel": "Reason",
+    "reasonPlaceholder": "Select reason",
+    "commentLabel": "Additional details",
+    "commentPlaceholder": "Optional details...",
+    "reason_values": {
+      "inappropriate": "Inappropriate content",
+      "spam": "Spam",
+      "misleading": "Misleading",
+      "other": "Other"
+    },
+    "reportSectionTitle": "Report"
+  },
+  "axios": {
+    "start": {
+      "title": "Submitting report",
+      "time": 3000
+    },
+    "success": {
+      "title": "Report submitted",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not submit report",
+      "time": 3000
+    }
+  }
+}

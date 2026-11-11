@@ -1,0 +1,49 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/editListingPackage.tsx",
+  "editTitle": "Ndrysho paketën e listimit",
+  "editDescription": "Përditëso detajet e kësaj pakete shërbimi.",
+  "errorTitle": "Nuk u ngarkua paketa",
+  "errorDescription": "Kontrollo lidhjen ose kthehu te lista dhe provo sërisht.",
+  "formHeader": {
+    "title": "Ndrysho paketën e listimit",
+    "description": "Modifiko emrin, çmimin ose kohën e dorëzimit të paketës."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Ruaj ndryshimet"
+  },
+  "form": {
+    "idLabel": "ID e regjistrimit",
+    "listingIdLabel": "Listimi",
+    "listingIdPlaceholder": "Zgjidh listimin",
+    "nameLabel": "Emri i paketës",
+    "namePlaceholder": "p.sh. Bazë, Standarde, Premium",
+    "descriptionLabel": "Përshkrimi",
+    "descriptionPlaceholder": "Çfarë përfshin kjo paketë...",
+    "priceAmountLabel": "Çmimi",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Valuta",
+    "currencyPlaceholder": "Monedha e listimit nëse lihet bosh",
+    "deliveryDaysLabel": "Ditë dorëzimi",
+    "deliveryDaysPlaceholder": "p.sh. 3",
+    "sortOrderLabel": "Rendi i shfaqjes",
+    "sortOrderPlaceholder": "p.sh. 1",
+    "basicsSectionTitle": "Të dhënat bazë",
+    "pricingSectionTitle": "Çmimet",
+    "visibilitySectionTitle": "Dukshmëria"
+  },
+  "axios": {
+    "start": {
+      "title": "Po ruhet paketa",
+      "time": 3000
+    },
+    "success": {
+      "title": "Paketa u përditësua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Nuk u përditësua paketa",
+      "time": 3000
+    }
+  }
+}

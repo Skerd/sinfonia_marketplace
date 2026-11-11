@@ -1,0 +1,101 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listings/index.tsx",
+  "title": "Listings",
+  "description": "Manage product and service listings for your tenant storefront.",
+  "help": {
+    "ariaLabel": "About Listings",
+    "title": "About Listings",
+    "overview": "A listing is a provider's service offer on the marketplace: what they do, in which category and place, at what price, with optional packages and add-ons. Buyers order from active listings. Status is draft, active, or inactive and is changed only by the activate and deactivate actions.",
+    "sections": [
+      {
+        "title": "Status",
+        "items": [
+          "Draft is the default while the offer is being built. Nobody can order it.",
+          "Activate makes it orderable. It requires a price and a currency, because an order without a package is priced from them.",
+          "Deactivate takes it offline without deleting it. Resolving a report against it can also deactivate it.",
+          "Only the listing's provider, or an administrator, can activate or deactivate."
+        ]
+      },
+      {
+        "title": "What you configure",
+        "items": [
+          "Title, description, category, tags, FAQs, and buyer requirements describe the offer. Category is a listing category, not a product category.",
+          "Pricing type is fixed or hourly. Price and currency are the base price; delivery days set the default due date of an order.",
+          "Main image is required; image and video galleries are optional.",
+          "Country, state, and city place the offer. City and category decide which task requests the provider is told about.",
+          "Provider is the user who sells it: yourself, or another user of the same company."
+        ]
+      },
+      {
+        "title": "How an order is priced from it",
+        "body": "A buyer orders an active listing, optionally with one package and any add-ons.",
+        "items": [
+          "Without a package: the listing price and delivery days. With a package: the package's price and delivery days instead.",
+          "Each add-on adds its price and its extra delivery days. Add-ons must belong to this listing and use the order's currency.",
+          "A provider cannot order their own listing."
+        ]
+      },
+      {
+        "title": "Visibility and reputation",
+        "items": [
+          "A running promotion (featured or sponsored) puts the listing first in the storefront's recommended sort for its dates.",
+          "Reviews on completed orders give the listing its average rating and review count.",
+          "Users can report a listing; administrators review reports under Listing reports."
+        ]
+      },
+      {
+        "title": "Who sees what",
+        "items": [
+          "Administrators see and manage every listing in the company. Other users change only listings they provide.",
+          "Deleting is a soft delete and it can be restored. Its packages and add-ons cannot be restored while the listing is deleted."
+        ]
+      }
+    ]
+  },
+  "createListing": "Create listing",
+  "searchPlaceholder": "Search or add filters...",
+  "fields": {
+    "!enums": {
+      "status": {
+        "draft": "Draft",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "pricingType": {
+        "fixed": "Fixed price",
+        "hourly": "Hourly rate"
+      }
+    },
+    "name": "Name",
+    "title": "Title",
+    "description": "Description",
+    "category": "Category",
+    "provider": "Provider",
+    "price": "Price",
+    "priceCurrency": "Currency",
+    "status": "Status",
+    "pricingType": "Pricing type",
+    "deliveryDays": "Delivery days",
+    "address": "Location",
+    "mainImage": "Main image",
+    "imageGallery": "Image gallery",
+    "videoGallery": "Video gallery",
+    "faqs": {
+      "question": "Question",
+      "answer": "Answer"
+    },
+    "requirements": "Requirements",
+    "tags": "Tags",
+    "promotions": "Promotions",
+    "listingPackages": "Packages",
+    "listingAddOns": "Add-ons",
+    "avgRating": "Rating",
+    "reviewCount": "Reviews",
+    "company": "Company",
+    "createdBy": "Created by",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "deletedAt": "Deleted at",
+    "deletedBy": "Deleted by"
+  }
+}

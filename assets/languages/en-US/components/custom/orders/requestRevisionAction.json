@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/requestRevisionAction.tsx",
+  "requestRevision": {
+    "title": "Request revision",
+    "description": "Describe what needs to be changed. The provider will re-work and re-submit the delivery.",
+    "reasonLabel": "Revision reason",
+    "reasonPlaceholder": "Explain what needs to be revised and why…",
+    "minChars": "Minimum 10 characters required.",
+    "confirm": "Request revision",
+    "axios": {
+      "start": { "title": "Requesting revision", "time": 3000 },
+      "success": { "title": "Revision requested successfully", "time": 3000 },
+      "error": { "title": "Could not request revision, please try again", "time": 3000 }
+    }
+  },
+  "cancel": "Cancel"
+}

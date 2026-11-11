@@ -1,0 +1,25 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/createOrderFromListingAction.tsx",
+  "createOrder": {
+    "title": "Auftrag diese service",
+    "description": "Erteilen Sie direkt aus diesem Inserat einen Auftrag. Der Anbieter wird benachrichtigt und kann annehmen oder ablehnen.",
+    "noteLabel": "Zusätzliche Notiz (optional)",
+    "notePlaceholder": "Besondere Anweisungen oder Details für den Anbieter…",
+    "confirm": "Auftrag erteilen",
+    "axios": {
+      "start": {
+        "title": "Auftrag wird erteilt",
+        "time": 3000
+      },
+      "success": {
+        "title": "Auftrag erfolgreich erteilt",
+        "time": 3000
+      },
+      "error": {
+        "title": "Auftrag konnte nicht erteilt werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

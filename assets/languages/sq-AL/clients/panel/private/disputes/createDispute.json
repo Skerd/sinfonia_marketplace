@@ -1,0 +1,36 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Nuk u hap mosmarrëveshja"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Duke hapur mosmarrëveshjen"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Mosmarrëveshja u hap"
+    }
+  },
+  "form": {
+    "orderLabel": "Porosia",
+    "orderPlaceholder": "Zgjidh porosinë",
+    "reasonLabel": "Arsyeja",
+    "reasonPlaceholder": "Përshkruaj problemin...",
+    "section": {
+      "order": "Porosia",
+      "issue": "Çfarë shkoi keq"
+    }
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Hap mosmarrëveshjen"
+  },
+  "formHeader": {
+    "description": "Hapni një mosmarrëveshje për një porosi me probleme.",
+    "title": "Hap mosmarrëveshje"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/disputes/createDispute.tsx",
+  "title": "Titulli"
+}

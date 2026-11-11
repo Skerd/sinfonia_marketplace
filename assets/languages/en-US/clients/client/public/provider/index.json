@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/provider/index.tsx",
+  "loading": "Loading provider",
+  "breadcrumb": "Breadcrumb",
+  "services": "Services",
+  "ratingSummary": "{average} · {count} reviews",
+  "completionRate": "{rate}% orders completed",
+  "memberSince": "Member since {date}",
+  "skills": "Skills",
+  "availability": "Availability",
+  "availabilityTimeZone": "Times are in the provider's time zone, {zone}.",
+  "servicesBy": "Services by {name}",
+  "portfolio": "Portfolio",
+  "notFound": "Provider not found",
+  "notFoundMessage": "This provider has no services in the shop right now.",
+  "backToServices": "Browse services"
+}

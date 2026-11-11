@@ -1,0 +1,98 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossible de mettre à jour l'annonce"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Enregistrement de l'annonce"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Annonce mise à jour"
+    }
+  },
+  "editDescription": "Mettre à jour les détails de l'annonce.",
+  "editTitle": "Modifier l'annonce",
+  "errorDescription": "Impossible de charger cette annonce. Réessayez.",
+  "errorTitle": "Échec du chargement de l'annonce",
+  "form": {
+    "_idLabel": "Identifiant",
+    "addressCityIdLabel": "Ville",
+    "addressCityLabel": "Ville",
+    "addressCityPlaceholder": "Ville",
+    "addressCountryIdLabel": "Pays",
+    "addressCountryLabel": "Pays",
+    "addressCountryPlaceholder": "Pays",
+    "addressStateIdLabel": "Région / état",
+    "addressStateLabel": "Région / état",
+    "addressStatePlaceholder": "État ou région",
+    "categoryLabel": "Catégorie",
+    "categoryPlaceholder": "Choisissez une catégorie",
+    "deliveryDaysLabel": "Délai de livraison (jours)",
+    "deliveryDaysPlaceholder": "par ex. 3",
+    "descriptionLabel": "Description",
+    "faqAddRow": "Ajouter une FAQ",
+    "faqAnswerLabel": "Réponse",
+    "faqAnswerPlaceholder": "Réponse",
+    "faqQuestionLabel": "Question",
+    "faqQuestionPlaceholder": "Question",
+    "faqRemoveRow": "Supprimer la FAQ",
+    "faqRowTitle": "FAQ",
+    "faqsSectionTitle": "FAQ",
+    "imageGalleryLabel": "Galerie d’images",
+    "listingEditDescription": "Mettez à jour les informations de l'annonce visibles pour les acheteurs.",
+    "listingEditTitle": "Modifier l'annonce",
+    "listingStatus": {
+      "active": "Actif",
+      "draft": "Brouillon",
+      "inactive": "Inactif"
+    },
+    "mainImageLabel": "Image principale",
+    "priceCurrencyIdLabel": "Devise",
+    "priceCurrencyLabel": "Devise",
+    "priceCurrencyPlaceholder": "Devise de la boutique si vide",
+    "priceLabel": "Prix",
+    "providerLabel": "Prestataire",
+    "providerPlaceholder": "Sélectionnez l'utilisateur qui propose cette annonce",
+    "pricingType": {
+      "fixed": "Prix fixe",
+      "hourly": "Tarif horaire"
+    },
+    "pricingTypeLabel": "Type de prix",
+    "pricingTypePlaceholder": "Sélectionnez le type de tarification",
+    "requirementsLabel": "Exigences",
+    "requirementsPlaceholder": "Ajoutez une exigence et appuyez sur Entrée",
+    "requirementsRemoveTooltip": "Supprimer l'exigence",
+    "section": {
+      "general": "Général",
+      "images": "Images",
+      "location": "Emplacement",
+      "video": "Vidéo",
+      "pricing": "Prix",
+      "details": "Détails"
+    },
+    "statusLabel": "Statut",
+    "statusPlaceholder": "Sélectionner le statut",
+    "tagsLabel": "Étiquettes",
+    "tagsPlaceholder": "Saisissez une étiquette et appuyez sur Entrée",
+    "tagsRemoveTooltip": "Supprimer l'étiquette",
+    "tagsSectionTitle": "Étiquettes",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Titre de l'annonce",
+    "videoGalleryLabel": "Galerie vidéo",
+    "pricePlaceholder": "ex. 150",
+    "descriptionPlaceholder": "Ce que l'acheteur obtient, comment et quand"
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Enregistrer les modifications"
+  },
+  "formHeader": {
+    "description": "Mettre à jour les détails de l'annonce.",
+    "title": "Modifier l'annonce"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/listings/editListing.tsx",
+  "title": "Titre"
+}

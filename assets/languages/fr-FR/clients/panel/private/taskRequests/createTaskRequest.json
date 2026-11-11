@@ -1,0 +1,62 @@
+{
+  "address": "Adresse",
+  "form": {
+    "addressPrivacyAlert": "Les prestataires ne peuvent pas voir votre adresse exacte tant que vous n'avez pas accepté une offre. Votre adresse complète n'est communiquée qu'au prestataire choisi, une fois que vous vous êtes mis d'accord sur les travaux.",
+    "budgetMaxLabel": "Budget (maximum)",
+    "budgetMinLabel": "Budget (min)",
+    "categoryLabel": "Catégorie",
+    "cityLabel": "Ville",
+    "cityPlaceholder": "Sélectionner la ville",
+    "countryLabel": "Pays",
+    "countryPlaceholder": "Sélectionner le pays",
+    "currencyLabel": "Devise",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Ce qu’il faut faire, l’ampleur du travail et l’échéance.",
+    "expiresAtLabel": "Expire",
+    "expiresAtPlaceholder": "aaaa-MM-jj",
+    "imageGalleryLabel": "Galerie d’images",
+    "latitudeLabel": "Latitude",
+    "latitudePlaceholder": "Latitude",
+    "longitudeLabel": "Longitude",
+    "longitudePlaceholder": "Longitude",
+    "mainImageLabel": "Image principale",
+    "postalCodeLabel": "Code postal",
+    "postalCodePlaceholder": "Code postal",
+    "section": {
+      "budget": "Budget",
+      "currencyExpires": "Devise et expiration",
+      "description": "Détails",
+      "general": "Général",
+      "images": "Images",
+      "video": "Vidéo",
+      "address": "Adresse"
+    },
+    "stateLabel": "Région / État",
+    "statePlaceholder": "Sélectionner la région",
+    "streetLabel": "Rue",
+    "streetPlaceholder": "Adresse postale",
+    "taskRequestStatus": {
+      "awarded": "Attribuée",
+      "closed": "Fermé",
+      "open": "Ouvert"
+    },
+    "titleLabel": "Titre",
+    "videoGalleryLabel": "Galerie vidéo",
+    "titlePlaceholder": "ex. Peindre un appartement de trois pièces",
+    "categoryPlaceholder": "Sélectionner une catégorie",
+    "currencyPlaceholder": "Sélectionner une devise",
+    "currencyDescription": "Les offres sur cette demande sont dans cette devise.",
+    "budgetMinPlaceholder": "ex. 500",
+    "budgetMaxPlaceholder": "ex. 900"
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Soumettre"
+  },
+  "formHeader": {
+    "description": "Décrivez ce dont vous avez besoin. Les prestataires peuvent répondre par des offres.",
+    "title": "Créer une demande de devis"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/createTaskRequest.tsx",
+  "title": "Titre"
+}

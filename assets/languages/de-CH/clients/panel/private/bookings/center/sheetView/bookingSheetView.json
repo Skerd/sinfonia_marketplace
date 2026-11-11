@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/sheetView/bookingSheetView.tsx",
+  "failedTitle": "Buchung konnten nicht geladen werden",
+  "failedDescription": "Die Buchung konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "bookingSubtitle": "Buchung",
+  "overview": "Übersicht",
+  "order": "Auftrag",
+  "provider": "Anbieter",
+  "startAt": "Startzeit",
+  "endAt": "Endzeit",
+  "timezone": "Zeitzone",
+  "createdAt": "Erstellt",
+  "lifecycle": "Lebenszyklus",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "orderStatus": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "in_progress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert"
+  }
+}

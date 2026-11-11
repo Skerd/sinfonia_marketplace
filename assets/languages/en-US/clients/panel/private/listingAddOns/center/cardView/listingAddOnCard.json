@@ -1,0 +1,11 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/center/cardView/listingAddOnCard.tsx",
+  "failedTitle": "Failed to load listing add-on",
+  "failedDescription": "Tap to retry.",
+  "name": "Name",
+  "listing": "Listing",
+  "priceAmount": "Price",
+  "deliveryDays": "Delivery days",
+  "days": "d",
+  "provider": "Provider"
+}

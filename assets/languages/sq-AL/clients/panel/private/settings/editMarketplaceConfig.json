@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/settings/editMarketplaceConfig.tsx",
+  "title": "Cilësimet e tregut",
+  "description": "Vlejnë për tregun e shërbimeve të kësaj kompanie.",
+  "form": {
+    "settingsSectionTitle": "Tregu",
+    "listedOnPortalLabel": "Shfaq në portal",
+    "listedOnPortalPlaceholder": "",
+    "currencyLabel": "Monedha",
+    "currencyPlaceholder": "Zgjidh monedhën"
+  }
+}

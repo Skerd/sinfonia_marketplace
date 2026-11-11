@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/cardView/listingPackageCard.tsx",
+  "failedTitle": "Failed to load listing package",
+  "failedDescription": "Tap to retry.",
+  "name": "Name",
+  "listing": "Listing",
+  "priceAmount": "Price",
+  "deliveryDays": "Delivery days",
+  "displayOrder": "Display order",
+  "days": "d",
+  "provider": "Provider"
+}

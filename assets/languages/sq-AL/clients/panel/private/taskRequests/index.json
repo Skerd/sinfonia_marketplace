@@ -1,0 +1,75 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/index.tsx",
+  "title": "Kërkesat për ofertë",
+  "description": "Publikoni dhe menaxhoni kërkesat e blerësit për oferta, punë me porosi ose prokurim.",
+  "help": {
+    "ariaLabel": "Rreth kërkesave për ofertë",
+    "title": "Rreth kërkesave për ofertë",
+    "overview": "Një kërkesë për ofertë është përshkrimi i një blerësi që u kërkon oferta ofruesve: çfarë i duhet, në cilën kategori dhe vend, me çfarë buxheti. Mbetet e hapur për oferta 30 ditë. Pranimi i një oferte e cakton dhe hap një porosi.",
+    "sections": [
+      {
+        "title": "Fushat",
+        "items": [
+          "Titulli, kategoria, buxheti minimal dhe maksimal, monedha, adresa dhe imazhi kryesor janë të detyrueshëm; përshkrimi dhe galeritë janë opsionale.",
+          "Kërkuesi është kush e publikon. Kategoria dhe qyteti vendosin cilët ofrues njoftohen."
+        ]
+      },
+      {
+        "title": "Statuset",
+        "items": [
+          "E hapur: pranon oferta deri në skadim.",
+          "E mbyllur: nuk pranon më oferta, me zgjedhjen e kërkuesit ose sepse kaluan 30 ditë. Një proces çdo orë mbyll kërkesat e skaduara.",
+          "E dhënë: një ofertë u pranua; statusi nuk mund të ndryshojë më."
+        ]
+      },
+      {
+        "title": "Veprimet",
+        "body": "Vetëm kërkuesi, ose një administrator, mund ta ndryshojë statusin.",
+        "items": [
+          "Mbyll: nga e hapur. Të gjithë ata me ofertë në pritje njoftohen.",
+          "Rihap: nga e mbyllur. Rinis dritaren 30-ditore, që një kërkesë e skaduar të mos mbyllet sërish menjëherë.",
+          "Njofto të gjithë: njofton sërish çdo ofrues me një listim aktiv në të njëjtën kategori dhe qytet."
+        ]
+      },
+      {
+        "title": "Ofertat dhe caktimi",
+        "items": [
+          "Ofruesit bëjnë oferta sa kohë është e hapur dhe e paskaduar; askush nuk mund të bëjë ofertë për kërkesën e vet.",
+          "Pranimi i një oferte refuzon të tjerat, e shënon kërkesën si të dhënë dhe hap një porosi në pritje mes kërkuesit dhe ofertuesit.",
+          "Çdo rresht tregon sa oferta aktive ka. Joadministratorët shohin kërkesat e veta.",
+          "Fshirja është e butë dhe kërkesa mund të rikthehet."
+        ]
+      }
+    ]
+  },
+  "createTaskRequest": "Krijo kërkesë për ofertë",
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "fields": {
+    "title": "Titulli",
+    "description": "Përshkrimi",
+    "requester": "Kërkuesi",
+    "category": "Kategoria",
+    "budgetMin": "Buxheti (min)",
+    "budgetMax": "Buxheti (max)",
+    "currency": "Monedha",
+    "address": "Adresa",
+    "expiresAt": "Skadon",
+    "status": "Statusi",
+    "mainImage": "Imazhi kryesor",
+    "imageGallery": "Galeria e imazheve",
+    "videoGallery": "Galeria e videove",
+    "company": "Kompania",
+    "createdBy": "Krijuar nga",
+    "createdAt": "Krijuar më",
+    "updatedAt": "Përditësuar më",
+    "deletedAt": "Fshirë më",
+    "deletedBy": "Fshirë nga",
+    "!enums": {
+      "status": {
+        "open": "Hapur",
+        "closed": "Mbyllur",
+        "awarded": "E dhënë"
+      }
+    }
+  }
+}

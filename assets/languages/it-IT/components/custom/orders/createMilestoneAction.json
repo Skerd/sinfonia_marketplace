@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/createMilestoneAction.tsx",
+  "title": "Aggiungi milestone",
+  "description": "Dividi l'ordine in una parte che puoi pagare al fornitore prima della consegna finale. Si usa la valuta dell'ordine.",
+  "nameLabel": "Nome",
+  "amountLabel": "Importo",
+  "amountHint": "Tutte le milestone insieme non possono superare l'importo dell'ordine.",
+  "confirm": "Aggiungi milestone",
+  "cancel": "Annulla",
+  "axios": {
+    "start": {
+      "title": "Aggiunta della milestone",
+      "time": 3000
+    },
+    "success": {
+      "title": "Milestone aggiunta",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile aggiungere la milestone, riprova",
+      "time": 3000
+    }
+  }
+}

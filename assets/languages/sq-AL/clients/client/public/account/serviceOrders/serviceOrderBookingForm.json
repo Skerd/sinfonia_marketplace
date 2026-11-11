@@ -1,0 +1,30 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderBookingForm.tsx",
+  "title": "Rezervoni seancën tuaj",
+  "message": "Zgjidhni kur fillon dhe kur mbaron seanca. Oraret janë sipas {zone}.",
+  "availability": {
+    "title": "Kur është i disponueshëm ofruesi",
+    "zone": "Seanca duhet të hyjë plotësisht në një nga këto dritare. Ato janë sipas zonës kohore të ofruesit, {zone}.",
+    "converted": "Seanca duhet të hyjë plotësisht në një nga këto dritare. Ato shfaqen sipas zonës suaj kohore, {zone}; kur oraret e ofruesit ({providerZone}) ndryshojnë, jepen në kllapa."
+  },
+  "form": {
+    "startAtLabel": "Fillon",
+    "startAtPlaceholder": "Zgjidhni datën dhe orën e fillimit",
+    "endAtLabel": "Mbaron",
+    "endAtPlaceholder": "Zgjidhni datën dhe orën e mbarimit"
+  },
+  "submit": "Rezervo seancën",
+  "working": "Duke punuar…",
+  "back": "Mbrapa",
+  "booked": "Seanca u rezervua",
+  "bookError": "Seanca nuk mund të rezervohej. Ju lutem provoni sërish.",
+  "weekday": {
+    "0": "E diel",
+    "1": "E hënë",
+    "2": "E martë",
+    "3": "E mërkurë",
+    "4": "E enjte",
+    "5": "E premte",
+    "6": "E shtunë"
+  }
+}

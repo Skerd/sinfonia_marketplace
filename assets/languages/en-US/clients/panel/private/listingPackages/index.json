@@ -1,0 +1,47 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/index.tsx",
+  "title": "Listing packages",
+  "description": "Manage service packages that providers offer for their listings.",
+  "help": {
+    "ariaLabel": "About Listing packages",
+    "title": "About Listing packages",
+    "overview": "A package is a priced tier of a listing, such as Basic, Standard, or Premium. When a buyer orders with a package, the package's price and delivery days replace the listing's base price and delivery days.",
+    "sections": [
+      {
+        "title": "Fields",
+        "items": [
+          "Listing is required and fixed; only that listing's provider can create or delete its packages.",
+          "Name and description describe the tier. Display order sorts packages on the listing, lower first.",
+          "Price amount and currency are what the order charges. Delivery days become the order's due-date window."
+        ]
+      },
+      {
+        "title": "Ordering with a package",
+        "items": [
+          "Add-ons chosen with the package must use the package's currency; their extra days are added on top.",
+          "A listing needs no packages; without one, its own price is used.",
+          "Deleting is a soft delete. A package cannot be restored while its listing is deleted."
+        ]
+      }
+    ]
+  },
+  "createListingPackage": "Create listing package",
+  "searchPlaceholder": "Search or add filters...",
+  "fields": {
+    "name": "Name",
+    "listing": "Listing",
+    "description": "Description",
+    "price": {
+      "amount": "Price",
+      "currency": "Currency"
+    },
+    "deliveryDays": "Delivery days",
+    "order": "Display order",
+    "company": "Company",
+    "createdBy": "Created by",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "deletedAt": "Deleted at",
+    "deletedBy": "Deleted by"
+  }
+}

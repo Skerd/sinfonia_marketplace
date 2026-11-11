@@ -1,0 +1,98 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Nuk mund të përditësohej listimi"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Duke ruajtur listimin"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Listimi u përditësua"
+    }
+  },
+  "editDescription": "Përditëso të dhënat e listimit.",
+  "editTitle": "Ndrysho listimin",
+  "errorDescription": "Nuk u ngarkua ky listim. Provoni përsëri.",
+  "errorTitle": "Dështoi ngarkimi i listimit",
+  "form": {
+    "_idLabel": "ID e regjistrimit",
+    "addressCityIdLabel": "Qyteti",
+    "addressCityLabel": "Qyteti",
+    "addressCityPlaceholder": "Qyteti",
+    "addressCountryIdLabel": "Shteti",
+    "addressCountryLabel": "Shteti",
+    "addressCountryPlaceholder": "Shteti",
+    "addressStateIdLabel": "Rajoni / qarku",
+    "addressStateLabel": "Rajoni / qarku",
+    "addressStatePlaceholder": "Rajoni ose qarku",
+    "categoryLabel": "Kategoria",
+    "categoryPlaceholder": "Zgjidhni një kategori",
+    "deliveryDaysLabel": "Koha e dorëzimit (ditë)",
+    "deliveryDaysPlaceholder": "p.sh. 3",
+    "descriptionLabel": "Përshkrimi",
+    "faqAddRow": "Shto FAQ",
+    "faqAnswerLabel": "Përgjigja",
+    "faqAnswerPlaceholder": "Përgjigja",
+    "faqQuestionLabel": "Pyetja",
+    "faqQuestionPlaceholder": "Pyetja",
+    "faqRemoveRow": "Hiq FAQ",
+    "faqRowTitle": "FAQ",
+    "faqsSectionTitle": "Pyetje dhe përgjigje",
+    "imageGalleryLabel": "Galeria e imazheve",
+    "listingEditDescription": "Përditëso informacionin që shfaqet për blerësit.",
+    "listingEditTitle": "Ndrysho listimin",
+    "listingStatus": {
+      "active": "Aktiv",
+      "draft": "Skicë",
+      "inactive": "Joaktiv"
+    },
+    "mainImageLabel": "Imazhi kryesor",
+    "priceCurrencyIdLabel": "Monedha",
+    "priceCurrencyLabel": "Monedha",
+    "priceCurrencyPlaceholder": "Monedha e dyqanit nëse lihet bosh",
+    "priceLabel": "Çmimi",
+    "providerLabel": "Ofruesi",
+    "providerPlaceholder": "Zgjidh përdoruesin që ofron këtë listim",
+    "pricingType": {
+      "fixed": "Çmim fiks",
+      "hourly": "Tarifë për orë"
+    },
+    "pricingTypeLabel": "Lloji i çmimit",
+    "pricingTypePlaceholder": "Zgjidh llojin e çmimit",
+    "requirementsLabel": "Kërkesat",
+    "requirementsPlaceholder": "Shto një kërkesë dhe shtyp Enter",
+    "requirementsRemoveTooltip": "Hiq kërkesën",
+    "section": {
+      "general": "Të përgjithshme",
+      "images": "Imazhet",
+      "location": "Vendndodhja",
+      "video": "Video",
+      "pricing": "Çmimet",
+      "details": "Detajet"
+    },
+    "statusLabel": "Statusi",
+    "statusPlaceholder": "Zgjidh statusin",
+    "tagsLabel": "Etiketat",
+    "tagsPlaceholder": "Shkruaj një etiketë dhe shtyp Enter",
+    "tagsRemoveTooltip": "Hiq etiketën",
+    "tagsSectionTitle": "Etiketat",
+    "titleLabel": "Titulli",
+    "titlePlaceholder": "Titulli i listimit",
+    "videoGalleryLabel": "Galeria e videove",
+    "pricePlaceholder": "p.sh. 150",
+    "descriptionPlaceholder": "Çfarë merr blerësi, si dhe kur"
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Ruaj ndryshimet"
+  },
+  "formHeader": {
+    "description": "Përditëso të dhënat e listimit.",
+    "title": "Ndrysho listimin"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/listings/editListing.tsx",
+  "title": "Titulli"
+}

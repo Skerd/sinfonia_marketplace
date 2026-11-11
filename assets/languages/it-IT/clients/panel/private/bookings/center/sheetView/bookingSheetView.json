@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/sheetView/bookingSheetView.tsx",
+  "failedTitle": "Impossibile caricare la prenotazione",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questa prenotazione. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "bookingSubtitle": "Prenotazione",
+  "overview": "Panoramica",
+  "order": "Ordine",
+  "provider": "Fornitore",
+  "startAt": "Ora di inizio",
+  "endAt": "Ora di fine",
+  "timezone": "Fuso orario",
+  "createdAt": "Creato",
+  "lifecycle": "Ciclo di vita",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da",
+  "orderStatus": {
+    "pending": "In sospeso",
+    "accepted": "Accettato",
+    "in_progress": "In corso",
+    "completed": "Completato",
+    "cancelled": "Annullato"
+  }
+}

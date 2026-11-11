@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/center/cardView/disputeCard.tsx",
+  "failedTitle": "Ngarkimi i mosmarrëveshjes dështoi",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "reason": "Arsyeja",
+  "initiator": "Iniciatori",
+  "order": "Porosia",
+  "status": "Statusi",
+  "amount": "Shuma",
+  "status_values": {
+    "open": "Hapur",
+    "under_review": "Nën shqyrtim",
+    "resolved": "Zgjidhur",
+    "closed": "Mbyllur"
+  },
+  "createdAt": "Hapur"
+}

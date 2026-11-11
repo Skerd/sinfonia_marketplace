@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/releaseMilestoneAction.tsx",
+  "title": "Rilascia milestone",
+  "description": "Paga questa milestone al fornitore dal deposito a garanzia dell'ordine. L'operazione non può essere annullata.",
+  "milestoneLabel": "Milestone",
+  "milestonePlaceholder": "Scegli una milestone",
+  "confirm": "Rilascia il pagamento",
+  "cancel": "Annulla",
+  "axios": {
+    "start": {
+      "title": "Rilascio della milestone",
+      "time": 3000
+    },
+    "success": {
+      "title": "Milestone rilasciata",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile rilasciare la milestone, riprova",
+      "time": 3000
+    }
+  }
+}

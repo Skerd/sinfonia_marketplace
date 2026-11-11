@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/components/custom/providerProfile/connectAccountAction.tsx",
+  "cancel": "Abbrechen",
+  "createAccountLink": {
+    "title": "Stripe-Auszahlungen verbinden",
+    "description": "Sie werden zu Stripe weitergeleitet, um Express-Auszahlungen für dieses Anbieterprofil einzurichten (oder die Einrichtung fortzusetzen). Treuhandfreigaben können erst nach abgeschlossenem Onboarding an Sie ausgezahlt werden.",
+    "confirm": "Stripe öffnen",
+    "axios": {
+      "start": {
+        "title": "Stripe-Link wird erstellt…"
+      },
+      "success": {
+        "title": "Stripe-Onboarding-Link bereit"
+      },
+      "error": {
+        "title": "Stripe-Onboarding-Link konnte nicht erstellt werden"
+      }
+    }
+  },
+  "refreshAccountStatus": {
+    "title": "Stripe-Status aktualisieren",
+    "description": "Holt den aktuellen Status des Connect-Kontos von Stripe und aktualisiert, ob dieses Profil Zahlungen und Auszahlungen erhalten kann.",
+    "confirm": "Status aktualisieren",
+    "axios": {
+      "start": {
+        "title": "Stripe-Status wird aktualisiert…"
+      },
+      "success": {
+        "title": "Stripe-Status aktualisiert"
+      },
+      "error": {
+        "title": "Stripe-Status konnte nicht aktualisiert werden"
+      }
+    }
+  }
+}

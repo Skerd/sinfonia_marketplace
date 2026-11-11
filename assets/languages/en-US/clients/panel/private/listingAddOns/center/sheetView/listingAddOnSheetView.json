@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/center/sheetView/listingAddOnSheetView.tsx",
+  "failedTitle": "Failed to load listing add-on",
+  "failedDescription": "Something went wrong while loading this listing add-on. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "listingAddOnSubtitle": "Listing add-on",
+  "overview": "Overview",
+  "lifecycle": "Lifecycle",
+  "name": "Name",
+  "listing": "Listing",
+  "provider": "Provider",
+  "priceAmount": "Price",
+  "currency": "Currency",
+  "deliveryDays": "Delivery time",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "deliveryDaysValue": {
+    "one": "{value} day",
+    "other": "{value} days"
+  }
+}

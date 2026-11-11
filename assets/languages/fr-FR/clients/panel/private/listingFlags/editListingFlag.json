@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/editListingFlag.tsx",
+  "editTitle": "Modifier le signalement d'annonce",
+  "editDescription": "Mettez à jour le motif et les détails de ce signalement.",
+  "errorTitle": "Impossible de charger le signalement",
+  "errorDescription": "Vérifiez le lien ou revenez à la liste et réessayez.",
+  "formHeader": {
+    "title": "Modifier le signalement d'annonce",
+    "description": "Mettez à jour le motif et les détails supplémentaires. L'annonce ne peut pas être modifiée."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Enregistrer les modifications"
+  },
+  "form": {
+    "reasonLabel": "Motif",
+    "reasonPlaceholder": "Sélectionnez la raison",
+    "commentLabel": "Détails supplémentaires",
+    "commentPlaceholder": "Détails facultatifs...",
+    "reason_values": {
+      "inappropriate": "Contenu inapproprié",
+      "spam": "Spam",
+      "misleading": "Trompeur",
+      "other": "Autre"
+    },
+    "reportSectionTitle": "Signalement"
+  },
+  "axios": {
+    "start": {
+      "title": "Enregistrement du signalement",
+      "time": 3000
+    },
+    "success": {
+      "title": "Signalement mis à jour",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de mettre à jour le signalement",
+      "time": 3000
+    }
+  }
+}

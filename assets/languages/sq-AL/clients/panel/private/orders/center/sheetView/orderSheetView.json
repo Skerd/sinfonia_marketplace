@@ -1,0 +1,70 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/sheetView/orderSheetView.tsx",
+  "order": "Porosia",
+  "listingLabel": "Listimi",
+  "listing": {
+    "title": "Listimi"
+  },
+  "taskRequest": "Kërkesë për ofertë",
+  "bid": "Oferta",
+  "customer": "Klienti",
+  "provider": "Ofruesi",
+  "amount": "Shuma",
+  "currency": "Valuta",
+  "deliveryDueDate": "Data e dorëzimit",
+  "status": "Statusi",
+  "createdAt": "Krijuar",
+  "overview": "Përmbledhje",
+  "references": "Referencat",
+  "failedTitle": "Dështoi ngarkimi i porosisë",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të porosisë. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "orderStatus": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "in_progress": "Në progres",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar"
+  },
+  "note": "Shënimi i klientit",
+  "deliveries": "Dorëzimet",
+  "milestones": "Fazat",
+  "revisions": "Kërkesat për rishikim",
+  "lifecycle": "Cikli i jetës",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "milestone": "Faza",
+  "delivery": "Dorëzimi",
+  "revision": "Kërkesë rishikimi",
+  "orderMilestoneStatus": {
+    "pending": "Në pritje",
+    "released": "Liruar",
+    "delivered": "Dorëzuar"
+  },
+  "orderDeliveryStatus": {
+    "submitted": "Dorëzuar",
+    "accepted": "Pranuar",
+    "revision_requested": "Rishikim i kërkuar"
+  },
+  "orderRevisionStatus": {
+    "pending": "Në pritje",
+    "completed": "Trajtuar"
+  },
+  "disputesGroup": "Mosmarrëveshjet",
+  "bookingsGroup": "Rezervimet",
+  "reviewsGroup": "Vlerësimet",
+  "disputeRow": "Mosmarrëveshja",
+  "bookingRow": "Rezervimi",
+  "reviewRow": "Vlerësimi",
+  "disputeStatus": {
+    "open": "Hapur",
+    "under_review": "Nën shqyrtim",
+    "resolved": "Zgjidhur",
+    "closed": "Mbyllur"
+  },
+  "compactView": "Kompakt",
+  "cardsView": "Karta",
+  "toggleReferenceListView": "Ndrysho pamjen"
+}

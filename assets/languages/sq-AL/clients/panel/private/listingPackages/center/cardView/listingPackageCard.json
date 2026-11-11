@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/cardView/listingPackageCard.tsx",
+  "failedTitle": "Dështoi ngarkimi i paketës së listimit",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "name": "Emri",
+  "listing": "Listimi",
+  "priceAmount": "Çmimi",
+  "deliveryDays": "Ditë dorëzimi",
+  "displayOrder": "Renditja",
+  "days": "d",
+  "provider": "Ofruesi"
+}

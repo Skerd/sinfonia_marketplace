@@ -1,0 +1,33 @@
+{
+  "path": "src/modules/marketplace/components/custom/listingFlags/changeListingFlagLifecycleAction.tsx",
+  "cancel": "Anulo",
+  "resolutionLabel": "Shënime përfundimtare",
+  "resolutionPlaceholder": "Përshkruani si u trajtua ky raportim (e detyrueshme).",
+  "resolutionHint": "E detyrueshme. 1–2000 karaktere.",
+  "listingActionLabel": "Veprimi ndaj listimit",
+  "listingActionPlaceholder": "Zgjidh veprimin",
+  "listingAction_values": {
+    "none": "Pa veprim",
+    "deactivate": "Çaktivizo listimin"
+  },
+  "resolve": {
+    "title": "Zgjidh raportimin e listimit",
+    "description": "E shënon raportimin si të shqyrtuar. Opsionalisht çaktivizon listimin.",
+    "confirm": "Zgjidh",
+    "axios": {
+      "start": { "title": "Po zgjidhet raportimi", "time": 3000 },
+      "success": { "title": "Raportimi u zgjidh", "time": 3000 },
+      "error": { "title": "Nuk u zgjidh raportimi", "time": 3000 }
+    }
+  },
+  "dismiss": {
+    "title": "Hidhe poshtë raportimin",
+    "description": "E shënon raportimin si të hedhur poshtë pa veprim ndaj listimit.",
+    "confirm": "Hidhe poshtë",
+    "axios": {
+      "start": { "title": "Po hidhet poshtë raportimi", "time": 3000 },
+      "success": { "title": "Raportimi u hodh poshtë", "time": 3000 },
+      "error": { "title": "Nuk u hodh poshtë raportimi", "time": 3000 }
+    }
+  }
+}

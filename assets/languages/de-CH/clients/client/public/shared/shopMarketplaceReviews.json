@@ -1,0 +1,8 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/shared/shopMarketplaceReviews.tsx",
+  "title": "Bewertungen",
+  "empty": "Noch keine Bewertungen.",
+  "count": "{count} Bewertungen",
+  "countOne": "1 Bewertung",
+  "starsValue": "{count} von 5 Sternen"
+}

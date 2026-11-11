@@ -1,0 +1,51 @@
+{
+  "path": "src/modules/marketplace/components/custom/listingFlags/changeListingFlagLifecycleAction.tsx",
+  "cancel": "Abbrechen",
+  "resolutionLabel": "Notizen zur Lösung",
+  "resolutionPlaceholder": "Beschreiben Sie, wie diese Meldung behandelt wurde (erforderlich).",
+  "resolutionHint": "Erforderlich. 1–2000 Zeichen.",
+  "listingActionLabel": "Inserat aktion",
+  "listingActionPlaceholder": "Aktion auswählen",
+  "listingAction_values": {
+    "none": "Keine aktion",
+    "deactivate": "Inserat deaktivieren"
+  },
+  "resolve": {
+    "title": "Inserat-Meldung erledigen",
+    "description": "Markiert die Meldung als geprüft. Optional wird das Inserat deaktiviert.",
+    "confirm": "Erledigen",
+    "axios": {
+      "start": {
+        "title": "Meldung wird erledigt",
+        "time": 3000
+      },
+      "success": {
+        "title": "Meldung erledigt",
+        "time": 3000
+      },
+      "error": {
+        "title": "Meldung konnte nicht erledigt werden",
+        "time": 3000
+      }
+    }
+  },
+  "dismiss": {
+    "title": "Inserat-Meldung verwerfen",
+    "description": "Markiert die Meldung als verworfen, ohne weitere Massnahme am Inserat.",
+    "confirm": "Verwerfen",
+    "axios": {
+      "start": {
+        "title": "Meldung wird verworfen",
+        "time": 3000
+      },
+      "success": {
+        "title": "Meldung verworfen",
+        "time": 3000
+      },
+      "error": {
+        "title": "Meldung konnte nicht verworfen werden",
+        "time": 3000
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/settings/editMarketplaceConfig.tsx",
+  "title": "Paramètres de la place de marché",
+  "description": "S'applique à la place de marché de services de cette entreprise.",
+  "form": {
+    "settingsSectionTitle": "Place de marché",
+    "listedOnPortalLabel": "Afficher sur le portail",
+    "listedOnPortalPlaceholder": "",
+    "currencyLabel": "Devise",
+    "currencyPlaceholder": "Choisir une devise"
+  }
+}

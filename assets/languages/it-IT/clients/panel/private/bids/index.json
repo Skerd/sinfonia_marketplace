@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/index.tsx",
+  "title": "Offerte",
+  "description": "Visualizza e gestisci le offerte sulle richieste di preventivo.",
+  "help": {
+    "ariaLabel": "Informazioni sulle offerte",
+    "title": "Informazioni sulle offerte",
+    "overview": "Un’offerta è il preventivo di un fornitore su una richiesta di preventivo: importo, giorni di consegna e una proposta scritta. Il richiedente accetta un’offerta, che assegna l’attività e apre un ordine.",
+    "sections": [
+      {
+        "title": "Fare un’offerta",
+        "items": [
+          "La richiesta di preventivo deve essere aperta, non scaduta e di qualcun altro.",
+          "Un’offerta attiva per offerente e richiesta. Offerente e valuta sono impostati dal server, dal chiamante e dalla richiesta.",
+          "Le offerte non si modificano dopo l’invio; ritirala e fanne una nuova."
+        ]
+      },
+      {
+        "title": "Stati e azioni",
+        "body": "Solo un’offerta in attesa può essere accettata o rifiutata.",
+        "items": [
+          "Accetta (solo il richiedente): questa offerta diventa accettata, ogni altra offerta in attesa sulla richiesta viene rifiutata, la richiesta viene assegnata e si apre un ordine in attesa con l’importo dell’offerta e una scadenza dai suoi giorni di consegna. Gli offerenti vengono avvisati.",
+          "Rifiuta: il richiedente la declina, o l’offerente la ritira. Viene avvisato solo un offerente declinato."
+        ]
+      },
+      {
+        "title": "Chi vede cosa",
+        "body": "Le offerte sono private tra offerente e richiedente.",
+        "items": [
+          "Un non amministratore vede le proprie offerte e quelle fatte sulle proprie richieste, mai quelle di un concorrente.",
+          "L’offerente, o un amministratore, può eliminare un’offerta finché è in attesa."
+        ]
+      }
+    ]
+  },
+  "createBid": "Crea offerta",
+  "fields": {
+    "amount": "Importo",
+    "currency": "Valuta",
+    "proposal": "Proposta",
+    "deliveryDays": "Giorni di consegna",
+    "status": "Stato",
+    "bidder": "Offerente",
+    "taskRequest": "Richiesta di preventivo",
+    "createdAt": "Creato",
+    "!enums": {
+      "status": {
+        "pending": "In sospeso",
+        "accepted": "Accettata",
+        "rejected": "Rifiutata"
+      }
+    }
+  },
+  "searchPlaceholder": "Cerca o aggiungi filtri...",
+  "status": {
+    "pending": "In sospeso",
+    "accepted": "Accettata",
+    "rejected": "Rifiutata"
+  },
+  "accept": "Accetta",
+  "reject": "Rifiuta/Ritira"
+}

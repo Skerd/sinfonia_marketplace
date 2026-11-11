@@ -1,0 +1,58 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/marketplaceSystemMap/index.tsx",
+  "title": "Harta e sistemit Marketplace",
+  "description": "Hartë interaktive e modeleve të tregut, rrjedhave të listimeve/ofertave, urës së depozitës dhe aftësive. Lëvizni, zmadhoni dhe klikoni nyjet për detaje.",
+  "help": {
+    "ariaLabel": "Rreth hartës së sistemit Marketplace",
+    "title": "Rreth hartës së sistemit Marketplace",
+    "overview": "Kjo hartë është një pamje vetëm për lexim e tregut të shërbimeve: modelet e tij, si lëvizin puna dhe paratë mes klientit dhe ofruesit, dhe çfarë ofron moduli. Nuk ndryshon të dhëna.",
+    "sections": [
+      {
+        "title": "Grafiku i modeleve",
+        "items": [
+          "Listimet me paketat, shtesat, raportimet dhe promovimet; kërkesat për detyra dhe ofertat; porositë me dorëzimet, fazat, rishikimet, rezervimet, mosmarrëveshjet dhe vlerësimet; profilet e ofruesve; dhe regjistri i depozitës së financave.",
+          "Klikoni një nyje për përshkrimin, fushat kyçe, shtegun e API-t, veprimet dhe faqen e panelit."
+        ]
+      },
+      {
+        "title": "Si funksionon",
+        "items": [
+          "«Bli një listim» dhe «detyrë → ofertë → porosi» tregojnë si nis një porosi.",
+          "Cikli i jetës së porosisë (dorëzime, rishikime, faza, pranim automatik pas 3 ditësh, lirim minus tarifën) dhe mosmarrëveshjet → rimbursim tregojnë si përfundon.",
+          "Moderimi dhe promovimi mbulon raportimet dhe promovimet; regjistrimi i ofruesit mbulon konfigurimin e profilit dhe pagesat me Stripe Connect."
+        ]
+      },
+      {
+        "title": "Aftësitë",
+        "items": [
+          "Çfarë mbështet sot tregu, zonat e API-t, proceset e planifikuara dhe rrugët e dyqanit.",
+          "Puna e përditshme bëhet në faqet e Tregut; përdoreni hartën për të trajnuar stafin ose për të planifikuar lejet."
+        ]
+      }
+    ]
+  },
+  "tabs": {
+    "models": "Grafiku i modeleve",
+    "flows": "Si funksionon",
+    "capabilities": "Aftësitë"
+  },
+  "nodes": {
+    "ListingCategory": "Kategori listimi",
+    "ProviderProfile": "Profili i ofruesit",
+    "Listing": "Listim",
+    "ListingPackage": "Paketë listimi",
+    "ListingAddOn": "Shtesë listimi",
+    "ListingFlag": "Raportim listimi",
+    "Promotion": "Promovim",
+    "TaskRequest": "Kërkesë për detyrë",
+    "Bid": "Ofertë",
+    "MarketplaceOrder": "Porosi",
+    "Booking": "Rezervim",
+    "Dispute": "Mosmarrëveshje",
+    "Review": "Vlerësim",
+    "EscrowTransaction": "Transaksion garancie",
+    "OrderMilestone": "Fazë e porosisë",
+    "OrderDelivery": "Dorëzim i porosisë",
+    "OrderRevision": "Rishikim i porosisë"
+  }
+}

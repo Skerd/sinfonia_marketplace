@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderMilestones/center/cardView/orderMilestoneCard.tsx",
+  "failedTitle": "Ngarkimi dështoi",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "orderMilestoneStatus": {
+    "pending": "Në pritje",
+    "released": "Liruar",
+    "delivered": "Dorëzuar"
+  },
+  "status": "Statusi",
+  "amount": "Shuma"
+}

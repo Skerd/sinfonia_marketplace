@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/components/custom/promotions/changePromotionLifecycleAction.tsx",
+  "cancel": "Abbrechen",
+  "pause": {
+    "title": "Promotion pausieren",
+    "description": "Möchten Sie wirklich pausieren",
+    "confirm": "Pausieren",
+    "axios": {
+      "start": {
+        "title": "Promotion wird pausiert",
+        "time": 3000
+      },
+      "success": {
+        "title": "Promotion erfolgreich pausiert",
+        "time": 3000
+      },
+      "error": {
+        "title": "Promotion konnte nicht pausiert werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "resume": {
+    "title": "Promotion fortsetzen",
+    "description": "Möchten Sie wirklich fortsetzen",
+    "confirm": "Fortsetzen",
+    "axios": {
+      "start": {
+        "title": "Promotion wird fortgesetzt",
+        "time": 3000
+      },
+      "success": {
+        "title": "Promotion erfolgreich fortgesetzt",
+        "time": 3000
+      },
+      "error": {
+        "title": "Promotion konnte nicht fortgesetzt werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "stop": {
+    "title": "Promotion endgültig beenden",
+    "description": "Dies kann nicht rückgängig gemacht werden. Die Promotion bleibt mit dem angegebenen Grund gespeichert",
+    "confirm": "Endgültig beenden",
+    "reasonLabel": "Grund für das Beenden",
+    "reasonPlaceholder": "z. B. Kampagnenende, Budgetänderung, Compliance…",
+    "reasonHint": "Erforderlich für Prüfspur und Kontrolle. 1–2000 Zeichen.",
+    "axios": {
+      "start": {
+        "title": "Promotion wird beendet",
+        "time": 3000
+      },
+      "success": {
+        "title": "Promotion erfolgreich beendet",
+        "time": 3000
+      },
+      "error": {
+        "title": "Promotion konnte nicht beendet werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  }
+}

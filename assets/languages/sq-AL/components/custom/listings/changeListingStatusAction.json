@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/changeListingStatusAction.tsx",
+  "activate": {
+    "title": "Aktivizo listimin",
+    "description": "Jeni i sigurt që dëshironi të aktivizoni",
+    "confirm": "Aktivizo",
+    "axios": {
+      "start": { "title": "Duke aktivizuar listimin", "time": 3000 },
+      "success": { "title": "Listimi u aktivizua me sukses", "time": 3000 },
+      "error": { "title": "Listimi nuk u aktivizua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "deactivate": {
+    "title": "Çaktivizo listimin",
+    "description": "Jeni i sigurt që dëshironi të çaktivizoni",
+    "confirm": "Çaktivizo",
+    "axios": {
+      "start": { "title": "Duke çaktivizuar listimin", "time": 3000 },
+      "success": { "title": "Listimi u çaktivizua me sukses", "time": 3000 },
+      "error": { "title": "Listimi nuk u çaktivizua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancel": "Anulo"
+}

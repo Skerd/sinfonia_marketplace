@@ -1,0 +1,61 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
+  "title": "Disputes",
+  "description": "Review and resolve disputes between customers and providers.",
+  "help": {
+    "ariaLabel": "About Disputes",
+    "title": "About Disputes",
+    "overview": "A dispute is a disagreement about a marketplace order that an administrator decides. While it is open, the order's money is frozen: no delivery acceptance, milestone release, auto-acceptance, or cancellation. The decision says who gets what is still held.",
+    "sections": [
+      {
+        "title": "Raising a dispute",
+        "items": [
+          "Either party of the order can raise one, on an order that is not completed or cancelled. One dispute per order.",
+          "The caller is the initiator; the other party is notified.",
+          "Customers can also raise one from their storefront account."
+        ]
+      },
+      {
+        "title": "Statuses and decisions",
+        "body": "Only an administrator decides, and a resolution note is required.",
+        "items": [
+          "Open: raised and waiting. Start review moves it to under review.",
+          "Resolve (from open or under review) decides for the provider: a waiting delivery is accepted, the order completes, and the rest of the escrow is released to the provider.",
+          "Close (from open or under review) decides for the customer: the order is cancelled and the rest of the escrow is refunded.",
+          "Both parties are notified of the outcome."
+        ]
+      },
+      {
+        "title": "Deleting",
+        "items": [
+          "Only an administrator can delete a dispute, because an open one blocks the payout. A deleted dispute cannot be acted on until restored."
+        ]
+      }
+    ]
+  },
+  "createDispute": "Create dispute",
+  "fields": {
+    "status": "Status",
+    "reason": "Reason",
+    "resolution": "Resolution",
+    "initiator": "Initiator",
+    "createdAt": "Opened",
+    "deletedAt": "Deleted",
+    "deletedBy": "Deleted by",
+    "!enums": {
+      "status": {
+        "open": "Open",
+        "under_review": "Under Review",
+        "resolved": "Resolved",
+        "closed": "Closed"
+      }
+    }
+  },
+  "searchPlaceholder": "Search or add filters...",
+  "status": {
+    "open": "Open",
+    "under_review": "Under Review",
+    "resolved": "Resolved",
+    "closed": "Closed"
+  }
+}

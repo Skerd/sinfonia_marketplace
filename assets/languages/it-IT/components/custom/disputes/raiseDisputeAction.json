@@ -1,0 +1,25 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/raiseDisputeAction.tsx",
+  "cancel": "Annulla",
+  "raise": {
+    "title": "Apri una controversia",
+    "description": "Descrivi il problema. Un amministratore può mettere in revisione la controversia; l'accettazione della consegna resta bloccata fino alla risoluzione della controversia.",
+    "reasonLabel": "Motivo",
+    "reasonPlaceholder": "Cosa è andato storto?",
+    "confirm": "Invia controversia",
+    "axios": {
+      "start": {
+        "title": "Invio controversia",
+        "time": 3000
+      },
+      "success": {
+        "title": "Controversia aperta",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile aprire la controversia",
+        "time": 3000
+      }
+    }
+  }
+}

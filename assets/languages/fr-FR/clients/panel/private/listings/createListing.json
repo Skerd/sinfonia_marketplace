@@ -1,0 +1,93 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossible de créer l'annonce"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Création d'une annonce"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Annonce créée"
+    }
+  },
+  "form": {
+    "addressCityIdLabel": "Ville",
+    "addressCityLabel": "Ville",
+    "addressCityPlaceholder": "Ville",
+    "addressCountryIdLabel": "Pays",
+    "addressCountryLabel": "Pays",
+    "addressCountryPlaceholder": "Pays",
+    "addressStateIdLabel": "Région / état",
+    "addressStateLabel": "Région / état",
+    "addressStatePlaceholder": "État ou région",
+    "categoryLabel": "Catégorie",
+    "categoryPlaceholder": "Choisissez une catégorie",
+    "deliveryDaysLabel": "Délai de livraison (jours)",
+    "deliveryDaysPlaceholder": "par ex. 3",
+    "descriptionLabel": "Description",
+    "faqAddRow": "Ajouter une FAQ",
+    "faqAnswerLabel": "Réponse",
+    "faqAnswerPlaceholder": "Réponse",
+    "faqQuestionLabel": "Question",
+    "faqQuestionPlaceholder": "Question",
+    "faqRemoveRow": "Supprimer la FAQ",
+    "faqRowTitle": "FAQ",
+    "faqsSectionTitle": "FAQ",
+    "imageGalleryLabel": "Galerie d’images",
+    "listingCreateDescription": "Publiez une annonce avec les détails des prix, de la catégorie et de l'emplacement.",
+    "listingCreateTitle": "Créer une annonce",
+    "listingStatus": {
+      "active": "Actif",
+      "draft": "Brouillon",
+      "inactive": "Inactif"
+    },
+    "mainImageLabel": "Image principale",
+    "priceCurrencyIdLabel": "Devise",
+    "priceCurrencyLabel": "Devise",
+    "priceCurrencyPlaceholder": "Devise de la boutique si vide",
+    "priceLabel": "Prix",
+    "providerLabel": "Prestataire",
+    "providerPlaceholder": "Sélectionnez l'utilisateur qui propose cette annonce",
+    "pricingType": {
+      "fixed": "Prix fixe",
+      "hourly": "Tarif horaire"
+    },
+    "pricingTypeLabel": "Type de prix",
+    "pricingTypePlaceholder": "Sélectionnez le type de tarification",
+    "requirementsLabel": "Exigences",
+    "requirementsPlaceholder": "Ajoutez une exigence et appuyez sur Entrée",
+    "requirementsRemoveTooltip": "Supprimer l'exigence",
+    "section": {
+      "general": "Général",
+      "images": "Images",
+      "location": "Emplacement",
+      "video": "Vidéo",
+      "pricing": "Prix",
+      "details": "Détails"
+    },
+    "statusLabel": "Statut",
+    "statusPlaceholder": "Sélectionner le statut",
+    "tagsLabel": "Étiquettes",
+    "tagsPlaceholder": "Saisissez une étiquette et appuyez sur Entrée",
+    "tagsRemoveTooltip": "Supprimer l'étiquette",
+    "tagsSectionTitle": "Étiquettes",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Titre de l'annonce",
+    "videoGalleryLabel": "Galerie vidéo",
+    "pricePlaceholder": "ex. 150",
+    "descriptionPlaceholder": "Ce que l'acheteur obtient, comment et quand"
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Créer une annonce"
+  },
+  "formHeader": {
+    "description": "Publiez une annonce avec les détails des prix, de la catégorie et de l'emplacement.",
+    "title": "Créer une annonce"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/listings/createListing.tsx",
+  "title": "Titre"
+}

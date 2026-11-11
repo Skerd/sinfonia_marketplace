@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/center/sheetView/listingAddOnSheetView.tsx",
+  "failedTitle": "Inserat-Zusatzleistung konnte nicht geladen werden",
+  "failedDescription": "Die Zusatzleistung konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "listingAddOnSubtitle": "Inserat-Zusatzleistung",
+  "overview": "Übersicht",
+  "lifecycle": "Lebenszyklus",
+  "name": "Name",
+  "listing": "Inserat",
+  "provider": "Anbieter",
+  "priceAmount": "Preis",
+  "currency": "Währung",
+  "deliveryDays": "Lieferzeit",
+  "createdAt": "Erstellt am",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "deliveryDaysValue": {
+    "one": "{value} Tag",
+    "other": "{value} Tage"
+  }
+}

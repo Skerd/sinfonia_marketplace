@@ -1,0 +1,85 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderDetail.tsx",
+  "loading": "Po ngarkohet porosia",
+  "notFound": "Porosia nuk u gjet",
+  "backToOrders": "Kthehu te porositë e shërbimeve",
+  "placedTitle": "Porosia juaj u dërgua",
+  "placedMessage": "Ofruesi u njoftua dhe do ta konfirmojë së shpejti. Përditësimet do t'i merrni këtu dhe me njoftim.",
+  "placedOn": "Bërë më {date}",
+  "disputeOpen": "Mosmarrëveshje e hapur",
+  "cancelledBanner": "Kjo porosi u anulua. Çdo shumë e mbajtur u rimbursua.",
+  "progressLabel": "Ecuria e porosisë",
+  "steps": {
+    "pending": "Porositur",
+    "accepted": "Pranuar",
+    "in_progress": "Në punë",
+    "completed": "Përfunduar"
+  },
+  "deliveryReadyTitle": "Dorëzimi juaj është gati",
+  "deliveryReadyMessage": "Kontrolloni punën më poshtë. Pranojeni për të përfunduar porosinë dhe për të liruar pagesën, ose kërkoni ndryshime.",
+  "acceptDelivery": "Prano dorëzimin",
+  "requestRevision": "Kërko ndryshime",
+  "panel": {
+    "cancel": {
+      "title": "Ta anuloni këtë porosi?",
+      "message": "Ofruesi nuk ka nisur ende, ndaj mund ta anuloni pa mosmarrëveshje. Çdo shumë e mbajtur rimbursohet.",
+      "submit": "Po, anulo porosinë"
+    },
+    "revision": {
+      "title": "Kërko ndryshime",
+      "message": "Tregojini ofruesit çfarë të ndryshojë. Ai do të dërgojë një dorëzim të ri.",
+      "field": "Çfarë duhet ndryshuar? (të paktën 10 karaktere)",
+      "submit": "Dërgo kërkesën"
+    },
+    "dispute": {
+      "title": "Raporto një problem",
+      "message": "Ekipi ynë e shqyrton porosinë me ju dhe ofruesin. Pagesa mbetet e bllokuar derisa të zgjidhet.",
+      "field": "Çfarë shkoi keq?",
+      "submit": "Hap mosmarrëveshje"
+    },
+    "review": {
+      "title": "Vlerësoni këtë shërbim",
+      "message": "Vlerësimi juaj ndihmon klientët e tjerë të zgjedhin.",
+      "field": "Vlerësimi juaj (opsional)",
+      "submit": "Publiko vlerësimin"
+    }
+  },
+  "ratingLabel": "Vlerësimi",
+  "starsOption": "{count} yje",
+  "working": "Duke punuar…",
+  "back": "Mbrapa",
+  "noteTitle": "Mesazhi juaj për ofruesin",
+  "deliveriesTitle": "Dorëzimet",
+  "noDeliveries": "Ende asgjë e dorëzuar. Skedarët dhe mesazhet e ofruesit shfaqen këtu.",
+  "attachment": "Bashkëngjitje",
+  "downloadError": "Skedari nuk u shkarkua.",
+  "revisionsTitle": "Kërkesat për ndryshime",
+  "revisionStatus": {
+    "pending": "E hapur",
+    "completed": "E kryer"
+  },
+  "milestonesTitle": "Fazat",
+  "releaseMilestone": "Liro pagesën",
+  "bookingsTitle": "Seancat e planifikuara",
+  "provider": "Ofruesi",
+  "dueDate": "Afati",
+  "total": "Totali",
+  "viewService": "Shiko shërbimin",
+  "leaveReview": "Lini një vlerësim",
+  "bookSession": "Rezervo një seancë",
+  "reportProblem": "Raporto një problem",
+  "cancelOrder": "Anulo porosinë",
+  "reviewedNote": "Faleminderit — e keni vlerësuar këtë porosi.",
+  "actionError": "Nuk funksionoi. Ju lutem provoni sërish.",
+  "deliveryAccepted": "Dorëzimi u pranua. Porosia përfundoi.",
+  "revisionSent": "Kërkesa për ndryshime u dërgua",
+  "disputeOpened": "Mosmarrëveshja u hap. Do t'ju kontaktojmë.",
+  "reviewThanks": "Faleminderit për vlerësimin!",
+  "cancelled": "Porosia u anulua",
+  "milestoneReleased": "Pagesa e fazës u lirua",
+  "payEscrowTitle": "Paguani këtë porosi",
+  "payEscrowHint": "Ofruesi e pranoi porosinë. Përfundoni pagesën për të financuar depozitën.",
+  "payEscrowButton": "Paguaj tani",
+  "payEscrowSuccess": "Pagesa u dërgua",
+  "payEscrowError": "Pagesa dështoi"
+}

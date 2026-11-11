@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/createMilestoneAction.tsx",
+  "title": "Meilenstein hinzufügen",
+  "description": "Teilen Sie den Auftrag in einen Teil auf, den Sie vor der finalen Lieferung an den Anbieter auszahlen können. Es gilt die Währung des Auftrags.",
+  "nameLabel": "Name",
+  "amountLabel": "Betrag",
+  "amountHint": "Alle Meilensteine zusammen dürfen den Auftragsbetrag nicht übersteigen.",
+  "confirm": "Meilenstein hinzufügen",
+  "cancel": "Abbrechen",
+  "axios": {
+    "start": {
+      "title": "Meilenstein wird hinzugefügt",
+      "time": 3000
+    },
+    "success": {
+      "title": "Meilenstein hinzugefügt",
+      "time": 3000
+    },
+    "error": {
+      "title": "Meilenstein konnte nicht hinzugefügt werden, bitte erneut versuchen",
+      "time": 3000
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderBookingForm.tsx",
+  "title": "Termin buchen",
+  "message": "Wählen Sie Beginn und Ende des Termins. Die Zeiten gelten in {zone}.",
+  "availability": {
+    "title": "Wann der Anbieter verfügbar ist",
+    "zone": "Der Termin muss ganz in eines dieser Fenster passen. Sie gelten in der Zeitzone des Anbieters, {zone}.",
+    "converted": "Der Termin muss ganz in eines dieser Fenster passen. Sie sind in Ihrer Zeitzone angegeben, {zone}; wo die Zeiten des Anbieters ({providerZone}) anders lauten, stehen sie in Klammern dahinter."
+  },
+  "form": {
+    "startAtLabel": "Beginn",
+    "startAtPlaceholder": "Datum und Uhrzeit für den Beginn wählen",
+    "endAtLabel": "Ende",
+    "endAtPlaceholder": "Datum und Uhrzeit für das Ende wählen"
+  },
+  "submit": "Termin buchen",
+  "working": "Einen Moment…",
+  "back": "Zurück",
+  "booked": "Termin gebucht",
+  "bookError": "Der Termin konnte nicht gebucht werden. Bitte erneut versuchen.",
+  "weekday": {
+    "0": "Sonntag",
+    "1": "Montag",
+    "2": "Dienstag",
+    "3": "Mittwoch",
+    "4": "Donnerstag",
+    "5": "Freitag",
+    "6": "Samstag"
+  }
+}

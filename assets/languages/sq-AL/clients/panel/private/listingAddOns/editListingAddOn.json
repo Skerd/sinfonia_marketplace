@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/editListingAddOn.tsx",
+  "editTitle": "Ndrysho shtesën e listimit",
+  "editDescription": "Përditëso emrin, çmimin ose kohën e dorëzimit të kësaj shtese.",
+  "errorTitle": "Nuk u ngarkua shtesa",
+  "errorDescription": "Kontrollo lidhjen ose kthehu te lista dhe provo sërisht.",
+  "formHeader": {
+    "title": "Ndrysho shtesën e listimit",
+    "description": "Modifiko detajet e shtesës."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Ruaj ndryshimet"
+  },
+  "form": {
+    "idLabel": "ID e regjistrimit",
+    "listingIdLabel": "Listimi",
+    "listingIdPlaceholder": "Zgjidh listimin",
+    "nameLabel": "Emri i shtesës",
+    "namePlaceholder": "p.sh. Dorëzim ekspres",
+    "priceAmountLabel": "Çmimi",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Valuta",
+    "currencyPlaceholder": "Monedha e listimit nëse lihet bosh",
+    "deliveryDaysLabel": "Ditë dorëzimi",
+    "deliveryDaysPlaceholder": "p.sh. 2",
+    "basicsSectionTitle": "Të dhënat bazë",
+    "pricingSectionTitle": "Çmimet"
+  },
+  "axios": {
+    "start": {
+      "title": "Po ruhet shtesa",
+      "time": 3000
+    },
+    "success": {
+      "title": "Shtesa u përditësua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Nuk u përditësua shtesa",
+      "time": 3000
+    }
+  }
+}

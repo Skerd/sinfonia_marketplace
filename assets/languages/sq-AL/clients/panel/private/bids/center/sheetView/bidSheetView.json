@@ -1,0 +1,31 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/center/sheetView/bidSheetView.tsx",
+  "bid": "Oferta",
+  "name": "Emri",
+  "overview": "Përmbledhje",
+  "amount": "Shuma",
+  "currency": "Valuta",
+  "deliveryDays": "Koha e dorëzimit",
+  "proposal": "Propozimi",
+  "status": "Statusi",
+  "bidder": "Ofertuesi",
+  "taskRequest": "Kërkesë për ofertë",
+  "failedTitle": "Dështoi ngarkimi i ofertës",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të ofertës. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "bidStatus": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "rejected": "Refuzuar"
+  },
+  "lifecycle": "Cikli i jetës",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "deliveryDaysValue": {
+    "one": "{value} ditë",
+    "other": "{value} ditë"
+  }
+}

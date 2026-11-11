@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/center/sheetView/listingAddOnSheetView.tsx",
+  "failedTitle": "Impossibile caricare il componente aggiuntivo dell'annuncio",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questo componente aggiuntivo dell'annuncio. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "listingAddOnSubtitle": "Componente aggiuntivo dell'annuncio",
+  "overview": "Panoramica",
+  "lifecycle": "Ciclo di vita",
+  "name": "Nome",
+  "listing": "Annuncio",
+  "provider": "Fornitore",
+  "priceAmount": "Prezzo",
+  "currency": "Valuta",
+  "deliveryDays": "Tempi di consegna",
+  "createdAt": "Creato il",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da",
+  "deliveryDaysValue": {
+    "one": "{value} giorno",
+    "other": "{value} giorni"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestStatusConfirmAction.tsx",
+  "close": {
+    "title": "Chiudere questa richiesta di preventivo?",
+    "description": "I fornitori non potranno più fare nuove offerte. Potrai riaprirla in seguito, a meno che la richiesta non sia stata assegnata.",
+    "confirm": "Conferma",
+    "axios": {
+      "start": {
+        "title": "Chiusura della richiesta di preventivo",
+        "time": 3000
+      },
+      "success": {
+        "title": "La richiesta di preventivo è stata chiusa correttamente",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile chiudere la richiesta di preventivo, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "reopen": {
+    "title": "Riaprire questa richiesta di preventivo?",
+    "description": "La richiesta verrà nuovamente aperta in modo che i fornitori possano presentare offerte.",
+    "confirm": "Conferma",
+    "axios": {
+      "start": {
+        "title": "Riapertura della richiesta di preventivo",
+        "time": 3000
+      },
+      "success": {
+        "title": "La richiesta di preventivo è stata riaperta correttamente",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile riaprire la richiesta di preventivo, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/cardView/taskRequestCard.tsx",
+  "failedTitle": "Impossibile caricare la richiesta di preventivo",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questa richiesta di preventivo. Fare clic per riprovare.",
+  "title": "Titolo",
+  "name": "Nome",
+  "status": "Stato",
+  "category": "Categoria",
+  "budget": "Budget",
+  "city": "Città",
+  "expiresAt": "Scade",
+  "statuses": {
+    "open": "Aperta",
+    "closed": "Chiusa",
+    "awarded": "Assegnata"
+  },
+  "requester": "Richiedente",
+  "bids": "Offerte"
+}

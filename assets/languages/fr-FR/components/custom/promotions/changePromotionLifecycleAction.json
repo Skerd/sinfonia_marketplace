@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/components/custom/promotions/changePromotionLifecycleAction.tsx",
+  "cancel": "Annuler",
+  "pause": {
+    "title": "Suspendre la promotion",
+    "description": "Êtes-vous sûr de vouloir mettre en pause",
+    "confirm": "Suspendre",
+    "axios": {
+      "start": {
+        "title": "Suspension de la promotion",
+        "time": 3000
+      },
+      "success": {
+        "title": "Promotion suspendue avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de suspendre la promotion. Veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "resume": {
+    "title": "Reprendre la promotion",
+    "description": "Êtes-vous sûr de vouloir reprendre",
+    "confirm": "Reprendre",
+    "axios": {
+      "start": {
+        "title": "Reprise de la promotion",
+        "time": 3000
+      },
+      "success": {
+        "title": "Promotion reprise avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de reprendre la promotion, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "stop": {
+    "title": "Arrêter définitivement la promotion",
+    "description": "Cela ne peut pas être annulé. La promotion restera enregistrée avec la raison que vous fournissez",
+    "confirm": "Arrêter définitivement",
+    "reasonLabel": "Raison de l'arrêt",
+    "reasonPlaceholder": "par ex. Fin de campagne, changement de budget, mise en conformité…",
+    "reasonHint": "Nécessaire pour l’audit et l’examen. 1 à 2 000 caractères.",
+    "axios": {
+      "start": {
+        "title": "Arrêt de la promotion",
+        "time": 3000
+      },
+      "success": {
+        "title": "Promotion arrêtée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible d'arrêter la promotion, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  }
+}

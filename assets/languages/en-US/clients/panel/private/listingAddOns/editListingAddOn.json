@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/editListingAddOn.tsx",
+  "editTitle": "Edit listing add-on",
+  "editDescription": "Update the name, price, or delivery time for this add-on.",
+  "errorTitle": "Could not load add-on",
+  "errorDescription": "Check the link or return to the list and try again.",
+  "formHeader": {
+    "title": "Edit listing add-on",
+    "description": "Modify the add-on details."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Save changes"
+  },
+  "form": {
+    "idLabel": "Record ID",
+    "listingIdLabel": "Listing",
+    "listingIdPlaceholder": "Select listing",
+    "nameLabel": "Add-on name",
+    "namePlaceholder": "e.g. Express delivery",
+    "priceAmountLabel": "Price",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Currency",
+    "currencyPlaceholder": "The listing's currency if left empty",
+    "deliveryDaysLabel": "Delivery days",
+    "deliveryDaysPlaceholder": "e.g. 2",
+    "basicsSectionTitle": "Basics",
+    "pricingSectionTitle": "Prices"
+  },
+  "axios": {
+    "start": {
+      "title": "Saving add-on",
+      "time": 3000
+    },
+    "success": {
+      "title": "Add-on updated",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not update add-on",
+      "time": 3000
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/center/cardView/listingPackageCard.tsx",
+  "failedTitle": "Impossibile caricare il pacchetto dell'annuncio",
+  "failedDescription": "Tocca per riprovare.",
+  "name": "Nome",
+  "listing": "Annuncio",
+  "priceAmount": "Prezzo",
+  "deliveryDays": "Giorni di consegna",
+  "displayOrder": "Ordine di visualizzazione",
+  "days": "d",
+  "provider": "Fornitore"
+}

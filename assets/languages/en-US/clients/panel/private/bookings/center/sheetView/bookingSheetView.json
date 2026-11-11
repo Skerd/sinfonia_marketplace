@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/sheetView/bookingSheetView.tsx",
+  "failedTitle": "Failed to load booking",
+  "failedDescription": "Something went wrong while loading this booking. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "bookingSubtitle": "Booking",
+  "overview": "Overview",
+  "order": "Order",
+  "provider": "Provider",
+  "startAt": "Start time",
+  "endAt": "End time",
+  "timezone": "Timezone",
+  "createdAt": "Created",
+  "lifecycle": "Lifecycle",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "orderStatus": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  }
+}

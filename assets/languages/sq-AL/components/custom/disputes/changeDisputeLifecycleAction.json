@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/changeDisputeLifecycleAction.tsx",
+  "cancel": "Anulo",
+  "resolutionLabel": "Shënime përfundimtare",
+  "resolutionPlaceholder": "Përshkruani si u trajtua mosmarrëveshja (e detyrueshme për auditim).",
+  "resolutionHint": "E detyrueshme. 1–2000 karaktere.",
+  "startReview": {
+    "title": "Shëno në shqyrtim",
+    "description": "Mosmarrëveshja mbetet e hapur ndërsa shqyrtoni. Palët nuk mund të pranojnë dorëzimin derisa mosmarrëveshja të zgjidhet ose të mbyllet.",
+    "confirm": "Fillo shqyrtimin",
+    "axios": {
+      "start": { "title": "Përditësohet mosmarrëveshja", "time": 3000 },
+      "success": { "title": "Mosmarrëveshja u shënua në shqyrtim", "time": 3000 },
+      "error": { "title": "Nuk u përditësua mosmarrëveshja", "time": 3000 }
+    }
+  },
+  "resolve": {
+    "title": "Zgjidh mosmarrëveshjen",
+    "description": "E shënon mosmarrëveshjen si të zgjidhur dhe e përfundon porosinë e lidhur duke përdorur të njëjtën logjikë depozite si pranimi i dorëzimit.",
+    "confirm": "Zgjidh",
+    "axios": {
+      "start": { "title": "Po zgjidhet mosmarrëveshja", "time": 3000 },
+      "success": { "title": "Mosmarrëveshja u zgjidh", "time": 3000 },
+      "error": { "title": "Nuk u zgjidh mosmarrëveshja", "time": 3000 }
+    }
+  },
+  "close": {
+    "title": "Mbyll mosmarrëveshjen (anulo porosinë)",
+    "description": "Mbyll mosmarrëveshjen dhe anulon porosinë e lidhur me rregullat e rimbursimit të depozitës si në një anulim normal.",
+    "confirm": "Mbyll mosmarrëveshjen",
+    "axios": {
+      "start": { "title": "Po mbyllet mosmarrëveshja", "time": 3000 },
+      "success": { "title": "Mosmarrëveshja u mbyll", "time": 3000 },
+      "error": { "title": "Nuk u mbyll mosmarrëveshja", "time": 3000 }
+    }
+  }
+}

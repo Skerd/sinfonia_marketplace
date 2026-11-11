@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/submitOrderDeliveryAction.tsx",
+  "submitDelivery": {
+    "title": "Dërgo dorëzimin",
+    "description": "Dërgo punën e përfunduar te klienti për shqyrtim. Mund të shtosh një mesazh opsional.",
+    "messageLabel": "Mesazhi i dorëzimit",
+    "messagePlaceholder": "Përshkruaj çfarë u dorëzua ose shto shënime për klientin…",
+    "confirm": "Dërgo dorëzimin",
+    "attachmentsLabel": "Skedarët",
+    "addFile": "Shto skedar",
+    "axios": {
+      "start": { "title": "Duke dërguar dorëzimin", "time": 3000 },
+      "success": { "title": "Dorëzimi u dërgua me sukses", "time": 3000 },
+      "error": { "title": "Dorëzimi nuk u dërgua, provoni përsëri", "time": 3000 }
+    }
+  },
+  "cancel": "Anulo"
+}

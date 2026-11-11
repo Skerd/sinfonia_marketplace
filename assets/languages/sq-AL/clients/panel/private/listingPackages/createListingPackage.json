@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingPackages/createListingPackage.tsx",
+  "formHeader": {
+    "title": "Krijo paketë listimi",
+    "description": "Përkufizoni një nivel shërbimi që klientët mund ta zgjedhin kur porosisin nga një listim."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Krijo paketë listimi"
+  },
+  "form": {
+    "listingIdLabel": "Listimi",
+    "listingIdPlaceholder": "Zgjidh listimin",
+    "nameLabel": "Emri i paketës",
+    "namePlaceholder": "p.sh. Bazë, Standarde, Premium",
+    "descriptionLabel": "Përshkrimi",
+    "descriptionPlaceholder": "Çfarë përfshin kjo paketë...",
+    "priceAmountLabel": "Çmimi",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Valuta",
+    "currencyPlaceholder": "Monedha e listimit nëse lihet bosh",
+    "deliveryDaysLabel": "Ditë dorëzimi",
+    "deliveryDaysPlaceholder": "p.sh. 3",
+    "sortOrderLabel": "Rendi i shfaqjes",
+    "sortOrderPlaceholder": "p.sh. 1",
+    "basicsSectionTitle": "Të dhënat bazë",
+    "pricingSectionTitle": "Çmimet",
+    "visibilitySectionTitle": "Dukshmëria"
+  },
+  "axios": {
+    "start": {
+      "title": "Po krijohet paketa",
+      "time": 3000
+    },
+    "success": {
+      "title": "Paketa u krijua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Nuk u krijua paketa",
+      "time": 3000
+    }
+  }
+}

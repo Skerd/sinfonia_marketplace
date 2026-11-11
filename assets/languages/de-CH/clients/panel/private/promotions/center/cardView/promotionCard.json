@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/center/cardView/promotionCard.tsx",
+  "failedTitle": "Promotion konnten nicht geladen werden",
+  "failedDescription": "Die Promotion konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "activePeriod": "Aktiv",
+  "listing": "Inserat",
+  "type": "Typ",
+  "startAt": "Beginn",
+  "endAt": "Ende",
+  "featured": "Hervorgehoben",
+  "sponsored": "Gesponsert",
+  "active": "Aktiv",
+  "upcoming": "Bevorstehend",
+  "ended": "Beendet",
+  "paused": "Pausiert",
+  "stopped": "Beendet",
+  "status": "Status",
+  "period": "Zeitraum"
+}

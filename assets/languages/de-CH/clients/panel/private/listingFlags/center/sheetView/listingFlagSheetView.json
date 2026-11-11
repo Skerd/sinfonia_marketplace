@@ -1,0 +1,35 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/sheetView/listingFlagSheetView.tsx",
+  "failedTitle": "Inserat-Meldung konnte nicht geladen werden",
+  "failedDescription": "Die Inserat-Meldung konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "listingFlagSubtitle": "Inserat-Meldung",
+  "listingFlag": "Inserat-Meldung",
+  "overview": "Übersicht",
+  "lifecycle": "Lebenszyklus",
+  "details": "Details",
+  "listing": "Inserat",
+  "reason": "Grund",
+  "comment": "Kommentar",
+  "user": "Meldende Person",
+  "reporter": "Meldende Person",
+  "status": "Status",
+  "resolution": "Lösung",
+  "listingAction": "Inserat aktion",
+  "createdAt": "Erstellt am",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "status_values": {
+    "pending": "Ausstehend",
+    "reviewed": "Geprüft",
+    "dismissed": "Verworfen"
+  },
+  "reason_values": {
+    "inappropriate": "Unangemessener Inhalt",
+    "spam": "Spam",
+    "misleading": "Irreführend",
+    "other": "Andere"
+  }
+}

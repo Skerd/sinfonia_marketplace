@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/sheetView/taskRequestSheetView.tsx",
+  "taskRequest": "Richiesta di preventivo",
+  "overview": "Panoramica",
+  "lifecycle": "Ciclo di vita",
+  "description": "Descrizione",
+  "section": {
+    "generalInfo": "Panoramica",
+    "description": "Descrizione",
+    "media": "Galleria"
+  },
+  "name": "Nome",
+  "title": "Titolo",
+  "status": "Stato",
+  "category": "Categoria",
+  "requester": "Richiedente",
+  "budgetMin": "Budget (min)",
+  "budgetMax": "Budget (massimo)",
+  "currency": "Valuta",
+  "address": "Indirizzo",
+  "country": "Paese",
+  "state": "Cantone / Stato",
+  "city": "Città",
+  "street": "Via",
+  "postalCode": "CAP",
+  "latitude": "Latitudine",
+  "longitude": "Longitudine",
+  "expiresAt": "Scade",
+  "gallery": "Galleria",
+  "createdAt": "Creato il",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da",
+  "failedTitle": "Impossibile caricare la richiesta di preventivo",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questa richiesta di preventivo. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "taskRequestStatus": {
+    "open": "Aperta",
+    "closed": "Chiusa",
+    "awarded": "Assegnata"
+  },
+  "bidsGroup": "Offerte",
+  "ordersGroup": "Ordine",
+  "bidRow": "Offerta",
+  "orderRow": "Ordine",
+  "bidStatus": {
+    "pending": "In sospeso",
+    "accepted": "Accettata",
+    "rejected": "Rifiutata"
+  },
+  "orderStatus": {
+    "pending": "In sospeso",
+    "accepted": "Accettato",
+    "in_progress": "In corso",
+    "completed": "Completato",
+    "cancelled": "Annullato"
+  },
+  "compactView": "Compatta",
+  "cardsView": "Schede",
+  "toggleReferenceListView": "Cambia visualizzazione"
+}

@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/releaseMilestoneAction.tsx",
+  "title": "Liro fazën",
+  "description": "Paguajeni këtë fazë ofruesit nga depozita e porosisë. Ky veprim nuk mund të zhbëhet.",
+  "milestoneLabel": "Faza",
+  "milestonePlaceholder": "Zgjidhni një fazë",
+  "confirm": "Liro pagesën",
+  "cancel": "Anulo",
+  "axios": {
+    "start": {
+      "title": "Duke liruar fazën",
+      "time": 3000
+    },
+    "success": {
+      "title": "Faza u lirua",
+      "time": 3000
+    },
+    "error": {
+      "title": "Faza nuk u lirua, provoni përsëri",
+      "time": 3000
+    }
+  }
+}

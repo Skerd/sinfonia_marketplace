@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/requestRevisionAction.tsx",
+  "requestRevision": {
+    "title": "Überarbeitung anfordern",
+    "description": "Beschreiben Sie, was geändert werden muss. Der Anbieter überarbeitet die Lieferung und reicht sie erneut ein.",
+    "reasonLabel": "Grund der Überarbeitung",
+    "reasonPlaceholder": "Erklären Sie, was überarbeitet werden muss und warum…",
+    "minChars": "Mindestens 10 Zeichen erforderlich.",
+    "confirm": "Überarbeitung anfordern",
+    "axios": {
+      "start": {
+        "title": "Überarbeitung wird angefordert",
+        "time": 3000
+      },
+      "success": {
+        "title": "Überarbeitung erfolgreich angefordert",
+        "time": 3000
+      },
+      "error": {
+        "title": "Überarbeitung konnte nicht angefordert werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

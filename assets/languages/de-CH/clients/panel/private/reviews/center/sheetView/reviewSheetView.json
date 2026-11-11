@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/center/sheetView/reviewSheetView.tsx",
+  "review": "Bewertung",
+  "eCommerce": {
+    "review": "Bewertung"
+  },
+  "overview": "Übersicht",
+  "details": "Details",
+  "order": "Auftrag",
+  "reviewer": "Bewerter/in",
+  "rating": "Bewertung",
+  "comment": "Kommentar",
+  "listing": "Inserat",
+  "listing.title": "Inserat",
+  "createdAt": "Erstellt",
+  "failedTitle": "Bewertung konnten nicht geladen werden",
+  "failedDescription": "Die Bewertung konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "lifecycle": "Lebenszyklus",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von"
+}

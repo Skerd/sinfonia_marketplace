@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/createBooking.tsx",
+  "formHeader": {
+    "title": "Créer une réservation",
+    "description": "Planifiez une réservation de service pour une commande."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Créer une réservation"
+  },
+  "form": {
+    "orderLabel": "Commande",
+    "orderPlaceholder": "Sélectionnez la commande",
+    "startAtLabel": "Heure de début",
+    "endAtLabel": "Heure de fin",
+    "section": {
+      "order": "Commande",
+      "schedule": "Quand"
+    },
+    "providerHoursHint": "Les heures sont dans votre propre fuseau horaire. La réservation doit tomber dans les heures de travail du prestataire."
+  },
+  "axios": {
+    "start": {
+      "title": "Création d'une réservation",
+      "time": 3000
+    },
+    "success": {
+      "title": "Réservation créée",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de créer une réservation",
+      "time": 3000
+    }
+  }
+}

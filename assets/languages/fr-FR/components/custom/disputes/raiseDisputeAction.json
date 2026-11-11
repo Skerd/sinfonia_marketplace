@@ -1,0 +1,25 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/raiseDisputeAction.tsx",
+  "cancel": "Annuler",
+  "raise": {
+    "title": "Ouvrir un litige",
+    "description": "Décrivez le problème. Un administrateur peut mettre le litige en examen ; l'acceptation de la livraison reste bloquée jusqu'à ce que le litige soit résolu.",
+    "reasonLabel": "Motif",
+    "reasonPlaceholder": "Qu'est-ce qui n'a pas fonctionné ?",
+    "confirm": "Soumettre un litige",
+    "axios": {
+      "start": {
+        "title": "Envoi du litige",
+        "time": 3000
+      },
+      "success": {
+        "title": "Litige ouvert",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible d'ouvrir un litige",
+        "time": 3000
+      }
+    }
+  }
+}

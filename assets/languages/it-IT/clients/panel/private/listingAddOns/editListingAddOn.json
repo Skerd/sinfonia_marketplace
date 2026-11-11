@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/editListingAddOn.tsx",
+  "editTitle": "Modifica componente aggiuntivo dell'annuncio",
+  "editDescription": "Aggiorna il nome, il prezzo o i tempi di consegna per questo componente aggiuntivo.",
+  "errorTitle": "Impossibile caricare il componente aggiuntivo",
+  "errorDescription": "Controlla il collegamento o torna all'elenco e riprova.",
+  "formHeader": {
+    "title": "Modifica componente aggiuntivo dell'annuncio",
+    "description": "Modifica i dettagli del componente aggiuntivo."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Salva modifiche"
+  },
+  "form": {
+    "idLabel": "ID record",
+    "listingIdLabel": "Annuncio",
+    "listingIdPlaceholder": "Seleziona l'annuncio",
+    "nameLabel": "Nome del componente aggiuntivo",
+    "namePlaceholder": "ad es. Consegna espressa",
+    "priceAmountLabel": "Prezzo",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Valuta",
+    "currencyPlaceholder": "Valuta dell'annuncio se vuoto",
+    "deliveryDaysLabel": "Giorni di consegna",
+    "deliveryDaysPlaceholder": "ad es. 2",
+    "basicsSectionTitle": "Dati principali",
+    "pricingSectionTitle": "Prezzi"
+  },
+  "axios": {
+    "start": {
+      "title": "Salvataggio del componente aggiuntivo",
+      "time": 3000
+    },
+    "success": {
+      "title": "Componente aggiuntivo aggiornato",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile aggiornare il componente aggiuntivo",
+      "time": 3000
+    }
+  }
+}

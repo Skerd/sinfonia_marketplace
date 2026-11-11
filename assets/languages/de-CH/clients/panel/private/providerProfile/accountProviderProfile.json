@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/accountProviderProfile.tsx",
+  "title": "Anbieterprofil",
+  "description": "Ihr Verkäuferprofil im Marktplatz: Biografie, Fähigkeiten, Portfolio und wöchentliche Verfügbarkeit.",
+  "failTitle": "Anbieterprofil konnte nicht geladen werden",
+  "failDescription": "Klicken Sie, um es erneut zu versuchen.",
+  "connect": {
+    "notConnected": "Auszahlungen nicht verbunden",
+    "setupIncomplete": "Stripe-Einrichtung unvollständig",
+    "payoutsEnabled": "Auszahlungen aktiviert",
+    "start": "Stripe-Auszahlungen verbinden",
+    "continue": "Stripe-Einrichtung fortsetzen",
+    "refresh": "Stripe-Status aktualisieren"
+  },
+  "empty": {
+    "title": "Noch kein Anbieterprofil",
+    "description": "Erstellen Sie eines, um Kunden Ihre Fähigkeiten, Verfügbarkeit und bisherigen Arbeiten zu zeigen.",
+    "create": "Anbieterprofil erstellen",
+    "createFailed": "Das Anbieterprofil konnte nicht erstellt werden."
+  }
+}

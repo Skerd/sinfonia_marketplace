@@ -1,0 +1,58 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/marketplaceSystemMap/index.tsx",
+  "title": "Marktplatz-Systemkarte",
+  "description": "Interaktive Karte der Marktplatz-Modelle, der Inserat- und Offerten-Abläufe, der Treuhand-Brücke und der Funktionen. Verschieben, zoomen und Knoten für Details anklicken.",
+  "help": {
+    "ariaLabel": "Über die Marktplatz-Systemkarte",
+    "title": "Über die Marktplatz-Systemkarte",
+    "overview": "Diese Karte ist ein schreibgeschütztes Bild des Dienstleistungs-Marktplatzes: seine Modelle, wie Arbeit und Geld zwischen Kunde und Anbieter fliessen und was das Modul bietet. Sie ändert keine Daten.",
+    "sections": [
+      {
+        "title": "Modellgraph",
+        "items": [
+          "Inserate mit ihren Paketen, Zusatzleistungen, Meldungen und Promotionen; Aufträge und Gebote; Bestellungen mit Lieferungen, Meilensteinen, Überarbeitungen, Buchungen, Streitfällen und Bewertungen; Anbieterprofile; und das Treuhandjournal der Finanzen.",
+          "Klicken Sie auf einen Knoten für Beschreibung, Schlüsselfelder, API-Pfad, Aktionen und Panel-Seite."
+        ]
+      },
+      {
+        "title": "Wie es funktioniert",
+        "items": [
+          "„Inserat kaufen“ und „Auftrag → Gebot → Bestellung“ zeigen, wie eine Bestellung beginnt.",
+          "Bestell-Lebenszyklus (Lieferungen, Überarbeitungen, Meilensteine, automatische Abnahme nach 3 Tagen, Freigabe abzüglich Gebühr) und Streitfälle → Erstattung zeigen, wie sie endet.",
+          "Moderation & Promotion umfasst Meldungen und Hervorhebungen; Anbieter-Onboarding umfasst Profileinrichtung und Stripe-Connect-Auszahlungen."
+        ]
+      },
+      {
+        "title": "Fähigkeiten",
+        "items": [
+          "Was der Marktplatz heute unterstützt, seine API-Bereiche, geplanten Jobs und Shop-Routen.",
+          "Die tägliche Arbeit findet auf den Marktplatz-Seiten statt; nutzen Sie die Karte, um Mitarbeitende einzuarbeiten oder Berechtigungen zu planen."
+        ]
+      }
+    ]
+  },
+  "tabs": {
+    "models": "Modell graph",
+    "flows": "So funktioniert es",
+    "capabilities": "Funktionen"
+  },
+  "nodes": {
+    "ListingCategory": "Inseratkategorie",
+    "ProviderProfile": "Anbieterprofil",
+    "Listing": "Inserat",
+    "ListingPackage": "Inseratpaket",
+    "ListingAddOn": "Inserat-Zusatzleistung",
+    "ListingFlag": "Inserat-Meldung",
+    "Promotion": "Promotion",
+    "TaskRequest": "Ausschreibung",
+    "Bid": "Angebot",
+    "MarketplaceOrder": "Bestellung",
+    "Booking": "Buchung",
+    "Dispute": "Streitfall",
+    "Review": "Bewertung",
+    "EscrowTransaction": "Treuhandbuchung",
+    "OrderMilestone": "Bestell-Meilenstein",
+    "OrderDelivery": "Bestell-Lieferung",
+    "OrderRevision": "Bestell-Überarbeitung"
+  }
+}

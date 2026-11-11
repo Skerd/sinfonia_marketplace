@@ -1,0 +1,42 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossibile inviare la recensione"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Invio recensione"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Recensione inviata"
+    }
+  },
+  "form": {
+    "commentLabel": "Commento",
+    "commentPlaceholder": "Condividi la tua esperienza...",
+    "orderLabel": "Ordine",
+    "orderPlaceholder": "Seleziona l'ordine",
+    "ratingLabel": "Valutazione",
+    "ratingPlaceholder": "Scegli una valutazione",
+    "reviewSectionTitle": "Recensione",
+    "ratingValues": {
+      "1": "1 – Pessimo",
+      "2": "2 – Scarso",
+      "3": "3 – Nella media",
+      "4": "4 – Buono",
+      "5": "5 – Eccellente"
+    }
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Invia recensione"
+  },
+  "formHeader": {
+    "description": "Invia una valutazione e un feedback per un ordine completato.",
+    "title": "Crea recensione"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/reviews/createReview.tsx",
+  "title": "Titolo"
+}

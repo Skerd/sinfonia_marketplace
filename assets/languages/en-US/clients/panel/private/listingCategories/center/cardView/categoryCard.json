@@ -1,0 +1,9 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/center/cardView/categoryCard.tsx",
+  "failedTitle": "Failed to load listing category",
+  "failedDescription": "Tap to retry.",
+  "name": "Name",
+  "slug": "Slug",
+  "parentListingCategory": "Parent category",
+  "order": "Order"
+}

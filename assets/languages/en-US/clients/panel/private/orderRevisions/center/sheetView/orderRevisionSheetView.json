@@ -1,0 +1,22 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderRevisions/center/sheetView/orderRevisionSheetView.tsx",
+  "failedTitle": "Failed to load",
+  "failedDescription": "Something went wrong while loading. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "overview": "Overview",
+  "lifecycle": "Lifecycle",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "order": "Order",
+  "status": "Status",
+  "orderRevisionSubtitle": "Revision request",
+  "requestedBy": "Requested by",
+  "reason": "Reason",
+  "orderRevisionStatus": {
+    "pending": "Pending",
+    "completed": "Answered"
+  }
+}

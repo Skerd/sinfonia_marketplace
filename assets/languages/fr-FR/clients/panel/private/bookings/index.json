@@ -1,0 +1,55 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/index.tsx",
+  "title": "Réservations",
+  "description": "Gérer les réservations de services programmés.",
+  "help": {
+    "ariaLabel": "À propos des réservations",
+    "title": "À propos des réservations",
+    "overview": "Une réservation place une commande de la place de marché dans le calendrier : une heure de début et de fin, avec le fuseau horaire convenu. Utilisez-la quand le travail a lieu sur rendez-vous, pas seulement avant une échéance.",
+    "sections": [
+      {
+        "title": "Créer",
+        "items": [
+          "Chaque partie de la commande peut réserver, tant que la commande est acceptée ou en cours.",
+          "Une réservation par commande. Le prestataire est repris de la commande.",
+          "La fin doit être après le début."
+        ]
+      },
+      {
+        "title": "Modifier",
+        "items": [
+          "Seul le prestataire, ou un administrateur, replanifie.",
+          "La suppression est douce et la réservation peut être restaurée.",
+          "Les non-administrateurs ne voient que les réservations de leurs propres commandes."
+        ]
+      }
+    ]
+  },
+  "createBooking": "Créer une réservation",
+  "fields": {
+    "order": "Commande",
+    "provider": "Prestataire",
+    "startAt": "Début",
+    "endAt": "Fin",
+    "timezone": "Fuseau horaire",
+    "status": "Statut",
+    "createdAt": "Créé",
+    "deletedAt": "Supprimé",
+    "deletedBy": "Supprimé par",
+    "when": "Quand",
+    "!enums": {
+      "when": {
+        "upcoming": "À venir",
+        "today": "Aujourd'hui",
+        "past": "Passées"
+      }
+    }
+  },
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "status": {
+    "scheduled": "Planifiée",
+    "in_progress": "En cours",
+    "completed": "Terminé",
+    "cancelled": "Annulé"
+  }
+}

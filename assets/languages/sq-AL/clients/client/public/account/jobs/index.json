@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/jobs/index.tsx",
+  "title": "Punët e mia",
+  "lead": "Përshkruani çfarë ju duhet dhe ofruesit ju dërgojnë oferta.",
+  "postJob": "Posto një punë",
+  "loading": "Po ngarkohen punët",
+  "emptyTitle": "Asnjë punë e postuar",
+  "emptyMessage": "Postoni një punë me buxhetin dhe vendndodhjen dhe krahasoni ofertat e ofruesve.",
+  "expiresOn": "E hapur deri më {date}",
+  "bidCount": "{count} oferta",
+  "bidCountOne": "1 ofertë",
+  "pagination": "Faqet",
+  "previousPage": "Faqja e mëparshme",
+  "nextPage": "Faqja tjetër",
+  "pageOf": "Faqja {page} nga {total}"
+}

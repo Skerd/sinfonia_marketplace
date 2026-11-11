@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/center/sheetView/categorySheetView.tsx",
+  "failedTitle": "Impossibile caricare la categoria di annunci",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questa categoria. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "categorySubtitle": "Categoria",
+  "listingCategorySubtitle": "Categoria di annunci",
+  "name": "Nome",
+  "overview": "Panoramica",
+  "lifecycle": "Ciclo di vita",
+  "slug": "Slug",
+  "order": "Ordine",
+  "parentListingCategory": "Categoria padre",
+  "createdAt": "Creato il",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da"
+}

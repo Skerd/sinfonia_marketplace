@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/center/cardView/promotionCard.tsx",
+  "failedTitle": "Dështoi ngarkimi i promovimit",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të promovimit. Klikoni për të provuar përsëri.",
+  "activePeriod": "Aktive",
+  "listing": "Listimi",
+  "type": "Lloji",
+  "startAt": "Fillim",
+  "endAt": "Mbarim",
+  "featured": "I veçuar",
+  "sponsored": "I sponsorizuar",
+  "active": "Aktive",
+  "upcoming": "Në pritje",
+  "ended": "Përfunduar",
+  "paused": "Në pauzë",
+  "stopped": "E ndalur",
+  "status": "Statusi",
+  "period": "Periudha"
+}

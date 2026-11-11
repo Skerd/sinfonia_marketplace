@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/components/custom/bids/bidActionConfirmAction.tsx",
+  "accept": {
+    "title": "Accept this bid?",
+    "description": "The bid will be marked accepted, the task request awarded, and an order will be created. This cannot be undone from here.",
+    "confirm": "Accept bid",
+    "axios": {
+      "start": { "title": "Accepting bid", "time": 3000 },
+      "success": { "title": "Bid accepted successfully", "time": 3000 },
+      "error": { "title": "Could not accept bid, please try again", "time": 3000 }
+    }
+  },
+  "reject": {
+    "title": "Reject this bid?",
+    "description": "The bid will be marked rejected. The task requester or bidder can reject a pending bid.",
+    "confirm": "Reject bid",
+    "axios": {
+      "start": { "title": "Rejecting bid", "time": 3000 },
+      "success": { "title": "Bid rejected successfully", "time": 3000 },
+      "error": { "title": "Could not reject bid, please try again", "time": 3000 }
+    }
+  },
+  "cancel": "Cancel"
+}

@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/index.tsx",
+  "title": "Porositë e shërbimeve",
+  "browse": "Shfleto shërbimet",
+  "filterLabel": "Filtro sipas statusit",
+  "allStatuses": "Të gjitha",
+  "statusFilter": {
+    "pending": "Në pritje të ofruesit",
+    "accepted": "Pranuar",
+    "in_progress": "Në punë",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar"
+  },
+  "loading": "Po ngarkohen porositë",
+  "emptyTitle": "Ende pa porosi shërbimesh",
+  "emptyMessage": "Kur porositni një shërbim, ai shfaqet këtu me çdo përditësim nga ofruesi.",
+  "emptyFiltered": "Nuk ka porosi me këtë status.",
+  "dueOn": "Afati {date}",
+  "deliveryWaiting": "Një dorëzim pret shqyrtimin tuaj",
+  "pagination": "Faqet",
+  "previousPage": "Faqja e mëparshme",
+  "nextPage": "Faqja tjetër",
+  "pageOf": "Faqja {page} nga {total}"
+}

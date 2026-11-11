@@ -1,0 +1,31 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/center/sheetView/bidSheetView.tsx",
+  "bid": "Offerte",
+  "name": "Name",
+  "overview": "Übersicht",
+  "amount": "Betrag",
+  "currency": "Währung",
+  "deliveryDays": "Lieferzeit",
+  "proposal": "Vorschlag",
+  "status": "Status",
+  "bidder": "Bieter",
+  "taskRequest": "Ausschreibung",
+  "failedTitle": "Offerte konnten nicht geladen werden",
+  "failedDescription": "Die Offerte konnte nicht geladen werden. Klicken Sie, um sie erneut zu laden.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "bidStatus": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "rejected": "Abgelehnt"
+  },
+  "lifecycle": "Lebenszyklus",
+  "createdAt": "Erstellt am",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "deliveryDaysValue": {
+    "one": "{value} Tag",
+    "other": "{value} Tage"
+  }
+}

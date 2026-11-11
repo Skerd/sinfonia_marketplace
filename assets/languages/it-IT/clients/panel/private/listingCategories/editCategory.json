@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/editCategory.tsx",
+  "editTitle": "Modifica categoria di annunci",
+  "editDescription": "Aggiorna questa categoria di annunci.",
+  "errorTitle": "Impossibile caricare la categoria",
+  "errorDescription": "Impossibile caricare questa categoria. Riprova.",
+  "form": {
+    "_idLabel": "ID record",
+    "nameLabel": "Nome",
+    "namePlaceholder": "es. Pulizie di casa",
+    "parentListingCategoryLabel": "Categoria padre",
+    "parentListingCategoryPlaceholder": "Livello principale se vuoto",
+    "orderLabel": "Ordine di visualizzazione",
+    "orderPlaceholder": "0",
+    "editCategoryTitle": "Modifica categoria di annunci",
+    "editCategoryDescription": "Aggiorna questa categoria di annunci.",
+    "basicsSectionTitle": "Dati principali",
+    "visibilitySectionTitle": "Visibilità"
+  },
+  "axios": {
+    "start": {
+      "title": "Salvataggio della categoria di annunci",
+      "time": 3000
+    },
+    "success": {
+      "title": "Categoria di annunci aggiornata",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile aggiornare la categoria di annunci",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Modifica categoria di annunci",
+    "description": "Aggiorna questa categoria di annunci."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Salva modifiche"
+  }
+}

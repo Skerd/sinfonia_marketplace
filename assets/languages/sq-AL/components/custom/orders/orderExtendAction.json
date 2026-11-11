@@ -1,0 +1,28 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/orderExtendAction.tsx",
+  "extend": {
+    "title": "Zgjat datën e dorëzimit",
+    "description": "Shto ditë shtesë në datën e afatit të dorëzimit. Vetëm ofruesi mund ta zgjatë një porosi aktive.",
+    "additionalDaysLabel": "Ditë shtesë",
+    "additionalDaysHint": "Vendosni një vlerë nga 1 deri në 90 ditë.",
+    "confirm": "Zgjat dorëzimin",
+    "axios": {
+      "start": {
+        "title": "Duke zgjatur porosinë",
+        "time": 3000
+      },
+      "success": {
+        "title": "Porosia u zgjat me sukses",
+        "time": 3000
+      },
+      "error": {
+        "title": "Porosia nuk u zgjat, provoni përsëri",
+        "time": 3000
+      }
+    },
+    "currentDueDateLabel": "Afati aktual",
+    "newDueDateLabel": "Afati i ri",
+    "noDueDate": "I pacaktuar"
+  },
+  "cancel": "Anulo"
+}

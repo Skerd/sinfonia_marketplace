@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/components/custom/disputes/changeDisputeLifecycleAction.tsx",
+  "cancel": "Cancel",
+  "resolutionLabel": "Resolution notes",
+  "resolutionPlaceholder": "Describe how the dispute was handled (required for audit).",
+  "resolutionHint": "Required. 1–2000 characters.",
+  "startReview": {
+    "title": "Mark dispute under review",
+    "description": "The dispute stays open while you investigate. Parties cannot accept delivery until the dispute is resolved or closed.",
+    "confirm": "Start review",
+    "axios": {
+      "start": { "title": "Updating dispute", "time": 3000 },
+      "success": { "title": "Dispute marked under review", "time": 3000 },
+      "error": { "title": "Could not update dispute", "time": 3000 }
+    }
+  },
+  "resolve": {
+    "title": "Resolve dispute",
+    "description": "Marks the dispute resolved and completes the linked order using the same escrow logic as accepting delivery.",
+    "confirm": "Resolve",
+    "axios": {
+      "start": { "title": "Resolving dispute", "time": 3000 },
+      "success": { "title": "Dispute resolved", "time": 3000 },
+      "error": { "title": "Could not resolve dispute", "time": 3000 }
+    }
+  },
+  "close": {
+    "title": "Close dispute (cancel order)",
+    "description": "Closes the dispute and cancels the linked order with escrow refund rules matching a normal cancellation.",
+    "confirm": "Close dispute",
+    "axios": {
+      "start": { "title": "Closing dispute", "time": 3000 },
+      "success": { "title": "Dispute closed", "time": 3000 },
+      "error": { "title": "Could not close dispute", "time": 3000 }
+    }
+  }
+}

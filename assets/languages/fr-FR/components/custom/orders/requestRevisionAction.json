@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/requestRevisionAction.tsx",
+  "requestRevision": {
+    "title": "Demander une révision",
+    "description": "Décrivez ce qui doit être modifié. Le prestataire retravaillera et soumettra à nouveau la livraison.",
+    "reasonLabel": "Motif de la révision",
+    "reasonPlaceholder": "Expliquez ce qui doit être révisé et pourquoi…",
+    "minChars": "Minimum 10 caractères requis.",
+    "confirm": "Demander une révision",
+    "axios": {
+      "start": {
+        "title": "Demande de révision en cours",
+        "time": 3000
+      },
+      "success": {
+        "title": "Révision demandée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de demander une révision, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

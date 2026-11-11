@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/createBooking.tsx",
+  "formHeader": {
+    "title": "Buchung erstellen",
+    "description": "Planen Sie eine Dienstleistungsbuchung für einen Auftrag."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Buchung erstellen"
+  },
+  "form": {
+    "orderLabel": "Auftrag",
+    "orderPlaceholder": "Auftrag auswählen",
+    "startAtLabel": "Startzeit",
+    "endAtLabel": "Endzeit",
+    "section": {
+      "order": "Auftrag",
+      "schedule": "Wann"
+    },
+    "providerHoursHint": "Die Zeiten gelten in Ihrer eigenen Zeitzone. Die Buchung muss in die Arbeitszeiten des Anbieters fallen."
+  },
+  "axios": {
+    "start": {
+      "title": "Buchung wird erstellt",
+      "time": 3000
+    },
+    "success": {
+      "title": "Buchung erstellt",
+      "time": 3000
+    },
+    "error": {
+      "title": "Buchung konnte nicht erstellt werden",
+      "time": 3000
+    }
+  }
+}

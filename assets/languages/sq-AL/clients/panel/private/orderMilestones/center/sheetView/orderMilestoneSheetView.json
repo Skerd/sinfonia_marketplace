@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderMilestones/center/sheetView/orderMilestoneSheetView.tsx",
+  "failedTitle": "Ngarkimi dështoi",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "overview": "Përmbledhje",
+  "lifecycle": "Cikli i jetës",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "order": "Porosia",
+  "status": "Statusi",
+  "orderMilestoneSubtitle": "Faza",
+  "amount": "Shuma",
+  "orderIndex": "Renditja",
+  "orderMilestoneStatus": {
+    "pending": "Në pritje",
+    "released": "Liruar",
+    "delivered": "Dorëzuar"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/center/sheetView/listingAddOnSheetView.tsx",
+  "failedTitle": "Échec du chargement du module complémentaire d'annonce",
+  "failedDescription": "Une erreur s'est produite lors du chargement de ce module complémentaire d'annonce. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "listingAddOnSubtitle": "Module complémentaire d'annonce",
+  "overview": "Vue d'ensemble",
+  "lifecycle": "Cycle de vie",
+  "name": "Nom",
+  "listing": "Annonce",
+  "provider": "Prestataire",
+  "priceAmount": "Prix",
+  "currency": "Devise",
+  "deliveryDays": "Délai de livraison",
+  "createdAt": "Créé le",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par",
+  "deliveryDaysValue": {
+    "one": "{value} jour",
+    "other": "{value} jours"
+  }
+}

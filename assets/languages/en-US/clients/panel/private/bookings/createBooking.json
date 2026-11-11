@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/createBooking.tsx",
+  "formHeader": {
+    "title": "Create booking",
+    "description": "Schedule a service booking for an order."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Create booking"
+  },
+  "form": {
+    "orderLabel": "Order",
+    "orderPlaceholder": "Select order",
+    "startAtLabel": "Start time",
+    "endAtLabel": "End time",
+    "section": {
+      "order": "Order",
+      "schedule": "When"
+    },
+    "providerHoursHint": "Times are in your own time zone. The booking must fall inside the provider's working hours."
+  },
+  "axios": {
+    "start": {
+      "title": "Creating booking",
+      "time": 3000
+    },
+    "success": {
+      "title": "Booking created",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not create booking",
+      "time": 3000
+    }
+  }
+}

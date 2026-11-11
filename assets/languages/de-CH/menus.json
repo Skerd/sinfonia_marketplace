@@ -1,0 +1,63 @@
+{
+  "marketplace": {
+    "title": "Marktplatz",
+    "listings": {
+      "title": "Inserate"
+    },
+    "taskrequests": {
+      "title": "Ausschreibungen"
+    },
+    "orders": {
+      "title": "Aufträge"
+    },
+    "bids": {
+      "title": "Offerten"
+    },
+    "bookings": {
+      "title": "Buchungen"
+    },
+    "disputes": {
+      "title": "Streitfälle"
+    },
+    "reviews": {
+      "title": "Bewertungen"
+    },
+    "promotions": {
+      "title": "Promotionen"
+    },
+    "listingflags": {
+      "title": "Inserat-Meldungen"
+    },
+    "listingaddons": {
+      "title": "Inserat-Zusatzleistungen"
+    },
+    "listingpackages": {
+      "title": "Inseratpakete"
+    },
+    "marketplacesystemmap": {
+      "title": "Systemkarte"
+    },
+    "listingcategories": {
+      "title": "Inseratkategorien"
+    },
+    "providerprofile": {
+      "title": "Anbieterprofil"
+    }
+  },
+  "tenancy": {
+    "systemSettings": {
+      "marketplace": {
+        "title": "Marktplatz"
+      },
+      "marketplacesettings": {
+        "title": "Marktplatz-Einstellungen"
+      },
+      "listingcategories": {
+        "title": "Inseratkategorien"
+      },
+      "providerprofile": {
+        "title": "Anbieterprofile"
+      }
+    }
+  }
+}

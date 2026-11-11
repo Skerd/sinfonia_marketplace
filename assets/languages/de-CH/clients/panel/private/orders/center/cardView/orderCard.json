@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/cardView/orderCard.tsx",
+  "failedTitle": "Auftrag konnte nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "listing": "Inserat",
+  "provider": "Anbieter",
+  "amount": "Betrag",
+  "dueDate": "Fällig",
+  "status": "Status",
+  "total": "Total",
+  "statuses": {
+    "pending": "Ausstehend",
+    "accepted": "Angenommen",
+    "in_progress": "In Bearbeitung",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert"
+  },
+  "customer": "Kunde"
+}

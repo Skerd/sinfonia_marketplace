@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/changeListingStatusAction.tsx",
+  "activate": {
+    "title": "Activer l'annonce",
+    "description": "Êtes-vous sûr de vouloir activer",
+    "confirm": "Activer",
+    "axios": {
+      "start": {
+        "title": "Activation de l'annonce",
+        "time": 3000
+      },
+      "success": {
+        "title": "Annonce activée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible d'activer l'annonce, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "deactivate": {
+    "title": "Désactiver l'annonce",
+    "description": "Êtes-vous sûr de vouloir désactiver",
+    "confirm": "Désactiver",
+    "axios": {
+      "start": {
+        "title": "Désactivation de l'annonce",
+        "time": 3000
+      },
+      "success": {
+        "title": "Annonce désactivée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de désactiver l'annonce, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/createPromotion.tsx",
+  "formHeader": {
+    "title": "Créer une promotion",
+    "description": "Boostez la visibilité d'une annonce avec une promotion vedette ou sponsorisée."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Créer une promotion"
+  },
+  "form": {
+    "listingLabel": "Annonce",
+    "listingPlaceholder": "Sélectionnez une annonce",
+    "typeLabel": "Type de promotion",
+    "promotionTypeLabel": "Type de promotion",
+    "promotionTypePlaceholder": "Sélectionnez le type de promotion",
+    "promotionTypeFeatured": "Mis en avant",
+    "promotionTypeSponsored": "Sponsorisé",
+    "startAtLabel": "Date et heure de début",
+    "startAtPlaceholder": "Début de la promotion",
+    "endAtLabel": "Date et heure de fin",
+    "endAtPlaceholder": "Fin de la promotion",
+    "promotionSectionTitle": "Promotion",
+    "scheduleSectionTitle": "Calendrier"
+  },
+  "axios": {
+    "start": {
+      "title": "Création d'une promotion",
+      "time": 3000
+    },
+    "success": {
+      "title": "Promotion créée",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de créer une promotion",
+      "time": 3000
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listings/index.tsx",
+  "title": "Listimet",
+  "description": "Menaxho listimet e produkteve dhe shërbimeve për dyqanin e kompanisë suaj.",
+  "help": {
+    "ariaLabel": "Rreth listimeve",
+    "title": "Rreth listimeve",
+    "overview": "Një listim është oferta e shërbimit të një ofruesi në treg: çfarë bën, në cilën kategori dhe vend, me çfarë çmimi, me paketa dhe shtesa opsionale. Blerësit porosisin nga listimet aktive. Statusi është skicë, aktiv ose joaktiv dhe ndryshohet vetëm me veprimet aktivizo dhe çaktivizo.",
+    "sections": [
+      {
+        "title": "Statusi",
+        "items": [
+          "Skicë është statusi i paracaktuar ndërsa oferta ndërtohet. Askush nuk mund ta porosisë.",
+          "Aktivizo e bën të porositshëm. Kërkon një çmim dhe një monedhë, sepse një porosi pa paketë llogaritet prej tyre.",
+          "Çaktivizo e nxjerr jashtë linje pa e fshirë. Edhe zgjidhja e një raportimi kundër tij mund ta çaktivizojë.",
+          "Vetëm ofruesi i listimit, ose një administrator, mund ta aktivizojë ose çaktivizojë."
+        ]
+      },
+      {
+        "title": "Çfarë konfiguroni",
+        "items": [
+          "Titulli, përshkrimi, kategoria, etiketat, FAQ dhe kërkesat ndaj blerësit e përshkruajnë ofertën. Kategoria është kategori listimesh, jo produktesh.",
+          "Tipi i çmimit është fiks ose për orë. Çmimi dhe monedha janë çmimi bazë; ditët e dorëzimit caktojnë afatin e paracaktuar të një porosie.",
+          "Imazhi kryesor është i detyrueshëm; galeritë e imazheve dhe videove janë opsionale.",
+          "Shteti, rajoni dhe qyteti e vendosin ofertën. Qyteti dhe kategoria vendosin për cilat kërkesa për detyra njoftohet ofruesi.",
+          "Ofruesi është përdoruesi që shet: ju vetë, ose një përdorues tjetër i së njëjtës kompani."
+        ]
+      },
+      {
+        "title": "Si llogaritet një porosi prej tij",
+        "body": "Një blerës porosit një listim aktiv, opsionalisht me një paketë dhe shtesa.",
+        "items": [
+          "Pa paketë: çmimi dhe ditët e dorëzimit të listimit. Me paketë: çmimi dhe ditët e dorëzimit të paketës në vend të tyre.",
+          "Çdo shtesë shton çmimin e vet dhe ditët shtesë të dorëzimit. Shtesat duhet t’i përkasin këtij listimi dhe të përdorin monedhën e porosisë.",
+          "Një ofrues nuk mund të porosisë listimin e vet."
+        ]
+      },
+      {
+        "title": "Dukshmëria dhe reputacioni",
+        "items": [
+          "Një promovim në vazhdim (i veçuar ose i sponsorizuar) e vendos listimin në krye të renditjes së rekomanduar të dyqanit gjatë datave të tij.",
+          "Vlerësimet e porosive të përfunduara i japin listimit notën mesatare dhe numrin e vlerësimeve.",
+          "Përdoruesit mund ta raportojnë një listim; administratorët i shqyrtojnë raportimet te Raportimet."
+        ]
+      },
+      {
+        "title": "Kush sheh çfarë",
+        "items": [
+          "Administratorët shohin dhe menaxhojnë çdo listim të kompanisë. Përdoruesit e tjerë ndryshojnë vetëm listimet që ofrojnë.",
+          "Fshirja është e butë dhe listimi mund të rikthehet. Paketat dhe shtesat e tij nuk mund të rikthehen sa kohë listimi është i fshirë."
+        ]
+      }
+    ]
+  },
+  "createListing": "Krijo listim",
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "fields": {
+    "!enums": {
+      "status": {
+        "draft": "Skicë",
+        "active": "Aktiv",
+        "inactive": "Joaktiv"
+      },
+      "pricingType": {
+        "fixed": "Çmim fiks",
+        "hourly": "Tarifë për orë"
+      }
+    },
+    "name": "Emri",
+    "title": "Titulli",
+    "description": "Përshkrimi",
+    "category": "Kategoria",
+    "provider": "Ofruesi",
+    "price": "Çmimi",
+    "priceCurrency": "Valuta",
+    "status": "Statusi",
+    "pricingType": "Lloji i çmimit",
+    "deliveryDays": "Ditët e dorëzimit",
+    "address": "Vendndodhja",
+    "mainImage": "Imazhi kryesor",
+    "imageGallery": "Galeria e imazheve",
+    "videoGallery": "Galeria e videove",
+    "faqs": {
+      "question": "Pyetja",
+      "answer": "Përgjigja"
+    },
+    "requirements": "Kërkesat",
+    "tags": "Etiketat",
+    "promotions": "Promocione",
+    "listingPackages": "Paketat",
+    "listingAddOns": "Shtesat",
+    "avgRating": "Vlerësimi",
+    "reviewCount": "Vlerësimet",
+    "company": "Kompania",
+    "createdBy": "Krijuar nga",
+    "createdAt": "Krijuar më",
+    "updatedAt": "Përditësuar më",
+    "deletedAt": "Fshirë më",
+    "deletedBy": "Fshirë nga"
+  }
+}

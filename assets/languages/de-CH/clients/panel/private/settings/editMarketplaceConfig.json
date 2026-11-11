@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/settings/editMarketplaceConfig.tsx",
+  "title": "Marktplatz-Einstellungen",
+  "description": "Gilt für den Dienstleistungsmarktplatz dieser Firma.",
+  "form": {
+    "settingsSectionTitle": "Marktplatz",
+    "listedOnPortalLabel": "Im Portal anzeigen",
+    "listedOnPortalPlaceholder": "",
+    "currencyLabel": "Währung",
+    "currencyPlaceholder": "Währung auswählen"
+  }
+}

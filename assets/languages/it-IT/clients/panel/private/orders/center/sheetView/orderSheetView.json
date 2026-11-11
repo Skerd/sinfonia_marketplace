@@ -1,0 +1,70 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/sheetView/orderSheetView.tsx",
+  "order": "Ordine",
+  "listingLabel": "Annuncio",
+  "listing": {
+    "title": "Annuncio"
+  },
+  "taskRequest": "Richiesta di preventivo",
+  "bid": "Offerta",
+  "customer": "Cliente",
+  "provider": "Fornitore",
+  "amount": "Importo",
+  "currency": "Valuta",
+  "deliveryDueDate": "Data di scadenza",
+  "status": "Stato",
+  "createdAt": "Creato",
+  "overview": "Panoramica",
+  "references": "Riferimenti",
+  "failedTitle": "Impossibile caricare l'ordine",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questo ordine. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "orderStatus": {
+    "pending": "In sospeso",
+    "accepted": "Accettato",
+    "in_progress": "In corso",
+    "completed": "Completato",
+    "cancelled": "Annullato"
+  },
+  "note": "Nota del cliente",
+  "deliveries": "Consegne",
+  "milestones": "Milestone",
+  "revisions": "Richieste di revisione",
+  "lifecycle": "Ciclo di vita",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da",
+  "milestone": "Milestone",
+  "delivery": "Consegna",
+  "revision": "Richiesta di revisione",
+  "orderMilestoneStatus": {
+    "pending": "In sospeso",
+    "released": "Rilasciata",
+    "delivered": "Consegnata"
+  },
+  "orderDeliveryStatus": {
+    "submitted": "Inviata",
+    "accepted": "Accettata",
+    "revision_requested": "Revisione richiesta"
+  },
+  "orderRevisionStatus": {
+    "pending": "In sospeso",
+    "completed": "Gestita"
+  },
+  "disputesGroup": "Controversie",
+  "bookingsGroup": "Prenotazioni",
+  "reviewsGroup": "Recensioni",
+  "disputeRow": "Controversia",
+  "bookingRow": "Prenotazione",
+  "reviewRow": "Recensione",
+  "disputeStatus": {
+    "open": "Aperta",
+    "under_review": "In fase di revisione",
+    "resolved": "Risolta",
+    "closed": "Chiusa"
+  },
+  "compactView": "Compatta",
+  "cardsView": "Schede",
+  "toggleReferenceListView": "Cambia visualizzazione"
+}

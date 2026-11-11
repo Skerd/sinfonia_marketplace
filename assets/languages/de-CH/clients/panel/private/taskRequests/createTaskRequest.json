@@ -1,0 +1,62 @@
+{
+  "address": "Adresse",
+  "form": {
+    "addressPrivacyAlert": "Anbieter sehen Ihre genaue Adresse erst, wenn Sie eine Offerte annehmen. Ihre vollständige Adresse wird nur mit dem gewählten Anbieter geteilt, nachdem Sie sich über die Arbeit geeinigt haben.",
+    "budgetMaxLabel": "Budget (max.)",
+    "budgetMinLabel": "Budget (min.)",
+    "categoryLabel": "Kategorie",
+    "cityLabel": "Ort",
+    "cityPlaceholder": "Ort auswählen",
+    "countryLabel": "Land",
+    "countryPlaceholder": "Land auswählen",
+    "currencyLabel": "Währung",
+    "descriptionLabel": "Beschreibung",
+    "descriptionPlaceholder": "Was zu tun ist, wie gross der Auftrag ist und bis wann.",
+    "expiresAtLabel": "Läuft ab",
+    "expiresAtPlaceholder": "YYYY-MM-DD",
+    "imageGalleryLabel": "Bild galerie",
+    "latitudeLabel": "Breitengrad",
+    "latitudePlaceholder": "Breitengrad",
+    "longitudeLabel": "Längengrad",
+    "longitudePlaceholder": "Längengrad",
+    "mainImageLabel": "Hauptbild",
+    "postalCodeLabel": "Postleitzahl",
+    "postalCodePlaceholder": "Postleitzahl",
+    "section": {
+      "budget": "Budget",
+      "currencyExpires": "Währung und Ablauf",
+      "description": "Details",
+      "general": "Allgemein",
+      "images": "Bilder",
+      "video": "Video",
+      "address": "Adresse"
+    },
+    "stateLabel": "Kanton",
+    "statePlaceholder": "Kanton auswählen",
+    "streetLabel": "Strasse",
+    "streetPlaceholder": "Strasse und Hausnummer",
+    "taskRequestStatus": {
+      "awarded": "Zuschlag",
+      "closed": "Geschlossen",
+      "open": "Offen"
+    },
+    "titleLabel": "Bezeichnung",
+    "videoGalleryLabel": "Video galerie",
+    "titlePlaceholder": "z. B. 3½-Zimmer-Wohnung streichen",
+    "categoryPlaceholder": "Kategorie wählen",
+    "currencyPlaceholder": "Währung wählen",
+    "currencyDescription": "Offerten auf diese Ausschreibung kommen in dieser Währung.",
+    "budgetMinPlaceholder": "z. B. 500",
+    "budgetMaxPlaceholder": "z. B. 900"
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Absenden"
+  },
+  "formHeader": {
+    "description": "Beschreiben Sie, was Sie brauchen. Anbieter können mit Offerten antworten.",
+    "title": "Ausschreibung erstellen"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/createTaskRequest.tsx",
+  "title": "Bezeichnung"
+}

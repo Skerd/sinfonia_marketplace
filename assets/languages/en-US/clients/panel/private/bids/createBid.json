@@ -1,0 +1,43 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Could not submit bid"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Submitting bid"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Bid submitted"
+    }
+  },
+  "form": {
+    "amountLabel": "Bid amount",
+    "amountPlaceholder": "0.00",
+    "currencyIdLabel": "Currency",
+    "currencyIdPlaceholder": "Select currency",
+    "deliveryDaysLabel": "Delivery days",
+    "deliveryDaysPlaceholder": "e.g. 7",
+    "proposalLabel": "Proposal",
+    "proposalPlaceholder": "Describe your approach...",
+    "taskRequestIdLabel": "Task request",
+    "taskRequestIdPlaceholder": "Select task request",
+    "section": {
+      "taskRequest": "Task request",
+      "offer": "Your offer"
+    },
+    "amountCurrencyDescription": "In the task request's currency."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Submit bid"
+  },
+  "formHeader": {
+    "description": "Submit a bid for a task request.",
+    "title": "Create bid"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/bids/createBid.tsx",
+  "title": "Title"
+}

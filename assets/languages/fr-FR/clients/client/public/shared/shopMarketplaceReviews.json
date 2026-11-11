@@ -1,0 +1,8 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/shared/shopMarketplaceReviews.tsx",
+  "title": "Avis",
+  "empty": "Aucun avis pour le moment.",
+  "count": "{count} avis",
+  "countOne": "1 avis",
+  "starsValue": "{count} étoiles sur 5"
+}

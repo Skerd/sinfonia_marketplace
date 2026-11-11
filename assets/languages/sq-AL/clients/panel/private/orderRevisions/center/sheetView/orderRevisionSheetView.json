@@ -1,0 +1,22 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderRevisions/center/sheetView/orderRevisionSheetView.tsx",
+  "failedTitle": "Ngarkimi dështoi",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "overview": "Përmbledhje",
+  "lifecycle": "Cikli i jetës",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "order": "Porosia",
+  "status": "Statusi",
+  "orderRevisionSubtitle": "Kërkesë rishikimi",
+  "requestedBy": "Kërkuar nga",
+  "reason": "Arsyeja",
+  "orderRevisionStatus": {
+    "pending": "Në pritje",
+    "completed": "Trajtuar"
+  }
+}

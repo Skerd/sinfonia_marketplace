@@ -1,0 +1,85 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderDetail.tsx",
+  "loading": "Auftrag wird geladen",
+  "notFound": "Auftrag nicht gefunden",
+  "backToOrders": "Zurück zu den Dienstleistungsaufträgen",
+  "placedTitle": "Ihre Bestellung ist eingegangen",
+  "placedMessage": "Der Anbieter wurde benachrichtigt und bestätigt in Kürze. Updates erhalten Sie hier und per Benachrichtigung.",
+  "placedOn": "Bestellt am {date}",
+  "disputeOpen": "Streitfall offen",
+  "cancelledBanner": "Dieser Auftrag wurde storniert. Einbehaltene Beträge wurden erstattet.",
+  "progressLabel": "Auftragsfortschritt",
+  "steps": {
+    "pending": "Bestellt",
+    "accepted": "Angenommen",
+    "in_progress": "In Arbeit",
+    "completed": "Abgeschlossen"
+  },
+  "deliveryReadyTitle": "Ihre Lieferung ist da",
+  "deliveryReadyMessage": "Prüfen Sie die Arbeit unten. Nehmen Sie sie an, um den Auftrag abzuschliessen und die Zahlung freizugeben, oder fordern Sie Änderungen an.",
+  "acceptDelivery": "Lieferung annehmen",
+  "requestRevision": "Änderungen anfordern",
+  "panel": {
+    "cancel": {
+      "title": "Diesen Auftrag stornieren?",
+      "message": "Der Anbieter hat noch nicht begonnen, Sie können also ohne Streitfall stornieren. Einbehaltene Beträge werden erstattet.",
+      "submit": "Ja, Auftrag stornieren"
+    },
+    "revision": {
+      "title": "Änderungen anfordern",
+      "message": "Teilen Sie dem Anbieter mit, was geändert werden soll. Er sendet eine neue Lieferung.",
+      "field": "Was soll geändert werden? (mindestens 10 Zeichen)",
+      "submit": "Anfrage senden"
+    },
+    "dispute": {
+      "title": "Problem melden",
+      "message": "Unser Team prüft den Auftrag mit Ihnen und dem Anbieter. Die Zahlung bleibt bis zur Klärung blockiert.",
+      "field": "Was ist schiefgelaufen?",
+      "submit": "Streitfall eröffnen"
+    },
+    "review": {
+      "title": "Diese Dienstleistung bewerten",
+      "message": "Ihre Bewertung hilft anderen Kunden bei der Wahl.",
+      "field": "Ihre Bewertung (optional)",
+      "submit": "Bewertung veröffentlichen"
+    }
+  },
+  "ratingLabel": "Bewertung",
+  "starsOption": "{count} Sterne",
+  "working": "Einen Moment…",
+  "back": "Zurück",
+  "noteTitle": "Ihre Nachricht an den Anbieter",
+  "deliveriesTitle": "Lieferungen",
+  "noDeliveries": "Noch nichts geliefert. Dateien und Nachrichten des Anbieters erscheinen hier.",
+  "attachment": "Anhang",
+  "downloadError": "Die Datei konnte nicht heruntergeladen werden.",
+  "revisionsTitle": "Änderungsanfragen",
+  "revisionStatus": {
+    "pending": "Offen",
+    "completed": "Erledigt"
+  },
+  "milestonesTitle": "Meilensteine",
+  "releaseMilestone": "Zahlung freigeben",
+  "bookingsTitle": "Geplante Termine",
+  "provider": "Anbieter",
+  "dueDate": "Fälligkeit",
+  "total": "Total",
+  "viewService": "Dienstleistung ansehen",
+  "leaveReview": "Bewertung abgeben",
+  "bookSession": "Termin buchen",
+  "reportProblem": "Problem melden",
+  "cancelOrder": "Auftrag stornieren",
+  "reviewedNote": "Danke — Sie haben diesen Auftrag bewertet.",
+  "actionError": "Das hat nicht geklappt. Bitte erneut versuchen.",
+  "deliveryAccepted": "Lieferung angenommen. Der Auftrag ist abgeschlossen.",
+  "revisionSent": "Änderungsanfrage gesendet",
+  "disputeOpened": "Streitfall eröffnet. Wir melden uns bei Ihnen.",
+  "reviewThanks": "Danke für Ihre Bewertung!",
+  "cancelled": "Auftrag storniert",
+  "milestoneReleased": "Meilensteinzahlung freigegeben",
+  "payEscrowTitle": "Diesen Auftrag bezahlen",
+  "payEscrowHint": "Ihr Anbieter hat den Auftrag angenommen. Schliessen Sie die Zahlung ab, um das Treuhandkonto zu finanzieren.",
+  "payEscrowButton": "Jetzt bezahlen",
+  "payEscrowSuccess": "Zahlung übermittelt",
+  "payEscrowError": "Zahlung fehlgeschlagen"
+}

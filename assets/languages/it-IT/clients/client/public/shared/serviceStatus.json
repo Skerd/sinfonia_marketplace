@@ -1,0 +1,30 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/shared/serviceStatus.tsx",
+  "serviceStatus": {
+    "pending": "In attesa del fornitore",
+    "accepted": "Accettato",
+    "in_progress": "In corso",
+    "completed": "Completato",
+    "cancelled": "Annullato"
+  },
+  "jobStatus": {
+    "open": "Aperto",
+    "closed": "Chiuso",
+    "awarded": "Assegnato"
+  },
+  "bidStatus": {
+    "pending": "Nuova",
+    "accepted": "Accettata",
+    "rejected": "Rifiutata"
+  },
+  "deliveryStatus": {
+    "submitted": "In attesa di una tua azione",
+    "accepted": "Accettata",
+    "revision_requested": "Modifiche richieste"
+  },
+  "milestoneStatus": {
+    "pending": "In attesa",
+    "released": "Rilasciata",
+    "delivered": "Consegnata"
+  }
+}

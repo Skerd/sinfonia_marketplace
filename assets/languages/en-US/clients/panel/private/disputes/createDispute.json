@@ -1,0 +1,36 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Could not open dispute"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Opening dispute"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Dispute opened"
+    }
+  },
+  "form": {
+    "orderLabel": "Order",
+    "orderPlaceholder": "Select order",
+    "reasonLabel": "Reason",
+    "reasonPlaceholder": "Describe the issue...",
+    "section": {
+      "order": "Order",
+      "issue": "What went wrong"
+    }
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Open dispute"
+  },
+  "formHeader": {
+    "description": "Raise a dispute for an order that has an issue.",
+    "title": "Open dispute"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/disputes/createDispute.tsx",
+  "title": "Title"
+}

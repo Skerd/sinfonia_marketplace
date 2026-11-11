@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/editListingAddOn.tsx",
+  "editTitle": "Modifier le module complémentaire d'annonce",
+  "editDescription": "Mettez à jour le nom, le prix ou le délai de livraison de ce module complémentaire.",
+  "errorTitle": "Impossible de charger le module complémentaire",
+  "errorDescription": "Vérifiez le lien ou revenez à la liste et réessayez.",
+  "formHeader": {
+    "title": "Modifier le module complémentaire d'annonce",
+    "description": "Modifiez les détails du module complémentaire."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Enregistrer les modifications"
+  },
+  "form": {
+    "idLabel": "Identifiant",
+    "listingIdLabel": "Annonce",
+    "listingIdPlaceholder": "Sélectionnez une annonce",
+    "nameLabel": "Nom du module complémentaire",
+    "namePlaceholder": "par ex. Livraison express",
+    "priceAmountLabel": "Prix",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Devise",
+    "currencyPlaceholder": "Devise de l'annonce si vide",
+    "deliveryDaysLabel": "Jours de livraison",
+    "deliveryDaysPlaceholder": "par ex. 2",
+    "basicsSectionTitle": "Informations de base",
+    "pricingSectionTitle": "Prix"
+  },
+  "axios": {
+    "start": {
+      "title": "Enregistrement du module complémentaire",
+      "time": 3000
+    },
+    "success": {
+      "title": "Module complémentaire mis à jour",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de mettre à jour le module complémentaire",
+      "time": 3000
+    }
+  }
+}

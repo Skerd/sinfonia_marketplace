@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/createCategory.tsx",
+  "form": {
+    "nameLabel": "Name",
+    "namePlaceholder": "e.g. Home cleaning",
+    "parentListingCategoryLabel": "Parent category",
+    "parentListingCategoryPlaceholder": "Top level if left empty",
+    "orderLabel": "Sort order",
+    "orderPlaceholder": "0",
+    "createCategoryTitle": "Create listing category",
+    "createCategoryDescription": "Add a category that groups marketplace listings and task requests.",
+    "basicsSectionTitle": "Basics",
+    "visibilitySectionTitle": "Visibility"
+  },
+  "axios": {
+    "start": {
+      "title": "Creating listing category",
+      "time": 3000
+    },
+    "success": {
+      "title": "Listing category created",
+      "time": 3000
+    },
+    "error": {
+      "title": "Could not create listing category",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Create listing category",
+    "description": "Add a category that groups marketplace listings and task requests."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Create listing category"
+  }
+}

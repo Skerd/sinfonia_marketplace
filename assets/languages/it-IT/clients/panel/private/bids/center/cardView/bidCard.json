@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/center/cardView/bidCard.tsx",
+  "failedTitle": "Impossibile caricare l'offerta",
+  "failedDescription": "Tocca per riprovare.",
+  "taskRequest": "Richiesta di preventivo",
+  "name": "Nome",
+  "status": "Stato",
+  "amount": "Importo",
+  "deliveryDays": "Consegna",
+  "days": "giorni",
+  "bidder": "Offerente",
+  "offer": "Offerta",
+  "statuses": {
+    "pending": "In sospeso",
+    "accepted": "Accettata",
+    "rejected": "Rifiutata"
+  }
+}

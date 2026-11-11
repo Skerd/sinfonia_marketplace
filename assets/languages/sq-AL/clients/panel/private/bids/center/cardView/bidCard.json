@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/center/cardView/bidCard.tsx",
+  "failedTitle": "Dështoi ngarkimi i ofertës",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "taskRequest": "Kërkesë për ofertë",
+  "status": "Statusi",
+  "name": "Emri",
+  "amount": "Shuma",
+  "deliveryDays": "Dorëzimi",
+  "days": "ditë",
+  "bidder": "Ofertuesi",
+  "offer": "Oferta",
+  "statuses": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "rejected": "Refuzuar"
+  }
+}

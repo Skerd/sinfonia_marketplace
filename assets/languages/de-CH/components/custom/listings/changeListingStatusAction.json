@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/changeListingStatusAction.tsx",
+  "activate": {
+    "title": "Inserat aktivieren",
+    "description": "Möchten Sie wirklich aktivieren",
+    "confirm": "Aktivieren",
+    "axios": {
+      "start": {
+        "title": "Inserat wird aktiviert",
+        "time": 3000
+      },
+      "success": {
+        "title": "Inserat erfolgreich aktiviert",
+        "time": 3000
+      },
+      "error": {
+        "title": "Inserat konnte nicht aktiviert werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "deactivate": {
+    "title": "Inserat deaktivieren",
+    "description": "Möchten Sie wirklich deaktivieren",
+    "confirm": "Deaktivieren",
+    "axios": {
+      "start": {
+        "title": "Inserat wird deaktiviert",
+        "time": 3000
+      },
+      "success": {
+        "title": "Inserat erfolgreich deaktiviert",
+        "time": 3000
+      },
+      "error": {
+        "title": "Inserat konnte nicht deaktiviert werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

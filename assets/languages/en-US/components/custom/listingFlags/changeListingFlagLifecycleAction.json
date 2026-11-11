@@ -1,0 +1,33 @@
+{
+  "path": "src/modules/marketplace/components/custom/listingFlags/changeListingFlagLifecycleAction.tsx",
+  "cancel": "Cancel",
+  "resolutionLabel": "Resolution notes",
+  "resolutionPlaceholder": "Describe how this report was handled (required).",
+  "resolutionHint": "Required. 1–2000 characters.",
+  "listingActionLabel": "Listing action",
+  "listingActionPlaceholder": "Select action",
+  "listingAction_values": {
+    "none": "No action",
+    "deactivate": "Deactivate listing"
+  },
+  "resolve": {
+    "title": "Resolve listing report",
+    "description": "Marks the report as reviewed. Optionally deactivate the listing.",
+    "confirm": "Resolve",
+    "axios": {
+      "start": { "title": "Resolving report", "time": 3000 },
+      "success": { "title": "Report resolved", "time": 3000 },
+      "error": { "title": "Could not resolve report", "time": 3000 }
+    }
+  },
+  "dismiss": {
+    "title": "Dismiss listing report",
+    "description": "Marks the report as dismissed without further listing action.",
+    "confirm": "Dismiss",
+    "axios": {
+      "start": { "title": "Dismissing report", "time": 3000 },
+      "success": { "title": "Report dismissed", "time": 3000 },
+      "error": { "title": "Could not dismiss report", "time": 3000 }
+    }
+  }
+}

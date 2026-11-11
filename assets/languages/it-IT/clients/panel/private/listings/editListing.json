@@ -1,0 +1,98 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossibile aggiornare l'annuncio"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Salvataggio dell'annuncio"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Annuncio aggiornato"
+    }
+  },
+  "editDescription": "Aggiorna i dettagli dell'annuncio.",
+  "editTitle": "Modifica annuncio",
+  "errorDescription": "Impossibile caricare questo annuncio. Riprova.",
+  "errorTitle": "Impossibile caricare l'annuncio",
+  "form": {
+    "_idLabel": "ID record",
+    "addressCityIdLabel": "Città",
+    "addressCityLabel": "Città",
+    "addressCityPlaceholder": "Città",
+    "addressCountryIdLabel": "Paese",
+    "addressCountryLabel": "Paese",
+    "addressCountryPlaceholder": "Paese",
+    "addressStateIdLabel": "Regione/stato",
+    "addressStateLabel": "Regione/stato",
+    "addressStatePlaceholder": "Stato o regione",
+    "categoryLabel": "Categoria",
+    "categoryPlaceholder": "Scegli una categoria",
+    "deliveryDaysLabel": "Tempi di consegna (giorni)",
+    "deliveryDaysPlaceholder": "ad es. 3",
+    "descriptionLabel": "Descrizione",
+    "faqAddRow": "Aggiungi domanda frequente",
+    "faqAnswerLabel": "Risposta",
+    "faqAnswerPlaceholder": "Risposta",
+    "faqQuestionLabel": "Domanda",
+    "faqQuestionPlaceholder": "Domanda",
+    "faqRemoveRow": "Rimuovi domanda frequente",
+    "faqRowTitle": "Domande frequenti",
+    "faqsSectionTitle": "Domande frequenti",
+    "imageGalleryLabel": "Galleria immagini",
+    "listingEditDescription": "Aggiorna le informazioni dell'annuncio visibili agli acquirenti.",
+    "listingEditTitle": "Modifica annuncio",
+    "listingStatus": {
+      "active": "Attivo",
+      "draft": "Bozza",
+      "inactive": "Inattivo"
+    },
+    "mainImageLabel": "Immagine principale",
+    "priceCurrencyIdLabel": "Valuta",
+    "priceCurrencyLabel": "Valuta",
+    "priceCurrencyPlaceholder": "Valuta del negozio se vuoto",
+    "priceLabel": "Prezzo",
+    "providerLabel": "Fornitore",
+    "providerPlaceholder": "Seleziona l'utente che offre questo annuncio",
+    "pricingType": {
+      "fixed": "Prezzo fisso",
+      "hourly": "Tariffa oraria"
+    },
+    "pricingTypeLabel": "Tipo di prezzo",
+    "pricingTypePlaceholder": "Seleziona il tipo di prezzo",
+    "requirementsLabel": "Requisiti",
+    "requirementsPlaceholder": "Aggiungi un requisito e premi Invio",
+    "requirementsRemoveTooltip": "Rimuovi requisito",
+    "section": {
+      "general": "Generale",
+      "images": "Immagini",
+      "location": "Posizione",
+      "video": "Video",
+      "pricing": "Prezzi",
+      "details": "Dettagli"
+    },
+    "statusLabel": "Stato",
+    "statusPlaceholder": "Seleziona lo stato",
+    "tagsLabel": "Tag",
+    "tagsPlaceholder": "Digita un tag e premi Invio",
+    "tagsRemoveTooltip": "Rimuovi tag",
+    "tagsSectionTitle": "Tag",
+    "titleLabel": "Titolo",
+    "titlePlaceholder": "Titolo dell'annuncio",
+    "videoGalleryLabel": "Galleria video",
+    "pricePlaceholder": "es. 150",
+    "descriptionPlaceholder": "Cosa riceve l'acquirente, come e quando"
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Salva modifiche"
+  },
+  "formHeader": {
+    "description": "Aggiorna i dettagli dell'annuncio.",
+    "title": "Modifica annuncio"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/listings/editListing.tsx",
+  "title": "Titolo"
+}

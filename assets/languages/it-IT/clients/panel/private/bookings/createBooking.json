@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/createBooking.tsx",
+  "formHeader": {
+    "title": "Crea prenotazione",
+    "description": "Pianifica una prenotazione del servizio per un ordine."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Crea prenotazione"
+  },
+  "form": {
+    "orderLabel": "Ordine",
+    "orderPlaceholder": "Seleziona l'ordine",
+    "startAtLabel": "Ora di inizio",
+    "endAtLabel": "Ora di fine",
+    "section": {
+      "order": "Ordine",
+      "schedule": "Quando"
+    },
+    "providerHoursHint": "Gli orari sono nel tuo fuso orario. La prenotazione deve cadere negli orari di lavoro del fornitore."
+  },
+  "axios": {
+    "start": {
+      "title": "Creazione della prenotazione",
+      "time": 3000
+    },
+    "success": {
+      "title": "Prenotazione creata",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile creare la prenotazione",
+      "time": 3000
+    }
+  }
+}

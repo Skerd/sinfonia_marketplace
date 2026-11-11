@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
+  "title": "Inseratkategorien",
+  "description": "Organisieren Sie den Marktplatz-Katalog in einer Eltern-/Kind-Kategoriestruktur für Inserate und Auftragsanfragen.",
+  "help": {
+    "ariaLabel": "Über Inserat-Kategorien",
+    "title": "Über Inserat-Kategorien",
+    "overview": "Inseratkategorien sind der eigene Baum des Marktplatzes, getrennt von den Produktkategorien. Inserate und Aufträge wählen je eine. Käufer stöbern danach, und Anbieter werden neuen Aufträgen nach Kategorie und Ort zugeordnet.",
+    "sections": [
+      {
+        "title": "Der Baum",
+        "items": [
+          "Name ist Pflicht. Übergeordnet ist optional; leer lassen für eine oberste Kategorie. Eine Kategorie kann nicht unter sich selbst oder einem ihrer Nachfahren stehen.",
+          "Reihenfolge sortiert Geschwister, kleinere zuerst; Listen sortieren nach Reihenfolge, dann Name.",
+          "Der Slug wird beim Anlegen erzeugt und ist in der Firma eindeutig."
+        ]
+      },
+      {
+        "title": "Wie der Marktplatz sie nutzt",
+        "items": [
+          "Jedes Inserat und jeder Auftrag hat eine Kategorie.",
+          "Wird ein Auftrag veröffentlicht oder erneut angekündigt, werden Anbieter mit einem aktiven Inserat in derselben Kategorie und am selben Ort benachrichtigt.",
+          "Die Dienstleistungsmenüs und Filter des Shops werden aus diesem Baum gebaut.",
+          "Löschen ist ein Soft Delete und kann wiederhergestellt werden. Weisen Sie Inserate neu zu, bevor Sie eine noch genutzte Kategorie löschen."
+        ]
+      }
+    ]
+  },
+  "createCategory": "Inseratkategorie erstellen",
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "order": "Auftrag",
+    "parentListingCategory": "Übergeordnete Kategorie",
+    "createdBy": "Erstellt von",
+    "deletedAt": "Gelöscht",
+    "deletedBy": "Gelöscht von"
+  },
+  "searchPlaceholder": "Suchen oder Filter hinzufügen..."
+}

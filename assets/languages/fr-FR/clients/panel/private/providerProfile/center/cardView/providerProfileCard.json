@@ -1,0 +1,15 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/center/cardView/providerProfileCard.tsx",
+  "failedTitle": "Échec du chargement du profil du prestataire",
+  "failedDescription": "Touchez pour réessayer.",
+  "provider": "Prestataire",
+  "bio": "Biographie",
+  "skills": "Compétences",
+  "rating": "Note",
+  "connect": {
+    "notConnected": "Versements non connectés",
+    "setupIncomplete": "Configuration de Stripe incomplète",
+    "payoutsEnabled": "Versements activés"
+  },
+  "payouts": "Versements"
+}

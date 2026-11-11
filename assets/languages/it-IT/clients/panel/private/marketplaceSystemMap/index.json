@@ -1,0 +1,58 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/marketplaceSystemMap/index.tsx",
+  "title": "Mappa di sistema del marketplace",
+  "description": "Mappa interattiva dei modelli del marketplace, dei flussi di annunci/offerte, del ponte di deposito a garanzia e delle funzionalità. Sposta, ingrandisci e fai clic sui nodi per i dettagli.",
+  "help": {
+    "ariaLabel": "Informazioni sulla mappa di sistema del marketplace",
+    "title": "Informazioni sulla mappa di sistema del marketplace",
+    "overview": "Questa mappa è un’immagine in sola lettura del marketplace dei servizi: i suoi modelli, come lavoro e denaro si muovono tra cliente e fornitore, e ciò che il modulo offre. Non modifica dati.",
+    "sections": [
+      {
+        "title": "Grafo dei modelli",
+        "items": [
+          "Annunci con pacchetti, componenti aggiuntivi, segnalazioni e promozioni; richieste di attività e offerte; ordini con consegne, milestone, revisioni, prenotazioni, controversie e recensioni; profili fornitore; e il registro del deposito della finanza.",
+          "Clicca un nodo per descrizione, campi chiave, percorso API, azioni e pagina del pannello."
+        ]
+      },
+      {
+        "title": "Come funziona",
+        "items": [
+          "«Acquista un annuncio» e «attività → offerta → ordine» mostrano come inizia un ordine.",
+          "Ciclo di vita dell’ordine (consegne, revisioni, milestone, accettazione automatica dopo 3 giorni, rilascio meno la commissione) e controversie → rimborso mostrano come finisce.",
+          "Moderazione e promozione copre segnalazioni e promozioni; l’onboarding del fornitore copre la configurazione del profilo e i pagamenti Stripe Connect."
+        ]
+      },
+      {
+        "title": "Funzionalità",
+        "items": [
+          "Cosa supporta oggi il marketplace, le sue aree API, i processi pianificati e le rotte del negozio.",
+          "Il lavoro quotidiano si fa nelle pagine Marketplace; usa la mappa per formare il personale o pianificare i permessi."
+        ]
+      }
+    ]
+  },
+  "tabs": {
+    "models": "Grafo dei modelli",
+    "flows": "Come funziona",
+    "capabilities": "Funzionalità"
+  },
+  "nodes": {
+    "ListingCategory": "Categoria di annunci",
+    "ProviderProfile": "Profilo fornitore",
+    "Listing": "Annuncio",
+    "ListingPackage": "Pacchetto dell'annuncio",
+    "ListingAddOn": "Componente aggiuntivo dell'annuncio",
+    "ListingFlag": "Segnalazione dell'annuncio",
+    "Promotion": "Promozione",
+    "TaskRequest": "Richiesta di attività",
+    "Bid": "Offerta",
+    "MarketplaceOrder": "Ordine",
+    "Booking": "Prenotazione",
+    "Dispute": "Controversia",
+    "Review": "Recensione",
+    "EscrowTransaction": "Transazione di deposito a garanzia",
+    "OrderMilestone": "Traguardo dell'ordine",
+    "OrderDelivery": "Consegna dell'ordine",
+    "OrderRevision": "Revisione dell'ordine"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/center/cardView/listingAddOnCard.tsx",
+  "failedTitle": "Impossibile caricare il componente aggiuntivo dell'annuncio",
+  "failedDescription": "Tocca per riprovare.",
+  "name": "Nome",
+  "listing": "Annuncio",
+  "priceAmount": "Prezzo",
+  "deliveryDays": "Giorni di consegna",
+  "days": "d",
+  "provider": "Fornitore"
+}

@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/serviceOrders/index.tsx",
+  "title": "Commandes de services",
+  "browse": "Parcourir les services",
+  "filterLabel": "Filtrer par statut",
+  "allStatuses": "Toutes",
+  "statusFilter": {
+    "pending": "En attente du prestataire",
+    "accepted": "Acceptées",
+    "in_progress": "En cours",
+    "completed": "Terminées",
+    "cancelled": "Annulées"
+  },
+  "loading": "Chargement des commandes",
+  "emptyTitle": "Aucune commande de service",
+  "emptyMessage": "Quand vous commandez un service, il apparaît ici avec chaque mise à jour du prestataire.",
+  "emptyFiltered": "Aucune commande avec ce statut.",
+  "dueOn": "Échéance {date}",
+  "deliveryWaiting": "Une livraison attend votre validation",
+  "pagination": "Pages",
+  "previousPage": "Page précédente",
+  "nextPage": "Page suivante",
+  "pageOf": "Page {page} sur {total}"
+}

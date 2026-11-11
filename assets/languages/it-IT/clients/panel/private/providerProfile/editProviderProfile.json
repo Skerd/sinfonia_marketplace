@@ -1,0 +1,67 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/editProviderProfile.tsx",
+  "editTitle": "Modifica profilo fornitore",
+  "editDescription": "Aggiorna competenze, biografia, portfolio e disponibilità settimanale per questo fornitore.",
+  "errorTitle": "Impossibile caricare il profilo del fornitore",
+  "errorDescription": "Controlla il collegamento o torna all'elenco e riprova.",
+  "formHeader": {
+    "title": "Modifica profilo fornitore",
+    "description": "Aggiorna competenze, biografia, portfolio e disponibilità."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Salva modifiche"
+  },
+  "form": {
+    "skillsLabel": "Competenze",
+    "skillsPlaceholder": "es. idraulica, impianti elettrici...",
+    "skillsRemoveTooltip": "Rimuovi competenza",
+    "bioLabel": "Biografia",
+    "bioPlaceholder": "Racconta di te ai clienti...",
+    "portfolioLabel": "Immagini del portfolio",
+    "timezoneLabel": "Fuso orario",
+    "timezonePlaceholder": "Fuso orario dell'azienda se vuoto",
+    "section": {
+      "profile": "Profilo",
+      "availability": "Disponibilità settimanale",
+      "portfolio": "Portfolio"
+    },
+    "availabilityAddRow": "Aggiungi finestra temporale",
+    "availabilityRemoveRow": "Rimuovi",
+    "availabilityRowTitle": "Finestra di disponibilità",
+    "dayOfWeekLabel": "Giorno della settimana",
+    "startTimeLabel": "Ora di inizio",
+    "startTimePlaceholder": "Scegli l'ora di inizio",
+    "endTimeLabel": "Ora di fine",
+    "endTimePlaceholder": "Scegli l'ora di fine"
+  },
+  "weekday": {
+    "0": "Domenica",
+    "1": "Lunedì",
+    "2": "Martedì",
+    "3": "Mercoledì",
+    "4": "Giovedì",
+    "5": "Venerdì",
+    "6": "Sabato"
+  },
+  "axios": {
+    "start": {
+      "title": "Salvataggio del profilo",
+      "time": 3000
+    },
+    "success": {
+      "title": "Profilo aggiornato",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile aggiornare il profilo",
+      "time": 3000
+    }
+  },
+  "account": {
+    "edit": "Modifica",
+    "empty": "Ancora nulla di aggiunto.",
+    "timezoneDefault": "Non impostato: vale il fuso orario dell'azienda.",
+    "notAvailable": "Non disponibile"
+  }
+}

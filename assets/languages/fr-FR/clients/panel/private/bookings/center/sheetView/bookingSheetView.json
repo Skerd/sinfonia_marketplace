@@ -1,0 +1,26 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/sheetView/bookingSheetView.tsx",
+  "failedTitle": "Échec du chargement de la réservation",
+  "failedDescription": "Une erreur s'est produite lors du chargement de cette réservation. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "bookingSubtitle": "Réservation",
+  "overview": "Vue d'ensemble",
+  "order": "Commande",
+  "provider": "Prestataire",
+  "startAt": "Heure de début",
+  "endAt": "Heure de fin",
+  "timezone": "Fuseau horaire",
+  "createdAt": "Créé",
+  "lifecycle": "Cycle de vie",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par",
+  "orderStatus": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "in_progress": "En cours",
+    "completed": "Terminé",
+    "cancelled": "Annulé"
+  }
+}

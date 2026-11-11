@@ -1,0 +1,11 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/center/cardView/listingAddOnCard.tsx",
+  "failedTitle": "Inserat-Zusatzleistung konnte nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "name": "Name",
+  "listing": "Inserat",
+  "priceAmount": "Preis",
+  "deliveryDays": "Liefertage",
+  "days": "d",
+  "provider": "Anbieter"
+}

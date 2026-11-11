@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/cardView/listingFlagCard.tsx",
+  "failedTitle": "Impossibile caricare la segnalazione dell'annuncio",
+  "failedDescription": "Tocca per riprovare.",
+  "listing": "Annuncio",
+  "reason": "Motivo",
+  "reporter": "Segnalatore",
+  "status": "Stato",
+  "status_values": {
+    "pending": "In sospeso",
+    "reviewed": "Esaminata",
+    "dismissed": "Respinta"
+  },
+  "reason_values": {
+    "inappropriate": "Contenuti inappropriati",
+    "spam": "Spam",
+    "misleading": "Fuorviante",
+    "other": "Altro"
+  },
+  "reportedAt": "Segnalato il"
+}

@@ -1,0 +1,42 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestStatusConfirmAction.tsx",
+  "close": {
+    "title": "Diese Ausschreibung schliessen?",
+    "description": "Anbieter können keine neuen Offerten mehr abgeben. Sie können die Ausschreibung später wieder öffnen, sofern sie nicht vergeben wurde.",
+    "confirm": "Bestätigen",
+    "axios": {
+      "start": {
+        "title": "Ausschreibung wird geschlossen",
+        "time": 3000
+      },
+      "success": {
+        "title": "Ausschreibung erfolgreich geschlossen",
+        "time": 3000
+      },
+      "error": {
+        "title": "Ausschreibung konnte nicht geschlossen werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "reopen": {
+    "title": "Diese Ausschreibung wieder öffnen?",
+    "description": "Die Ausschreibung wird wieder geöffnet, damit Anbieter Offerten einreichen können.",
+    "confirm": "Bestätigen",
+    "axios": {
+      "start": {
+        "title": "Ausschreibung wird wieder geöffnet",
+        "time": 3000
+      },
+      "success": {
+        "title": "Ausschreibung erfolgreich wieder geöffnet",
+        "time": 3000
+      },
+      "error": {
+        "title": "Ausschreibung konnte nicht wieder geöffnet werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

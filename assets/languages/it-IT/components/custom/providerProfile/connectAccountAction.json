@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/components/custom/providerProfile/connectAccountAction.tsx",
+  "cancel": "Annulla",
+  "createAccountLink": {
+    "title": "Collega i pagamenti Stripe",
+    "description": "Verrai reindirizzato a Stripe per configurare (o completare) i pagamenti Express di questo profilo fornitore. I fondi in garanzia possono esserti versati solo dopo il completamento dell'onboarding.",
+    "confirm": "Apri Stripe",
+    "axios": {
+      "start": {
+        "title": "Creazione del collegamento Stripe…"
+      },
+      "success": {
+        "title": "Collegamento di onboarding Stripe pronto"
+      },
+      "error": {
+        "title": "Impossibile creare il collegamento di onboarding Stripe"
+      }
+    }
+  },
+  "refreshAccountStatus": {
+    "title": "Aggiorna lo stato di Stripe",
+    "description": "Ottieni lo stato più recente dell'account Connect da Stripe e aggiorna l'idoneità ad addebiti/pagamenti su questo profilo.",
+    "confirm": "Aggiorna stato",
+    "axios": {
+      "start": {
+        "title": "Aggiornamento dello stato di Stripe…"
+      },
+      "success": {
+        "title": "Stato di Stripe aggiornato"
+      },
+      "error": {
+        "title": "Impossibile aggiornare lo stato di Stripe"
+      }
+    }
+  }
+}

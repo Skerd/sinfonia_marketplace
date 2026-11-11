@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/center/sheetView/promotionSheetView.tsx",
+  "failedTitle": "Dështoi ngarkimi i promovimit",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të promovimit. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "overview": "Përmbledhje",
+  "lifecycle": "Cikli i jetës",
+  "promotion": "Promovim",
+  "name": "Emri",
+  "listing": "Listimi",
+  "type": "Lloji",
+  "lifecycleStatus": "Statusi i ciklit",
+  "startAt": "Data e fillimit",
+  "endAt": "Data e mbarimit",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "stopReasonSection": "Arsyeja e ndalimit",
+  "stopReason": "Arsyeja",
+  "type_values": {
+    "featured": "I veçuar",
+    "sponsored": "I sponsorizuar"
+  },
+  "lifecycleStatuses": {
+    "active": "Aktive",
+    "paused": "Në pauzë",
+    "stopped": "E ndalur"
+  },
+  "listingStatus": {
+    "draft": "Skicë",
+    "active": "Aktiv",
+    "inactive": "Joaktiv"
+  }
+}

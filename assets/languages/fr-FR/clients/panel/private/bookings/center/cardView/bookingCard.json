@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/cardView/bookingCard.tsx",
+  "failedTitle": "Échec du chargement de la réservation",
+  "failedDescription": "Touchez pour réessayer.",
+  "provider": "Prestataire",
+  "startAt": "Début",
+  "endAt": "Fin",
+  "timezone": "Fuseau horaire",
+  "order": "Commande",
+  "time": "Heure",
+  "orderStatus": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "in_progress": "En cours",
+    "completed": "Terminé",
+    "cancelled": "Annulé"
+  }
+}

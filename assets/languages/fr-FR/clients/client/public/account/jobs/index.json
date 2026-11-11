@@ -1,0 +1,16 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/account/jobs/index.tsx",
+  "title": "Mes demandes",
+  "lead": "Décrivez votre besoin et les prestataires vous envoient des offres.",
+  "postJob": "Publier une demande",
+  "loading": "Chargement des demandes",
+  "emptyTitle": "Aucune demande publiée",
+  "emptyMessage": "Publiez une demande avec votre budget et votre lieu, puis comparez les offres des prestataires.",
+  "expiresOn": "Ouverte jusqu'au {date}",
+  "bidCount": "{count} offres",
+  "bidCountOne": "1 offre",
+  "pagination": "Pages",
+  "previousPage": "Page précédente",
+  "nextPage": "Page suivante",
+  "pageOf": "Page {page} sur {total}"
+}

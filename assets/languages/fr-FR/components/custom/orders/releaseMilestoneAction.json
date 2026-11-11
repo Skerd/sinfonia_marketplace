@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/releaseMilestoneAction.tsx",
+  "title": "Libérer une étape",
+  "description": "Versez cette étape au prestataire depuis le séquestre de la commande. Cette action est irréversible.",
+  "milestoneLabel": "Étape",
+  "milestonePlaceholder": "Choisir une étape",
+  "confirm": "Libérer le paiement",
+  "cancel": "Annuler",
+  "axios": {
+    "start": {
+      "title": "Libération de l'étape",
+      "time": 3000
+    },
+    "success": {
+      "title": "Étape libérée",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossible de libérer l'étape, veuillez réessayer",
+      "time": 3000
+    }
+  }
+}

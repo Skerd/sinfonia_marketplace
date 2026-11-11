@@ -1,0 +1,22 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orderRevisions/center/sheetView/orderRevisionSheetView.tsx",
+  "failedTitle": "Laden fehlgeschlagen",
+  "failedDescription": "Beim Laden ist ein Fehler aufgetreten. Klicken Sie, um es erneut zu versuchen.",
+  "failedTooltipDescription": "Klicken Sie, um die Daten erneut zu laden.",
+  "overview": "Übersicht",
+  "lifecycle": "Lebenszyklus",
+  "createdAt": "Erstellt am",
+  "updatedAt": "Aktualisiert am",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht am",
+  "deletedBy": "Gelöscht von",
+  "order": "Auftrag",
+  "status": "Status",
+  "orderRevisionSubtitle": "Überarbeitungsanfrage",
+  "requestedBy": "Angefordert von",
+  "reason": "Begründung",
+  "orderRevisionStatus": {
+    "pending": "Ausstehend",
+    "completed": "Beantwortet"
+  }
+}

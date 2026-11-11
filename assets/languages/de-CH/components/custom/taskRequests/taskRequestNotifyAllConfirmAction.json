@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskRequests/taskRequestNotifyAllConfirmAction.tsx",
+  "notifyAll": {
+    "title": "Alle Anbieter benachrichtigen?",
+    "description": "Senden Sie eine Benachrichtigung an Anbieter mit aktiven Inseraten in dieser Kategorie und diesem Ort.",
+    "confirm": "Alle benachrichtigen",
+    "axios": {
+      "start": {
+        "title": "Benachrichtigungen werden gesendet",
+        "time": 3000
+      },
+      "success": {
+        "title": "Anbieter erfolgreich benachrichtigt",
+        "time": 3000
+      },
+      "error": {
+        "title": "Anbieter konnten nicht benachrichtigt werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

@@ -1,0 +1,4 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/settings/index.tsx",
+  "loadError": "Les paramètres de la place de marché n'ont pas pu être ouverts. Ajoutez d'abord une devise, puis réessayez."
+}

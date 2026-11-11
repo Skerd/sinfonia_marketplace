@@ -1,0 +1,20 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listings/center/cardView/listingCard.tsx",
+  "failedTitle": "Inserat konnten nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "name": "Name",
+  "title": "Bezeichnung",
+  "status": "Status",
+  "price": "Preis",
+  "category": "Kategorie",
+  "city": "Ort",
+  "perHour": "h",
+  "days": "d",
+  "featured": "Hervorgehoben",
+  "sponsored": "Gesponsert",
+  "statuses": {
+    "active": "Aktiv",
+    "draft": "Entwurf",
+    "inactive": "Inaktiv"
+  }
+}

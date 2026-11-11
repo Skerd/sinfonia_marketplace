@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bookings/center/cardView/bookingCard.tsx",
+  "failedTitle": "Failed to load booking",
+  "failedDescription": "Tap to retry.",
+  "provider": "Provider",
+  "startAt": "Start",
+  "endAt": "End",
+  "timezone": "Timezone",
+  "order": "Order",
+  "time": "Time",
+  "orderStatus": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  }
+}

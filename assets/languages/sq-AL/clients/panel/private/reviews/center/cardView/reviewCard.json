@@ -1,0 +1,11 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/center/cardView/reviewCard.tsx",
+  "failedTitle": "Ngarkimi i vlerësimit dështoi",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "rating": "Vlerësimi",
+  "comment": "Komenti",
+  "reviewer": "Vlerësuesi",
+  "order": "Porosia",
+  "listing": "Listimi",
+  "reviewedAt": "Vlerësuar më"
+}

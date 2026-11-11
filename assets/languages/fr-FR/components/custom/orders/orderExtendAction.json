@@ -1,0 +1,28 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/orderExtendAction.tsx",
+  "extend": {
+    "title": "Prolonger la date de livraison",
+    "description": "Ajoutez des jours supplémentaires à la date d'échéance de livraison. Seul le prestataire peut prolonger une commande active.",
+    "additionalDaysLabel": "Jours supplémentaires",
+    "additionalDaysHint": "Saisissez une valeur comprise entre 1 et 90 jours.",
+    "confirm": "Prolonger la livraison",
+    "axios": {
+      "start": {
+        "title": "Prolongation de la commande",
+        "time": 3000
+      },
+      "success": {
+        "title": "Commande prolongée avec succès",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de prolonger la commande, veuillez réessayer",
+        "time": 3000
+      }
+    },
+    "currentDueDateLabel": "Échéance actuelle",
+    "newDueDateLabel": "Nouvelle échéance",
+    "noDueDate": "Non définie"
+  },
+  "cancel": "Annuler"
+}

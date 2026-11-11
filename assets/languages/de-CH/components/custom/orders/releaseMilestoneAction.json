@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/orders/releaseMilestoneAction.tsx",
+  "title": "Meilenstein freigeben",
+  "description": "Zahlen Sie diesen Meilenstein aus dem Treuhandbetrag des Auftrags an den Anbieter aus. Dies kann nicht rückgängig gemacht werden.",
+  "milestoneLabel": "Meilenstein",
+  "milestonePlaceholder": "Meilenstein wählen",
+  "confirm": "Zahlung freigeben",
+  "cancel": "Abbrechen",
+  "axios": {
+    "start": {
+      "title": "Meilenstein wird freigegeben",
+      "time": 3000
+    },
+    "success": {
+      "title": "Meilenstein freigegeben",
+      "time": 3000
+    },
+    "error": {
+      "title": "Meilenstein konnte nicht freigegeben werden, bitte erneut versuchen",
+      "time": 3000
+    }
+  }
+}

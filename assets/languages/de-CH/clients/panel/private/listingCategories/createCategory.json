@@ -1,0 +1,37 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/createCategory.tsx",
+  "form": {
+    "nameLabel": "Name",
+    "namePlaceholder": "z. B. Hausreinigung",
+    "parentListingCategoryLabel": "Übergeordnete Kategorie",
+    "parentListingCategoryPlaceholder": "Oberste Ebene, wenn leer",
+    "orderLabel": "Sortierreihenfolge",
+    "orderPlaceholder": "0",
+    "createCategoryTitle": "Inseratkategorie erstellen",
+    "createCategoryDescription": "Fügen Sie eine Kategorie hinzu, die Inserate und Auftragsanfragen des Marktplatzes gruppiert.",
+    "basicsSectionTitle": "Grunddaten",
+    "visibilitySectionTitle": "Sichtbarkeit"
+  },
+  "axios": {
+    "start": {
+      "title": "Inseratkategorie wird erstellt",
+      "time": 3000
+    },
+    "success": {
+      "title": "Inseratkategorie erstellt",
+      "time": 3000
+    },
+    "error": {
+      "title": "Inseratkategorie konnte nicht erstellt werden",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Inseratkategorie erstellen",
+    "description": "Fügen Sie eine Kategorie hinzu, die Inserate und Auftragsanfragen des Marktplatzes gruppiert."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Inseratkategorie erstellen"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/center/cardView/categoryCard.tsx",
+  "failedTitle": "Inseratkategorie konnte nicht geladen werden",
+  "failedDescription": "Zum erneuten Versuch tippen.",
+  "name": "Name",
+  "slug": "Slug",
+  "parentListingCategory": "Übergeordnete Kategorie",
+  "order": "Auftrag"
+}

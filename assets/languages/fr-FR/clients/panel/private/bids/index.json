@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/bids/index.tsx",
+  "title": "Offres",
+  "description": "Affichez et gérez les offres sur les demandes de devis.",
+  "help": {
+    "ariaLabel": "À propos des offres",
+    "title": "À propos des offres",
+    "overview": "Une offre est le devis d’un prestataire sur une demande de devis : montant, jours de livraison et une proposition écrite. Le demandeur accepte une offre, ce qui attribue la tâche et ouvre une commande.",
+    "sections": [
+      {
+        "title": "Faire une offre",
+        "items": [
+          "La demande de devis doit être ouverte, non expirée et appartenir à quelqu’un d’autre.",
+          "Une offre active par prestataire et par demande. L’auteur et la devise sont fixés par le serveur, à partir de l’appelant et de la demande.",
+          "Une offre n’est pas modifiée après envoi ; retirez-la et faites-en une nouvelle."
+        ]
+      },
+      {
+        "title": "Statuts et actions",
+        "body": "Seule une offre en attente peut être acceptée ou rejetée.",
+        "items": [
+          "Accepter (demandeur seulement) : cette offre devient acceptée, toute autre offre en attente sur la demande est rejetée, la demande est attribuée et une commande en attente est ouverte avec le montant de l’offre et une échéance tirée de ses jours de livraison. Les prestataires sont prévenus.",
+          "Rejeter : le demandeur la décline, ou le prestataire la retire. Seul un prestataire décliné est prévenu."
+        ]
+      },
+      {
+        "title": "Qui voit quoi",
+        "body": "Les offres sont privées entre le prestataire et le demandeur.",
+        "items": [
+          "Un non-administrateur voit ses propres offres et celles faites sur ses propres demandes, jamais celles d’un concurrent.",
+          "L’auteur, ou un administrateur, peut supprimer une offre tant qu’elle est en attente."
+        ]
+      }
+    ]
+  },
+  "createBid": "Créer une offre",
+  "fields": {
+    "amount": "Montant",
+    "currency": "Devise",
+    "proposal": "Proposition",
+    "deliveryDays": "Jours de livraison",
+    "status": "Statut",
+    "bidder": "Soumissionnaire",
+    "taskRequest": "Demande de devis",
+    "createdAt": "Créé",
+    "!enums": {
+      "status": {
+        "pending": "En attente",
+        "accepted": "Accepté",
+        "rejected": "Rejeté"
+      }
+    }
+  },
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "status": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "rejected": "Rejeté"
+  },
+  "accept": "Accepter",
+  "reject": "Rejeter / Retirer"
+}

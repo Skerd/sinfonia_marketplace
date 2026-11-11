@@ -1,0 +1,62 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/center/sheetView/taskRequestSheetView.tsx",
+  "taskRequest": "Kërkesa për ofertë",
+  "overview": "Përmbledhje",
+  "lifecycle": "Cikli i jetës",
+  "description": "Përshkrimi",
+  "section": {
+    "generalInfo": "Përmbledhje",
+    "description": "Përshkrimi",
+    "media": "Galeria"
+  },
+  "status": "Statusi",
+  "name": "Emri",
+  "title": "Titulli",
+  "category": "Kategoria",
+  "requester": "Kërkuesi",
+  "budgetMin": "Buxheti (min)",
+  "budgetMax": "Buxheti (max)",
+  "currency": "Monedha",
+  "address": "Adresa",
+  "country": "Shteti",
+  "state": "Rajoni",
+  "city": "Qyteti",
+  "street": "Rruga",
+  "postalCode": "Kodi postar",
+  "latitude": "Gjerësia gjeografike",
+  "longitude": "Gjatësia gjeografike",
+  "expiresAt": "Skadon",
+  "gallery": "Galeria",
+  "createdAt": "Krijuar më",
+  "updatedAt": "Përditësuar më",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë më",
+  "deletedBy": "Fshirë nga",
+  "failedTitle": "Dështoi ngarkimi i kërkesës për ofertë",
+  "failedDescription": "Diçka shkoi keq gjatë ngarkimit të kërkesës. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të provuar përsëri marrjen e të dhënave.",
+  "taskRequestStatus": {
+    "open": "Hapur",
+    "closed": "Mbyllur",
+    "awarded": "E dhënë"
+  },
+  "bidsGroup": "Ofertat",
+  "ordersGroup": "Porosia",
+  "bidRow": "Oferta",
+  "orderRow": "Porosia",
+  "bidStatus": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "rejected": "Refuzuar"
+  },
+  "orderStatus": {
+    "pending": "Në pritje",
+    "accepted": "Pranuar",
+    "in_progress": "Në progres",
+    "completed": "Përfunduar",
+    "cancelled": "Anuluar"
+  },
+  "compactView": "Kompakt",
+  "cardsView": "Karta",
+  "toggleReferenceListView": "Ndrysho pamjen"
+}

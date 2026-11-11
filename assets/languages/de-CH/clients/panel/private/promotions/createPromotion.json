@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/createPromotion.tsx",
+  "formHeader": {
+    "title": "Promotion erstellen",
+    "description": "Erhöhen Sie die Sichtbarkeit eines Inserats mit einer hervorgehobenen oder gesponserten Promotion."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Promotion erstellen"
+  },
+  "form": {
+    "listingLabel": "Inserat",
+    "listingPlaceholder": "Inserat auswählen",
+    "typeLabel": "Promotionstyp",
+    "promotionTypeLabel": "Promotionstyp",
+    "promotionTypePlaceholder": "Promotionstyp auswählen",
+    "promotionTypeFeatured": "Hervorgehoben",
+    "promotionTypeSponsored": "Gesponsert",
+    "startAtLabel": "Startdatum & -zeit",
+    "startAtPlaceholder": "Beginn der Promotion",
+    "endAtLabel": "Enddatum & -zeit",
+    "endAtPlaceholder": "Ende der Promotion",
+    "promotionSectionTitle": "Promotion",
+    "scheduleSectionTitle": "Zeitraum"
+  },
+  "axios": {
+    "start": {
+      "title": "Promotion wird erstellt",
+      "time": 3000
+    },
+    "success": {
+      "title": "Promotion erstellt",
+      "time": 3000
+    },
+    "error": {
+      "title": "Promotion konnte nicht erstellt werden",
+      "time": 3000
+    }
+  }
+}

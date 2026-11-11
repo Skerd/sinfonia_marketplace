@@ -1,0 +1,87 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/index.tsx",
+  "title": "Commandes",
+  "description": "Gérez les commandes de services entre clients et prestataires.",
+  "help": {
+    "ariaLabel": "À propos des commandes",
+    "title": "À propos des commandes",
+    "overview": "Une commande de la place de marché est une mission de service entre un client et un prestataire, dont le prix est conservé en séquestre jusqu’à l’acceptation du travail. Elle naît d’une annonce active ou d’une offre acceptée. Chaque étape est une action avec des règles sur qui peut la faire et quand ; le statut n’est jamais modifié directement.",
+    "sections": [
+      {
+        "title": "Statuts",
+        "items": [
+          "En attente : créée, attend que le prestataire accepte.",
+          "Acceptée : le prestataire a pris la mission ; le montant de la commande est conservé en séquestre.",
+          "En cours : le prestataire a commencé ; livraisons, révisions et libérations d’étapes ont lieu ici.",
+          "Terminée : le travail a été accepté et le reste du séquestre versé.",
+          "Annulée : arrêtée avant la fin ; ce qui était encore conservé a été remboursé."
+        ]
+      },
+      {
+        "title": "Actions du prestataire",
+        "items": [
+          "Accepter (depuis en attente) inscrit le blocage en séquestre du montant de la commande dans le registre financier ; si les paiements par carte sont configurés, un paiement de ce montant est ouvert auprès de la passerelle.",
+          "Démarrer (depuis acceptée) passe la commande en cours.",
+          "Soumettre une livraison (en cours) envoie un message et des fichiers. Une seule livraison peut attendre une réponse à la fois, et une nouvelle répond à une demande de révision ouverte.",
+          "Prolonger ajoute des jours à l’échéance à tout moment avant que la commande soit finale ; le client est prévenu."
+        ]
+      },
+      {
+        "title": "Actions du client",
+        "items": [
+          "Accepter la livraison termine la commande et libère au prestataire ce qui est encore conservé, moins les 10 % de frais de plateforme. Bloqué tant qu’un litige est ouvert.",
+          "Demander une révision renvoie la livraison en attente avec un motif. Au plus 3 révisions par commande.",
+          "Si le client ne répond pas à une livraison pendant 3 jours, une tâche horaire l’accepte pour lui, sauf si un litige est ouvert.",
+          "Les étapes répartissent le montant conservé : le client les crée (jamais plus que le montant de la commande au total) et les libère une par une pendant le travail. Libérer la dernière quand plus rien n’est conservé termine la commande."
+        ]
+      },
+      {
+        "title": "Annulation et litiges",
+        "items": [
+          "Le prestataire peut annuler à tout moment avant que la commande soit finale ; le client seulement avant le début du travail. Ensuite, un désaccord passe par un litige.",
+          "Personne ne peut annuler tant qu’un litige est ouvert. Annuler rembourse tout ce qui est encore conservé.",
+          "Un litige tranché pour le prestataire termine la commande et verse ; tranché pour le client, il annule et rembourse."
+        ]
+      },
+      {
+        "title": "Argent et fiches",
+        "body": "Libérations et remboursements ne peuvent verser que ce qui est encore conservé, donc étapes, acceptation, litiges et annulation ensemble ne dépassent jamais le blocage.",
+        "items": [
+          "Chaque libération est versée sur le compte Stripe connecté du prestataire s’il en a un ; la libération est inscrite au registre dans tous les cas.",
+          "La fiche de commande montre ses livraisons, étapes et révisions. Réservations, litiges et avis sont aussi rattachés à la commande.",
+          "Les non-administrateurs ne voient que les commandes auxquelles ils participent. Seul un administrateur peut supprimer une commande, et seulement une fois finale."
+        ]
+      }
+    ]
+  },
+  "createOrder": "Créer une commande",
+  "fields": {
+    "status": "Statut",
+    "customer": "Client",
+    "provider": "Prestataire",
+    "amount": "Montant",
+    "currency": "Devise",
+    "deliveryDueDate": "Date d’échéance",
+    "createdAt": "Créé",
+    "deletedAt": "Supprimé",
+    "deletedBy": "Supprimé par",
+    "!enums": {
+      "status": {
+        "pending": "En attente",
+        "accepted": "Accepté",
+        "in_progress": "En cours",
+        "completed": "Terminé",
+        "cancelled": "Annulé"
+      }
+    }
+  },
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "status": {
+    "pending": "En attente",
+    "in_progress": "En cours",
+    "submitted": "Soumis",
+    "completed": "Terminé",
+    "cancelled": "Annulé",
+    "disputed": "Contesté"
+  }
+}

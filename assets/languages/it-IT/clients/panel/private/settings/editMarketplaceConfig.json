@@ -1,0 +1,12 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/settings/editMarketplaceConfig.tsx",
+  "title": "Impostazioni del marketplace",
+  "description": "Valgono per il marketplace dei servizi di questa azienda.",
+  "form": {
+    "settingsSectionTitle": "Marketplace",
+    "listedOnPortalLabel": "Mostra sul portale",
+    "listedOnPortalPlaceholder": "",
+    "currencyLabel": "Valuta",
+    "currencyPlaceholder": "Seleziona valuta"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/index.tsx",
+  "title": "Listing add-ons",
+  "description": "Manage optional add-ons that providers attach to their listings.",
+  "help": {
+    "ariaLabel": "About Listing add-ons",
+    "title": "About Listing add-ons",
+    "overview": "An add-on is an optional extra a buyer can attach when ordering a listing, such as express delivery or an extra revision. It belongs to one listing and adds its own price and, optionally, extra delivery days.",
+    "sections": [
+      {
+        "title": "Fields",
+        "items": [
+          "Listing is required and fixed; only that listing's provider can create or delete its add-ons.",
+          "Name is what the buyer sees. Price amount and currency are what it adds.",
+          "Delivery days, if set, are added to the listing's or package's delivery window."
+        ]
+      },
+      {
+        "title": "Ordering with add-ons",
+        "items": [
+          "Only add-ons of the listing being ordered can be selected, each once.",
+          "Each add-on must use the same currency as the order (the package's, or the listing's when there is no package); a mismatch blocks the order.",
+          "Deleting is a soft delete. An add-on cannot be restored while its listing is deleted."
+        ]
+      }
+    ]
+  },
+  "createListingAddOn": "Create listing add-on",
+  "searchPlaceholder": "Search or add filters...",
+  "fields": {
+    "name": "Name",
+    "listing": "Listing",
+    "provider": "Provider",
+    "price": {
+      "amount": "Price",
+      "currency": "Currency"
+    },
+    "deliveryDays": "Delivery days",
+    "company": "Company",
+    "createdBy": "Created by",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "deletedAt": "Deleted at",
+    "deletedBy": "Deleted by"
+  }
+}

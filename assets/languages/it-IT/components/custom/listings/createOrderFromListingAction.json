@@ -1,0 +1,25 @@
+{
+  "path": "src/modules/marketplace/components/custom/listings/createOrderFromListingAction.tsx",
+  "createOrder": {
+    "title": "Ordina questo servizio",
+    "description": "Effettua un ordine direttamente da questo annuncio. Il fornitore riceverà una notifica e potrà accettare o rifiutare.",
+    "noteLabel": "Nota aggiuntiva (facoltativa)",
+    "notePlaceholder": "Eventuali istruzioni o dettagli speciali per il fornitore...",
+    "confirm": "Effettua l'ordine",
+    "axios": {
+      "start": {
+        "title": "Invio dell'ordine",
+        "time": 3000
+      },
+      "success": {
+        "title": "Ordine effettuato con successo",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile effettuare l'ordine, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

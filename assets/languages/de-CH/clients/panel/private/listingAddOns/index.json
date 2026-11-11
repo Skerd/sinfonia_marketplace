@@ -1,0 +1,46 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/index.tsx",
+  "title": "Inserat-Zusatzleistungen",
+  "description": "Optionale Zusatzleistungen verwalten, die Anbieter ihren Inseraten anfügen.",
+  "help": {
+    "ariaLabel": "Über Inserat-Zusatzleistungen",
+    "title": "Über Inserat-Zusatzleistungen",
+    "overview": "Eine Zusatzleistung ist ein optionales Extra, das ein Käufer bei der Bestellung eines Inserats hinzufügen kann, etwa Expresslieferung oder eine zusätzliche Überarbeitung. Sie gehört zu einem Inserat und addiert ihren eigenen Preis und optional zusätzliche Liefertage.",
+    "sections": [
+      {
+        "title": "Felder",
+        "items": [
+          "Inserat ist Pflicht und fest; nur der Anbieter dieses Inserats kann seine Zusatzleistungen anlegen oder löschen.",
+          "Name ist, was der Käufer sieht. Preisbetrag und Währung sind, was sie hinzufügt.",
+          "Liefertage, falls gesetzt, werden zum Lieferfenster des Inserats oder Pakets addiert."
+        ]
+      },
+      {
+        "title": "Mit Zusatzleistungen bestellen",
+        "items": [
+          "Nur Zusatzleistungen des bestellten Inserats können gewählt werden, jede einmal.",
+          "Jede Zusatzleistung muss dieselbe Währung wie die Bestellung nutzen (die des Pakets oder, ohne Paket, die des Inserats); eine Abweichung blockiert die Bestellung.",
+          "Löschen ist ein Soft Delete. Eine Zusatzleistung kann nicht wiederhergestellt werden, solange ihr Inserat gelöscht ist."
+        ]
+      }
+    ]
+  },
+  "createListingAddOn": "Inserat-Zusatzleistung erstellen",
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "fields": {
+    "name": "Name",
+    "listing": "Inserat",
+    "provider": "Anbieter",
+    "price": {
+      "amount": "Preis",
+      "currency": "Währung"
+    },
+    "deliveryDays": "Liefertage",
+    "company": "Firma",
+    "createdBy": "Erstellt von",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "deletedAt": "Gelöscht am",
+    "deletedBy": "Gelöscht von"
+  }
+}

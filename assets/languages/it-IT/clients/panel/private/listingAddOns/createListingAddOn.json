@@ -1,0 +1,39 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingAddOns/createListingAddOn.tsx",
+  "formHeader": {
+    "title": "Crea componente aggiuntivo dell'annuncio",
+    "description": "Aggiungi un servizio opzionale o un aggiornamento che i clienti possono acquistare insieme a un annuncio."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Crea componente aggiuntivo dell'annuncio"
+  },
+  "form": {
+    "listingIdLabel": "Annuncio",
+    "listingIdPlaceholder": "Seleziona l'annuncio",
+    "nameLabel": "Nome del componente aggiuntivo",
+    "namePlaceholder": "ad es. Consegna espressa",
+    "priceAmountLabel": "Prezzo",
+    "priceAmountPlaceholder": "0.00",
+    "currencyLabel": "Valuta",
+    "currencyPlaceholder": "Valuta dell'annuncio se vuoto",
+    "deliveryDaysLabel": "Giorni di consegna",
+    "deliveryDaysPlaceholder": "ad es. 2",
+    "basicsSectionTitle": "Dati principali",
+    "pricingSectionTitle": "Prezzi"
+  },
+  "axios": {
+    "start": {
+      "title": "Creazione componente aggiuntivo",
+      "time": 3000
+    },
+    "success": {
+      "title": "Componente aggiuntivo creato",
+      "time": 3000
+    },
+    "error": {
+      "title": "Impossibile creare il componente aggiuntivo",
+      "time": 3000
+    }
+  }
+}

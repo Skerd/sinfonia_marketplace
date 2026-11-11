@@ -1,0 +1,42 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Impossible de soumettre l'avis"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Envoi de l'avis"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Avis soumis"
+    }
+  },
+  "form": {
+    "commentLabel": "Commentaire",
+    "commentPlaceholder": "Partagez votre expérience...",
+    "orderLabel": "Commande",
+    "orderPlaceholder": "Sélectionnez la commande",
+    "ratingLabel": "Note",
+    "ratingPlaceholder": "Choisissez une note",
+    "reviewSectionTitle": "Avis",
+    "ratingValues": {
+      "1": "1 – Très mauvais",
+      "2": "2 – Médiocre",
+      "3": "3 – Moyen",
+      "4": "4 – Bien",
+      "5": "5 – Excellent"
+    }
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Envoyer l'avis"
+  },
+  "formHeader": {
+    "description": "Soumettez une note et des commentaires pour une commande terminée.",
+    "title": "Créer un avis"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/reviews/createReview.tsx",
+  "title": "Titre"
+}

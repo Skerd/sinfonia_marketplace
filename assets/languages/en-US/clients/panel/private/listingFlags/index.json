@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/index.tsx",
+  "title": "Listing reports",
+  "description": "Review reports submitted by users for inappropriate listings.",
+  "help": {
+    "ariaLabel": "About listing reports",
+    "title": "About listing reports",
+    "overview": "A listing report is a user's moderation report on a listing: inappropriate, spam, misleading, or other, with an optional comment. Administrators review reports and decide them.",
+    "sections": [
+      {
+        "title": "Reporting",
+        "items": [
+          "The reporter is whoever creates the report. One live report per user and listing.",
+          "While pending, the reporter can still edit the reason and comment; the listing is fixed.",
+          "Reports are private: administrators see them all, everyone else only their own."
+        ]
+      },
+      {
+        "title": "Statuses and decisions",
+        "body": "Only an administrator can decide, only while the report is pending, and a resolution note is always required.",
+        "items": [
+          "Pending: waiting for a decision.",
+          "Resolve marks the report reviewed (upheld). Choose deactivate to take the listing offline at the same time, or none to keep it live.",
+          "Dismiss marks the report dismissed (rejected)."
+        ]
+      },
+      {
+        "title": "Deleting",
+        "items": [
+          "Deleting is a soft delete and it can be restored, unless the same user has since filed a new report on that listing."
+        ]
+      }
+    ]
+  },
+  "createListingFlag": "Create listing report",
+  "searchPlaceholder": "Search or add filters...",
+  "fields": {
+    "listing": "Listing",
+    "reason": "Reason",
+    "status": "Status",
+    "user": "Reporter",
+    "comment": "Comment",
+    "resolution": "Resolution",
+    "company": "Company",
+    "createdBy": "Created by",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "deletedAt": "Deleted at",
+    "deletedBy": "Deleted by",
+    "!enums": {
+      "status": {
+        "pending": "Pending",
+        "reviewed": "Reviewed",
+        "dismissed": "Dismissed"
+      },
+      "reason": {
+        "inappropriate": "Inappropriate content",
+        "spam": "Spam",
+        "misleading": "Misleading",
+        "other": "Other"
+      }
+    }
+  }
+}

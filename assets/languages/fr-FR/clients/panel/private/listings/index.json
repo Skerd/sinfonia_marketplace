@@ -1,0 +1,101 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listings/index.tsx",
+  "title": "Annonces",
+  "description": "Gérez les annonces de produits et de services de la vitrine de votre espace.",
+  "help": {
+    "ariaLabel": "À propos des annonces",
+    "title": "À propos des annonces",
+    "overview": "Une annonce est l’offre de service d’un prestataire sur la place de marché : ce qu’il fait, dans quelle catégorie et à quel endroit, à quel prix, avec des packages et modules complémentaires facultatifs. Les acheteurs commandent depuis des annonces actives. Le statut est brouillon, actif ou inactif et ne change que par les actions activer et désactiver.",
+    "sections": [
+      {
+        "title": "Statut",
+        "items": [
+          "Brouillon est le statut par défaut pendant la construction de l’offre. Personne ne peut la commander.",
+          "Activer la rend commandable. Cela exige un prix et une devise, car une commande sans package est calculée à partir d’eux.",
+          "Désactiver la met hors ligne sans la supprimer. Traiter un signalement contre elle peut aussi la désactiver.",
+          "Seul le prestataire de l’annonce, ou un administrateur, peut activer ou désactiver."
+        ]
+      },
+      {
+        "title": "Ce que vous configurez",
+        "items": [
+          "Titre, description, catégorie, étiquettes, FAQ et exigences envers l’acheteur décrivent l’offre. La catégorie est une catégorie d’annonces, pas une catégorie de produits.",
+          "Le type de tarification est fixe ou horaire. Prix et devise sont le prix de base ; les jours de livraison fixent l’échéance par défaut d’une commande.",
+          "L’image principale est obligatoire ; les galeries d’images et de vidéos sont facultatives.",
+          "Pays, région et ville situent l’offre. Ville et catégorie décident des demandes de tâches dont le prestataire est informé.",
+          "Le prestataire est l’utilisateur qui vend : vous-même, ou un autre utilisateur de la même société."
+        ]
+      },
+      {
+        "title": "Comment une commande en est calculée",
+        "body": "Un acheteur commande une annonce active, éventuellement avec un package et des modules complémentaires.",
+        "items": [
+          "Sans package : prix et jours de livraison de l’annonce. Avec un package : prix et jours de livraison du package à la place.",
+          "Chaque module complémentaire ajoute son prix et ses jours de livraison supplémentaires. Les modules doivent appartenir à cette annonce et utiliser la devise de la commande.",
+          "Un prestataire ne peut pas commander sa propre annonce."
+        ]
+      },
+      {
+        "title": "Visibilité et réputation",
+        "items": [
+          "Une promotion en cours (mise en avant ou sponsorisée) place l’annonce en tête du tri recommandé de la boutique pendant ses dates.",
+          "Les avis sur les commandes terminées donnent à l’annonce sa note moyenne et son nombre d’avis.",
+          "Les utilisateurs peuvent signaler une annonce ; les administrateurs examinent les signalements sous Signalements d'annonce."
+        ]
+      },
+      {
+        "title": "Qui voit quoi",
+        "items": [
+          "Les administrateurs voient et gèrent toutes les annonces de la société. Les autres utilisateurs ne modifient que les annonces qu’ils proposent.",
+          "La suppression est douce et l’annonce peut être restaurée. Ses packages et modules ne peuvent pas être restaurés tant que l’annonce est supprimée."
+        ]
+      }
+    ]
+  },
+  "createListing": "Créer une annonce",
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "fields": {
+    "!enums": {
+      "status": {
+        "draft": "Brouillon",
+        "active": "Actif",
+        "inactive": "Inactif"
+      },
+      "pricingType": {
+        "fixed": "Prix fixe",
+        "hourly": "Tarif horaire"
+      }
+    },
+    "name": "Nom",
+    "title": "Titre",
+    "description": "Description",
+    "category": "Catégorie",
+    "provider": "Prestataire",
+    "price": "Prix",
+    "priceCurrency": "Devise",
+    "status": "Statut",
+    "pricingType": "Type de prix",
+    "deliveryDays": "Jours de livraison",
+    "address": "Emplacement",
+    "mainImage": "Image principale",
+    "imageGallery": "Galerie d’images",
+    "videoGallery": "Galerie vidéo",
+    "faqs": {
+      "question": "Question",
+      "answer": "Réponse"
+    },
+    "requirements": "Exigences",
+    "tags": "Étiquettes",
+    "promotions": "Promotions",
+    "listingPackages": "Packages",
+    "listingAddOns": "Modules complémentaires",
+    "avgRating": "Note",
+    "reviewCount": "Avis",
+    "company": "Entreprise",
+    "createdBy": "Créé par",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "deletedAt": "Supprimé le",
+    "deletedBy": "Supprimé par"
+  }
+}

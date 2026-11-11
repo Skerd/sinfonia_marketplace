@@ -1,0 +1,36 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/center/sheetView/promotionSheetView.tsx",
+  "failedTitle": "Failed to load promotion",
+  "failedDescription": "Something went wrong while loading this promotion. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "overview": "Overview",
+  "lifecycle": "Lifecycle",
+  "promotion": "Promotion",
+  "name": "Name",
+  "listing": "Listing",
+  "type": "Type",
+  "lifecycleStatus": "Lifecycle status",
+  "startAt": "Start date",
+  "endAt": "End date",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "stopReasonSection": "Stop reason",
+  "stopReason": "Reason",
+  "type_values": {
+    "featured": "Featured",
+    "sponsored": "Sponsored"
+  },
+  "lifecycleStatuses": {
+    "active": "Active",
+    "paused": "Paused",
+    "stopped": "Stopped"
+  },
+  "listingStatus": {
+    "draft": "Draft",
+    "active": "Active",
+    "inactive": "Inactive"
+  }
+}

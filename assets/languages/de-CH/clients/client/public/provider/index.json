@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/provider/index.tsx",
+  "loading": "Anbieter wird geladen",
+  "breadcrumb": "Navigationspfad",
+  "services": "Dienstleistungen",
+  "ratingSummary": "{average} · {count} Bewertungen",
+  "completionRate": "{rate} % der Aufträge abgeschlossen",
+  "memberSince": "Mitglied seit {date}",
+  "skills": "Fähigkeiten",
+  "availability": "Verfügbarkeit",
+  "availabilityTimeZone": "Zeiten in der Zeitzone des Anbieters, {zone}.",
+  "servicesBy": "Dienstleistungen von {name}",
+  "portfolio": "Portfolio",
+  "notFound": "Anbieter nicht gefunden",
+  "notFoundMessage": "Dieser Anbieter hat derzeit keine Dienstleistungen im Shop.",
+  "backToServices": "Dienstleistungen durchsuchen"
+}

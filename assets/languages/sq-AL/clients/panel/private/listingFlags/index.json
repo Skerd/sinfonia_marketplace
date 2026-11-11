@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/index.tsx",
+  "title": "Raportimet e listimeve",
+  "description": "Shqyrtoni raportimet e dërguara nga përdoruesit për listime të papërshtatshme.",
+  "help": {
+    "ariaLabel": "Rreth raportimeve të listimeve",
+    "title": "Rreth raportimeve të listimeve",
+    "overview": "Një raportim listimi është një njoftim moderimi: një përdorues e shënon një listim si të papërshtatshëm, spam, mashtrues ose tjetër, me koment opsional. Administratorët i shqyrtojnë dhe vendosin raportimet.",
+    "sections": [
+      {
+        "title": "Raportimi",
+        "items": [
+          "Raportuesi është kush e krijon raportimin. Një raportim aktiv për përdorues dhe listim.",
+          "Sa kohë është në pritje, raportuesi mund të ndryshojë ende arsyen dhe komentin; listimi është i fiksuar.",
+          "Raportimet janë private: administratorët i shohin të gjitha, të tjerët vetëm të vetat."
+        ]
+      },
+      {
+        "title": "Statuset dhe vendimet",
+        "body": "Vetëm një administrator vendos, vetëm sa kohë raportimi është në pritje, dhe një shënim zgjidhjeje është gjithmonë i detyrueshëm.",
+        "items": [
+          "Në pritje: pret një vendim.",
+          "Zgjidh e shënon raportimin si të shqyrtuar (të pranuar). Zgjidhni çaktivizo për ta nxjerrë listimin jashtë linje njëkohësisht, ose asnjë për ta lënë në linjë.",
+          "Hidh poshtë e shënon raportimin si të hedhur poshtë."
+        ]
+      },
+      {
+        "title": "Fshirja",
+        "items": [
+          "Fshirja është e butë dhe raportimi mund të rikthehet, përveç kur i njëjti përdorues ka raportuar sërish atë listim ndërkohë."
+        ]
+      }
+    ]
+  },
+  "createListingFlag": "Krijo raportim listimi",
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "fields": {
+    "listing": "Listimi",
+    "reason": "Arsyeja",
+    "status": "Statusi",
+    "user": "Raportuesi",
+    "comment": "Komenti",
+    "resolution": "Zgjidhja",
+    "company": "Kompania",
+    "createdBy": "Krijuar nga",
+    "createdAt": "Krijuar më",
+    "updatedAt": "Përditësuar më",
+    "deletedAt": "Fshirë më",
+    "deletedBy": "Fshirë nga",
+    "!enums": {
+      "status": {
+        "pending": "Në pritje",
+        "reviewed": "Shqyrtuar",
+        "dismissed": "Hedhur poshtë"
+      },
+      "reason": {
+        "inappropriate": "Përmbajtje e papërshtatshme",
+        "spam": "Spam",
+        "misleading": "Mashtruese",
+        "other": "Tjetër"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/sheetView/listingFlagSheetView.tsx",
+  "failedTitle": "Failed to load listing report",
+  "failedDescription": "Something went wrong while loading this listing report. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "listingFlagSubtitle": "Listing report",
+  "listingFlag": "Listing report",
+  "overview": "Overview",
+  "lifecycle": "Lifecycle",
+  "details": "Details",
+  "listing": "Listing",
+  "reason": "Reason",
+  "comment": "Comment",
+  "user": "Reporter",
+  "reporter": "Reporter",
+  "status": "Status",
+  "resolution": "Resolution",
+  "listingAction": "Listing action",
+  "createdAt": "Created at",
+  "updatedAt": "Updated at",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted at",
+  "deletedBy": "Deleted by",
+  "status_values": {
+    "pending": "Pending",
+    "reviewed": "Reviewed",
+    "dismissed": "Dismissed"
+  },
+  "reason_values": {
+    "inappropriate": "Inappropriate content",
+    "spam": "Spam",
+    "misleading": "Misleading",
+    "other": "Other"
+  }
+}

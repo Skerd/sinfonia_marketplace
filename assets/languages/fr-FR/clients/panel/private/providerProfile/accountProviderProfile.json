@@ -1,0 +1,21 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/accountProviderProfile.tsx",
+  "title": "Profil de prestataire",
+  "description": "Votre fiche vendeur sur la place de marché : biographie, compétences, portfolio et disponibilités hebdomadaires.",
+  "failTitle": "Impossible de charger le profil de prestataire",
+  "failDescription": "Cliquez pour réessayer.",
+  "connect": {
+    "notConnected": "Versements non connectés",
+    "setupIncomplete": "Configuration de Stripe incomplète",
+    "payoutsEnabled": "Versements activés",
+    "start": "Connecter les versements Stripe",
+    "continue": "Continuer la configuration de Stripe",
+    "refresh": "Actualiser le statut de Stripe"
+  },
+  "empty": {
+    "title": "Pas encore de profil de prestataire",
+    "description": "Créez-en un pour présenter vos compétences, vos disponibilités et vos réalisations aux clients.",
+    "create": "Créer un profil de prestataire",
+    "createFailed": "Impossible de créer le profil de prestataire."
+  }
+}

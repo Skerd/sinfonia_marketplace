@@ -1,0 +1,5 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/center/actions/createAccountLinkDropdown.tsx",
+  "title": "Connect Stripe payouts",
+  "continueTitle": "Continue Stripe setup"
+}

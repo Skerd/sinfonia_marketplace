@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/cardView/orderCard.tsx",
+  "failedTitle": "Échec du chargement de la commande",
+  "failedDescription": "Touchez pour réessayer.",
+  "listing": "Annonce",
+  "provider": "Prestataire",
+  "amount": "Montant",
+  "dueDate": "Échéance",
+  "status": "Statut",
+  "total": "Total",
+  "statuses": {
+    "pending": "En attente",
+    "accepted": "Accepté",
+    "in_progress": "En cours",
+    "completed": "Terminé",
+    "cancelled": "Annulé"
+  },
+  "customer": "Client"
+}

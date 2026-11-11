@@ -1,0 +1,40 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
+  "title": "Listing categories",
+  "description": "Organize the marketplace catalog into a parent/child category tree used by listings and task requests.",
+  "help": {
+    "ariaLabel": "About Listing categories",
+    "title": "About Listing categories",
+    "overview": "Listing categories are the marketplace's own tree, separate from product categories. Listings and task requests each pick one. Buyers browse by them, and providers are matched to new task requests by category and city.",
+    "sections": [
+      {
+        "title": "The tree",
+        "items": [
+          "Name is required. Parent is optional; leave it empty for a top-level category. A category cannot sit under itself or one of its descendants.",
+          "Order sorts siblings, lower first; lists sort by order, then name.",
+          "The slug is generated on create and is unique in the company."
+        ]
+      },
+      {
+        "title": "How the marketplace uses them",
+        "items": [
+          "Every listing and task request has a category.",
+          "When a task request is posted or re-announced, providers with an active listing in the same category and city are notified.",
+          "The storefront's service menus and filters are built from this tree.",
+          "Deleting is a soft delete and it can be restored. Re-point listings before deleting a category still in use."
+        ]
+      }
+    ]
+  },
+  "createCategory": "Create listing category",
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "order": "Order",
+    "parentListingCategory": "Parent category",
+    "createdBy": "Created by",
+    "deletedAt": "Deleted",
+    "deletedBy": "Deleted by"
+  },
+  "searchPlaceholder": "Search or add filters..."
+}

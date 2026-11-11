@@ -1,0 +1,48 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/providerProfile/index.tsx",
+  "title": "Anbieterprofile",
+  "description": "Alle Anbieterprofile im Unternehmen.",
+  "help": {
+    "ariaLabel": "Über Anbieterprofile",
+    "title": "Über Anbieterprofile",
+    "overview": "Ein Anbieterprofil ist der Verkäufer-Datensatz eines Benutzers auf dem Marktplatz: Biografie, Fähigkeiten, Portfolio, wöchentliche Verfügbarkeit, Ruf und das Stripe-Connect-Konto, das Auszahlungen erhält. Jeder Benutzer hat höchstens ein aktives Profil.",
+    "sections": [
+      {
+        "title": "Profilfelder",
+        "items": [
+          "Biografie, Fähigkeiten und Portfolio beschreiben den Anbieter im Shop.",
+          "Verfügbarkeit ist eine Liste wöchentlicher Zeitfenster: Wochentag, Start- und Endzeit.",
+          "Der Ruf wird berechnet, nicht eingetippt: der Bewertungsschnitt aller Bewertungen auf seinen Bestellungen und der Anteil beendeter Bestellungen, die abgeschlossen statt storniert wurden."
+        ]
+      },
+      {
+        "title": "Wo Profile bearbeitet werden",
+        "items": [
+          "Diese Seite listet jedes Anbieterprofil der Firma; ein neues fragt, zu welchem Benutzer es gehört.",
+          "Jeder Benutzer bearbeitet sein eigenes auch unter Einstellungen → Anbieterprofil, wo es direkt als Formular öffnet."
+        ]
+      },
+      {
+        "title": "Auszahlungen mit Stripe Connect",
+        "body": "Auszahlungen brauchen das konfigurierte Zahlungs-Gateway und die Connect-Rücksprung- und Aktualisierungsadressen.",
+        "items": [
+          "Konto-Link erstellen startet oder setzt das Stripe-Express-Onboarding für das eigene Profil des angemeldeten Benutzers fort und gibt die zu öffnende Seite zurück.",
+          "Kontostatus aktualisieren holt die Kennzeichen Zahlungen aktiv, Auszahlungen aktiv und Angaben eingereicht von Stripe auf das Profil.",
+          "Wird der Treuhandbetrag einer Bestellung freigegeben, wird der Anteil des Anbieters auf dieses Konto überwiesen, falls es existiert.",
+          "Das Löschen eines Profils ist ein Soft Delete und kann wiederhergestellt werden; ein gelöschtes Profil wird für Connect nicht verwendet."
+        ]
+      }
+    ]
+  },
+  "createProviderProfile": "Anbieterprofil erstellen",
+  "fields": {
+    "provider": "Anbieter",
+    "bio": "Biografie",
+    "skills": "Fähigkeiten",
+    "rating": "Bewertung",
+    "createdAt": "Erstellt",
+    "deletedAt": "Gelöscht",
+    "deletedBy": "Gelöscht von"
+  },
+  "searchPlaceholder": "Suchen oder Filter hinzufügen..."
+}

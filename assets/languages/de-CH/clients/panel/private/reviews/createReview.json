@@ -1,0 +1,42 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Bewertung konnte nicht gesendet werden"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Bewertung wird gesendet"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Prüfung eingereicht"
+    }
+  },
+  "form": {
+    "commentLabel": "Kommentar",
+    "commentPlaceholder": "Teilen Sie Ihre Erfahrung...",
+    "orderLabel": "Auftrag",
+    "orderPlaceholder": "Bestellung auswählen",
+    "ratingLabel": "Bewertung",
+    "ratingPlaceholder": "Bewertung wählen",
+    "reviewSectionTitle": "Bewertung",
+    "ratingValues": {
+      "1": "1 – Sehr schlecht",
+      "2": "2 – Schlecht",
+      "3": "3 – Durchschnittlich",
+      "4": "4 – Gut",
+      "5": "5 – Ausgezeichnet"
+    }
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Bewertung senden"
+  },
+  "formHeader": {
+    "description": "Geben Sie eine Bewertung und Feedback zu einem abgeschlossenen Auftrag ab.",
+    "title": "Bewertung erstellen"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/reviews/createReview.tsx",
+  "title": "Bezeichnung"
+}

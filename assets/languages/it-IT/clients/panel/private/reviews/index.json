@@ -1,0 +1,48 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/index.tsx",
+  "title": "Recensioni",
+  "description": "Visualizza valutazioni e recensioni lasciate dai clienti.",
+  "help": {
+    "ariaLabel": "Informazioni sulle recensioni",
+    "title": "Informazioni sulle recensioni",
+    "overview": "Una recensione del marketplace è la valutazione e il commento del cliente su un ordine completato. Appartiene all’ordine e al suo annuncio, e alimenta la valutazione media e il numero di recensioni dell’annuncio e la reputazione del fornitore.",
+    "sections": [
+      {
+        "title": "Chi può recensire",
+        "items": [
+          "Solo il cliente dell’ordine, solo quando l’ordine è completato, e una sola volta per ordine.",
+          "Annuncio e autore sono impostati dal server a partire dall’ordine e dal chiamante.",
+          "I clienti possono recensire anche dal proprio account del negozio, che propone gli ordini completati senza recensione."
+        ]
+      },
+      {
+        "title": "Cosa cambia",
+        "items": [
+          "La valutazione media e il numero di recensioni dell’annuncio vengono ricalcolati dalle sue recensioni attive.",
+          "Il profilo del fornitore mostra la valutazione media su tutti i suoi ordini, da annunci e da richieste di attività."
+        ]
+      },
+      {
+        "title": "Moderazione",
+        "items": [
+          "Le recensioni non si modificano dopo essere state scritte.",
+          "Solo un amministratore può eliminare una recensione; l’eliminazione è logica e il ripristino riporta la valutazione."
+        ]
+      }
+    ]
+  },
+  "createReview": "Crea recensione",
+  "fields": {
+    "rating": "Valutazione",
+    "comment": "Commento",
+    "reviewer": "Autore della recensione",
+    "order": "Ordine",
+    "listing": "Annuncio",
+    "listingId": "Annuncio",
+    "orderId": "Ordine",
+    "createdAt": "Creato",
+    "deletedAt": "Eliminato",
+    "deletedBy": "Eliminato da"
+  },
+  "searchPlaceholder": "Cerca o aggiungi filtri..."
+}

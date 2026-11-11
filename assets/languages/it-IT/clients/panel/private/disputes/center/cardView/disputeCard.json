@@ -1,0 +1,17 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/disputes/center/cardView/disputeCard.tsx",
+  "failedTitle": "Impossibile caricare la controversia",
+  "failedDescription": "Tocca per riprovare.",
+  "reason": "Motivo",
+  "initiator": "Iniziatore",
+  "order": "Ordine",
+  "status": "Stato",
+  "amount": "Importo",
+  "status_values": {
+    "open": "Aperta",
+    "under_review": "In fase di revisione",
+    "resolved": "Risolta",
+    "closed": "Chiusa"
+  },
+  "createdAt": "Aperta il"
+}

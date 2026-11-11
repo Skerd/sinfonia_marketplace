@@ -1,0 +1,24 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/center/sheetView/reviewSheetView.tsx",
+  "review": "Recensione",
+  "eCommerce": {
+    "review": "Recensione"
+  },
+  "overview": "Panoramica",
+  "details": "Dettagli",
+  "order": "Ordine",
+  "reviewer": "Autore della recensione",
+  "rating": "Valutazione",
+  "comment": "Commento",
+  "listing": "Annuncio",
+  "listing.title": "Annuncio",
+  "createdAt": "Creato",
+  "failedTitle": "Impossibile caricare la recensione",
+  "failedDescription": "Qualcosa è andato storto durante il caricamento di questa recensione. Fare clic per riprovare.",
+  "failedTooltipDescription": "Clicca per riprovare a caricare i dati.",
+  "lifecycle": "Ciclo di vita",
+  "updatedAt": "Aggiornato il",
+  "createdBy": "Creato da",
+  "deletedAt": "Eliminato il",
+  "deletedBy": "Eliminato da"
+}

@@ -1,0 +1,64 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/index.tsx",
+  "title": "Signalements d'annonce",
+  "description": "Examinez les signalements envoyés par les utilisateurs concernant des annonces inappropriées.",
+  "help": {
+    "ariaLabel": "À propos des signalements d'annonce",
+    "title": "À propos des signalements d'annonce",
+    "overview": "Un signalement d’annonce est un rapport de modération : un utilisateur marque une annonce comme inappropriée, spam, trompeuse ou autre, avec un commentaire facultatif. Les administrateurs examinent et tranchent les signalements.",
+    "sections": [
+      {
+        "title": "Signaler",
+        "items": [
+          "L’auteur est celui qui crée le signalement. Un seul signalement actif par utilisateur et par annonce.",
+          "Tant qu’il est en attente, l’auteur peut encore modifier le motif et le commentaire ; l’annonce est figée.",
+          "Les signalements sont privés : les administrateurs les voient tous, les autres uniquement les leurs."
+        ]
+      },
+      {
+        "title": "Statuts et décisions",
+        "body": "Seul un administrateur décide, seulement tant que le signalement est en attente, et une note de résolution est toujours obligatoire.",
+        "items": [
+          "En attente : attend une décision.",
+          "Résoudre marque le signalement comme examiné (retenu). Choisissez désactiver pour mettre l’annonce hors ligne en même temps, ou aucune pour la laisser en ligne.",
+          "Rejeter marque le signalement comme rejeté."
+        ]
+      },
+      {
+        "title": "Suppression",
+        "items": [
+          "La suppression est douce et le signalement peut être restauré, sauf si le même utilisateur a depuis signalé à nouveau cette annonce."
+        ]
+      }
+    ]
+  },
+  "createListingFlag": "Créer un signalement d'annonce",
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "fields": {
+    "listing": "Annonce",
+    "reason": "Motif",
+    "status": "Statut",
+    "user": "Signaleur",
+    "comment": "Commentaire",
+    "resolution": "Résolution",
+    "company": "Entreprise",
+    "createdBy": "Créé par",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "deletedAt": "Supprimé le",
+    "deletedBy": "Supprimé par",
+    "!enums": {
+      "status": {
+        "pending": "En attente",
+        "reviewed": "Examiné",
+        "dismissed": "Rejeté"
+      },
+      "reason": {
+        "inappropriate": "Contenu inapproprié",
+        "spam": "Spam",
+        "misleading": "Trompeur",
+        "other": "Autre"
+      }
+    }
+  }
+}

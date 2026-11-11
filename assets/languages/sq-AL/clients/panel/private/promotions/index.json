@@ -1,0 +1,63 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/promotions/index.tsx",
+  "title": "Promovimet",
+  "description": "Menaxho promovimet e listimeve të veçuara dhe të sponsorizuara.",
+  "help": {
+    "ariaLabel": "Rreth promovimeve",
+    "title": "Rreth promovimeve",
+    "overview": "Një promovim e nxjerr në pah një listim, si të veçuar ose të sponsorizuar, për një dritare nga fillimi deri në mbarim. Është në vazhdim sa kohë cikli i jetës është aktiv dhe dita e sotme bie brenda datave. Cikli i jetës është aktiv, në pauzë ose i ndaluar dhe ndryshohet vetëm me veprime.",
+    "sections": [
+      {
+        "title": "Krijimi",
+        "items": [
+          "Ofruesi i listimit, ose një administrator, promovon një listim aktiv.",
+          "Tipi është i veçuar ose i sponsorizuar. Fillimi dhe mbarimi kufizojnë kur vlen promovimi."
+        ]
+      },
+      {
+        "title": "Cikli i jetës",
+        "body": "Pauza, rifillimi dhe ndalimi kërkojnë pronësinë e listimit, ose administrator.",
+        "items": [
+          "Pauza është e mundur vetëm nga aktiv: promovimi ndalet pa e mbyllur fushatën.",
+          "Rifillo është i mundur vetëm nga në pauzë, dhe vetëm sa kohë data e mbarimit është në të ardhmen.",
+          "Ndalo e mbyll promovimin përgjithmonë me një arsye ndalimi; nuk mund të rifillohet."
+        ]
+      },
+      {
+        "title": "Efekti",
+        "items": [
+          "Në renditjen e rekomanduar të dyqanit, listimet me promovim në vazhdim dalin të parat, më të rejat së pari, pastaj të tjerat.",
+          "Promovimet e fshira nuk mund të vihen në pauzë, të rifillohen ose të ndalen derisa të rikthehen."
+        ]
+      }
+    ]
+  },
+  "createPromotion": "Krijo promovim",
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "fields": {
+    "name": "Emri",
+    "listing": "Listimi",
+    "type": "Lloji",
+    "lifecycleStatus": "Statusi i ciklit",
+    "stopReason": "Arsyeja e ndalimit",
+    "startAt": "Fillim",
+    "endAt": "Mbarim",
+    "company": "Kompania",
+    "createdBy": "Krijuar nga",
+    "createdAt": "Krijuar më",
+    "updatedAt": "Përditësuar më",
+    "deletedAt": "Fshirë më",
+    "deletedBy": "Fshirë nga",
+    "!enums": {
+      "type": {
+        "featured": "I veçuar",
+        "sponsored": "I sponsorizuar"
+      },
+      "lifecycleStatus": {
+        "active": "Aktive",
+        "paused": "Në pauzë",
+        "stopped": "E ndalur"
+      }
+    }
+  }
+}

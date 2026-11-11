@@ -1,0 +1,43 @@
+{
+  "axios": {
+    "error": {
+      "time": 3000,
+      "title": "Offerte konnte nicht eingereicht werden"
+    },
+    "start": {
+      "time": 3000,
+      "title": "Offerte wird eingereicht"
+    },
+    "success": {
+      "time": 3000,
+      "title": "Offerte eingereicht"
+    }
+  },
+  "form": {
+    "amountLabel": "Offertbetrag",
+    "amountPlaceholder": "0.00",
+    "currencyIdLabel": "Währung",
+    "currencyIdPlaceholder": "Währung auswählen",
+    "deliveryDaysLabel": "Liefertage",
+    "deliveryDaysPlaceholder": "z. B. 7",
+    "proposalLabel": "Vorschlag",
+    "proposalPlaceholder": "Beschreiben Sie Ihr Vorgehen...",
+    "taskRequestIdLabel": "Ausschreibung",
+    "taskRequestIdPlaceholder": "Ausschreibung auswählen",
+    "section": {
+      "taskRequest": "Ausschreibung",
+      "offer": "Ihre Offerte"
+    },
+    "amountCurrencyDescription": "In der Währung der Ausschreibung."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Offerte einreichen"
+  },
+  "formHeader": {
+    "description": "Reichen Sie eine Offerte für eine Ausschreibung ein.",
+    "title": "Offerte erstellen"
+  },
+  "path": "src/modules/marketplace/clients/panel/private/bids/createBid.tsx",
+  "title": "Bezeichnung"
+}

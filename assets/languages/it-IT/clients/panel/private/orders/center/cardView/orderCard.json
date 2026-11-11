@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/orders/center/cardView/orderCard.tsx",
+  "failedTitle": "Impossibile caricare l'ordine",
+  "failedDescription": "Tocca per riprovare.",
+  "listing": "Annuncio",
+  "provider": "Fornitore",
+  "amount": "Importo",
+  "dueDate": "Scadenza",
+  "status": "Stato",
+  "total": "Totale",
+  "statuses": {
+    "pending": "In sospeso",
+    "accepted": "Accettato",
+    "in_progress": "In corso",
+    "completed": "Completato",
+    "cancelled": "Annullato"
+  },
+  "customer": "Cliente"
+}

@@ -1,0 +1,11 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/reviews/center/cardView/reviewCard.tsx",
+  "failedTitle": "Failed to load review",
+  "failedDescription": "Tap to retry.",
+  "rating": "Rating",
+  "comment": "Comment",
+  "reviewer": "Reviewer",
+  "order": "Order",
+  "listing": "Listing",
+  "reviewedAt": "Reviewed on"
+}

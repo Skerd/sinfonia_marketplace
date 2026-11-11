@@ -1,0 +1,35 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listingFlags/center/sheetView/listingFlagSheetView.tsx",
+  "failedTitle": "Échec du chargement du signalement d'annonce",
+  "failedDescription": "Une erreur s'est produite lors du chargement de ce signalement d'annonce. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour réessayer de charger les données.",
+  "listingFlagSubtitle": "Signalement d'annonce",
+  "listingFlag": "Signalement d'annonce",
+  "overview": "Vue d'ensemble",
+  "lifecycle": "Cycle de vie",
+  "details": "Détails",
+  "listing": "Annonce",
+  "reason": "Motif",
+  "comment": "Commentaire",
+  "user": "Signaleur",
+  "reporter": "Signaleur",
+  "status": "Statut",
+  "resolution": "Résolution",
+  "listingAction": "Action sur l'annonce",
+  "createdAt": "Créé le",
+  "updatedAt": "Mis à jour le",
+  "createdBy": "Créé par",
+  "deletedAt": "Supprimé le",
+  "deletedBy": "Supprimé par",
+  "status_values": {
+    "pending": "En attente",
+    "reviewed": "Examiné",
+    "dismissed": "Rejeté"
+  },
+  "reason_values": {
+    "inappropriate": "Contenu inapproprié",
+    "spam": "Spam",
+    "misleading": "Trompeur",
+    "other": "Autre"
+  }
+}

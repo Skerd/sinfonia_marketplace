@@ -1,0 +1,75 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskRequests/index.tsx",
+  "title": "Task requests",
+  "description": "Post and manage buyer requests for quotes, custom work, or procurement.",
+  "help": {
+    "ariaLabel": "About Task requests",
+    "title": "About Task requests",
+    "overview": "A task request is a buyer's brief asking providers for quotes: what they need, in which category and place, and for what budget. It is open for bids for 30 days. Accepting a bid awards it and opens an order.",
+    "sections": [
+      {
+        "title": "Fields",
+        "items": [
+          "Title, category, budget minimum and maximum, currency, address, and main image are required; description and galleries are optional.",
+          "The requester is whoever posts it. Category and city decide which providers are told about it."
+        ]
+      },
+      {
+        "title": "Statuses",
+        "items": [
+          "Open: taking bids until it expires.",
+          "Closed: no longer taking bids, by the requester's choice or because 30 days passed. An hourly job closes expired requests.",
+          "Awarded: a bid was accepted; the status can no longer change."
+        ]
+      },
+      {
+        "title": "Actions",
+        "body": "Only the requester, or an administrator, can change status.",
+        "items": [
+          "Close: from open. Everyone with a pending bid is notified.",
+          "Reopen: from closed. It restarts the 30-day window, so an expired request is not closed again straight away.",
+          "Notify all: tells every provider with an active listing in the same category and city about the request, again."
+        ]
+      },
+      {
+        "title": "Bids and awarding",
+        "items": [
+          "Providers bid while it is open and unexpired; nobody can bid on their own request.",
+          "Accepting a bid rejects the others, marks the request awarded, and opens a pending order between requester and bidder.",
+          "Each row shows how many live bids it has. Non-administrators see their own requests.",
+          "Deleting is a soft delete and it can be restored."
+        ]
+      }
+    ]
+  },
+  "createTaskRequest": "Create task request",
+  "searchPlaceholder": "Search or add filters...",
+  "fields": {
+    "title": "Title",
+    "description": "Description",
+    "requester": "Requester",
+    "category": "Category",
+    "budgetMin": "Budget (min)",
+    "budgetMax": "Budget (max)",
+    "currency": "Currency",
+    "address": "Address",
+    "expiresAt": "Expires",
+    "status": "Status",
+    "mainImage": "Main image",
+    "imageGallery": "Image gallery",
+    "videoGallery": "Video gallery",
+    "company": "Company",
+    "createdBy": "Created by",
+    "createdAt": "Created at",
+    "updatedAt": "Updated at",
+    "deletedAt": "Deleted at",
+    "deletedBy": "Deleted by",
+    "!enums": {
+      "status": {
+        "open": "Open",
+        "closed": "Closed",
+        "awarded": "Awarded"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "marketplace": {
+    "title": "Marketplace",
+    "listings": {
+      "title": "Annonces"
+    },
+    "taskrequests": {
+      "title": "Demandes de devis"
+    },
+    "orders": {
+      "title": "Commandes"
+    },
+    "bids": {
+      "title": "Offres"
+    },
+    "bookings": {
+      "title": "Réservations"
+    },
+    "disputes": {
+      "title": "Litiges"
+    },
+    "reviews": {
+      "title": "Avis"
+    },
+    "promotions": {
+      "title": "Promotions"
+    },
+    "listingflags": {
+      "title": "Signalements d'annonce"
+    },
+    "listingaddons": {
+      "title": "Modules complémentaires d'annonce"
+    },
+    "listingpackages": {
+      "title": "Packages d'annonce"
+    },
+    "marketplacesystemmap": {
+      "title": "Carte système"
+    },
+    "listingcategories": {
+      "title": "Catégories d'annonces"
+    },
+    "providerprofile": {
+      "title": "Profil de prestataire"
+    }
+  },
+  "tenancy": {
+    "systemSettings": {
+      "marketplace": {
+        "title": "Marketplace"
+      },
+      "marketplacesettings": {
+        "title": "Paramètres de la place de marché"
+      },
+      "listingcategories": {
+        "title": "Catégories d'annonces"
+      },
+      "providerprofile": {
+        "title": "Profils de prestataires"
+      }
+    }
+  }
+}

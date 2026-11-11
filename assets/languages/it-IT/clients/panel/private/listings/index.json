@@ -1,0 +1,101 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/listings/index.tsx",
+  "title": "Annunci",
+  "description": "Gestisci gli annunci di prodotti e servizi per la vetrina del tuo tenant.",
+  "help": {
+    "ariaLabel": "Informazioni sugli annunci",
+    "title": "Informazioni sugli annunci",
+    "overview": "Un annuncio è l’offerta di servizio di un fornitore sul marketplace: cosa fa, in quale categoria e dove, a che prezzo, con pacchetti e componenti aggiuntivi facoltativi. Gli acquirenti ordinano da annunci attivi. Lo stato è bozza, attivo o inattivo e cambia solo con le azioni attiva e disattiva.",
+    "sections": [
+      {
+        "title": "Stato",
+        "items": [
+          "Bozza è lo stato predefinito mentre l’offerta viene costruita. Nessuno può ordinarla.",
+          "Attiva la rende ordinabile. Richiede un prezzo e una valuta, perché un ordine senza pacchetto viene calcolato da essi.",
+          "Disattiva la mette offline senza eliminarla. Anche risolvere una segnalazione contro di essa può disattivarla.",
+          "Solo il fornitore dell’annuncio, o un amministratore, può attivare o disattivare."
+        ]
+      },
+      {
+        "title": "Cosa configuri",
+        "items": [
+          "Titolo, descrizione, categoria, tag, FAQ e requisiti per l’acquirente descrivono l’offerta. La categoria è una categoria di annunci, non di prodotti.",
+          "Il tipo di prezzo è fisso o orario. Prezzo e valuta sono il prezzo base; i giorni di consegna fissano la scadenza predefinita di un ordine.",
+          "L’immagine principale è obbligatoria; le gallerie di immagini e video sono facoltative.",
+          "Paese, provincia e città collocano l’offerta. Città e categoria decidono di quali richieste di attività il fornitore viene informato.",
+          "Il fornitore è l’utente che vende: tu stesso o un altro utente della stessa società."
+        ]
+      },
+      {
+        "title": "Come se ne calcola un ordine",
+        "body": "Un acquirente ordina un annuncio attivo, eventualmente con un pacchetto e componenti aggiuntivi.",
+        "items": [
+          "Senza pacchetto: prezzo e giorni di consegna dell’annuncio. Con un pacchetto: prezzo e giorni di consegna del pacchetto al loro posto.",
+          "Ogni componente aggiuntivo aggiunge il suo prezzo e i suoi giorni di consegna in più. I componenti devono appartenere a questo annuncio e usare la valuta dell’ordine.",
+          "Un fornitore non può ordinare il proprio annuncio."
+        ]
+      },
+      {
+        "title": "Visibilità e reputazione",
+        "items": [
+          "Una promozione in corso (in evidenza o sponsorizzata) porta l’annuncio in cima all’ordinamento consigliato del negozio per le sue date.",
+          "Le recensioni sugli ordini completati danno all’annuncio la valutazione media e il numero di recensioni.",
+          "Gli utenti possono segnalare un annuncio; gli amministratori esaminano le segnalazioni in Segnalazioni degli annunci."
+        ]
+      },
+      {
+        "title": "Chi vede cosa",
+        "items": [
+          "Gli amministratori vedono e gestiscono tutti gli annunci della società. Gli altri utenti modificano solo gli annunci che forniscono.",
+          "L’eliminazione è logica e l’annuncio può essere ripristinato. I suoi pacchetti e componenti non possono essere ripristinati finché l’annuncio è eliminato."
+        ]
+      }
+    ]
+  },
+  "createListing": "Crea annuncio",
+  "searchPlaceholder": "Cerca o aggiungi filtri...",
+  "fields": {
+    "!enums": {
+      "status": {
+        "draft": "Bozza",
+        "active": "Attivo",
+        "inactive": "Inattivo"
+      },
+      "pricingType": {
+        "fixed": "Prezzo fisso",
+        "hourly": "Tariffa oraria"
+      }
+    },
+    "name": "Nome",
+    "title": "Titolo",
+    "description": "Descrizione",
+    "category": "Categoria",
+    "provider": "Fornitore",
+    "price": "Prezzo",
+    "priceCurrency": "Valuta",
+    "status": "Stato",
+    "pricingType": "Tipo di prezzo",
+    "deliveryDays": "Giorni di consegna",
+    "address": "Posizione",
+    "mainImage": "Immagine principale",
+    "imageGallery": "Galleria immagini",
+    "videoGallery": "Galleria video",
+    "faqs": {
+      "question": "Domanda",
+      "answer": "Risposta"
+    },
+    "requirements": "Requisiti",
+    "tags": "Tag",
+    "promotions": "Promozioni",
+    "listingPackages": "Pacchetti",
+    "listingAddOns": "Componenti aggiuntivi",
+    "avgRating": "Valutazione",
+    "reviewCount": "Recensioni",
+    "company": "Azienda",
+    "createdBy": "Creato da",
+    "createdAt": "Creato il",
+    "updatedAt": "Aggiornato il",
+    "deletedAt": "Eliminato il",
+    "deletedBy": "Eliminato da"
+  }
+}
