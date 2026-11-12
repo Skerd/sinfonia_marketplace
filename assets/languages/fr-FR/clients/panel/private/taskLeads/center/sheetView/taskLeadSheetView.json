@@ -1,0 +1,45 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/sheetView/taskLeadSheetView.tsx",
+  "failedTitle": "Impossible de charger la demande",
+  "failedDescription": "Une erreur s'est produite lors du chargement de cette demande. Cliquez pour réessayer.",
+  "failedTooltipDescription": "Cliquez pour recharger les données.",
+  "leadSubtitle": "Demande",
+  "overview": "Aperçu",
+  "photos": "Images",
+  "job": "Le travail",
+  "quote": "Votre devis",
+  "category": "Catégorie",
+  "city": "Ville",
+  "distance": "Éloignement",
+  "distanceValue": {
+    "one": "À {value} km",
+    "other": "À {value} km"
+  },
+  "budgetMin": "Budget à partir de",
+  "budgetMax": "Budget jusqu'à",
+  "expiresAt": "Ouverte jusqu'au",
+  "status": "Statut",
+  "taskLeadStatus": {
+    "new": "Nouvelle",
+    "viewed": "Vue",
+    "quoted": "Devis envoyé",
+    "declined": "Refusée",
+    "won": "Gagnée",
+    "lost": "Perdue",
+    "expired": "Expirée"
+  },
+  "description": "Ce que le client a écrit",
+  "quoteAmount": "Prix",
+  "deliveryDays": "Jours nécessaires",
+  "deliveryDaysValue": {
+    "one": "{value} jour",
+    "other": "{value} jours"
+  },
+  "proposal": "Proposition",
+  "lifecycle": "Historique",
+  "createdAt": "Créée",
+  "updatedAt": "Modifiée",
+  "createdBy": "Créée par",
+  "deletedAt": "Supprimée",
+  "deletedBy": "Supprimée par"
+}

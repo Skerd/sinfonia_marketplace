@@ -1,0 +1,45 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/sheetView/taskLeadSheetView.tsx",
+  "failedTitle": "Failed to load lead",
+  "failedDescription": "Something went wrong while loading this lead. Click to retry.",
+  "failedTooltipDescription": "Click to retry fetching data.",
+  "leadSubtitle": "Lead",
+  "overview": "Overview",
+  "photos": "Photos",
+  "job": "The job",
+  "quote": "Your quote",
+  "category": "Category",
+  "city": "City",
+  "distance": "Distance",
+  "distanceValue": {
+    "one": "{value} km away",
+    "other": "{value} km away"
+  },
+  "budgetMin": "Budget from",
+  "budgetMax": "Budget up to",
+  "expiresAt": "Open until",
+  "status": "Status",
+  "taskLeadStatus": {
+    "new": "New",
+    "viewed": "Viewed",
+    "quoted": "Quoted",
+    "declined": "Declined",
+    "won": "Won",
+    "lost": "Lost",
+    "expired": "Expired"
+  },
+  "description": "What the client wrote",
+  "quoteAmount": "Price",
+  "deliveryDays": "Days needed",
+  "deliveryDaysValue": {
+    "one": "{value} day",
+    "other": "{value} days"
+  },
+  "proposal": "Proposal",
+  "lifecycle": "History",
+  "createdAt": "Created",
+  "updatedAt": "Updated",
+  "createdBy": "Created by",
+  "deletedAt": "Deleted",
+  "deletedBy": "Deleted by"
+}

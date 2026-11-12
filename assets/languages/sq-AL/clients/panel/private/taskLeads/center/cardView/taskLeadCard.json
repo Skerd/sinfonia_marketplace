@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/cardView/taskLeadCard.tsx",
+  "failedTitle": "Kërkesa nuk u ngarkua",
+  "failedDescription": "Prekni për të provuar përsëri.",
+  "category": "Kategoria",
+  "city": "Qyteti",
+  "distance": "Largësia",
+  "budget": "Buxheti",
+  "quote": "Oferta juaj",
+  "taskLeadStatus": {
+    "new": "E re",
+    "viewed": "E parë",
+    "quoted": "Me ofertë",
+    "declined": "E refuzuar",
+    "won": "E fituar",
+    "lost": "E humbur",
+    "expired": "E skaduar"
+  }
+}

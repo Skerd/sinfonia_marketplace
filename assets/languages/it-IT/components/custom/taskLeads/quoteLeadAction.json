@@ -1,0 +1,28 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/quoteLeadAction.tsx",
+  "quote": {
+    "title": "Invia un preventivo",
+    "description": "Il tuo prezzo, i giorni necessari e una breve proposta.",
+    "budgetHint": "Il budget del cliente è {budget}.",
+    "amountLabel": "Prezzo ({currency})",
+    "daysLabel": "Giorni necessari",
+    "proposalLabel": "Proposta",
+    "proposalPlaceholder": "Cosa farai, cosa è incluso, quando puoi venire.",
+    "confirm": "Invia preventivo",
+    "axios": {
+      "start": {
+        "title": "Invio del preventivo",
+        "time": 3000
+      },
+      "success": {
+        "title": "Preventivo inviato",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile inviare il preventivo, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

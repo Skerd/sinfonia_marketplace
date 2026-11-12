@@ -16,7 +16,8 @@
     "Providerprofiles": "Profils de prestataires",
     "Reviews": "Avis",
     "Taskrequests": "Demandes de tâches",
-    "Marketplaceconfigs": "Paramètres de la place de marché"
+    "Marketplaceconfigs": "Paramètres de la place de marché",
+    "Taskleads": "Demandes"
   },
   "permissions": {
     "Bookings": {
@@ -310,6 +311,23 @@
       "createdBy": "Créé par",
       "updatedAt": "Mis à jour le",
       "ensure": "Créer les paramètres s'ils manquent"
+    },
+    "Taskleads": {
+      "taskleads": "Demandes",
+      "name": "Demande",
+      "status": "Statut",
+      "provider": "Prestataire",
+      "listing": "Offre",
+      "taskRequest": "Travail",
+      "bid": "Devis",
+      "distanceKm": "Éloignement (km)",
+      "createdAt": "Créée",
+      "updatedAt": "Modifiée",
+      "createdBy": "Créée par",
+      "deletedAt": "Supprimée",
+      "deletedBy": "Supprimée par",
+      "quote": "Envoyer un devis",
+      "decline": "Refuser"
     }
   }
 }

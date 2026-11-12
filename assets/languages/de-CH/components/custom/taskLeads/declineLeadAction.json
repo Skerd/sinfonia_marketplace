@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/declineLeadAction.tsx",
+  "decline": {
+    "title": "Diese Anfrage ablehnen?",
+    "description": "Sie verzichten auf diesen Auftrag. Der Kunde erfährt es nicht, und die Anfrage bleibt in Ihrer Liste.",
+    "confirm": "Ablehnen",
+    "axios": {
+      "start": {
+        "title": "Anfrage wird abgelehnt",
+        "time": 3000
+      },
+      "success": {
+        "title": "Anfrage abgelehnt",
+        "time": 3000
+      },
+      "error": {
+        "title": "Die Anfrage konnte nicht abgelehnt werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

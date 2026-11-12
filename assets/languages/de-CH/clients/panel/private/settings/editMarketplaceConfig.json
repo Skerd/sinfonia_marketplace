@@ -7,6 +7,12 @@
     "listedOnPortalLabel": "Im Portal anzeigen",
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Währung",
-    "currencyPlaceholder": "Währung auswählen"
+    "currencyPlaceholder": "Währung auswählen",
+    "operatorSectionTitle": "Portal-Aufträge",
+    "operatorSectionHint": "Als Betreiber des Marktplatzes legen Sie fest, wie viele Anbieter ein Auftrag erreicht und wie viele offene Aufträge ein Kunde haben darf.",
+    "leadCapLabel": "Anbieter pro Auftrag",
+    "leadCapPlaceholder": "10",
+    "openJobLimitLabel": "Offene Aufträge pro Kunde",
+    "openJobLimitPlaceholder": "5"
   }
 }

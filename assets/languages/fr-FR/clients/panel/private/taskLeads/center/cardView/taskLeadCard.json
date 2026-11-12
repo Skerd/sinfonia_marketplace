@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/cardView/taskLeadCard.tsx",
+  "failedTitle": "Impossible de charger la demande",
+  "failedDescription": "Touchez pour réessayer.",
+  "category": "Catégorie",
+  "city": "Ville",
+  "distance": "Éloignement",
+  "budget": "Budget prévu",
+  "quote": "Votre devis",
+  "taskLeadStatus": {
+    "new": "Nouvelle",
+    "viewed": "Vue",
+    "quoted": "Devis envoyé",
+    "declined": "Refusée",
+    "won": "Gagnée",
+    "lost": "Perdue",
+    "expired": "Expirée"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/index.tsx",
+  "title": "Demandes",
+  "description": "Ce que le client a écrit",
+  "help": {
+    "ariaLabel": "Demandes",
+    "title": "Demandes",
+    "overview": "Une demande est un travail qu'un client a publié sur le portail et qui correspond à l'une de vos offres : la bonne catégorie et, pour un travail sur place, un lieu dans votre zone d'intervention. Envoyez un devis avec votre prix, ou refusez.",
+    "sections": [
+      {
+        "title": "Ce que vous voyez",
+        "items": [
+          "La catégorie, la ville, le budget, les photos de la demande et sa distance à votre offre.",
+          "La rue, le code postal et le contact du client ne s'affichent que si votre devis est accepté.",
+          "Ouvrir une nouvelle demande la marque comme vue."
+        ]
+      },
+      {
+        "title": "Devis ou refus",
+        "items": [
+          "Devis : votre prix dans la devise de la demande, les jours nécessaires et une courte proposition. Le client le compare aux autres devis.",
+          "Refus : vous passez votre tour ; le client n'est pas prévenu.",
+          "Une demande avec devis, refusée, gagnée ou perdue n'accepte plus de réponse."
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "name": "Demande",
+    "status": "Statut",
+    "distanceKm": "Éloignement (km)",
+    "provider": "Prestataire",
+    "listing": "Offre",
+    "taskRequest": "Travail",
+    "bid": "Devis",
+    "createdAt": "Reçue",
+    "!enums": {
+      "status": {
+        "new": "Nouvelle",
+        "viewed": "Vue",
+        "quoted": "Devis envoyé",
+        "declined": "Refusée",
+        "won": "Gagnée",
+        "lost": "Perdue",
+        "expired": "Expirée"
+      }
+    }
+  },
+  "searchPlaceholder": "Rechercher ou ajouter des filtres..."
+}

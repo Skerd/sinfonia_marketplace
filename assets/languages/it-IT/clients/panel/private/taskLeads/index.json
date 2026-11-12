@@ -1,0 +1,50 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/index.tsx",
+  "title": "Richieste",
+  "description": "Cosa ha scritto il cliente",
+  "help": {
+    "ariaLabel": "Richieste",
+    "title": "Richieste",
+    "overview": "Una richiesta è un lavoro che un cliente ha pubblicato sul portale e che corrisponde a una delle tue offerte: la categoria giusta e, per i lavori a domicilio, un luogo nella tua zona di servizio. Invia un preventivo con il tuo prezzo oppure rifiuta.",
+    "sections": [
+      {
+        "title": "Cosa vedi",
+        "items": [
+          "Categoria, città, budget, foto del lavoro e quanto dista dalla tua offerta.",
+          "Via, CAP e contatto del cliente compaiono solo quando il tuo preventivo viene accettato.",
+          "Aprire una richiesta nuova la segna come vista."
+        ]
+      },
+      {
+        "title": "Preventivo o rifiuto",
+        "items": [
+          "Preventivo: il tuo prezzo nella valuta del lavoro, i giorni necessari e una breve proposta. Il cliente lo confronta con gli altri preventivi.",
+          "Rifiuto: rinunci al lavoro; il cliente non viene avvisato.",
+          "Una richiesta con preventivo, rifiutata, vinta o persa non accetta altre risposte."
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "name": "Richiesta",
+    "status": "Stato",
+    "distanceKm": "Distanza (km)",
+    "provider": "Fornitore",
+    "listing": "Offerta",
+    "taskRequest": "Lavoro",
+    "bid": "Preventivo",
+    "createdAt": "Ricevuta",
+    "!enums": {
+      "status": {
+        "new": "Nuova",
+        "viewed": "Vista",
+        "quoted": "Preventivo inviato",
+        "declined": "Rifiutata",
+        "won": "Vinta",
+        "lost": "Persa",
+        "expired": "Scaduta"
+      }
+    }
+  },
+  "searchPlaceholder": "Cerca o aggiungi filtri..."
+}

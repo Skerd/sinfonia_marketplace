@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/cardView/taskLeadCard.tsx",
+  "failedTitle": "Impossibile caricare la richiesta",
+  "failedDescription": "Tocca per riprovare.",
+  "category": "Categoria",
+  "city": "Città",
+  "distance": "Distanza",
+  "budget": "Budget",
+  "quote": "Il tuo preventivo",
+  "taskLeadStatus": {
+    "new": "Nuova",
+    "viewed": "Vista",
+    "quoted": "Preventivo inviato",
+    "declined": "Rifiutata",
+    "won": "Vinta",
+    "lost": "Persa",
+    "expired": "Scaduta"
+  }
+}

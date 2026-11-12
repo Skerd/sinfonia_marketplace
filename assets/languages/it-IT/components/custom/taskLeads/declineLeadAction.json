@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/declineLeadAction.tsx",
+  "decline": {
+    "title": "Rifiutare questa richiesta?",
+    "description": "Rinunci a questo lavoro. Il cliente non viene avvisato e la richiesta resta nel tuo elenco.",
+    "confirm": "Rifiuta",
+    "axios": {
+      "start": {
+        "title": "Rifiuto della richiesta",
+        "time": 3000
+      },
+      "success": {
+        "title": "Richiesta rifiutata",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossibile rifiutare la richiesta, riprova",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annulla"
+}

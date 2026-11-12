@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/cardView/taskLeadCard.tsx",
+  "failedTitle": "Failed to load lead",
+  "failedDescription": "Tap to retry.",
+  "category": "Category",
+  "city": "City",
+  "distance": "Distance",
+  "budget": "Budget",
+  "quote": "Your quote",
+  "taskLeadStatus": {
+    "new": "New",
+    "viewed": "Viewed",
+    "quoted": "Quoted",
+    "declined": "Declined",
+    "won": "Won",
+    "lost": "Lost",
+    "expired": "Expired"
+  }
+}

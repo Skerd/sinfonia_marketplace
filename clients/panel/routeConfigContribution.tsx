@@ -10,6 +10,7 @@ const CreateTaskRequest = lazy(() => import("@marketplaceModule/clients/panel/pr
 const EditTaskRequest = lazy(() => import("@marketplaceModule/clients/panel/private/taskRequests/editTaskRequest.tsx"));
 const AllOrders = lazy(() => import("@marketplaceModule/clients/panel/private/orders"));
 const AllBids = lazy(() => import("@marketplaceModule/clients/panel/private/bids"));
+const AllTaskLeads = lazy(() => import("@marketplaceModule/clients/panel/private/taskLeads"));
 const CreateBid = lazy(() => import("@marketplaceModule/clients/panel/private/bids/createBid.tsx"));
 const AllBookings = lazy(() => import("@marketplaceModule/clients/panel/private/bookings"));
 const CreateBooking = lazy(() => import("@marketplaceModule/clients/panel/private/bookings/createBooking.tsx"));
@@ -119,6 +120,9 @@ const marketplaceRouteConfigContribution: RouteConfigContribution = {
             }
             if (resource === "orders") {
                 return <AllOrders />;
+            }
+            if (resource === "leads") {
+                return <AllTaskLeads />;
             }
             if (resource === "bids") {
                 if (action === "create") return <CreateBid />;

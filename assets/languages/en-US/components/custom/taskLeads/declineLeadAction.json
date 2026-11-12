@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/declineLeadAction.tsx",
+  "decline": {
+    "title": "Decline this lead?",
+    "description": "You pass on this job. The client is not told, and the lead stays in your list.",
+    "confirm": "Decline",
+    "axios": {
+      "start": {
+        "title": "Declining lead",
+        "time": 3000
+      },
+      "success": {
+        "title": "Lead declined",
+        "time": 3000
+      },
+      "error": {
+        "title": "Could not decline the lead, please try again",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Cancel"
+}

@@ -1,0 +1,28 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/quoteLeadAction.tsx",
+  "quote": {
+    "title": "Envoyer un devis",
+    "description": "Votre prix, les jours nécessaires et une courte proposition.",
+    "budgetHint": "Le budget du client est de {budget}.",
+    "amountLabel": "Prix ({currency})",
+    "daysLabel": "Jours nécessaires",
+    "proposalLabel": "Proposition",
+    "proposalPlaceholder": "Ce que vous ferez, ce qui est compris, quand vous pouvez venir.",
+    "confirm": "Envoyer le devis",
+    "axios": {
+      "start": {
+        "title": "Envoi du devis",
+        "time": 3000
+      },
+      "success": {
+        "title": "Devis envoyé",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible d'envoyer le devis, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

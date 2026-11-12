@@ -1,0 +1,28 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/quoteLeadAction.tsx",
+  "quote": {
+    "title": "Send a quote",
+    "description": "Your price, the days you need and a short proposal.",
+    "budgetHint": "The client's budget is {budget}.",
+    "amountLabel": "Price ({currency})",
+    "daysLabel": "Days needed",
+    "proposalLabel": "Proposal",
+    "proposalPlaceholder": "What you will do, what is included, when you can come.",
+    "confirm": "Send quote",
+    "axios": {
+      "start": {
+        "title": "Sending quote",
+        "time": 3000
+      },
+      "success": {
+        "title": "Quote sent",
+        "time": 3000
+      },
+      "error": {
+        "title": "Could not send the quote, please try again",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Cancel"
+}

@@ -1,0 +1,50 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/index.tsx",
+  "title": "Leads",
+  "description": "What the client wrote",
+  "help": {
+    "ariaLabel": "Leads",
+    "title": "Leads",
+    "overview": "A lead is a job a client posted on the portal that matches one of your listings: the right category and, for on-site work, a place inside your service area. Send a quote with your price, or decline to pass.",
+    "sections": [
+      {
+        "title": "What you see",
+        "items": [
+          "The job's category, city, budget, photos and how far it is from your listing.",
+          "The street, postcode and the client's contact are shown only when your quote is accepted.",
+          "Opening a new lead marks it viewed."
+        ]
+      },
+      {
+        "title": "Quote or decline",
+        "items": [
+          "Quote: your price in the job's currency, the days you need and a short proposal. The client compares it with the other quotes.",
+          "Decline: you pass on the job; the client is not told.",
+          "A lead you quoted on, declined, won or lost takes no further answer."
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "name": "Lead",
+    "status": "Status",
+    "distanceKm": "Distance (km)",
+    "provider": "Provider",
+    "listing": "Listing",
+    "taskRequest": "Job",
+    "bid": "Quote",
+    "createdAt": "Received",
+    "!enums": {
+      "status": {
+        "new": "New",
+        "viewed": "Viewed",
+        "quoted": "Quoted",
+        "declined": "Declined",
+        "won": "Won",
+        "lost": "Lost",
+        "expired": "Expired"
+      }
+    }
+  },
+  "searchPlaceholder": "Search or add filters..."
+}

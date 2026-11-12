@@ -1,0 +1,50 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/index.tsx",
+  "title": "Kërkesat",
+  "description": "Çfarë shkroi klienti",
+  "help": {
+    "ariaLabel": "Kërkesat",
+    "title": "Kërkesat",
+    "overview": "Një kërkesë është një punë që një klient ka publikuar në portal dhe që përputhet me një nga ofertat tuaja: kategoria e duhur dhe, për punët në vend, një vend brenda zonës suaj të shërbimit. Dërgoni një ofertë me çmimin tuaj ose refuzoni.",
+    "sections": [
+      {
+        "title": "Çfarë shihni",
+        "items": [
+          "Kategorinë, qytetin, buxhetin, fotot e punës dhe sa larg është nga oferta juaj.",
+          "Rruga, kodi postar dhe kontakti i klientit shfaqen vetëm kur oferta juaj pranohet.",
+          "Kur hapni një kërkesë të re, ajo shënohet si e parë."
+        ]
+      },
+      {
+        "title": "Ofertë ose refuzim",
+        "items": [
+          "Ofertë: çmimi juaj në monedhën e punës, ditët që ju duhen dhe një propozim i shkurtër. Klienti e krahason me ofertat e tjera.",
+          "Refuzim: hiqni dorë nga puna; klienti nuk njoftohet.",
+          "Një kërkesë me ofertë, e refuzuar, e fituar ose e humbur nuk pranon më përgjigje."
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "name": "Kërkesa",
+    "status": "Statusi",
+    "distanceKm": "Largësia (km)",
+    "provider": "Ofruesi",
+    "listing": "Oferta",
+    "taskRequest": "Puna",
+    "bid": "Oferta e dërguar",
+    "createdAt": "Marrë më",
+    "!enums": {
+      "status": {
+        "new": "E re",
+        "viewed": "E parë",
+        "quoted": "Me ofertë",
+        "declined": "E refuzuar",
+        "won": "E fituar",
+        "lost": "E humbur",
+        "expired": "E skaduar"
+      }
+    }
+  },
+  "searchPlaceholder": "Kërkoni ose shtoni filtra..."
+}

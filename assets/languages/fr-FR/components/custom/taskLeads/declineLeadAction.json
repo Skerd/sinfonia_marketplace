@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/declineLeadAction.tsx",
+  "decline": {
+    "title": "Refuser cette demande ?",
+    "description": "Vous passez votre tour pour ce travail. Le client n'est pas prévenu et la demande reste dans votre liste.",
+    "confirm": "Refuser",
+    "axios": {
+      "start": {
+        "title": "Refus de la demande",
+        "time": 3000
+      },
+      "success": {
+        "title": "Demande refusée",
+        "time": 3000
+      },
+      "error": {
+        "title": "Impossible de refuser la demande, veuillez réessayer",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Annuler"
+}

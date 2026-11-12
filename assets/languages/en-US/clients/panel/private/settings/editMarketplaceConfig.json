@@ -7,6 +7,12 @@
     "listedOnPortalLabel": "List on the portal",
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Currency",
-    "currencyPlaceholder": "Select currency"
+    "currencyPlaceholder": "Select currency",
+    "operatorSectionTitle": "Portal jobs",
+    "operatorSectionHint": "As the marketplace operator you decide how many providers each job reaches and how many open jobs one client may have.",
+    "leadCapLabel": "Providers per job",
+    "leadCapPlaceholder": "10",
+    "openJobLimitLabel": "Open jobs per client",
+    "openJobLimitPlaceholder": "5"
   }
 }

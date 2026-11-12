@@ -16,7 +16,8 @@
     "Providerprofiles": "Provider profiles",
     "Reviews": "Reviews",
     "Taskrequests": "Task requests",
-    "Marketplaceconfigs": "Marketplace settings"
+    "Marketplaceconfigs": "Marketplace settings",
+    "Taskleads": "Leads"
   },
   "permissions": {
     "Bookings": {
@@ -310,6 +311,23 @@
       "createdBy": "Created by",
       "updatedAt": "Updated at",
       "ensure": "Create settings if missing"
+    },
+    "Taskleads": {
+      "taskleads": "Leads",
+      "name": "Lead",
+      "status": "Status",
+      "provider": "Provider",
+      "listing": "Listing",
+      "taskRequest": "Job",
+      "bid": "Quote",
+      "distanceKm": "Distance (km)",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "createdBy": "Created by",
+      "deletedAt": "Deleted",
+      "deletedBy": "Deleted by",
+      "quote": "Send a quote",
+      "decline": "Decline"
     }
   }
 }

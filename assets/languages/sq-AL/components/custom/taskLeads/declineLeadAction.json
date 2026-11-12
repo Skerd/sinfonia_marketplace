@@ -1,0 +1,23 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/declineLeadAction.tsx",
+  "decline": {
+    "title": "Ta refuzoni këtë kërkesë?",
+    "description": "Hiqni dorë nga kjo punë. Klienti nuk njoftohet dhe kërkesa mbetet në listën tuaj.",
+    "confirm": "Refuzo",
+    "axios": {
+      "start": {
+        "title": "Kërkesa po refuzohet",
+        "time": 3000
+      },
+      "success": {
+        "title": "Kërkesa u refuzua",
+        "time": 3000
+      },
+      "error": {
+        "title": "Kërkesa nuk u refuzua, ju lutemi provoni përsëri",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Anulo"
+}

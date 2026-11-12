@@ -7,6 +7,12 @@
     "listedOnPortalLabel": "Shfaq në portal",
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Monedha",
-    "currencyPlaceholder": "Zgjidh monedhën"
+    "currencyPlaceholder": "Zgjidh monedhën",
+    "operatorSectionTitle": "Punët e portalit",
+    "operatorSectionHint": "Si operator i tregut vendosni sa ofrues arrin çdo punë dhe sa punë të hapura mund të ketë një klient.",
+    "leadCapLabel": "Ofrues për punë",
+    "leadCapPlaceholder": "10",
+    "openJobLimitLabel": "Punë të hapura për klient",
+    "openJobLimitPlaceholder": "5"
   }
 }

@@ -1,0 +1,45 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/sheetView/taskLeadSheetView.tsx",
+  "failedTitle": "Anfrage konnte nicht geladen werden",
+  "failedDescription": "Beim Laden dieser Anfrage ist ein Fehler aufgetreten. Klicken, um es erneut zu versuchen.",
+  "failedTooltipDescription": "Klicken, um die Daten erneut zu laden.",
+  "leadSubtitle": "Anfrage",
+  "overview": "Übersicht",
+  "photos": "Fotos",
+  "job": "Der Auftrag",
+  "quote": "Ihre Offerte",
+  "category": "Kategorie",
+  "city": "Ort",
+  "distance": "Entfernung",
+  "distanceValue": {
+    "one": "{value} km entfernt",
+    "other": "{value} km entfernt"
+  },
+  "budgetMin": "Budget ab",
+  "budgetMax": "Budget bis",
+  "expiresAt": "Offen bis",
+  "status": "Status",
+  "taskLeadStatus": {
+    "new": "Neu",
+    "viewed": "Angesehen",
+    "quoted": "Offeriert",
+    "declined": "Abgelehnt",
+    "won": "Gewonnen",
+    "lost": "Verloren",
+    "expired": "Abgelaufen"
+  },
+  "description": "Was der Kunde geschrieben hat",
+  "quoteAmount": "Preis",
+  "deliveryDays": "Benötigte Tage",
+  "deliveryDaysValue": {
+    "one": "{value} Tag",
+    "other": "{value} Tage"
+  },
+  "proposal": "Vorschlag",
+  "lifecycle": "Verlauf",
+  "createdAt": "Erstellt",
+  "updatedAt": "Geändert",
+  "createdBy": "Erstellt von",
+  "deletedAt": "Gelöscht",
+  "deletedBy": "Gelöscht von"
+}

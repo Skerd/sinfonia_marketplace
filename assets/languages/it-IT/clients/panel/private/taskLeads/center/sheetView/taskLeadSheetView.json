@@ -1,0 +1,45 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/sheetView/taskLeadSheetView.tsx",
+  "failedTitle": "Impossibile caricare la richiesta",
+  "failedDescription": "Si è verificato un errore durante il caricamento della richiesta. Fai clic per riprovare.",
+  "failedTooltipDescription": "Fai clic per ricaricare i dati.",
+  "leadSubtitle": "Richiesta",
+  "overview": "Panoramica",
+  "photos": "Foto",
+  "job": "Il lavoro",
+  "quote": "Il tuo preventivo",
+  "category": "Categoria",
+  "city": "Città",
+  "distance": "Distanza",
+  "distanceValue": {
+    "one": "A {value} km",
+    "other": "A {value} km"
+  },
+  "budgetMin": "Budget da",
+  "budgetMax": "Budget fino a",
+  "expiresAt": "Aperta fino al",
+  "status": "Stato",
+  "taskLeadStatus": {
+    "new": "Nuova",
+    "viewed": "Vista",
+    "quoted": "Preventivo inviato",
+    "declined": "Rifiutata",
+    "won": "Vinta",
+    "lost": "Persa",
+    "expired": "Scaduta"
+  },
+  "description": "Cosa ha scritto il cliente",
+  "quoteAmount": "Prezzo",
+  "deliveryDays": "Giorni necessari",
+  "deliveryDaysValue": {
+    "one": "{value} giorno",
+    "other": "{value} giorni"
+  },
+  "proposal": "Proposta",
+  "lifecycle": "Cronologia",
+  "createdAt": "Creata",
+  "updatedAt": "Modificata",
+  "createdBy": "Creata da",
+  "deletedAt": "Eliminata",
+  "deletedBy": "Eliminata da"
+}

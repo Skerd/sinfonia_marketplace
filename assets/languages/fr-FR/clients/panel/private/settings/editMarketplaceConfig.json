@@ -7,6 +7,12 @@
     "listedOnPortalLabel": "Afficher sur le portail",
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Devise",
-    "currencyPlaceholder": "Choisir une devise"
+    "currencyPlaceholder": "Choisir une devise",
+    "operatorSectionTitle": "Demandes du portail",
+    "operatorSectionHint": "En tant qu'opérateur de la place de marché, vous décidez combien de prestataires chaque demande atteint et combien de demandes ouvertes un client peut avoir.",
+    "leadCapLabel": "Prestataires par demande",
+    "leadCapPlaceholder": "10",
+    "openJobLimitLabel": "Demandes ouvertes par client",
+    "openJobLimitPlaceholder": "5"
   }
 }

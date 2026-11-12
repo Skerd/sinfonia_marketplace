@@ -16,7 +16,8 @@
     "Providerprofiles": "Profilet e ofruesve",
     "Reviews": "Vlerësimet",
     "Taskrequests": "Kërkesat për detyra",
-    "Marketplaceconfigs": "Cilësimet e tregut"
+    "Marketplaceconfigs": "Cilësimet e tregut",
+    "Taskleads": "Kërkesat"
   },
   "permissions": {
     "Bookings": {
@@ -310,6 +311,23 @@
       "createdBy": "Krijuar nga",
       "updatedAt": "Përditësuar më",
       "ensure": "Krijo cilësimet nëse mungojnë"
+    },
+    "Taskleads": {
+      "taskleads": "Kërkesat",
+      "name": "Kërkesa",
+      "status": "Statusi",
+      "provider": "Ofruesi",
+      "listing": "Oferta",
+      "taskRequest": "Puna",
+      "bid": "Oferta e dërguar",
+      "distanceKm": "Largësia (km)",
+      "createdAt": "Krijuar",
+      "updatedAt": "Ndryshuar",
+      "createdBy": "Krijuar nga",
+      "deletedAt": "Fshirë",
+      "deletedBy": "Fshirë nga",
+      "quote": "Dërgo ofertë",
+      "decline": "Refuzo"
     }
   }
 }

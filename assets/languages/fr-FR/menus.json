@@ -42,6 +42,9 @@
     },
     "providerprofile": {
       "title": "Profil de prestataire"
+    },
+    "leads": {
+      "title": "Demandes"
     }
   },
   "tenancy": {

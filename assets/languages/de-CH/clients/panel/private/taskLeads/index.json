@@ -1,0 +1,50 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/index.tsx",
+  "title": "Anfragen",
+  "description": "Was der Kunde geschrieben hat",
+  "help": {
+    "ariaLabel": "Anfragen",
+    "title": "Anfragen",
+    "overview": "Eine Anfrage ist ein Auftrag, den ein Kunde auf dem Portal ausgeschrieben hat und der zu einem Ihrer Angebote passt: die richtige Kategorie und bei Arbeiten vor Ort ein Ort in Ihrem Einsatzgebiet. Senden Sie eine Offerte mit Ihrem Preis oder lehnen Sie ab.",
+    "sections": [
+      {
+        "title": "Was Sie sehen",
+        "items": [
+          "Kategorie, Ort, Budget und Fotos des Auftrags und wie weit er von Ihrem Angebot entfernt ist.",
+          "Strasse, Postleitzahl und Kontakt des Kunden sehen Sie erst, wenn Ihre Offerte angenommen wird.",
+          "Wenn Sie eine neue Anfrage öffnen, gilt sie als angesehen."
+        ]
+      },
+      {
+        "title": "Offerieren oder ablehnen",
+        "items": [
+          "Offerieren: Ihr Preis in der Währung des Auftrags, die benötigten Tage und ein kurzer Vorschlag. Der Kunde vergleicht ihn mit den anderen Offerten.",
+          "Ablehnen: Sie verzichten auf den Auftrag; der Kunde erfährt es nicht.",
+          "Eine offerierte, abgelehnte, gewonnene oder verlorene Anfrage nimmt keine weitere Antwort an."
+        ]
+      }
+    ]
+  },
+  "fields": {
+    "name": "Anfrage",
+    "status": "Status",
+    "distanceKm": "Entfernung (km)",
+    "provider": "Anbieter",
+    "listing": "Angebot",
+    "taskRequest": "Auftrag",
+    "bid": "Offerte",
+    "createdAt": "Erhalten",
+    "!enums": {
+      "status": {
+        "new": "Neu",
+        "viewed": "Angesehen",
+        "quoted": "Offeriert",
+        "declined": "Abgelehnt",
+        "won": "Gewonnen",
+        "lost": "Verloren",
+        "expired": "Abgelaufen"
+      }
+    }
+  },
+  "searchPlaceholder": "Suchen oder Filter hinzufügen..."
+}

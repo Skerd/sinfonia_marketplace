@@ -10,6 +10,8 @@ export default createGenericEditPage<MarketplaceConfig, EditMarketplaceConfigFor
     accessModel: "marketplaceconfigs",
     apiUrl: "/api/marketplace/marketplaceConfig",
     schema: editMarketplaceConfigFormSchema,
-    mapEntityData: (data) => ({...data, currency: data.currency?._id}),
+    // `isOperator` is not a form value: it only decides whether the operator's own section shows (D143).
+    mapEntityData: ({isOperator: _isOperator, ...data}) => ({...data, currency: data.currency?._id}),
+    buildFormExtras: (_entityId, _params, entity) => ({isOperator: entity?.isOperator === true}),
     submitIcon: <IconDeviceFloppy />,
 });

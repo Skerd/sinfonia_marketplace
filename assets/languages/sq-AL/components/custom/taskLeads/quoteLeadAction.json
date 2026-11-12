@@ -1,0 +1,28 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/quoteLeadAction.tsx",
+  "quote": {
+    "title": "Dërgoni një ofertë",
+    "description": "Çmimi juaj, ditët që ju duhen dhe një propozim i shkurtër.",
+    "budgetHint": "Buxheti i klientit është {budget}.",
+    "amountLabel": "Çmimi ({currency})",
+    "daysLabel": "Ditët që duhen",
+    "proposalLabel": "Propozimi",
+    "proposalPlaceholder": "Çfarë do të bëni, çfarë përfshihet, kur mund të vini.",
+    "confirm": "Dërgo ofertën",
+    "axios": {
+      "start": {
+        "title": "Oferta po dërgohet",
+        "time": 3000
+      },
+      "success": {
+        "title": "Oferta u dërgua",
+        "time": 3000
+      },
+      "error": {
+        "title": "Oferta nuk u dërgua, ju lutemi provoni përsëri",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Anulo"
+}

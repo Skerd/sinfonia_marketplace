@@ -7,6 +7,12 @@
     "listedOnPortalLabel": "Mostra sul portale",
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Valuta",
-    "currencyPlaceholder": "Seleziona valuta"
+    "currencyPlaceholder": "Seleziona valuta",
+    "operatorSectionTitle": "Lavori del portale",
+    "operatorSectionHint": "Come operatore del marketplace decidi quanti fornitori raggiunge ogni lavoro e quanti lavori aperti può avere un cliente.",
+    "leadCapLabel": "Fornitori per lavoro",
+    "leadCapPlaceholder": "10",
+    "openJobLimitLabel": "Lavori aperti per cliente",
+    "openJobLimitPlaceholder": "5"
   }
 }

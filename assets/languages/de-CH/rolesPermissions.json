@@ -16,7 +16,8 @@
     "Providerprofiles": "Anbieterprofile",
     "Reviews": "Bewertungen",
     "Taskrequests": "Ausschreibungen",
-    "Marketplaceconfigs": "Marktplatz-Einstellungen"
+    "Marketplaceconfigs": "Marktplatz-Einstellungen",
+    "Taskleads": "Anfragen"
   },
   "permissions": {
     "Bookings": {
@@ -310,6 +311,23 @@
       "createdBy": "Erstellt von",
       "updatedAt": "Aktualisiert am",
       "ensure": "Einstellungen anlegen, falls sie fehlen"
+    },
+    "Taskleads": {
+      "taskleads": "Anfragen",
+      "name": "Anfrage",
+      "status": "Status",
+      "provider": "Anbieter",
+      "listing": "Angebot",
+      "taskRequest": "Auftrag",
+      "bid": "Offerte",
+      "distanceKm": "Entfernung (km)",
+      "createdAt": "Erstellt",
+      "updatedAt": "Geändert",
+      "createdBy": "Erstellt von",
+      "deletedAt": "Gelöscht",
+      "deletedBy": "Gelöscht von",
+      "quote": "Offerte senden",
+      "decline": "Ablehnen"
     }
   }
 }

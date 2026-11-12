@@ -1,0 +1,45 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskLeads/center/sheetView/taskLeadSheetView.tsx",
+  "failedTitle": "Kërkesa nuk u ngarkua",
+  "failedDescription": "Ndodhi një gabim gjatë ngarkimit të kësaj kërkese. Klikoni për të provuar përsëri.",
+  "failedTooltipDescription": "Klikoni për të ringarkuar të dhënat.",
+  "leadSubtitle": "Kërkesë",
+  "overview": "Përmbledhje",
+  "photos": "Fotot",
+  "job": "Puna",
+  "quote": "Oferta juaj",
+  "category": "Kategoria",
+  "city": "Qyteti",
+  "distance": "Largësia",
+  "distanceValue": {
+    "one": "{value} km larg",
+    "other": "{value} km larg"
+  },
+  "budgetMin": "Buxheti nga",
+  "budgetMax": "Buxheti deri në",
+  "expiresAt": "E hapur deri më",
+  "status": "Statusi",
+  "taskLeadStatus": {
+    "new": "E re",
+    "viewed": "E parë",
+    "quoted": "Me ofertë",
+    "declined": "E refuzuar",
+    "won": "E fituar",
+    "lost": "E humbur",
+    "expired": "E skaduar"
+  },
+  "description": "Çfarë shkroi klienti",
+  "quoteAmount": "Çmimi",
+  "deliveryDays": "Ditët që duhen",
+  "deliveryDaysValue": {
+    "one": "{value} ditë",
+    "other": "{value} ditë"
+  },
+  "proposal": "Propozimi",
+  "lifecycle": "Historiku",
+  "createdAt": "Krijuar",
+  "updatedAt": "Ndryshuar",
+  "createdBy": "Krijuar nga",
+  "deletedAt": "Fshirë",
+  "deletedBy": "Fshirë nga"
+}

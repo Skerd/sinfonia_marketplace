@@ -1,0 +1,28 @@
+{
+  "path": "src/modules/marketplace/components/custom/taskLeads/quoteLeadAction.tsx",
+  "quote": {
+    "title": "Offerte senden",
+    "description": "Ihr Preis, die benötigten Tage und ein kurzer Vorschlag.",
+    "budgetHint": "Das Budget des Kunden beträgt {budget}.",
+    "amountLabel": "Preis ({currency})",
+    "daysLabel": "Benötigte Tage",
+    "proposalLabel": "Vorschlag",
+    "proposalPlaceholder": "Was Sie machen, was inbegriffen ist, wann Sie kommen können.",
+    "confirm": "Offerte senden",
+    "axios": {
+      "start": {
+        "title": "Offerte wird gesendet",
+        "time": 3000
+      },
+      "success": {
+        "title": "Offerte gesendet",
+        "time": 3000
+      },
+      "error": {
+        "title": "Die Offerte konnte nicht gesendet werden, bitte erneut versuchen",
+        "time": 3000
+      }
+    }
+  },
+  "cancel": "Abbrechen"
+}

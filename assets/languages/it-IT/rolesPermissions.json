@@ -16,7 +16,8 @@
     "Providerprofiles": "Profili dei fornitori",
     "Reviews": "Recensioni",
     "Taskrequests": "Richieste di attività",
-    "Marketplaceconfigs": "Impostazioni del marketplace"
+    "Marketplaceconfigs": "Impostazioni del marketplace",
+    "Taskleads": "Richieste"
   },
   "permissions": {
     "Bookings": {
@@ -310,6 +311,23 @@
       "createdBy": "Creato da",
       "updatedAt": "Aggiornato il",
       "ensure": "Crea le impostazioni se mancano"
+    },
+    "Taskleads": {
+      "taskleads": "Richieste",
+      "name": "Richiesta",
+      "status": "Stato",
+      "provider": "Fornitore",
+      "listing": "Offerta",
+      "taskRequest": "Lavoro",
+      "bid": "Preventivo",
+      "distanceKm": "Distanza (km)",
+      "createdAt": "Creata",
+      "updatedAt": "Modificata",
+      "createdBy": "Creata da",
+      "deletedAt": "Eliminata",
+      "deletedBy": "Eliminata da",
+      "quote": "Invia un preventivo",
+      "decline": "Rifiuta"
     }
   }
 }
