@@ -14,5 +14,27 @@
     "leadCapPlaceholder": "10",
     "openJobLimitLabel": "Lavori aperti per cliente",
     "openJobLimitPlaceholder": "5"
+  },
+  "axios": {
+    "start": {
+      "title": "Salvataggio impostazioni",
+      "time": 3000
+    },
+    "success": {
+      "title": "Impostazioni salvate",
+      "time": 3000
+    },
+    "error": {
+      "title": "Non è stato possibile salvare le impostazioni. Controlla il modulo e riprova.",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Impostazioni del marketplace",
+    "description": "Valgono per il marketplace dei servizi di questa azienda."
+  },
+  "formButtons": {
+    "cancel": "Annulla",
+    "submit": "Salva"
   }
 }

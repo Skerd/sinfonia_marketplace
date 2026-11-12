@@ -14,5 +14,27 @@
     "leadCapPlaceholder": "10",
     "openJobLimitLabel": "Demandes ouvertes par client",
     "openJobLimitPlaceholder": "5"
+  },
+  "axios": {
+    "start": {
+      "title": "Enregistrement des paramètres",
+      "time": 3000
+    },
+    "success": {
+      "title": "Paramètres enregistrés",
+      "time": 3000
+    },
+    "error": {
+      "title": "Les paramètres n'ont pas pu être enregistrés. Vérifiez le formulaire et réessayez.",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Paramètres de la place de marché",
+    "description": "S'applique à la place de marché de services de cette entreprise."
+  },
+  "formButtons": {
+    "cancel": "Annuler",
+    "submit": "Enregistrer"
   }
 }

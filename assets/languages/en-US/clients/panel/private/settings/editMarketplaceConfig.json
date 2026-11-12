@@ -14,5 +14,27 @@
     "leadCapPlaceholder": "10",
     "openJobLimitLabel": "Open jobs per client",
     "openJobLimitPlaceholder": "5"
+  },
+  "axios": {
+    "start": {
+      "title": "Saving settings",
+      "time": 3000
+    },
+    "success": {
+      "title": "Settings saved",
+      "time": 3000
+    },
+    "error": {
+      "title": "Settings could not be saved. Check the form and try again.",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Marketplace settings",
+    "description": "Applies to this company's services marketplace."
+  },
+  "formButtons": {
+    "cancel": "Cancel",
+    "submit": "Save"
   }
 }

@@ -14,5 +14,27 @@
     "leadCapPlaceholder": "10",
     "openJobLimitLabel": "Punë të hapura për klient",
     "openJobLimitPlaceholder": "5"
+  },
+  "axios": {
+    "start": {
+      "title": "Duke ruajtur cilësimet",
+      "time": 3000
+    },
+    "success": {
+      "title": "Cilësimet u ruajtën",
+      "time": 3000
+    },
+    "error": {
+      "title": "Cilësimet nuk u ruajtën. Kontrolloni formularin dhe provoni përsëri.",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Cilësimet e tregut",
+    "description": "Vlejnë për tregun e shërbimeve të kësaj kompanie."
+  },
+  "formButtons": {
+    "cancel": "Anulo",
+    "submit": "Ruaj"
   }
 }

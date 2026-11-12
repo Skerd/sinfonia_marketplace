@@ -14,5 +14,27 @@
     "leadCapPlaceholder": "10",
     "openJobLimitLabel": "Offene Aufträge pro Kunde",
     "openJobLimitPlaceholder": "5"
+  },
+  "axios": {
+    "start": {
+      "title": "Einstellungen werden gespeichert",
+      "time": 3000
+    },
+    "success": {
+      "title": "Einstellungen gespeichert",
+      "time": 3000
+    },
+    "error": {
+      "title": "Die Einstellungen konnten nicht gespeichert werden. Prüfen Sie das Formular und versuchen Sie es erneut.",
+      "time": 3000
+    }
+  },
+  "formHeader": {
+    "title": "Marktplatz-Einstellungen",
+    "description": "Gilt für den Dienstleistungsmarktplatz dieser Firma."
+  },
+  "formButtons": {
+    "cancel": "Abbrechen",
+    "submit": "Speichern"
   }
 }
