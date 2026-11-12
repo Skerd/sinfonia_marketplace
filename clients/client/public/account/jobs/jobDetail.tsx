@@ -1,5 +1,5 @@
 import {useCallback, useEffect, useState} from "react";
-import {Link, useParams, useSearchParams} from "react-router-dom";
+import {Link, useNavigate, useParams, useSearchParams} from "react-router-dom";
 import {compose} from "redux";
 import {toast} from "sonner";
 import {IconArrowLeft, IconCircleCheck, IconClock, IconMapPin} from "@tabler/icons-react";
@@ -21,6 +21,7 @@ import {Button} from "@coreModule/components/ui/button.tsx";
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/jobs/jobDetail.tsx";
 
 const JOB_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/taskRequest/mySingle"};
+const ACCEPT_BID_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/bid/accept"};
 /** Decline a quote, close or reopen the job: the url is set per action. */
 const JOB_ACTION_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace"};
 
@@ -31,7 +32,10 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
     const justPosted = searchParams.get("posted") === "1";
     // How many pros the new job reached (D143); absent on an older link.
     const notified = Number(searchParams.get("notified") ?? NaN);
+    const navigate = useNavigate();
     const {formatMoney} = useServicesConfig();
+
+    const [confirmBidId, setConfirmBidId] = useState<string | null>(null);
 
     const [jobCount, setJobCount] = useState(0);
     const load = useCallback(() => setJobCount((count) => count + 1), []);
@@ -48,6 +52,7 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
     const actionRequest = useHttpRequest(JOB_ACTION_REQUEST, {_id: action.id}, action.count, true, {
         success: () => {
             toast.success(resolveLanguageKey(action.successKey));
+            setConfirmBidId(null);
             load();
         },
         error: actionError,
@@ -55,7 +60,17 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
     const run = (path: string, id: string, successKey: string) =>
         setAction((current) => ({path, id, successKey, count: current.count + 1}));
 
-    const busy = actionRequest.loading;
+    /** Accepting a quote opens the order with that pro (in their company, D143); send the buyer to it. */
+    const [acceptCall, setAcceptCall] = useState({id: "", count: 0});
+    const acceptRequest = useHttpRequest<{message: string; _id: string}>(ACCEPT_BID_REQUEST, {_id: acceptCall.id}, acceptCall.count, true, {
+        success: (response) => {
+            toast.success(resolveLanguageKey("bidAccepted"));
+            navigate(`${base}/account/orders/${response._id}`);
+        },
+        error: actionError,
+    });
+    const acceptBid = (bidId: string) => setAcceptCall((current) => ({id: bidId, count: current.count + 1}));
+    const busy = actionRequest.loading || acceptRequest.loading || (acceptCall.count > 0 && !!acceptRequest.data);
 
     if (loading) {
         return <div className="h-96 animate-pulse rounded-2xl bg-muted" aria-busy="true" aria-label={resolveLanguageKey("loading")} />;
@@ -149,11 +164,28 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
                                             </div>
                                             {bid.proposal && <p className="whitespace-pre-line text-[15px] leading-relaxed text-muted-foreground">{bid.proposal}</p>}
                                             {pending && isOpen && (
-                                                <div className="flex flex-wrap gap-3">
-                                                    <Button variant="outline" size="lg" type="button" disabled={busy} onClick={() => run("bid/reject", bid._id, "bidRejected")}>
-                                                        {resolveLanguageKey("rejectBid")}
-                                                    </Button>
-                                                </div>
+                                                confirmBidId === bid._id ? (
+                                                    <div className="flex flex-col gap-3 rounded-xl bg-muted p-4">
+                                                        <p className="text-sm">{resolveLanguageKey("confirmAccept").replace("{name}", bid.bidderCompany?.name ?? bidderName).replace("{amount}", formatMoney(bid.amount, bid.currency))}</p>
+                                                        <div className="flex flex-wrap gap-3">
+                                                            <Button size="lg" type="button" disabled={busy} onClick={() => acceptBid(bid._id)}>
+                                                                {resolveLanguageKey(busy ? "working" : "confirmAcceptButton")}
+                                                            </Button>
+                                                            <Button variant="outline" size="lg" type="button" disabled={busy} onClick={() => setConfirmBidId(null)}>
+                                                                {resolveLanguageKey("back")}
+                                                            </Button>
+                                                        </div>
+                                                    </div>
+                                                ) : (
+                                                    <div className="flex flex-wrap gap-3">
+                                                        <Button size="lg" type="button" disabled={busy} onClick={() => setConfirmBidId(bid._id)}>
+                                                            {resolveLanguageKey("acceptBid")}
+                                                        </Button>
+                                                        <Button variant="outline" size="lg" type="button" disabled={busy} onClick={() => run("bid/reject", bid._id, "bidRejected")}>
+                                                            {resolveLanguageKey("rejectBid")}
+                                                        </Button>
+                                                    </div>
+                                                )
                                             )}
                                         </li>
                                     );

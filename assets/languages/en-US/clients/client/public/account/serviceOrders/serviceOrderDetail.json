@@ -42,6 +42,12 @@
       "message": "Your review helps other customers choose.",
       "field": "Your review (optional)",
       "submit": "Post review"
+    },
+    "milestone": {
+      "title": "Split into milestones",
+      "message": "Pay the provider in parts as the work progresses. You release each milestone when its part is done.",
+      "field": "What is this part?",
+      "submit": "Add milestone"
     }
   },
   "ratingLabel": "Rating",
@@ -59,6 +65,10 @@
     "completed": "Done"
   },
   "milestonesTitle": "Milestones",
+  "milestonesHint": "Pay in parts: split the order into milestones and release each one when its part is done.",
+  "addMilestone": "Split into milestones",
+  "milestoneAmountLabel": "Amount (up to {max})",
+  "milestoneAdded": "Milestone added",
   "releaseMilestone": "Release payment",
   "bookingsTitle": "Scheduled sessions",
   "provider": "Provider",

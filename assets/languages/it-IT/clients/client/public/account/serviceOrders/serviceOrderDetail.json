@@ -42,6 +42,12 @@
       "message": "La tua recensione aiuta gli altri clienti a scegliere.",
       "field": "La tua recensione (facoltativa)",
       "submit": "Pubblica recensione"
+    },
+    "milestone": {
+      "title": "Dividi in fasi",
+      "message": "Paga il professionista a rate, man mano che il lavoro avanza. Sblocchi ogni fase quando la sua parte è finita.",
+      "field": "Quale parte del lavoro?",
+      "submit": "Aggiungi fase"
     }
   },
   "ratingLabel": "Valutazione",
@@ -59,6 +65,10 @@
     "completed": "Completata"
   },
   "milestonesTitle": "Milestone",
+  "milestonesHint": "Paga a rate: dividi l'ordine in fasi e sblocca ognuna quando la sua parte è finita.",
+  "addMilestone": "Dividi in fasi",
+  "milestoneAmountLabel": "Importo (fino a {max})",
+  "milestoneAdded": "Fase aggiunta",
   "releaseMilestone": "Rilascia pagamento",
   "bookingsTitle": "Sessioni programmate",
   "provider": "Fornitore",

@@ -24,6 +24,8 @@ import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx"
 import {Button} from "@coreModule/components/ui/button.tsx";
 import {Label} from "@coreModule/components/ui/label.tsx";
 import {Textarea} from "@coreModule/components/ui/textarea.tsx";
+import {Input} from "@coreModule/components/ui/input.tsx";
+import {fromMinor, sumMinor, toMinor} from "armonia/src/modules/core/helpers/money.ts";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderDetail.tsx";
 
@@ -32,7 +34,7 @@ const STEPS = ["pending", "accepted", "in_progress", "completed"] as const;
 
 const REVISION_REASON_MIN = 10;
 
-type Panel = "cancel" | "revision" | "dispute" | "review" | "booking" | null;
+type Panel = "cancel" | "revision" | "dispute" | "review" | "booking" | "milestone" | null;
 
 function EscrowPayForm({
     clientSecret,
@@ -108,6 +110,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
     const [panel, setPanel] = useState<Panel>(null);
     const [text, setText] = useState("");
     const [rating, setRating] = useState(5);
+    const [milestoneAmount, setMilestoneAmount] = useState("");
     const [orderCount, setOrderCount] = useState(0);
     const load = useCallback(() => setOrderCount((count) => count + 1), []);
     useEffect(() => {
@@ -122,6 +125,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
         setPanel(next);
         setText("");
         setRating(5);
+        setMilestoneAmount("");
     }
 
     /** Runs one buyer action, then reloads the order so every block reflects the new state. */
@@ -167,6 +171,10 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
     const bookings = order.bookings ?? [];
     // The server's booking rule: one booking per accepted or in-progress order
     const canBook = (status === "accepted" || status === "in_progress") && bookings.length === 0;
+    // TD-B190: the buyer splits the escrow into milestones; together they never exceed the order (the server's rule).
+    const decimals = order.currency?.decimalPlaces ?? 2;
+    const unsplit = toMinor(order.amount ?? 0, decimals) - sumMinor(milestones.map(milestone => toMinor(milestone.amount, decimals)));
+    const canSplit = (status === "accepted" || status === "in_progress") && !order.hasActiveDispute && unsplit > 0n;
 
     function submitPanel(event: FormEvent) {
         event.preventDefault();
@@ -177,6 +185,8 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
             run("PUT", "dispute/createMine", {order: order._id, reason: text.trim()}, "disputeOpened");
         } else if (panel === "review") {
             run("PUT", "review/createMine", {order: order._id, rating, comment: text.trim() || undefined}, "reviewThanks");
+        } else if (panel === "milestone") {
+            run("POST", "order/createMilestone", {order: order._id, name: text.trim(), amount: Number(milestoneAmount)}, "milestoneAdded");
         } else if (panel === "cancel") {
             run("POST", "order/cancel", {_id: order._id}, "cancelled");
         }
@@ -319,7 +329,19 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
                                     </div>
                                 </fieldset>
                             )}
-                            {panel !== "cancel" && (
+                            {panel === "milestone" && (
+                                <>
+                                    <Label className="flex-col items-stretch gap-1.5">
+                                        {resolveLanguageKey("panel.milestone.field")}
+                                        <Input required maxLength={200} value={text} onChange={event => setText(event.target.value)} className="bg-card" />
+                                    </Label>
+                                    <Label className="flex-col items-stretch gap-1.5">
+                                        {resolveLanguageKey("milestoneAmountLabel").replace("{max}", formatMoney(Number(fromMinor(unsplit, decimals)), order.currency))}
+                                        <Input required type="number" min={0.01} max={fromMinor(unsplit, decimals)} step="0.01" inputMode="decimal" value={milestoneAmount} onChange={event => setMilestoneAmount(event.target.value)} className="bg-card" />
+                                    </Label>
+                                </>
+                            )}
+                            {panel !== "cancel" && panel !== "milestone" && (
                                 <Label className="flex-col items-stretch gap-1.5">
                                     {resolveLanguageKey(`panel.${panel}.field`)}
                                     <Textarea
@@ -402,10 +424,18 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
                         </section>
                     )}
 
-                    {milestones.length > 0 && (
+                    {(milestones.length > 0 || canSplit) && (
                         <section className="flex flex-col gap-3" aria-labelledby="shop-service-milestones">
-                            <h2 id="shop-service-milestones" className="font-semibold">{resolveLanguageKey("milestonesTitle")}</h2>
-                            <ul className="divide-y divide-border border-y border-border">
+                            <div className="flex flex-wrap items-center justify-between gap-3">
+                                <h2 id="shop-service-milestones" className="font-semibold">{resolveLanguageKey("milestonesTitle")}</h2>
+                                {canSplit && panel === null && (
+                                    <Button variant="outline" size="lg" type="button" onClick={() => openPanel("milestone")} className="h-9 px-4">
+                                        {resolveLanguageKey("addMilestone")}
+                                    </Button>
+                                )}
+                            </div>
+                            {milestones.length === 0 && <p className="text-sm text-muted-foreground">{resolveLanguageKey("milestonesHint")}</p>}
+                            {milestones.length > 0 && <ul className="divide-y divide-border border-y border-border">
                                 {milestones.map(milestone => (
                                     <li key={milestone._id} className="flex flex-wrap items-center gap-3 py-3">
                                         <span className="flex-1 font-medium">{milestone.name}</span>
@@ -423,7 +453,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
                                         )}
                                     </li>
                                 ))}
-                            </ul>
+                            </ul>}
                         </section>
                     )}
 

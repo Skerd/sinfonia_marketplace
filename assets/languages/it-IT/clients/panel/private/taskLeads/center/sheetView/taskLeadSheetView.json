@@ -40,5 +40,10 @@
   "updatedAt": "Modificata",
   "createdBy": "Creata da",
   "deletedAt": "Eliminata",
-  "deletedBy": "Eliminata da"
+  "deletedBy": "Eliminata da",
+  "client": "Cliente",
+  "clientName": "Nome",
+  "clientEmail": "E-mail",
+  "clientPhone": "Telefono",
+  "street": "Indirizzo"
 }

@@ -42,6 +42,12 @@
       "message": "Vlerësimi juaj ndihmon klientët e tjerë të zgjedhin.",
       "field": "Vlerësimi juaj (opsional)",
       "submit": "Publiko vlerësimin"
+    },
+    "milestone": {
+      "title": "Ndajeni në faza",
+      "message": "Paguajeni profesionistin me pjesë, ndërsa puna përparon. Secilën fazë e lëshoni kur pjesa e saj përfundon.",
+      "field": "Cila pjesë e punës është?",
+      "submit": "Shtoni fazën"
     }
   },
   "ratingLabel": "Vlerësimi",
@@ -59,6 +65,10 @@
     "completed": "E kryer"
   },
   "milestonesTitle": "Fazat",
+  "milestonesHint": "Paguani me pjesë: ndajeni porosinë në faza dhe lëshoni secilën kur pjesa e saj përfundon.",
+  "addMilestone": "Ndajeni në faza",
+  "milestoneAmountLabel": "Shuma (deri në {max})",
+  "milestoneAdded": "Faza u shtua",
   "releaseMilestone": "Liro pagesën",
   "bookingsTitle": "Seancat e planifikuara",
   "provider": "Ofruesi",

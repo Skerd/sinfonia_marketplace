@@ -40,5 +40,10 @@
   "updatedAt": "Ndryshuar",
   "createdBy": "Krijuar nga",
   "deletedAt": "Fshirë",
-  "deletedBy": "Fshirë nga"
+  "deletedBy": "Fshirë nga",
+  "client": "Klienti",
+  "clientName": "Emri",
+  "clientEmail": "E-mail",
+  "clientPhone": "Telefoni",
+  "street": "Adresa"
 }

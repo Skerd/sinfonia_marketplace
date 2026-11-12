@@ -42,6 +42,12 @@
       "message": "Votre avis aide les autres clients à choisir.",
       "field": "Votre avis (facultatif)",
       "submit": "Publier l'avis"
+    },
+    "milestone": {
+      "title": "Diviser en étapes",
+      "message": "Payez le prestataire en plusieurs fois, au fil du travail. Vous libérez chaque étape quand sa partie est terminée.",
+      "field": "Quelle partie du travail ?",
+      "submit": "Ajouter l'étape"
     }
   },
   "ratingLabel": "Note",
@@ -59,6 +65,10 @@
     "completed": "Traitée"
   },
   "milestonesTitle": "Étapes",
+  "milestonesHint": "Payez en plusieurs fois : divisez la commande en étapes et libérez chacune quand sa partie est terminée.",
+  "addMilestone": "Diviser en étapes",
+  "milestoneAmountLabel": "Montant (jusqu'à {max})",
+  "milestoneAdded": "Étape ajoutée",
   "releaseMilestone": "Libérer le paiement",
   "bookingsTitle": "Séances planifiées",
   "provider": "Prestataire",
