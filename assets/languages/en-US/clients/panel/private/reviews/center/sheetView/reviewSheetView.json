@@ -1,9 +1,6 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/reviews/center/sheetView/reviewSheetView.tsx",
   "review": "Review",
-  "eCommerce": {
-    "review": "Review"
-  },
   "overview": "Overview",
   "details": "Details",
   "order": "Order",
