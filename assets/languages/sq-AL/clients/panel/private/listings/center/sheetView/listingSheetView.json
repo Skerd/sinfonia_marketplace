@@ -90,5 +90,10 @@
   "deliveryDaysValue": {
     "one": "{value} ditë",
     "other": "{value} ditë"
+  },
+  "serviceArea": "Zona e shërbimit",
+  "serviceAreaValue": {
+    "one": "Brenda {value} km",
+    "other": "Brenda {value} km"
   }
 }

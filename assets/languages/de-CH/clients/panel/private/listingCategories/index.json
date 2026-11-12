@@ -5,14 +5,15 @@
   "help": {
     "ariaLabel": "Über Inserat-Kategorien",
     "title": "Über Inserat-Kategorien",
-    "overview": "Inseratkategorien sind der eigene Baum des Marktplatzes, getrennt von den Produktkategorien. Inserate und Aufträge wählen je eine. Käufer stöbern danach, und Anbieter werden neuen Aufträgen nach Kategorie und Ort zugeordnet.",
+    "overview": "Die Dienstleistungskategorien sind ein Baum für die ganze Plattform, den der Betreiber des Marktplatzes pflegt. Jede Firma ordnet ihre Angebote darin ein, und Kunden schreiben Aufträge darin aus. Nur der Betreiber kann eine Kategorie hinzufügen, bearbeiten oder löschen; andere Firmen sehen den Baum nur zum Lesen.",
     "sections": [
       {
         "title": "Der Baum",
         "items": [
           "Name ist Pflicht. Übergeordnet ist optional; leer lassen für eine oberste Kategorie. Eine Kategorie kann nicht unter sich selbst oder einem ihrer Nachfahren stehen.",
           "Reihenfolge sortiert Geschwister, kleinere zuerst; Listen sortieren nach Reihenfolge, dann Name.",
-          "Der Slug wird beim Anlegen erzeugt und ist in der Firma eindeutig."
+          "Der Slug wird beim Erstellen erzeugt und ist im Baum eindeutig.",
+          "Wo die Arbeit stattfindet: vor Ort (nach Entfernung zum Einsatzgebiet eines Angebots zugeordnet) oder online (überall zugeordnet). Eine Unterkategorie übernimmt zuerst die Wahl ihrer übergeordneten Kategorie."
         ]
       },
       {
@@ -34,7 +35,15 @@
     "parentListingCategory": "Übergeordnete Kategorie",
     "createdBy": "Erstellt von",
     "deletedAt": "Gelöscht",
-    "deletedBy": "Gelöscht von"
+    "deletedBy": "Gelöscht von",
+    "delivery": "Wo die Arbeit stattfindet",
+    "!enums": {
+      "delivery": {
+        "onsite": "Vor Ort",
+        "remote": "Online"
+      }
+    }
   },
-  "searchPlaceholder": "Suchen oder Filter hinzufügen..."
+  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
+  "managedByOperator": "Die Kategorien teilen sich alle Firmen der Plattform; der Betreiber des Marktplatzes pflegt sie."
 }

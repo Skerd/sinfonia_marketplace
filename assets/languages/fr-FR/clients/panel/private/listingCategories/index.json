@@ -5,14 +5,15 @@
   "help": {
     "ariaLabel": "À propos des catégories d'annonces",
     "title": "À propos des catégories d'annonces",
-    "overview": "Les catégories d’annonces sont l’arbre propre de la place de marché, distinct des catégories de produits. Annonces et demandes de tâches en choisissent chacune une. Les acheteurs naviguent par elles, et les prestataires sont associés aux nouvelles demandes de tâches par catégorie et ville.",
+    "overview": "Les catégories de services forment un seul arbre pour toute la plateforme, tenu par l'opérateur de la place de marché. Chaque entreprise y range ses offres, et les clients y publient leurs demandes. Seul l'opérateur peut ajouter, modifier ou supprimer une catégorie ; les autres entreprises voient l'arbre en lecture seule.",
     "sections": [
       {
         "title": "L’arbre",
         "items": [
           "Le nom est obligatoire. Le parent est facultatif ; laissez vide pour une catégorie de premier niveau. Une catégorie ne peut pas être sous elle-même ni sous un de ses descendants.",
           "L’ordre trie les catégories sœurs, les plus petites d’abord ; les listes trient par ordre, puis par nom.",
-          "Le slug est généré à la création et est unique dans la société."
+          "Le slug est généré à la création et est unique dans l'arbre.",
+          "Où le travail a lieu : sur place (selon la distance à la zone d'intervention d'une offre) ou en ligne (partout). Une sous-catégorie reprend d'abord le choix de son parent."
         ]
       },
       {
@@ -34,7 +35,15 @@
     "parentListingCategory": "Catégorie parente",
     "createdBy": "Créé par",
     "deletedAt": "Supprimé",
-    "deletedBy": "Supprimé par"
+    "deletedBy": "Supprimé par",
+    "delivery": "Où le travail a lieu",
+    "!enums": {
+      "delivery": {
+        "onsite": "Sur place",
+        "remote": "En ligne"
+      }
+    }
   },
-  "searchPlaceholder": "Rechercher ou ajouter des filtres..."
+  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
+  "managedByOperator": "Les catégories sont partagées par toutes les entreprises de la plateforme et tenues par l'opérateur de la place de marché."
 }

@@ -5,14 +5,15 @@
   "help": {
     "ariaLabel": "About Listing categories",
     "title": "About Listing categories",
-    "overview": "Listing categories are the marketplace's own tree, separate from product categories. Listings and task requests each pick one. Buyers browse by them, and providers are matched to new task requests by category and city.",
+    "overview": "The service categories are one tree for the whole platform, kept by the marketplace operator. Every company files its listings under them, and buyers post jobs in them. Only the operator can add, edit or delete a category; other companies see the tree read-only.",
     "sections": [
       {
         "title": "The tree",
         "items": [
           "Name is required. Parent is optional; leave it empty for a top-level category. A category cannot sit under itself or one of its descendants.",
           "Order sorts siblings, lower first; lists sort by order, then name.",
-          "The slug is generated on create and is unique in the company."
+          "The slug is generated on create and is unique in the tree.",
+          "Where the work happens: on site (matched by distance to a listing's service area) or online (matched anywhere). A subcategory starts with its parent's choice."
         ]
       },
       {
@@ -34,7 +35,15 @@
     "parentListingCategory": "Parent category",
     "createdBy": "Created by",
     "deletedAt": "Deleted",
-    "deletedBy": "Deleted by"
+    "deletedBy": "Deleted by",
+    "delivery": "Where the work happens",
+    "!enums": {
+      "delivery": {
+        "onsite": "On site",
+        "remote": "Online"
+      }
+    }
   },
-  "searchPlaceholder": "Search or add filters..."
+  "searchPlaceholder": "Search or add filters...",
+  "managedByOperator": "Categories are shared by every company on the platform and kept by the marketplace operator."
 }

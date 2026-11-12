@@ -10,7 +10,13 @@
     "createCategoryTitle": "Crea categoria di annunci",
     "createCategoryDescription": "Aggiungi una categoria che raggruppa gli annunci e le richieste di attività del marketplace.",
     "basicsSectionTitle": "Dati principali",
-    "visibilitySectionTitle": "Visibilità"
+    "visibilitySectionTitle": "Visibilità",
+    "deliveryLabel": "Dove si svolge il lavoro",
+    "deliveryPlaceholder": "Scegli",
+    "delivery": {
+      "onsite": "A domicilio",
+      "remote": "Online"
+    }
   },
   "axios": {
     "start": {

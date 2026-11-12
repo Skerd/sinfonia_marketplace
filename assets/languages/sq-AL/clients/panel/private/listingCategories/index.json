@@ -5,14 +5,15 @@
   "help": {
     "ariaLabel": "Rreth kategorive të listimeve",
     "title": "Rreth kategorive të listimeve",
-    "overview": "Kategoritë e listimeve janë pema e vetë tregut, e ndarë nga kategoritë e produkteve. Listimet dhe kërkesat për detyra zgjedhin secila një. Blerësit shfletojnë sipas tyre, dhe ofruesit lidhen me kërkesat e reja për detyra sipas kategorisë dhe qytetit.",
+    "overview": "Kategoritë e shërbimeve janë një pemë e vetme për gjithë platformën, që e mban operatori i tregut. Çdo kompani i rendit ofertat e saj në to dhe klientët publikojnë punë në to. Vetëm operatori mund të shtojë, ndryshojë ose fshijë një kategori; kompanitë e tjera e shohin pemën vetëm për lexim.",
     "sections": [
       {
         "title": "Pema",
         "items": [
           "Emri është i detyrueshëm. Prindi është opsional; lëreni bosh për një kategori të nivelit të parë. Një kategori nuk mund të jetë nën veten ose nën një pasardhës të saj.",
           "Rendi rendit kategoritë motra, më të voglat së pari; listat renditen sipas rendit, pastaj emrit.",
-          "Slug-u krijohet gjatë krijimit dhe është unik në kompani."
+          "Slug-u krijohet gjatë krijimit dhe është unik në pemë.",
+          "Ku bëhet puna: në vend (sipas largësisë nga zona e shërbimit të një oferte) ose online (kudo). Një nënkategori nis me zgjedhjen e kategorisë prind."
         ]
       },
       {
@@ -34,7 +35,15 @@
     "parentListingCategory": "Kategoria prind",
     "createdBy": "Krijuar nga",
     "deletedAt": "Fshirë",
-    "deletedBy": "Fshirë nga"
+    "deletedBy": "Fshirë nga",
+    "delivery": "Ku bëhet puna",
+    "!enums": {
+      "delivery": {
+        "onsite": "Në vend",
+        "remote": "Online"
+      }
+    }
   },
-  "searchPlaceholder": "Kërko ose shto filtra..."
+  "searchPlaceholder": "Kërko ose shto filtra...",
+  "managedByOperator": "Kategoritë i ndajnë të gjitha kompanitë e platformës dhe i mban operatori i tregut."
 }

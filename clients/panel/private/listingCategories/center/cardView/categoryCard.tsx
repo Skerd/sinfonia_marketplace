@@ -2,7 +2,7 @@ import {compose} from "redux";
 import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLanguage.tsx";
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
 import type {ListingCategory} from "armonia/src/modules/marketplace/api/marketplace/private/listingCategory/listingCategory.dto.ts";
-import {IconCategory2} from "@tabler/icons-react";
+import {IconCategory2, IconMapPin} from "@tabler/icons-react";
 import ListingCategorySheetView from "@marketplaceModule/clients/panel/private/listingCategories/center/sheetView/categorySheetView.tsx";
 import type {DeletedData} from "armonia/src/modules/core/types/shared.types.ts";
 import EntityCardRow from "@coreModule/components/entityPage/list/card/entityCardRow.tsx";
@@ -64,6 +64,15 @@ function ListingCategoryCard({
                 <>
                     <EntityCard.Header titlePath="name" title={entity.name} />
                     <EntityCard.Body>
+                        {entity.delivery ? (
+                            <EntityCardRow
+                                icon={IconMapPin}
+                                label={resolveLanguageKey("delivery")}
+                                tooltip={resolveLanguageKey("delivery")}
+                                path="delivery"
+                                value={resolveLanguageKey(`listingCategoryDelivery.${entity.delivery}`)}
+                            />
+                        ) : null}
                         {entity.parentListingCategory?.name ? (
                             <EntityCardRow
                                 icon={IconCategory2}

@@ -10,7 +10,13 @@
     "createCategoryTitle": "Inseratkategorie erstellen",
     "createCategoryDescription": "Fügen Sie eine Kategorie hinzu, die Inserate und Auftragsanfragen des Marktplatzes gruppiert.",
     "basicsSectionTitle": "Grunddaten",
-    "visibilitySectionTitle": "Sichtbarkeit"
+    "visibilitySectionTitle": "Sichtbarkeit",
+    "deliveryLabel": "Wo die Arbeit stattfindet",
+    "deliveryPlaceholder": "Auswählen",
+    "delivery": {
+      "onsite": "Vor Ort",
+      "remote": "Online"
+    }
   },
   "axios": {
     "start": {

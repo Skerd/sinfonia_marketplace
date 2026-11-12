@@ -15,5 +15,10 @@
   "updatedAt": "Aktualisiert am",
   "createdBy": "Erstellt von",
   "deletedAt": "Gelöscht am",
-  "deletedBy": "Gelöscht von"
+  "deletedBy": "Gelöscht von",
+  "delivery": "Wo die Arbeit stattfindet",
+  "listingCategoryDelivery": {
+    "onsite": "Vor Ort",
+    "remote": "Online"
+  }
 }

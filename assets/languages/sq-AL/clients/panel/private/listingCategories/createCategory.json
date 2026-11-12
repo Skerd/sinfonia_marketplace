@@ -10,7 +10,13 @@
     "createCategoryTitle": "Krijo kategori listimi",
     "createCategoryDescription": "Shtoni një kategori që grupon listimet dhe kërkesat për detyra të tregut.",
     "basicsSectionTitle": "Të dhënat bazë",
-    "visibilitySectionTitle": "Dukshmëria"
+    "visibilitySectionTitle": "Dukshmëria",
+    "deliveryLabel": "Ku bëhet puna",
+    "deliveryPlaceholder": "Zgjidhni",
+    "delivery": {
+      "onsite": "Në vend",
+      "remote": "Online"
+    }
   },
   "axios": {
     "start": {

@@ -5,5 +5,10 @@
   "name": "Name",
   "slug": "Slug",
   "parentListingCategory": "Übergeordnete Kategorie",
-  "order": "Auftrag"
+  "order": "Auftrag",
+  "delivery": "Wo die Arbeit stattfindet",
+  "listingCategoryDelivery": {
+    "onsite": "Vor Ort",
+    "remote": "Online"
+  }
 }

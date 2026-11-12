@@ -5,5 +5,10 @@
   "name": "Nom",
   "slug": "Identifiant",
   "parentListingCategory": "Catégorie parente",
-  "order": "Commande"
+  "order": "Commande",
+  "delivery": "Où le travail a lieu",
+  "listingCategoryDelivery": {
+    "onsite": "Sur place",
+    "remote": "En ligne"
+  }
 }

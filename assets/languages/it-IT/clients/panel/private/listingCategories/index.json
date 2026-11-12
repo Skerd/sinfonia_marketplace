@@ -5,14 +5,15 @@
   "help": {
     "ariaLabel": "Informazioni sulle categorie di annunci",
     "title": "Informazioni sulle categorie di annunci",
-    "overview": "Le categorie di annunci sono l’albero proprio del marketplace, separato dalle categorie di prodotti. Annunci e richieste di attività ne scelgono una ciascuno. Gli acquirenti navigano per categorie, e i fornitori vengono abbinati alle nuove richieste di attività per categoria e città.",
+    "overview": "Le categorie di servizi sono un unico albero per tutta la piattaforma, gestito dall'operatore del marketplace. Ogni azienda vi archivia le proprie offerte e i clienti vi pubblicano i lavori. Solo l'operatore può aggiungere, modificare o eliminare una categoria; le altre aziende vedono l'albero in sola lettura.",
     "sections": [
       {
         "title": "L’albero",
         "items": [
           "Il nome è obbligatorio. La categoria padre è facoltativa; lasciala vuota per una categoria di primo livello. Una categoria non può stare sotto sé stessa o un suo discendente.",
           "L’ordine ordina le categorie sorelle, le più piccole prima; gli elenchi ordinano per ordine, poi per nome.",
-          "Lo slug viene generato alla creazione ed è unico nella società."
+          "Lo slug viene generato alla creazione ed è unico nell'albero.",
+          "Dove si svolge il lavoro: a domicilio (in base alla distanza dalla zona di servizio di un'offerta) oppure online (ovunque). Una sottocategoria parte dalla scelta della categoria superiore."
         ]
       },
       {
@@ -34,7 +35,15 @@
     "parentListingCategory": "Categoria padre",
     "createdBy": "Creato da",
     "deletedAt": "Eliminato",
-    "deletedBy": "Eliminato da"
+    "deletedBy": "Eliminato da",
+    "delivery": "Dove si svolge il lavoro",
+    "!enums": {
+      "delivery": {
+        "onsite": "A domicilio",
+        "remote": "Online"
+      }
+    }
   },
-  "searchPlaceholder": "Cerca o aggiungi filtri..."
+  "searchPlaceholder": "Cerca o aggiungi filtri...",
+  "managedByOperator": "Le categorie sono condivise da tutte le aziende della piattaforma e gestite dall'operatore del marketplace."
 }

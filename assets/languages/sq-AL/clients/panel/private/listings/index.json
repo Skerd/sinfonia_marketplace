@@ -96,6 +96,7 @@
     "createdAt": "Krijuar më",
     "updatedAt": "Përditësuar më",
     "deletedAt": "Fshirë më",
-    "deletedBy": "Fshirë nga"
+    "deletedBy": "Fshirë nga",
+    "serviceArea": "Zona e shërbimit"
   }
 }

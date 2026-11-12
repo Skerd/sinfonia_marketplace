@@ -71,7 +71,8 @@
       "order": "Auftrag",
       "parentListingCategory": "Übergeordnet",
       "slug": "Slug",
-      "updatedAt": "Aktualisiert am"
+      "updatedAt": "Aktualisiert am",
+      "delivery": "Wo die Arbeit stattfindet"
     },
     "Listingflags": {
       "comment": "Kommentar",
@@ -141,7 +142,8 @@
       "updatedAt": "Aktualisiert am",
       "videoGallery": "Video galerie",
       "activate": "Aktivieren",
-      "deactivate": "Deaktivieren"
+      "deactivate": "Deaktivieren",
+      "serviceArea": "Einsatzgebiet"
     },
     "Marketplacebids": {
       "amount": "Betrag",

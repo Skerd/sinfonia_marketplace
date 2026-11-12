@@ -10,7 +10,13 @@
     "createCategoryTitle": "Create listing category",
     "createCategoryDescription": "Add a category that groups marketplace listings and task requests.",
     "basicsSectionTitle": "Basics",
-    "visibilitySectionTitle": "Visibility"
+    "visibilitySectionTitle": "Visibility",
+    "deliveryLabel": "Where the work happens",
+    "deliveryPlaceholder": "Choose",
+    "delivery": {
+      "onsite": "On site",
+      "remote": "Online"
+    }
   },
   "axios": {
     "start": {

@@ -66,7 +66,8 @@
       "location": "Posizione",
       "video": "Video",
       "pricing": "Prezzi",
-      "details": "Dettagli"
+      "details": "Dettagli",
+      "serviceArea": "Zona di servizio"
     },
     "statusLabel": "Stato",
     "statusPlaceholder": "Seleziona lo stato",
@@ -78,7 +79,10 @@
     "titlePlaceholder": "Titolo dell'annuncio",
     "videoGalleryLabel": "Galleria video",
     "pricePlaceholder": "es. 150",
-    "descriptionPlaceholder": "Cosa riceve l'acquirente, come e quando"
+    "descriptionPlaceholder": "Cosa riceve l'acquirente, come e quando",
+    "serviceAreaHint": "Per i servizi a domicilio: posiziona un segnaposto dove lavori e indica fin dove ti sposti. I servizi online non ne hanno bisogno; per loro viene rimossa.",
+    "serviceAreaRadiusLabel": "Fin dove ti sposti (km)",
+    "serviceAreaRadiusPlaceholder": "es. 20"
   },
   "formButtons": {
     "cancel": "Annulla",

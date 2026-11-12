@@ -71,7 +71,8 @@
       "location": "Location",
       "video": "Video",
       "pricing": "Prices",
-      "details": "Details"
+      "details": "Details",
+      "serviceArea": "Service area"
     },
     "statusLabel": "Status",
     "statusPlaceholder": "Select status",
@@ -83,7 +84,10 @@
     "titlePlaceholder": "Listing title",
     "videoGalleryLabel": "Video gallery",
     "pricePlaceholder": "e.g. 150",
-    "descriptionPlaceholder": "What the buyer gets, how and when"
+    "descriptionPlaceholder": "What the buyer gets, how and when",
+    "serviceAreaHint": "For on-site services: drop a pin where you work from and say how far you travel. Online services do not need one; it is dropped for them.",
+    "serviceAreaRadiusLabel": "How far you travel (km)",
+    "serviceAreaRadiusPlaceholder": "e.g. 20"
   },
   "formButtons": {
     "cancel": "Cancel",

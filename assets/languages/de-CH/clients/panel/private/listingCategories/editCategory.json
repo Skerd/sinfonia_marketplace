@@ -15,7 +15,13 @@
     "editCategoryTitle": "Inseratkategorie bearbeiten",
     "editCategoryDescription": "Diese Inseratkategorie aktualisieren.",
     "basicsSectionTitle": "Grunddaten",
-    "visibilitySectionTitle": "Sichtbarkeit"
+    "visibilitySectionTitle": "Sichtbarkeit",
+    "deliveryLabel": "Wo die Arbeit stattfindet",
+    "deliveryPlaceholder": "Auswählen",
+    "delivery": {
+      "onsite": "Vor Ort",
+      "remote": "Online"
+    }
   },
   "axios": {
     "start": {

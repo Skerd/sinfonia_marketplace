@@ -90,5 +90,10 @@
   "deliveryDaysValue": {
     "one": "{value} jour",
     "other": "{value} jours"
+  },
+  "serviceArea": "Zone d'intervention",
+  "serviceAreaValue": {
+    "one": "Dans un rayon de {value} km",
+    "other": "Dans un rayon de {value} km"
   }
 }

@@ -71,7 +71,8 @@
       "order": "Order",
       "parentListingCategory": "Parent",
       "slug": "Slug",
-      "updatedAt": "Updated at"
+      "updatedAt": "Updated at",
+      "delivery": "Where the work happens"
     },
     "Listingflags": {
       "comment": "Comment",
@@ -141,7 +142,8 @@
       "updatedAt": "Updated at",
       "videoGallery": "Video gallery",
       "activate": "Activate",
-      "deactivate": "Deactivate"
+      "deactivate": "Deactivate",
+      "serviceArea": "Service area"
     },
     "Marketplacebids": {
       "amount": "Amount",

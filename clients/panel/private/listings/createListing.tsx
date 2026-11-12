@@ -1,6 +1,7 @@
 import {createGenericCreatePage} from "@coreModule/components/entityPage/pages/createGenericCreatePage.tsx";
 import {createListingFormSchema} from "armonia/src/modules/marketplace/api/marketplace/private/listing/createListing.form.validator.ts";
 import type {CreateListingFormType} from "armonia/src/modules/marketplace/api/marketplace/private/listing/listing.schema-def.ts";
+import {serviceAreaPayload} from "./serviceAreaPayload.ts";
 
 function nonEmptyFaqs(rows: {question?: string; answer?: string}[] | undefined,): {question: string; answer: string}[] | undefined {
     if (!rows?.length) return undefined;
@@ -39,6 +40,9 @@ export default createGenericCreatePage<CreateListingFormType>({
             requirements: data.requirements,
             tags: data.tags,
         };
+
+        const serviceArea = serviceAreaPayload(data.serviceArea);
+        if (serviceArea) postBody.serviceArea = serviceArea;
 
         if (data.address && (data.address.country ?? data.address.state ?? data.address.city)) {
             postBody.address = {

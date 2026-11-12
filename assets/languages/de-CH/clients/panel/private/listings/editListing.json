@@ -71,7 +71,8 @@
       "location": "Standort",
       "video": "Video",
       "pricing": "Preise",
-      "details": "Details"
+      "details": "Details",
+      "serviceArea": "Einsatzgebiet"
     },
     "statusLabel": "Status",
     "statusPlaceholder": "Status auswählen",
@@ -83,7 +84,10 @@
     "titlePlaceholder": "Inserattitel",
     "videoGalleryLabel": "Video galerie",
     "pricePlaceholder": "z. B. 150",
-    "descriptionPlaceholder": "Was der Käufer erhält, wie und wann"
+    "descriptionPlaceholder": "Was der Käufer erhält, wie und wann",
+    "serviceAreaHint": "Für Dienstleistungen vor Ort: Setzen Sie eine Markierung dort, wo Sie arbeiten, und geben Sie an, wie weit Sie fahren. Online-Dienstleistungen brauchen keines; es wird bei ihnen entfernt.",
+    "serviceAreaRadiusLabel": "Wie weit Sie fahren (km)",
+    "serviceAreaRadiusPlaceholder": "z. B. 20"
   },
   "formButtons": {
     "cancel": "Abbrechen",

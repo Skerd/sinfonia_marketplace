@@ -5,5 +5,10 @@
   "name": "Nome",
   "slug": "Slug",
   "parentListingCategory": "Categoria padre",
-  "order": "Ordine"
+  "order": "Ordine",
+  "delivery": "Dove si svolge il lavoro",
+  "listingCategoryDelivery": {
+    "onsite": "A domicilio",
+    "remote": "Online"
+  }
 }

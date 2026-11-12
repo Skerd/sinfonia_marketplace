@@ -66,7 +66,8 @@
       "location": "Emplacement",
       "video": "Vidéo",
       "pricing": "Prix",
-      "details": "Détails"
+      "details": "Détails",
+      "serviceArea": "Zone d'intervention"
     },
     "statusLabel": "Statut",
     "statusPlaceholder": "Sélectionner le statut",
@@ -78,7 +79,10 @@
     "titlePlaceholder": "Titre de l'annonce",
     "videoGalleryLabel": "Galerie vidéo",
     "pricePlaceholder": "ex. 150",
-    "descriptionPlaceholder": "Ce que l'acheteur obtient, comment et quand"
+    "descriptionPlaceholder": "Ce que l'acheteur obtient, comment et quand",
+    "serviceAreaHint": "Pour les services sur place : placez un repère là où vous travaillez et indiquez jusqu'où vous vous déplacez. Les services en ligne n'en ont pas besoin ; elle est retirée pour eux.",
+    "serviceAreaRadiusLabel": "Distance de déplacement (km)",
+    "serviceAreaRadiusPlaceholder": "ex. 20"
   },
   "formButtons": {
     "cancel": "Annuler",

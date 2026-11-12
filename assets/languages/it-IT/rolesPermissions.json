@@ -71,7 +71,8 @@
       "order": "Ordine",
       "parentListingCategory": "Padre",
       "slug": "Slug",
-      "updatedAt": "Aggiornato il"
+      "updatedAt": "Aggiornato il",
+      "delivery": "Dove si svolge il lavoro"
     },
     "Listingflags": {
       "comment": "Commento",
@@ -141,7 +142,8 @@
       "updatedAt": "Aggiornato il",
       "videoGallery": "Galleria video",
       "activate": "Attiva",
-      "deactivate": "Disattiva"
+      "deactivate": "Disattiva",
+      "serviceArea": "Zona di servizio"
     },
     "Marketplacebids": {
       "amount": "Importo",

@@ -15,7 +15,13 @@
     "editCategoryTitle": "Modifica categoria di annunci",
     "editCategoryDescription": "Aggiorna questa categoria di annunci.",
     "basicsSectionTitle": "Dati principali",
-    "visibilitySectionTitle": "Visibilità"
+    "visibilitySectionTitle": "Visibilità",
+    "deliveryLabel": "Dove si svolge il lavoro",
+    "deliveryPlaceholder": "Scegli",
+    "delivery": {
+      "onsite": "A domicilio",
+      "remote": "Online"
+    }
   },
   "axios": {
     "start": {

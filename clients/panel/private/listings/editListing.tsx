@@ -2,6 +2,7 @@ import {createGenericEditPage} from "@coreModule/components/entityPage/pages/cre
 import {editListingFormSchema} from "armonia/src/modules/marketplace/api/marketplace/private/listing/editListing.form.validator.ts";
 import type {Listing} from "armonia/src/modules/marketplace/api/marketplace/private/listing/listing.dto.ts";
 import type {EditListingFormType, ListingPricingType} from "armonia/src/modules/marketplace/api/marketplace/private/listing/listing.schema-def.ts";
+import {serviceAreaPayload} from "./serviceAreaPayload.ts";
 
 function nonEmptyListingFaqs(rows: {question?: string; answer?: string}[] | undefined,): {question: string; answer: string}[] | undefined {
     if (!rows?.length) return undefined;
@@ -34,6 +35,7 @@ export default createGenericEditPage<Listing, EditListingFormType>({
                 state: addrKeys?.state ? data.address?.state?._id : undefined,
                 city: addrKeys?.city ? data.address?.city?._id : undefined,
             },
+            serviceArea: writeFields.serviceArea ? data.serviceArea : undefined,
             mainImage: writeFields.mainImage ? data.mainImage?._id : undefined,
             imageGallery: writeFields.imageGallery ? data.imageGallery?.map((m) => m._id) ?? [] : undefined,
             videoGallery: writeFields.videoGallery ? data.videoGallery?.map((m) => m._id) ?? [] : undefined,
@@ -61,6 +63,8 @@ export default createGenericEditPage<Listing, EditListingFormType>({
         if (wf.pricingType) postBody.pricingType = data.pricingType as ListingPricingType | undefined;
         if (wf.deliveryDays) postBody.deliveryDays = data.deliveryDays;
         if (wf.address && data.address) postBody.address = data.address;
+        const serviceArea = wf.serviceArea ? serviceAreaPayload(data.serviceArea) : undefined;
+        if (serviceArea) postBody.serviceArea = serviceArea;
         if (wf.faqs && data.faqs !== undefined) {
             postBody.faqs = nonEmptyListingFaqs(data.faqs as {question?: string; answer?: string}[]) ?? [];
         }

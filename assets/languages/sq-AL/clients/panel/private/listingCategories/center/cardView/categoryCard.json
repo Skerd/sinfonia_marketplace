@@ -5,5 +5,10 @@
   "name": "Emri",
   "slug": "Slug",
   "parentListingCategory": "Kategoria prind",
-  "order": "Rendi"
+  "order": "Rendi",
+  "delivery": "Ku bëhet puna",
+  "listingCategoryDelivery": {
+    "onsite": "Në vend",
+    "remote": "Online"
+  }
 }

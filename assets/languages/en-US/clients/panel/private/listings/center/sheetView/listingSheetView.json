@@ -90,5 +90,10 @@
   "deliveryDaysValue": {
     "one": "{value} day",
     "other": "{value} days"
+  },
+  "serviceArea": "Service area",
+  "serviceAreaValue": {
+    "one": "Within {value} km",
+    "other": "Within {value} km"
   }
 }

@@ -15,5 +15,10 @@
   "updatedAt": "Përditësuar më",
   "createdBy": "Krijuar nga",
   "deletedAt": "Fshirë më",
-  "deletedBy": "Fshirë nga"
+  "deletedBy": "Fshirë nga",
+  "delivery": "Ku bëhet puna",
+  "listingCategoryDelivery": {
+    "onsite": "Në vend",
+    "remote": "Online"
+  }
 }

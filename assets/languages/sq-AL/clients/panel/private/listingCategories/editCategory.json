@@ -15,7 +15,13 @@
     "editCategoryTitle": "Redakto kategorinë e listimit",
     "editCategoryDescription": "Përditësoni këtë kategori listimi.",
     "basicsSectionTitle": "Të dhënat bazë",
-    "visibilitySectionTitle": "Dukshmëria"
+    "visibilitySectionTitle": "Dukshmëria",
+    "deliveryLabel": "Ku bëhet puna",
+    "deliveryPlaceholder": "Zgjidhni",
+    "delivery": {
+      "onsite": "Në vend",
+      "remote": "Online"
+    }
   },
   "axios": {
     "start": {

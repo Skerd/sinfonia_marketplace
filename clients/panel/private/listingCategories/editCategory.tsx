@@ -15,6 +15,7 @@ export default createGenericEditPage<ListingCategory, EditCategoryPayload>({
     buildInitialValues: (category, writeFields) => ({
         _id: category._id,
         name: writeFields.name ? category.name : undefined,
+        delivery: writeFields.delivery ? category.delivery : undefined,
         parentListingCategory: writeFields.parentListingCategory ? category.parentListingCategory?._id : undefined,
         order: writeFields.order ? category.order : undefined,
     }),
@@ -22,6 +23,7 @@ export default createGenericEditPage<ListingCategory, EditCategoryPayload>({
     mapSubmitPayload: (data, {writeFields}) => ({
         _id: data._id,
         ...(writeFields.name ? {name: data.name} : {}),
+        ...(writeFields.delivery ? {delivery: data.delivery} : {}),
         ...(writeFields.parentListingCategory && data.parentListingCategory !== undefined
             ? {parentListingCategory: data.parentListingCategory === "" ? null : data.parentListingCategory}
             : {}),

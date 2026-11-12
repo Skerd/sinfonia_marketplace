@@ -15,5 +15,10 @@
   "updatedAt": "Updated at",
   "createdBy": "Created by",
   "deletedAt": "Deleted at",
-  "deletedBy": "Deleted by"
+  "deletedBy": "Deleted by",
+  "delivery": "Where the work happens",
+  "listingCategoryDelivery": {
+    "onsite": "On site",
+    "remote": "Online"
+  }
 }

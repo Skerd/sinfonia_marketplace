@@ -90,5 +90,10 @@
   "deliveryDaysValue": {
     "one": "{value} Tag",
     "other": "{value} Tage"
+  },
+  "serviceArea": "Einsatzgebiet",
+  "serviceAreaValue": {
+    "one": "Im Umkreis von {value} km",
+    "other": "Im Umkreis von {value} km"
   }
 }

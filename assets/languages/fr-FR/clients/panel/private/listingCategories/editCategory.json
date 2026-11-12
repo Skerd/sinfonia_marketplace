@@ -15,7 +15,13 @@
     "editCategoryTitle": "Modifier la catégorie d'annonce",
     "editCategoryDescription": "Mettre à jour cette catégorie d'annonce.",
     "basicsSectionTitle": "Informations de base",
-    "visibilitySectionTitle": "Visibilité"
+    "visibilitySectionTitle": "Visibilité",
+    "deliveryLabel": "Où le travail a lieu",
+    "deliveryPlaceholder": "Choisir",
+    "delivery": {
+      "onsite": "Sur place",
+      "remote": "En ligne"
+    }
   },
   "axios": {
     "start": {

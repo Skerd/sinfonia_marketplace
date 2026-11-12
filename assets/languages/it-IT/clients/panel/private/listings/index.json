@@ -96,6 +96,7 @@
     "createdAt": "Creato il",
     "updatedAt": "Aggiornato il",
     "deletedAt": "Eliminato il",
-    "deletedBy": "Eliminato da"
+    "deletedBy": "Eliminato da",
+    "serviceArea": "Zona di servizio"
   }
 }

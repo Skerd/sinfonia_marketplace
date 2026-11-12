@@ -10,7 +10,13 @@
     "createCategoryTitle": "Créer une catégorie d'annonce",
     "createCategoryDescription": "Ajoutez une catégorie qui regroupe les annonces et les demandes de tâches de la marketplace.",
     "basicsSectionTitle": "Informations de base",
-    "visibilitySectionTitle": "Visibilité"
+    "visibilitySectionTitle": "Visibilité",
+    "deliveryLabel": "Où le travail a lieu",
+    "deliveryPlaceholder": "Choisir",
+    "delivery": {
+      "onsite": "Sur place",
+      "remote": "En ligne"
+    }
   },
   "axios": {
     "start": {

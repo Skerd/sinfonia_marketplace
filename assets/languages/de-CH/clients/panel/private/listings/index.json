@@ -96,6 +96,7 @@
     "createdAt": "Erstellt am",
     "updatedAt": "Aktualisiert am",
     "deletedAt": "Gelöscht am",
-    "deletedBy": "Gelöscht von"
+    "deletedBy": "Gelöscht von",
+    "serviceArea": "Einsatzgebiet"
   }
 }

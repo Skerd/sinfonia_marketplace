@@ -71,7 +71,8 @@
       "order": "Commande",
       "parentListingCategory": "Parent",
       "slug": "Identifiant",
-      "updatedAt": "Mis à jour le"
+      "updatedAt": "Mis à jour le",
+      "delivery": "Où le travail a lieu"
     },
     "Listingflags": {
       "comment": "Commentaire",
@@ -141,7 +142,8 @@
       "updatedAt": "Mis à jour le",
       "videoGallery": "Galerie vidéo",
       "activate": "Activer",
-      "deactivate": "Désactiver"
+      "deactivate": "Désactiver",
+      "serviceArea": "Zone d'intervention"
     },
     "Marketplacebids": {
       "amount": "Montant",

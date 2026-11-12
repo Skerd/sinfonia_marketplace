@@ -71,7 +71,8 @@
       "order": "Renditja",
       "parentListingCategory": "Kategoria prind",
       "slug": "Slug",
-      "updatedAt": "Përditësuar më"
+      "updatedAt": "Përditësuar më",
+      "delivery": "Ku bëhet puna"
     },
     "Listingflags": {
       "comment": "Komenti",
@@ -141,7 +142,8 @@
       "updatedAt": "Përditësuar më",
       "videoGallery": "Galeria e videove",
       "activate": "Aktivizo",
-      "deactivate": "Çaktivizo"
+      "deactivate": "Çaktivizo",
+      "serviceArea": "Zona e shërbimit"
     },
     "Marketplacebids": {
       "amount": "Shuma",

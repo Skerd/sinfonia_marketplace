@@ -66,7 +66,8 @@
       "location": "Vendndodhja",
       "video": "Video",
       "pricing": "Çmimet",
-      "details": "Detajet"
+      "details": "Detajet",
+      "serviceArea": "Zona e shërbimit"
     },
     "statusLabel": "Statusi",
     "statusPlaceholder": "Zgjidh statusin",
@@ -78,7 +79,10 @@
     "titlePlaceholder": "Titulli i listimit",
     "videoGalleryLabel": "Galeria e videove",
     "pricePlaceholder": "p.sh. 150",
-    "descriptionPlaceholder": "Çfarë merr blerësi, si dhe kur"
+    "descriptionPlaceholder": "Çfarë merr blerësi, si dhe kur",
+    "serviceAreaHint": "Për shërbimet në vend: vendosni një pikë aty ku punoni dhe tregoni sa larg udhëtoni. Shërbimet online nuk kanë nevojë; për to hiqet.",
+    "serviceAreaRadiusLabel": "Sa larg udhëtoni (km)",
+    "serviceAreaRadiusPlaceholder": "p.sh. 20"
   },
   "formButtons": {
     "cancel": "Anulo",
