@@ -75,7 +75,7 @@ function JobsPage({resolveLanguageKey}: WithLanguageType) {
                                     <span className="text-sm text-muted-foreground">
                                         {[
                                             job.category?.name,
-                                            `${formatMoney(job.budgetMin, job.currency)} – ${formatMoney(job.budgetMax, job.currency)}`,
+                                            job.budgetMax != null ? resolveLanguageKey("budgetUpTo").replace("{amount}", formatMoney(job.budgetMax, job.currency)) : undefined,
                                             job.expiresAt && job.status === "open"
                                                 ? resolveLanguageKey("expiresOn").replace("{date}", formatDate(job.expiresAt, {format: DATE_FORMATS.date}))
                                                 : undefined,

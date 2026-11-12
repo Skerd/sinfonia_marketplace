@@ -15,7 +15,6 @@
     "one": "À {value} km",
     "other": "À {value} km"
   },
-  "budgetMin": "Budget à partir de",
   "budgetMax": "Budget jusqu'à",
   "expiresAt": "Ouverte jusqu'au",
   "status": "Statut",

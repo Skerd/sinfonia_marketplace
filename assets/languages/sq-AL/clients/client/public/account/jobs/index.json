@@ -12,5 +12,6 @@
   "pagination": "Faqet",
   "previousPage": "Faqja e mëparshme",
   "nextPage": "Faqja tjetër",
-  "pageOf": "Faqja {page} nga {total}"
+  "pageOf": "Faqja {page} nga {total}",
+  "budgetUpTo": "Deri në {amount}"
 }

@@ -3,7 +3,7 @@
   "quote": {
     "title": "Send a quote",
     "description": "Your price, the days you need and a short proposal.",
-    "budgetHint": "The client's budget is {budget}.",
+    "budgetHint": "The client means to pay up to {budget}.",
     "amountLabel": "Price ({currency})",
     "daysLabel": "Days needed",
     "proposalLabel": "Proposal",

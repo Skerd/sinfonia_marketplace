@@ -15,7 +15,6 @@
     "one": "{value} km larg",
     "other": "{value} km larg"
   },
-  "budgetMin": "Buxheti nga",
   "budgetMax": "Buxheti deri në",
   "expiresAt": "E hapur deri më",
   "status": "Statusi",

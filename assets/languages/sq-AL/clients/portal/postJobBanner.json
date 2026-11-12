@@ -1,0 +1,10 @@
+{
+  "path": "src/modules/marketplace/clients/portal/postJobBanner.tsx",
+  "title": "Publikoni një punë dhe merrni oferta",
+  "subtitle": "Përshkruani një herë çfarë duhet bërë, me një foto. Profesionistët që e bëjnë këtë punë ju dërgojnë oferta për t'i krahasuar.",
+  "titleCompany": "Kërkoni një ofertë",
+  "subtitleCompany": "Përshkruani çfarë duhet bërë, me një foto, dhe ne ju dërgojmë një ofertë.",
+  "accountNeeded": "Ju duhet një llogari: aty mbahen punët tuaja dhe të gjitha ofertat.",
+  "cta": "Publikoni një punë",
+  "ctaSignIn": "Hyni për të publikuar një punë"
+}

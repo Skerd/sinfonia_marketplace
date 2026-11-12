@@ -77,9 +77,7 @@ function TaskLeadCard({lead, resolveLanguageKey, onLeadUpdated}: TaskLeadCardPro
                             </EntityCardRow>
                         ) : null}
                         {job?.budgetMax != null ? (
-                            <EntityCardRow icon={IconCurrencyDollar} label={resolveLanguageKey("budget")} tooltip={resolveLanguageKey("budget")} path="taskRequest.budgetMax" type="currency" value={{amount: job.budgetMax, currency: job.currency}}>
-                                {(formatted) => <>{job.budgetMin != null ? `${job.budgetMin} – ` : ""}{formatted}</>}
-                            </EntityCardRow>
+                            <EntityCardRow icon={IconCurrencyDollar} label={resolveLanguageKey("budget")} tooltip={resolveLanguageKey("budget")} path="taskRequest.budgetMax" type="currency" value={{amount: job.budgetMax, currency: job.currency}} />
                         ) : null}
                         {row.bid ? (
                             <EntityCardRow icon={IconSend} label={resolveLanguageKey("quote")} tooltip={resolveLanguageKey("quote")} path="bid.amount" type="currency" value={{amount: row.bid.amount, currency: row.bid.currency}} />

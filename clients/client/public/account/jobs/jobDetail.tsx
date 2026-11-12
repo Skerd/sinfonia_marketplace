@@ -1,5 +1,5 @@
 import {useCallback, useEffect, useState} from "react";
-import {Link, useNavigate, useParams, useSearchParams} from "react-router-dom";
+import {Link, useParams, useSearchParams} from "react-router-dom";
 import {compose} from "redux";
 import {toast} from "sonner";
 import {IconArrowLeft, IconCircleCheck, IconClock, IconMapPin} from "@tabler/icons-react";
@@ -11,6 +11,7 @@ import {handleError} from "@coreModule/helpers/general/errors.ts";
 import {DATE_FORMATS, formatDate} from "@coreModule/helpers/general/dateTime.ts";
 import {resolvePublicMediaUrl} from "@coreModule/clients/portal/shared/portalMedia.ts";
 import {ShopProviderAvatar} from "@marketplaceModule/clients/client/public/shared/shopMarketplace.tsx";
+import {StarRow} from "@coreModule/clients/portal/shared/starRow.tsx";
 import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx";
 import ServiceStatus from "@marketplaceModule/clients/client/public/shared/serviceStatus.tsx";
 import type {BuyerTaskRequest} from "armonia/src/modules/marketplace/api/marketplace/private/taskRequest/taskRequest.dto.ts";
@@ -20,8 +21,7 @@ import {Button} from "@coreModule/components/ui/button.tsx";
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/jobs/jobDetail.tsx";
 
 const JOB_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/taskRequest/mySingle"};
-const ACCEPT_BID_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/bid/accept"};
-/** Reject a bid, close or reopen the job: the url is set per action. */
+/** Decline a quote, close or reopen the job: the url is set per action. */
 const JOB_ACTION_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace"};
 
 function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
@@ -29,10 +29,9 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
     const {jobId = ""} = useParams();
     const [searchParams] = useSearchParams();
     const justPosted = searchParams.get("posted") === "1";
-    const navigate = useNavigate();
+    // How many pros the new job reached (D143); absent on an older link.
+    const notified = Number(searchParams.get("notified") ?? NaN);
     const {formatMoney} = useServicesConfig();
-
-    const [confirmBidId, setConfirmBidId] = useState<string | null>(null);
 
     const [jobCount, setJobCount] = useState(0);
     const load = useCallback(() => setJobCount((count) => count + 1), []);
@@ -49,7 +48,6 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
     const actionRequest = useHttpRequest(JOB_ACTION_REQUEST, {_id: action.id}, action.count, true, {
         success: () => {
             toast.success(resolveLanguageKey(action.successKey));
-            setConfirmBidId(null);
             load();
         },
         error: actionError,
@@ -57,17 +55,7 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
     const run = (path: string, id: string, successKey: string) =>
         setAction((current) => ({path, id, successKey, count: current.count + 1}));
 
-    /** Accepting a bid creates the order; send the buyer to it. */
-    const [acceptCall, setAcceptCall] = useState({id: "", count: 0});
-    const acceptRequest = useHttpRequest<{message: string; _id: string}>(ACCEPT_BID_REQUEST, {_id: acceptCall.id}, acceptCall.count, true, {
-        success: (response) => {
-            toast.success(resolveLanguageKey("bidAccepted"));
-            navigate(`${base}/account/orders/${response._id}`);
-        },
-        error: actionError,
-    });
-    const acceptBid = (bidId: string) => setAcceptCall((current) => ({id: bidId, count: current.count + 1}));
-    const busy = actionRequest.loading || acceptRequest.loading || (acceptCall.count > 0 && !!acceptRequest.data);
+    const busy = actionRequest.loading;
 
     if (loading) {
         return <div className="h-96 animate-pulse rounded-2xl bg-muted" aria-busy="true" aria-label={resolveLanguageKey("loading")} />;
@@ -99,7 +87,13 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
                     <IconCircleCheck className="h-7 w-7 shrink-0 text-success" aria-hidden />
                     <div className="flex flex-col gap-1">
                         <p className="font-display text-xl font-semibold">{resolveLanguageKey("postedTitle")}</p>
-                        <p className="text-muted-foreground">{resolveLanguageKey("postedMessage")}</p>
+                        <p className="text-muted-foreground">
+                            {Number.isNaN(notified)
+                                ? resolveLanguageKey("postedMessage")
+                                : notified === 0
+                                    ? resolveLanguageKey("postedNobody")
+                                    : resolveLanguageKey(notified === 1 ? "postedNotifiedOne" : "postedNotified").replace("{count}", String(notified))}
+                        </p>
                     </div>
                 </div>
             )}
@@ -134,6 +128,17 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
                                                 <ShopProviderAvatar name={bidderName} />
                                                 <div className="flex min-w-0 flex-1 flex-col">
                                                     <span className="font-semibold">{bidderName}</span>
+                                                    {bid.bidderCompany?.name && <span className="text-sm text-muted-foreground">{bid.bidderCompany.name}{bid.listing?.title ? ` · ${bid.listing.title}` : ""}</span>}
+                                                    {bid.listing && (
+                                                        <span className="inline-flex items-center gap-1.5 text-xs text-muted-foreground">
+                                                            {bid.listing.reviewCount ? (
+                                                                <>
+                                                                    <StarRow value={Math.round(bid.listing.avgRating ?? 0)} className="[&_svg]:h-3.5 [&_svg]:w-3.5" />
+                                                                    {resolveLanguageKey("ratingValue").replace("{rating}", (bid.listing.avgRating ?? 0).toFixed(1)).replace("{count}", String(bid.listing.reviewCount))}
+                                                                </>
+                                                            ) : resolveLanguageKey("noReviews")}
+                                                        </span>
+                                                    )}
                                                     <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
                                                         <IconClock className="h-3.5 w-3.5" aria-hidden />
                                                         {resolveLanguageKey(bid.deliveryDays === 1 ? "deliveryDay" : "deliveryDays").replace("{days}", String(bid.deliveryDays))}
@@ -144,33 +149,11 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
                                             </div>
                                             {bid.proposal && <p className="whitespace-pre-line text-[15px] leading-relaxed text-muted-foreground">{bid.proposal}</p>}
                                             {pending && isOpen && (
-                                                confirmBidId === bid._id ? (
-                                                    <div className="flex flex-col gap-3 rounded-xl bg-muted p-4">
-                                                        <p className="text-sm">{resolveLanguageKey("confirmAccept").replace("{name}", bidderName).replace("{amount}", formatMoney(bid.amount, bid.currency))}</p>
-                                                        <div className="flex flex-wrap gap-3">
-                                                            <Button size="lg" type="button" disabled={busy} onClick={() => acceptBid(bid._id)} >
-                                                                {resolveLanguageKey(busy ? "working" : "confirmAcceptButton")}
-                                                            </Button>
-                                                            <Button variant="outline" size="lg" type="button" disabled={busy} onClick={() => setConfirmBidId(null)} >
-                                                                {resolveLanguageKey("back")}
-                                                            </Button>
-                                                        </div>
-                                                    </div>
-                                                ) : (
-                                                    <div className="flex flex-wrap gap-3">
-                                                        <Button size="lg" type="button" disabled={busy} onClick={() => setConfirmBidId(bid._id)} >
-                                                            {resolveLanguageKey("acceptBid")}
-                                                        </Button>
-                                                        <Button variant="outline" size="lg"
-                                                            type="button"
-                                                            disabled={busy}
-                                                            onClick={() => run("bid/reject", bid._id, "bidRejected")}
-                                                            
-                                                        >
-                                                            {resolveLanguageKey("rejectBid")}
-                                                        </Button>
-                                                    </div>
-                                                )
+                                                <div className="flex flex-wrap gap-3">
+                                                    <Button variant="outline" size="lg" type="button" disabled={busy} onClick={() => run("bid/reject", bid._id, "bidRejected")}>
+                                                        {resolveLanguageKey("rejectBid")}
+                                                    </Button>
+                                                </div>
                                             )}
                                         </li>
                                     );
@@ -185,7 +168,7 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
                     <dl className="flex flex-col gap-2.5 text-[15px]">
                         <div className="flex justify-between gap-4">
                             <dt className="text-muted-foreground">{resolveLanguageKey("budget")}</dt>
-                            <dd className="text-right tabular-nums">{formatMoney(job.budgetMin, job.currency)} – {formatMoney(job.budgetMax, job.currency)}</dd>
+                            <dd className="text-right tabular-nums">{job.budgetMax != null ? resolveLanguageKey("budgetUpTo").replace("{amount}", formatMoney(job.budgetMax, job.currency)) : resolveLanguageKey("budgetOpen")}</dd>
                         </div>
                         {job.expiresAt && (
                             <div className="flex justify-between gap-4">

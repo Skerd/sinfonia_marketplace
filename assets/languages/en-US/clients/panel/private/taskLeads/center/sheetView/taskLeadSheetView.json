@@ -15,7 +15,6 @@
     "one": "{value} km away",
     "other": "{value} km away"
   },
-  "budgetMin": "Budget from",
   "budgetMax": "Budget up to",
   "expiresAt": "Open until",
   "status": "Status",

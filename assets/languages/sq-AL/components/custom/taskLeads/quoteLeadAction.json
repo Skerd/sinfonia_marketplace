@@ -3,7 +3,7 @@
   "quote": {
     "title": "Dërgoni një ofertë",
     "description": "Çmimi juaj, ditët që ju duhen dhe një propozim i shkurtër.",
-    "budgetHint": "Buxheti i klientit është {budget}.",
+    "budgetHint": "Klienti synon të paguajë deri në {budget}.",
     "amountLabel": "Çmimi ({currency})",
     "daysLabel": "Ditët që duhen",
     "proposalLabel": "Propozimi",

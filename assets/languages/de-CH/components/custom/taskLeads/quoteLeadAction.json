@@ -3,7 +3,7 @@
   "quote": {
     "title": "Offerte senden",
     "description": "Ihr Preis, die benötigten Tage und ein kurzer Vorschlag.",
-    "budgetHint": "Das Budget des Kunden beträgt {budget}.",
+    "budgetHint": "Der Kunde will bis {budget} zahlen.",
     "amountLabel": "Preis ({currency})",
     "daysLabel": "Benötigte Tage",
     "proposalLabel": "Vorschlag",

@@ -6,8 +6,8 @@
   "errorTitle": "Could not load task request",
   "form": {
     "addressPrivacyAlert": "Providers cannot see your exact address until you accept a bid. Your full address is shared only with the provider you choose, after you have agreed on the work.",
-    "budgetMaxLabel": "Budget (max)",
-    "budgetMinLabel": "Budget (min)",
+    "budgetMaxLabel": "Budget, up to (optional)",
+    "budgetMaxDescription": "The most the client means to pay. Leave it empty for an open budget.",
     "categoryLabel": "Category",
     "cityLabel": "City",
     "cityPlaceholder": "Select city",
@@ -52,7 +52,6 @@
     "categoryPlaceholder": "Select category",
     "currencyPlaceholder": "Select currency",
     "currencyDescription": "Bids on this request come in this currency.",
-    "budgetMinPlaceholder": "e.g. 500",
     "budgetMaxPlaceholder": "e.g. 900"
   },
   "formButtons": {

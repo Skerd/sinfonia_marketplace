@@ -1,0 +1,10 @@
+{
+  "path": "src/modules/marketplace/clients/portal/postJobBanner.tsx",
+  "title": "Pubblica un lavoro e ricevi preventivi",
+  "subtitle": "Descrivi una sola volta cosa c'è da fare, con una foto. I professionisti che fanno questo lavoro ti inviano preventivi da confrontare.",
+  "titleCompany": "Chiedi un preventivo",
+  "subtitleCompany": "Descrivi cosa c'è da fare, con una foto, e ti inviamo un preventivo.",
+  "accountNeeded": "Ti serve un account: lì trovi i tuoi lavori e tutti i preventivi.",
+  "cta": "Pubblica un lavoro",
+  "ctaSignIn": "Accedi per pubblicare un lavoro"
+}

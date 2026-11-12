@@ -2,8 +2,8 @@
   "address": "Adresa",
   "form": {
     "addressPrivacyAlert": "Ofruesit nuk e shohin adresën tuaj të saktë derisa të pranoni një ofertë. Adresa e plotë u jepet vetëm ofruesit që zgjidhni, pasi të keni rënë dakord për punën.",
-    "budgetMaxLabel": "Buxheti (max)",
-    "budgetMinLabel": "Buxheti (min)",
+    "budgetMaxLabel": "Buxheti, deri në (opsionale)",
+    "budgetMaxDescription": "Shuma më e lartë që klienti synon të paguajë. Lëreni bosh për buxhet të hapur.",
     "categoryLabel": "Kategoria",
     "cityLabel": "Qyteti",
     "cityPlaceholder": "Zgjidh qytetin",
@@ -46,7 +46,6 @@
     "categoryPlaceholder": "Zgjidh kategorinë",
     "currencyPlaceholder": "Zgjidh monedhën",
     "currencyDescription": "Ofertat për këtë kërkesë vijnë në këtë monedhë.",
-    "budgetMinPlaceholder": "p.sh. 500",
     "budgetMaxPlaceholder": "p.sh. 900"
   },
   "formButtons": {

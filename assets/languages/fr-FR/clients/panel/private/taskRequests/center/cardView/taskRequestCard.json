@@ -6,7 +6,7 @@
   "name": "Nom",
   "status": "Statut",
   "category": "Catégorie",
-  "budget": "Budget",
+  "budget": "Budget, jusqu'à",
   "city": "Ville",
   "expiresAt": "Expire",
   "statuses": {

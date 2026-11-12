@@ -16,10 +16,10 @@ export default createGenericCreatePage<CreateTaskRequestFormType>({
             title: data.title,
             description: data.description ?? "",
             category: data.category,
-            budgetMin: data.budgetMin,
             budgetMax: data.budgetMax,
             currency: data.currency,
-            address: {
+            // A remote job may come without one (D143); the server asks for it on on-site work.
+            address: data.address ? {
                 street: data.address.street,
                 postalCode: data.address.postalCode,
                 country: data.address.country,
@@ -27,7 +27,7 @@ export default createGenericCreatePage<CreateTaskRequestFormType>({
                 city: data.address.city,
                 latitude: data.address.latitude,
                 longitude: data.address.longitude,
-            },
+            } : undefined,
         };
         const formData = new FormData();
         if (data.mainImage instanceof File) {

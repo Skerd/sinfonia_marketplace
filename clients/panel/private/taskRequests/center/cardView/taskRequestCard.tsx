@@ -20,20 +20,15 @@ import type {WithAxiosLifecycleRef} from "@coreModule/helpers/hocs/withAxios.tsx
 import type {RefObject} from "react";
 import {formatNumber} from "@coreModule/helpers/general/numbers.ts";
 
-/** The budget range ("€ 100 – € 300") from the bounds the session may read; each bound carries the currency (UX-07). */
+/** The "up to" budget ("€ 300") when the session may read it; it carries the currency (UX-07). */
 function formatBudget(entity: TaskRequest, read: unknown): string | undefined {
-    const budgetMin = accessFieldPathExists(read, "budgetMin") ? entity.budgetMin : undefined;
     const budgetMax = accessFieldPathExists(read, "budgetMax") ? entity.budgetMax : undefined;
+    if (budgetMax == null) return undefined;
     const currency = accessFieldPathExists(read, "currency") ? entity.currency : undefined;
     const sym = currency?.symbol?.trim() || currency?.abbreviation?.trim();
     const decimals = currency?.decimalPlaces ?? 2;
-    const fmt = (n: number) => {
-        const amount = formatNumber(n, {minimumFractionDigits: decimals, maximumFractionDigits: decimals});
-        return sym ? `${sym} ${amount}` : amount;
-    };
-    const bounds = [budgetMin, budgetMax].filter((n): n is number => n != null);
-    if (bounds.length === 0) return undefined;
-    return bounds[0] === bounds[1] ? fmt(bounds[0]) : bounds.map(fmt).join(" – ");
+    const amount = formatNumber(budgetMax, {minimumFractionDigits: decimals, maximumFractionDigits: decimals});
+    return sym ? `${sym} ${amount}` : amount;
 }
 
 type TaskRequestCardProps = WithLanguageType & {

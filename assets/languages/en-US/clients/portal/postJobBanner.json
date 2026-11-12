@@ -1,0 +1,10 @@
+{
+  "path": "src/modules/marketplace/clients/portal/postJobBanner.tsx",
+  "title": "Post a job and get quotes",
+  "subtitle": "Describe what needs doing once, with a photo. The pros who do that work send you quotes to compare.",
+  "titleCompany": "Ask for a quote",
+  "subtitleCompany": "Describe what needs doing, with a photo, and we send you a quote.",
+  "accountNeeded": "You need an account: it keeps your jobs and every quote in one place.",
+  "cta": "Post a job",
+  "ctaSignIn": "Sign in to post a job"
+}

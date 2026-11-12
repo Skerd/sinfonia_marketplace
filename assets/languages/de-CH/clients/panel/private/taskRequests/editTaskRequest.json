@@ -6,8 +6,8 @@
   "errorTitle": "Ausschreibung konnte nicht geladen werden",
   "form": {
     "addressPrivacyAlert": "Anbieter sehen Ihre genaue Adresse erst, wenn Sie eine Offerte annehmen. Ihre vollständige Adresse wird nur mit dem gewählten Anbieter geteilt, nachdem Sie sich über die Arbeit geeinigt haben.",
-    "budgetMaxLabel": "Budget (max.)",
-    "budgetMinLabel": "Budget (min.)",
+    "budgetMaxLabel": "Budget, bis (freiwillig)",
+    "budgetMaxDescription": "Das Höchste, was der Kunde zahlen will. Leer lassen für ein offenes Budget.",
     "categoryLabel": "Kategorie",
     "cityLabel": "Ort",
     "cityPlaceholder": "Ort auswählen",
@@ -52,7 +52,6 @@
     "categoryPlaceholder": "Kategorie wählen",
     "currencyPlaceholder": "Währung wählen",
     "currencyDescription": "Offerten auf diese Ausschreibung kommen in dieser Währung.",
-    "budgetMinPlaceholder": "z. B. 500",
     "budgetMaxPlaceholder": "z. B. 900"
   },
   "formButtons": {

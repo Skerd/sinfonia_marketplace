@@ -62,9 +62,7 @@ function QuoteLeadAction({lead, openAlert, resolveLanguageKey, innerRef, onFilte
     const canSubmit = amount !== "" && Number.isFinite(amountNum) && amountNum >= 0
         && Number.isInteger(daysNum) && daysNum >= 0 && proposal.trim().length > 0 && proposal.length <= 5000;
     const currency = lead.taskRequest?.currency?.abbreviation ?? lead.taskRequest?.currency?.symbol ?? "";
-    const budget = lead.taskRequest?.budgetMin != null && lead.taskRequest?.budgetMax != null
-        ? `${lead.taskRequest.budgetMin} – ${lead.taskRequest.budgetMax} ${currency}`.trim()
-        : undefined;
+    const budget = lead.taskRequest?.budgetMax != null ? `${lead.taskRequest.budgetMax} ${currency}`.trim() : undefined;
 
     return (
         <AlertDialog open={open} onOpenChange={setOpen}>

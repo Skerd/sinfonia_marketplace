@@ -19,7 +19,6 @@ export default createGenericEditPage<TaskRequest, EditTaskRequestFormType>({
             title: writeFields.title ? data.title : undefined,
             description: writeFields.description ? data.description : undefined,
             category: writeFields.category ? data.category?._id : undefined,
-            budgetMin: writeFields.budgetMin ? data.budgetMin : undefined,
             budgetMax: writeFields.budgetMax ? data.budgetMax : undefined,
             currency: writeFields.currency ? data.currency?._id : undefined,
             address: addrKeys
@@ -52,7 +51,6 @@ export default createGenericEditPage<TaskRequest, EditTaskRequestFormType>({
         if (wf.title) postBody.title = data.title;
         if (wf.description) postBody.description = data.description ?? "";
         if (wf.category && data.category !== undefined) postBody.category = data.category;
-        if (wf.budgetMin) postBody.budgetMin = data.budgetMin;
         if (wf.budgetMax) postBody.budgetMax = data.budgetMax;
         if (wf.currency && data.currency !== undefined) postBody.currency = data.currency;
         if (wf.address && data.address) postBody.address = data.address;

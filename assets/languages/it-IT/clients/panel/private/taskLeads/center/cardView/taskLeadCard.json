@@ -5,7 +5,7 @@
   "category": "Categoria",
   "city": "Città",
   "distance": "Distanza",
-  "budget": "Budget",
+  "budget": "Budget, fino a",
   "quote": "Il tuo preventivo",
   "taskLeadStatus": {
     "new": "Nuova",

@@ -19,6 +19,7 @@ import type {
     ShopListingCategory,
     ShopListingTaxonomyResponse,
 } from "armonia/src/modules/marketplace/api/marketplace/public/shopMarketplace/shopMarketplace.types.ts";
+import type {CreateMyTaskRequestResponse} from "armonia/src/modules/marketplace/api/marketplace/private/taskRequest/taskRequest.dto.ts";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/jobs/newJob.tsx";
 
@@ -37,7 +38,6 @@ const EMPTY_FORM = {
     title: "",
     description: "",
     category: "",
-    budgetMin: "",
     budgetMax: "",
     street: "",
     postalCode: "",
@@ -78,8 +78,8 @@ function NewJobPage({resolveLanguageKey}: WithLanguageType) {
     const cities: ShopCity[] = form.country && !cityList.error ? cityList.data?.data ?? [] : [];
 
     const [createCall, setCreateCall] = useState<{form: FormData; count: number}>(() => ({form: new FormData(), count: 0}));
-    const createRequest = useHttpRequest<{data: {_id: string}}>(CREATE_JOB_REQUEST, createCall.form, createCall.count, true, {
-        success: (response) => navigate(`${base}/account/jobs/${response.data._id}?posted=1`),
+    const createRequest = useHttpRequest<CreateMyTaskRequestResponse>(CREATE_JOB_REQUEST, createCall.form, createCall.count, true, {
+        success: (response) => navigate(`${base}/account/jobs/${response.data._id}?posted=1&notified=${response.data.notified}`),
         error: (err) => handleError(err, {context: "NewJob", showToast: true, fallbackMessage: resolveLanguageKey("submitError")}),
     });
     // Stays busy after success: the page navigates to the new job.
@@ -92,6 +92,8 @@ function NewJobPage({resolveLanguageKey}: WithLanguageType) {
 
     const setField = (key: keyof typeof EMPTY_FORM, value: string) => setForm(current => ({...current, [key]: value}));
     const currency = config?.currency;
+    // Remote work is matched by category alone, so it needs no address or pin (D143).
+    const onsite = categories.find(category => category._id === form.category)?.delivery !== "remote";
 
     function locateMe() {
         navigator.geolocation?.getCurrentPosition(
@@ -102,7 +104,7 @@ function NewJobPage({resolveLanguageKey}: WithLanguageType) {
 
     function submit(event: FormEvent) {
         event.preventDefault();
-        if (!pin) {
+        if (onsite && !pin) {
             toast.error(resolveLanguageKey("pinRequired"));
             return;
         }
@@ -112,17 +114,16 @@ function NewJobPage({resolveLanguageKey}: WithLanguageType) {
             title: form.title.trim(),
             description: form.description.trim() || undefined,
             category: form.category,
-            budgetMin: Number(form.budgetMin),
-            budgetMax: Number(form.budgetMax),
+            budgetMax: form.budgetMax ? Number(form.budgetMax) : undefined,
             currency: currency._id,
-            address: {
+            address: onsite && pin ? {
                 street: form.street.trim(),
                 postalCode: form.postalCode.trim(),
                 country: form.country,
                 city: form.city,
                 latitude: pin.lat,
                 longitude: pin.lng,
-            },
+            } : undefined,
         }));
         payload.append("mainImage", image);
         setCreateCall((current) => ({form: payload, count: current.count + 1}));
@@ -173,61 +174,62 @@ function NewJobPage({resolveLanguageKey}: WithLanguageType) {
 
                 <section className="flex flex-col gap-4">
                     <h2 className="font-semibold">{resolveLanguageKey("sectionBudget")}</h2>
-                    <div className="grid gap-4 sm:grid-cols-2">
-                        <Label className="flex-col items-stretch gap-1.5">
-                            {resolveLanguageKey("budgetMinLabel").replace("{currency}", currency?.abbreviation ?? currency?.symbol ?? "")}
-                            <Input required type="number" min={0} step="0.01" inputMode="decimal" value={form.budgetMin} onChange={event => setField("budgetMin", event.target.value)} />
-                        </Label>
-                        <Label className="flex-col items-stretch gap-1.5">
-                            {resolveLanguageKey("budgetMaxLabel").replace("{currency}", currency?.abbreviation ?? currency?.symbol ?? "")}
-                            <Input required type="number" min={0} step="0.01" inputMode="decimal" value={form.budgetMax} onChange={event => setField("budgetMax", event.target.value)} />
-                        </Label>
-                    </div>
+                    <Label className="flex-col items-stretch gap-1.5 sm:max-w-xs">
+                        {resolveLanguageKey("budgetMaxLabel").replace("{currency}", currency?.abbreviation ?? currency?.symbol ?? "")}
+                        <Input type="number" min={1} step="0.01" inputMode="decimal" value={form.budgetMax} onChange={event => setField("budgetMax", event.target.value)} aria-describedby="new-job-budget-hint" />
+                    </Label>
+                    <p id="new-job-budget-hint" className="text-xs text-muted-foreground">{resolveLanguageKey("budgetHint")}</p>
                 </section>
 
                 <section className="flex flex-col gap-4">
                     <h2 className="font-semibold">{resolveLanguageKey("sectionWhere")}</h2>
-                    <div className="grid gap-4 sm:grid-cols-2">
-                        <Label className="flex-col items-stretch gap-1.5 sm:col-span-2">
-                            {resolveLanguageKey("streetLabel")}
-                            <Input required maxLength={200} value={form.street} onChange={event => setField("street", event.target.value)} />
-                        </Label>
-                        <Label className="flex-col items-stretch gap-1.5">
-                            {resolveLanguageKey("countryLabel")}
-                            <NativeSelect required value={form.country} onChange={event => setForm(current => ({...current, country: event.target.value, city: ""}))} className="w-full">
-                                <option value="">{resolveLanguageKey("selectPlaceholder")}</option>
-                                {countries.map(country => <option key={country._id} value={country._id}>{country.name}</option>)}
-                            </NativeSelect>
-                        </Label>
-                        <Label className="flex-col items-stretch gap-1.5">
-                            {resolveLanguageKey("cityLabel")}
-                            <NativeSelect required disabled={!form.country} value={form.city} onChange={event => setField("city", event.target.value)} className="w-full">
-                                <option value="">{resolveLanguageKey("selectPlaceholder")}</option>
-                                {cities.map(city => <option key={city._id} value={city._id}>{city.name}</option>)}
-                            </NativeSelect>
-                        </Label>
-                        <Label className="flex-col items-stretch gap-1.5">
-                            {resolveLanguageKey("postalCodeLabel")}
-                            <Input required maxLength={20} value={form.postalCode} onChange={event => setField("postalCode", event.target.value)} />
-                        </Label>
-                    </div>
-                    <div className="flex flex-col gap-2">
-                        <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
-                            <span className="font-medium">{resolveLanguageKey("pinLabel")}</span>
-                            <Button variant="link" type="button" onClick={locateMe} className="h-auto gap-1.5 p-0">
-                                <IconCurrentLocation aria-hidden />
-                                {resolveLanguageKey("useMyLocation")}
-                            </Button>
-                        </div>
-                        <div className="h-72 overflow-hidden rounded-2xl">
-                            <SinglePinMap
-                                latitude={pin?.lat ?? DEFAULT_PIN.lat}
-                                longitude={pin?.lng ?? DEFAULT_PIN.lng}
-                                onPinChange={coords => setPin(coords)}
-                            />
-                        </div>
-                        <p className="text-xs text-muted-foreground">{resolveLanguageKey(pin ? "pinSet" : "pinHint")}</p>
-                    </div>
+                    {onsite ? (
+                        <>
+                            <div className="grid gap-4 sm:grid-cols-2">
+                                <Label className="flex-col items-stretch gap-1.5 sm:col-span-2">
+                                    {resolveLanguageKey("streetLabel")}
+                                    <Input required maxLength={200} value={form.street} onChange={event => setField("street", event.target.value)} />
+                                </Label>
+                                <Label className="flex-col items-stretch gap-1.5">
+                                    {resolveLanguageKey("countryLabel")}
+                                    <NativeSelect required value={form.country} onChange={event => setForm(current => ({...current, country: event.target.value, city: ""}))} className="w-full">
+                                        <option value="">{resolveLanguageKey("selectPlaceholder")}</option>
+                                        {countries.map(country => <option key={country._id} value={country._id}>{country.name}</option>)}
+                                    </NativeSelect>
+                                </Label>
+                                <Label className="flex-col items-stretch gap-1.5">
+                                    {resolveLanguageKey("cityLabel")}
+                                    <NativeSelect required disabled={!form.country} value={form.city} onChange={event => setField("city", event.target.value)} className="w-full">
+                                        <option value="">{resolveLanguageKey("selectPlaceholder")}</option>
+                                        {cities.map(city => <option key={city._id} value={city._id}>{city.name}</option>)}
+                                    </NativeSelect>
+                                </Label>
+                                <Label className="flex-col items-stretch gap-1.5">
+                                    {resolveLanguageKey("postalCodeLabel")}
+                                    <Input required maxLength={20} value={form.postalCode} onChange={event => setField("postalCode", event.target.value)} />
+                                </Label>
+                            </div>
+                            <div className="flex flex-col gap-2">
+                                <div className="flex flex-wrap items-center justify-between gap-2 text-sm">
+                                    <span className="font-medium">{resolveLanguageKey("pinLabel")}</span>
+                                    <Button variant="link" type="button" onClick={locateMe} className="h-auto gap-1.5 p-0">
+                                        <IconCurrentLocation aria-hidden />
+                                        {resolveLanguageKey("useMyLocation")}
+                                    </Button>
+                                </div>
+                                <div className="h-72 overflow-hidden rounded-2xl">
+                                    <SinglePinMap
+                                        latitude={pin?.lat ?? DEFAULT_PIN.lat}
+                                        longitude={pin?.lng ?? DEFAULT_PIN.lng}
+                                        onPinChange={coords => setPin(coords)}
+                                    />
+                                </div>
+                                <p className="text-xs text-muted-foreground">{resolveLanguageKey(pin ? "pinSet" : "pinHint")}</p>
+                            </div>
+                        </>
+                    ) : (
+                        <p className="rounded-2xl bg-muted px-5 py-4 text-sm text-muted-foreground">{resolveLanguageKey("whereRemote")}</p>
+                    )}
                 </section>
 
                 <div className="flex flex-wrap gap-3 border-t border-border pt-6">

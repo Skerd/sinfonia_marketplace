@@ -1,0 +1,10 @@
+{
+  "path": "src/modules/marketplace/clients/portal/postJobBanner.tsx",
+  "title": "Publiez une demande et recevez des devis",
+  "subtitle": "Décrivez une seule fois ce qu'il faut faire, avec une photo. Les pros qui font ce travail vous envoient des devis à comparer.",
+  "titleCompany": "Demander un devis",
+  "subtitleCompany": "Décrivez ce qu'il faut faire, avec une photo, et nous vous envoyons un devis.",
+  "accountNeeded": "Vous avez besoin d'un compte : vos demandes et tous les devis y sont réunis.",
+  "cta": "Publier une demande",
+  "ctaSignIn": "Se connecter pour publier une demande"
+}

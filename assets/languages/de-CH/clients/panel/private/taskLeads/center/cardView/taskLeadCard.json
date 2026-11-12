@@ -5,7 +5,7 @@
   "category": "Kategorie",
   "city": "Ort",
   "distance": "Entfernung",
-  "budget": "Budget",
+  "budget": "Budget, bis",
   "quote": "Ihre Offerte",
   "taskLeadStatus": {
     "new": "Neu",

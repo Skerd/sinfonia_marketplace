@@ -6,8 +6,8 @@
   "errorTitle": "Impossibile caricare la richiesta di preventivo",
   "form": {
     "addressPrivacyAlert": "I fornitori non possono vedere il tuo indirizzo esatto finché non accetti un'offerta. Il tuo indirizzo completo viene condiviso solo con il fornitore che scegli, dopo aver concordato il lavoro.",
-    "budgetMaxLabel": "Budget (massimo)",
-    "budgetMinLabel": "Budget (min)",
+    "budgetMaxLabel": "Budget, fino a (facoltativo)",
+    "budgetMaxDescription": "Il massimo che il cliente intende pagare. Lascia vuoto per un budget aperto.",
     "categoryLabel": "Categoria",
     "cityLabel": "Città",
     "cityPlaceholder": "Seleziona la città",
@@ -52,7 +52,6 @@
     "categoryPlaceholder": "Seleziona categoria",
     "currencyPlaceholder": "Seleziona valuta",
     "currencyDescription": "Le offerte su questa richiesta sono in questa valuta.",
-    "budgetMinPlaceholder": "es. 500",
     "budgetMaxPlaceholder": "es. 900"
   },
   "formButtons": {

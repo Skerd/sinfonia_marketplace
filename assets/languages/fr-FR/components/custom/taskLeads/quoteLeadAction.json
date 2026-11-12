@@ -3,7 +3,7 @@
   "quote": {
     "title": "Envoyer un devis",
     "description": "Votre prix, les jours nécessaires et une courte proposition.",
-    "budgetHint": "Le budget du client est de {budget}.",
+    "budgetHint": "Le client compte payer jusqu'à {budget}.",
     "amountLabel": "Prix ({currency})",
     "daysLabel": "Jours nécessaires",
     "proposalLabel": "Proposition",

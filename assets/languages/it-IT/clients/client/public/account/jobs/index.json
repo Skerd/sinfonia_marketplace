@@ -12,5 +12,6 @@
   "pagination": "Pagine",
   "previousPage": "Pagina precedente",
   "nextPage": "Pagina successiva",
-  "pageOf": "Pagina {page} di {total}"
+  "pageOf": "Pagina {page} di {total}",
+  "budgetUpTo": "Fino a {amount}"
 }

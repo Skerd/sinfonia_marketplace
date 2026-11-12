@@ -100,7 +100,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             module: "marketplace",
             description:
                 "Buyer brief open for bids for 30 days (an hourly job closes expired ones); accepting a bid awards it.",
-            keyFields: ["requester", "title", "category", "address", "budgetMin", "budgetMax", "currency", "status", "expiresAt"],
+            keyFields: ["requester", "title", "category", "address", "budgetMax", "currency", "status", "expiresAt"],
             apiPath: "/api/marketplace/taskRequest",
             panelRoute: "/marketplace/taskrequests",
             actions: ["close", "reopen", "notifyAll"],

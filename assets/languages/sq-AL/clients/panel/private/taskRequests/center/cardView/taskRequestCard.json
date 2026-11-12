@@ -6,7 +6,7 @@
   "name": "Emri",
   "status": "Statusi",
   "category": "Kategoria",
-  "budget": "Buxheti",
+  "budget": "Buxheti, deri në",
   "city": "Qyteti",
   "expiresAt": "Skadon",
   "statuses": {

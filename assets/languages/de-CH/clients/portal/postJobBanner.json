@@ -1,0 +1,10 @@
+{
+  "path": "src/modules/marketplace/clients/portal/postJobBanner.tsx",
+  "title": "Auftrag ausschreiben und Offerten erhalten",
+  "subtitle": "Beschreiben Sie einmal, was zu tun ist, mit einem Foto. Fachleute, die diese Arbeit machen, senden Ihnen Offerten zum Vergleichen.",
+  "titleCompany": "Offerte anfragen",
+  "subtitleCompany": "Beschreiben Sie, was zu tun ist, mit einem Foto, und wir senden Ihnen eine Offerte.",
+  "accountNeeded": "Sie brauchen ein Konto: Dort finden Sie Ihre Aufträge und alle Offerten.",
+  "cta": "Auftrag ausschreiben",
+  "ctaSignIn": "Anmelden und Auftrag ausschreiben"
+}

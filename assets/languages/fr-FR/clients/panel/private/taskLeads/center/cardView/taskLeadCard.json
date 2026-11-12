@@ -5,7 +5,7 @@
   "category": "Catégorie",
   "city": "Ville",
   "distance": "Éloignement",
-  "budget": "Budget prévu",
+  "budget": "Budget, jusqu'à",
   "quote": "Votre devis",
   "taskLeadStatus": {
     "new": "Nouvelle",

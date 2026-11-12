@@ -2,8 +2,8 @@
   "address": "Adresse",
   "form": {
     "addressPrivacyAlert": "Les prestataires ne peuvent pas voir votre adresse exacte tant que vous n'avez pas accepté une offre. Votre adresse complète n'est communiquée qu'au prestataire choisi, une fois que vous vous êtes mis d'accord sur les travaux.",
-    "budgetMaxLabel": "Budget (maximum)",
-    "budgetMinLabel": "Budget (min)",
+    "budgetMaxLabel": "Budget, jusqu'à (facultatif)",
+    "budgetMaxDescription": "Le maximum que le client compte payer. Laissez vide pour un budget ouvert.",
     "categoryLabel": "Catégorie",
     "cityLabel": "Ville",
     "cityPlaceholder": "Sélectionner la ville",
@@ -46,7 +46,6 @@
     "categoryPlaceholder": "Sélectionner une catégorie",
     "currencyPlaceholder": "Sélectionner une devise",
     "currencyDescription": "Les offres sur cette demande sont dans cette devise.",
-    "budgetMinPlaceholder": "ex. 500",
     "budgetMaxPlaceholder": "ex. 900"
   },
   "formButtons": {

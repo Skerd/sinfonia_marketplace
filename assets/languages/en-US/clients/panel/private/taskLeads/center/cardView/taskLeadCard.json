@@ -5,7 +5,7 @@
   "category": "Category",
   "city": "City",
   "distance": "Distance",
-  "budget": "Budget",
+  "budget": "Budget, up to",
   "quote": "Your quote",
   "taskLeadStatus": {
     "new": "New",
