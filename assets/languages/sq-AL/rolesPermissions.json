@@ -144,7 +144,13 @@
       "videoGallery": "Galeria e videove",
       "activate": "Aktivizo",
       "deactivate": "Çaktivizo",
-      "serviceArea": "Zona e shërbimit"
+      "serviceArea": "Zona e shërbimit",
+      "serviceArea_latitude": "Gjerësia gjeografike e zonës së shërbimit",
+      "serviceArea_longitude": "Gjatësia gjeografike e zonës së shërbimit",
+      "serviceArea_radiusKm": "Rrezja e zonës së shërbimit (km)",
+      "serviceAreaPoint": "Pika e zonës së shërbimit",
+      "serviceAreaPoint_coordinates": "Koordinatat e zonës së shërbimit",
+      "serviceAreaPoint_type": "Lloji i pikës së zonës së shërbimit"
     },
     "Marketplacebids": {
       "amount": "Shuma",
@@ -161,7 +167,8 @@
       "proposal": "Propozimi",
       "status": "Statusi",
       "taskRequest": "Kërkesa për detyrë",
-      "updatedAt": "Përditësuar më"
+      "updatedAt": "Përditësuar më",
+      "bidderCompany": "Kompania e ofertuesit"
     },
     "Orderdeliveries": {
       "attachments": "Bashkëngjitjet",
@@ -217,7 +224,8 @@
       "start": "Fillo punën",
       "extend": "Zgjat",
       "submitDelivery": "Dorëzo punën",
-      "createMilestone": "Krijo fazë"
+      "createMilestone": "Krijo fazë",
+      "note": "Shënim"
     },
     "Promotions": {
       "createdAt": "Krijuar më",
@@ -258,7 +266,8 @@
       "stripeDetailsSubmitted": "Të dhënat Stripe të dorëzuara",
       "stripePayoutsEnabled": "Pagesat dalëse Stripe të aktivizuara",
       "createAccountLink": "Krijo lidhjen e llogarisë së pagesave",
-      "refreshAccountStatus": "Rifresko gjendjen e llogarisë së pagesave"
+      "refreshAccountStatus": "Rifresko gjendjen e llogarisë së pagesave",
+      "timezone": "Zona kohore"
     },
     "Reviews": {
       "comment": "Komenti",
@@ -300,7 +309,11 @@
       "title": "Titulli",
       "updatedAt": "Përditësuar më",
       "videoGallery": "Galeria e videove",
-      "notifyAll": "Njofto të gjithë ofruesit"
+      "notifyAll": "Njofto të gjithë ofruesit",
+      "approxPoint": "Vendndodhja e përafërt",
+      "approxPoint_latitude": "Gjerësia gjeografike e përafërt",
+      "approxPoint_longitude": "Gjatësia gjeografike e përafërt",
+      "restrictedToCompany": "Vetëm për ofruesit e kësaj kompanie"
     },
     "Marketplaceconfigs": {
       "marketplaceconfigs": "Cilësimet e tregut",
@@ -309,7 +322,10 @@
       "createdAt": "Krijuar më",
       "createdBy": "Krijuar nga",
       "updatedAt": "Përditësuar më",
-      "ensure": "Krijo cilësimet nëse mungojnë"
+      "ensure": "Krijo cilësimet nëse mungojnë",
+      "isOperator": "Operatori i tregut",
+      "leadCap": "Ofrues të arritur për kërkesë detyre",
+      "openJobLimit": "Kërkesa të hapura për detyra për blerës"
     },
     "Taskleads": {
       "taskleads": "Kërkesat",

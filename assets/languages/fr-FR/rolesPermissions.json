@@ -144,7 +144,13 @@
       "videoGallery": "Galerie vidéo",
       "activate": "Activer",
       "deactivate": "Désactiver",
-      "serviceArea": "Zone d'intervention"
+      "serviceArea": "Zone d'intervention",
+      "serviceArea_latitude": "Latitude de la zone d'intervention",
+      "serviceArea_longitude": "Longitude de la zone d'intervention",
+      "serviceArea_radiusKm": "Rayon de la zone d'intervention (km)",
+      "serviceAreaPoint": "Point de la zone d'intervention",
+      "serviceAreaPoint_coordinates": "Coordonnées de la zone d'intervention",
+      "serviceAreaPoint_type": "Type de point de la zone d'intervention"
     },
     "Marketplacebids": {
       "amount": "Montant",
@@ -161,7 +167,8 @@
       "proposal": "Proposition",
       "status": "Statut",
       "taskRequest": "Demande de tâche",
-      "updatedAt": "Mis à jour le"
+      "updatedAt": "Mis à jour le",
+      "bidderCompany": "Entreprise du soumissionnaire"
     },
     "Orderdeliveries": {
       "attachments": "Pièces jointes",
@@ -217,7 +224,8 @@
       "start": "Commencer le travail",
       "extend": "Prolonger",
       "submitDelivery": "Soumettre la livraison",
-      "createMilestone": "Créer une étape"
+      "createMilestone": "Créer une étape",
+      "note": "Remarque"
     },
     "Promotions": {
       "createdAt": "Créé le",
@@ -258,7 +266,8 @@
       "stripeDetailsSubmitted": "Informations Stripe soumises",
       "stripePayoutsEnabled": "Versements Stripe activés",
       "createAccountLink": "Créer le lien du compte de versement",
-      "refreshAccountStatus": "Actualiser l'état du compte de versement"
+      "refreshAccountStatus": "Actualiser l'état du compte de versement",
+      "timezone": "Fuseau horaire"
     },
     "Reviews": {
       "comment": "Commentaire",
@@ -300,7 +309,11 @@
       "title": "Titre",
       "updatedAt": "Mis à jour le",
       "videoGallery": "Galerie vidéo",
-      "notifyAll": "Prévenir tous les prestataires"
+      "notifyAll": "Prévenir tous les prestataires",
+      "approxPoint": "Emplacement approximatif",
+      "approxPoint_latitude": "Latitude approximative",
+      "approxPoint_longitude": "Longitude approximative",
+      "restrictedToCompany": "Réservée aux prestataires de cette entreprise"
     },
     "Marketplaceconfigs": {
       "marketplaceconfigs": "Paramètres de la place de marché",
@@ -309,7 +322,10 @@
       "createdAt": "Créé le",
       "createdBy": "Créé par",
       "updatedAt": "Mis à jour le",
-      "ensure": "Créer les paramètres s'ils manquent"
+      "ensure": "Créer les paramètres s'ils manquent",
+      "isOperator": "Opérateur de la place de marché",
+      "leadCap": "Prestataires contactés par demande de tâche",
+      "openJobLimit": "Demandes de tâches ouvertes par acheteur"
     },
     "Taskleads": {
       "taskleads": "Demandes",

@@ -144,7 +144,13 @@
       "videoGallery": "Galleria video",
       "activate": "Attiva",
       "deactivate": "Disattiva",
-      "serviceArea": "Zona di servizio"
+      "serviceArea": "Zona di servizio",
+      "serviceArea_latitude": "Latitudine della zona di servizio",
+      "serviceArea_longitude": "Longitudine della zona di servizio",
+      "serviceArea_radiusKm": "Raggio della zona di servizio (km)",
+      "serviceAreaPoint": "Punto della zona di servizio",
+      "serviceAreaPoint_coordinates": "Coordinate della zona di servizio",
+      "serviceAreaPoint_type": "Tipo di punto della zona di servizio"
     },
     "Marketplacebids": {
       "amount": "Importo",
@@ -161,7 +167,8 @@
       "proposal": "Proposta",
       "status": "Stato",
       "taskRequest": "Richiesta di attività",
-      "updatedAt": "Aggiornato il"
+      "updatedAt": "Aggiornato il",
+      "bidderCompany": "Azienda dell'offerente"
     },
     "Orderdeliveries": {
       "attachments": "Allegati",
@@ -217,7 +224,8 @@
       "start": "Inizia il lavoro",
       "extend": "Proroga",
       "submitDelivery": "Invia la consegna",
-      "createMilestone": "Crea milestone"
+      "createMilestone": "Crea milestone",
+      "note": "Nota"
     },
     "Promotions": {
       "createdAt": "Creato il",
@@ -258,7 +266,8 @@
       "stripeDetailsSubmitted": "Dettagli Stripe inviati",
       "stripePayoutsEnabled": "Pagamenti Stripe abilitati",
       "createAccountLink": "Crea il link del conto pagamenti",
-      "refreshAccountStatus": "Aggiorna lo stato del conto pagamenti"
+      "refreshAccountStatus": "Aggiorna lo stato del conto pagamenti",
+      "timezone": "Fuso orario"
     },
     "Reviews": {
       "comment": "Commento",
@@ -300,7 +309,11 @@
       "title": "Titolo",
       "updatedAt": "Aggiornato il",
       "videoGallery": "Galleria video",
-      "notifyAll": "Avvisa tutti i fornitori"
+      "notifyAll": "Avvisa tutti i fornitori",
+      "approxPoint": "Posizione approssimativa",
+      "approxPoint_latitude": "Latitudine approssimativa",
+      "approxPoint_longitude": "Longitudine approssimativa",
+      "restrictedToCompany": "Riservata ai fornitori di questa azienda"
     },
     "Marketplaceconfigs": {
       "marketplaceconfigs": "Impostazioni del marketplace",
@@ -309,7 +322,10 @@
       "createdAt": "Creato il",
       "createdBy": "Creato da",
       "updatedAt": "Aggiornato il",
-      "ensure": "Crea le impostazioni se mancano"
+      "ensure": "Crea le impostazioni se mancano",
+      "isOperator": "Gestore del marketplace",
+      "leadCap": "Fornitori raggiunti per richiesta di attività",
+      "openJobLimit": "Richieste di attività aperte per acquirente"
     },
     "Taskleads": {
       "taskleads": "Richieste",

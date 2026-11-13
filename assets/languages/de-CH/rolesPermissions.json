@@ -144,7 +144,13 @@
       "videoGallery": "Video galerie",
       "activate": "Aktivieren",
       "deactivate": "Deaktivieren",
-      "serviceArea": "Einsatzgebiet"
+      "serviceArea": "Einsatzgebiet",
+      "serviceArea_latitude": "Einsatzgebiet: Breitengrad",
+      "serviceArea_longitude": "Einsatzgebiet: Längengrad",
+      "serviceArea_radiusKm": "Einsatzgebiet: Radius (km)",
+      "serviceAreaPoint": "Einsatzgebiet: Punkt",
+      "serviceAreaPoint_coordinates": "Einsatzgebiet: Koordinaten",
+      "serviceAreaPoint_type": "Einsatzgebiet: Punkttyp"
     },
     "Marketplacebids": {
       "amount": "Betrag",
@@ -161,7 +167,8 @@
       "proposal": "Angebot",
       "status": "Status",
       "taskRequest": "Ausschreibung",
-      "updatedAt": "Aktualisiert am"
+      "updatedAt": "Aktualisiert am",
+      "bidderCompany": "Firma des Bieters"
     },
     "Orderdeliveries": {
       "attachments": "Anhänge",
@@ -217,7 +224,8 @@
       "start": "Arbeit beginnen",
       "extend": "Verlängern",
       "submitDelivery": "Lieferung einreichen",
-      "createMilestone": "Meilenstein erstellen"
+      "createMilestone": "Meilenstein erstellen",
+      "note": "Notiz"
     },
     "Promotions": {
       "createdAt": "Erstellt am",
@@ -258,7 +266,8 @@
       "stripeDetailsSubmitted": "Stripe details eingereicht",
       "stripePayoutsEnabled": "Stripe-Auszahlungen aktiviert",
       "createAccountLink": "Link zum Auszahlungskonto erstellen",
-      "refreshAccountStatus": "Status des Auszahlungskontos aktualisieren"
+      "refreshAccountStatus": "Status des Auszahlungskontos aktualisieren",
+      "timezone": "Zeitzone"
     },
     "Reviews": {
       "comment": "Kommentar",
@@ -300,7 +309,11 @@
       "title": "Bezeichnung",
       "updatedAt": "Aktualisiert am",
       "videoGallery": "Video galerie",
-      "notifyAll": "Alle Anbieter benachrichtigen"
+      "notifyAll": "Alle Anbieter benachrichtigen",
+      "approxPoint": "Ungefährer Standort",
+      "approxPoint_latitude": "Ungefährer Breitengrad",
+      "approxPoint_longitude": "Ungefährer Längengrad",
+      "restrictedToCompany": "Nur für Anbieter dieser Firma"
     },
     "Marketplaceconfigs": {
       "marketplaceconfigs": "Marktplatz-Einstellungen",
@@ -309,7 +322,10 @@
       "createdAt": "Erstellt am",
       "createdBy": "Erstellt von",
       "updatedAt": "Aktualisiert am",
-      "ensure": "Einstellungen anlegen, falls sie fehlen"
+      "ensure": "Einstellungen anlegen, falls sie fehlen",
+      "isOperator": "Marktplatz-Betreiber",
+      "leadCap": "Erreichte Anbieter pro Ausschreibung",
+      "openJobLimit": "Offene Ausschreibungen pro Käufer"
     },
     "Taskleads": {
       "taskleads": "Anfragen",

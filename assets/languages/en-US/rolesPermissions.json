@@ -144,7 +144,13 @@
       "videoGallery": "Video gallery",
       "activate": "Activate",
       "deactivate": "Deactivate",
-      "serviceArea": "Service area"
+      "serviceArea": "Service area",
+      "serviceArea_latitude": "Service area latitude",
+      "serviceArea_longitude": "Service area longitude",
+      "serviceArea_radiusKm": "Service area radius (km)",
+      "serviceAreaPoint": "Service area point",
+      "serviceAreaPoint_coordinates": "Service area coordinates",
+      "serviceAreaPoint_type": "Service area point type"
     },
     "Marketplacebids": {
       "amount": "Amount",
@@ -161,7 +167,8 @@
       "proposal": "Proposal",
       "status": "Status",
       "taskRequest": "Task request",
-      "updatedAt": "Updated at"
+      "updatedAt": "Updated at",
+      "bidderCompany": "Bidder company"
     },
     "Orderdeliveries": {
       "attachments": "Attachments",
@@ -217,7 +224,8 @@
       "start": "Start work",
       "extend": "Extend",
       "submitDelivery": "Submit delivery",
-      "createMilestone": "Create milestone"
+      "createMilestone": "Create milestone",
+      "note": "Note"
     },
     "Promotions": {
       "createdAt": "Created at",
@@ -258,7 +266,8 @@
       "stripeDetailsSubmitted": "Stripe details submitted",
       "stripePayoutsEnabled": "Stripe payouts enabled",
       "createAccountLink": "Create payout account link",
-      "refreshAccountStatus": "Refresh payout account status"
+      "refreshAccountStatus": "Refresh payout account status",
+      "timezone": "Timezone"
     },
     "Reviews": {
       "comment": "Comment",
@@ -300,7 +309,11 @@
       "title": "Title",
       "updatedAt": "Updated at",
       "videoGallery": "Video gallery",
-      "notifyAll": "Notify all providers"
+      "notifyAll": "Notify all providers",
+      "approxPoint": "Approximate location",
+      "approxPoint_latitude": "Approximate latitude",
+      "approxPoint_longitude": "Approximate longitude",
+      "restrictedToCompany": "Only for this company's providers"
     },
     "Marketplaceconfigs": {
       "marketplaceconfigs": "Marketplace settings",
@@ -309,7 +322,10 @@
       "createdAt": "Created at",
       "createdBy": "Created by",
       "updatedAt": "Updated at",
-      "ensure": "Create settings if missing"
+      "ensure": "Create settings if missing",
+      "isOperator": "Marketplace operator",
+      "leadCap": "Providers reached per task request",
+      "openJobLimit": "Open task requests per buyer"
     },
     "Taskleads": {
       "taskleads": "Leads",
