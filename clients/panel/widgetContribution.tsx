@@ -34,10 +34,14 @@ const ListingCategorySheetViewLazy = lazy(
     () => import("@marketplaceModule/clients/panel/private/listingCategories/center/sheetView/categorySheetView.tsx"),
 );
 
+/** Sheets a record shared in chat opens by token, named by each sheet view's `sheetWidget` (D162). */
+const TaskLeadSheetViewLazy = lazy(() => import("@marketplaceModule/clients/panel/private/taskLeads/center/sheetView/taskLeadSheetView.tsx"));
+
 const marketplaceWidgetContribution: WidgetContribution = {
     id: "marketplace",
     order: 36,
     widgets: {
+        "#TaskLeadSheetView": TaskLeadSheetViewLazy,
         "#ListingCategorySheetView": ListingCategorySheetViewLazy,
         "#ListingSheetView": ListingSheetViewLazy,
         "#TaskRequestSheetView": TaskRequestSheetViewLazy,
