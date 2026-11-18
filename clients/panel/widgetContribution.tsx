@@ -87,6 +87,12 @@ const marketplaceWidgetContribution: WidgetContribution = {
         "#ReviewCard": "review",
         "#ListingFlagCard": "listingFlag",
     },
+    /** Create pages an `#ApiSelect` on `<apiUrl>/select` opens in a dialog ("Create new …" below the dropdown). */
+    createPages: {
+        "/api/marketplace/listing": lazy(() => import("@marketplaceModule/clients/panel/private/listings/createListing.tsx")),
+        "/api/marketplace/listingCategory": lazy(() => import("@marketplaceModule/clients/panel/private/listingCategories/createCategory.tsx")),
+        "/api/marketplace/taskRequest": lazy(() => import("@marketplaceModule/clients/panel/private/taskRequests/createTaskRequest.tsx")),
+    },
 };
 
 export default marketplaceWidgetContribution;
