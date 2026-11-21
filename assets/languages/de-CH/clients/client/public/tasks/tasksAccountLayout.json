@@ -1,0 +1,6 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/tasks/tasksAccountLayout.tsx",
+  "navLabel": "Ihre Ausschreibungen",
+  "navAccount": "Konto",
+  "navTasks": "Meine Ausschreibungen"
+}

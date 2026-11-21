@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/center/cardView/taskBoardCard.tsx",
+  "failedTitle": "Ausschreibung konnte nicht geladen werden",
+  "failedDescription": "Tippen, um es erneut zu versuchen.",
+  "city": "Ort",
+  "where": "Wo",
+  "online": "Online",
+  "expiresAt": "Offen bis",
+  "budget": "Budget, bis",
+  "taskLeadStatus": {
+    "new": "Neu",
+    "viewed": "Angesehen",
+    "quoted": "Offeriert",
+    "declined": "Abgelehnt",
+    "won": "Gewonnen",
+    "lost": "Verloren",
+    "expired": "Abgelaufen"
+  }
+}

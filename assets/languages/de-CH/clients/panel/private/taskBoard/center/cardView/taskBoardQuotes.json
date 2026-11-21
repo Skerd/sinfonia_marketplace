@@ -1,0 +1,7 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/center/cardView/taskBoardQuotes.tsx",
+  "none": "Noch keine Offerten",
+  "one": "1 Offerte",
+  "other": "{count} Offerten",
+  "withAverage": "{quotes}, Durchschnitt {average}"
+}

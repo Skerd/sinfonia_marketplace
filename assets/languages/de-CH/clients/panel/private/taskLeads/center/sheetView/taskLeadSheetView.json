@@ -4,6 +4,7 @@
   "failedDescription": "Beim Laden dieser Anfrage ist ein Fehler aufgetreten. Klicken, um es erneut zu versuchen.",
   "failedTooltipDescription": "Klicken, um die Daten erneut zu laden.",
   "leadSubtitle": "Anfrage",
+  "boardSubtitle": "Ausschreibung",
   "overview": "Übersicht",
   "photos": "Fotos",
   "job": "Der Auftrag",
@@ -26,6 +27,11 @@
     "won": "Gewonnen",
     "lost": "Verloren",
     "expired": "Abgelaufen"
+  },
+  "origin": "Herkunft",
+  "taskLeadOrigin": {
+    "matched": "Ihnen zugeordnet",
+    "board": "Von der Ausschreibungsbörse"
   },
   "description": "Was der Kunde geschrieben hat",
   "quoteAmount": "Preis",

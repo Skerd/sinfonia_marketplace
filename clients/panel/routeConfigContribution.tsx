@@ -11,6 +11,7 @@ const EditTaskRequest = lazy(() => import("@marketplaceModule/clients/panel/priv
 const AllOrders = lazy(() => import("@marketplaceModule/clients/panel/private/orders"));
 const AllBids = lazy(() => import("@marketplaceModule/clients/panel/private/bids"));
 const AllTaskLeads = lazy(() => import("@marketplaceModule/clients/panel/private/taskLeads"));
+const TaskBoard = lazy(() => import("@marketplaceModule/clients/panel/private/taskBoard"));
 const CreateBid = lazy(() => import("@marketplaceModule/clients/panel/private/bids/createBid.tsx"));
 const AllBookings = lazy(() => import("@marketplaceModule/clients/panel/private/bookings"));
 const CreateBooking = lazy(() => import("@marketplaceModule/clients/panel/private/bookings/createBooking.tsx"));
@@ -123,6 +124,10 @@ const marketplaceRouteConfigContribution: RouteConfigContribution = {
             }
             if (resource === "leads") {
                 return <AllTaskLeads />;
+            }
+            // Every open public task, for any services company to quote on (D172).
+            if (resource === "taskboard") {
+                return <TaskBoard />;
             }
             if (resource === "bids") {
                 if (action === "create") return <CreateBid />;

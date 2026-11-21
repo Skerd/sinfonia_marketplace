@@ -45,6 +45,9 @@
     },
     "leads": {
       "title": "Richieste"
+    },
+    "taskboard": {
+      "title": "Bacheca delle richieste"
     }
   },
   "tenancy": {

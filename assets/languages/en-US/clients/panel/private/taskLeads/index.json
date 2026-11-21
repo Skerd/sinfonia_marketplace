@@ -28,6 +28,7 @@
   "fields": {
     "name": "Lead",
     "status": "Status",
+    "origin": "Source",
     "distanceKm": "Distance (km)",
     "provider": "Provider",
     "listing": "Listing",
@@ -43,6 +44,10 @@
         "won": "Won",
         "lost": "Lost",
         "expired": "Expired"
+      },
+      "origin": {
+        "matched": "Matched",
+        "board": "Task board"
       }
     }
   },

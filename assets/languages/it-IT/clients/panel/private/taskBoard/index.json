@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/index.tsx",
+  "title": "Bacheca delle richieste di preventivo",
+  "description": "Richieste di preventivo aperte, a cui ogni azienda di servizi può rispondere",
+  "help": {
+    "ariaLabel": "Bacheca delle richieste di preventivo",
+    "title": "Bacheca delle richieste di preventivo",
+    "overview": "Tutte le richieste di preventivo aperte che i clienti hanno pubblicato sul portale, che corrispondano o no a uno dei tuoi annunci. Ogni azienda che vende servizi qui può inviare un'offerta.",
+    "sections": [
+      {
+        "title": "Cosa vedi",
+        "items": [
+          "Categoria, città (o online), budget, foto e fino a quando è aperta.",
+          "Quante offerte ha e il loro prezzo medio; mai l'offerta di un'altra azienda.",
+          "Via, codice postale e contatto del cliente compaiono solo quando la tua offerta è accettata."
+        ]
+      },
+      {
+        "title": "Inviare un'offerta",
+        "items": [
+          "Il tuo prezzo nella valuta della richiesta, i giorni che ti servono e una breve proposta.",
+          "La tua azienda ha un'offerta per richiesta mentre il cliente decide.",
+          "L'offerta apre una richiesta in Richieste, dove la segui fino all'assegnazione."
+        ]
+      }
+    ]
+  },
+  "searchPlaceholder": "Cerca richieste...",
+  "clearAll": "Cancella ricerca e filtri",
+  "filters": "Filtri",
+  "removeFilter": "Rimuovi filtro",
+  "category": "Categoria",
+  "anyCategory": "Tutte le categorie",
+  "where": "Dove",
+  "anywhere": "Sul posto o online",
+  "delivery": {
+    "onsite": "Sul posto",
+    "remote": "Online"
+  },
+  "loading": "Caricamento delle richieste...",
+  "emptyTitle": "Nessuna richiesta aperta",
+  "emptyMessage": "Nessuna richiesta di preventivo aperta corrisponde. Le nuove compaiono qui appena i clienti le pubblicano.",
+  "loadMore": "Mostra altro"
+}

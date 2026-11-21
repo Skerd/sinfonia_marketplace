@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/tasks/portalQuotePanel.tsx",
+  "proTitle": "Do you offer this work?",
+  "signInMessage": "Sign in with your Kudoo account. If you belong to a services company, you can quote for it here.",
+  "signIn": "Sign in to quote",
+  "title": "Send a quote",
+  "quoteAs": "Quote as",
+  "quotingAs": "Quoting as {company}",
+  "daysOne": "Done in {count} day",
+  "daysOther": "Done in {count} days",
+  "oneQuote": "Your company's quote. It keeps one quote here while the client decides.",
+  "amount": "Your price ({currency})",
+  "days": "Days needed",
+  "proposal": "Proposal",
+  "proposalPlaceholder": "How you would do it and what is included.",
+  "send": "Send quote",
+  "sealedNote": "Only the client sees your price. Others see how many quotes there are."
+}

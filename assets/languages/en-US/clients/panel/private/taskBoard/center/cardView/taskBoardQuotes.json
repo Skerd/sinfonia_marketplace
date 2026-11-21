@@ -1,0 +1,7 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/center/cardView/taskBoardQuotes.tsx",
+  "none": "No quotes yet",
+  "one": "1 quote",
+  "other": "{count} quotes",
+  "withAverage": "{quotes}, average {average}"
+}

@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/center/cardView/taskBoardCard.tsx",
+  "failedTitle": "Failed to load task",
+  "failedDescription": "Tap to retry.",
+  "city": "City",
+  "where": "Where",
+  "online": "Online",
+  "expiresAt": "Open until",
+  "budget": "Budget, up to",
+  "taskLeadStatus": {
+    "new": "New",
+    "viewed": "Viewed",
+    "quoted": "Quoted",
+    "declined": "Declined",
+    "won": "Won",
+    "lost": "Lost",
+    "expired": "Expired"
+  }
+}

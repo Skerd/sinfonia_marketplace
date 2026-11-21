@@ -4,6 +4,7 @@
   "failedDescription": "Ndodhi një gabim gjatë ngarkimit të kësaj kërkese. Klikoni për të provuar përsëri.",
   "failedTooltipDescription": "Klikoni për të ringarkuar të dhënat.",
   "leadSubtitle": "Kërkesë",
+  "boardSubtitle": "Kërkesë për ofertë",
   "overview": "Përmbledhje",
   "photos": "Fotot",
   "job": "Puna",
@@ -26,6 +27,11 @@
     "won": "E fituar",
     "lost": "E humbur",
     "expired": "E skaduar"
+  },
+  "origin": "Burimi",
+  "taskLeadOrigin": {
+    "matched": "Ju është caktuar",
+    "board": "Nga tabela e kërkesave"
   },
   "description": "Çfarë shkroi klienti",
   "quoteAmount": "Çmimi",

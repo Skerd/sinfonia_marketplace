@@ -1,0 +1,11 @@
+{
+  "path": "src/modules/marketplace/clients/portal/taskFilters.tsx",
+  "category": "Kategoria",
+  "any": "Çdo kategori",
+  "where": "Ku",
+  "anywhere": "Në vend ose online",
+  "delivery": {
+    "onsite": "Në vend",
+    "remote": "Online"
+  }
+}

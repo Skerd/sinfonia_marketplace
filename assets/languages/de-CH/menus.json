@@ -45,6 +45,9 @@
     },
     "leads": {
       "title": "Anfragen"
+    },
+    "taskboard": {
+      "title": "Ausschreibungsbörse"
     }
   },
   "tenancy": {

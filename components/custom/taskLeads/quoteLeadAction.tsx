@@ -28,7 +28,8 @@ function bindQuoteAxiosLanguageKey(resolveLanguageKey: ResolveLanguageKey): Reso
 }
 
 type QuoteLeadActionPublicProps = {
-    lead: TaskLead;
+    /** A lead (`/taskLead/quote`), or a task of the task board with `url` `/taskLead/quoteJob` (D172): `_id` is the task. */
+    lead: Pick<TaskLead, "_id" | "taskRequest">;
     openAlert?: boolean;
     url?: string;
     resolveLanguageKey: ResolveLanguageKey;
@@ -38,7 +39,7 @@ type QuoteLeadActionPublicProps = {
 
 type QuoteLeadActionProps = WithAxiosType<ActionMessage> & QuoteLeadActionPublicProps;
 
-/** The provider's quote on a lead (D143): price in the job's currency, days and a short proposal. */
+/** The provider's quote on a lead (D143) or a task of the task board (D172): price in the job's currency, days and a short proposal. */
 function QuoteLeadAction({lead, openAlert, resolveLanguageKey, innerRef, onFilterChange, onSuccess = () => {}, onCancel = () => {}, loading, error}: QuoteLeadActionProps) {
     const [open, setOpen] = useState<boolean>(!!openAlert);
     const [amount, setAmount] = useState("");

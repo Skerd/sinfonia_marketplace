@@ -28,6 +28,7 @@
   "fields": {
     "name": "Richiesta",
     "status": "Stato",
+    "origin": "Origine",
     "distanceKm": "Distanza (km)",
     "provider": "Fornitore",
     "listing": "Offerta",
@@ -43,6 +44,10 @@
         "won": "Vinta",
         "lost": "Persa",
         "expired": "Scaduta"
+      },
+      "origin": {
+        "matched": "Assegnata",
+        "board": "Bacheca delle richieste"
       }
     }
   },

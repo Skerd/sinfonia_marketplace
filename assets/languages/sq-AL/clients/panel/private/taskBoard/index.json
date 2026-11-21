@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/index.tsx",
+  "title": "Tabela e kërkesave për ofertë",
+  "description": "Kërkesa të hapura për ofertë, ku çdo kompani shërbimesh mund të ofertojë",
+  "help": {
+    "ariaLabel": "Tabela e kërkesave për ofertë",
+    "title": "Tabela e kërkesave për ofertë",
+    "overview": "Të gjitha kërkesat e hapura për ofertë që klientët kanë publikuar në portal, qofshin ose jo në përputhje me ofertat tuaja. Çdo kompani që shet shërbime këtu mund të dërgojë një ofertë.",
+    "sections": [
+      {
+        "title": "Çfarë shihni",
+        "items": [
+          "Kategorinë, qytetin (ose online), buxhetin, fotot dhe deri kur është e hapur.",
+          "Sa oferta ka dhe çmimin e tyre mesatar; kurrë ofertën e një kompanie tjetër.",
+          "Rruga, kodi postar dhe kontakti i klientit shfaqen vetëm kur oferta juaj pranohet."
+        ]
+      },
+      {
+        "title": "Dërgo një ofertë",
+        "items": [
+          "Çmimi juaj në monedhën e kërkesës, ditët që ju duhen dhe një propozim i shkurtër.",
+          "Kompania juaj ka një ofertë për kërkesë ndërsa klienti vendos.",
+          "Oferta hap një kërkesë te Kërkesat, ku e ndiqni deri në fitim."
+        ]
+      }
+    ]
+  },
+  "searchPlaceholder": "Kërko kërkesa...",
+  "clearAll": "Pastro kërkimin dhe filtrat",
+  "filters": "Filtrat",
+  "removeFilter": "Hiq filtrin",
+  "category": "Kategoria",
+  "anyCategory": "Çdo kategori",
+  "where": "Ku",
+  "anywhere": "Në vend ose online",
+  "delivery": {
+    "onsite": "Në vend",
+    "remote": "Online"
+  },
+  "loading": "Po ngarkohen kërkesat...",
+  "emptyTitle": "Asnjë kërkesë e hapur",
+  "emptyMessage": "Asnjë kërkesë e hapur për ofertë nuk përputhet. Të rejat shfaqen këtu sapo klientët i publikojnë.",
+  "loadMore": "Shfaq më shumë"
+}

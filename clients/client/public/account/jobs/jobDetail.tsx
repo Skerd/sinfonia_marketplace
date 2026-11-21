@@ -17,6 +17,7 @@ import ServiceStatus from "@marketplaceModule/clients/client/public/shared/servi
 import type {BuyerTaskRequest} from "armonia/src/modules/marketplace/api/marketplace/private/taskRequest/taskRequest.dto.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
 import {Button} from "@coreModule/components/ui/button.tsx";
+import {useQuoteReceived} from "@marketplaceModule/helpers/hooks/useTaskLiveUpdates.ts";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/jobs/jobDetail.tsx";
 
@@ -43,6 +44,10 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
         load();
     }, [load, jobId]);
     const jobRequest = useHttpRequest<{data: BuyerTaskRequest}>(JOB_REQUEST, {_id: jobId}, jobCount);
+    // Live (D172): a new quote on this job shows without a reload.
+    useQuoteReceived((received) => {
+        if (received.taskId === jobId) load();
+    });
     const job: BuyerTaskRequest | null = jobRequest.error ? null : jobRequest.data?.data ?? null;
     // The skeleton shows while this job loads, not while it reloads after an action.
     const loading = jobCount === 0 || (jobRequest.loading && job?._id !== jobId);

@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/center/cardView/taskBoardCard.tsx",
+  "failedTitle": "Impossible de charger la demande",
+  "failedDescription": "Touchez pour réessayer.",
+  "city": "Ville",
+  "where": "Où",
+  "online": "En ligne",
+  "expiresAt": "Ouverte jusqu'au",
+  "budget": "Budget, jusqu'à",
+  "taskLeadStatus": {
+    "new": "Nouvelle",
+    "viewed": "Vue",
+    "quoted": "Devis envoyé",
+    "declined": "Refusée",
+    "won": "Gagnée",
+    "lost": "Perdue",
+    "expired": "Expirée"
+  }
+}

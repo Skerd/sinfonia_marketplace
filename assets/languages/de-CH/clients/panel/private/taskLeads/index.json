@@ -28,6 +28,7 @@
   "fields": {
     "name": "Anfrage",
     "status": "Status",
+    "origin": "Herkunft",
     "distanceKm": "Entfernung (km)",
     "provider": "Anbieter",
     "listing": "Angebot",
@@ -43,6 +44,10 @@
         "won": "Gewonnen",
         "lost": "Verloren",
         "expired": "Abgelaufen"
+      },
+      "origin": {
+        "matched": "Zugeordnet",
+        "board": "Ausschreibungsbörse"
       }
     }
   },

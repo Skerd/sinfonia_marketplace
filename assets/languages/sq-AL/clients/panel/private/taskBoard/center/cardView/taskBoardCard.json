@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/center/cardView/taskBoardCard.tsx",
+  "failedTitle": "Kërkesa nuk u ngarkua",
+  "failedDescription": "Prekni për të provuar sërish.",
+  "city": "Qyteti",
+  "where": "Ku",
+  "online": "Online",
+  "expiresAt": "E hapur deri më",
+  "budget": "Buxheti, deri në",
+  "taskLeadStatus": {
+    "new": "E re",
+    "viewed": "E parë",
+    "quoted": "Me ofertë",
+    "declined": "E refuzuar",
+    "won": "E fituar",
+    "lost": "E humbur",
+    "expired": "E skaduar"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/tasks/tasksAccountLayout.tsx",
+  "navLabel": "Your tasks",
+  "navAccount": "Account",
+  "navTasks": "My tasks"
+}

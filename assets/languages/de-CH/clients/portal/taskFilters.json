@@ -1,0 +1,11 @@
+{
+  "path": "src/modules/marketplace/clients/portal/taskFilters.tsx",
+  "category": "Kategorie",
+  "any": "Alle Kategorien",
+  "where": "Wo",
+  "anywhere": "Vor Ort oder online",
+  "delivery": {
+    "onsite": "Vor Ort",
+    "remote": "Online"
+  }
+}

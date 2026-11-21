@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/tasks/portalQuotePanel.tsx",
+  "proTitle": "E ofroni këtë punë?",
+  "signInMessage": "Hyni me llogarinë tuaj Kudoo. Nëse jeni pjesë e një kompanie shërbimesh, mund të ofertoni për të këtu.",
+  "signIn": "Hyni për të ofertuar",
+  "title": "Dërgo një ofertë",
+  "quoteAs": "Oferto si",
+  "quotingAs": "Po ofertoni si {company}",
+  "daysOne": "Gati për {count} ditë",
+  "daysOther": "Gati për {count} ditë",
+  "oneQuote": "Oferta e kompanisë suaj. Ajo ka një ofertë këtu ndërsa klienti vendos.",
+  "amount": "Çmimi juaj ({currency})",
+  "days": "Ditët që ju duhen",
+  "proposal": "Propozimi",
+  "proposalPlaceholder": "Si do ta bënit dhe çfarë përfshihet.",
+  "send": "Dërgo ofertën",
+  "sealedNote": "Vetëm klienti e sheh çmimin tuaj. Të tjerët shohin sa oferta ka."
+}

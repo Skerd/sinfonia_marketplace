@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/index.tsx",
+  "title": "Ausschreibungsbörse",
+  "description": "Offene Ausschreibungen, auf die jede Dienstleistungsfirma offerieren kann",
+  "help": {
+    "ariaLabel": "Ausschreibungsbörse",
+    "title": "Ausschreibungsbörse",
+    "overview": "Alle offenen Ausschreibungen, die Kundinnen und Kunden im Portal veröffentlicht haben, ob sie zu einem Ihrer Angebote passen oder nicht. Jede Firma, die hier Dienstleistungen anbietet, kann eine Offerte senden.",
+    "sections": [
+      {
+        "title": "Was Sie sehen",
+        "items": [
+          "Kategorie, Ort (oder online), Budget, Fotos und bis wann die Ausschreibung offen ist.",
+          "Wie viele Offerten sie hat und deren Durchschnittspreis; nie die Offerte einer anderen Firma.",
+          "Strasse, Postleitzahl und Kontakt der Kundschaft sehen Sie erst, wenn Ihre Offerte angenommen ist."
+        ]
+      },
+      {
+        "title": "Offerte senden",
+        "items": [
+          "Ihr Preis in der Währung der Ausschreibung, die benötigten Tage und ein kurzer Vorschlag.",
+          "Ihre Firma hat pro Ausschreibung eine Offerte, solange die Kundschaft entscheidet.",
+          "Die Offerte eröffnet eine Anfrage unter Anfragen, wo Sie sie bis zum Zuschlag verfolgen."
+        ]
+      }
+    ]
+  },
+  "searchPlaceholder": "Ausschreibungen suchen...",
+  "clearAll": "Suche und Filter löschen",
+  "filters": "Filter",
+  "removeFilter": "Filter entfernen",
+  "category": "Kategorie",
+  "anyCategory": "Alle Kategorien",
+  "where": "Wo",
+  "anywhere": "Vor Ort oder online",
+  "delivery": {
+    "onsite": "Vor Ort",
+    "remote": "Online"
+  },
+  "loading": "Ausschreibungen werden geladen...",
+  "emptyTitle": "Keine offenen Ausschreibungen",
+  "emptyMessage": "Keine offene Ausschreibung passt. Neue erscheinen hier, sobald Kundinnen und Kunden sie veröffentlichen.",
+  "loadMore": "Mehr anzeigen"
+}

@@ -45,6 +45,9 @@
     },
     "leads": {
       "title": "Kërkesat"
+    },
+    "taskboard": {
+      "title": "Tabela e kërkesave"
     }
   },
   "tenancy": {

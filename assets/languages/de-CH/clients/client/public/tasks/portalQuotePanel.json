@@ -1,0 +1,18 @@
+{
+  "path": "src/modules/marketplace/clients/client/public/tasks/portalQuotePanel.tsx",
+  "proTitle": "Bieten Sie diese Arbeit an?",
+  "signInMessage": "Melden Sie sich mit Ihrem Kudoo-Konto an. Gehören Sie zu einer Dienstleistungsfirma, können Sie hier für sie offerieren.",
+  "signIn": "Anmelden und offerieren",
+  "title": "Offerte senden",
+  "quoteAs": "Offerieren als",
+  "quotingAs": "Sie offerieren als {company}",
+  "daysOne": "Erledigt in {count} Tag",
+  "daysOther": "Erledigt in {count} Tagen",
+  "oneQuote": "Die Offerte Ihrer Firma. Sie hat hier eine Offerte, solange die Kundschaft entscheidet.",
+  "amount": "Ihr Preis ({currency})",
+  "days": "Benötigte Tage",
+  "proposal": "Vorschlag",
+  "proposalPlaceholder": "Wie Sie es machen würden und was inbegriffen ist.",
+  "send": "Offerte senden",
+  "sealedNote": "Nur die Kundschaft sieht Ihren Preis. Andere sehen, wie viele Offerten es gibt."
+}

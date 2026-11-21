@@ -4,6 +4,7 @@
   "failedDescription": "Something went wrong while loading this lead. Click to retry.",
   "failedTooltipDescription": "Click to retry fetching data.",
   "leadSubtitle": "Lead",
+  "boardSubtitle": "Task request",
   "overview": "Overview",
   "photos": "Photos",
   "job": "The job",
@@ -26,6 +27,11 @@
     "won": "Won",
     "lost": "Lost",
     "expired": "Expired"
+  },
+  "origin": "Source",
+  "taskLeadOrigin": {
+    "matched": "Matched to you",
+    "board": "From the task board"
   },
   "description": "What the client wrote",
   "quoteAmount": "Price",

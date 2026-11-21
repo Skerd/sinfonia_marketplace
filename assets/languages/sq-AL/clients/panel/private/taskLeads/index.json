@@ -28,6 +28,7 @@
   "fields": {
     "name": "Kërkesa",
     "status": "Statusi",
+    "origin": "Burimi",
     "distanceKm": "Largësia (km)",
     "provider": "Ofruesi",
     "listing": "Oferta",
@@ -43,6 +44,10 @@
         "won": "E fituar",
         "lost": "E humbur",
         "expired": "E skaduar"
+      },
+      "origin": {
+        "matched": "E caktuar",
+        "board": "Tabela e kërkesave"
       }
     }
   },

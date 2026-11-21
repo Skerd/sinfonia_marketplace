@@ -45,6 +45,9 @@
     },
     "leads": {
       "title": "Leads"
+    },
+    "taskboard": {
+      "title": "Task board"
     }
   },
   "tenancy": {

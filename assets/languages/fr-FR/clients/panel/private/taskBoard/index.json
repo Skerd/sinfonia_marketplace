@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/index.tsx",
+  "title": "Tableau des demandes de devis",
+  "description": "Demandes de devis ouvertes, auxquelles toute entreprise de services peut répondre",
+  "help": {
+    "ariaLabel": "Tableau des demandes de devis",
+    "title": "Tableau des demandes de devis",
+    "overview": "Toutes les demandes de devis ouvertes publiées par les clients sur le portail, qu'elles correspondent ou non à l'une de vos annonces. Toute entreprise qui vend des services ici peut envoyer une offre.",
+    "sections": [
+      {
+        "title": "Ce que vous voyez",
+        "items": [
+          "La catégorie, la ville (ou en ligne), le budget, les photos et la date de clôture.",
+          "Le nombre d'offres et leur prix moyen ; jamais l'offre d'une autre entreprise.",
+          "La rue, le code postal et le contact du client ne s'affichent qu'une fois votre offre acceptée."
+        ]
+      },
+      {
+        "title": "Envoyer une offre",
+        "items": [
+          "Votre prix dans la devise de la demande, les jours nécessaires et une courte proposition.",
+          "Votre entreprise garde une offre par demande pendant que le client décide.",
+          "L'offre ouvre une demande sous Demandes, où vous la suivez jusqu'à l'attribution."
+        ]
+      }
+    ]
+  },
+  "searchPlaceholder": "Rechercher des demandes...",
+  "clearAll": "Effacer la recherche et les filtres",
+  "filters": "Filtres",
+  "removeFilter": "Retirer le filtre",
+  "category": "Catégorie",
+  "anyCategory": "Toutes les catégories",
+  "where": "Où",
+  "anywhere": "Sur place ou en ligne",
+  "delivery": {
+    "onsite": "Sur place",
+    "remote": "En ligne"
+  },
+  "loading": "Chargement des demandes...",
+  "emptyTitle": "Aucune demande ouverte",
+  "emptyMessage": "Aucune demande de devis ouverte ne correspond. Les nouvelles apparaissent ici dès que les clients les publient.",
+  "loadMore": "Afficher plus"
+}

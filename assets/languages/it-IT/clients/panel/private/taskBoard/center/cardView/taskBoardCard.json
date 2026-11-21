@@ -1,0 +1,19 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/center/cardView/taskBoardCard.tsx",
+  "failedTitle": "Impossibile caricare la richiesta",
+  "failedDescription": "Tocca per riprovare.",
+  "city": "Città",
+  "where": "Dove",
+  "online": "Online",
+  "expiresAt": "Aperta fino al",
+  "budget": "Budget, fino a",
+  "taskLeadStatus": {
+    "new": "Nuova",
+    "viewed": "Vista",
+    "quoted": "Preventivo inviato",
+    "declined": "Rifiutata",
+    "won": "Vinta",
+    "lost": "Persa",
+    "expired": "Scaduta"
+  }
+}

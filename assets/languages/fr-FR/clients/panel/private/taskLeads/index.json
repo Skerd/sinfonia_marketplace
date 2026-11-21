@@ -28,6 +28,7 @@
   "fields": {
     "name": "Demande",
     "status": "Statut",
+    "origin": "Origine",
     "distanceKm": "Éloignement (km)",
     "provider": "Prestataire",
     "listing": "Offre",
@@ -43,6 +44,10 @@
         "won": "Gagnée",
         "lost": "Perdue",
         "expired": "Expirée"
+      },
+      "origin": {
+        "matched": "Proposée",
+        "board": "Tableau des demandes"
       }
     }
   },

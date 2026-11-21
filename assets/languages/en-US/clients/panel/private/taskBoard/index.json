@@ -1,0 +1,44 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/index.tsx",
+  "title": "Task board",
+  "description": "Open task requests any services company can quote on",
+  "help": {
+    "ariaLabel": "Task board",
+    "title": "Task board",
+    "overview": "Every open task request clients posted on the portal, whether or not it matched one of your listings. Any company that sells services here can send a quote.",
+    "sections": [
+      {
+        "title": "What you see",
+        "items": [
+          "The task's category, city (or online), budget, photos and when it closes.",
+          "How many quotes it has and their average price; never another company's quote.",
+          "The street, postcode and the client's contact are shown only when your quote is accepted."
+        ]
+      },
+      {
+        "title": "Send a quote",
+        "items": [
+          "Your price in the task's currency, the days you need and a short proposal.",
+          "Your company keeps one quote per task while the client decides.",
+          "The quote opens a lead under Leads, where you follow it to the award."
+        ]
+      }
+    ]
+  },
+  "searchPlaceholder": "Search tasks...",
+  "clearAll": "Clear search and filters",
+  "filters": "Filters",
+  "removeFilter": "Remove filter",
+  "category": "Category",
+  "anyCategory": "Any category",
+  "where": "Where",
+  "anywhere": "On site or online",
+  "delivery": {
+    "onsite": "On site",
+    "remote": "Online"
+  },
+  "loading": "Loading tasks...",
+  "emptyTitle": "No open tasks",
+  "emptyMessage": "No open task request matches. New tasks appear here as clients post them.",
+  "loadMore": "Show more"
+}

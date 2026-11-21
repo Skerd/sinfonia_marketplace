@@ -1,0 +1,7 @@
+{
+  "path": "src/modules/marketplace/clients/panel/private/taskBoard/center/cardView/taskBoardQuotes.tsx",
+  "none": "Ende pa oferta",
+  "one": "1 ofertë",
+  "other": "{count} oferta",
+  "withAverage": "{quotes}, mesatarja {average}"
+}

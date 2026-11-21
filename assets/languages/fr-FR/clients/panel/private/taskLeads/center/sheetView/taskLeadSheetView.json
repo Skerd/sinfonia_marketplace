@@ -4,6 +4,7 @@
   "failedDescription": "Une erreur s'est produite lors du chargement de cette demande. Cliquez pour réessayer.",
   "failedTooltipDescription": "Cliquez pour recharger les données.",
   "leadSubtitle": "Demande",
+  "boardSubtitle": "Demande de devis",
   "overview": "Aperçu",
   "photos": "Images",
   "job": "Le travail",
@@ -26,6 +27,11 @@
     "won": "Gagnée",
     "lost": "Perdue",
     "expired": "Expirée"
+  },
+  "origin": "Origine",
+  "taskLeadOrigin": {
+    "matched": "Proposée pour vous",
+    "board": "Depuis le tableau des demandes"
   },
   "description": "Ce que le client a écrit",
   "quoteAmount": "Prix",

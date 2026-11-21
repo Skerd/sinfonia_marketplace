@@ -4,6 +4,7 @@
   "failedDescription": "Si è verificato un errore durante il caricamento della richiesta. Fai clic per riprovare.",
   "failedTooltipDescription": "Fai clic per ricaricare i dati.",
   "leadSubtitle": "Richiesta",
+  "boardSubtitle": "Richiesta di preventivo",
   "overview": "Panoramica",
   "photos": "Foto",
   "job": "Il lavoro",
@@ -26,6 +27,11 @@
     "won": "Vinta",
     "lost": "Persa",
     "expired": "Scaduta"
+  },
+  "origin": "Origine",
+  "taskLeadOrigin": {
+    "matched": "Assegnata a te",
+    "board": "Dalla bacheca delle richieste"
   },
   "description": "Cosa ha scritto il cliente",
   "quoteAmount": "Prezzo",
