@@ -29,9 +29,9 @@ type ShopCity = {_id: string; name: string};
 /** Where the map opens before the buyer drops a pin (same default as the panel's pin picker). */
 const DEFAULT_PIN = {lat: 41.3275, lng: 19.8187};
 
-const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy"};
-const COUNTRIES_REQUEST: HttpRequest = {method: "GET", url: "/api/portal/places/countries"};
-const CITIES_REQUEST: HttpRequest = {method: "POST", url: "/api/portal/places/cities"};
+const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy", cache: true};
+const COUNTRIES_REQUEST: HttpRequest = {method: "GET", url: "/api/portal/places/countries", cache: true};
+const CITIES_REQUEST: HttpRequest = {method: "POST", url: "/api/portal/places/cities", cache: true};
 const CREATE_JOB_REQUEST: HttpRequest = {method: "PUT", url: "/api/marketplace/taskRequest/createMine"};
 
 const EMPTY_FORM = {

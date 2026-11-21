@@ -9,7 +9,7 @@ import {usePortalSite} from "@coreModule/clients/portal/shared/portalSiteContext
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
 import type {ShopListingTaxonomyResponse} from "armonia/src/modules/marketplace/api/marketplace/public/shopMarketplace/shopMarketplace.types.ts";
 
-const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy"};
+const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy", cache: true};
 
 /**
  * "Post a job" on top of the services tab, shown while someone here offers services: a buyer describes the job once

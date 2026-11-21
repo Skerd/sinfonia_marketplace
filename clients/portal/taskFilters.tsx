@@ -5,7 +5,7 @@ import {CatalogFilterSelect, uniqueBySlug} from "@coreModule/clients/portal/shar
 import type {ShopListingTaxonomyResponse} from "armonia/src/modules/marketplace/api/marketplace/public/shopMarketplace/shopMarketplace.types.ts";
 import {TASK_BOARD_DELIVERIES} from "armonia/src/modules/marketplace/api/marketplace/private/taskBoard/taskBoard.form.validator.ts";
 
-const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy"};
+const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy", cache: true};
 
 /** The task board's filters (D172): any category of the shared tree, and work done on site or online. */
 function TaskFilters({resolveLanguageKey}: WithLanguageType) {

@@ -10,7 +10,7 @@ import type {
     ShopMarketplaceReviewsResponse,
 } from "armonia/src/modules/marketplace/api/marketplace/public/shopMarketplace/shopMarketplace.types.ts";
 
-const REVIEWS_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopMarketplaceReviews"};
+const REVIEWS_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopMarketplaceReviews", cache: true};
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/shared/shopMarketplaceReviews.tsx";
 
 type ShopMarketplaceReviewsProps = WithLanguageType & {

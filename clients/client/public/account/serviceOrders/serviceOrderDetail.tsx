@@ -88,7 +88,7 @@ function EscrowPayForm({
     );
 }
 
-const ORDER_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/order/mySingle"};
+const ORDER_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/order/mySingle", cache: true};
 const MARKETPLACE_URL = "/api/marketplace";
 
 /** Delivery files are tenant media: fetched with the session token, then saved from memory. */

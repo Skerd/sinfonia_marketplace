@@ -8,7 +8,7 @@ import type {
     ShopListingTaxonomyResponse,
 } from "armonia/src/modules/marketplace/api/marketplace/public/shopMarketplace/shopMarketplace.types.ts";
 
-const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy"};
+const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy", cache: true};
 
 /** The service catalog's filter: the marketplace categories that lead to at least one service. */
 function ShopServiceFilters({resolveLanguageKey}: WithLanguageType) {

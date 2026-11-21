@@ -14,7 +14,7 @@ import type {ShopProviderResponse} from "armonia/src/modules/marketplace/api/mar
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
 import {Button} from "@coreModule/components/ui/button.tsx";
 
-const PROVIDER_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopProvider"};
+const PROVIDER_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopProvider", cache: true};
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/provider/index.tsx";
 
 function ProviderPage({resolveLanguageKey, languageCode}: WithLanguageType) {

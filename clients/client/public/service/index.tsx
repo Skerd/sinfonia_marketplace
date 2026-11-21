@@ -6,6 +6,7 @@ import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLangu
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
 import {cn} from "@coreModule/components/lib/utils.ts";
 import useHttpRequest, {type HttpRequest} from "@coreModule/helpers/hooks/useHttpRequest.ts";
+import {LISTING_REQUEST} from "./serviceRequest.ts";
 import {handleError} from "@coreModule/helpers/general/errors.ts";
 import {formatDate} from "@coreModule/helpers/general/dateTime.ts";
 import {resolvePublicMediaUrl} from "@coreModule/clients/portal/shared/portalMedia.ts";
@@ -49,7 +50,6 @@ type ServiceOption = {
 };
 
 /** The base offer first (when the listing has a price), then its packages in their set order. */
-const LISTING_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListing"};
 const ORDER_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/order/createFromListing"};
 
 function serviceOptions(listing: ShopListingDetail, standardName: string): ServiceOption[] {

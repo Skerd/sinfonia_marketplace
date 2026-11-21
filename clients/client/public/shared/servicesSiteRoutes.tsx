@@ -1,7 +1,6 @@
-import {lazy, Suspense} from "react";
+import {lazy} from "react";
 import {Navigate, Route, Routes, useSearchParams} from "react-router-dom";
 import ErrorBoundary from "@coreModule/components/custom/errors/errorBoundary.tsx";
-import Loader from "@coreModule/components/custom/loader/loader.tsx";
 import SitePageLayout from "@coreModule/clients/portal/shared/sitePageLayout.tsx";
 import {RequireSession} from "@coreModule/clients/portal/shared/sessionRoutes.tsx";
 import {ServicesConfigProvider} from "@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx";
@@ -37,27 +36,25 @@ function ServicesCatalog() {
 export default function ServicesSiteRoutes() {
     return (
         <ServicesConfigProvider>
-            <Suspense fallback={<Loader />}>
-                <Routes>
-                    <Route element={<SitePageLayout />}>
-                        <Route index element={<ServicesCatalog />} />
-                        <Route path="services" element={<ServicesCatalog />} />
-                        <Route path="service" element={<ErrorBoundary><ServicePage /></ErrorBoundary>} />
-                        <Route path="provider" element={<ErrorBoundary><ProviderPage /></ErrorBoundary>} />
-                        <Route path="account" element={<RequireSession />}>
-                            <Route element={<AccountLayout />}>
-                                <Route index element={<Navigate to="orders" replace />} />
-                                <Route path="orders" element={<ErrorBoundary><ServiceOrdersPage /></ErrorBoundary>} />
-                                <Route path="orders/:orderId" element={<ErrorBoundary><ServiceOrderDetailPage /></ErrorBoundary>} />
-                                <Route path="jobs" element={<ErrorBoundary><JobsPage /></ErrorBoundary>} />
-                                <Route path="jobs/new" element={<ErrorBoundary><NewJobPage /></ErrorBoundary>} />
-                                <Route path="jobs/:jobId" element={<ErrorBoundary><JobDetailPage /></ErrorBoundary>} />
-                            </Route>
+            <Routes>
+                <Route element={<SitePageLayout />}>
+                    <Route index element={<ServicesCatalog />} />
+                    <Route path="services" element={<ServicesCatalog />} />
+                    <Route path="service" element={<ErrorBoundary><ServicePage /></ErrorBoundary>} />
+                    <Route path="provider" element={<ErrorBoundary><ProviderPage /></ErrorBoundary>} />
+                    <Route path="account" element={<RequireSession />}>
+                        <Route element={<AccountLayout />}>
+                            <Route index element={<Navigate to="orders" replace />} />
+                            <Route path="orders" element={<ErrorBoundary><ServiceOrdersPage /></ErrorBoundary>} />
+                            <Route path="orders/:orderId" element={<ErrorBoundary><ServiceOrderDetailPage /></ErrorBoundary>} />
+                            <Route path="jobs" element={<ErrorBoundary><JobsPage /></ErrorBoundary>} />
+                            <Route path="jobs/new" element={<ErrorBoundary><NewJobPage /></ErrorBoundary>} />
+                            <Route path="jobs/:jobId" element={<ErrorBoundary><JobDetailPage /></ErrorBoundary>} />
                         </Route>
-                        <Route path="*" element={<ErrorBoundary><NotFoundPage /></ErrorBoundary>} />
                     </Route>
-                </Routes>
-            </Suspense>
+                    <Route path="*" element={<ErrorBoundary><NotFoundPage /></ErrorBoundary>} />
+                </Route>
+            </Routes>
         </ServicesConfigProvider>
     );
 }

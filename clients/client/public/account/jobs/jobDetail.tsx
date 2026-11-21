@@ -21,7 +21,7 @@ import {useQuoteReceived} from "@marketplaceModule/helpers/hooks/useTaskLiveUpda
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/jobs/jobDetail.tsx";
 
-const JOB_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/taskRequest/mySingle"};
+const JOB_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/taskRequest/mySingle", cache: true};
 const ACCEPT_BID_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/bid/accept"};
 /** Decline a quote, close or reopen the job: the url is set per action. */
 const JOB_ACTION_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace"};

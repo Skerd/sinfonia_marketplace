@@ -18,11 +18,12 @@ const ServicesConfigContext = createContext<ServicesConfigContextValue>({
     formatMoney: () => "",
 });
 
-const CONFIG_REQUEST: HttpRequest = {method: "GET", url: "/api/marketplace/servicesConfig"};
+/** The services site's settings; its portal sections ask them ahead with a hovered link's page. */
+export const SERVICES_CONFIG_REQUEST: HttpRequest = {method: "GET", url: "/api/marketplace/servicesConfig", cache: true};
 
 /** Loads the services site's settings (the marketplace currency, the Stripe publishable key) once. */
 export function ServicesConfigProvider({children}: {children: ReactNode}) {
-    const {data, loading} = useHttpRequest<ServicesConfigResponse>(CONFIG_REQUEST, {}, 1);
+    const {data, loading} = useHttpRequest<ServicesConfigResponse>(SERVICES_CONFIG_REQUEST, {}, 1);
     const config = data?.data ?? null;
     const value = useMemo<ServicesConfigContextValue>(() => ({config, loading, formatMoney: formatRecordMoney}), [config, loading]);
     return <ServicesConfigContext.Provider value={value}>{children}</ServicesConfigContext.Provider>;

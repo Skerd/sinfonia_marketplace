@@ -4,7 +4,7 @@ import {compose} from "redux";
 import {IconBellRinging, IconChevronLeft, IconChevronRight, IconClock} from "@tabler/icons-react";
 import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLanguage.tsx";
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
-import useHttpRequest, {type HttpRequest} from "@coreModule/helpers/hooks/useHttpRequest.ts";
+import useHttpRequest from "@coreModule/helpers/hooks/useHttpRequest.ts";
 import {DATE_FORMATS, formatDate} from "@coreModule/helpers/general/dateTime.ts";
 import {resolvePublicMediaUrl} from "@coreModule/clients/portal/shared/portalMedia.ts";
 import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx";
@@ -13,36 +13,33 @@ import {orderStatuses} from "armonia/src/modules/marketplace/api/marketplace/pri
 import type {BuyerServiceOrder} from "armonia/src/modules/marketplace/api/marketplace/private/order/order.dto.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
 import {Button} from "@coreModule/components/ui/button.tsx";
+import {SERVICE_ORDERS_PAGE_SIZE, SERVICE_ORDERS_REQUEST, serviceOrdersRequestBody} from "./serviceOrdersRequest.ts";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/serviceOrders/index.tsx";
-
-const PAGE_SIZE = 10;
 
 /** What the order is for: the listing, or the job a bid won. */
 export function serviceOrderTitle(order: BuyerServiceOrder): string {
     return order.listing?.title ?? order.taskRequest?.title ?? order.name;
 }
 
-const LIST_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/order/my"};
 
 function ServiceOrdersPage({resolveLanguageKey}: WithLanguageType) {
     const base = useSectionBase();
     const {formatMoney} = useServicesConfig();
     const [searchParams, setSearchParams] = useSearchParams();
-    const page = Math.max(1, Number(searchParams.get("page")) || 1);
-    const requestedStatus = searchParams.get("status");
-    const status = orderStatuses.find(value => value === requestedStatus);
+    const body = serviceOrdersRequestBody(searchParams);
+    const {page, status} = body;
 
     const [listCount, setListCount] = useState(0);
     useEffect(() => {
         setListCount((count) => count + 1);
     }, [page, status]);
-    const list = useHttpRequest<{data: BuyerServiceOrder[]; total: number}>(LIST_REQUEST, {page, limit: PAGE_SIZE, status}, listCount);
+    const list = useHttpRequest<{data: BuyerServiceOrder[]; total: number}>(SERVICE_ORDERS_REQUEST, body, listCount);
     const orders: BuyerServiceOrder[] = list.error ? [] : list.data?.data ?? [];
     const total = list.data?.total ?? 0;
     const loading = list.loading || listCount === 0;
 
-    const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+    const totalPages = Math.max(1, Math.ceil(total / SERVICE_ORDERS_PAGE_SIZE));
     const goTo = (next: {page?: number; status?: string}) => {
         const params: Record<string, string> = {};
         if (next.status) params.status = next.status;

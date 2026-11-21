@@ -4,36 +4,35 @@ import {compose} from "redux";
 import {IconChevronLeft, IconChevronRight, IconPlus} from "@tabler/icons-react";
 import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLanguage.tsx";
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
-import useHttpRequest, {type HttpRequest} from "@coreModule/helpers/hooks/useHttpRequest.ts";
+import useHttpRequest from "@coreModule/helpers/hooks/useHttpRequest.ts";
 import {DATE_FORMATS, formatDate} from "@coreModule/helpers/general/dateTime.ts";
 import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx";
 import ServiceStatus from "@marketplaceModule/clients/client/public/shared/serviceStatus.tsx";
 import type {BuyerTaskRequest} from "armonia/src/modules/marketplace/api/marketplace/private/taskRequest/taskRequest.dto.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
 import {Button} from "@coreModule/components/ui/button.tsx";
+import {JOBS_PAGE_SIZE, JOBS_REQUEST, jobsRequestBody} from "./jobsRequest.ts";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/jobs/index.tsx";
 
-const PAGE_SIZE = 10;
-
-const LIST_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/taskRequest/my"};
 
 function JobsPage({resolveLanguageKey}: WithLanguageType) {
     const base = useSectionBase();
     const {formatMoney} = useServicesConfig();
     const [searchParams, setSearchParams] = useSearchParams();
-    const page = Math.max(1, Number(searchParams.get("page")) || 1);
+    const body = jobsRequestBody(searchParams);
+    const {page} = body;
 
     const [listCount, setListCount] = useState(0);
     useEffect(() => {
         setListCount((count) => count + 1);
     }, [page]);
-    const list = useHttpRequest<{data: BuyerTaskRequest[]; total: number}>(LIST_REQUEST, {page, limit: PAGE_SIZE}, listCount);
+    const list = useHttpRequest<{data: BuyerTaskRequest[]; total: number}>(JOBS_REQUEST, body, listCount);
     const jobs: BuyerTaskRequest[] = list.error ? [] : list.data?.data ?? [];
     const total = list.data?.total ?? 0;
     const loading = list.loading || listCount === 0;
 
-    const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+    const totalPages = Math.max(1, Math.ceil(total / JOBS_PAGE_SIZE));
     const goToPage = (next: number) => setSearchParams(next > 1 ? {page: String(next)} : {});
 
     return (

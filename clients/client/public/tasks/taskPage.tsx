@@ -5,7 +5,7 @@ import {IconChevronRight, IconMapPin, IconPhotoOff, IconWorld} from "@tabler/ico
 import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLanguage.tsx";
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
 import {cn} from "@coreModule/components/lib/utils.ts";
-import useHttpRequest, {type HttpRequest} from "@coreModule/helpers/hooks/useHttpRequest.ts";
+import useHttpRequest from "@coreModule/helpers/hooks/useHttpRequest.ts";
 import {DATE_FORMATS, formatDate} from "@coreModule/helpers/general/dateTime.ts";
 import {resolvePublicMediaUrl} from "@coreModule/clients/portal/shared/portalMedia.ts";
 import {usePortalSession} from "@coreModule/clients/portal/shared/portalSession.tsx";
@@ -17,13 +17,13 @@ import {Button} from "@coreModule/components/ui/button.tsx";
 import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx";
 import ServiceStatus from "@marketplaceModule/clients/client/public/shared/serviceStatus.tsx";
 import PortalQuotePanel from "./portalQuotePanel.tsx";
+import {TASK_REQUEST} from "./taskRequest.ts";
 import {useTaskUpdates} from "@marketplaceModule/helpers/hooks/useTaskLiveUpdates.ts";
 import {taskRoom} from "armonia/src/modules/marketplace/websocket/types.ts";
 import {JOB_AREA_RADIUS_M} from "armonia/src/modules/marketplace/helpers/jobArea.ts";
 import type {ShopTaskResponse} from "armonia/src/modules/marketplace/api/marketplace/public/shopTask/shopTask.types.ts";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/tasks/taskPage.tsx";
-const TASK_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopTask"};
 
 /**
  * One task of the public board (D172), for anyone: what the client needs, where roughly (the D148 area, never the
