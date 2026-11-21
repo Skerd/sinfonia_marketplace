@@ -54,7 +54,9 @@ function TaskPage({resolveLanguageKey}: WithLanguageType) {
     const [activeImage, setActiveImage] = useState<string | undefined>();
     useEffect(() => setActiveImage(gallery[0]), [gallery]);
 
-    if (request.loading || (fetchCount === 0 && id)) {
+    // A refresh (a live quote, D172) keeps the task on screen; only a task not shown yet waits behind the placeholder.
+    const showsThisTask = task?._id === id;
+    if ((request.loading && !showsThisTask) || (fetchCount === 0 && id)) {
         return <div className="h-96 animate-pulse rounded-3xl bg-muted" aria-busy="true" aria-label={resolveLanguageKey("loading")} />;
     }
     if (!task) {
