@@ -13,6 +13,8 @@ import TasksAccountLinks from "./tasksAccountLinks.tsx";
 import ShopServiceFilters from "./shopServiceFilters.tsx";
 import TaskFilters from "./taskFilters.tsx";
 import PostJobBanner from "./postJobBanner.tsx";
+import {IconTool} from "@tabler/icons-react";
+import BusinessTypeSummary from "./businessTypeSummary.tsx";
 
 /** A link to one of the sections' item pages (`/<page>?id=…`) about to be followed: the page's code, the services site's settings and the item. */
 function prefetchItem({path, params}: PortalPrefetchTarget, page: string, loadPage: () => Promise<unknown>, request: HttpRequest) {
@@ -72,6 +74,8 @@ const services: PortalContribution = {
         prefetchItem(target, "/service", () => import("@marketplaceModule/clients/client/public/service/index.tsx"), LISTING_REQUEST);
         prefetchAccountPage(target, () => import("@marketplaceModule/clients/client/public/account/accountLayout.tsx"), SERVICE_ACCOUNT_PAGES);
     },
+    // A person may create this kind of business on the portal (D178); the API declares the same key.
+    businessType: {key: "marketplace", Icon: IconTool, Summary: BusinessTypeSummary},
 };
 
 /**
