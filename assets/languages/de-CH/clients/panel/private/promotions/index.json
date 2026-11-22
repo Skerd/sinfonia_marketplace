@@ -33,7 +33,6 @@
     ]
   },
   "createPromotion": "Promotion erstellen",
-  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
   "fields": {
     "name": "Name",
     "listing": "Inserat",

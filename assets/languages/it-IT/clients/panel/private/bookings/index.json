@@ -45,7 +45,6 @@
       }
     }
   },
-  "searchPlaceholder": "Cerca o aggiungi filtri...",
   "status": {
     "scheduled": "Pianificata",
     "in_progress": "In corso",

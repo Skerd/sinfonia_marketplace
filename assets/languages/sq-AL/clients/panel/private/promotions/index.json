@@ -33,7 +33,6 @@
     ]
   },
   "createPromotion": "Krijo promovim",
-  "searchPlaceholder": "Kërko ose shto filtra...",
   "fields": {
     "name": "Emri",
     "listing": "Listimi",

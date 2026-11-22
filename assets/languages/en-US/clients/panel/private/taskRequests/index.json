@@ -43,7 +43,6 @@
     ]
   },
   "createTaskRequest": "Create task request",
-  "searchPlaceholder": "Search or add filters...",
   "fields": {
     "title": "Title",
     "description": "Description",

@@ -43,7 +43,6 @@
     ]
   },
   "createTaskRequest": "Créer une demande de devis",
-  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
   "fields": {
     "title": "Titre",
     "description": "Description",

@@ -75,7 +75,6 @@
       }
     }
   },
-  "searchPlaceholder": "Kërko ose shto filtra...",
   "status": {
     "pending": "Në pritje",
     "in_progress": "Në progres",

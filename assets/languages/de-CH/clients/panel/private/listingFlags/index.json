@@ -33,7 +33,6 @@
     ]
   },
   "createListingFlag": "Inserat-Meldung erstellen",
-  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
   "fields": {
     "listing": "Inserat",
     "reason": "Grund",

@@ -33,7 +33,6 @@
     ]
   },
   "createListingFlag": "Create listing report",
-  "searchPlaceholder": "Search or add filters...",
   "fields": {
     "listing": "Listing",
     "reason": "Reason",

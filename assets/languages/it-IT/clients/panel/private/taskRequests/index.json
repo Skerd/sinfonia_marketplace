@@ -43,7 +43,6 @@
     ]
   },
   "createTaskRequest": "Crea richiesta di preventivo",
-  "searchPlaceholder": "Cerca o aggiungi filtri...",
   "fields": {
     "title": "Titolo",
     "description": "Descrizione",

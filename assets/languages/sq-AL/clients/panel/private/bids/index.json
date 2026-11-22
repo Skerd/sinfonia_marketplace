@@ -51,7 +51,6 @@
       }
     }
   },
-  "searchPlaceholder": "Kërko ose shto filtra...",
   "status": {
     "pending": "Në pritje",
     "accepted": "Pranuar",

@@ -53,7 +53,6 @@
     ]
   },
   "createListing": "Krijo listim",
-  "searchPlaceholder": "Kërko ose shto filtra...",
   "fields": {
     "!enums": {
       "status": {

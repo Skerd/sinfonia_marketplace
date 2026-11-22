@@ -43,7 +43,6 @@
     ]
   },
   "createTaskRequest": "Ausschreibung erstellen",
-  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
   "fields": {
     "title": "Bezeichnung",
     "description": "Beschreibung",

@@ -33,7 +33,6 @@
     ]
   },
   "createListingFlag": "Crea segnalazione dell'annuncio",
-  "searchPlaceholder": "Cerca o aggiungi filtri...",
   "fields": {
     "listing": "Annuncio",
     "reason": "Motivo",

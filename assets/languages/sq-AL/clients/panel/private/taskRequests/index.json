@@ -43,7 +43,6 @@
     ]
   },
   "createTaskRequest": "Krijo kërkesë për ofertë",
-  "searchPlaceholder": "Kërko ose shto filtra...",
   "fields": {
     "title": "Titulli",
     "description": "Përshkrimi",

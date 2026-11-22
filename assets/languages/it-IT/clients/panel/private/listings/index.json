@@ -53,7 +53,6 @@
     ]
   },
   "createListing": "Crea annuncio",
-  "searchPlaceholder": "Cerca o aggiungi filtri...",
   "fields": {
     "!enums": {
       "status": {

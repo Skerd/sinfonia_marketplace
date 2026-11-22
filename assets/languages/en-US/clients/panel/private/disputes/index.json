@@ -51,7 +51,6 @@
       }
     }
   },
-  "searchPlaceholder": "Search or add filters...",
   "status": {
     "open": "Open",
     "under_review": "Under Review",

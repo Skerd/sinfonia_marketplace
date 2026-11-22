@@ -33,7 +33,6 @@
     ]
   },
   "createListingFlag": "Créer un signalement d'annonce",
-  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
   "fields": {
     "listing": "Annonce",
     "reason": "Motif",

@@ -51,7 +51,6 @@
       }
     }
   },
-  "searchPlaceholder": "Suchen oder Filter hinzufügen...",
   "status": {
     "pending": "Ausstehend",
     "accepted": "Angenommen",

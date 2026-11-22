@@ -26,7 +26,6 @@
     ]
   },
   "createListingPackage": "Create listing package",
-  "searchPlaceholder": "Search or add filters...",
   "fields": {
     "name": "Name",
     "listing": "Listing",

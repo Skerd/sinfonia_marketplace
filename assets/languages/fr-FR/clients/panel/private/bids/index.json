@@ -51,7 +51,6 @@
       }
     }
   },
-  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
   "status": {
     "pending": "En attente",
     "accepted": "Accepté",

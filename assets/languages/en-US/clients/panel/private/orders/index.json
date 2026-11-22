@@ -75,7 +75,6 @@
       }
     }
   },
-  "searchPlaceholder": "Search or add filters...",
   "status": {
     "pending": "Pending",
     "in_progress": "In Progress",

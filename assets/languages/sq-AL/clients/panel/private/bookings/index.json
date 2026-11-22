@@ -45,7 +45,6 @@
       }
     }
   },
-  "searchPlaceholder": "Kërko ose shto filtra...",
   "status": {
     "scheduled": "Planifikuar",
     "in_progress": "Në progres",

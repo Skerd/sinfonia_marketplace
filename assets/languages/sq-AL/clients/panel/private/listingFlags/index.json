@@ -33,7 +33,6 @@
     ]
   },
   "createListingFlag": "Krijo raportim listimi",
-  "searchPlaceholder": "Kërko ose shto filtra...",
   "fields": {
     "listing": "Listimi",
     "reason": "Arsyeja",

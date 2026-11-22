@@ -43,6 +43,5 @@
     "createdAt": "Erstellt",
     "deletedAt": "Gelöscht",
     "deletedBy": "Gelöscht von"
-  },
-  "searchPlaceholder": "Suchen oder Filter hinzufügen..."
+  }
 }

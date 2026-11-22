@@ -26,7 +26,6 @@
     ]
   },
   "createListingPackage": "Crea pacchetto dell'annuncio",
-  "searchPlaceholder": "Cerca o aggiungi filtri...",
   "fields": {
     "name": "Nome",
     "listing": "Annuncio",

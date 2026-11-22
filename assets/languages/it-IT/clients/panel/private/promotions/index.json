@@ -33,7 +33,6 @@
     ]
   },
   "createPromotion": "Crea promozione",
-  "searchPlaceholder": "Cerca o aggiungi filtri...",
   "fields": {
     "name": "Nome",
     "listing": "Annuncio",

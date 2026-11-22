@@ -51,7 +51,6 @@
       }
     }
   },
-  "searchPlaceholder": "Rechercher ou ajouter des filtres...",
   "status": {
     "open": "Ouvert",
     "under_review": "En cours d'examen",
