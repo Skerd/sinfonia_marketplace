@@ -1,6 +1,25 @@
 {
   "marketplace": {
-    "setup": {"listing": "Krijoni shërbimin tuaj të parë", "listingHint": "Tregoni çfarë bëni, çmimin dhe zonën që mbuloni."},
+    "setup": {"listing": "Publikoni shërbimin tuaj të parë", "listingHint": "Ruajeni me atë që bëni, çmimin dhe zonën që mbuloni, pastaj zgjidhni Aktivizo te menyja ⋯ që klientët ta gjejnë."},
+    "guide": {
+      "listingTitleTitle": "Çfarë ofroni",
+      "listingTitleText": "Emërtojeni ashtu siç e kërkojnë klientët, si “Pastrim shtëpie” ose “Dizajn logoje”.",
+      "listingCategoryTitle": "Kategoria",
+      "listingCategoryText": "E vendos shërbimin tuaj aty ku klientët kërkojnë në portal. Punët e postuara në këtë kategori mund t'ju vijnë si kërkesa.",
+      "listingProviderTitle": "Kush e bën punën",
+      "listingProviderText": "Zgjidhni veten, ose personin e ekipit tuaj që e bën këtë punë. Porositë e reja për këtë shërbim i shkojnë atij.",
+      "listingPriceTitle": "Çmimi juaj",
+      "listingPriceText": "Për gjithë punën ose për orë, siç zgjidhni te Lloji i çmimit. Listimi duhet të ketë çmim para se të dalë online.",
+      "listingAreaTitle": "Ku punoni",
+      "listingAreaText": "Për punë te klienti, vendosni në hartë një pikë nga ku nisni dhe tregoni sa larg udhëtoni. Punët brenda kësaj zone ju vijnë si kërkesa.",
+      "tour": {
+        "listings": "Shërbimet tuaja. Një listim i ri fillon si skicë: hapeni dhe zgjidhni “Aktivizo” në menunë e tij që klientët ta gjejnë dhe ta porosisin.",
+        "leads": "Punë që klientët kanë postuar në portal dhe që u përshtaten shërbimeve dhe zonës suaj. Dërgoni një ofertë, ose refuzojeni.",
+        "taskboard": "Çdo punë e hapur në portal, jo vetëm ato që u përshtaten listimeve tuaja. Mund të dërgoni ofertë për secilën.",
+        "bids": "Ofertat që keni dërguar. Kur një klient pranon njërën, ajo bëhet porosi.",
+        "orders": "Punë që klientët porositën nga ju, ose jua dhanë duke pranuar ofertën tuaj. Pagesa e tyre ruhet e sigurt derisa ta pranojnë punën tuaj."
+      }
+    },
     "title": "Tregu",
     "listings": {
       "title": "Listimet"

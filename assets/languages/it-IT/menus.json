@@ -1,6 +1,25 @@
 {
   "marketplace": {
-    "setup": {"listing": "Crea il tuo primo servizio", "listingHint": "Indica cosa fai, il prezzo e la zona che copri."},
+    "setup": {"listing": "Pubblica il tuo primo servizio", "listingHint": "Salvalo con cosa fai, il prezzo e la zona che copri, poi scegli «Attiva» nel suo menu ⋯ perché i clienti lo trovino."},
+    "guide": {
+      "listingTitleTitle": "Cosa offri",
+      "listingTitleText": "Chiamalo come lo cercano i clienti, ad esempio «Pulizie di casa» o «Design del logo».",
+      "listingCategoryTitle": "Categoria",
+      "listingCategoryText": "Mette il tuo servizio dove i clienti cercano sul portale. I lavori pubblicati in questa categoria possono arrivarti come richieste.",
+      "listingProviderTitle": "Chi fa il lavoro",
+      "listingProviderText": "Scegli te stesso o la persona del tuo team che fa questo lavoro. I nuovi ordini per questo servizio vanno a questa persona.",
+      "listingPriceTitle": "Il tuo prezzo",
+      "listingPriceText": "Per l'intero lavoro o all'ora, come scegli in Tipo di prezzo. L'annuncio deve avere un prezzo prima di andare online.",
+      "listingAreaTitle": "Dove lavori",
+      "listingAreaText": "Per i lavori dal cliente, metti sulla mappa un segnaposto da dove parti e indica fin dove ti sposti. I lavori in quella zona ti arrivano come richieste.",
+      "tour": {
+        "listings": "I tuoi servizi. Un nuovo annuncio parte come bozza: aprilo e scegli «Attiva» nel suo menu perché i clienti possano trovarlo e ordinarlo.",
+        "leads": "Lavori pubblicati dai clienti sul portale che corrispondono ai tuoi servizi e alla tua zona. Invia un preventivo o rifiuta.",
+        "taskboard": "Tutti i lavori aperti sul portale, non solo quelli adatti ai tuoi annunci. Puoi inviare un preventivo per ognuno.",
+        "bids": "I preventivi che hai inviato. Quando un cliente ne accetta uno, diventa un ordine.",
+        "orders": "Lavori che i clienti ti hanno ordinato o affidato accettando il tuo preventivo. Il loro pagamento resta al sicuro finché non accettano il tuo lavoro."
+      }
+    },
     "title": "Marketplace",
     "listings": {
       "title": "Annunci"

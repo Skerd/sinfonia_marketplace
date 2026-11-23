@@ -1,6 +1,25 @@
 {
   "marketplace": {
-    "setup": {"listing": "Erstes Dienstleistungsangebot erstellen", "listingHint": "Beschreiben Sie Ihre Arbeit, Ihren Preis und Ihr Einsatzgebiet."},
+    "setup": {"listing": "Erstes Dienstleistungsangebot live schalten", "listingHint": "Speichern Sie es mit Ihrer Arbeit, Ihrem Preis und Ihrem Einsatzgebiet und wählen Sie dann im Menü ⋯ «Aktivieren», damit Kunden es finden."},
+    "guide": {
+      "listingTitleTitle": "Was Sie anbieten",
+      "listingTitleText": "Benennen Sie es so, wie Kunden danach suchen, etwa «Wohnungsreinigung» oder «Logodesign».",
+      "listingCategoryTitle": "Kategorie",
+      "listingCategoryText": "Zeigt Ihr Angebot dort, wo Kunden im Portal suchen. Ausschreibungen in dieser Kategorie können Sie als Anfragen erreichen.",
+      "listingProviderTitle": "Wer die Arbeit macht",
+      "listingProviderText": "Wählen Sie sich selbst oder die Person in Ihrem Team, die diese Arbeit macht. Neue Aufträge dafür gehen an sie.",
+      "listingPriceTitle": "Ihr Preis",
+      "listingPriceText": "Für die ganze Arbeit oder pro Stunde, wie Sie es unter Preismodell wählen. Ohne Preis kann das Inserat nicht online gehen.",
+      "listingAreaTitle": "Wo Sie arbeiten",
+      "listingAreaText": "Für Arbeit beim Kunden: Setzen Sie auf der Karte eine Markierung, wo Sie starten, und geben Sie an, wie weit Sie fahren. Ausschreibungen in diesem Gebiet erreichen Sie als Anfragen.",
+      "tour": {
+        "listings": "Ihre Dienstleistungen. Ein neues Inserat ist zuerst ein Entwurf: Öffnen Sie es und wählen Sie im Menü «Aktivieren», damit Kunden es finden und bestellen können.",
+        "leads": "Ausschreibungen aus dem Portal, die zu Ihren Dienstleistungen und Ihrem Gebiet passen. Senden Sie eine Offerte oder lehnen Sie ab.",
+        "taskboard": "Alle offenen Ausschreibungen im Portal, nicht nur die, die zu Ihren Inseraten passen. Sie können zu jeder eine Offerte senden.",
+        "bids": "Die Offerten, die Sie gesendet haben. Nimmt ein Kunde eine an, wird daraus ein Auftrag.",
+        "orders": "Arbeit, die Kunden bei Ihnen bestellt oder Ihnen über eine Offerte vergeben haben. Ihre Zahlung bleibt sicher hinterlegt, bis sie Ihre Arbeit abnehmen."
+      }
+    },
     "title": "Marktplatz",
     "listings": {
       "title": "Inserate"
