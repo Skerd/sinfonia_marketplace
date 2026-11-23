@@ -1,5 +1,6 @@
 {
   "marketplace": {
+    "setup": {"listing": "Créez votre première offre de service", "listingHint": "Indiquez ce que vous faites, votre prix et la zone couverte."},
     "title": "Marketplace",
     "listings": {
       "title": "Annonces"

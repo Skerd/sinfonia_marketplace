@@ -1,5 +1,6 @@
 {
   "marketplace": {
+    "setup": {"listing": "Create your first service listing", "listingHint": "Say what you do, your price and the area you cover."},
     "title": "Marketplace",
     "listings": {
       "title": "Listings"

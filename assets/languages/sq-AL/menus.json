@@ -1,5 +1,6 @@
 {
   "marketplace": {
+    "setup": {"listing": "Krijoni shërbimin tuaj të parë", "listingHint": "Tregoni çfarë bëni, çmimin dhe zonën që mbuloni."},
     "title": "Tregu",
     "listings": {
       "title": "Listimet"

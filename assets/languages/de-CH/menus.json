@@ -1,5 +1,6 @@
 {
   "marketplace": {
+    "setup": {"listing": "Erstes Dienstleistungsangebot erstellen", "listingHint": "Beschreiben Sie Ihre Arbeit, Ihren Preis und Ihr Einsatzgebiet."},
     "title": "Marktplatz",
     "listings": {
       "title": "Inserate"
