@@ -3,24 +3,16 @@
   "title": "Bookings",
   "description": "Manage scheduled service bookings.",
   "help": {
-    "ariaLabel": "About Bookings",
-    "title": "About Bookings",
-    "overview": "A booking puts a marketplace order on the calendar: a start and end time, with the timezone it was agreed in. Use it when the work happens at an appointment, not only by a due date.",
+    "ariaLabel": "About bookings",
+    "title": "About bookings",
+    "overview": "A booking puts an order on the calendar, with a start and end time, for work done at an appointment.",
     "sections": [
       {
-        "title": "Creating",
+        "title": "Each booking",
         "items": [
-          "Either party of the order can book it, while the order is accepted or in progress.",
-          "One booking per order. The provider is taken from the order.",
-          "End must be after start."
-        ]
-      },
-      {
-        "title": "Changing",
-        "items": [
-          "Only the provider, or an administrator, reschedules.",
-          "Deleting is a soft delete and it can be restored.",
-          "Non-administrators see only the bookings of their own orders."
+          "Either side of the order can book it while the order is accepted or in progress; one booking per order.",
+          "Only the provider, or an administrator, can reschedule it.",
+          "Unless you are an administrator, you see only the bookings of your own orders."
         ]
       }
     ]

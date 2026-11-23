@@ -5,24 +5,15 @@
   "help": {
     "ariaLabel": "Informazioni sulle categorie di annunci",
     "title": "Informazioni sulle categorie di annunci",
-    "overview": "Le categorie di servizi sono un unico albero per tutta la piattaforma, gestito dall'operatore del marketplace. Ogni azienda vi archivia le proprie offerte e i clienti vi pubblicano i lavori. Solo l'operatore può aggiungere, modificare o eliminare una categoria; le altre aziende vedono l'albero in sola lettura.",
+    "overview": "Le categorie dei servizi: un unico albero per tutta la piattaforma. Ogni azienda vi archivia i suoi annunci, e i clienti vi pubblicano i lavori. Solo l'azienda che gestisce la piattaforma può cambiarle; le altre le vedono in sola lettura.",
     "sections": [
       {
-        "title": "L’albero",
+        "title": "Ogni categoria",
         "items": [
-          "Il nome è obbligatorio. La categoria padre è facoltativa; lasciala vuota per una categoria di primo livello. Una categoria non può stare sotto sé stessa o un suo discendente.",
-          "L’ordine ordina le categorie sorelle, le più piccole prima; gli elenchi ordinano per ordine, poi per nome.",
-          "Lo slug viene generato alla creazione ed è unico nell'albero.",
-          "Dove si svolge il lavoro: a domicilio (in base alla distanza dalla zona di servizio di un'offerta) oppure online (ovunque). Una sottocategoria parte dalla scelta della categoria superiore."
-        ]
-      },
-      {
-        "title": "Come le usa il marketplace",
-        "items": [
-          "Ogni annuncio e ogni richiesta di attività ha una categoria.",
-          "Quando una richiesta di attività viene pubblicata o riannunciata, i fornitori con un annuncio attivo nella stessa categoria e città vengono avvisati.",
-          "I menu e i filtri dei servizi del negozio sono costruiti da questo albero.",
-          "L’eliminazione è logica e la categoria può essere ripristinata. Riassegna gli annunci prima di eliminare una categoria ancora usata."
+          "Lascia vuoto il padre per un primo livello. Ordine ordina le categorie dello stesso livello, dal più basso.",
+          "Dove si svolge il lavoro: sul posto, abbinato in base alla distanza dalla zona di servizio di un annuncio, oppure online, abbinato ovunque. Una sottocategoria parte con la scelta del padre.",
+          "Quando un cliente pubblica un lavoro, possono esserne avvisati i fornitori con un annuncio attivo nella sua categoria, o in una sua categoria padre o sottocategoria.",
+          "Sposta gli annunci in un'altra categoria prima di eliminarne una ancora in uso."
         ]
       }
     ]

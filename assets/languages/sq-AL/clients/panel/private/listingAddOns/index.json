@@ -5,22 +5,14 @@
   "help": {
     "ariaLabel": "Rreth shtesave të listimeve",
     "title": "Rreth shtesave të listimeve",
-    "overview": "Një shtesë është një ekstra opsionale që blerësi mund t’ia bashkëngjisë porosisë së një listimi, si dorëzim ekspres ose një rishikim shtesë. I përket një listimi dhe shton çmimin e vet dhe, opsionalisht, ditë dorëzimi.",
+    "overview": "Një shtesë është diçka më shumë që klienti mund të zgjedhë kur porosit një listim, si dorëzim i shpejtë ose një rishikim më shumë. Shton çmimin e vet dhe, nëse caktohen, ditë shtesë.",
     "sections": [
       {
-        "title": "Fushat",
+        "title": "Çdo shtesë",
         "items": [
-          "Listimi është i detyrueshëm dhe i fiksuar; vetëm ofruesi i atij listimi mund të krijojë ose fshijë shtesat e tij.",
-          "Emri është ajo që sheh blerësi. Shuma dhe monedha e çmimit janë ajo që shton.",
-          "Ditët e dorëzimit, nëse vendosen, i shtohen dritares së dorëzimit të listimit ose paketës."
-        ]
-      },
-      {
-        "title": "Porosia me shtesa",
-        "items": [
-          "Mund të zgjidhen vetëm shtesat e listimit që porositet, secila një herë.",
-          "Çdo shtesë duhet të përdorë të njëjtën monedhë si porosia (atë të paketës, ose të listimit pa paketë); një mospërputhje e bllokon porosinë.",
-          "Fshirja është e butë. Një shtesë nuk mund të rikthehet sa kohë listimi i saj është i fshirë."
+          "I përket një listimi; vetëm ofruesi i atij listimi mund t'i shtojë ose t'i heqë shtesat e tij.",
+          "Valuta e saj duhet të jetë si ajo e porosisë (e paketës, ose e listimit); përndryshe porosia bllokohet.",
+          "Një klient mund ta zgjedhë çdo shtesë një herë."
         ]
       }
     ]

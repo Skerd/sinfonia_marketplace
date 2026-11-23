@@ -3,51 +3,26 @@
   "title": "Listings",
   "description": "Manage product and service listings for your tenant storefront.",
   "help": {
-    "ariaLabel": "About Listings",
-    "title": "About Listings",
-    "overview": "A listing is a provider's service offer on the marketplace: what they do, in which category and place, at what price, with optional packages and add-ons. Buyers order from active listings. Status is draft, active, or inactive and is changed only by the activate and deactivate actions.",
+    "ariaLabel": "About listings",
+    "title": "About listings",
+    "overview": "A listing is a service you offer: what you do, in which category and area, and at what price. Clients can order it once it's active.",
     "sections": [
       {
-        "title": "Status",
+        "title": "Set it up",
         "items": [
-          "Draft is the default while the offer is being built. Nobody can order it.",
-          "Activate makes it orderable. It requires a price and a currency, because an order without a package is priced from them.",
-          "Deactivate takes it offline without deleting it. Resolving a report against it can also deactivate it.",
-          "Only the listing's provider, or an administrator, can activate or deactivate."
+          "Title, category, main image, price and currency describe it; description, photos, videos, tags and requirements are optional.",
+          "The pricing type is fixed or hourly. Delivery days set an order's default due date.",
+          "Location and service area place it: for on-site work, you hear about clients' jobs in its category whose address is inside your service area.",
+          "Packages (such as Basic, Standard, Premium) and add-ons let clients choose more; you manage them on their own pages."
         ]
       },
       {
-        "title": "What you configure",
+        "title": "Status and reach",
         "items": [
-          "Title, description, category, tags, FAQs, and buyer requirements describe the offer. Category is a listing category, not a product category.",
-          "Pricing type is fixed or hourly. Price and currency are the base price; delivery days set the default due date of an order.",
-          "Main image is required; image and video galleries are optional.",
-          "Country, state, and city place the offer. City and category decide which task requests the provider is told about.",
-          "Provider is the user who sells it: yourself, or another user of the same company."
-        ]
-      },
-      {
-        "title": "How an order is priced from it",
-        "body": "A buyer orders an active listing, optionally with one package and any add-ons.",
-        "items": [
-          "Without a package: the listing price and delivery days. With a package: the package's price and delivery days instead.",
-          "Each add-on adds its price and its extra delivery days. Add-ons must belong to this listing and use the order's currency.",
-          "A provider cannot order their own listing."
-        ]
-      },
-      {
-        "title": "Visibility and reputation",
-        "items": [
-          "A running promotion (featured or sponsored) puts the listing first in the storefront's recommended sort for its dates.",
-          "Reviews on completed orders give the listing its average rating and review count.",
-          "Users can report a listing; administrators review reports under Listing reports."
-        ]
-      },
-      {
-        "title": "Who sees what",
-        "items": [
-          "Administrators see and manage every listing in the company. Other users change only listings they provide.",
-          "Deleting is a soft delete and it can be restored. Its packages and add-ons cannot be restored while the listing is deleted."
+          "A new listing starts as a draft. Activate needs a price and a currency; Deactivate takes it offline without deleting it.",
+          "A promotion puts it first in the recommended list for its dates. Reviews give it its rating.",
+          "Users can report a listing; an administrator decides, and can take it offline.",
+          "Unless you are an administrator, you change only the listings you provide."
         ]
       }
     ]

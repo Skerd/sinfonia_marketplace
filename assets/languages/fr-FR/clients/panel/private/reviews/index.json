@@ -5,28 +5,14 @@
   "help": {
     "ariaLabel": "À propos des avis",
     "title": "À propos des avis",
-    "overview": "Un avis de la place de marché est la note et le commentaire du client sur une commande terminée. Il appartient à la commande et à son annonce, et alimente la note moyenne et le nombre d’avis de l’annonce ainsi que la réputation du prestataire.",
+    "overview": "Les notes et commentaires que les clients laissent sur les commandes terminées. Ils donnent à chaque annonce sa note et son nombre d'avis, et à vous votre note de prestataire.",
     "sections": [
       {
-        "title": "Qui peut évaluer",
+        "title": "Chaque avis",
         "items": [
-          "Seul le client de la commande, seulement une fois la commande terminée, et une seule fois par commande.",
-          "Annonce et auteur sont fixés par le serveur à partir de la commande et de l’appelant.",
-          "Les clients peuvent aussi évaluer depuis leur compte boutique, qui propose les commandes terminées sans avis."
-        ]
-      },
-      {
-        "title": "Ce qu’il change",
-        "items": [
-          "La note moyenne et le nombre d’avis de l’annonce sont recalculés depuis ses avis actifs.",
-          "Le profil du prestataire affiche la note moyenne sur toutes ses commandes, issues d’annonces comme de demandes de tâches."
-        ]
-      },
-      {
-        "title": "Modération",
-        "items": [
-          "Les avis ne sont pas modifiés après leur rédaction.",
-          "Seul un administrateur peut supprimer un avis ; la suppression est douce et restaurer rétablit la note."
+          "Seul le client de la commande peut la noter, une fois, après qu'elle est terminée. Les clients peuvent aussi noter depuis leur compte.",
+          "Un avis ne peut plus être modifié une fois écrit.",
+          "Seul un administrateur peut supprimer un avis, ce qui retire aussi sa note."
         ]
       }
     ]

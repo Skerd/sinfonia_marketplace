@@ -5,22 +5,14 @@
   "help": {
     "ariaLabel": "À propos des réservations",
     "title": "À propos des réservations",
-    "overview": "Une réservation place une commande de la place de marché dans le calendrier : une heure de début et de fin, avec le fuseau horaire convenu. Utilisez-la quand le travail a lieu sur rendez-vous, pas seulement avant une échéance.",
+    "overview": "Une réservation place une commande dans le calendrier, avec une heure de début et de fin, pour un travail fait sur rendez-vous.",
     "sections": [
       {
-        "title": "Créer",
+        "title": "Chaque réservation",
         "items": [
-          "Chaque partie de la commande peut réserver, tant que la commande est acceptée ou en cours.",
-          "Une réservation par commande. Le prestataire est repris de la commande.",
-          "La fin doit être après le début."
-        ]
-      },
-      {
-        "title": "Modifier",
-        "items": [
-          "Seul le prestataire, ou un administrateur, replanifie.",
-          "La suppression est douce et la réservation peut être restaurée.",
-          "Les non-administrateurs ne voient que les réservations de leurs propres commandes."
+          "Chaque partie de la commande peut la réserver tant que la commande est acceptée ou en cours ; une réservation par commande.",
+          "Seul le prestataire, ou un administrateur, peut la déplacer.",
+          "Si vous n'êtes pas administrateur, vous ne voyez que les réservations de vos propres commandes."
         ]
       }
     ]

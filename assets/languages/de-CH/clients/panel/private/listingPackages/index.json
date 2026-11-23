@@ -3,24 +3,17 @@
   "title": "Inseratpakete",
   "description": "Leistungspakete verwalten, die Anbieter für ihre Inserate anbieten.",
   "help": {
-    "ariaLabel": "Über Inserat-Pakete",
-    "title": "Über Inserat-Pakete",
-    "overview": "Ein Paket ist eine Preisstufe eines Inserats, etwa Basic, Standard oder Premium. Bestellt ein Käufer mit einem Paket, ersetzen Preis und Liefertage des Pakets den Grundpreis und die Liefertage des Inserats.",
+    "ariaLabel": "Über Inseratpakete",
+    "title": "Über Inseratpakete",
+    "overview": "Ein Paket ist eine Preisstufe eines Inserats, etwa Basis, Standard oder Premium. Bestellt ein Kunde ein Paket, ersetzen dessen Preis und Liefertage die des Inserats.",
     "sections": [
       {
-        "title": "Felder",
+        "title": "Jedes Paket",
         "items": [
-          "Inserat ist Pflicht und fest; nur der Anbieter dieses Inserats kann seine Pakete anlegen oder löschen.",
-          "Name und Beschreibung beschreiben die Stufe. Anzeigereihenfolge sortiert Pakete auf dem Inserat, kleinere zuerst.",
-          "Preisbetrag und Währung sind, was die Bestellung berechnet. Liefertage werden zum Fälligkeitsfenster der Bestellung."
-        ]
-      },
-      {
-        "title": "Mit einem Paket bestellen",
-        "items": [
-          "Mit dem Paket gewählte Zusatzleistungen müssen die Währung des Pakets nutzen; ihre zusätzlichen Tage werden dazugezählt.",
-          "Ein Inserat braucht keine Pakete; ohne Paket gilt sein eigener Preis.",
-          "Löschen ist ein Soft Delete. Ein Paket kann nicht wiederhergestellt werden, solange sein Inserat gelöscht ist."
+          "Es gehört zu einem Inserat; nur dessen Anbieter kann seine Pakete hinzufügen oder entfernen.",
+          "Die Anzeigereihenfolge sortiert die Pakete auf dem Inserat, die kleinste zuerst.",
+          "Mit einem Paket gewählte Zusatzleistungen müssen seine Währung haben.",
+          "Ein Inserat braucht keine Pakete; ohne gilt sein eigener Preis."
         ]
       }
     ]

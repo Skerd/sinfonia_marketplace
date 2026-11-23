@@ -5,31 +5,23 @@
   "help": {
     "ariaLabel": "Über Anbieterprofile",
     "title": "Über Anbieterprofile",
-    "overview": "Ein Anbieterprofil ist der Verkäufer-Datensatz eines Benutzers auf dem Marktplatz: Biografie, Fähigkeiten, Portfolio, wöchentliche Verfügbarkeit, Ruf und das Stripe-Connect-Konto, das Auszahlungen erhält. Jeder Benutzer hat höchstens ein aktives Profil.",
+    "overview": "Ein Anbieterprofil ist, wie eine Person als Dienstleister erscheint: Bio, Fähigkeiten, Portfolio, wöchentliche Verfügbarkeit und Note. Es enthält auch das Stripe-Konto, auf das ihre Auszahlungen gehen. Jede Person hat eines.",
     "sections": [
       {
-        "title": "Profilfelder",
+        "title": "Das Profil",
         "items": [
-          "Biografie, Fähigkeiten und Portfolio beschreiben den Anbieter im Shop.",
-          "Verfügbarkeit ist eine Liste wöchentlicher Zeitfenster: Wochentag, Start- und Endzeit.",
-          "Der Ruf wird berechnet, nicht eingetippt: der Bewertungsschnitt aller Bewertungen auf seinen Bestellungen und der Anteil beendeter Bestellungen, die abgeschlossen statt storniert wurden."
+          "Bio, Fähigkeiten und Portfolio erscheinen auf Ihren öffentlichen Seiten.",
+          "Die Verfügbarkeit ist eine Liste wöchentlicher Zeitfenster, etwa Montag 9:00 bis 17:00.",
+          "Die Note und der Anteil abgeschlossener Aufträge ergeben sich aus Bewertungen und beendeten Aufträgen; Sie können sie nicht eintippen.",
+          "Hier sehen Sie jedes Anbieterprofil der Firma, und ein neues fragt, wem es gehört. Jede Person bearbeitet ihr eigenes auch im Konto, unter Anbieterprofil."
         ]
       },
       {
-        "title": "Wo Profile bearbeitet werden",
+        "title": "Auszahlungen",
         "items": [
-          "Diese Seite listet jedes Anbieterprofil der Firma; ein neues fragt, zu welchem Benutzer es gehört.",
-          "Jeder Benutzer bearbeitet sein eigenes auch unter Einstellungen → Anbieterprofil, wo es direkt als Formular öffnet."
-        ]
-      },
-      {
-        "title": "Auszahlungen mit Stripe Connect",
-        "body": "Auszahlungen brauchen das konfigurierte Zahlungs-Gateway und die Connect-Rücksprung- und Aktualisierungsadressen.",
-        "items": [
-          "Konto-Link erstellen startet oder setzt das Stripe-Express-Onboarding für das eigene Profil des angemeldeten Benutzers fort und gibt die zu öffnende Seite zurück.",
-          "Kontostatus aktualisieren holt die Kennzeichen Zahlungen aktiv, Auszahlungen aktiv und Angaben eingereicht von Stripe auf das Profil.",
-          "Wird der Treuhandbetrag einer Bestellung freigegeben, wird der Anteil des Anbieters auf dieses Konto überwiesen, falls es existiert.",
-          "Das Löschen eines Profils ist ein Soft Delete und kann wiederhergestellt werden; ein gelöschtes Profil wird für Connect nicht verwendet."
+          "«Stripe-Auszahlungen verbinden» öffnet Stripe, um Ihr eigenes Auszahlungskonto einzurichten oder fertig einzurichten.",
+          "«Stripe-Status aktualisieren» zeigt, ob Stripe Ihre Zahlungen und Auszahlungen freigegeben hat.",
+          "Wird die Zahlung eines Kunden für einen Auftrag freigegeben, geht Ihr Anteil auf dieses Konto."
         ]
       }
     ]

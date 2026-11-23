@@ -5,24 +5,15 @@
   "help": {
     "ariaLabel": "Rreth kategorive të listimeve",
     "title": "Rreth kategorive të listimeve",
-    "overview": "Kategoritë e shërbimeve janë një pemë e vetme për gjithë platformën, që e mban operatori i tregut. Çdo kompani i rendit ofertat e saj në to dhe klientët publikojnë punë në to. Vetëm operatori mund të shtojë, ndryshojë ose fshijë një kategori; kompanitë e tjera e shohin pemën vetëm për lexim.",
+    "overview": "Kategoritë e shërbimeve: një pemë e vetme për gjithë platformën. Çdo kompani i rendit listimet e saj nën to, dhe klientët postojnë punë në to. Vetëm kompania që drejton platformën mund t'i ndryshojë; të tjerët vetëm i shohin.",
     "sections": [
       {
-        "title": "Pema",
+        "title": "Çdo kategori",
         "items": [
-          "Emri është i detyrueshëm. Prindi është opsional; lëreni bosh për një kategori të nivelit të parë. Një kategori nuk mund të jetë nën veten ose nën një pasardhës të saj.",
-          "Rendi rendit kategoritë motra, më të voglat së pari; listat renditen sipas rendit, pastaj emrit.",
-          "Slug-u krijohet gjatë krijimit dhe është unik në pemë.",
-          "Ku bëhet puna: në vend (sipas largësisë nga zona e shërbimit të një oferte) ose online (kudo). Një nënkategori nis me zgjedhjen e kategorisë prind."
-        ]
-      },
-      {
-        "title": "Si i përdor tregu",
-        "items": [
-          "Çdo listim dhe çdo kërkesë për detyrë ka një kategori.",
-          "Kur publikohet ose rishpallet një kërkesë për detyrë, njoftohen ofruesit me listim aktiv në të njëjtën kategori dhe qytet.",
-          "Menytë dhe filtrat e shërbimeve në dyqan ndërtohen nga kjo pemë.",
-          "Fshirja është e butë dhe kategoria mund të rikthehet. Ricaktoni listimet para se të fshini një kategori ende në përdorim."
+          "Lëreni bosh prindin për një nivel të parë. Rendi rendit kategoritë e të njëjtit nivel, numri më i vogël i pari.",
+          "Ku bëhet puna: në vend, e përputhur sipas largësisë nga zona e shërbimit e një listimi, ose online, e përputhur kudo. Një nënkategori fillon me zgjedhjen e prindit.",
+          "Kur një klient poston një punë, ofruesit me një listim aktiv në kategorinë e saj, ose në një kategori prind apo nënkategori të saj, mund të njoftohen.",
+          "Kaloni listimet në një kategori tjetër para se të fshini një kategori që ende përdoret."
         ]
       }
     ]

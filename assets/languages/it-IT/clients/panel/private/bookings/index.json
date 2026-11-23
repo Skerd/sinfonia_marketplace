@@ -5,22 +5,14 @@
   "help": {
     "ariaLabel": "Informazioni sulle prenotazioni",
     "title": "Informazioni sulle prenotazioni",
-    "overview": "Una prenotazione mette un ordine del marketplace in calendario: un orario di inizio e di fine, con il fuso orario concordato. Usala quando il lavoro avviene su appuntamento, non solo entro una scadenza.",
+    "overview": "Una prenotazione mette un ordine in calendario, con ora di inizio e di fine, per un lavoro fatto su appuntamento.",
     "sections": [
       {
-        "title": "Creare",
+        "title": "Ogni prenotazione",
         "items": [
-          "Ciascuna parte dell’ordine può prenotare, finché l’ordine è accettato o in corso.",
-          "Una prenotazione per ordine. Il fornitore viene preso dall’ordine.",
-          "La fine deve essere dopo l’inizio."
-        ]
-      },
-      {
-        "title": "Modificare",
-        "items": [
-          "Solo il fornitore, o un amministratore, ripianifica.",
-          "L’eliminazione è logica e la prenotazione può essere ripristinata.",
-          "I non amministratori vedono solo le prenotazioni dei propri ordini."
+          "Ciascuna parte dell'ordine può prenotarlo mentre l'ordine è accettato o in corso; una prenotazione per ordine.",
+          "Solo il fornitore, o un amministratore, può spostarla.",
+          "Se non sei un amministratore, vedi solo le prenotazioni dei tuoi ordini."
         ]
       }
     ]

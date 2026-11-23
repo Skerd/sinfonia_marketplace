@@ -5,39 +5,17 @@
   "help": {
     "ariaLabel": "Informazioni sulle richieste di preventivo",
     "title": "Informazioni sulle richieste di preventivo",
-    "overview": "Una richiesta di preventivo è il brief di un acquirente che chiede preventivi ai fornitori: cosa gli serve, in quale categoria e dove, con quale budget. Resta aperta alle offerte per 30 giorni. Accettare un’offerta la assegna e apre un ordine.",
+    "overview": "Una richiesta di preventivo è un lavoro di un cliente che chiede prezzi ai fornitori: cosa gli serve, dove, e fino a quale budget. Accetta offerte per 30 giorni; accettarne una la assegna e apre un ordine.",
     "sections": [
       {
-        "title": "Campi",
+        "title": "Ogni richiesta",
         "items": [
-          "Titolo, categoria, budget minimo e massimo, valuta, indirizzo e immagine principale sono obbligatori; descrizione e gallerie sono facoltative.",
-          "Il richiedente è chi la pubblica. Categoria e città decidono quali fornitori vengono informati."
-        ]
-      },
-      {
-        "title": "Stati",
-        "items": [
-          "Aperta: accetta offerte fino alla scadenza.",
-          "Chiusa: non accetta più offerte, per scelta del richiedente o perché sono passati 30 giorni. Un processo orario chiude le richieste scadute.",
-          "Assegnata: un’offerta è stata accettata; lo stato non può più cambiare."
-        ]
-      },
-      {
-        "title": "Azioni",
-        "body": "Solo il richiedente, o un amministratore, può cambiare lo stato.",
-        "items": [
-          "Chiudi: da aperta. Tutti quelli con un’offerta in attesa vengono avvisati.",
-          "Riapri: da chiusa. Fa ripartire la finestra di 30 giorni, così una richiesta scaduta non viene richiusa subito.",
-          "Avvisa tutti: informa di nuovo ogni fornitore con un annuncio attivo nella stessa categoria e città."
-        ]
-      },
-      {
-        "title": "Offerte e assegnazione",
-        "items": [
-          "I fornitori fanno offerte finché è aperta e non scaduta; nessuno può fare offerte sulla propria richiesta.",
-          "Accettare un’offerta rifiuta le altre, segna la richiesta come assegnata e apre un ordine in attesa tra richiedente e offerente.",
-          "Ogni riga mostra quante offerte attive ha. I non amministratori vedono le proprie richieste.",
-          "L’eliminazione è logica e la richiesta può essere ripristinata."
+          "Titolo, categoria, valuta e un'immagine principale sono obbligatori; il lavoro sul posto richiede anche l'indirizzo. Il budget è facoltativo.",
+          "Vengono avvisati i fornitori con il voto migliore che hanno un annuncio nella sua categoria e, per il lavoro sul posto, la cui zona di servizio copre l'indirizzo.",
+          "Aperta: accetta offerte. Chiusa: dal cliente o dopo 30 giorni. Assegnata: un'offerta è stata accettata, e non può più cambiare.",
+          "Chiudi richiesta avvisa chi ha un'offerta in sospeso. Riapri la richiesta fa ripartire 30 giorni.",
+          "Avvisa tutti cerca di nuovo i fornitori adatti e avvisa quelli che non ne sanno ancora nulla.",
+          "Nessuno può fare un'offerta sulla propria richiesta. Ogni riga mostra quante offerte ha."
         ]
       }
     ]

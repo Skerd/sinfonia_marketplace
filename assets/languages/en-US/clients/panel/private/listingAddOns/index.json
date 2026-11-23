@@ -3,24 +3,16 @@
   "title": "Listing add-ons",
   "description": "Manage optional add-ons that providers attach to their listings.",
   "help": {
-    "ariaLabel": "About Listing add-ons",
-    "title": "About Listing add-ons",
-    "overview": "An add-on is an optional extra a buyer can attach when ordering a listing, such as express delivery or an extra revision. It belongs to one listing and adds its own price and, optionally, extra delivery days.",
+    "ariaLabel": "About listing add-ons",
+    "title": "About listing add-ons",
+    "overview": "An add-on is an extra a client can choose when ordering a listing, such as express delivery or an extra revision. It adds its price and, if set, extra days.",
     "sections": [
       {
-        "title": "Fields",
+        "title": "Each add-on",
         "items": [
-          "Listing is required and fixed; only that listing's provider can create or delete its add-ons.",
-          "Name is what the buyer sees. Price amount and currency are what it adds.",
-          "Delivery days, if set, are added to the listing's or package's delivery window."
-        ]
-      },
-      {
-        "title": "Ordering with add-ons",
-        "items": [
-          "Only add-ons of the listing being ordered can be selected, each once.",
-          "Each add-on must use the same currency as the order (the package's, or the listing's when there is no package); a mismatch blocks the order.",
-          "Deleting is a soft delete. An add-on cannot be restored while its listing is deleted."
+          "It belongs to one listing; only that listing's provider can add or remove its add-ons.",
+          "Its currency must match the order's (the package's, or the listing's); otherwise the order is blocked.",
+          "A client can choose each add-on once."
         ]
       }
     ]

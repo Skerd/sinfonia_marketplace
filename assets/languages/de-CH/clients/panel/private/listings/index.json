@@ -5,49 +5,24 @@
   "help": {
     "ariaLabel": "Über Inserate",
     "title": "Über Inserate",
-    "overview": "Ein Inserat ist das Dienstleistungsangebot eines Anbieters auf dem Marktplatz: was er tut, in welcher Kategorie und an welchem Ort, zu welchem Preis, mit optionalen Paketen und Zusatzleistungen. Käufer bestellen aus aktiven Inseraten. Der Status ist Entwurf, aktiv oder inaktiv und wird nur durch die Aktionen Aktivieren und Deaktivieren geändert.",
+    "overview": "Ein Inserat ist eine Dienstleistung, die Sie anbieten: was Sie tun, in welcher Kategorie und Gegend, und zu welchem Preis. Kunden können es bestellen, sobald es aktiv ist.",
     "sections": [
       {
-        "title": "Status",
+        "title": "Einrichten",
         "items": [
-          "Entwurf ist der Standard, solange das Inserat aufgebaut wird. Niemand kann es bestellen.",
-          "Aktivieren macht es bestellbar. Es braucht einen Preis und eine Währung, weil eine Bestellung ohne Paket daraus berechnet wird.",
-          "Deaktivieren nimmt es offline, ohne es zu löschen. Auch das Erledigen einer Meldung dagegen kann es deaktivieren.",
-          "Nur der Anbieter des Inserats oder ein Administrator kann aktivieren oder deaktivieren."
+          "Bezeichnung, Kategorie, Hauptbild, Preis und Währung beschreiben es; Beschreibung, Fotos, Videos, Schlagwörter und Anforderungen sind freiwillig.",
+          "Das Preismodell ist fest oder pro Stunde. Die Liefertage legen den Standardtermin eines Auftrags fest.",
+          "Standort und Einsatzgebiet verorten es: Für Arbeit vor Ort erfahren Sie von Kundenaufträgen in seiner Kategorie, deren Adresse in Ihrem Einsatzgebiet liegt.",
+          "Pakete (etwa Basis, Standard, Premium) und Zusatzleistungen lassen Kunden mehr wählen; Sie verwalten sie auf eigenen Seiten."
         ]
       },
       {
-        "title": "Was Sie konfigurieren",
+        "title": "Status und Sichtbarkeit",
         "items": [
-          "Titel, Beschreibung, Kategorie, Tags, FAQs und Anforderungen an Käufer beschreiben das Inserat. Die Kategorie ist eine Inseratkategorie, keine Produktkategorie.",
-          "Preisart ist fix oder pro Stunde. Preis und Währung sind der Grundpreis; Liefertage bestimmen das Standard-Fälligkeitsdatum einer Bestellung.",
-          "Hauptbild ist Pflicht; Bild- und Videogalerien sind optional.",
-          "Land, Kanton bzw. Bundesland und Ort verorten das Inserat. Ort und Kategorie bestimmen, über welche Aufträge der Anbieter informiert wird.",
-          "Anbieter ist der Benutzer, der es verkauft: Sie selbst oder ein anderer Benutzer derselben Firma."
-        ]
-      },
-      {
-        "title": "Wie eine Bestellung daraus berechnet wird",
-        "body": "Ein Käufer bestellt ein aktives Inserat, optional mit einem Paket und beliebigen Zusatzleistungen.",
-        "items": [
-          "Ohne Paket: Inseratpreis und Liefertage. Mit Paket: stattdessen Preis und Liefertage des Pakets.",
-          "Jede Zusatzleistung addiert ihren Preis und ihre zusätzlichen Liefertage. Zusatzleistungen müssen zu diesem Inserat gehören und die Währung der Bestellung nutzen.",
-          "Ein Anbieter kann sein eigenes Inserat nicht bestellen."
-        ]
-      },
-      {
-        "title": "Sichtbarkeit und Ruf",
-        "items": [
-          "Eine laufende Promotion (hervorgehoben oder gesponsert) setzt das Inserat während ihrer Daten an die Spitze der empfohlenen Sortierung im Shop.",
-          "Bewertungen abgeschlossener Bestellungen geben dem Inserat seinen Bewertungsschnitt und die Anzahl Bewertungen.",
-          "Benutzer können ein Inserat melden; Administratoren prüfen Meldungen unter Inseratmeldungen."
-        ]
-      },
-      {
-        "title": "Wer was sieht",
-        "items": [
-          "Administratoren sehen und verwalten jedes Inserat der Firma. Andere Benutzer ändern nur Inserate, die sie anbieten.",
-          "Löschen ist ein Soft Delete und kann wiederhergestellt werden. Seine Pakete und Zusatzleistungen können nicht wiederhergestellt werden, solange das Inserat gelöscht ist."
+          "Ein neues Inserat beginnt als Entwurf. Aktivieren braucht Preis und Währung; Deaktivieren nimmt es offline, ohne es zu löschen.",
+          "Eine Promotion setzt es während ihrer Daten zuoberst in die empfohlene Liste. Bewertungen geben ihm seine Note.",
+          "Benutzer können ein Inserat melden; eine Administratorin oder ein Administrator entscheidet und kann es offline nehmen.",
+          "Ausser Sie sind Administrator, ändern Sie nur die Inserate, die Sie anbieten."
         ]
       }
     ]

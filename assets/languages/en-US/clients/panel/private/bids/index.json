@@ -3,32 +3,17 @@
   "title": "Bids",
   "description": "View and manage bids on task requests.",
   "help": {
-    "ariaLabel": "About Bids",
-    "title": "About Bids",
-    "overview": "A bid is a provider's quote on a task request: amount, delivery days, and a written proposal. The requester accepts one bid, which awards the task and opens an order.",
+    "ariaLabel": "About bids",
+    "title": "About bids",
+    "overview": "A bid is a quote on a client's task request: your price, the days you need and a short proposal. When the client accepts one, the task is awarded and an order opens.",
     "sections": [
       {
-        "title": "Placing a bid",
+        "title": "Each bid",
         "items": [
-          "The task request must be open and not expired, and must belong to someone else.",
-          "One live bid per bidder and request. The bidder and the currency are set by the server, from the caller and the request.",
-          "Bids are not edited after placing; withdraw and bid again instead."
-        ]
-      },
-      {
-        "title": "Statuses and actions",
-        "body": "Only a pending bid can be accepted or rejected.",
-        "items": [
-          "Accept (requester only): this bid becomes accepted, every other pending bid on the request is rejected, the request becomes awarded, and a pending order is opened with the bid amount and a due date from its delivery days. Bidders are notified.",
-          "Reject: the requester declines it, or the bidder withdraws it. Only a declined bidder is notified."
-        ]
-      },
-      {
-        "title": "Who sees what",
-        "body": "Bids are private to the bidder and the requester.",
-        "items": [
-          "A non-administrator sees their own bids and the bids on their own requests, never a competitor's.",
-          "The bidder, or an administrator, can delete a bid while it is still pending."
+          "You can bid once on each open request posted by someone else.",
+          "A bid can't be edited: withdraw it with Reject bid and send a new one.",
+          "Accept bid turns the other bids down and opens an order with the bid's price and a due date from its days. Everyone who bid is told.",
+          "Bids are private: you see your own bids and the bids on your own requests, never a competitor's."
         ]
       }
     ]

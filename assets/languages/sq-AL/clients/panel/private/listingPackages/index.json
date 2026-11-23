@@ -5,22 +5,15 @@
   "help": {
     "ariaLabel": "Rreth paketave të listimeve",
     "title": "Rreth paketave të listimeve",
-    "overview": "Një paketë është një nivel çmimi i një listimi, si Bazë, Standard ose Premium. Kur një blerës porosit me paketë, çmimi dhe ditët e dorëzimit të paketës zëvendësojnë ato bazë të listimit.",
+    "overview": "Një paketë është një nivel me çmim i një listimi, si Bazë, Standard ose Premium. Kur një klient porosit një paketë, çmimi dhe ditët e dorëzimit të saj zënë vendin e atyre të listimit.",
     "sections": [
       {
-        "title": "Fushat",
+        "title": "Çdo paketë",
         "items": [
-          "Listimi është i detyrueshëm dhe i fiksuar; vetëm ofruesi i atij listimi mund të krijojë ose fshijë paketat e tij.",
-          "Emri dhe përshkrimi e përshkruajnë nivelin. Rendi i shfaqjes rendit paketat në listim, më të voglat së pari.",
-          "Shuma dhe monedha e çmimit janë ajo që tarifon porosia. Ditët e dorëzimit bëhen dritarja e afatit të porosisë."
-        ]
-      },
-      {
-        "title": "Porosia me paketë",
-        "items": [
-          "Shtesat e zgjedhura me paketën duhet të përdorin monedhën e paketës; ditët e tyre shtesë shtohen.",
-          "Një listim nuk ka nevojë për paketa; pa paketë përdoret çmimi i vet.",
-          "Fshirja është e butë. Një paketë nuk mund të rikthehet sa kohë listimi i saj është i fshirë."
+          "I përket një listimi; vetëm ofruesi i atij listimi mund t'i shtojë ose t'i heqë paketat e tij.",
+          "Rendi i shfaqjes i rendit paketat në listim, numri më i vogël i pari.",
+          "Shtesat e zgjedhura me një paketë duhet të kenë valutën e saj.",
+          "Një listim nuk ka nevojë për paketa; pa to, përdoret çmimi i vet."
         ]
       }
     ]

@@ -20,6 +20,7 @@ import {
 } from "@marketplaceModule/clients/client/public/shared/shopMarketplace.tsx";
 import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx";
 import PortalSellerCard from "@coreModule/clients/portal/shared/portalSellerCard.tsx";
+import {PortalKeepButton} from "@coreModule/clients/portal/shared/portalSaved.tsx";
 import {PortalInlineSignIn} from "@coreModule/clients/portal/shared/portalInlineSignIn.tsx";
 import {ORDER_NOTE_MAX} from "armonia/src/modules/marketplace/api/marketplace/private/order/order.schema-def.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
@@ -320,7 +321,11 @@ function ServicePage({resolveLanguageKey, languageCode}: WithLanguageType) {
                     <div className="flex flex-col gap-7 lg:sticky lg:top-28 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:self-start">
                         <div className="flex flex-col gap-3">
                             {listing.category && <p className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">{listing.category.name}</p>}
-                            <h1 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">{listing.title}</h1>
+                            <div className="flex items-start justify-between gap-4">
+                                <h1 className="font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">{listing.title}</h1>
+                                {/* The listing as the catalog's card lists it, for its heart (TD-F148). */}
+                                <PortalKeepButton item={{kind: "service", id: listing._id, section: "services", path: `/service?${new URLSearchParams({id: listing._id})}`, title: listing.title}} />
+                            </div>
                             <PortalSellerCard sectionPath="services" seller={listing.seller} kind="service" size="card" />
                             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
                                 {provider && (

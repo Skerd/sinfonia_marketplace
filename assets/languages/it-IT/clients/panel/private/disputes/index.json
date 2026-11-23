@@ -5,30 +5,16 @@
   "help": {
     "ariaLabel": "Informazioni sulle controversie",
     "title": "Informazioni sulle controversie",
-    "overview": "Una controversia è un disaccordo su un ordine del marketplace deciso da un amministratore. Finché è aperta, il denaro dell’ordine è congelato: niente accettazione di consegne, rilascio di milestone, accettazione automatica o annullamento. La decisione stabilisce chi riceve ciò che è ancora trattenuto.",
+    "overview": "Una controversia è un disaccordo su un ordine che decide un amministratore. Finché è aperta, i soldi dell'ordine sono congelati: nulla viene pagato, accettato o annullato.",
     "sections": [
       {
-        "title": "Aprire una controversia",
+        "title": "Ogni controversia",
         "items": [
-          "Ciascuna parte dell’ordine può aprirne una, su un ordine né completato né annullato. Una controversia per ordine.",
-          "Il chiamante è l’iniziatore; l’altra parte viene avvisata.",
-          "I clienti possono aprirne una anche dal proprio account del negozio."
-        ]
-      },
-      {
-        "title": "Stati e decisioni",
-        "body": "Solo un amministratore decide, e una nota di risoluzione è obbligatoria.",
-        "items": [
-          "Aperta: sollevata e in attesa. Avvia esame la porta in esame.",
-          "Risolvi (da aperta o in esame) decide per il fornitore: una consegna in attesa viene accettata, l’ordine completato e il resto del deposito rilasciato al fornitore.",
-          "Chiudi (da aperta o in esame) decide per il cliente: l’ordine viene annullato e il resto del deposito rimborsato.",
-          "Entrambe le parti vengono avvisate dell’esito."
-        ]
-      },
-      {
-        "title": "Eliminazione",
-        "items": [
-          "Solo un amministratore può eliminare una controversia, perché una aperta blocca il pagamento. Una controversia eliminata non può essere gestita finché non viene ripristinata."
+          "Ciascuna parte può aprirne una su un ordine non completato né annullato; una per ordine. L'altra parte viene avvisata.",
+          "Segna come in revisione indica che un amministratore la sta esaminando.",
+          "Risolvi controversia decide a favore del fornitore: il lavoro è accettato e ciò che è trattenuto viene pagato.",
+          "Chiudi controversia (annulla) decide a favore del cliente: l'ordine è annullato e ciò che è trattenuto viene rimborsato.",
+          "Ogni decisione richiede una nota, ed entrambe le parti vengono avvisate."
         ]
       }
     ]

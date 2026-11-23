@@ -5,22 +5,15 @@
   "help": {
     "ariaLabel": "Informazioni sui pacchetti degli annunci",
     "title": "Informazioni sui pacchetti degli annunci",
-    "overview": "Un pacchetto è un livello di prezzo di un annuncio, come Base, Standard o Premium. Quando un acquirente ordina con un pacchetto, prezzo e giorni di consegna del pacchetto sostituiscono quelli base dell’annuncio.",
+    "overview": "Un pacchetto è un livello con prezzo di un annuncio, come Base, Standard o Premium. Quando un cliente ordina un pacchetto, il suo prezzo e i suoi giorni di consegna sostituiscono quelli dell'annuncio.",
     "sections": [
       {
-        "title": "Campi",
+        "title": "Ogni pacchetto",
         "items": [
-          "L’annuncio è obbligatorio e fisso; solo il fornitore di quell’annuncio può creare o eliminare i suoi pacchetti.",
-          "Nome e descrizione descrivono il livello. L’ordine di visualizzazione ordina i pacchetti sull’annuncio, i più piccoli prima.",
-          "Importo e valuta del prezzo sono ciò che l’ordine addebita. I giorni di consegna diventano la finestra di scadenza dell’ordine."
-        ]
-      },
-      {
-        "title": "Ordinare con un pacchetto",
-        "items": [
-          "I componenti aggiuntivi scelti con il pacchetto devono usare la valuta del pacchetto; i loro giorni in più si sommano.",
-          "Un annuncio non ha bisogno di pacchetti; senza pacchetto si usa il suo prezzo.",
-          "L’eliminazione è logica. Un pacchetto non può essere ripristinato finché il suo annuncio è eliminato."
+          "Appartiene a un annuncio; solo il fornitore di quell'annuncio può aggiungere o togliere i suoi pacchetti.",
+          "L'ordine di visualizzazione ordina i pacchetti sull'annuncio, dal più basso.",
+          "I componenti aggiuntivi scelti con un pacchetto devono usare la sua valuta.",
+          "Un annuncio non ha bisogno di pacchetti; senza, si usa il suo prezzo."
         ]
       }
     ]

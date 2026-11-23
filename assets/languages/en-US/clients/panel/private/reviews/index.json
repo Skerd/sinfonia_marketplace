@@ -3,30 +3,16 @@
   "title": "Reviews",
   "description": "View ratings and reviews left by customers.",
   "help": {
-    "ariaLabel": "About Reviews",
-    "title": "About Reviews",
-    "overview": "A marketplace review is the customer's rating and comment on a completed order. It belongs to the order and its listing, and feeds the listing's average rating and review count and the provider's reputation.",
+    "ariaLabel": "About reviews",
+    "title": "About reviews",
+    "overview": "Ratings and comments clients leave on finished orders. They give each listing its rating and review count, and you your rating as a provider.",
     "sections": [
       {
-        "title": "Who can review",
+        "title": "Each review",
         "items": [
-          "Only the order's customer, only once the order is completed, and only once per order.",
-          "Listing and reviewer are set by the server from the order and the caller.",
-          "Customers can also review from their storefront account, where completed orders without a review are offered."
-        ]
-      },
-      {
-        "title": "What it changes",
-        "items": [
-          "The listing's average rating and review count are recomputed from its live reviews.",
-          "The provider profile shows the average rating across all their orders, from listings and task requests alike."
-        ]
-      },
-      {
-        "title": "Moderation",
-        "items": [
-          "Reviews are not edited after they are written.",
-          "Only an administrator can delete a review; deleting is a soft delete and restoring brings the rating back."
+          "Only the order's client can review it, once, after it's completed. Clients can also review from their account.",
+          "Reviews can't be edited once written.",
+          "Only an administrator can delete a review, which also removes its rating."
         ]
       }
     ]

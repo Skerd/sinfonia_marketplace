@@ -5,29 +5,15 @@
   "help": {
     "ariaLabel": "Informazioni sulle promozioni",
     "title": "Informazioni sulle promozioni",
-    "overview": "Una promozione mette in risalto un annuncio, in evidenza o sponsorizzato, per una finestra da inizio a fine. È in corso finché il suo ciclo di vita è attivo e oggi rientra nelle sue date. Il ciclo di vita è attivo, in pausa o interrotto e cambia solo con azioni.",
+    "overview": "Una promozione mette uno dei tuoi annunci per primo nell'elenco consigliato, in primo piano o sponsorizzato, tra una data di inizio e una di fine.",
     "sections": [
       {
-        "title": "Creare",
+        "title": "Ogni promozione",
         "items": [
-          "Il fornitore dell’annuncio, o un amministratore, promuove un annuncio attivo.",
-          "Il tipo è in evidenza o sponsorizzato. Inizio e fine delimitano quando vale la promozione."
-        ]
-      },
-      {
-        "title": "Ciclo di vita",
-        "body": "Pausa, riprendi e interrompi richiedono di essere proprietari dell’annuncio, o amministratori.",
-        "items": [
-          "Pausa è possibile solo da attivo: la promozione si ferma senza chiudere la campagna.",
-          "Riprendi è possibile solo da in pausa, e solo finché la data di fine è nel futuro.",
-          "Interrompi chiude definitivamente la promozione con un motivo; non può essere ripresa."
-        ]
-      },
-      {
-        "title": "Effetto",
-        "items": [
-          "Nell’ordinamento consigliato del negozio, gli annunci con una promozione in corso vengono prima, i più recenti per primi, poi il resto.",
-          "Le promozioni eliminate non possono essere messe in pausa, riprese o interrotte finché non vengono ripristinate."
+          "Puoi promuovere i tuoi annunci attivi.",
+          "Pausa la ferma per un po'; Riprendi la fa ripartire finché la data di fine non è passata.",
+          "Interrompi definitivamente la chiude per sempre, con un motivo.",
+          "Gli annunci promossi vengono prima, dalla promozione più recente, poi gli altri."
         ]
       }
     ]

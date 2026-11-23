@@ -5,24 +5,15 @@
   "help": {
     "ariaLabel": "À propos des catégories d'annonces",
     "title": "À propos des catégories d'annonces",
-    "overview": "Les catégories de services forment un seul arbre pour toute la plateforme, tenu par l'opérateur de la place de marché. Chaque entreprise y range ses offres, et les clients y publient leurs demandes. Seul l'opérateur peut ajouter, modifier ou supprimer une catégorie ; les autres entreprises voient l'arbre en lecture seule.",
+    "overview": "Les catégories de services : un seul arbre pour toute la plateforme. Chaque entreprise y classe ses annonces, et les clients y publient leurs travaux. Seule l'entreprise qui gère la plateforme peut les modifier ; les autres les voient en lecture seule.",
     "sections": [
       {
-        "title": "L’arbre",
+        "title": "Chaque catégorie",
         "items": [
-          "Le nom est obligatoire. Le parent est facultatif ; laissez vide pour une catégorie de premier niveau. Une catégorie ne peut pas être sous elle-même ni sous un de ses descendants.",
-          "L’ordre trie les catégories sœurs, les plus petites d’abord ; les listes trient par ordre, puis par nom.",
-          "Le slug est généré à la création et est unique dans l'arbre.",
-          "Où le travail a lieu : sur place (selon la distance à la zone d'intervention d'une offre) ou en ligne (partout). Une sous-catégorie reprend d'abord le choix de son parent."
-        ]
-      },
-      {
-        "title": "Comment la place de marché les utilise",
-        "items": [
-          "Chaque annonce et chaque demande de tâche a une catégorie.",
-          "Quand une demande de tâche est publiée ou ré-annoncée, les prestataires ayant une annonce active dans la même catégorie et la même ville sont prévenus.",
-          "Les menus et filtres de services de la boutique sont construits à partir de cet arbre.",
-          "La suppression est douce et la catégorie peut être restaurée. Réaffectez les annonces avant de supprimer une catégorie encore utilisée."
+          "Laissez le parent vide pour un premier niveau. L'ordre trie les catégories d'un même niveau, du plus petit au plus grand.",
+          "Où se fait le travail : sur place, rapproché selon la distance à la zone d'intervention d'une annonce, ou en ligne, rapproché partout. Une sous-catégorie part du choix de son parent.",
+          "Quand un client publie un travail, les prestataires ayant une annonce active dans sa catégorie, ou dans une catégorie parente ou une sous-catégorie, peuvent en être prévenus.",
+          "Déplacez les annonces vers une autre catégorie avant d'en supprimer une encore utilisée."
         ]
       }
     ]

@@ -3,41 +3,19 @@
   "title": "Task requests",
   "description": "Post and manage buyer requests for quotes, custom work, or procurement.",
   "help": {
-    "ariaLabel": "About Task requests",
-    "title": "About Task requests",
-    "overview": "A task request is a buyer's brief asking providers for quotes: what they need, in which category and place, and for what budget. It is open for bids for 30 days. Accepting a bid awards it and opens an order.",
+    "ariaLabel": "About task requests",
+    "title": "About task requests",
+    "overview": "A task request is a client's job asking providers for quotes: what they need, where, and up to what budget. It takes bids for 30 days; accepting one awards it and opens an order.",
     "sections": [
       {
-        "title": "Fields",
+        "title": "Each request",
         "items": [
-          "Title, category, budget minimum and maximum, currency, address, and main image are required; description and galleries are optional.",
-          "The requester is whoever posts it. Category and city decide which providers are told about it."
-        ]
-      },
-      {
-        "title": "Statuses",
-        "items": [
-          "Open: taking bids until it expires.",
-          "Closed: no longer taking bids, by the requester's choice or because 30 days passed. An hourly job closes expired requests.",
-          "Awarded: a bid was accepted; the status can no longer change."
-        ]
-      },
-      {
-        "title": "Actions",
-        "body": "Only the requester, or an administrator, can change status.",
-        "items": [
-          "Close: from open. Everyone with a pending bid is notified.",
-          "Reopen: from closed. It restarts the 30-day window, so an expired request is not closed again straight away.",
-          "Notify all: tells every provider with an active listing in the same category and city about the request, again."
-        ]
-      },
-      {
-        "title": "Bids and awarding",
-        "items": [
-          "Providers bid while it is open and unexpired; nobody can bid on their own request.",
-          "Accepting a bid rejects the others, marks the request awarded, and opens a pending order between requester and bidder.",
-          "Each row shows how many live bids it has. Non-administrators see their own requests.",
-          "Deleting is a soft delete and it can be restored."
+          "Title, category, currency and a main image are required; on-site work also needs the address. The budget is optional.",
+          "The best-rated providers whose listing is in its category, and for on-site work whose service area covers the address, are told about it.",
+          "Open: taking bids. Closed: by the client or after 30 days. Awarded: a bid was accepted, and it can't change any more.",
+          "Close request tells everyone with a pending bid. Reopen request starts a new 30 days.",
+          "Notify all looks again for matching providers and tells the ones who haven't heard about it yet.",
+          "Nobody can bid on their own request. Each row shows how many bids it has."
         ]
       }
     ]

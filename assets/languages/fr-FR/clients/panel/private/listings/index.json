@@ -5,49 +5,24 @@
   "help": {
     "ariaLabel": "À propos des annonces",
     "title": "À propos des annonces",
-    "overview": "Une annonce est l’offre de service d’un prestataire sur la place de marché : ce qu’il fait, dans quelle catégorie et à quel endroit, à quel prix, avec des packages et modules complémentaires facultatifs. Les acheteurs commandent depuis des annonces actives. Le statut est brouillon, actif ou inactif et ne change que par les actions activer et désactiver.",
+    "overview": "Une annonce est un service que vous proposez : ce que vous faites, dans quelle catégorie et quelle zone, et à quel prix. Les clients peuvent la commander dès qu'elle est active.",
     "sections": [
       {
-        "title": "Statut",
+        "title": "La préparer",
         "items": [
-          "Brouillon est le statut par défaut pendant la construction de l’offre. Personne ne peut la commander.",
-          "Activer la rend commandable. Cela exige un prix et une devise, car une commande sans package est calculée à partir d’eux.",
-          "Désactiver la met hors ligne sans la supprimer. Traiter un signalement contre elle peut aussi la désactiver.",
-          "Seul le prestataire de l’annonce, ou un administrateur, peut activer ou désactiver."
+          "Le titre, la catégorie, l'image principale, le prix et la devise la décrivent ; la description, les photos, les vidéos, les étiquettes et les exigences sont facultatives.",
+          "Le type de prix est fixe ou horaire. Les jours de livraison fixent le délai par défaut d'une commande.",
+          "L'emplacement et la zone d'intervention la situent : pour un travail sur place, vous êtes prévenu des travaux de clients dans sa catégorie dont l'adresse est dans votre zone d'intervention.",
+          "Les packages (comme Basique, Standard, Premium) et les modules complémentaires permettent aux clients de choisir plus ; vous les gérez sur leurs pages."
         ]
       },
       {
-        "title": "Ce que vous configurez",
+        "title": "Statut et visibilité",
         "items": [
-          "Titre, description, catégorie, étiquettes, FAQ et exigences envers l’acheteur décrivent l’offre. La catégorie est une catégorie d’annonces, pas une catégorie de produits.",
-          "Le type de tarification est fixe ou horaire. Prix et devise sont le prix de base ; les jours de livraison fixent l’échéance par défaut d’une commande.",
-          "L’image principale est obligatoire ; les galeries d’images et de vidéos sont facultatives.",
-          "Pays, région et ville situent l’offre. Ville et catégorie décident des demandes de tâches dont le prestataire est informé.",
-          "Le prestataire est l’utilisateur qui vend : vous-même, ou un autre utilisateur de la même société."
-        ]
-      },
-      {
-        "title": "Comment une commande en est calculée",
-        "body": "Un acheteur commande une annonce active, éventuellement avec un package et des modules complémentaires.",
-        "items": [
-          "Sans package : prix et jours de livraison de l’annonce. Avec un package : prix et jours de livraison du package à la place.",
-          "Chaque module complémentaire ajoute son prix et ses jours de livraison supplémentaires. Les modules doivent appartenir à cette annonce et utiliser la devise de la commande.",
-          "Un prestataire ne peut pas commander sa propre annonce."
-        ]
-      },
-      {
-        "title": "Visibilité et réputation",
-        "items": [
-          "Une promotion en cours (mise en avant ou sponsorisée) place l’annonce en tête du tri recommandé de la boutique pendant ses dates.",
-          "Les avis sur les commandes terminées donnent à l’annonce sa note moyenne et son nombre d’avis.",
-          "Les utilisateurs peuvent signaler une annonce ; les administrateurs examinent les signalements sous Signalements d'annonce."
-        ]
-      },
-      {
-        "title": "Qui voit quoi",
-        "items": [
-          "Les administrateurs voient et gèrent toutes les annonces de la société. Les autres utilisateurs ne modifient que les annonces qu’ils proposent.",
-          "La suppression est douce et l’annonce peut être restaurée. Ses packages et modules ne peuvent pas être restaurés tant que l’annonce est supprimée."
+          "Une nouvelle annonce commence en brouillon. Activer demande un prix et une devise ; Désactiver la met hors ligne sans la supprimer.",
+          "Une promotion la place en tête de la liste recommandée pendant ses dates. Les avis lui donnent sa note.",
+          "Les utilisateurs peuvent signaler une annonce ; un administrateur décide, et peut la mettre hors ligne.",
+          "Si vous n'êtes pas administrateur, vous ne modifiez que les annonces que vous proposez."
         ]
       }
     ]

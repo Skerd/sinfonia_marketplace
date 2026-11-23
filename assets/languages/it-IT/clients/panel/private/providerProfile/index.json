@@ -5,31 +5,23 @@
   "help": {
     "ariaLabel": "Informazioni sui profili fornitore",
     "title": "Informazioni sui profili fornitore",
-    "overview": "Un profilo fornitore è la scheda venditore di un utente sul marketplace: biografia, competenze, portfolio, disponibilità settimanale, reputazione e l’account Stripe Connect che riceve i pagamenti. Ogni utente ha al massimo un profilo attivo.",
+    "overview": "Un profilo fornitore è il modo in cui una persona appare come fornitore di servizi: biografia, competenze, portfolio, disponibilità settimanale e voto. Contiene anche l'account Stripe su cui arrivano i suoi pagamenti. Ogni persona ne ha uno.",
     "sections": [
       {
-        "title": "Campi del profilo",
+        "title": "Il profilo",
         "items": [
-          "Biografia, competenze e portfolio descrivono il fornitore nel negozio.",
-          "La disponibilità è un elenco di fasce settimanali: giorno della settimana, ora di inizio e ora di fine.",
-          "La reputazione è calcolata, non digitata: la valutazione media delle recensioni su tutti i suoi ordini e la quota di ordini finiti completati invece che annullati."
+          "Biografia, competenze e portfolio compaiono sulle tue pagine pubbliche.",
+          "La disponibilità è un elenco di fasce orarie settimanali, come lunedì dalle 9:00 alle 17:00.",
+          "Il voto e la quota di ordini completati vengono dalle recensioni e dagli ordini conclusi; non puoi scriverli tu.",
+          "Qui vedi ogni profilo fornitore dell'azienda, e uno nuovo chiede di chi è. Ognuno modifica anche il proprio nel suo account, in Profilo fornitore."
         ]
       },
       {
-        "title": "Dove si modificano i profili",
+        "title": "Pagamenti",
         "items": [
-          "Questa pagina elenca tutti i profili fornitore della società; uno nuovo chiede a quale utente appartiene.",
-          "Ogni utente modifica anche il proprio in Impostazioni → Profilo fornitore, dove si apre direttamente come modulo."
-        ]
-      },
-      {
-        "title": "Pagamenti con Stripe Connect",
-        "body": "I pagamenti richiedono il gateway di pagamento e gli indirizzi di ritorno e aggiornamento di Connect configurati.",
-        "items": [
-          "Crea link account avvia o riprende l’onboarding Stripe Express per il profilo dell’utente connesso e restituisce la pagina da aprire.",
-          "Aggiorna stato account recupera da Stripe sul profilo gli indicatori pagamenti abilitati, versamenti abilitati e dati inviati.",
-          "Quando il deposito di un ordine viene rilasciato, la quota del fornitore viene trasferita su questo account, se esiste.",
-          "Eliminare un profilo è un’eliminazione logica e può essere ripristinato; un profilo eliminato non viene usato per Connect."
+          "Collega i pagamenti Stripe apre Stripe per creare, o finire di creare, il tuo account per i pagamenti.",
+          "Aggiorna lo stato di Stripe mostra se Stripe ha approvato i tuoi incassi e pagamenti.",
+          "Quando il pagamento di un cliente per un ordine viene rilasciato, la tua parte va su questo account."
         ]
       }
     ]

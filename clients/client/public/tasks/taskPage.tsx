@@ -22,6 +22,7 @@ import {useTaskUpdates} from "@marketplaceModule/helpers/hooks/useTaskLiveUpdate
 import {taskRoom} from "armonia/src/modules/marketplace/websocket/types.ts";
 import {JOB_AREA_RADIUS_M} from "armonia/src/modules/marketplace/helpers/jobArea.ts";
 import type {ShopTaskResponse} from "armonia/src/modules/marketplace/api/marketplace/public/shopTask/shopTask.types.ts";
+import {PortalKeepButton} from "@coreModule/clients/portal/shared/portalSaved.tsx";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/tasks/taskPage.tsx";
 
@@ -137,7 +138,11 @@ function TaskPage({resolveLanguageKey}: WithLanguageType) {
                     <div className="flex flex-col gap-5 rounded-3xl border border-border p-6">
                         <div className="flex flex-col gap-2">
                             <ServiceStatus kind="jobStatus" value={task.status} />
-                            <h1 className="font-display text-3xl font-bold tracking-tight">{task.title}</h1>
+                            <div className="flex items-start justify-between gap-4">
+                                <h1 className="font-display text-3xl font-bold tracking-tight">{task.title}</h1>
+                                {/* The task as the catalog's card lists it, for its heart (TD-F148). */}
+                                <PortalKeepButton item={{kind: "task", id: task._id, section: "tasks", path: `/task?${new URLSearchParams({id: task._id})}`, title: task.title}} />
+                            </div>
                             {task.category?.name ? <p className="text-sm text-muted-foreground">{task.category.name}</p> : null}
                         </div>
                         <PortalSellerCard sectionPath="tasks" seller={task.seller} kind="task" size="card" />

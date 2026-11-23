@@ -5,22 +5,14 @@
   "help": {
     "ariaLabel": "Rreth rezervimeve",
     "title": "Rreth rezervimeve",
-    "overview": "Një rezervim e vendos një porosi tregu në kalendar: një orë fillimi dhe mbarimi, me zonën kohore të rënë dakord. Përdoreni kur puna bëhet me takim, jo vetëm brenda një afati.",
+    "overview": "Një rezervim e vendos një porosi në kalendar, me orë fillimi dhe mbarimi, për punë që bëhet me takim.",
     "sections": [
       {
-        "title": "Krijimi",
+        "title": "Çdo rezervim",
         "items": [
-          "Secila palë e porosisë mund ta rezervojë, sa kohë porosia është e pranuar ose në vazhdim.",
-          "Një rezervim për porosi. Ofruesi merret nga porosia.",
-          "Mbarimi duhet të jetë pas fillimit."
-        ]
-      },
-      {
-        "title": "Ndryshimi",
-        "items": [
-          "Vetëm ofruesi, ose një administrator, e riplanifikon.",
-          "Fshirja është e butë dhe rezervimi mund të rikthehet.",
-          "Joadministratorët shohin vetëm rezervimet e porosive të veta."
+          "Secila palë e porosisë mund ta rezervojë kur porosia është e pranuar ose në vazhdim; një rezervim për porosi.",
+          "Vetëm ofruesi, ose një administrator, mund ta zhvendosë në një kohë tjetër.",
+          "Nëse nuk jeni administrator, shihni vetëm rezervimet e porosive tuaja."
         ]
       }
     ]

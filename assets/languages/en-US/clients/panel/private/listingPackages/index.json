@@ -3,24 +3,17 @@
   "title": "Listing packages",
   "description": "Manage service packages that providers offer for their listings.",
   "help": {
-    "ariaLabel": "About Listing packages",
-    "title": "About Listing packages",
-    "overview": "A package is a priced tier of a listing, such as Basic, Standard, or Premium. When a buyer orders with a package, the package's price and delivery days replace the listing's base price and delivery days.",
+    "ariaLabel": "About listing packages",
+    "title": "About listing packages",
+    "overview": "A package is a priced level of a listing, such as Basic, Standard or Premium. When a client orders a package, its price and delivery days replace the listing's.",
     "sections": [
       {
-        "title": "Fields",
+        "title": "Each package",
         "items": [
-          "Listing is required and fixed; only that listing's provider can create or delete its packages.",
-          "Name and description describe the tier. Display order sorts packages on the listing, lower first.",
-          "Price amount and currency are what the order charges. Delivery days become the order's due-date window."
-        ]
-      },
-      {
-        "title": "Ordering with a package",
-        "items": [
-          "Add-ons chosen with the package must use the package's currency; their extra days are added on top.",
-          "A listing needs no packages; without one, its own price is used.",
-          "Deleting is a soft delete. A package cannot be restored while its listing is deleted."
+          "It belongs to one listing; only that listing's provider can add or remove its packages.",
+          "Display order sorts packages on the listing, lowest first.",
+          "Add-ons chosen with a package must use its currency.",
+          "A listing doesn't need packages; without one, its own price is used."
         ]
       }
     ]

@@ -3,33 +3,25 @@
   "title": "Provider profiles",
   "description": "Every provider profile in the company.",
   "help": {
-    "ariaLabel": "About Provider profiles",
-    "title": "About Provider profiles",
-    "overview": "A provider profile is a user's seller record on the marketplace: bio, skills, portfolio, weekly availability, reputation, and the Stripe Connect account that receives payouts. Each user has at most one live profile.",
+    "ariaLabel": "About provider profiles",
+    "title": "About provider profiles",
+    "overview": "A provider profile is how a person appears as a service provider: bio, skills, portfolio, weekly availability and rating. It also holds the Stripe account their payouts go to. Each person has one.",
     "sections": [
       {
-        "title": "Profile fields",
+        "title": "The profile",
         "items": [
-          "Bio, skills, and portfolio describe the provider on the storefront.",
-          "Availability is a list of weekly slots: day of week, start time, and end time.",
-          "Reputation is computed, not typed: the average rating of reviews on all their orders, and the share of finished orders that completed rather than being cancelled."
+          "Bio, skills and portfolio show on your public pages.",
+          "Availability is a list of weekly time slots, such as Monday 9:00 to 17:00.",
+          "The rating and the share of orders completed come from reviews and finished orders; you can't type them.",
+          "Here you see every provider profile of the company, and a new one asks whose it is. Each person also edits their own in their account, under Provider profile."
         ]
       },
       {
-        "title": "Where profiles are edited",
+        "title": "Payouts",
         "items": [
-          "This page lists every provider profile in the company; a new one asks which user it belongs to.",
-          "Each user also edits their own under Settings → Provider profile, where it opens straight as a form."
-        ]
-      },
-      {
-        "title": "Payouts with Stripe Connect",
-        "body": "Payouts need the payment gateway and the Connect return and refresh addresses configured.",
-        "items": [
-          "Create account link starts or resumes Stripe Express onboarding for the signed-in user's own profile and returns the page to open.",
-          "Refresh account status pulls the charges-enabled, payouts-enabled, and details-submitted flags from Stripe onto the profile.",
-          "When an order's escrow is released, the provider's share is transferred to this account if one exists.",
-          "Deleting a profile is a soft delete and it can be restored; a deleted profile is not used for Connect."
+          "Connect Stripe payouts opens Stripe to set up, or finish setting up, your own payout account.",
+          "Refresh Stripe status shows whether Stripe has approved your payments and payouts.",
+          "When a client's payment for an order is released, your share goes to this account."
         ]
       }
     ]

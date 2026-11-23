@@ -5,29 +5,15 @@
   "help": {
     "ariaLabel": "Über Promotionen",
     "title": "Über Promotionen",
-    "overview": "Eine Promotion hebt ein Inserat als hervorgehoben oder gesponsert für ein Zeitfenster von Start bis Ende hervor. Sie läuft, solange ihr Lebenszyklus aktiv ist und heute innerhalb ihrer Daten liegt. Der Lebenszyklus ist aktiv, pausiert oder gestoppt und wird nur durch Aktionen geändert.",
+    "overview": "Eine Promotion setzt eines Ihrer Inserate zuoberst in die empfohlene Liste, als hervorgehoben oder gesponsert, zwischen einem Start- und einem Enddatum.",
     "sections": [
       {
-        "title": "Anlegen",
+        "title": "Jede Promotion",
         "items": [
-          "Der Anbieter des Inserats oder ein Administrator bewirbt ein aktives Inserat.",
-          "Typ ist hervorgehoben oder gesponsert. Start und Ende begrenzen, wann die Hervorhebung gilt."
-        ]
-      },
-      {
-        "title": "Lebenszyklus",
-        "body": "Pausieren, Fortsetzen und Stoppen brauchen den Besitz des Inserats oder einen Administrator.",
-        "items": [
-          "Pausieren geht nur aus aktiv: Die Hervorhebung stoppt, ohne die Kampagne zu beenden.",
-          "Fortsetzen geht nur aus pausiert und nur, solange das Enddatum noch in der Zukunft liegt.",
-          "Stoppen beendet die Promotion endgültig mit einem Stoppgrund; sie kann nicht fortgesetzt werden."
-        ]
-      },
-      {
-        "title": "Wirkung",
-        "items": [
-          "In der empfohlenen Sortierung des Shops kommen Inserate mit laufender Promotion zuerst, die neuesten zuerst, danach der Rest.",
-          "Gelöschte Promotionen können nicht pausiert, fortgesetzt oder gestoppt werden, bis sie wiederhergestellt sind."
+          "Sie können Ihre eigenen aktiven Inserate bewerben.",
+          "Pausieren stoppt sie eine Zeit lang; Fortsetzen startet sie wieder, solange das Enddatum noch bevorsteht.",
+          "«Endgültig beenden» schliesst sie für immer ab, mit einem Grund.",
+          "Beworbene Inserate kommen zuerst, die neueste Promotion zuerst, dann die übrigen."
         ]
       }
     ]

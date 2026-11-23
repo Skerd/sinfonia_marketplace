@@ -3,33 +3,25 @@
   "title": "Profils de prestataires",
   "description": "Tous les profils de prestataires de l'entreprise.",
   "help": {
-    "ariaLabel": "À propos des profils prestataires",
-    "title": "À propos des profils prestataires",
-    "overview": "Un profil de prestataire est la fiche vendeur d’un utilisateur sur la place de marché : bio, compétences, portfolio, disponibilités hebdomadaires, réputation et le compte Stripe Connect qui reçoit les versements. Chaque utilisateur a au plus un profil actif.",
+    "ariaLabel": "À propos des profils de prestataires",
+    "title": "À propos des profils de prestataires",
+    "overview": "Un profil de prestataire est la façon dont une personne apparaît comme prestataire de services : bio, compétences, portfolio, disponibilités de la semaine et note. Il contient aussi le compte Stripe où vont ses versements. Chaque personne en a un.",
     "sections": [
       {
-        "title": "Champs du profil",
+        "title": "Le profil",
         "items": [
-          "Bio, compétences et portfolio décrivent le prestataire en boutique.",
-          "La disponibilité est une liste de créneaux hebdomadaires : jour de la semaine, heure de début et heure de fin.",
-          "La réputation est calculée, pas saisie : la note moyenne des avis sur toutes ses commandes, et la part des commandes finies qui se sont terminées plutôt qu’annulées."
+          "La bio, les compétences et le portfolio s'affichent sur vos pages publiques.",
+          "Les disponibilités sont une liste de créneaux hebdomadaires, comme lundi de 9:00 à 17:00.",
+          "La note et la part de commandes menées à bien viennent des avis et des commandes terminées ; vous ne pouvez pas les saisir.",
+          "Ici, vous voyez chaque profil de prestataire de l'entreprise, et un nouveau demande à qui il appartient. Chacun modifie aussi le sien dans son compte, sous Profil de prestataire."
         ]
       },
       {
-        "title": "Où les profils se modifient",
+        "title": "Versements",
         "items": [
-          "Cette page liste tous les profils de prestataires de la société ; un nouveau demande à quel utilisateur il appartient.",
-          "Chaque utilisateur modifie aussi le sien sous Paramètres → Profil de prestataire, où il s’ouvre directement en formulaire."
-        ]
-      },
-      {
-        "title": "Versements avec Stripe Connect",
-        "body": "Les versements exigent la passerelle de paiement et les adresses de retour et de rafraîchissement Connect configurées.",
-        "items": [
-          "Créer un lien de compte démarre ou reprend l’inscription Stripe Express pour le profil de l’utilisateur connecté et renvoie la page à ouvrir.",
-          "Actualiser le statut du compte récupère depuis Stripe les indicateurs paiements activés, versements activés et informations soumises.",
-          "Quand le séquestre d’une commande est libéré, la part du prestataire est virée sur ce compte s’il existe.",
-          "Supprimer un profil est une suppression douce et il peut être restauré ; un profil supprimé n’est pas utilisé pour Connect."
+          "Connecter les versements Stripe ouvre Stripe pour créer, ou finir de créer, votre compte de versement.",
+          "Actualiser le statut de Stripe montre si Stripe a approuvé vos paiements et vos versements.",
+          "Quand le paiement d'un client pour une commande est libéré, votre part va sur ce compte."
         ]
       }
     ]

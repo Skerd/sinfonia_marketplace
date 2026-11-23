@@ -5,49 +5,24 @@
   "help": {
     "ariaLabel": "Informazioni sugli annunci",
     "title": "Informazioni sugli annunci",
-    "overview": "Un annuncio è l’offerta di servizio di un fornitore sul marketplace: cosa fa, in quale categoria e dove, a che prezzo, con pacchetti e componenti aggiuntivi facoltativi. Gli acquirenti ordinano da annunci attivi. Lo stato è bozza, attivo o inattivo e cambia solo con le azioni attiva e disattiva.",
+    "overview": "Un annuncio è un servizio che offri: cosa fai, in quale categoria e zona, e a che prezzo. I clienti possono ordinarlo quando è attivo.",
     "sections": [
       {
-        "title": "Stato",
+        "title": "Configuralo",
         "items": [
-          "Bozza è lo stato predefinito mentre l’offerta viene costruita. Nessuno può ordinarla.",
-          "Attiva la rende ordinabile. Richiede un prezzo e una valuta, perché un ordine senza pacchetto viene calcolato da essi.",
-          "Disattiva la mette offline senza eliminarla. Anche risolvere una segnalazione contro di essa può disattivarla.",
-          "Solo il fornitore dell’annuncio, o un amministratore, può attivare o disattivare."
+          "Titolo, categoria, immagine principale, prezzo e valuta lo descrivono; descrizione, foto, video, tag e requisiti sono facoltativi.",
+          "Il tipo di prezzo è fisso o orario. I giorni di consegna fissano la scadenza predefinita di un ordine.",
+          "Posizione e zona di servizio lo collocano: per il lavoro sul posto, vieni avvisato dei lavori dei clienti nella sua categoria il cui indirizzo è nella tua zona di servizio.",
+          "Pacchetti (come Base, Standard, Premium) e componenti aggiuntivi permettono ai clienti di scegliere di più; li gestisci nelle loro pagine."
         ]
       },
       {
-        "title": "Cosa configuri",
+        "title": "Stato e visibilità",
         "items": [
-          "Titolo, descrizione, categoria, tag, FAQ e requisiti per l’acquirente descrivono l’offerta. La categoria è una categoria di annunci, non di prodotti.",
-          "Il tipo di prezzo è fisso o orario. Prezzo e valuta sono il prezzo base; i giorni di consegna fissano la scadenza predefinita di un ordine.",
-          "L’immagine principale è obbligatoria; le gallerie di immagini e video sono facoltative.",
-          "Paese, provincia e città collocano l’offerta. Città e categoria decidono di quali richieste di attività il fornitore viene informato.",
-          "Il fornitore è l’utente che vende: tu stesso o un altro utente della stessa società."
-        ]
-      },
-      {
-        "title": "Come se ne calcola un ordine",
-        "body": "Un acquirente ordina un annuncio attivo, eventualmente con un pacchetto e componenti aggiuntivi.",
-        "items": [
-          "Senza pacchetto: prezzo e giorni di consegna dell’annuncio. Con un pacchetto: prezzo e giorni di consegna del pacchetto al loro posto.",
-          "Ogni componente aggiuntivo aggiunge il suo prezzo e i suoi giorni di consegna in più. I componenti devono appartenere a questo annuncio e usare la valuta dell’ordine.",
-          "Un fornitore non può ordinare il proprio annuncio."
-        ]
-      },
-      {
-        "title": "Visibilità e reputazione",
-        "items": [
-          "Una promozione in corso (in evidenza o sponsorizzata) porta l’annuncio in cima all’ordinamento consigliato del negozio per le sue date.",
-          "Le recensioni sugli ordini completati danno all’annuncio la valutazione media e il numero di recensioni.",
-          "Gli utenti possono segnalare un annuncio; gli amministratori esaminano le segnalazioni in Segnalazioni degli annunci."
-        ]
-      },
-      {
-        "title": "Chi vede cosa",
-        "items": [
-          "Gli amministratori vedono e gestiscono tutti gli annunci della società. Gli altri utenti modificano solo gli annunci che forniscono.",
-          "L’eliminazione è logica e l’annuncio può essere ripristinato. I suoi pacchetti e componenti non possono essere ripristinati finché l’annuncio è eliminato."
+          "Un annuncio nuovo parte come bozza. Attiva richiede prezzo e valuta; Disattiva lo mette offline senza eliminarlo.",
+          "Una promozione lo mette per primo nell'elenco consigliato per le sue date. Le recensioni gli danno il voto.",
+          "Gli utenti possono segnalare un annuncio; decide un amministratore, che può metterlo offline.",
+          "Se non sei un amministratore, modifichi solo gli annunci che offri tu."
         ]
       }
     ]

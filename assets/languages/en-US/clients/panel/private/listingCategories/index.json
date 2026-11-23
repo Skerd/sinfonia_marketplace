@@ -3,26 +3,17 @@
   "title": "Listing categories",
   "description": "Organize the marketplace catalog into a parent/child category tree used by listings and task requests.",
   "help": {
-    "ariaLabel": "About Listing categories",
-    "title": "About Listing categories",
-    "overview": "The service categories are one tree for the whole platform, kept by the marketplace operator. Every company files its listings under them, and buyers post jobs in them. Only the operator can add, edit or delete a category; other companies see the tree read-only.",
+    "ariaLabel": "About listing categories",
+    "title": "About listing categories",
+    "overview": "The categories of services: one tree for the whole platform. Every company files its listings under them, and clients post jobs in them. Only the company that runs the platform can change them; others see them read-only.",
     "sections": [
       {
-        "title": "The tree",
+        "title": "Each category",
         "items": [
-          "Name is required. Parent is optional; leave it empty for a top-level category. A category cannot sit under itself or one of its descendants.",
-          "Order sorts siblings, lower first; lists sort by order, then name.",
-          "The slug is generated on create and is unique in the tree.",
-          "Where the work happens: on site (matched by distance to a listing's service area) or online (matched anywhere). A subcategory starts with its parent's choice."
-        ]
-      },
-      {
-        "title": "How the marketplace uses them",
-        "items": [
-          "Every listing and task request has a category.",
-          "When a task request is posted or re-announced, providers with an active listing in the same category and city are notified.",
-          "The storefront's service menus and filters are built from this tree.",
-          "Deleting is a soft delete and it can be restored. Re-point listings before deleting a category still in use."
+          "Leave the parent empty for a top level. Order sorts categories on the same level, lowest first.",
+          "Where the work happens: on site, matched by distance to a listing's service area, or online, matched anywhere. A subcategory starts with its parent's choice.",
+          "When a client posts a job, providers with an active listing in its category, or a parent or subcategory of it, can hear about it.",
+          "Move listings to another category before deleting one that is still in use."
         ]
       }
     ]

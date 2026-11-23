@@ -5,29 +5,15 @@
   "help": {
     "ariaLabel": "Über Inserat-Meldungen",
     "title": "Über Inserat-Meldungen",
-    "overview": "Eine Inseratmeldung ist ein Moderationshinweis: Ein Benutzer markiert ein Inserat als unangemessen, Spam, irreführend oder anderes, mit optionalem Kommentar. Administratoren prüfen und entscheiden Meldungen.",
+    "overview": "Meldungen, die Benutzer zu einem Inserat senden: unangemessen, Spam, irreführend oder anderes, mit einem Kommentar. Eine Administratorin oder ein Administrator prüft und entscheidet sie.",
     "sections": [
       {
-        "title": "Melden",
+        "title": "Jede Meldung",
         "items": [
-          "Der Meldende ist, wer die Meldung anlegt. Eine aktive Meldung pro Benutzer und Inserat.",
-          "Solange sie ausstehend ist, kann der Meldende Grund und Kommentar noch bearbeiten; das Inserat ist fest.",
-          "Meldungen sind privat: Administratoren sehen alle, alle anderen nur ihre eigenen."
-        ]
-      },
-      {
-        "title": "Status und Entscheide",
-        "body": "Nur ein Administrator kann entscheiden, nur solange die Meldung ausstehend ist, und eine Begründung ist immer Pflicht.",
-        "items": [
-          "Ausstehend: wartet auf einen Entscheid.",
-          "Erledigen markiert die Meldung als geprüft (bestätigt). Wählen Sie Deaktivieren, um das Inserat gleichzeitig offline zu nehmen, oder Keine, um es online zu lassen.",
-          "Verwerfen markiert die Meldung als verworfen (abgewiesen)."
-        ]
-      },
-      {
-        "title": "Löschen",
-        "items": [
-          "Löschen ist ein Soft Delete und kann wiederhergestellt werden, ausser derselbe Benutzer hat inzwischen eine neue Meldung zu diesem Inserat erstellt."
+          "Eine Meldung pro Benutzer und Inserat. Solange sie offen ist, kann die meldende Person Grund und Kommentar ändern.",
+          "Meldungen sind privat: Administratoren sehen alle, alle anderen nur ihre eigenen.",
+          "«Meldung erledigen» gibt ihr recht: Wählen Sie, ob das Inserat gleichzeitig deaktiviert wird oder online bleibt.",
+          "«Meldung verwerfen» weist sie ab. Jeder Entscheid braucht eine Notiz."
         ]
       }
     ]

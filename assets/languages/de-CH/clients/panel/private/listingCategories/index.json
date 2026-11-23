@@ -3,26 +3,17 @@
   "title": "Inseratkategorien",
   "description": "Organisieren Sie den Marktplatz-Katalog in einer Eltern-/Kind-Kategoriestruktur für Inserate und Auftragsanfragen.",
   "help": {
-    "ariaLabel": "Über Inserat-Kategorien",
-    "title": "Über Inserat-Kategorien",
-    "overview": "Die Dienstleistungskategorien sind ein Baum für die ganze Plattform, den der Betreiber des Marktplatzes pflegt. Jede Firma ordnet ihre Angebote darin ein, und Kunden schreiben Aufträge darin aus. Nur der Betreiber kann eine Kategorie hinzufügen, bearbeiten oder löschen; andere Firmen sehen den Baum nur zum Lesen.",
+    "ariaLabel": "Über Inseratkategorien",
+    "title": "Über Inseratkategorien",
+    "overview": "Die Kategorien der Dienstleistungen: ein einziger Baum für die ganze Plattform. Jede Firma ordnet ihre Inserate darin ein, und Kunden schreiben darin Aufträge aus. Nur die Firma, die die Plattform betreibt, kann sie ändern; die anderen sehen sie nur an.",
     "sections": [
       {
-        "title": "Der Baum",
+        "title": "Jede Kategorie",
         "items": [
-          "Name ist Pflicht. Übergeordnet ist optional; leer lassen für eine oberste Kategorie. Eine Kategorie kann nicht unter sich selbst oder einem ihrer Nachfahren stehen.",
-          "Reihenfolge sortiert Geschwister, kleinere zuerst; Listen sortieren nach Reihenfolge, dann Name.",
-          "Der Slug wird beim Erstellen erzeugt und ist im Baum eindeutig.",
-          "Wo die Arbeit stattfindet: vor Ort (nach Entfernung zum Einsatzgebiet eines Angebots zugeordnet) oder online (überall zugeordnet). Eine Unterkategorie übernimmt zuerst die Wahl ihrer übergeordneten Kategorie."
-        ]
-      },
-      {
-        "title": "Wie der Marktplatz sie nutzt",
-        "items": [
-          "Jedes Inserat und jeder Auftrag hat eine Kategorie.",
-          "Wird ein Auftrag veröffentlicht oder erneut angekündigt, werden Anbieter mit einem aktiven Inserat in derselben Kategorie und am selben Ort benachrichtigt.",
-          "Die Dienstleistungsmenüs und Filter des Shops werden aus diesem Baum gebaut.",
-          "Löschen ist ein Soft Delete und kann wiederhergestellt werden. Weisen Sie Inserate neu zu, bevor Sie eine noch genutzte Kategorie löschen."
+          "Lassen Sie die übergeordnete Kategorie leer für die oberste Ebene. Die Reihenfolge sortiert Kategorien derselben Ebene, die kleinste zuerst.",
+          "Wo die Arbeit stattfindet: vor Ort, zugeordnet nach der Entfernung zum Einsatzgebiet eines Inserats, oder online, überall zugeordnet. Eine Unterkategorie übernimmt zuerst die Wahl der übergeordneten.",
+          "Schreibt ein Kunde einen Auftrag aus, können Anbieter mit einem aktiven Inserat in ihrer Kategorie, in einer übergeordneten oder in einer Unterkategorie davon erfahren.",
+          "Verschieben Sie die Inserate in eine andere Kategorie, bevor Sie eine noch genutzte löschen."
         ]
       }
     ]

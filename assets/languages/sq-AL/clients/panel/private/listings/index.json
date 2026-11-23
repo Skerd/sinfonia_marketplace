@@ -5,49 +5,24 @@
   "help": {
     "ariaLabel": "Rreth listimeve",
     "title": "Rreth listimeve",
-    "overview": "Një listim është oferta e shërbimit të një ofruesi në treg: çfarë bën, në cilën kategori dhe vend, me çfarë çmimi, me paketa dhe shtesa opsionale. Blerësit porosisin nga listimet aktive. Statusi është skicë, aktiv ose joaktiv dhe ndryshohet vetëm me veprimet aktivizo dhe çaktivizo.",
+    "overview": "Një listim është një shërbim që ofroni: çfarë bëni, në cilën kategori dhe zonë, dhe me çfarë çmimi. Klientët mund ta porositin sapo të jetë aktiv.",
     "sections": [
       {
-        "title": "Statusi",
+        "title": "Përgatiteni",
         "items": [
-          "Skicë është statusi i paracaktuar ndërsa oferta ndërtohet. Askush nuk mund ta porosisë.",
-          "Aktivizo e bën të porositshëm. Kërkon një çmim dhe një monedhë, sepse një porosi pa paketë llogaritet prej tyre.",
-          "Çaktivizo e nxjerr jashtë linje pa e fshirë. Edhe zgjidhja e një raportimi kundër tij mund ta çaktivizojë.",
-          "Vetëm ofruesi i listimit, ose një administrator, mund ta aktivizojë ose çaktivizojë."
+          "Titulli, kategoria, imazhi kryesor, çmimi dhe valuta e përshkruajnë; përshkrimi, fotot, videot, etiketat dhe kërkesat nuk janë të detyrueshme.",
+          "Lloji i çmimit është fiks ose për orë. Ditët e dorëzimit caktojnë afatin e paracaktuar të një porosie.",
+          "Vendndodhja dhe zona e shërbimit e vendosin: për punë në vend, merrni njoftim për punët e klientëve në kategorinë e tij, adresa e të cilave është brenda zonës suaj të shërbimit.",
+          "Paketat (si Bazë, Standard, Premium) dhe shtesat u lejojnë klientëve të zgjedhin më shumë; i menaxhoni në faqet e tyre."
         ]
       },
       {
-        "title": "Çfarë konfiguroni",
+        "title": "Statusi dhe shtrirja",
         "items": [
-          "Titulli, përshkrimi, kategoria, etiketat, FAQ dhe kërkesat ndaj blerësit e përshkruajnë ofertën. Kategoria është kategori listimesh, jo produktesh.",
-          "Tipi i çmimit është fiks ose për orë. Çmimi dhe monedha janë çmimi bazë; ditët e dorëzimit caktojnë afatin e paracaktuar të një porosie.",
-          "Imazhi kryesor është i detyrueshëm; galeritë e imazheve dhe videove janë opsionale.",
-          "Shteti, rajoni dhe qyteti e vendosin ofertën. Qyteti dhe kategoria vendosin për cilat kërkesa për detyra njoftohet ofruesi.",
-          "Ofruesi është përdoruesi që shet: ju vetë, ose një përdorues tjetër i së njëjtës kompani."
-        ]
-      },
-      {
-        "title": "Si llogaritet një porosi prej tij",
-        "body": "Një blerës porosit një listim aktiv, opsionalisht me një paketë dhe shtesa.",
-        "items": [
-          "Pa paketë: çmimi dhe ditët e dorëzimit të listimit. Me paketë: çmimi dhe ditët e dorëzimit të paketës në vend të tyre.",
-          "Çdo shtesë shton çmimin e vet dhe ditët shtesë të dorëzimit. Shtesat duhet t’i përkasin këtij listimi dhe të përdorin monedhën e porosisë.",
-          "Një ofrues nuk mund të porosisë listimin e vet."
-        ]
-      },
-      {
-        "title": "Dukshmëria dhe reputacioni",
-        "items": [
-          "Një promovim në vazhdim (i veçuar ose i sponsorizuar) e vendos listimin në krye të renditjes së rekomanduar të dyqanit gjatë datave të tij.",
-          "Vlerësimet e porosive të përfunduara i japin listimit notën mesatare dhe numrin e vlerësimeve.",
-          "Përdoruesit mund ta raportojnë një listim; administratorët i shqyrtojnë raportimet te Raportimet."
-        ]
-      },
-      {
-        "title": "Kush sheh çfarë",
-        "items": [
-          "Administratorët shohin dhe menaxhojnë çdo listim të kompanisë. Përdoruesit e tjerë ndryshojnë vetëm listimet që ofrojnë.",
-          "Fshirja është e butë dhe listimi mund të rikthehet. Paketat dhe shtesat e tij nuk mund të rikthehen sa kohë listimi është i fshirë."
+          "Një listim i ri fillon si skicë. Aktivizo kërkon çmim dhe valutë; Çaktivizo e heq nga rrjeti pa e fshirë.",
+          "Një promovim e vendos të parin në listën e rekomanduar për datat e tij. Vlerësimet i japin notën.",
+          "Përdoruesit mund ta raportojnë një listim; një administrator vendos, dhe mund ta heqë nga rrjeti.",
+          "Nëse nuk jeni administrator, ndryshoni vetëm listimet që ofroni ju."
         ]
       }
     ]

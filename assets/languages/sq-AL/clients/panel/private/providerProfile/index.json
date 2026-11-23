@@ -3,33 +3,25 @@
   "title": "Profilet e ofruesve",
   "description": "Të gjitha profilet e ofruesve në kompani.",
   "help": {
-    "ariaLabel": "Rreth profileve të ofruesit",
-    "title": "Rreth profileve të ofruesit",
-    "overview": "Një profil ofruesi është kartela e shitësit të një përdoruesi në treg: biografia, aftësitë, portofoli, disponueshmëria javore, reputacioni dhe llogaria Stripe Connect që merr pagesat. Çdo përdorues ka të shumtën një profil aktiv.",
+    "ariaLabel": "Rreth profileve të ofruesve",
+    "title": "Rreth profileve të ofruesve",
+    "overview": "Një profil ofruesi është mënyra si shfaqet një person si ofrues shërbimesh: biografia, aftësitë, portofoli, disponueshmëria javore dhe nota. Ai mban edhe llogarinë Stripe ku shkojnë pagesat për të. Çdo person ka një.",
     "sections": [
       {
-        "title": "Fushat e profilit",
+        "title": "Profili",
         "items": [
-          "Biografia, aftësitë dhe portofoli e përshkruajnë ofruesin në dyqan.",
-          "Disponueshmëria është një listë intervalesh javore: dita e javës, ora e fillimit dhe ora e mbarimit.",
-          "Reputacioni llogaritet, nuk shkruhet: nota mesatare e vlerësimeve në të gjitha porositë e tij, dhe pjesa e porosive të mbaruara që përfunduan në vend që të anuloheshin."
+          "Biografia, aftësitë dhe portofoli shfaqen në faqet tuaja publike.",
+          "Disponueshmëria është një listë oraresh javore, si e hënë 9:00 deri 17:00.",
+          "Nota dhe pjesa e porosive të përfunduara dalin nga vlerësimet dhe porositë e mbyllura; nuk mund t'i shkruani vetë.",
+          "Këtu shihni çdo profil ofruesi të kompanisë, dhe një profil i ri pyet të kujt është. Secili person e ndryshon edhe të vetin në llogarinë e tij, te Profili i ofruesit."
         ]
       },
       {
-        "title": "Ku ndryshohen profilet",
+        "title": "Pagesat",
         "items": [
-          "Kjo faqe liston çdo profil ofruesi të kompanisë; një i ri pyet cilit përdorues i përket.",
-          "Çdo përdorues ndryshon edhe të vetin te Cilësimet → Profili i ofruesit, ku hapet drejtpërdrejt si formular."
-        ]
-      },
-      {
-        "title": "Pagesat me Stripe Connect",
-        "body": "Pagesat kërkojnë portën e pagesës dhe adresat e kthimit dhe rifreskimit të Connect të konfiguruara.",
-        "items": [
-          "Krijo lidhjen e llogarisë nis ose vazhdon regjistrimin në Stripe Express për profilin e përdoruesit të identifikuar dhe kthen faqen që duhet hapur.",
-          "Rifresko statusin e llogarisë sjell nga Stripe në profil shenjat «arkëtimet aktive», «pagesat dalëse aktive» dhe «të dhënat e dorëzuara».",
-          "Kur lirohet depozita e një porosie, pjesa e ofruesit transferohet në këtë llogari nëse ekziston.",
-          "Fshirja e një profili është fshirje e butë dhe mund të rikthehet; një profil i fshirë nuk përdoret për Connect."
+          "Lidh pagesat Stripe hap Stripe për të krijuar, ose për të përfunduar, llogarinë tuaj të pagesave.",
+          "Rifresko statusin Stripe tregon nëse Stripe ka miratuar pagesat dhe derdhjet tuaja.",
+          "Kur lirohet pagesa e një klienti për një porosi, pjesa juaj shkon në këtë llogari."
         ]
       }
     ]
