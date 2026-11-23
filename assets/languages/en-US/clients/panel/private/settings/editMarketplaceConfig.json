@@ -33,6 +33,28 @@
     "title": "Marketplace settings",
     "description": "Applies to this company's services marketplace."
   },
+  "help": {
+    "ariaLabel": "About marketplace settings",
+    "title": "About marketplace settings",
+    "overview": "Whether your services show on the portal, and which currency they use. One page for the whole company: a change applies from the moment you save.",
+    "sections": [
+      {
+        "title": "Marketplace",
+        "items": [
+          "List on the portal: when on, your services also show in the portal's services section, where clients who don't know your website can find you. Your own website shows them either way.",
+          "Currency: used for a listing, package or add-on you price without choosing a currency, and for the budget when a client posts a job on your own website."
+        ]
+      },
+      {
+        "title": "Portal jobs",
+        "body": "Shown only to the company that runs the portal.",
+        "items": [
+          "Providers per job: how many providers hear about each new job. Empty means 10.",
+          "Open jobs per client: how many open jobs one client may have at a time. Empty means 5."
+        ]
+      }
+    ]
+  },
   "formButtons": {
     "cancel": "Cancel",
     "submit": "Save"

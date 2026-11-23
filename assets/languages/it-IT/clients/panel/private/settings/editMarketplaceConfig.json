@@ -33,6 +33,28 @@
     "title": "Impostazioni del marketplace",
     "description": "Valgono per il marketplace dei servizi di questa azienda."
   },
+  "help": {
+    "ariaLabel": "Informazioni sulle impostazioni del marketplace",
+    "title": "Informazioni sulle impostazioni del marketplace",
+    "overview": "Se i tuoi servizi compaiono sul portale e in quale valuta sono. Una pagina per tutta l'azienda: una modifica vale dal momento in cui salvi.",
+    "sections": [
+      {
+        "title": "Marketplace",
+        "items": [
+          "Mostra sul portale: se attivo, i tuoi servizi compaiono anche nella sezione servizi del portale, dove ti trovano anche i clienti che non conoscono il tuo sito. Il tuo sito li mostra comunque.",
+          "Valuta: usata per un annuncio, un pacchetto o un componente aggiuntivo a cui dai un prezzo senza scegliere la valuta, e per il budget quando un cliente pubblica un lavoro sul tuo sito."
+        ]
+      },
+      {
+        "title": "Lavori del portale",
+        "body": "Visibile solo all'azienda che gestisce il portale.",
+        "items": [
+          "Fornitori per lavoro: quanti fornitori vengono avvisati di ogni nuovo lavoro. Lasciato vuoto vale 10.",
+          "Lavori aperti per cliente: quanti lavori aperti può avere un cliente alla volta. Lasciato vuoto vale 5."
+        ]
+      }
+    ]
+  },
   "formButtons": {
     "cancel": "Annulla",
     "submit": "Salva"

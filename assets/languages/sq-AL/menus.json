@@ -13,11 +13,8 @@
       "listingAreaTitle": "Ku punoni",
       "listingAreaText": "Për punë te klienti, vendosni në hartë një pikë nga ku nisni dhe tregoni sa larg udhëtoni. Punët brenda kësaj zone ju vijnë si kërkesa.",
       "tour": {
-        "listings": "Shërbimet tuaja. Një listim i ri fillon si skicë: hapeni dhe zgjidhni “Aktivizo” në menunë e tij që klientët ta gjejnë dhe ta porosisin.",
-        "leads": "Punë që klientët kanë postuar në portal dhe që u përshtaten shërbimeve dhe zonës suaj. Dërgoni një ofertë, ose refuzojeni.",
-        "taskboard": "Çdo punë e hapur në portal, jo vetëm ato që u përshtaten listimeve tuaja. Mund të dërgoni ofertë për secilën.",
-        "bids": "Ofertat që keni dërguar. Kur një klient pranon njërën, ajo bëhet porosi.",
-        "orders": "Punë që klientët porositën nga ju, ose jua dhanë duke pranuar ofertën tuaj. Pagesa e tyre ruhet e sigurt derisa ta pranojnë punën tuaj."
+        "introTitle": "Shërbimet tuaja",
+        "introText": "Kjo pjesë e panelit drejton biznesin tuaj të shërbimeve: punët që postojnë klientët dhe ofertat që dërgoni, punën që porositin dhe rezervojnë, shërbimet tuaja dhe promovimin e tyre, vlerësimet dhe mosmarrëveshjet, dhe cilësimet. Më pas, turi hap çdo faqe dhe e shpjegon. Butoni ⓘ pranë titullit të faqes tregon të njëjtën ndihmë në çdo kohë."
       }
     },
     "title": "Tregu",

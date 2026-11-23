@@ -13,11 +13,8 @@
       "listingAreaTitle": "Where you work",
       "listingAreaText": "For work at the client's place, put a pin on the map where you start from and say how far you travel. Jobs inside that area reach you as leads.",
       "tour": {
-        "listings": "Your services. A new listing starts as a draft: open it and choose “Activate” in its menu so clients can find and order it.",
-        "leads": "Jobs clients posted on the portal that fit your services and your area. Send a quote, or decline.",
-        "taskboard": "Every open job on the portal, not only the ones that fit your listings. You can send a quote on any of them.",
-        "bids": "The quotes you've sent. When a client accepts one, it becomes an order.",
-        "orders": "Work clients ordered from you, or gave you by accepting your quote. Their payment is held safely until they accept your work."
+        "introTitle": "Your services",
+        "introText": "This part of the panel runs your services business: the jobs clients post and the quotes you send, the work they order and book, your services and their promotion, reviews and disputes, and your settings. Next, the tour opens each page and explains it. The ⓘ beside a page's title shows the same help any time."
       }
     },
     "title": "Marketplace",

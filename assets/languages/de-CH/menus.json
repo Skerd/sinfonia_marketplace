@@ -13,11 +13,8 @@
       "listingAreaTitle": "Wo Sie arbeiten",
       "listingAreaText": "Für Arbeit beim Kunden: Setzen Sie auf der Karte eine Markierung, wo Sie starten, und geben Sie an, wie weit Sie fahren. Ausschreibungen in diesem Gebiet erreichen Sie als Anfragen.",
       "tour": {
-        "listings": "Ihre Dienstleistungen. Ein neues Inserat ist zuerst ein Entwurf: Öffnen Sie es und wählen Sie im Menü «Aktivieren», damit Kunden es finden und bestellen können.",
-        "leads": "Ausschreibungen aus dem Portal, die zu Ihren Dienstleistungen und Ihrem Gebiet passen. Senden Sie eine Offerte oder lehnen Sie ab.",
-        "taskboard": "Alle offenen Ausschreibungen im Portal, nicht nur die, die zu Ihren Inseraten passen. Sie können zu jeder eine Offerte senden.",
-        "bids": "Die Offerten, die Sie gesendet haben. Nimmt ein Kunde eine an, wird daraus ein Auftrag.",
-        "orders": "Arbeit, die Kunden bei Ihnen bestellt oder Ihnen über eine Offerte vergeben haben. Ihre Zahlung bleibt sicher hinterlegt, bis sie Ihre Arbeit abnehmen."
+        "introTitle": "Ihre Dienstleistungen",
+        "introText": "Dieser Teil des Panels führt Ihr Dienstleistungsgeschäft: die Ausschreibungen Ihrer Kunden und Ihre Offerten, die Arbeit, die sie bestellen und buchen, Ihre Dienstleistungen und Promotionen, Bewertungen und Streitfälle, und Ihre Einstellungen. Als Nächstes öffnet die Tour jede Seite und erklärt sie. Das ⓘ neben dem Seitentitel zeigt dieselbe Hilfe jederzeit."
       }
     },
     "title": "Marktplatz",

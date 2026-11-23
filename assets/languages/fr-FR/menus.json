@@ -13,11 +13,8 @@
       "listingAreaTitle": "Où vous travaillez",
       "listingAreaText": "Pour un travail chez le client : placez un repère sur la carte là d'où vous partez, et indiquez jusqu'où vous vous déplacez. Les travaux dans cette zone vous arrivent comme demandes.",
       "tour": {
-        "listings": "Vos services. Une nouvelle annonce commence en brouillon : ouvrez-la et choisissez « Activer » dans son menu pour que les clients puissent la trouver et la commander.",
-        "leads": "Les travaux publiés par des clients sur le portail qui correspondent à vos services et à votre zone. Envoyez un devis, ou refusez.",
-        "taskboard": "Tous les travaux ouverts du portail, pas seulement ceux qui correspondent à vos annonces. Vous pouvez envoyer un devis pour chacun.",
-        "bids": "Les devis que vous avez envoyés. Quand un client en accepte un, il devient une commande.",
-        "orders": "Le travail que des clients vous ont commandé, ou confié en acceptant votre devis. Leur paiement est gardé en sécurité jusqu'à ce qu'ils acceptent votre travail."
+        "introTitle": "Vos services",
+        "introText": "Cette partie du panneau fait tourner votre activité de services : les travaux publiés par les clients et les devis que vous envoyez, le travail qu'ils commandent et réservent, vos services et leur promotion, les avis et les litiges, et vos paramètres. La visite ouvre maintenant chaque page et l'explique. Le ⓘ à côté du titre d'une page affiche la même aide à tout moment."
       }
     },
     "title": "Marketplace",

@@ -33,6 +33,28 @@
     "title": "Paramètres de la place de marché",
     "description": "S'applique à la place de marché de services de cette entreprise."
   },
+  "help": {
+    "ariaLabel": "À propos des paramètres de la place de marché",
+    "title": "À propos des paramètres de la place de marché",
+    "overview": "Si vos services apparaissent sur le portail, et dans quelle devise ils sont. Une page pour toute l'entreprise : un changement s'applique dès que vous enregistrez.",
+    "sections": [
+      {
+        "title": "Place de marché",
+        "items": [
+          "Afficher sur le portail : une fois activé, vos services apparaissent aussi dans la rubrique services du portail, où des clients qui ne connaissent pas votre site peuvent vous trouver. Votre propre site les affiche dans tous les cas.",
+          "Devise : utilisée pour une annonce, un package ou un module complémentaire dont vous fixez le prix sans choisir de devise, et pour le budget quand un client publie une demande sur votre propre site."
+        ]
+      },
+      {
+        "title": "Demandes du portail",
+        "body": "Visible uniquement pour l'entreprise qui gère le portail.",
+        "items": [
+          "Prestataires par demande : combien de prestataires sont prévenus de chaque nouvelle demande. Laissé vide, c'est 10.",
+          "Demandes ouvertes par client : combien de demandes ouvertes un client peut avoir en même temps. Laissé vide, c'est 5."
+        ]
+      }
+    ]
+  },
   "formButtons": {
     "cancel": "Annuler",
     "submit": "Enregistrer"

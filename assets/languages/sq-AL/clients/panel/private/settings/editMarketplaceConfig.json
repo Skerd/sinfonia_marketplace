@@ -33,6 +33,28 @@
     "title": "Cilësimet e tregut",
     "description": "Vlejnë për tregun e shërbimeve të kësaj kompanie."
   },
+  "help": {
+    "ariaLabel": "Rreth cilësimeve të tregut",
+    "title": "Rreth cilësimeve të tregut",
+    "overview": "Nëse shërbimet tuaja shfaqen në portal, dhe në cilën monedhë janë. Një faqe për gjithë kompaninë: një ndryshim vlen që në momentin që e ruani.",
+    "sections": [
+      {
+        "title": "Tregu",
+        "items": [
+          "Shfaq në portal: kur është aktiv, shërbimet tuaja shfaqen edhe në seksionin e shërbimeve të portalit, ku ju gjejnë edhe klientët që nuk e njohin faqen tuaj. Faqja juaj i shfaq gjithsesi.",
+          "Monedha: përdoret për një listim, paketë ose shtesë që i vendosni çmim pa zgjedhur monedhë, dhe për buxhetin kur një klient poston një punë në faqen tuaj."
+        ]
+      },
+      {
+        "title": "Punët e portalit",
+        "body": "Shfaqet vetëm për kompaninë që drejton portalin.",
+        "items": [
+          "Ofrues për punë: sa ofrues njoftohen për çdo punë të re. Bosh do të thotë 10.",
+          "Punë të hapura për klient: sa punë të hapura mund të ketë një klient njëkohësisht. Bosh do të thotë 5."
+        ]
+      }
+    ]
+  },
   "formButtons": {
     "cancel": "Anulo",
     "submit": "Ruaj"

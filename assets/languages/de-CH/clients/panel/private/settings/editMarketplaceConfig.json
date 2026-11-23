@@ -33,6 +33,28 @@
     "title": "Marktplatz-Einstellungen",
     "description": "Gilt für den Dienstleistungsmarktplatz dieser Firma."
   },
+  "help": {
+    "ariaLabel": "Über die Marktplatz-Einstellungen",
+    "title": "Über die Marktplatz-Einstellungen",
+    "overview": "Ob Ihre Dienstleistungen im Portal erscheinen und in welcher Währung sie sind. Eine Seite für die ganze Firma: Eine Änderung gilt ab dem Speichern.",
+    "sections": [
+      {
+        "title": "Marktplatz",
+        "items": [
+          "Im Portal anzeigen: Eingeschaltet erscheinen Ihre Dienstleistungen auch im Dienstleistungsbereich des Portals, wo auch Kunden Sie finden, die Ihre Website nicht kennen. Ihre eigene Website zeigt sie so oder so.",
+          "Währung: gilt für ein Inserat, ein Paket oder eine Zusatzleistung, deren Preis Sie ohne Währung erfassen, und für das Budget, wenn ein Kunde einen Auftrag auf Ihrer eigenen Website ausschreibt."
+        ]
+      },
+      {
+        "title": "Portal-Aufträge",
+        "body": "Nur für die Firma sichtbar, die das Portal betreibt.",
+        "items": [
+          "Anbieter pro Auftrag: wie viele Anbieter von jedem neuen Auftrag erfahren. Leer bedeutet 10.",
+          "Offene Aufträge pro Kunde: wie viele offene Aufträge ein Kunde gleichzeitig haben darf. Leer bedeutet 5."
+        ]
+      }
+    ]
+  },
   "formButtons": {
     "cancel": "Abbrechen",
     "submit": "Speichern"
