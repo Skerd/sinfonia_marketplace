@@ -10,6 +10,7 @@ import {DATE_FORMATS, formatDate} from "@coreModule/helpers/general/dateTime.ts"
 import {resolvePublicMediaUrl} from "@coreModule/clients/portal/shared/portalMedia.ts";
 import {usePortalSession} from "@coreModule/clients/portal/shared/portalSession.tsx";
 import {usePortalSite} from "@coreModule/clients/portal/shared/portalSiteContext.tsx";
+import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import PortalSellerCard from "@coreModule/clients/portal/shared/portalSellerCard.tsx";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
 import SheetLocationMap from "@coreModule/components/viewEngine/widgets/addresses/sheetLocationMap.tsx";
@@ -57,6 +58,7 @@ function TaskPage({resolveLanguageKey}: WithLanguageType) {
 
     // A refresh (a live quote, D172) keeps the task on screen; only a task not shown yet waits behind the placeholder.
     const showsThisTask = task?._id === id;
+    usePortalTitle(showsThisTask ? task.title : request.loading || (fetchCount === 0 && id) ? undefined : resolveLanguageKey("notFoundTitle"));
     if ((request.loading && !showsThisTask) || (fetchCount === 0 && id)) {
         return <div className="h-96 animate-pulse rounded-3xl bg-muted" aria-busy="true" aria-label={resolveLanguageKey("loading")} />;
     }

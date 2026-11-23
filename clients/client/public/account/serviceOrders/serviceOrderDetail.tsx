@@ -13,6 +13,7 @@ import {downloadFromApi} from "@coreModule/helpers/media/downloadFromApi.ts";
 import {handleError} from "@coreModule/helpers/general/errors.ts";
 import {DATE_FORMATS, formatDate} from "@coreModule/helpers/general/dateTime.ts";
 import {resolvePublicMediaUrl} from "@coreModule/clients/portal/shared/portalMedia.ts";
+import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import {ShopProviderAvatar} from "@marketplaceModule/clients/client/public/shared/shopMarketplace.tsx";
 import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx";
 import ServiceStatus from "@marketplaceModule/clients/client/public/shared/serviceStatus.tsx";
@@ -142,6 +143,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
     });
     const run = (method: "POST" | "PUT", path: string, body: Record<string, unknown>, successKey: string) =>
         setAction((current) => ({request: {method, url: `${MARKETPLACE_URL}/${path}`}, body, successKey, count: current.count + 1}));
+    usePortalTitle(loading ? undefined : order ? serviceOrderTitle(order) : resolveLanguageKey("notFound"));
 
     if (loading) {
         return <div className="h-96 animate-pulse rounded-2xl bg-muted" aria-busy="true" aria-label={resolveLanguageKey("loading")} />;

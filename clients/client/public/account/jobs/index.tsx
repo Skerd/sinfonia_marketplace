@@ -10,6 +10,7 @@ import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared
 import ServiceStatus from "@marketplaceModule/clients/client/public/shared/serviceStatus.tsx";
 import type {BuyerTaskRequest} from "armonia/src/modules/marketplace/api/marketplace/private/taskRequest/taskRequest.dto.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
+import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import {Button} from "@coreModule/components/ui/button.tsx";
 import {JOBS_PAGE_SIZE, JOBS_REQUEST, jobsRequestBody} from "./jobsRequest.ts";
 
@@ -19,6 +20,7 @@ const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/job
 function JobsPage({resolveLanguageKey}: WithLanguageType) {
     const base = useSectionBase();
     const {formatMoney} = useServicesConfig();
+    usePortalTitle(resolveLanguageKey("title"));
     const [searchParams, setSearchParams] = useSearchParams();
     const body = jobsRequestBody(searchParams);
     const {page} = body;

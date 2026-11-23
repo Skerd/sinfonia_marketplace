@@ -16,7 +16,7 @@ vi.mock("@coreModule/helpers/hocs/withLanguage.tsx", () => ({
 }));
 vi.mock("@coreModule/helpers/hocs/withDebug.tsx", () => ({default: () => (Wrapped: ComponentType) => Wrapped}));
 vi.mock("@coreModule/clients/portal/shared/portalSession.tsx", () => ({usePortalSession: () => ({isAuthenticated: false})}));
-vi.mock("@coreModule/clients/portal/shared/portalSiteContext.tsx", () => ({usePortalSite: () => ({site: {scope: "platform"}, sections: []})}));
+vi.mock("@coreModule/clients/portal/shared/portalSiteContext.tsx", () => ({usePortalSite: () => ({site: {scope: "platform", company: {name: "Arpeggio"}}, sections: []})}));
 vi.mock("@coreModule/clients/portal/shared/portalSellerCard.tsx", () => ({default: () => null}));
 vi.mock("@coreModule/components/viewEngine/widgets/addresses/sheetLocationMap.tsx", () => ({default: () => null}));
 vi.mock("@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx", () => ({useServicesConfig: () => ({formatMoney: (amount: number) => String(amount)})}));
@@ -45,6 +45,7 @@ describe("the public task page (D172)", () => {
         apiClientMock.mockResolvedValueOnce({data: task(1)});
         render(<MemoryRouter initialEntries={["/tasks/task?id=t1"]}><TaskPage /></MemoryRouter>);
         expect(await screen.findByRole("heading", {name: "Fix a dripping kitchen tap"})).toBeInTheDocument();
+        expect(document.title).toBe("Fix a dripping kitchen tap · Arpeggio");
 
         let answer: (value: {data: unknown}) => void = () => undefined;
         apiClientMock.mockImplementationOnce(() => new Promise((resolve) => { answer = resolve; }));

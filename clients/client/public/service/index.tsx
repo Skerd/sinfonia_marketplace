@@ -11,6 +11,7 @@ import {handleError} from "@coreModule/helpers/general/errors.ts";
 import {formatDate} from "@coreModule/helpers/general/dateTime.ts";
 import {resolvePublicMediaUrl} from "@coreModule/clients/portal/shared/portalMedia.ts";
 import {usePortalSession} from "@coreModule/clients/portal/shared/portalSession.tsx";
+import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import ShopListingCard, {listingPriceLabel} from "@marketplaceModule/clients/client/public/shared/shopListingCard.tsx";
 import ShopMarketplaceReviews from "@marketplaceModule/clients/client/public/shared/shopMarketplaceReviews.tsx";
 import {
@@ -100,6 +101,7 @@ function ServicePage({resolveLanguageKey, languageCode}: WithLanguageType) {
     const listing: ShopListingDetail | null = listingRequest.loading || listingRequest.error ? null : listingRequest.data?.data ?? null;
     // Waits for an id, as before the first request.
     const loading = listingCount === 0 || listingRequest.loading;
+    usePortalTitle(id && loading ? undefined : listing ? listing.title : resolveLanguageKey("notFound"));
 
     const [orderCall, setOrderCall] = useState<{body: Record<string, unknown>; count: number}>({body: {}, count: 0});
     const orderRequest = useHttpRequest<{message: string; _id: string}>(ORDER_REQUEST, orderCall.body, orderCall.count, true, {

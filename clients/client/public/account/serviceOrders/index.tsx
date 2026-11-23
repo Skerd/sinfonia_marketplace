@@ -12,6 +12,7 @@ import ServiceStatus from "@marketplaceModule/clients/client/public/shared/servi
 import {orderStatuses} from "armonia/src/modules/marketplace/api/marketplace/private/order/order.schema-def.ts";
 import type {BuyerServiceOrder} from "armonia/src/modules/marketplace/api/marketplace/private/order/order.dto.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
+import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import {Button} from "@coreModule/components/ui/button.tsx";
 import {SERVICE_ORDERS_PAGE_SIZE, SERVICE_ORDERS_REQUEST, serviceOrdersRequestBody} from "./serviceOrdersRequest.ts";
 
@@ -26,6 +27,7 @@ export function serviceOrderTitle(order: BuyerServiceOrder): string {
 function ServiceOrdersPage({resolveLanguageKey}: WithLanguageType) {
     const base = useSectionBase();
     const {formatMoney} = useServicesConfig();
+    usePortalTitle(resolveLanguageKey("title"));
     const [searchParams, setSearchParams] = useSearchParams();
     const body = serviceOrdersRequestBody(searchParams);
     const {page, status} = body;

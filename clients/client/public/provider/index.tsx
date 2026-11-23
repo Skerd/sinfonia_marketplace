@@ -12,6 +12,7 @@ import ShopMarketplaceReviews from "@marketplaceModule/clients/client/public/sha
 import {ShopAvailability, ShopProviderAvatar} from "@marketplaceModule/clients/client/public/shared/shopMarketplace.tsx";
 import type {ShopProviderResponse} from "armonia/src/modules/marketplace/api/marketplace/public/shopMarketplace/shopMarketplace.types.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
+import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import {Button} from "@coreModule/components/ui/button.tsx";
 
 const PROVIDER_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopProvider", cache: true};
@@ -29,6 +30,7 @@ function ProviderPage({resolveLanguageKey, languageCode}: WithLanguageType) {
     const data: ShopProviderResponse["data"] | null = providerRequest.error ? null : providerRequest.data?.data ?? null;
     // Waits for an id, as before the first request.
     const loading = providerRequest.loading || providerCount === 0;
+    usePortalTitle(id && loading ? undefined : data ? data.provider.name : resolveLanguageKey("notFound"));
 
     if (id && loading) {
         return (

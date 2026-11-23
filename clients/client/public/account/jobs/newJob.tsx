@@ -10,6 +10,7 @@ import {handleError} from "@coreModule/helpers/general/errors.ts";
 import SinglePinMap from "@coreModule/components/viewEngine/widgets/addresses/mapWithPins.tsx";
 import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared/servicesConfigContext.tsx";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
+import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import {Button} from "@coreModule/components/ui/button.tsx";
 import {Label} from "@coreModule/components/ui/label.tsx";
 import {Input} from "@coreModule/components/ui/input.tsx";
@@ -62,6 +63,7 @@ function NewJobPage({resolveLanguageKey}: WithLanguageType) {
     const base = useSectionBase();
     const navigate = useNavigate();
     const {config} = useServicesConfig();
+    usePortalTitle(resolveLanguageKey("title"));
     const [form, setForm] = useState(EMPTY_FORM);
     const [pin, setPin] = useState<{lat: number; lng: number} | null>(null);
     const [image, setImage] = useState<File | null>(null);

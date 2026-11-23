@@ -16,6 +16,7 @@ import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared
 import ServiceStatus from "@marketplaceModule/clients/client/public/shared/serviceStatus.tsx";
 import type {BuyerTaskRequest} from "armonia/src/modules/marketplace/api/marketplace/private/taskRequest/taskRequest.dto.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
+import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import {Button} from "@coreModule/components/ui/button.tsx";
 import {useQuoteReceived} from "@marketplaceModule/helpers/hooks/useTaskLiveUpdates.ts";
 
@@ -51,6 +52,7 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
     const job: BuyerTaskRequest | null = jobRequest.error ? null : jobRequest.data?.data ?? null;
     // The skeleton shows while this job loads, not while it reloads after an action.
     const loading = jobCount === 0 || (jobRequest.loading && job?._id !== jobId);
+    usePortalTitle(loading ? undefined : job ? job.title : resolveLanguageKey("notFound"));
 
     const actionError = (err: unknown) => handleError(err, {context: "Job", showToast: true, fallbackMessage: resolveLanguageKey("actionError")});
     const [action, setAction] = useState<{path: string; id: string; successKey: string; count: number}>({path: "", id: "", successKey: "", count: 0});
