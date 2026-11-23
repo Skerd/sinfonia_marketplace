@@ -1,4 +1,4 @@
-import {act, render, screen} from "@testing-library/react";
+import {act, render, screen, waitFor} from "@testing-library/react";
 import {beforeEach, describe, expect, it, vi} from "vitest";
 import type {ComponentType} from "react";
 import {MemoryRouter} from "react-router-dom";
@@ -45,7 +45,8 @@ describe("the public task page (D172)", () => {
         apiClientMock.mockResolvedValueOnce({data: task(1)});
         render(<MemoryRouter initialEntries={["/tasks/task?id=t1"]}><TaskPage /></MemoryRouter>);
         expect(await screen.findByRole("heading", {name: "Fix a dripping kitchen tap"})).toBeInTheDocument();
-        expect(document.title).toBe("Fix a dripping kitchen tap · Arpeggio");
+        // The title is set by an effect after the heading renders; under a loaded run the two can be a tick apart.
+        await waitFor(() => expect(document.title).toBe("Fix a dripping kitchen tap · Arpeggio"));
 
         let answer: (value: {data: unknown}) => void = () => undefined;
         apiClientMock.mockImplementationOnce(() => new Promise((resolve) => { answer = resolve; }));
