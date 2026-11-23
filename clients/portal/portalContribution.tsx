@@ -80,9 +80,7 @@ const services: PortalContribution = {
 
 /**
  * The public task board (D172): the open tasks clients posted, on the apex and the operator's own site, where anyone
- * browses them and posts one; services companies quote on them. "Post a job" also sits on these hosts' home page
- * (D178): a job posted there lands on this board, so the board carries it rather than the services section, which
- * every provider's own site lists too.
+ * browses them and posts one; services companies quote on them.
  */
 const tasks: PortalContribution = {
     id: "tasks",
@@ -91,7 +89,6 @@ const tasks: PortalContribution = {
     path: "tasks",
     SectionSite: TasksSiteRoutes,
     catalogs: [{kind: "task", Filters: TaskFilters, Intro: PostJobBanner}],
-    Home: PostJobBanner,
     AccountSection: TasksAccountLinks,
     prefetch: (target) => {
         prefetchItem(target, "/task", () => import("@marketplaceModule/clients/client/public/tasks/taskPage.tsx"), TASK_REQUEST);

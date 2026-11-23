@@ -12,9 +12,9 @@ import type {ShopListingTaxonomyResponse} from "armonia/src/modules/marketplace/
 const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/shopListingTaxonomy", cache: true};
 
 /**
- * "Post a job" on top of the services and tasks tabs, and on the home page where the task board is, shown while
- * someone here offers services: a buyer describes the job once and the providers who do that work answer with quotes.
- * Posting needs an account, so signed-out visitors sign in or up first.
+ * "Post a job" on top of the services tab, shown while someone here offers services: a buyer describes the job once
+ * and the providers who do that work answer with quotes. Posting needs an account, so signed-out visitors sign in or
+ * up first.
  */
 function PostJobBanner({resolveLanguageKey}: WithLanguageType) {
     const base = useSectionBase();
