@@ -2,7 +2,7 @@
   "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
   "accept": {
     "title": "Të pranohet kjo porosi?",
-    "description": "Porosia do të shënohet si e pranuar dhe fondet do të mbahen në depozitë.",
+    "description": "Porosia do të shënohet e pranuar. Klienti të paguan drejtpërdrejt; nuk mbahet asgjë.",
     "confirm": "Prano porosinë",
     "axios": {
       "start": { "title": "Duke pranuar porosinë", "time": 3000 },
@@ -22,7 +22,7 @@
   },
   "cancelOrder": {
     "title": "Të anulohet kjo porosi?",
-    "description": "Porosia do të shënohet si e anuluar. Fondet në depozitë mund të kthehen nëse janë mbajtur.",
+    "description": "Porosia do të shënohet e anuluar.",
     "confirm": "Anulo porosinë",
     "axios": {
       "start": { "title": "Duke anuluar porosinë", "time": 3000 },
@@ -32,7 +32,7 @@
   },
   "acceptDelivery": {
     "title": "Të pranohet dorëzimi dhe të përfundojë porosia?",
-    "description": "Dorëzimi i ofruesit do të pranohet, fondet në depozitë do të lirohen dhe porosia do të shënohet si e përfunduar.",
+    "description": "Dorëzimi i ofruesit do të pranohet dhe porosia do të shënohet e përfunduar.",
     "confirm": "Përfundo porosinë",
     "axios": {
       "start": { "title": "Duke përfunduar porosinë", "time": 3000 },

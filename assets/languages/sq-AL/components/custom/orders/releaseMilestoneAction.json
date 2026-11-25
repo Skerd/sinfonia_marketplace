@@ -1,10 +1,10 @@
 {
   "path": "src/modules/marketplace/components/custom/orders/releaseMilestoneAction.tsx",
   "title": "Liro fazën",
-  "description": "Paguajeni këtë fazë ofruesit nga depozita e porosisë. Ky veprim nuk mund të zhbëhet.",
+  "description": "E shënon këtë fazë të paguar: e ke paguar drejtpërdrejt ofruesin për këtë pjesë. Kjo nuk mund të zhbëhet.",
   "milestoneLabel": "Faza",
   "milestonePlaceholder": "Zgjidhni një fazë",
-  "confirm": "Liro pagesën",
+  "confirm": "Shëno të paguar",
   "cancel": "Anulo",
   "axios": {
     "start": {

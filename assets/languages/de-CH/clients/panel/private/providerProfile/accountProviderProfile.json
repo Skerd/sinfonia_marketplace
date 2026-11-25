@@ -10,7 +10,8 @@
     "payoutsEnabled": "Auszahlungen aktiviert",
     "start": "Stripe-Auszahlungen verbinden",
     "continue": "Stripe-Einrichtung fortsetzen",
-    "refresh": "Stripe-Status aktualisieren"
+    "refresh": "Stripe-Status aktualisieren",
+    "comingSoon": "Kartenzahlungen und Auszahlungen folgen in Kürze. Bis dahin bezahlen Käufer Sie direkt, bar oder per Überweisung auf das Bankkonto in Ihren Firmeneinstellungen."
   },
   "empty": {
     "title": "Noch kein Anbieterprofil",

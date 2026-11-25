@@ -5,7 +5,7 @@
   "help": {
     "ariaLabel": "Über Aufträge",
     "title": "Über Aufträge",
-    "overview": "Ein Auftrag ist eine Arbeit, die ein Kunde bei Ihnen gekauft hat, über eines Ihrer Inserate oder eine angenommene Offerte. Der Preis wird zurückbehalten, sobald Sie annehmen, und an Sie ausbezahlt, wenn der Kunde die Arbeit annimmt.",
+    "overview": "Eine Bestellung ist ein Auftrag, den ein Kunde bei Ihnen gekauft hat, aus einem Ihrer Angebote oder einem angenommenen Kostenvoranschlag. Der Kunde bezahlt Sie direkt, bar oder per Überweisung auf das Bankkonto in Ihren Firmeneinstellungen: Die Plattform behält nichts zurück und erhebt keine Gebühr.",
     "sections": [
       {
         "title": "Ihre Schritte",
@@ -17,15 +17,15 @@
       {
         "title": "Die Schritte des Kunden",
         "items": [
-          "«Lieferung annehmen» schliesst den Auftrag ab und zahlt das Zurückbehaltene aus, abzüglich 10 % Plattformgebühr. Es geht auf Ihr Stripe-Konto, falls Sie unter Anbieterprofil eines verbunden haben.",
+          "Lieferung annehmen schliesst die Bestellung ab. Der Kunde bezahlt Sie direkt; die Plattform erhebt keine Gebühr.",
           "«Überarbeitung anfordern» schickt die Arbeit mit einem Grund zurück, höchstens 3-mal. Eine Lieferung ohne Antwort innert 3 Tagen gilt für den Kunden als angenommen.",
-          "Meilensteine teilen die Zahlung auf: Der Kunde gibt jeden Teil frei, während die Arbeit läuft."
+          "Etappen teilen die Zahlung auf: Der Kunde markiert jeden Teil als bezahlt, sobald er Sie dafür bezahlt hat."
         ]
       },
       {
         "title": "Stornieren und Streitfälle",
         "items": [
-          "Sie können jederzeit stornieren, bevor der Auftrag fertig ist; der Kunde nur vor Arbeitsbeginn. Stornieren erstattet, was noch zurückbehalten ist.",
+          "Sie können jederzeit stornieren, bevor die Bestellung abgeschlossen ist; der Kunde nur, bevor die Arbeit beginnt.",
           "Jede Seite kann stattdessen einen Streitfall eröffnen. Solange er offen ist, wird nichts ausbezahlt oder storniert, bis eine Administratorin oder ein Administrator entscheidet."
         ]
       }

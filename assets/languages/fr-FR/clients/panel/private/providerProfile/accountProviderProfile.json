@@ -10,7 +10,8 @@
     "payoutsEnabled": "Versements activés",
     "start": "Connecter les versements Stripe",
     "continue": "Continuer la configuration de Stripe",
-    "refresh": "Actualiser le statut de Stripe"
+    "refresh": "Actualiser le statut de Stripe",
+    "comingSoon": "Les paiements par carte et les versements arrivent bientôt. En attendant, les acheteurs vous paient directement, en espèces ou par virement sur le compte bancaire de vos paramètres d’entreprise."
   },
   "empty": {
     "title": "Pas encore de profil de prestataire",

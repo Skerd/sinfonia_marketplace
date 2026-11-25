@@ -91,5 +91,32 @@
   "payEscrowHint": "Ofruesi e pranoi porosinë. Përfundoni pagesën për të financuar depozitën.",
   "payEscrowButton": "Paguaj tani",
   "payEscrowSuccess": "Pagesa u dërgua",
-  "payEscrowError": "Pagesa dështoi"
+  "payEscrowError": "Pagesa dështoi",
+  "direct": {
+    "cancelledBanner": "Kjo porosi u anulua.",
+    "deliveryReadyMessage": "Kontrollo punën më poshtë. Pranoje për ta mbyllur porosinë, ose kërko ndryshime.",
+    "milestonesHint": "Paguaj me pjesë: ndaje porosinë në faza dhe shëno secilën të paguar pasi ta kesh paguar ofruesin për pjesën e saj.",
+    "releaseMilestone": "Shëno të paguar",
+    "milestoneReleased": "Faza u shënua e paguar",
+    "panel": {
+      "cancel": {
+        "message": "Ofruesi nuk ka filluar ende, kështu që mund ta anulosh pa mosmarrëveshje."
+      },
+      "dispute": {
+        "message": "Ekipi ynë e shqyrton porosinë me ty dhe me ofruesin."
+      },
+      "milestone": {
+        "message": "Paguaje ofruesin me pjesë ndërsa puna ecën. Shëno secilën fazë të paguar pasi ta kesh paguar pjesën e saj."
+      }
+    },
+    "payTitle": "Paguaj ofruesin",
+    "payByTransferHint": "Për këtë porosi nuk mbahet asgjë: paguaje ofruesin drejtpërdrejt, me transfertë bankare në këtë llogari ose si të merreni vesh. Përdor emrin e porosisë si referencë.",
+    "payAsAgreedHint": "Për këtë porosi nuk mbahet asgjë: paguaje ofruesin drejtpërdrejt, me para në dorë ose me transfertë bankare, si të merreni vesh.",
+    "holder": "Mbajtësi i llogarisë",
+    "iban": "IBAN",
+    "bic": "BIC / SWIFT",
+    "bank": "Banka",
+    "amount": "Shuma",
+    "reference": "Referenca"
+  }
 }

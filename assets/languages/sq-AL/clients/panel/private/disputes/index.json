@@ -12,8 +12,8 @@
         "items": [
           "Secila palë mund të hapë një për një porosi që nuk është përfunduar ose anuluar; një për porosi. Pala tjetër njoftohet.",
           "Shëno në shqyrtim tregon që një administrator po e shqyrton.",
-          "Zgjidh mosmarrëveshjen vendos në favor të ofruesit: puna pranohet dhe ajo që mbahet i paguhet.",
-          "Mbyll mosmarrëveshjen (anulo porosinë) vendos në favor të klientit: porosia anulohet dhe ajo që mbahet rimbursohet.",
+          "Zgjidh mosmarrëveshjen vendos në favor të ofruesit: puna pranohet dhe porosia mbyllet.",
+          "Mbyll mosmarrëveshjen (anulo) vendos në favor të klientit: porosia anulohet.",
           "Çdo vendim kërkon një shënim, dhe të dyja palët njoftohen."
         ]
       }

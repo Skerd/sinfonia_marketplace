@@ -16,7 +16,7 @@
   },
   "resolve": {
     "title": "Resolve dispute",
-    "description": "Marks the dispute resolved and completes the linked order using the same escrow logic as accepting delivery.",
+    "description": "Marks the dispute resolved and completes the linked order, as accepting the delivery does.",
     "confirm": "Resolve",
     "axios": {
       "start": { "title": "Resolving dispute", "time": 3000 },
@@ -26,7 +26,7 @@
   },
   "close": {
     "title": "Close dispute (cancel order)",
-    "description": "Closes the dispute and cancels the linked order with escrow refund rules matching a normal cancellation.",
+    "description": "Closes the dispute and cancels the linked order, as a normal cancellation does.",
     "confirm": "Close dispute",
     "axios": {
       "start": { "title": "Closing dispute", "time": 3000 },

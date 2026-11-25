@@ -16,7 +16,7 @@
   },
   "resolve": {
     "title": "Zgjidh mosmarrëveshjen",
-    "description": "E shënon mosmarrëveshjen si të zgjidhur dhe e përfundon porosinë e lidhur duke përdorur të njëjtën logjikë depozite si pranimi i dorëzimit.",
+    "description": "E shënon mosmarrëveshjen të zgjidhur dhe e mbyll porosinë e lidhur, si pranimi i dorëzimit.",
     "confirm": "Zgjidh",
     "axios": {
       "start": { "title": "Po zgjidhet mosmarrëveshja", "time": 3000 },
@@ -26,7 +26,7 @@
   },
   "close": {
     "title": "Mbyll mosmarrëveshjen (anulo porosinë)",
-    "description": "Mbyll mosmarrëveshjen dhe anulon porosinë e lidhur me rregullat e rimbursimit të depozitës si në një anulim normal.",
+    "description": "E mbyll mosmarrëveshjen dhe e anulon porosinë e lidhur, si një anulim i zakonshëm.",
     "confirm": "Mbyll mosmarrëveshjen",
     "axios": {
       "start": { "title": "Po mbyllet mosmarrëveshja", "time": 3000 },

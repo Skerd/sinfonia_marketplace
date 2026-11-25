@@ -1,10 +1,10 @@
 {
   "path": "src/modules/marketplace/components/custom/orders/releaseMilestoneAction.tsx",
   "title": "Meilenstein freigeben",
-  "description": "Zahlen Sie diesen Meilenstein aus dem Treuhandbetrag des Auftrags an den Anbieter aus. Dies kann nicht rückgängig gemacht werden.",
+  "description": "Markiert diese Etappe als bezahlt: Sie haben den Anbieter für diesen Teil direkt bezahlt. Dies kann nicht rückgängig gemacht werden.",
   "milestoneLabel": "Meilenstein",
   "milestonePlaceholder": "Meilenstein wählen",
-  "confirm": "Zahlung freigeben",
+  "confirm": "Als bezahlt markieren",
   "cancel": "Abbrechen",
   "axios": {
     "start": {

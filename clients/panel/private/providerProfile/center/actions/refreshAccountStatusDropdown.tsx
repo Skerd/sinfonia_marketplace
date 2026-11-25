@@ -1,4 +1,5 @@
 import {compose} from "redux";
+import {CARD_PAYMENTS_AVAILABLE} from "armonia/src/modules/finance/helpers/cardPaymentAvailability.ts";
 import {useSelector} from "react-redux";
 import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLanguage.tsx";
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
@@ -21,7 +22,7 @@ function RefreshAccountStatusDropdown({profile, onAction, resolveLanguageKey}: R
     const {id: currentUserId} = useSelector((state: RootState) => state.authentication.user);
 
     const isOwner = profile.user?._id === currentUserId;
-    const canShow = isOwner && !!profile.stripeAccountId && !!write && !profile.deletedAt;
+    const canShow = CARD_PAYMENTS_AVAILABLE && isOwner && !!profile.stripeAccountId && !!write && !profile.deletedAt;
 
     const triggerAction = () => {
         if (!canShow) return;

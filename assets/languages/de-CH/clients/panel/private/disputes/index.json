@@ -12,8 +12,8 @@
         "items": [
           "Jede Seite kann einen eröffnen, für einen Auftrag, der weder abgeschlossen noch storniert ist; einer pro Auftrag. Die andere Seite wird informiert.",
           "«Als in Prüfung markieren» zeigt, dass er geprüft wird.",
-          "«Streitfall entscheiden» entscheidet für den Anbieter: Die Arbeit gilt als angenommen und das Zurückbehaltene wird ausbezahlt.",
-          "«Streitfall schliessen (abbrechen)» entscheidet für den Kunden: Der Auftrag wird storniert und das Zurückbehaltene erstattet.",
+          "Streitfall lösen entscheidet für den Anbieter: Die Arbeit wird angenommen und die Bestellung abgeschlossen.",
+          "Streitfall schliessen (stornieren) entscheidet für den Kunden: Die Bestellung wird storniert.",
           "Jeder Entscheid braucht eine Notiz, und beide Seiten werden informiert."
         ]
       }

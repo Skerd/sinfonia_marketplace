@@ -12,8 +12,8 @@
         "items": [
           "Either side can open one on an order that isn't completed or cancelled; one per order. The other side is told.",
           "Mark under review shows an administrator is looking at it.",
-          "Resolve dispute decides for the provider: the work is accepted and what is held is paid out.",
-          "Close dispute (cancel) decides for the client: the order is cancelled and what is held is refunded.",
+          "Resolve dispute decides for the provider: the work is accepted and the order completed.",
+          "Close dispute (cancel) decides for the client: the order is cancelled.",
           "Each decision needs a note, and both sides are told."
         ]
       }

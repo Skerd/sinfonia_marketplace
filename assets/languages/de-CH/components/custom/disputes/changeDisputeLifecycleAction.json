@@ -25,7 +25,7 @@
   },
   "resolve": {
     "title": "Streitfall entscheiden",
-    "description": "Markiert den Streitfall als entschieden und schliesst den verknüpften Auftrag mit derselben Treuhandlogik ab wie bei der Annahme einer Lieferung.",
+    "description": "Markiert den Streitfall als gelöst und schliesst die verknüpfte Bestellung ab, wie es die Annahme der Lieferung tut.",
     "confirm": "Erledigen",
     "axios": {
       "start": {
@@ -44,7 +44,7 @@
   },
   "close": {
     "title": "Streitfall schliessen (Auftrag stornieren)",
-    "description": "Schliesst den Streitfall und storniert den verknüpften Auftrag mit denselben Treuhand-Rückerstattungsregeln wie bei einer normalen Stornierung.",
+    "description": "Schliesst den Streitfall und storniert die verknüpfte Bestellung, wie eine normale Stornierung.",
     "confirm": "Streitfall schliessen",
     "axios": {
       "start": {

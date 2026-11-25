@@ -12,8 +12,8 @@
         "items": [
           "Chaque partie peut en ouvrir un sur une commande ni terminée ni annulée ; un par commande. L'autre partie est prévenue.",
           "Marquer en cours d'examen montre qu'un administrateur l'examine.",
-          "Résoudre le litige tranche pour le prestataire : le travail est accepté et ce qui est bloqué est versé.",
-          "Clôturer le litige (annuler) tranche pour le client : la commande est annulée et ce qui est bloqué est remboursé.",
+          "Résoudre le litige tranche en faveur du prestataire : le travail est accepté et la commande terminée.",
+          "Clore le litige (annuler) tranche en faveur du client : la commande est annulée.",
           "Chaque décision demande une note, et les deux parties sont prévenues."
         ]
       }

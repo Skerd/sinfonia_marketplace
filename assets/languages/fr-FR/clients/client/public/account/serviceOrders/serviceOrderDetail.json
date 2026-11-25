@@ -91,5 +91,32 @@
   "payEscrowHint": "Votre prestataire a accepté la commande. Effectuez le paiement pour alimenter le séquestre.",
   "payEscrowButton": "Payer maintenant",
   "payEscrowSuccess": "Paiement envoyé",
-  "payEscrowError": "Échec du paiement"
+  "payEscrowError": "Échec du paiement",
+  "direct": {
+    "cancelledBanner": "Cette commande a été annulée.",
+    "deliveryReadyMessage": "Vérifiez le travail ci-dessous. Acceptez-le pour terminer la commande, ou demandez des modifications.",
+    "milestonesHint": "Payez en plusieurs fois : divisez la commande en étapes et marquez chacune comme payée une fois le prestataire payé pour sa partie.",
+    "releaseMilestone": "Marquer comme payée",
+    "milestoneReleased": "Étape marquée comme payée",
+    "panel": {
+      "cancel": {
+        "message": "Le prestataire n’a pas encore commencé : vous pouvez annuler sans litige."
+      },
+      "dispute": {
+        "message": "Notre équipe examine la commande avec vous et le prestataire."
+      },
+      "milestone": {
+        "message": "Payez le prestataire en plusieurs fois au fil du travail. Marquez chaque étape comme payée une fois sa partie réglée."
+      }
+    },
+    "payTitle": "Payer le prestataire",
+    "payByTransferHint": "Rien n’est retenu pour cette commande : payez le prestataire directement, par virement sur ce compte ou comme convenu avec lui. Indiquez le nom de la commande en référence.",
+    "payAsAgreedHint": "Rien n’est retenu pour cette commande : payez le prestataire directement, en espèces ou par virement, comme convenu avec lui.",
+    "holder": "Titulaire du compte",
+    "iban": "IBAN",
+    "bic": "BIC / SWIFT",
+    "bank": "Banque",
+    "amount": "Montant",
+    "reference": "Référence"
+  }
 }

@@ -91,5 +91,32 @@
   "payEscrowHint": "Ihr Anbieter hat den Auftrag angenommen. Schliessen Sie die Zahlung ab, um das Treuhandkonto zu finanzieren.",
   "payEscrowButton": "Jetzt bezahlen",
   "payEscrowSuccess": "Zahlung übermittelt",
-  "payEscrowError": "Zahlung fehlgeschlagen"
+  "payEscrowError": "Zahlung fehlgeschlagen",
+  "direct": {
+    "cancelledBanner": "Diese Bestellung wurde storniert.",
+    "deliveryReadyMessage": "Prüfen Sie die Arbeit unten. Nehmen Sie sie an, um die Bestellung abzuschliessen, oder bitten Sie um Änderungen.",
+    "milestonesHint": "In Teilen zahlen: Teilen Sie die Bestellung in Etappen und markieren Sie jede als bezahlt, sobald Sie den Anbieter für ihren Teil bezahlt haben.",
+    "releaseMilestone": "Als bezahlt markieren",
+    "milestoneReleased": "Etappe als bezahlt markiert",
+    "panel": {
+      "cancel": {
+        "message": "Der Anbieter hat noch nicht begonnen, Sie können also ohne Streitfall stornieren."
+      },
+      "dispute": {
+        "message": "Unser Team prüft die Bestellung mit Ihnen und dem Anbieter."
+      },
+      "milestone": {
+        "message": "Bezahlen Sie den Anbieter in Teilen, während die Arbeit vorankommt. Markieren Sie jede Etappe als bezahlt, sobald Sie ihren Teil bezahlt haben."
+      }
+    },
+    "payTitle": "Den Anbieter bezahlen",
+    "payByTransferHint": "Für diese Bestellung wird nichts zurückbehalten: Bezahlen Sie den Anbieter direkt, per Banküberweisung auf dieses Konto oder wie mit ihm vereinbart. Geben Sie den Namen der Bestellung als Referenz an.",
+    "payAsAgreedHint": "Für diese Bestellung wird nichts zurückbehalten: Bezahlen Sie den Anbieter direkt, bar oder per Banküberweisung, wie mit ihm vereinbart.",
+    "holder": "Kontoinhaber",
+    "iban": "IBAN",
+    "bic": "BIC / SWIFT",
+    "bank": "Bank",
+    "amount": "Betrag",
+    "reference": "Referenz"
+  }
 }

@@ -2,7 +2,7 @@
   "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
   "accept": {
     "title": "Accepter cette commande ?",
-    "description": "La commande sera marquée comme acceptée et les fonds seront conservés sous séquestre.",
+    "description": "La commande sera marquée comme acceptée. Le client vous paie directement ; rien n’est retenu.",
     "confirm": "Accepter la commande",
     "axios": {
       "start": {
@@ -40,7 +40,7 @@
   },
   "cancelOrder": {
     "title": "Annuler cette commande ?",
-    "description": "La commande sera marquée annulée. Les fonds bloqués peuvent être remboursés s’ils sont déjà détenus.",
+    "description": "La commande sera marquée comme annulée.",
     "confirm": "Annuler la commande",
     "axios": {
       "start": {
@@ -59,7 +59,7 @@
   },
   "acceptDelivery": {
     "title": "Accepter la livraison et finaliser la commande ?",
-    "description": "La livraison du prestataire sera acceptée, les fonds en séquestre libérés et la commande marquée comme terminée.",
+    "description": "La livraison du prestataire sera acceptée et la commande marquée comme terminée.",
     "confirm": "Terminer la commande",
     "axios": {
       "start": {

@@ -2,7 +2,7 @@
   "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
   "accept": {
     "title": "Accept this order?",
-    "description": "The order will be marked accepted and funds will be held in escrow.",
+    "description": "The order will be marked accepted. The client pays you directly; nothing is held.",
     "confirm": "Accept order",
     "axios": {
       "start": { "title": "Accepting order", "time": 3000 },
@@ -22,7 +22,7 @@
   },
   "cancelOrder": {
     "title": "Cancel this order?",
-    "description": "The order will be marked cancelled. Escrow funds may be refunded if already held.",
+    "description": "The order will be marked cancelled.",
     "confirm": "Cancel order",
     "axios": {
       "start": { "title": "Cancelling order", "time": 3000 },
@@ -32,7 +32,7 @@
   },
   "acceptDelivery": {
     "title": "Accept delivery and complete order?",
-    "description": "The provider's delivery will be accepted, escrow funds released, and the order marked completed.",
+    "description": "The provider's delivery will be accepted and the order marked completed.",
     "confirm": "Complete order",
     "axios": {
       "start": { "title": "Completing order", "time": 3000 },

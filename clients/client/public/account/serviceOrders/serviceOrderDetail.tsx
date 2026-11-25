@@ -27,6 +27,17 @@ import {Label} from "@coreModule/components/ui/label.tsx";
 import {Textarea} from "@coreModule/components/ui/textarea.tsx";
 import {Input} from "@coreModule/components/ui/input.tsx";
 import {fromMinor, sumMinor, toMinor} from "armonia/src/modules/core/helpers/money.ts";
+import {CARD_PAYMENTS_AVAILABLE} from "armonia/src/modules/finance/helpers/cardPaymentAvailability.ts";
+
+/**
+ * Texts that speak of money held for the order: while card payments are off nothing is held and the buyer pays the
+ * provider directly (D190), so their `direct.*` wording is shown instead.
+ */
+const HELD_MONEY_KEYS = new Set(["cancelledBanner", "deliveryReadyMessage", "milestonesHint", "releaseMilestone", "milestoneReleased", "panel.cancel.message", "panel.dispute.message", "panel.milestone.message"]);
+const moneyKey = (key: string) => (!CARD_PAYMENTS_AVAILABLE && HELD_MONEY_KEYS.has(key) ? `direct.${key}` : key);
+
+/** An IBAN as people read it, in groups of four. */
+const groupedIban = (iban: string) => iban.replace(/(.{4})/g, "$1 ").trim();
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/serviceOrders/serviceOrderDetail.tsx";
 
@@ -135,7 +146,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
     );
     const {loading: busy} = useHttpRequest(action.request, action.body, action.count, true, {
         success: () => {
-            toast.success(resolveLanguageKey(action.successKey));
+            toast.success(resolveLanguageKey(moneyKey(action.successKey)));
             setPanel(null);
             load();
         },
@@ -211,6 +222,33 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
                 </div>
             )}
 
+            {order.paysProviderDirectly && !isFinal && (order.amount ?? 0) > 0 && (
+                <section className="flex flex-col gap-4 rounded-2xl border border-border p-6" aria-labelledby="shop-pay-direct">
+                    <div className="flex flex-col gap-1">
+                        <h2 id="shop-pay-direct" className="font-display text-xl font-semibold">{resolveLanguageKey("direct.payTitle")}</h2>
+                        <p className="text-sm text-muted-foreground">
+                            {resolveLanguageKey(order.paysProviderDirectly.bankAccount ? "direct.payByTransferHint" : "direct.payAsAgreedHint")}
+                        </p>
+                    </div>
+                    {order.paysProviderDirectly.bankAccount?.iban && (
+                        <dl className="grid gap-x-6 gap-y-3 text-sm sm:grid-cols-2">
+                            {order.paysProviderDirectly.bankAccount.holder && (
+                                <div><dt className="text-muted-foreground">{resolveLanguageKey("direct.holder")}</dt><dd className="font-medium">{order.paysProviderDirectly.bankAccount.holder}</dd></div>
+                            )}
+                            <div><dt className="text-muted-foreground">{resolveLanguageKey("direct.iban")}</dt><dd className="font-mono font-medium tabular-nums">{groupedIban(order.paysProviderDirectly.bankAccount.iban)}</dd></div>
+                            {order.paysProviderDirectly.bankAccount.bic && (
+                                <div><dt className="text-muted-foreground">{resolveLanguageKey("direct.bic")}</dt><dd className="font-mono font-medium">{order.paysProviderDirectly.bankAccount.bic}</dd></div>
+                            )}
+                            {order.paysProviderDirectly.bankAccount.bankName && (
+                                <div><dt className="text-muted-foreground">{resolveLanguageKey("direct.bank")}</dt><dd className="font-medium">{order.paysProviderDirectly.bankAccount.bankName}</dd></div>
+                            )}
+                            <div><dt className="text-muted-foreground">{resolveLanguageKey("direct.amount")}</dt><dd className="font-medium tabular-nums">{formatMoney(order.amount, order.currency)}</dd></div>
+                            <div><dt className="text-muted-foreground">{resolveLanguageKey("direct.reference")}</dt><dd className="font-mono font-medium">{order.name}</dd></div>
+                        </dl>
+                    )}
+                </section>
+            )}
+
             {order.escrowClientSecret && stripePromise && (
                 <section className="flex flex-col gap-4 rounded-2xl border border-border p-6" aria-labelledby="shop-escrow-pay">
                     <div className="flex flex-col gap-1">
@@ -254,7 +292,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
             </div>
 
             {status === "cancelled" ? (
-                <p className="rounded-2xl bg-red-50 px-5 py-4 text-sm text-red-700">{resolveLanguageKey("cancelledBanner")}</p>
+                <p className="rounded-2xl bg-red-50 px-5 py-4 text-sm text-red-700">{resolveLanguageKey(moneyKey("cancelledBanner"))}</p>
             ) : (
                 <ol className="grid grid-cols-4 gap-2" aria-label={resolveLanguageKey("progressLabel")}>
                     {STEPS.map((step, index) => {
@@ -277,7 +315,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
                         <div className="flex flex-col gap-4 rounded-2xl border border-primary/30 bg-primary/5 p-5">
                             <div className="flex flex-col gap-1">
                                 <p className="font-semibold">{resolveLanguageKey("deliveryReadyTitle")}</p>
-                                <p className="text-sm text-muted-foreground">{resolveLanguageKey("deliveryReadyMessage")}</p>
+                                <p className="text-sm text-muted-foreground">{resolveLanguageKey(moneyKey("deliveryReadyMessage"))}</p>
                             </div>
                             <div className="flex flex-wrap gap-3">
                                 <Button size="lg"
@@ -311,7 +349,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
                     {panel && panel !== "booking" && (
                         <form onSubmit={submitPanel} className="flex flex-col gap-4 rounded-2xl bg-muted p-5">
                             <p className="font-semibold">{resolveLanguageKey(`panel.${panel}.title`)}</p>
-                            <p className="text-sm text-muted-foreground">{resolveLanguageKey(`panel.${panel}.message`)}</p>
+                            <p className="text-sm text-muted-foreground">{resolveLanguageKey(moneyKey(`panel.${panel}.message`))}</p>
                             {panel === "review" && (
                                 <fieldset>
                                     <legend className="mb-2 text-sm font-medium">{resolveLanguageKey("ratingLabel")}</legend>
@@ -436,7 +474,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
                                     </Button>
                                 )}
                             </div>
-                            {milestones.length === 0 && <p className="text-sm text-muted-foreground">{resolveLanguageKey("milestonesHint")}</p>}
+                            {milestones.length === 0 && <p className="text-sm text-muted-foreground">{resolveLanguageKey(moneyKey("milestonesHint"))}</p>}
                             {milestones.length > 0 && <ul className="divide-y divide-border border-y border-border">
                                 {milestones.map(milestone => (
                                     <li key={milestone._id} className="flex flex-wrap items-center gap-3 py-3">
@@ -450,7 +488,7 @@ function ServiceOrderDetailPage({resolveLanguageKey}: WithLanguageType) {
                                                 onClick={() => run("POST", "order/releaseMilestone", {milestone: milestone._id}, "milestoneReleased")}
                                                 className="h-9 px-4"
                                             >
-                                                {resolveLanguageKey("releaseMilestone")}
+                                                {resolveLanguageKey(moneyKey("releaseMilestone"))}
                                             </Button>
                                         )}
                                     </li>

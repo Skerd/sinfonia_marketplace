@@ -5,7 +5,7 @@
   "help": {
     "ariaLabel": "About orders",
     "title": "About orders",
-    "overview": "An order is a job a client bought from you, from one of your listings or an accepted quote. Its price is held once you accept it, and paid out to you when the client accepts the work.",
+    "overview": "An order is a job a client bought from you, from one of your listings or an accepted quote. The client pays you directly, in cash or by bank transfer to the bank account in your company settings: nothing is held by the platform and it takes no fee.",
     "sections": [
       {
         "title": "Your steps",
@@ -17,15 +17,15 @@
       {
         "title": "The client's steps",
         "items": [
-          "Accept delivery completes the order and pays out what is held, less the 10% platform fee. It goes to your Stripe account if you connected one under Provider profile.",
+          "Accept delivery completes the order. The client pays you directly; the platform takes no fee.",
           "Request revision sends the work back with a reason, at most 3 times. A delivery not answered within 3 days is accepted for the client.",
-          "Milestones split the payment: the client releases each part while the work is in progress."
+          "Milestones split the payment: the client marks each part paid once they have paid you for it."
         ]
       },
       {
         "title": "Cancelling and disputes",
         "items": [
-          "You can cancel any time before the order is finished; the client only before work starts. Cancelling refunds what is still held.",
+          "You can cancel any time before the order is finished; the client only before work starts.",
           "Either side can open a dispute instead. While it's open, nothing is paid out or cancelled until an administrator decides."
         ]
       }

@@ -12,8 +12,8 @@
         "items": [
           "Ciascuna parte può aprirne una su un ordine non completato né annullato; una per ordine. L'altra parte viene avvisata.",
           "Segna come in revisione indica che un amministratore la sta esaminando.",
-          "Risolvi controversia decide a favore del fornitore: il lavoro è accettato e ciò che è trattenuto viene pagato.",
-          "Chiudi controversia (annulla) decide a favore del cliente: l'ordine è annullato e ciò che è trattenuto viene rimborsato.",
+          "Risolvi contestazione decide a favore del fornitore: il lavoro è accettato e l’ordine completato.",
+          "Chiudi contestazione (annulla) decide a favore del cliente: l’ordine è annullato.",
           "Ogni decisione richiede una nota, ed entrambe le parti vengono avvisate."
         ]
       }

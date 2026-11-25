@@ -5,7 +5,7 @@
   "help": {
     "ariaLabel": "À propos des commandes",
     "title": "À propos des commandes",
-    "overview": "Une commande est un travail qu'un client vous a acheté, depuis une de vos annonces ou une offre acceptée. Son prix est bloqué dès que vous l'acceptez, et vous est versé quand le client accepte le travail.",
+    "overview": "Une commande est un travail qu’un client vous a acheté, depuis une de vos offres ou un devis accepté. Le client vous paie directement, en espèces ou par virement sur le compte bancaire de vos paramètres d’entreprise : la plateforme ne retient rien et ne prend aucune commission.",
     "sections": [
       {
         "title": "Vos étapes",
@@ -17,15 +17,15 @@
       {
         "title": "Les étapes du client",
         "items": [
-          "Accepter la livraison termine la commande et verse ce qui est bloqué, moins les 10 % de frais de la plateforme. L'argent va sur votre compte Stripe si vous en avez connecté un dans Profil de prestataire.",
+          "Accepter la livraison termine la commande. Le client vous paie directement ; la plateforme ne prend aucune commission.",
           "Demander une révision renvoie le travail avec un motif, 3 fois au plus. Une livraison sans réponse sous 3 jours est acceptée pour le client.",
-          "Les étapes de paiement répartissent le prix : le client libère chaque partie pendant le travail."
+          "Les étapes divisent le paiement : le client marque chaque partie comme payée une fois qu’il vous l’a réglée."
         ]
       },
       {
         "title": "Annulation et litiges",
         "items": [
-          "Vous pouvez annuler à tout moment avant la fin de la commande ; le client seulement avant le début du travail. Annuler rembourse ce qui est encore bloqué.",
+          "Vous pouvez annuler à tout moment avant la fin de la commande ; le client seulement avant le début du travail.",
           "Chacun peut aussi ouvrir un litige. Tant qu'il est ouvert, rien n'est versé ni annulé jusqu'à la décision d'un administrateur."
         ]
       }

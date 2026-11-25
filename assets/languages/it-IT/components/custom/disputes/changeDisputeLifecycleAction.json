@@ -25,7 +25,7 @@
   },
   "resolve": {
     "title": "Risolvi controversia",
-    "description": "Contrassegna la controversia risolta e completa l'ordine collegato utilizzando la stessa logica di deposito a garanzia dell'accettazione della consegna.",
+    "description": "Segna la contestazione come risolta e completa l’ordine collegato, come l’accettazione della consegna.",
     "confirm": "Risolvi",
     "axios": {
       "start": {
@@ -44,7 +44,7 @@
   },
   "close": {
     "title": "Chiudi controversia (annulla ordine)",
-    "description": "Chiude la controversia e annulla l'ordine collegato con regole di rimborso del deposito a garanzia corrispondenti a un normale annullamento.",
+    "description": "Chiude la contestazione e annulla l’ordine collegato, come un normale annullamento.",
     "confirm": "Chiudi controversia",
     "axios": {
       "start": {

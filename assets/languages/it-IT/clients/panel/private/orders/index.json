@@ -5,7 +5,7 @@
   "help": {
     "ariaLabel": "Informazioni sugli ordini",
     "title": "Informazioni sugli ordini",
-    "overview": "Un ordine è un lavoro che un cliente ha comprato da te, da uno dei tuoi annunci o da un'offerta accettata. Il prezzo viene trattenuto quando lo accetti, e ti viene pagato quando il cliente accetta il lavoro.",
+    "overview": "Un ordine è un lavoro che un cliente ti ha acquistato, da una tua offerta o da un preventivo accettato. Il cliente ti paga direttamente, in contanti o con bonifico sul conto bancario delle impostazioni aziendali: la piattaforma non trattiene nulla e non prende commissioni.",
     "sections": [
       {
         "title": "I tuoi passi",
@@ -17,15 +17,15 @@
       {
         "title": "I passi del cliente",
         "items": [
-          "Accetta la consegna completa l'ordine e paga ciò che è trattenuto, meno la commissione del 10% della piattaforma. Va sul tuo account Stripe se ne hai collegato uno in Profilo fornitore.",
+          "Accetta consegna completa l’ordine. Il cliente ti paga direttamente; la piattaforma non prende commissioni.",
           "Richiedi revisione rimanda indietro il lavoro con un motivo, al massimo 3 volte. Una consegna senza risposta entro 3 giorni viene accettata per il cliente.",
-          "Le milestone dividono il pagamento: il cliente rilascia ogni parte mentre il lavoro è in corso."
+          "Le tappe dividono il pagamento: il cliente segna ogni parte come pagata dopo averti pagato."
         ]
       },
       {
         "title": "Annullamenti e controversie",
         "items": [
-          "Tu puoi annullare in qualsiasi momento prima che l'ordine sia finito; il cliente solo prima che inizi il lavoro. L'annullamento rimborsa ciò che è ancora trattenuto.",
+          "Puoi annullare in qualsiasi momento prima che l’ordine sia concluso; il cliente solo prima che il lavoro inizi.",
           "Ciascuna parte può invece aprire una controversia. Finché è aperta, nulla viene pagato né annullato finché un amministratore non decide."
         ]
       }

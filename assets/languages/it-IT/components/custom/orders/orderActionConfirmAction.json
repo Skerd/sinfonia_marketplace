@@ -2,7 +2,7 @@
   "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
   "accept": {
     "title": "Accettare questo ordine?",
-    "description": "L'ordine verrà contrassegnato come accettato e i fondi verranno trattenuti in garanzia.",
+    "description": "L’ordine sarà segnato come accettato. Il cliente ti paga direttamente; non viene trattenuto nulla.",
     "confirm": "Accetta l'ordine",
     "axios": {
       "start": {
@@ -40,7 +40,7 @@
   },
   "cancelOrder": {
     "title": "Annullare questo ordine?",
-    "description": "L'ordine verrà contrassegnato come annullato. I fondi depositati in garanzia possono essere rimborsati se già trattenuti.",
+    "description": "L’ordine sarà segnato come annullato.",
     "confirm": "Annulla l'ordine",
     "axios": {
       "start": {
@@ -59,7 +59,7 @@
   },
   "acceptDelivery": {
     "title": "Accettare la consegna e completare l'ordine?",
-    "description": "La consegna del fornitore verrà accettata, i fondi depositati in garanzia verranno rilasciati e l'ordine verrà contrassegnato come completato.",
+    "description": "La consegna del fornitore sarà accettata e l’ordine segnato come completato.",
     "confirm": "Completa l'ordine",
     "axios": {
       "start": {

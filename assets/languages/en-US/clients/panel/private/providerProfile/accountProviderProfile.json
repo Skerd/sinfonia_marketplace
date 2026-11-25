@@ -10,7 +10,8 @@
     "payoutsEnabled": "Payouts enabled",
     "start": "Connect Stripe payouts",
     "continue": "Continue Stripe setup",
-    "refresh": "Refresh Stripe status"
+    "refresh": "Refresh Stripe status",
+    "comingSoon": "Card payments and payouts are coming soon. Until then buyers pay you directly, in cash or by bank transfer to the bank account in your company settings."
   },
   "empty": {
     "title": "No provider profile yet",

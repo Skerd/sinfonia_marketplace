@@ -8,6 +8,7 @@ import {useKeyboardShortcuts} from "@coreModule/helpers/hooks/useKeyboardShortcu
 import type {RootState} from "@coreModule/helpers/redux/store/generalStore.ts";
 import type {ProviderProfile} from "armonia/src/modules/marketplace/api/marketplace/private/providerProfile/providerProfile.dto.ts";
 import {IconBuildingBank} from "@tabler/icons-react";
+import {CARD_PAYMENTS_AVAILABLE} from "armonia/src/modules/finance/helpers/cardPaymentAvailability.ts";
 
 type CreateAccountLinkDropdownProps = WithLanguageType & {
     profile: ProviderProfile;
@@ -22,7 +23,8 @@ function CreateAccountLinkDropdown({profile, onAction, resolveLanguageKey}: Crea
 
     const isOwner = profile.user?._id === currentUserId;
     const needsOnboarding = !profile.stripePayoutsEnabled;
-    const canShow = isOwner && needsOnboarding && !!write && !profile.deletedAt;
+    // Payouts wait for card payments (D190): until then buyers pay the provider directly.
+    const canShow = CARD_PAYMENTS_AVAILABLE && isOwner && needsOnboarding && !!write && !profile.deletedAt;
 
     const triggerAction = () => {
         if (!canShow) return;

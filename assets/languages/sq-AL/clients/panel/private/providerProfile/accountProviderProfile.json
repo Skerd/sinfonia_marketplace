@@ -10,7 +10,8 @@
     "payoutsEnabled": "Pagesat janë aktive",
     "start": "Lidh pagesat Stripe",
     "continue": "Vazhdo konfigurimin Stripe",
-    "refresh": "Rifresko statusin Stripe"
+    "refresh": "Rifresko statusin Stripe",
+    "comingSoon": "Pagesat me kartë dhe transfertat vijnë së shpejti. Deri atëherë blerësit të paguajnë drejtpërdrejt, me para në dorë ose me transfertë në llogarinë bankare te cilësimet e kompanisë."
   },
   "empty": {
     "title": "Ende pa profil ofruesi",

@@ -25,7 +25,7 @@
   },
   "resolve": {
     "title": "Résoudre le litige",
-    "description": "Marque le litige comme résolu et termine la commande liée avec la même logique de séquestre que l'acceptation de la livraison.",
+    "description": "Marque le litige comme résolu et termine la commande liée, comme l’acceptation de la livraison.",
     "confirm": "Résoudre",
     "axios": {
       "start": {
@@ -44,7 +44,7 @@
   },
   "close": {
     "title": "Clôturer le litige (annuler la commande)",
-    "description": "Clôture le litige et annule la commande liée avec des règles de remboursement par séquestre correspondant à une annulation normale.",
+    "description": "Clôt le litige et annule la commande liée, comme une annulation normale.",
     "confirm": "Clôturer le litige",
     "axios": {
       "start": {

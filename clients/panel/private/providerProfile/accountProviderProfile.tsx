@@ -14,6 +14,7 @@ import SimpleError from "@coreModule/components/custom/errors/errorViewWrapper.t
 import {ContentSection} from "@coreModule/clients/panel/private/accountSettings/components/content-section.tsx";
 import type {TableResponse} from "armonia/src/modules/core/types/shared.types.ts";
 import type {ProviderProfile} from "armonia/src/modules/marketplace/api/marketplace/private/providerProfile/providerProfile.dto.ts";
+import {CARD_PAYMENTS_AVAILABLE} from "armonia/src/modules/finance/helpers/cardPaymentAvailability.ts";
 import ConnectAccountAction, {
     type ConnectActionKey,
 } from "@marketplaceModule/components/custom/providerProfile/connectAccountAction.tsx";
@@ -77,7 +78,13 @@ function AccountProviderProfile({resolveLanguageKey, specificUserId}: AccountPro
                     />
                 ) : profile ? (
                     <div className="flex flex-col gap-y-(--density-gap)">
-                        {isOwnProfile && (
+                        {isOwnProfile && !CARD_PAYMENTS_AVAILABLE && (
+                            // Payouts wait for card payments (D190): until then buyers pay the provider directly.
+                            <p className="rounded-lg border border-border/50 bg-muted/30 p-3 text-sm text-muted-foreground">
+                                {resolveLanguageKey("connect.comingSoon")}
+                            </p>
+                        )}
+                        {isOwnProfile && CARD_PAYMENTS_AVAILABLE && (
                             <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-border/50 bg-muted/30 p-3">
                                 <span
                                     className={cn(

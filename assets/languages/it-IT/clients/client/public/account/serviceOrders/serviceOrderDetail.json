@@ -91,5 +91,32 @@
   "payEscrowHint": "Il fornitore ha accettato l'ordine. Completa il pagamento per depositare l'importo in garanzia.",
   "payEscrowButton": "Paga ora",
   "payEscrowSuccess": "Pagamento inviato",
-  "payEscrowError": "Pagamento non riuscito"
+  "payEscrowError": "Pagamento non riuscito",
+  "direct": {
+    "cancelledBanner": "Questo ordine è stato annullato.",
+    "deliveryReadyMessage": "Controlla il lavoro qui sotto. Accettalo per completare l’ordine, oppure chiedi modifiche.",
+    "milestonesHint": "Paga a rate: dividi l’ordine in tappe e segna ognuna come pagata dopo aver pagato il fornitore per la sua parte.",
+    "releaseMilestone": "Segna come pagata",
+    "milestoneReleased": "Tappa segnata come pagata",
+    "panel": {
+      "cancel": {
+        "message": "Il fornitore non ha ancora iniziato, quindi puoi annullare senza aprire una contestazione."
+      },
+      "dispute": {
+        "message": "Il nostro team esamina l’ordine con te e con il fornitore."
+      },
+      "milestone": {
+        "message": "Paga il fornitore a rate mentre il lavoro procede. Segna ogni tappa come pagata dopo aver pagato la sua parte."
+      }
+    },
+    "payTitle": "Paga il fornitore",
+    "payByTransferHint": "Per questo ordine non viene trattenuto nulla: paga il fornitore direttamente, con bonifico su questo conto o come concordato con lui. Usa il nome dell’ordine come causale.",
+    "payAsAgreedHint": "Per questo ordine non viene trattenuto nulla: paga il fornitore direttamente, in contanti o con bonifico, come concordato con lui.",
+    "holder": "Intestatario del conto",
+    "iban": "IBAN",
+    "bic": "BIC / SWIFT",
+    "bank": "Banca",
+    "amount": "Importo",
+    "reference": "Causale"
+  }
 }

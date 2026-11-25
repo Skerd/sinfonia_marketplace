@@ -91,5 +91,32 @@
   "payEscrowHint": "Your provider accepted the order. Complete payment to fund escrow.",
   "payEscrowButton": "Pay now",
   "payEscrowSuccess": "Payment submitted",
-  "payEscrowError": "Payment failed"
+  "payEscrowError": "Payment failed",
+  "direct": {
+    "cancelledBanner": "This order was cancelled.",
+    "deliveryReadyMessage": "Check the work below. Accept it to complete the order, or ask for changes.",
+    "milestonesHint": "Pay in parts: split the order into milestones and mark each one paid once you have paid the provider for its part.",
+    "releaseMilestone": "Mark as paid",
+    "milestoneReleased": "Milestone marked as paid",
+    "panel": {
+      "cancel": {
+        "message": "The provider hasn't started yet, so you can cancel without a dispute."
+      },
+      "dispute": {
+        "message": "Our team reviews the order with you and the provider."
+      },
+      "milestone": {
+        "message": "Pay the provider in parts as the work progresses. Mark each milestone paid once you have paid for its part."
+      }
+    },
+    "payTitle": "Pay the provider",
+    "payByTransferHint": "Nothing is held for this order: pay the provider directly, by bank transfer to this account or as you agree with them. Use the order name as the reference.",
+    "payAsAgreedHint": "Nothing is held for this order: pay the provider directly, in cash or by bank transfer, as you agree with them.",
+    "holder": "Account holder",
+    "iban": "IBAN",
+    "bic": "BIC / SWIFT",
+    "bank": "Bank",
+    "amount": "Amount",
+    "reference": "Reference"
+  }
 }

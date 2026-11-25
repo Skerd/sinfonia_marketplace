@@ -10,7 +10,8 @@
     "payoutsEnabled": "Pagamenti abilitati",
     "start": "Collega i pagamenti Stripe",
     "continue": "Continua la configurazione di Stripe",
-    "refresh": "Aggiorna lo stato di Stripe"
+    "refresh": "Aggiorna lo stato di Stripe",
+    "comingSoon": "I pagamenti con carta e i versamenti arriveranno presto. Fino ad allora gli acquirenti ti pagano direttamente, in contanti o con bonifico sul conto bancario delle impostazioni aziendali."
   },
   "empty": {
     "title": "Nessun profilo fornitore",

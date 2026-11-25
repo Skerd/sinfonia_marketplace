@@ -5,7 +5,7 @@
   "help": {
     "ariaLabel": "Rreth porosive",
     "title": "Rreth porosive",
-    "overview": "Një porosi është një punë që një klient bleu nga ju, nga një prej listimeve tuaja ose nga një ofertë e pranuar. Çmimi i saj mbahet sapo ta pranoni, dhe ju paguhet kur klienti pranon punën.",
+    "overview": "Porosia është një punë që një klient ka blerë nga ti, nga një nga shpalljet e tua ose nga një ofertë e pranuar. Klienti të paguan drejtpërdrejt, me para në dorë ose me transfertë në llogarinë bankare te cilësimet e kompanisë: platforma nuk mban asgjë dhe nuk merr komision.",
     "sections": [
       {
         "title": "Hapat tuaj",
@@ -17,15 +17,15 @@
       {
         "title": "Hapat e klientit",
         "items": [
-          "Prano dorëzimin e përfundon porosinë dhe paguan atë që mbahet, pa tarifën 10% të platformës. Shkon në llogarinë tuaj Stripe nëse keni lidhur një te Profili i ofruesit.",
+          "Prano dorëzimin e mbyll porosinë. Klienti të paguan drejtpërdrejt; platforma nuk merr komision.",
           "Kërkoni rishikim e kthen punën me një arsye, deri në 3 herë. Një dorëzim pa përgjigje brenda 3 ditëve pranohet në emër të klientit.",
-          "Fazat e ndajnë pagesën: klienti liron çdo pjesë ndërsa puna është në vazhdim."
+          "Fazat e ndajnë pagesën: klienti shënon secilën pjesë të paguar pasi të ta ketë paguar."
         ]
       },
       {
         "title": "Anulimi dhe mosmarrëveshjet",
         "items": [
-          "Ju mund ta anuloni në çdo kohë para se porosia të mbarojë; klienti vetëm para se të nisë puna. Anulimi kthen atë që mbahet ende.",
+          "Mund ta anulosh në çdo kohë para se porosia të mbarojë; klienti vetëm para se të fillojë puna.",
           "Secila palë mund të hapë një mosmarrëveshje. Sa kohë është e hapur, asgjë nuk paguhet e nuk anulohet derisa të vendosë një administrator."
         ]
       }

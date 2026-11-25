@@ -2,7 +2,7 @@
   "path": "src/modules/marketplace/components/custom/orders/orderActionConfirmAction.tsx",
   "accept": {
     "title": "Diesen Auftrag annehmen?",
-    "description": "Der Auftrag wird als angenommen markiert und das Geld treuhänderisch gehalten.",
+    "description": "Die Bestellung wird als angenommen markiert. Der Kunde bezahlt Sie direkt; nichts wird zurückbehalten.",
     "confirm": "Auftrag annehmen",
     "axios": {
       "start": {
@@ -40,7 +40,7 @@
   },
   "cancelOrder": {
     "title": "Diesen Auftrag stornieren?",
-    "description": "Der Auftrag wird als storniert markiert. Bereits treuhänderisch gehaltenes Geld kann erstattet werden.",
+    "description": "Die Bestellung wird als storniert markiert.",
     "confirm": "Auftrag stornieren",
     "axios": {
       "start": {
@@ -59,7 +59,7 @@
   },
   "acceptDelivery": {
     "title": "Lieferung annehmen und Auftrag abschliessen?",
-    "description": "Die Lieferung des Anbieters wird angenommen, das Treuhandgeld freigegeben und der Auftrag als abgeschlossen markiert.",
+    "description": "Die Lieferung des Anbieters wird angenommen und die Bestellung als abgeschlossen markiert.",
     "confirm": "Auftrag abschliessen",
     "axios": {
       "start": {
