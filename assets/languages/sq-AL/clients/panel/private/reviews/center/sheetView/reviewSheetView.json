@@ -17,5 +17,7 @@
   "updatedAt": "Përditësuar më",
   "createdBy": "Krijuar nga",
   "deletedAt": "Fshirë më",
-  "deletedBy": "Fshirë nga"
+  "deletedBy": "Fshirë nga",
+  "hiddenByPlatform": "Fshehur nga platforma",
+  "hiddenByPlatformNote": "Pas një raportimi, platforma e hoqi këtë vlerësim nga faqet publike dhe nga nota mesatare. Vetëm platforma mund ta shfaqë përsëri."
 }

@@ -57,5 +57,7 @@
   },
   "compactView": "Compatta",
   "cardsView": "Schede",
-  "toggleReferenceListView": "Cambia visualizzazione"
+  "toggleReferenceListView": "Cambia visualizzazione",
+  "hiddenByPlatform": "Nascosta dalla piattaforma",
+  "hiddenByPlatformNote": "Dopo una segnalazione, la piattaforma ha tolto questa richiesta di preventivo dalla bacheca e dall'abbinamento con i professionisti. Solo la piattaforma può mostrarla di nuovo."
 }

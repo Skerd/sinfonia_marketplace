@@ -11,8 +11,8 @@
         "title": "Each review",
         "items": [
           "Only the order's client can review it, once, after it's completed. Clients can also review from their account.",
-          "Reviews can't be edited once written.",
-          "Only an administrator can delete a review, which also removes its rating."
+          "Reviews can't be edited once written, and nobody in your company can delete one: they're published as clients wrote them.",
+          "If a review breaks the rules, report it to the platform from its ⋯ menu. Only the platform can hide a review; a hidden one leaves your rating and shows here as Hidden by the platform."
         ]
       }
     ]
@@ -28,6 +28,7 @@
     "orderId": "Order",
     "createdAt": "Created",
     "deletedAt": "Deleted",
-    "deletedBy": "Deleted by"
+    "deletedBy": "Deleted by",
+    "hiddenByPlatform": "Hidden by the platform"
   }
 }

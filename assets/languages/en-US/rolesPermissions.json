@@ -4,7 +4,6 @@
     "Disputes": "Disputes",
     "Listingaddons": "Listing add-ons",
     "Listingcategories": "Listing categories",
-    "Listingflags": "Listing reports",
     "Listingpackages": "Listing packages",
     "Listings": "Listings",
     "Marketplacebids": "Marketplace bids",
@@ -74,22 +73,6 @@
       "slug": "Slug",
       "updatedAt": "Updated at",
       "delivery": "Where the work happens"
-    },
-    "Listingflags": {
-      "comment": "Comment",
-      "createdAt": "Created at",
-      "createdBy": "Created by",
-      "deletedAt": "Deleted at",
-      "deletedBy": "Deleted by",
-      "listing": "Listing",
-      "listingflags": "Listing reports",
-      "reason": "Reason",
-      "resolution": "Resolution",
-      "status": "Status",
-      "updatedAt": "Updated at",
-      "user": "User",
-      "resolve": "Resolve",
-      "dismiss": "Dismiss"
     },
     "Listingpackages": {
       "createdAt": "Created at",

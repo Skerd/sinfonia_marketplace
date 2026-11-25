@@ -16,6 +16,7 @@ import StatusBadge from "@coreModule/components/entityPage/sheet/statusBadge.tsx
 import {IconClock, IconCurrencyDollar} from "@tabler/icons-react";
 import type {WithAxiosLifecycleRef} from "@coreModule/helpers/hocs/withAxios.tsx";
 import type {RefObject} from "react";
+import PlatformHiddenBadge from "@coreModule/components/custom/report/platformHiddenBadge.tsx";
 
 type BidCardProps = WithLanguageType & {
     bid: Bid;
@@ -95,7 +96,13 @@ function BidCard({
                         subtitlePath="taskRequest.title"
                         subtitle={row.taskRequest?.title}
                         badgesBesideTitle
-                        badges={<StatusBadge tableConfigKey="marketplacebids" field="status" value={row.status} label={String(resolveLanguageKey(`statuses.${row.status}`))} />}
+                        badges={
+                            <>
+                                <StatusBadge tableConfigKey="marketplacebids" field="status" value={row.status} label={String(resolveLanguageKey(`statuses.${row.status}`))} />
+                                {/* The platform hid it from the buyer after a report (D191). */}
+                                <PlatformHiddenBadge hidden={row.hiddenByPlatform} />
+                            </>
+                        }
                         icon={
                             accessFieldPathExists(read, "bidder") && row.bidder?.photo ? (
                                 <TableAvatar mediaId={row.bidder.photo} />

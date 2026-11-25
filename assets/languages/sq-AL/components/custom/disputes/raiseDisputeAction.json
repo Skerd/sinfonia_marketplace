@@ -3,7 +3,7 @@
   "cancel": "Anulo",
   "raise": {
     "title": "Hap një mosmarrëveshje",
-    "description": "Përshkruani problemin. Një administrator mund ta vendosë mosmarrëveshjen në shqyrtim; pranimi i dorëzimit bllokohet derisa mosmarrëveshja të përfundohet.",
+    "description": "Përshkruani problemin. Tregu e shqyrton mosmarrëveshjen dhe e vendos; pranimi i dorëzimit mbetet i bllokuar deri atëherë.",
     "reasonLabel": "Arsyeja",
     "reasonPlaceholder": "Çfarë shkoi keq?",
     "confirm": "Dërgo mosmarrëveshjen",

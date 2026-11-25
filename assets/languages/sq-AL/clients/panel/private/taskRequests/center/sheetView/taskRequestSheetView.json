@@ -57,5 +57,7 @@
   },
   "compactView": "Kompakt",
   "cardsView": "Karta",
-  "toggleReferenceListView": "Ndrysho pamjen"
+  "toggleReferenceListView": "Ndrysho pamjen",
+  "hiddenByPlatform": "Fshehur nga platforma",
+  "hiddenByPlatformNote": "Pas një raportimi, platforma e hoqi këtë kërkesë për ofertë nga tabela e kërkesave dhe nga përputhja me profesionistët. Vetëm platforma mund ta shfaqë përsëri."
 }

@@ -67,7 +67,6 @@ const contribution: HomeContribution = {
             ["/marketplace/reviews", "reviews"],
             ["/marketplace/disputes", "disputes"],
             ["/marketplace/taskrequests", "taskrequests"],
-            ["/marketplace/listingflags", "listingflags"],
             ["/tenancy/systemSettings/marketplacesettings", "marketplaceconfigs"],
             ["/tenancy/systemSettings/listingcategories", "listingcategories"],
             ["/tenancy/systemSettings/providerprofiles", "providerprofiles"],

@@ -17,5 +17,7 @@
   "updatedAt": "Mis à jour le",
   "createdBy": "Créé par",
   "deletedAt": "Supprimé le",
-  "deletedBy": "Supprimé par"
+  "deletedBy": "Supprimé par",
+  "hiddenByPlatform": "Masqué par la plateforme",
+  "hiddenByPlatformNote": "Après un signalement, la plateforme a retiré cet avis des pages publiques et de la note. Seule la plateforme peut le réafficher."
 }

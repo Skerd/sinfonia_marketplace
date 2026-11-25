@@ -57,5 +57,7 @@
   },
   "compactView": "Compacte",
   "cardsView": "Cartes",
-  "toggleReferenceListView": "Basculer l'affichage"
+  "toggleReferenceListView": "Basculer l'affichage",
+  "hiddenByPlatform": "Masquée par la plateforme",
+  "hiddenByPlatformNote": "Après un signalement, la plateforme a retiré cette demande de devis du tableau des demandes et de la mise en relation. Seule la plateforme peut la réafficher."
 }

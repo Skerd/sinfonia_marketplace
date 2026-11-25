@@ -28,8 +28,6 @@ const DisputeCardLazy = lazy(() => import("@marketplaceModule/clients/panel/priv
 const DisputeSheetViewLazy = lazy(() => import("@marketplaceModule/clients/panel/private/disputes/center/sheetView/disputeSheetView.tsx"));
 const ReviewCardLazy = lazy(() => import("@marketplaceModule/clients/panel/private/reviews/center/cardView/reviewCard.tsx"));
 const ReviewSheetViewLazy = lazy(() => import("@marketplaceModule/clients/panel/private/reviews/center/sheetView/reviewSheetView.tsx"));
-const ListingFlagCardLazy = lazy(() => import("@marketplaceModule/clients/panel/private/listingFlags/center/cardView/listingFlagCard.tsx"));
-const ListingFlagSheetViewLazy = lazy(() => import("@marketplaceModule/clients/panel/private/listingFlags/center/sheetView/listingFlagSheetView.tsx"));
 const ListingCategorySheetViewLazy = lazy(
     () => import("@marketplaceModule/clients/panel/private/listingCategories/center/sheetView/categorySheetView.tsx"),
 );
@@ -69,8 +67,6 @@ const marketplaceWidgetContribution: WidgetContribution = {
         "#DisputeSheetView": DisputeSheetViewLazy,
         "#ReviewCard": ReviewCardLazy,
         "#ReviewSheetView": ReviewSheetViewLazy,
-        "#ListingFlagCard": ListingFlagCardLazy,
-        "#ListingFlagSheetView": ListingFlagSheetViewLazy,
     },
     referencesDefaultItemProps: {
         "#PromotionCard": "promotion",
@@ -85,7 +81,6 @@ const marketplaceWidgetContribution: WidgetContribution = {
         "#BidCard": "bid",
         "#DisputeCard": "dispute",
         "#ReviewCard": "review",
-        "#ListingFlagCard": "listingFlag",
     },
     /** Create pages an `#ApiSelect` on `<apiUrl>/select` opens in a dialog ("Create new …" below the dropdown). */
     createPages: {

@@ -5,6 +5,8 @@ import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
 import useHttpRequest, {type HttpRequest} from "@coreModule/helpers/hooks/useHttpRequest.ts";
 import {DATE_FORMATS, formatDate} from "@coreModule/helpers/general/dateTime.ts";
 import {StarRow} from "@coreModule/clients/portal/shared/starRow.tsx";
+import {usePortalSession} from "@coreModule/clients/portal/shared/portalSession.tsx";
+import ReportButton from "@coreModule/components/custom/report/reportButton.tsx";
 import type {
     ShopMarketplaceReview,
     ShopMarketplaceReviewsResponse,
@@ -21,8 +23,12 @@ type ShopMarketplaceReviewsProps = WithLanguageType & {
     count?: number;
 };
 
-/** Read-only reviews block; buyers review from their completed order in the account. */
+/**
+ * Read-only reviews block; buyers review from their completed order in the account. A signed-in visitor reports a review
+ * to the platform, which alone may hide one (D191).
+ */
 function ShopMarketplaceReviewsInner({resolveLanguageKey, listingId, providerId, average, count}: ShopMarketplaceReviewsProps) {
+    const {isAuthenticated} = usePortalSession();
     const [reviewsCount, setReviewsCount] = useState(0);
     useEffect(() => {
         setReviewsCount((count) => count + 1);
@@ -66,10 +72,13 @@ function ShopMarketplaceReviewsInner({resolveLanguageKey, listingId, providerId,
                                     {review.createdAt && <span className="text-xs text-muted-foreground">{formatDate(review.createdAt, {format: DATE_FORMATS.date})}</span>}
                                 </div>
                                 {review.comment && <p className="text-[15px] leading-relaxed text-muted-foreground">{review.comment}</p>}
-                                <p className="text-sm">
-                                    <span className="font-medium">{review.reviewerName}</span>
-                                    {providerId && review.listingTitle && <span className="text-muted-foreground"> · {review.listingTitle}</span>}
-                                </p>
+                                <div className="flex items-center justify-between gap-3">
+                                    <p className="text-sm">
+                                        <span className="font-medium">{review.reviewerName}</span>
+                                        {providerId && review.listingTitle && <span className="text-muted-foreground"> · {review.listingTitle}</span>}
+                                    </p>
+                                    {isAuthenticated ? <ReportButton kind="marketplace.review" recordId={review._id} variant="link" /> : null}
+                                </div>
                             </li>
                         ))}
                     </ul>

@@ -1,20 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
   "title": "Streitfälle",
-  "description": "Streitfälle zwischen Kunden und Anbietern prüfen und entscheiden.",
+  "description": "Uneinigkeiten zu Aufträgen zwischen Kunden und Anbietern. Darüber entscheidet der Marktplatz.",
   "help": {
     "ariaLabel": "Über Streitfälle",
     "title": "Über Streitfälle",
-    "overview": "Ein Streitfall ist eine Uneinigkeit zu einem Auftrag, über die eine Administratorin oder ein Administrator entscheidet. Solange er offen ist, ist das Geld des Auftrags eingefroren: Nichts wird ausbezahlt, angenommen oder storniert.",
+    "overview": "Ein Streitfall ist eine Uneinigkeit zu einem Auftrag. Darüber entscheidet der Marktplatz, der das Portal betreibt, nicht Sie und nicht die Kundschaft. Solange er offen ist, ist das Geld des Auftrags eingefroren: Nichts wird ausbezahlt oder angenommen.",
     "sections": [
       {
         "title": "Jeder Streitfall",
         "items": [
-          "Jede Seite kann einen eröffnen, für einen Auftrag, der weder abgeschlossen noch storniert ist; einer pro Auftrag. Die andere Seite wird informiert.",
-          "«Als in Prüfung markieren» zeigt, dass er geprüft wird.",
-          "Streitfall lösen entscheidet für den Anbieter: Die Arbeit wird angenommen und die Bestellung abgeschlossen.",
-          "Streitfall schliessen (stornieren) entscheidet für den Kunden: Die Bestellung wird storniert.",
-          "Jeder Entscheid braucht eine Notiz, und beide Seiten werden informiert."
+          "Jede Seite kann einen eröffnen, für einen Auftrag, der weder abgeschlossen noch storniert ist; einer pro Auftrag. Die andere Seite und der Marktplatz werden informiert.",
+          "Der Marktplatz nimmt ihn in Prüfung und löst ihn dann für den Anbieter (die Arbeit wird angenommen und der Auftrag abgeschlossen) oder schliesst ihn für die Kundschaft (der Auftrag wird storniert).",
+          "Jeder Entscheid hat eine Notiz, und beide Seiten werden informiert.",
+          "Als Anbieter können Sie den Auftrag weiterhin stornieren und der Kundschaft das Geld zurückerstatten, solange er offen ist. Sonst entfernt niemand einen Streitfall.",
+          "Beim Marktplatz listet diese Seite die Streitfälle aller Firmen, und seine Administratoren entscheiden sie hier."
         ]
       }
     ]

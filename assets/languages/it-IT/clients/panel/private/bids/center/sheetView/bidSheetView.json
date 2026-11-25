@@ -27,5 +27,7 @@
   "deliveryDaysValue": {
     "one": "{value} giorno",
     "other": "{value} giorni"
-  }
+  },
+  "hiddenByPlatform": "Nascosta dalla piattaforma",
+  "hiddenByPlatformNote": "Dopo una segnalazione, la piattaforma ha nascosto questa offerta al cliente. Solo la piattaforma può mostrarla di nuovo."
 }

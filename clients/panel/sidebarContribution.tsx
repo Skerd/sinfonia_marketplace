@@ -1,4 +1,4 @@
-import {IconAlertTriangle, IconCalendar, IconLayoutBoard, IconClipboardList, IconFlag, IconGavel, IconListDetails, IconPackage, IconShoppingBag, IconStar, IconTag, IconTargetArrow} from "@tabler/icons-react";
+import {IconAlertTriangle, IconCalendar, IconLayoutBoard, IconClipboardList, IconGavel, IconListDetails, IconPackage, IconShoppingBag, IconStar, IconTag, IconTargetArrow} from "@tabler/icons-react";
 import type {SidebarContribution} from "@coreModule/helpers/types/sidebarContribution.types.ts";
 import type {NavGroup, NavItem} from "@coreModule/helpers/types/sidebarNav.types.ts";
 import type {ResolveLanguageKey} from "@coreModule/helpers/hocs/withLanguage.tsx";
@@ -14,7 +14,6 @@ const marketplaceSidebarContribution: SidebarContribution = {
             {title: resolveLanguageKey("menus.marketplace.listings.title"), url: "/marketplace/listings", icon: IconListDetails, permissions: ["listings"], usersPermissions: [], atLeastOnePermission: true},
             {title: resolveLanguageKey("menus.marketplace.listingaddons.title"), url: "/marketplace/listingaddons", icon: IconPackage, permissions: ["listingaddons"], usersPermissions: [], atLeastOnePermission: true},
             {title: resolveLanguageKey("menus.marketplace.listingpackages.title"), url: "/marketplace/listingpackages", icon: IconPackage, permissions: ["listingpackages"], usersPermissions: [], atLeastOnePermission: true},
-            {title: resolveLanguageKey("menus.marketplace.listingflags.title"), url: "/marketplace/listingflags", icon: IconFlag, permissions: ["listingflags"], usersPermissions: [], atLeastOnePermission: true},
             {title: resolveLanguageKey("menus.marketplace.promotions.title"), url: "/marketplace/promotions", icon: IconTag, permissions: ["promotions"], usersPermissions: [], atLeastOnePermission: true},
             // Portal jobs matched to this company's providers (D143).
             {title: resolveLanguageKey("menus.marketplace.leads.title"), url: "/marketplace/leads", icon: IconTargetArrow, permissions: ["taskleads"], usersPermissions: [], atLeastOnePermission: true},

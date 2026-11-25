@@ -64,28 +64,15 @@
   "ordersGroup": "Orders",
   "bookingsGroup": "Bookings",
   "reviewsGroup": "Reviews",
-  "flagsGroup": "Reports",
   "orderRow": "Order",
   "bookingRow": "Booking",
   "reviewRow": "Review",
-  "flagRow": "Report",
   "orderStatus": {
     "pending": "Pending",
     "accepted": "Accepted",
     "in_progress": "In Progress",
     "completed": "Completed",
     "cancelled": "Cancelled"
-  },
-  "listingFlagStatus": {
-    "pending": "Pending",
-    "reviewed": "Reviewed",
-    "dismissed": "Dismissed"
-  },
-  "listingFlagReason": {
-    "inappropriate": "Inappropriate content",
-    "spam": "Spam",
-    "misleading": "Misleading",
-    "other": "Other"
   },
   "deliveryDaysValue": {
     "one": "{value} day",
@@ -95,5 +82,7 @@
   "serviceAreaValue": {
     "one": "Within {value} km",
     "other": "Within {value} km"
-  }
+  },
+  "hiddenByPlatform": "Hidden by the platform",
+  "hiddenByPlatformNote": "After a report, the platform took this listing off the portal, search and your site. Only the platform can show it again."
 }

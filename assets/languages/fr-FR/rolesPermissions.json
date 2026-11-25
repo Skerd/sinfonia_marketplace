@@ -4,7 +4,6 @@
     "Disputes": "Litiges",
     "Listingaddons": "Modules complémentaires d'annonce",
     "Listingcategories": "Catégories d'annonces",
-    "Listingflags": "Signalements d'annonce",
     "Listingpackages": "Packages d'annonce",
     "Listings": "Annonces",
     "Marketplacebids": "Offres de la place de marché",
@@ -74,22 +73,6 @@
       "slug": "Identifiant",
       "updatedAt": "Mis à jour le",
       "delivery": "Où le travail a lieu"
-    },
-    "Listingflags": {
-      "comment": "Commentaire",
-      "createdAt": "Créé le",
-      "createdBy": "Créé par",
-      "deletedAt": "Supprimé le",
-      "deletedBy": "Supprimé par",
-      "listing": "Annonce",
-      "listingflags": "Signalements d'annonce",
-      "reason": "Motif",
-      "resolution": "Résolution",
-      "status": "Statut",
-      "updatedAt": "Mis à jour le",
-      "user": "Utilisateur",
-      "resolve": "Résoudre",
-      "dismiss": "Classer sans suite"
     },
     "Listingpackages": {
       "createdAt": "Créé le",

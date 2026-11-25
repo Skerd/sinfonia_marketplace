@@ -68,19 +68,6 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             position: {x: 520, y: 240},
         },
         {
-            id: "ListingFlag",
-            label: "ListingFlag",
-            cluster: "marketplace",
-            module: "marketplace",
-            description:
-                "User report on a listing (one per user and listing). Admins resolve it (optionally deactivating the listing) or dismiss it.",
-            keyFields: ["listing", "reason", "comment", "status", "resolution"],
-            apiPath: "/api/marketplace/listingFlag",
-            panelRoute: "/marketplace/listingflags",
-            actions: ["resolve", "dismiss"],
-            position: {x: 520, y: 380},
-        },
-        {
             id: "Promotion",
             label: "Promotion",
             cluster: "marketplace",
@@ -173,7 +160,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             cluster: "marketplace",
             module: "marketplace",
             description:
-                "One per non-final order; freezes the order's money. Resolve = provider wins (complete + release); close = customer wins (cancel + refund).",
+                "One per non-final order; freezes the order's money. The marketplace operator decides (D191): resolve = provider wins (complete + release); close = customer wins (cancel + refund).",
             keyFields: ["order", "initiator", "reason", "status", "resolution"],
             apiPath: "/api/marketplace/dispute",
             panelRoute: "/marketplace/disputes",
@@ -185,7 +172,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             label: "Review",
             cluster: "marketplace",
             module: "marketplace",
-            description: "Customer's rating of a completed order (once); feeds the listing's rating and the provider's reputation.",
+            description: "Customer's rating of a completed order (once), published as written; feeds the listing's rating and the provider's reputation. Nobody deletes one; the platform may hide one after a report (D191).",
             keyFields: ["order", "listing", "reviewer", "rating", "comment"],
             apiPath: "/api/marketplace/review",
             panelRoute: "/marketplace/reviews",
@@ -240,7 +227,6 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
         {id: "e-list-cat", source: "Listing", target: "ListingCategory", label: "category"},
         {id: "e-pkg-list", source: "ListingPackage", target: "Listing", label: "tier of"},
         {id: "e-addon-list", source: "ListingAddOn", target: "Listing", label: "extra on"},
-        {id: "e-flag-list", source: "ListingFlag", target: "Listing", label: "reports"},
         {id: "e-promo-list", source: "Promotion", target: "Listing", label: "boosts"},
         {id: "e-task-cat", source: "TaskRequest", target: "ListingCategory", label: "category"},
         {id: "e-bid-task", source: "Bid", target: "TaskRequest", label: "on"},
@@ -443,7 +429,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             id: "marketplace-dispute",
             title: "Disputes → refund",
             summary:
-                "A party raises a dispute, the order's money freezes, and an admin decides: resolve (provider wins, release) or close (customer wins, refund).",
+                "A party raises a dispute, the order's money freezes, and the marketplace operator decides: resolve (provider wins, release) or close (customer wins, refund).",
             module: "marketplace",
             steps: [
                 {
@@ -456,14 +442,14 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
                 {
                     id: "md-freeze",
                     label: "Money frozen",
-                    description: "No accept / release / cancel",
-                    detail: "Delivery acceptance, milestone release, auto-accept, and cancel are blocked.",
+                    description: "No accept / release",
+                    detail: "Delivery acceptance, milestone release, auto-accept and the customer's cancel are blocked; the provider may still cancel and refund.",
                     position: {x: 220, y: 80},
                 },
                 {
                     id: "md-review",
                     label: "Under review",
-                    description: "Admin",
+                    description: "Marketplace operator",
                     detail: "Start review moves it from open to under review.",
                     position: {x: 440, y: 80},
                 },
@@ -493,28 +479,28 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             id: "marketplace-moderation",
             title: "Moderation & promotion",
             summary:
-                "Users report listings; admins resolve or dismiss with a note, optionally deactivating the listing. Providers boost active listings with promotions.",
+                "People report listings, task requests, bids and reviews to the platform, which hides them from the public or dismisses the report (D191). Providers boost active listings with promotions.",
             module: "marketplace",
             steps: [
                 {
                     id: "mm-flag",
                     label: "Report",
-                    description: "One per user and listing",
-                    detail: "Inappropriate, spam, misleading, or other; private to the reporter and admins.",
+                    description: "To the platform",
+                    detail: "Anyone signed in reports a public listing, task request, bid or review to the platform's report desk; the company never learns who.",
                     position: {x: 0, y: 80},
                 },
                 {
                     id: "mm-decide",
-                    label: "Resolve",
-                    description: "Admin + note",
-                    detail: "Upholds the report; choose deactivate to take the listing offline.",
+                    label: "Hide",
+                    description: "Platform",
+                    detail: "The platform hides it from the public and from every rating; the company still sees it, marked Hidden by the platform.",
                     position: {x: 220, y: 80},
                 },
                 {
                     id: "mm-dismiss",
                     label: "Dismiss",
-                    description: "Admin + note",
-                    detail: "Rejects the report; the listing stays live.",
+                    description: "Platform",
+                    detail: "Closes the report; the item stays public.",
                     position: {x: 220, y: 260},
                 },
                 {
@@ -594,7 +580,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
                 },
                 {
                     title: "Listings",
-                    description: "Service offers with packages, add-ons, promotions (featured / sponsored), and user reports moderated by admins.",
+                    description: "Service offers with packages, add-ons and promotions (featured / sponsored); reports go to the platform's desk.",
                 },
                 {
                     title: "Task marketplace",
@@ -610,14 +596,13 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
                 },
                 {
                     title: "Disputes & reviews",
-                    description: "Admin-decided disputes that freeze the order's money; one review per completed order.",
+                    description: "Disputes the marketplace operator decides, which freeze the order's money; one review per completed order, published as written.",
                 },
             ],
             apis: [
                 "/api/marketplace/listing",
                 "/api/marketplace/listingPackage",
                 "/api/marketplace/listingAddOn",
-                "/api/marketplace/listingFlag",
                 "/api/marketplace/listingCategory",
                 "/api/marketplace/promotion",
                 "/api/marketplace/providerProfile",

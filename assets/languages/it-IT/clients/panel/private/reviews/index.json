@@ -11,8 +11,8 @@
         "title": "Ogni recensione",
         "items": [
           "Solo il cliente dell'ordine può recensirlo, una volta, dopo che è completato. I clienti possono recensire anche dal loro account.",
-          "Le recensioni non si possono modificare una volta scritte.",
-          "Solo un amministratore può eliminare una recensione, cosa che toglie anche il suo voto."
+          "Le recensioni non si possono modificare una volta scritte, e nessuno nella tua azienda può eliminarne una: sono pubblicate come i clienti le hanno scritte.",
+          "Se una recensione viola le regole, segnalala alla piattaforma dal suo menu ⋯. Solo la piattaforma può nascondere una recensione; una recensione nascosta non conta più nel tuo voto e qui appare come «Nascosta dalla piattaforma»."
         ]
       }
     ]
@@ -28,6 +28,7 @@
     "orderId": "Ordine",
     "createdAt": "Creato",
     "deletedAt": "Eliminato",
-    "deletedBy": "Eliminato da"
+    "deletedBy": "Eliminato da",
+    "hiddenByPlatform": "Nascosta dalla piattaforma"
   }
 }

@@ -1,5 +1,8 @@
 import {compose} from "redux";
 import {useCallback, useEffect, useState} from "react";
+import {ReportDialog} from "@coreModule/components/custom/report/reportButton.tsx";
+import ReportMenuItem, {REPORT_TO_PLATFORM_ACTION} from "@coreModule/components/custom/report/reportMenuItem.tsx";
+import {REVIEW_REPORT_KIND} from "armonia/src/modules/marketplace/api/marketplace/private/review/review.dto.ts";
 import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLanguage.tsx";
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
 import {useAccess} from "@coreModule/helpers/hooks/useAccess.ts";
@@ -42,6 +45,7 @@ function ReviewSheetView({
     fetchId,
 }: ReviewSheetViewOwnProps & WithLanguageType) {
     const [sheetData, setSheetData] = useState<Record<string, unknown>>(reviewProp || {_id: fetchId});
+    const [action, setAction] = useState("");
     const access = useAccess("reviews");
     const viewConfig = useViewConfig("reviews", "sheet");
 
@@ -75,25 +79,32 @@ function ReviewSheetView({
     if (!viewConfig || !entityId) return null;
 
     return (
-        <SheetViewRenderer
-            config={viewConfig}
-            url="/api/marketplace/review/single"
-            fetchId={fetchId}
-            onDataFetched={setSheetData}
-            data={sheetData}
-            open={open}
-            onOpenChange={onOpenChange}
-            resolveLanguageKey={resolveLanguageKey}
-            // Named by what was reviewed and its stars, not by the comment text (UX-01).
-            headerTitle={<SheetNameTitle name={[reviewSubject(asReview), asReview.rating ? `★ ${asReview.rating}` : ""].filter(Boolean).join(" · ")} typeLabel={String(resolveLanguageKey("review"))} />}
-            access={access}
-            hideActions={hideActions}
-            onDelete={handleDelete}
-            onRestore={handleRestore}
-            editPath=""
-            hideEdit
-            deleteRestoreConfirmLabel={reviewRowLabel(asReview)}
-        />
+        <>
+            <SheetViewRenderer
+                config={viewConfig}
+                url="/api/marketplace/review/single"
+                fetchId={fetchId}
+                onDataFetched={setSheetData}
+                data={sheetData}
+                open={open}
+                onOpenChange={onOpenChange}
+                resolveLanguageKey={resolveLanguageKey}
+                // Named by what was reviewed and its stars, not by the comment text (UX-01).
+                headerTitle={<SheetNameTitle name={[reviewSubject(asReview), asReview.rating ? `★ ${asReview.rating}` : ""].filter(Boolean).join(" · ")} typeLabel={String(resolveLanguageKey("review"))} />}
+                access={access}
+                hideActions={hideActions}
+                onDelete={handleDelete}
+                onRestore={handleRestore}
+                editPath=""
+                hideEdit
+                deleteRestoreConfirmLabel={reviewRowLabel(asReview)}
+                actionMenuAllowCustomChildren
+                actionMenuChildren={<ReportMenuItem hidden={asReview.hiddenByPlatform} onAction={setAction} />}
+            />
+            {action === REPORT_TO_PLATFORM_ACTION && (
+                <ReportDialog kind={REVIEW_REPORT_KIND} recordId={entityId} open onOpenChange={(next) => { if (!next) setAction(""); }} />
+            )}
+        </>
     );
 }
 

@@ -19,6 +19,7 @@ import {AccessGatedGalleryCarousel} from "@coreModule/components/viewEngine/widg
 import {accessFieldPathExists} from "@coreModule/helpers/context/accessContext.tsx";
 import type {WithAxiosLifecycleRef} from "@coreModule/helpers/hocs/withAxios.tsx";
 import type {RefObject} from "react";
+import PlatformHiddenBadge from "@coreModule/components/custom/report/platformHiddenBadge.tsx";
 
 function listingEditPath(listing: Listing) {
     const params = new URLSearchParams();
@@ -172,12 +173,16 @@ function ListingCard({
                             title={row.title}
                             badgesBesideTitle
                             badges={
-                                <StatusBadge
-                                    tableConfigKey="listings"
-                                    field="status"
-                                    value={accessFieldPathExists(read, "status") ? row.status : undefined}
-                                    label={String(resolveLanguageKey(`statuses.${row.status}`))}
-                                />
+                                <>
+                                    <StatusBadge
+                                        tableConfigKey="listings"
+                                        field="status"
+                                        value={accessFieldPathExists(read, "status") ? row.status : undefined}
+                                        label={String(resolveLanguageKey(`statuses.${row.status}`))}
+                                    />
+                                    {/* The platform took it off the public after a report (D191). */}
+                                    <PlatformHiddenBadge hidden={row.hiddenByPlatform} />
+                                </>
                             }
                         >
                             {row.status !== "active" && !row.deletedAt && (

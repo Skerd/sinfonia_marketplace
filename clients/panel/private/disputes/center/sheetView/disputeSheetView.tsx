@@ -6,6 +6,7 @@ import {useAccess} from "@coreModule/helpers/hooks/useAccess.ts";
 import SheetViewRenderer from "@coreModule/components/viewEngine/SheetViewRenderer.tsx";
 import SheetNameTitle from "@coreModule/components/entityPage/sheet/sheetNameTitle.tsx";
 import StatusBadge from "@coreModule/components/entityPage/sheet/statusBadge.tsx";
+import {Badge} from "@coreModule/components/ui/badge.tsx";
 import {useViewConfig} from "@coreModule/helpers/hooks/useViewConfig.ts";
 import StartReviewDisputeDropdown from "@marketplaceModule/clients/panel/private/disputes/center/actions/startReviewDisputeDropdown.tsx";
 import ResolveDisputeDropdown from "@marketplaceModule/clients/panel/private/disputes/center/actions/resolveDisputeDropdown.tsx";
@@ -23,6 +24,8 @@ export type DisputeSheetViewOwnProps = {
     onRestore?: () => void;
     onListLifecyclePatched?: (patch: Partial<Dispute>) => void;
     fetchId?: string;
+    /** The marketplace operator reads every company's disputes through its own route (D191). */
+    singleUrl?: string;
 };
 
 function disputeRowTitle(dispute: Dispute): string {
@@ -40,6 +43,7 @@ function DisputeSheetView({
     onRestore = () => {},
     onListLifecyclePatched,
     fetchId,
+    singleUrl = "/api/marketplace/dispute/single",
 }: DisputeSheetViewOwnProps & WithLanguageType) {
     const [sheetData, setSheetData] = useState<Record<string, unknown>>(disputeProp || {_id: fetchId});
     const [action, setAction] = useState("");
@@ -89,7 +93,7 @@ function DisputeSheetView({
         <>
             <SheetViewRenderer
                 config={viewConfig}
-                url="/api/marketplace/dispute/single"
+                url={singleUrl}
                 fetchId={fetchId}
                 onDataFetched={setSheetData}
                 data={sheetData}
@@ -98,13 +102,22 @@ function DisputeSheetView({
                 resolveLanguageKey={resolveLanguageKey}
                 // Named by the disputed order's listing or task, the order number as a badge (UX-01, UX-02).
                 headerTitle={<SheetNameTitle name={row.order?.listing?.title || row.order?.taskRequest?.title || (row.reason ? title : "")} code={row.order?.name} typeLabel={String(resolveLanguageKey("dispute"))} />}
-                headerDescription={<StatusBadge tableConfigKey="disputes" field="status" value={row.status} label={String(resolveLanguageKey(`status_values.${row.status}`))} />}
+                headerDescription={
+                    <>
+                        <StatusBadge tableConfigKey="disputes" field="status" value={row.status} label={String(resolveLanguageKey(`status_values.${row.status}`))} />
+                        {/* Only on the marketplace operator's list (D191): whose order is disputed. */}
+                        {row.company?.name ? <Badge variant="outline">{row.company.name}</Badge> : null}
+                    </>
+                }
                 access={access}
                 hideActions={hideActions}
                 onDelete={handleDelete}
                 onRestore={handleRestore}
                 editPath=""
                 hideEdit
+                // Neither party removes a dispute; the marketplace decides it (D191).
+                hideDelete
+                hideRestore
                 deleteRestoreConfirmLabel={row.reason || String(entityId)}
                 actionMenuAllowCustomChildren
                 actionMenuChildren={

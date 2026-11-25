@@ -1,20 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
   "title": "Controversie",
-  "description": "Esamina e risolvi le controversie tra clienti e fornitori.",
+  "description": "I disaccordi sugli ordini tra clienti e fornitori. Li decide il marketplace.",
   "help": {
     "ariaLabel": "Informazioni sulle controversie",
     "title": "Informazioni sulle controversie",
-    "overview": "Una controversia è un disaccordo su un ordine che decide un amministratore. Finché è aperta, i soldi dell'ordine sono congelati: nulla viene pagato, accettato o annullato.",
+    "overview": "Una controversia è un disaccordo su un ordine. La decide il marketplace che gestisce il portale, non tu né il cliente. Finché è aperta, i soldi dell'ordine sono congelati: nulla viene pagato o accettato.",
     "sections": [
       {
         "title": "Ogni controversia",
         "items": [
-          "Ciascuna parte può aprirne una su un ordine non completato né annullato; una per ordine. L'altra parte viene avvisata.",
-          "Segna come in revisione indica che un amministratore la sta esaminando.",
-          "Risolvi contestazione decide a favore del fornitore: il lavoro è accettato e l’ordine completato.",
-          "Chiudi contestazione (annulla) decide a favore del cliente: l’ordine è annullato.",
-          "Ogni decisione richiede una nota, ed entrambe le parti vengono avvisate."
+          "Ciascuna parte può aprirne una su un ordine non completato né annullato; una per ordine. L'altra parte e il marketplace vengono avvisati.",
+          "Il marketplace la mette in revisione, poi la risolve a favore del fornitore (il lavoro è accettato e l'ordine completato) o la chiude a favore del cliente (l'ordine è annullato).",
+          "Ogni decisione ha una nota, ed entrambe le parti vengono avvisate.",
+          "Come fornitore puoi comunque annullare l'ordine e rimborsare il cliente finché è aperta. Nessun altro rimuove una controversia.",
+          "Presso il marketplace, questa pagina elenca le controversie di tutte le aziende, e i suoi amministratori le decidono qui."
         ]
       }
     ]

@@ -1,20 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
   "title": "Litiges",
-  "description": "Examinez et résolvez les litiges entre clients et prestataires.",
+  "description": "Les désaccords sur les commandes entre clients et prestataires. La place de marché les tranche.",
   "help": {
     "ariaLabel": "À propos des litiges",
     "title": "À propos des litiges",
-    "overview": "Un litige est un désaccord sur une commande, tranché par un administrateur. Tant qu'il est ouvert, l'argent de la commande est gelé : rien n'est versé, accepté ou annulé.",
+    "overview": "Un litige est un désaccord sur une commande. C'est la place de marché qui gère le portail qui le tranche, pas vous ni le client. Tant qu'il est ouvert, l'argent de la commande est gelé : rien n'est versé ni accepté.",
     "sections": [
       {
         "title": "Chaque litige",
         "items": [
-          "Chaque partie peut en ouvrir un sur une commande ni terminée ni annulée ; un par commande. L'autre partie est prévenue.",
-          "Marquer en cours d'examen montre qu'un administrateur l'examine.",
-          "Résoudre le litige tranche en faveur du prestataire : le travail est accepté et la commande terminée.",
-          "Clore le litige (annuler) tranche en faveur du client : la commande est annulée.",
-          "Chaque décision demande une note, et les deux parties sont prévenues."
+          "Chaque partie peut en ouvrir un sur une commande ni terminée ni annulée ; un par commande. L'autre partie et la place de marché sont prévenues.",
+          "La place de marché le met en examen, puis le résout en faveur du prestataire (le travail est accepté et la commande terminée) ou le clôt en faveur du client (la commande est annulée).",
+          "Chaque décision est accompagnée d'une note, et les deux parties sont prévenues.",
+          "En tant que prestataire, vous pouvez toujours annuler la commande et rembourser le client tant qu'il est ouvert. Personne d'autre ne supprime un litige.",
+          "Chez la place de marché, cette page liste les litiges de toutes les entreprises, et ses administrateurs les tranchent ici."
         ]
       }
     ]

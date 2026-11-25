@@ -64,28 +64,15 @@
   "ordersGroup": "Porositë",
   "bookingsGroup": "Rezervimet",
   "reviewsGroup": "Vlerësimet",
-  "flagsGroup": "Raportimet",
   "orderRow": "Porosia",
   "bookingRow": "Rezervimi",
   "reviewRow": "Vlerësimi",
-  "flagRow": "Raportimi",
   "orderStatus": {
     "pending": "Në pritje",
     "accepted": "Pranuar",
     "in_progress": "Në progres",
     "completed": "Përfunduar",
     "cancelled": "Anuluar"
-  },
-  "listingFlagStatus": {
-    "pending": "Në pritje",
-    "reviewed": "Shqyrtuar",
-    "dismissed": "Hedhur poshtë"
-  },
-  "listingFlagReason": {
-    "inappropriate": "Përmbajtje e papërshtatshme",
-    "spam": "Spam",
-    "misleading": "Mashtruese",
-    "other": "Tjetër"
   },
   "deliveryDaysValue": {
     "one": "{value} ditë",
@@ -95,5 +82,7 @@
   "serviceAreaValue": {
     "one": "Brenda {value} km",
     "other": "Brenda {value} km"
-  }
+  },
+  "hiddenByPlatform": "Fshehur nga platforma",
+  "hiddenByPlatformNote": "Pas një raportimi, platforma e hoqi këtë listim nga portali, kërkimi dhe faqja juaj. Vetëm platforma mund ta shfaqë përsëri."
 }

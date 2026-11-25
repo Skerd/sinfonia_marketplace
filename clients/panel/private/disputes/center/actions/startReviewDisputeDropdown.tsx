@@ -14,8 +14,9 @@ type Props = WithLanguageType & {
 function StartReviewDisputeDropdown({dispute, onAction, resolveLanguageKey}: Props) {
     const {write} = useAccess("disputes");
 
+    // Only the marketplace operator's admins decide a dispute (D191); its list marks the rows they decide.
     const canShow =
-        !!write && !dispute.deletedAt && dispute.status === "open";
+        !!write && !!dispute.canDecide && !dispute.deletedAt && dispute.status === "open";
 
     if (!canShow) {
         return null;

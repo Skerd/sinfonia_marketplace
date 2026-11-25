@@ -10,7 +10,7 @@
       {
         "title": "Graphe des modèles",
         "items": [
-          "Annonces avec leurs packages, modules, signalements et promotions ; demandes de tâches et offres ; commandes avec livraisons, étapes, révisions, réservations, litiges et avis ; profils de prestataires ; et le registre de séquestre de la finance.",
+          "Annonces avec leurs packages, modules et promotions ; demandes de tâches et offres ; commandes avec livraisons, étapes, révisions, réservations, litiges et avis ; profils de prestataires ; et le registre de séquestre de la finance.",
           "Cliquez sur un nœud pour sa description, ses champs clés, son chemin d’API, ses actions et sa page du panneau."
         ]
       },
@@ -42,7 +42,6 @@
     "Listing": "Annonce",
     "ListingPackage": "Package d'annonce",
     "ListingAddOn": "Module complémentaire d'annonce",
-    "ListingFlag": "Signalement d'annonce",
     "Promotion": "Promotion",
     "TaskRequest": "Demande de tâche",
     "Bid": "Offre",

@@ -4,7 +4,6 @@
     "Disputes": "Controversie",
     "Listingaddons": "Componenti aggiuntivi degli annunci",
     "Listingcategories": "Categorie di annunci",
-    "Listingflags": "Segnalazioni degli annunci",
     "Listingpackages": "Pacchetti degli annunci",
     "Listings": "Annunci",
     "Marketplacebids": "Offerte del marketplace",
@@ -74,22 +73,6 @@
       "slug": "Slug",
       "updatedAt": "Aggiornato il",
       "delivery": "Dove si svolge il lavoro"
-    },
-    "Listingflags": {
-      "comment": "Commento",
-      "createdAt": "Creato il",
-      "createdBy": "Creato da",
-      "deletedAt": "Eliminato il",
-      "deletedBy": "Eliminato da",
-      "listing": "Annuncio",
-      "listingflags": "Segnalazioni degli annunci",
-      "reason": "Motivo",
-      "resolution": "Risoluzione",
-      "status": "Stato",
-      "updatedAt": "Aggiornato il",
-      "user": "Utente",
-      "resolve": "Risolvi",
-      "dismiss": "Archivia la segnalazione"
     },
     "Listingpackages": {
       "createdAt": "Creato il",

@@ -17,5 +17,7 @@
   "updatedAt": "Aktualisiert am",
   "createdBy": "Erstellt von",
   "deletedAt": "Gelöscht am",
-  "deletedBy": "Gelöscht von"
+  "deletedBy": "Gelöscht von",
+  "hiddenByPlatform": "Von der Plattform ausgeblendet",
+  "hiddenByPlatformNote": "Nach einer Meldung hat die Plattform diese Bewertung von den öffentlichen Seiten und aus der Durchschnittsnote genommen. Nur die Plattform kann sie wieder anzeigen."
 }

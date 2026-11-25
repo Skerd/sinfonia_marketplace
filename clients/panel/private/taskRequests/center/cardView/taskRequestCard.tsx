@@ -19,6 +19,7 @@ import {accessFieldPathExists} from "@coreModule/helpers/context/accessContext.t
 import type {WithAxiosLifecycleRef} from "@coreModule/helpers/hocs/withAxios.tsx";
 import type {RefObject} from "react";
 import {formatNumber} from "@coreModule/helpers/general/numbers.ts";
+import PlatformHiddenBadge from "@coreModule/components/custom/report/platformHiddenBadge.tsx";
 
 /** The "up to" budget ("€ 300") when the session may read it; it carries the currency (UX-07). */
 function formatBudget(entity: TaskRequest, read: unknown): string | undefined {
@@ -128,7 +129,13 @@ function TaskRequestCard({
                         subtitlePath="category.name"
                         subtitle={row.category?.name}
                         badgesBesideTitle
-                        badges={<StatusBadge tableConfigKey="taskrequests" field="status" value={row.status} label={String(resolveLanguageKey(`statuses.${row.status}`))} />}
+                        badges={
+                            <>
+                                <StatusBadge tableConfigKey="taskrequests" field="status" value={row.status} label={String(resolveLanguageKey(`statuses.${row.status}`))} />
+                                {/* The platform took it off the task board after a report (D191). */}
+                                <PlatformHiddenBadge hidden={row.hiddenByPlatform} />
+                            </>
+                        }
                     >
                         <NotifyAllTaskRequestDropdown entity={row} onAction={setAction} />
                         <CloseTaskRequestDropdown entity={row} onAction={setAction} />

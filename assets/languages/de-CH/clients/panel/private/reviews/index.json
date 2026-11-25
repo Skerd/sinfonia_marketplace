@@ -11,8 +11,8 @@
         "title": "Jede Bewertung",
         "items": [
           "Nur der Kunde des Auftrags kann ihn bewerten, einmal, nachdem er abgeschlossen ist. Kunden können auch in ihrem Konto bewerten.",
-          "Bewertungen lassen sich nach dem Schreiben nicht mehr ändern.",
-          "Nur eine Administratorin oder ein Administrator kann eine Bewertung löschen; damit fällt auch ihre Note weg."
+          "Bewertungen lassen sich nach dem Schreiben nicht mehr ändern, und niemand in Ihrer Firma kann eine löschen: Sie erscheinen so, wie die Kundschaft sie geschrieben hat.",
+          "Verstösst eine Bewertung gegen die Regeln, melden Sie sie der Plattform über ihr ⋯-Menü. Nur die Plattform kann eine Bewertung ausblenden; eine ausgeblendete zählt nicht mehr zu Ihrer Note und erscheint hier als «Von der Plattform ausgeblendet»."
         ]
       }
     ]
@@ -28,6 +28,7 @@
     "orderId": "Auftrag",
     "createdAt": "Erstellt",
     "deletedAt": "Gelöscht",
-    "deletedBy": "Gelöscht von"
+    "deletedBy": "Gelöscht von",
+    "hiddenByPlatform": "Von der Plattform ausgeblendet"
   }
 }

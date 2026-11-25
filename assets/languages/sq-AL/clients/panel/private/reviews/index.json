@@ -11,8 +11,8 @@
         "title": "Çdo vlerësim",
         "items": [
           "Vetëm klienti i porosisë mund ta vlerësojë, një herë, pasi të jetë përfunduar. Klientët mund të vlerësojnë edhe nga llogaria e tyre.",
-          "Vlerësimet nuk mund të ndryshohen pasi janë shkruar.",
-          "Vetëm një administrator mund ta fshijë një vlerësim, gjë që heq edhe notën e tij."
+          "Vlerësimet nuk mund të ndryshohen pasi janë shkruar, dhe askush në kompaninë tuaj nuk mund ta fshijë një: publikohen ashtu siç i shkruan klientët.",
+          "Nëse një vlerësim shkel rregullat, raportojeni te platforma nga menyja ⋯ e tij. Vetëm platforma mund ta fshehë një vlerësim; një vlerësim i fshehur nuk llogaritet më në notën tuaj dhe shfaqet këtu si «Fshehur nga platforma»."
         ]
       }
     ]
@@ -28,6 +28,7 @@
     "orderId": "Porosia",
     "createdAt": "Krijuar",
     "deletedAt": "Fshirë",
-    "deletedBy": "Fshirë nga"
+    "deletedBy": "Fshirë nga",
+    "hiddenByPlatform": "Fshehur nga platforma"
   }
 }

@@ -57,5 +57,7 @@
   },
   "compactView": "Compact",
   "cardsView": "Cards",
-  "toggleReferenceListView": "Toggle view"
+  "toggleReferenceListView": "Toggle view",
+  "hiddenByPlatform": "Hidden by the platform",
+  "hiddenByPlatformNote": "After a report, the platform took this task request off the task board and out of matching. Only the platform can show it again."
 }

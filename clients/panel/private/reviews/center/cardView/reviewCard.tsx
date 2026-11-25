@@ -10,6 +10,10 @@ import EntityCardRow from "@coreModule/components/entityPage/list/card/entityCar
 import {accessFieldPathExists} from "@coreModule/helpers/context/accessContext.tsx";
 import type {WithAxiosLifecycleRef} from "@coreModule/helpers/hocs/withAxios.tsx";
 import type {RefObject} from "react";
+import {ReportDialog} from "@coreModule/components/custom/report/reportButton.tsx";
+import ReportMenuItem, {REPORT_TO_PLATFORM_ACTION} from "@coreModule/components/custom/report/reportMenuItem.tsx";
+import {REVIEW_REPORT_KIND} from "armonia/src/modules/marketplace/api/marketplace/private/review/review.dto.ts";
+import PlatformHiddenBadge from "@coreModule/components/custom/report/platformHiddenBadge.tsx";
 
 /** What was reviewed (the listing, else the order's task request) and its stars, each only when readable (UX-01). */
 function reviewCardTitle(review: Review, read: unknown): string {
@@ -62,10 +66,22 @@ function ReviewCard({
             titlePath="listing.title"
             innerRef={innerRef}
             sheetProps={() => ({fetchId: fetchId ?? review._id})}
+            extraDialogs={({action, setAction, entity}) => (
+                action === REPORT_TO_PLATFORM_ACTION ? (
+                    <ReportDialog kind={REVIEW_REPORT_KIND} recordId={entity._id} open onOpenChange={(next) => { if (!next) setAction(""); }} />
+                ) : null
+            )}
         >
-            {({entity: row, read}) => (
+            {({entity: row, read, setAction}) => (
                 <>
-                    <EntityCard.Header titlePath={["listing.title", "order", "rating"]} title={reviewCardTitle(row, read)} />
+                    <EntityCard.Header
+                        titlePath={["listing.title", "order", "rating"]}
+                        title={reviewCardTitle(row, read)}
+                        badgesBesideTitle
+                        badges=<PlatformHiddenBadge hidden={row.hiddenByPlatform} />
+                    >
+                        <ReportMenuItem hidden={row.hiddenByPlatform} onAction={setAction} />
+                    </EntityCard.Header>
                     <EntityCard.Body>
                         <EntityCardRow
                             icon={IconUser}

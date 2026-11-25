@@ -3,7 +3,7 @@
   "cancel": "Cancel",
   "raise": {
     "title": "Open a dispute",
-    "description": "Describe the issue. An admin may put the dispute under review; delivery acceptance stays blocked until the dispute is cleared.",
+    "description": "Describe the issue. The marketplace reviews and decides the dispute; delivery acceptance stays blocked until it does.",
     "reasonLabel": "Reason",
     "reasonPlaceholder": "What went wrong?",
     "confirm": "Submit dispute",

@@ -57,5 +57,7 @@
   },
   "compactView": "Kompakt",
   "cardsView": "Karten",
-  "toggleReferenceListView": "Ansicht umschalten"
+  "toggleReferenceListView": "Ansicht umschalten",
+  "hiddenByPlatform": "Von der Plattform ausgeblendet",
+  "hiddenByPlatformNote": "Nach einer Meldung hat die Plattform diese Ausschreibung von der Auftragsbörse und aus der Vermittlung genommen. Nur die Plattform kann sie wieder anzeigen."
 }

@@ -64,28 +64,15 @@
   "ordersGroup": "Commandes",
   "bookingsGroup": "Réservations",
   "reviewsGroup": "Avis",
-  "flagsGroup": "Signalements",
   "orderRow": "Commande",
   "bookingRow": "Réservation",
   "reviewRow": "Avis",
-  "flagRow": "Signalement",
   "orderStatus": {
     "pending": "En attente",
     "accepted": "Accepté",
     "in_progress": "En cours",
     "completed": "Terminé",
     "cancelled": "Annulé"
-  },
-  "listingFlagStatus": {
-    "pending": "En attente",
-    "reviewed": "Examiné",
-    "dismissed": "Rejeté"
-  },
-  "listingFlagReason": {
-    "inappropriate": "Contenu inapproprié",
-    "spam": "Spam",
-    "misleading": "Trompeur",
-    "other": "Autre"
   },
   "deliveryDaysValue": {
     "one": "{value} jour",
@@ -95,5 +82,7 @@
   "serviceAreaValue": {
     "one": "Dans un rayon de {value} km",
     "other": "Dans un rayon de {value} km"
-  }
+  },
+  "hiddenByPlatform": "Masquée par la plateforme",
+  "hiddenByPlatformNote": "Après un signalement, la plateforme a retiré cette annonce du portail, de la recherche et de votre site. Seule la plateforme peut la réafficher."
 }

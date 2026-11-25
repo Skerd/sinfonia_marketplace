@@ -3,7 +3,7 @@
   "cancel": "Annulla",
   "raise": {
     "title": "Apri una controversia",
-    "description": "Descrivi il problema. Un amministratore può mettere in revisione la controversia; l'accettazione della consegna resta bloccata fino alla risoluzione della controversia.",
+    "description": "Descrivi il problema. Il marketplace esamina la controversia e la decide; l'accettazione della consegna resta bloccata fino ad allora.",
     "reasonLabel": "Motivo",
     "reasonPlaceholder": "Cosa è andato storto?",
     "confirm": "Invia controversia",

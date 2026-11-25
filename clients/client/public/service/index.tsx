@@ -23,6 +23,7 @@ import {useServicesConfig} from "@marketplaceModule/clients/client/public/shared
 import PortalSellerCard from "@coreModule/clients/portal/shared/portalSellerCard.tsx";
 import {PortalKeepButton} from "@coreModule/clients/portal/shared/portalSaved.tsx";
 import {PortalInlineSignIn} from "@coreModule/clients/portal/shared/portalInlineSignIn.tsx";
+import ReportButton from "@coreModule/components/custom/report/reportButton.tsx";
 import {ORDER_NOTE_MAX} from "armonia/src/modules/marketplace/api/marketplace/private/order/order.schema-def.ts";
 import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx";
 import {Button} from "@coreModule/components/ui/button.tsx";
@@ -463,6 +464,8 @@ function ServicePage({resolveLanguageKey, languageCode}: WithLanguageType) {
                                 <p className="text-xs leading-relaxed text-muted-foreground">{resolveLanguageKey("orderHint")}</p>
                             </div>
                         )}
+                        {/* To the platform, not the seller (D191); a signed-in visitor's, never on their own listing. */}
+                        {isAuthenticated && !isOwnListing ? <ReportButton kind="marketplace.listing" recordId={listing._id} className="self-start" /> : null}
                     </div>
                 </div>
             </div>

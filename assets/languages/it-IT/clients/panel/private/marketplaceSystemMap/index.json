@@ -10,7 +10,7 @@
       {
         "title": "Grafo dei modelli",
         "items": [
-          "Annunci con pacchetti, componenti aggiuntivi, segnalazioni e promozioni; richieste di attività e offerte; ordini con consegne, milestone, revisioni, prenotazioni, controversie e recensioni; profili fornitore; e il registro del deposito della finanza.",
+          "Annunci con pacchetti, componenti aggiuntivi e promozioni; richieste di attività e offerte; ordini con consegne, milestone, revisioni, prenotazioni, controversie e recensioni; profili fornitore; e il registro del deposito della finanza.",
           "Clicca un nodo per descrizione, campi chiave, percorso API, azioni e pagina del pannello."
         ]
       },
@@ -42,7 +42,6 @@
     "Listing": "Annuncio",
     "ListingPackage": "Pacchetto dell'annuncio",
     "ListingAddOn": "Componente aggiuntivo dell'annuncio",
-    "ListingFlag": "Segnalazione dell'annuncio",
     "Promotion": "Promozione",
     "TaskRequest": "Richiesta di attività",
     "Bid": "Offerta",

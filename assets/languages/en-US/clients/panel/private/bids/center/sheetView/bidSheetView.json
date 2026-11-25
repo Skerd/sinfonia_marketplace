@@ -27,5 +27,7 @@
   "deliveryDaysValue": {
     "one": "{value} day",
     "other": "{value} days"
-  }
+  },
+  "hiddenByPlatform": "Hidden by the platform",
+  "hiddenByPlatformNote": "After a report, the platform hid this bid from the buyer. Only the platform can show it again."
 }

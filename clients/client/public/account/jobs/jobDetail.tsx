@@ -19,6 +19,7 @@ import {useSectionBase} from "@coreModule/clients/portal/shared/sectionBase.tsx"
 import {usePortalTitle} from "@coreModule/clients/portal/shared/portalTitle.ts";
 import {Button} from "@coreModule/components/ui/button.tsx";
 import {useQuoteReceived} from "@marketplaceModule/helpers/hooks/useTaskLiveUpdates.ts";
+import ReportButton from "@coreModule/components/custom/report/reportButton.tsx";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/account/jobs/jobDetail.tsx";
 
@@ -170,6 +171,8 @@ function JobDetailPage({resolveLanguageKey}: WithLanguageType) {
                                                 <ServiceStatus kind="bidStatus" value={bid.status} />
                                             </div>
                                             {bid.proposal && <p className="whitespace-pre-line text-[15px] leading-relaxed text-muted-foreground">{bid.proposal}</p>}
+                                            {/* A quote that breaks the rules goes to the platform, which alone may hide it (D191). */}
+                                            <ReportButton kind="marketplace.bid" recordId={bid._id} variant="link" className="self-start" />
                                             {pending && isOpen && (
                                                 confirmBidId === bid._id ? (
                                                     <div className="flex flex-col gap-3 rounded-xl bg-muted p-4">

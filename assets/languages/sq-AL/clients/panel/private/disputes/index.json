@@ -1,20 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
   "title": "Mosmarrëveshjet",
-  "description": "Shqyrtoni dhe zgjidhni mosmarrëveshjet ndërmjet klientëve dhe ofruesve.",
+  "description": "Mosmarrëveshjet për porositë ndërmjet klientëve dhe ofruesve. I vendos tregu.",
   "help": {
     "ariaLabel": "Rreth mosmarrëveshjeve",
     "title": "Rreth mosmarrëveshjeve",
-    "overview": "Një mosmarrëveshje është një kundërshti për një porosi që e vendos një administrator. Sa kohë është e hapur, paratë e porosisë janë të ngrira: asgjë nuk paguhet, nuk pranohet e nuk anulohet.",
+    "overview": "Një mosmarrëveshje është një kundërshti për një porosi. E vendos tregu që drejton portalin, jo ju dhe as klienti. Sa kohë është e hapur, paratë e porosisë janë të ngrira: asgjë nuk paguhet e nuk pranohet.",
     "sections": [
       {
         "title": "Çdo mosmarrëveshje",
         "items": [
-          "Secila palë mund të hapë një për një porosi që nuk është përfunduar ose anuluar; një për porosi. Pala tjetër njoftohet.",
-          "Shëno në shqyrtim tregon që një administrator po e shqyrton.",
-          "Zgjidh mosmarrëveshjen vendos në favor të ofruesit: puna pranohet dhe porosia mbyllet.",
-          "Mbyll mosmarrëveshjen (anulo) vendos në favor të klientit: porosia anulohet.",
-          "Çdo vendim kërkon një shënim, dhe të dyja palët njoftohen."
+          "Secila palë mund të hapë një për një porosi që nuk është përfunduar ose anuluar; një për porosi. Pala tjetër dhe tregu njoftohen.",
+          "Tregu e vendos në shqyrtim, pastaj e zgjidh në favor të ofruesit (puna pranohet dhe porosia përfundon) ose e mbyll në favor të klientit (porosia anulohet).",
+          "Çdo vendim ka një shënim, dhe të dyja palët njoftohen.",
+          "Si ofrues mund ta anuloni porosinë dhe t'ia ktheni paratë klientit sa kohë është e hapur. Askush tjetër nuk e heq një mosmarrëveshje.",
+          "Te tregu, kjo faqe liston mosmarrëveshjet e të gjitha kompanive, dhe administratorët e tij i vendosin këtu."
         ]
       }
     ]

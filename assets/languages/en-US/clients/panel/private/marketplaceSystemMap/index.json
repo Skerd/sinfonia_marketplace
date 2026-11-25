@@ -10,7 +10,7 @@
       {
         "title": "Model graph",
         "items": [
-          "Listings with their packages, add-ons, reports, and promotions; task requests and bids; orders with deliveries, milestones, revisions, bookings, disputes, and reviews; provider profiles; and the finance escrow ledger.",
+          "Listings with their packages, add-ons, and promotions; task requests and bids; orders with deliveries, milestones, revisions, bookings, disputes, and reviews; provider profiles; and the finance escrow ledger.",
           "Click a node for its description, key fields, API path, actions, and panel page."
         ]
       },
@@ -42,7 +42,6 @@
     "Listing": "Listing",
     "ListingPackage": "Listing package",
     "ListingAddOn": "Listing add-on",
-    "ListingFlag": "Listing report",
     "Promotion": "Promotion",
     "TaskRequest": "Task request",
     "Bid": "Bid",

@@ -4,7 +4,6 @@
     "Disputes": "Streitfälle",
     "Listingaddons": "Inserat-Zusatzleistungen",
     "Listingcategories": "Inseratkategorien",
-    "Listingflags": "Inserat-Meldungen",
     "Listingpackages": "Inseratpakete",
     "Listings": "Inserate",
     "Marketplacebids": "Marktplatz-Offerten",
@@ -74,22 +73,6 @@
       "slug": "Slug",
       "updatedAt": "Aktualisiert am",
       "delivery": "Wo die Arbeit stattfindet"
-    },
-    "Listingflags": {
-      "comment": "Kommentar",
-      "createdAt": "Erstellt am",
-      "createdBy": "Erstellt von",
-      "deletedAt": "Gelöscht am",
-      "deletedBy": "Gelöscht von",
-      "listing": "Inserat",
-      "listingflags": "Inserat-Meldungen",
-      "reason": "Grund",
-      "resolution": "Lösung",
-      "status": "Status",
-      "updatedAt": "Aktualisiert am",
-      "user": "Benutzer",
-      "resolve": "Erledigen",
-      "dismiss": "Verwerfen"
     },
     "Listingpackages": {
       "createdAt": "Erstellt am",

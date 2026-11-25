@@ -27,5 +27,7 @@
   "deliveryDaysValue": {
     "one": "{value} ditë",
     "other": "{value} ditë"
-  }
+  },
+  "hiddenByPlatform": "Fshehur nga platforma",
+  "hiddenByPlatformNote": "Pas një raportimi, platforma e fshehu këtë ofertë nga klienti. Vetëm platforma mund ta shfaqë përsëri."
 }

@@ -3,7 +3,7 @@
   "cancel": "Annuler",
   "raise": {
     "title": "Ouvrir un litige",
-    "description": "Décrivez le problème. Un administrateur peut mettre le litige en examen ; l'acceptation de la livraison reste bloquée jusqu'à ce que le litige soit résolu.",
+    "description": "Décrivez le problème. La place de marché examine le litige et le tranche ; l'acceptation de la livraison reste bloquée jusque-là.",
     "reasonLabel": "Motif",
     "reasonPlaceholder": "Qu'est-ce qui n'a pas fonctionné ?",
     "confirm": "Soumettre un litige",

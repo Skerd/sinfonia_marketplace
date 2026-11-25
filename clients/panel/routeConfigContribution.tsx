@@ -21,9 +21,6 @@ const AllReviews = lazy(() => import("@marketplaceModule/clients/panel/private/r
 const CreateReview = lazy(() => import("@marketplaceModule/clients/panel/private/reviews/createReview.tsx"));
 const AllPromotions = lazy(() => import("@marketplaceModule/clients/panel/private/promotions"));
 const CreatePromotion = lazy(() => import("@marketplaceModule/clients/panel/private/promotions/createPromotion.tsx"));
-const AllListingFlags = lazy(() => import("@marketplaceModule/clients/panel/private/listingFlags"));
-const CreateListingFlag = lazy(() => import("@marketplaceModule/clients/panel/private/listingFlags/createListingFlag.tsx"));
-const EditListingFlag = lazy(() => import("@marketplaceModule/clients/panel/private/listingFlags/editListingFlag.tsx"));
 const AllProviderProfiles = lazy(() => import("@marketplaceModule/clients/panel/private/providerProfile"));
 const CreateProviderProfile = lazy(() => import("@marketplaceModule/clients/panel/private/providerProfile/createProviderProfile.tsx"));
 const EditProviderProfile = lazy(() => import("@marketplaceModule/clients/panel/private/providerProfile/editProviderProfile.tsx"));
@@ -91,7 +88,6 @@ const marketplaceRouteConfigContribution: RouteConfigContribution = {
             const listingTitle = safeDecode(searchParams.get("listingTitle")) || undefined;
             const taskRequestId = searchParams.get("taskRequestId") || undefined;
             const taskRequestTitle = safeDecode(searchParams.get("taskRequestTitle")) || undefined;
-            const listingFlagId = searchParams.get("listingFlagId") || undefined;
 
             if (resource === "marketplacesystemmap") {
                 return <MarketplaceSystemMap />;
@@ -148,11 +144,6 @@ const marketplaceRouteConfigContribution: RouteConfigContribution = {
             if (resource === "promotions") {
                 if (action === "create") return <CreatePromotion />;
                 return <AllPromotions />;
-            }
-            if (resource === "listingflags") {
-                if (action === "create") return <CreateListingFlag />;
-                if (action === "edit" && listingFlagId) return <EditListingFlag entityId={listingFlagId} />;
-                return <AllListingFlags />;
             }
             if (resource === "listingaddons") {
                 if (action === "create") return <CreateListingAddOn />;

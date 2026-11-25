@@ -11,8 +11,8 @@
         "title": "Chaque avis",
         "items": [
           "Seul le client de la commande peut la noter, une fois, après qu'elle est terminée. Les clients peuvent aussi noter depuis leur compte.",
-          "Un avis ne peut plus être modifié une fois écrit.",
-          "Seul un administrateur peut supprimer un avis, ce qui retire aussi sa note."
+          "Un avis ne peut plus être modifié une fois écrit, et personne dans votre entreprise ne peut en supprimer un : les avis sont publiés tels que les clients les ont écrits.",
+          "Si un avis enfreint les règles, signalez-le à la plateforme depuis son menu ⋯. Seule la plateforme peut masquer un avis ; un avis masqué ne compte plus dans votre note et apparaît ici comme « Masqué par la plateforme »."
         ]
       }
     ]
@@ -28,6 +28,7 @@
     "orderId": "Commande",
     "createdAt": "Créé",
     "deletedAt": "Supprimé",
-    "deletedBy": "Supprimé par"
+    "deletedBy": "Supprimé par",
+    "hiddenByPlatform": "Masqué par la plateforme"
   }
 }

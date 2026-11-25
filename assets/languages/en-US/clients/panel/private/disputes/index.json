@@ -1,20 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/disputes/index.tsx",
   "title": "Disputes",
-  "description": "Review and resolve disputes between customers and providers.",
+  "description": "Disagreements about orders between clients and providers. The marketplace decides them.",
   "help": {
     "ariaLabel": "About disputes",
     "title": "About disputes",
-    "overview": "A dispute is a disagreement about an order that an administrator decides. While it's open, the order's money is frozen: nothing is paid out, accepted or cancelled.",
+    "overview": "A dispute is a disagreement about an order. The marketplace that runs the portal decides it, not you or the client. While it's open, the order's money is frozen: nothing is paid out or accepted.",
     "sections": [
       {
         "title": "Each dispute",
         "items": [
-          "Either side can open one on an order that isn't completed or cancelled; one per order. The other side is told.",
-          "Mark under review shows an administrator is looking at it.",
-          "Resolve dispute decides for the provider: the work is accepted and the order completed.",
-          "Close dispute (cancel) decides for the client: the order is cancelled.",
-          "Each decision needs a note, and both sides are told."
+          "Either side can open one on an order that isn't completed or cancelled; one per order. The other side and the marketplace are told.",
+          "The marketplace marks it under review, then resolves it for the provider (the work is accepted and the order completed) or closes it for the client (the order is cancelled).",
+          "Each decision comes with a note, and both sides are told.",
+          "As the provider you can still cancel the order and refund the client while it's open. Nobody else removes a dispute.",
+          "At the marketplace, this page lists every company's disputes, and its administrators decide them here."
         ]
       }
     ]

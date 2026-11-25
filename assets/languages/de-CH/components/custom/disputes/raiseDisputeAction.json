@@ -3,7 +3,7 @@
   "cancel": "Abbrechen",
   "raise": {
     "title": "Streitfall eröffnen",
-    "description": "Beschreiben Sie das Problem. Ein Admin kann den Streitfall in Prüfung nehmen; die Annahme der Lieferung bleibt gesperrt, bis der Streitfall bereinigt ist.",
+    "description": "Beschreiben Sie das Problem. Der Marktplatz prüft den Streitfall und entscheidet darüber; die Annahme der Lieferung bleibt bis dahin gesperrt.",
     "reasonLabel": "Grund",
     "reasonPlaceholder": "Was ist schiefgelaufen?",
     "confirm": "Streitfall einreichen",

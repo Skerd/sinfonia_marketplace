@@ -64,28 +64,15 @@
   "ordersGroup": "Ordini",
   "bookingsGroup": "Prenotazioni",
   "reviewsGroup": "Recensioni",
-  "flagsGroup": "Segnalazioni",
   "orderRow": "Ordine",
   "bookingRow": "Prenotazione",
   "reviewRow": "Recensione",
-  "flagRow": "Segnalazione",
   "orderStatus": {
     "pending": "In sospeso",
     "accepted": "Accettato",
     "in_progress": "In corso",
     "completed": "Completato",
     "cancelled": "Annullato"
-  },
-  "listingFlagStatus": {
-    "pending": "In sospeso",
-    "reviewed": "Esaminata",
-    "dismissed": "Respinta"
-  },
-  "listingFlagReason": {
-    "inappropriate": "Contenuti inappropriati",
-    "spam": "Spam",
-    "misleading": "Fuorviante",
-    "other": "Altro"
   },
   "deliveryDaysValue": {
     "one": "{value} giorno",
@@ -95,5 +82,7 @@
   "serviceAreaValue": {
     "one": "Entro {value} km",
     "other": "Entro {value} km"
-  }
+  },
+  "hiddenByPlatform": "Nascosto dalla piattaforma",
+  "hiddenByPlatformNote": "Dopo una segnalazione, la piattaforma ha tolto questo annuncio dal portale, dalla ricerca e dal tuo sito. Solo la piattaforma può mostrarlo di nuovo."
 }

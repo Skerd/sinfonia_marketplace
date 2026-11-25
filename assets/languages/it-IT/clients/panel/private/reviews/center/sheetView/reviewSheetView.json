@@ -17,5 +17,7 @@
   "updatedAt": "Aggiornato il",
   "createdBy": "Creato da",
   "deletedAt": "Eliminato il",
-  "deletedBy": "Eliminato da"
+  "deletedBy": "Eliminato da",
+  "hiddenByPlatform": "Nascosta dalla piattaforma",
+  "hiddenByPlatformNote": "Dopo una segnalazione, la piattaforma ha tolto questa recensione dalle pagine pubbliche e dalla valutazione. Solo la piattaforma può mostrarla di nuovo."
 }

@@ -9,7 +9,7 @@ import StartReviewDisputeDropdown from "@marketplaceModule/clients/panel/private
 import ResolveDisputeDropdown from "@marketplaceModule/clients/panel/private/disputes/center/actions/resolveDisputeDropdown.tsx";
 import CloseDisputeDropdown from "@marketplaceModule/clients/panel/private/disputes/center/actions/closeDisputeDropdown.tsx";
 import type {DisputeLifecycleVerb} from "@marketplaceModule/components/custom/disputes/changeDisputeLifecycleAction.tsx";
-import {IconCalendarEvent, IconCurrencyDollar, IconUser} from "@tabler/icons-react";
+import {IconBuildingStore, IconCalendarEvent, IconCurrencyDollar, IconUser} from "@tabler/icons-react";
 import StatusBadge from "@coreModule/components/entityPage/sheet/statusBadge.tsx";
 import EntityCard from "@coreModule/components/entityPage/list/card/entityCard.tsx";
 import EntityCardRow from "@coreModule/components/entityPage/list/card/entityCardRow.tsx";
@@ -39,6 +39,8 @@ type DisputeCardProps = WithLanguageType & {
     sheetOnly?: boolean;
     onLifecyclePatched?: (patch: Partial<Dispute>) => void;
     innerRef?: RefObject<WithAxiosLifecycleRef<Dispute> | null>;
+    /** The marketplace operator reads every company's disputes through its own route (D191). */
+    singleUrl?: string;
 };
 
 function DisputeCard({
@@ -51,17 +53,21 @@ function DisputeCard({
     sheetOnly = false,
     onLifecyclePatched,
     innerRef,
+    singleUrl = "/api/marketplace/dispute/single",
 }: DisputeCardProps) {
     return (
         <EntityCard
             resource="disputes"
             entity={dispute}
             fetchId={fetchId}
-            singleUrl="/api/marketplace/dispute/single"
+            singleUrl={singleUrl}
             onDelete={onDelete}
             onRestore={onRestore}
             hideActions={hideActions}
             hideEdit
+            // Neither party removes a dispute; the marketplace decides it (D191).
+            hideDelete
+            hideRestore
             sheetOnly={sheetOnly}
             editPath={() => ""}
             Sheet={DisputeSheetView}
@@ -74,6 +80,7 @@ function DisputeCard({
             innerRef={innerRef}
             sheetProps={({entity: row, setEntity}) => ({
                 fetchId,
+                singleUrl,
                 onListLifecyclePatched: (patch: Partial<Dispute>) => {
                     setEntity({...row, ...patch});
                     onLifecyclePatched?.(patch);
@@ -115,6 +122,16 @@ function DisputeCard({
                         <CloseDisputeDropdown dispute={row} onAction={setAction} />
                     </EntityCard.Header>
                     <EntityCard.Body>
+                        {/* Only on the marketplace operator's list (D191): whose order is disputed. */}
+                        {row.company?.name ? (
+                            <EntityCardRow
+                                icon={IconBuildingStore}
+                                label={resolveLanguageKey("company")}
+                                tooltip={resolveLanguageKey("company")}
+                                show
+                                value={row.company.name}
+                            />
+                        ) : null}
                         <EntityCardRow
                             icon={IconUser}
                             label={resolveLanguageKey("initiator")}

@@ -4,7 +4,6 @@
     "Disputes": "Mosmarrëveshjet",
     "Listingaddons": "Shtesat e listimeve",
     "Listingcategories": "Kategoritë e listimeve",
-    "Listingflags": "Raportimet e listimeve",
     "Listingpackages": "Paketat e listimeve",
     "Listings": "Listimet",
     "Marketplacebids": "Ofertat e tregut",
@@ -74,22 +73,6 @@
       "slug": "Slug",
       "updatedAt": "Përditësuar më",
       "delivery": "Ku bëhet puna"
-    },
-    "Listingflags": {
-      "comment": "Komenti",
-      "createdAt": "Krijuar më",
-      "createdBy": "Krijuar nga",
-      "deletedAt": "Fshirë më",
-      "deletedBy": "Fshirë nga",
-      "listing": "Listimi",
-      "listingflags": "Raportimet e listimeve",
-      "reason": "Arsyeja",
-      "resolution": "Zgjidhja",
-      "status": "Statusi",
-      "updatedAt": "Përditësuar më",
-      "user": "Përdoruesi",
-      "resolve": "Zgjidh",
-      "dismiss": "Hidh poshtë"
     },
     "Listingpackages": {
       "createdAt": "Krijuar më",

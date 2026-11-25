@@ -17,5 +17,7 @@
   "updatedAt": "Updated at",
   "createdBy": "Created by",
   "deletedAt": "Deleted at",
-  "deletedBy": "Deleted by"
+  "deletedBy": "Deleted by",
+  "hiddenByPlatform": "Hidden by the platform",
+  "hiddenByPlatformNote": "After a report, the platform took this review off the public pages and out of the rating. Only the platform can show it again."
 }

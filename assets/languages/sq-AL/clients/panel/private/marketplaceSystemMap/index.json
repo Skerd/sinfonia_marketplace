@@ -10,7 +10,7 @@
       {
         "title": "Grafiku i modeleve",
         "items": [
-          "Listimet me paketat, shtesat, raportimet dhe promovimet; kërkesat për detyra dhe ofertat; porositë me dorëzimet, fazat, rishikimet, rezervimet, mosmarrëveshjet dhe vlerësimet; profilet e ofruesve; dhe regjistri i depozitës së financave.",
+          "Listimet me paketat, shtesat dhe promovimet; kërkesat për detyra dhe ofertat; porositë me dorëzimet, fazat, rishikimet, rezervimet, mosmarrëveshjet dhe vlerësimet; profilet e ofruesve; dhe regjistri i depozitës së financave.",
           "Klikoni një nyje për përshkrimin, fushat kyçe, shtegun e API-t, veprimet dhe faqen e panelit."
         ]
       },
@@ -42,7 +42,6 @@
     "Listing": "Listim",
     "ListingPackage": "Paketë listimi",
     "ListingAddOn": "Shtesë listimi",
-    "ListingFlag": "Raportim listimi",
     "Promotion": "Promovim",
     "TaskRequest": "Kërkesë për detyrë",
     "Bid": "Ofertë",

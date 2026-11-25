@@ -10,7 +10,7 @@
       {
         "title": "Modellgraph",
         "items": [
-          "Inserate mit ihren Paketen, Zusatzleistungen, Meldungen und Promotionen; Aufträge und Gebote; Bestellungen mit Lieferungen, Meilensteinen, Überarbeitungen, Buchungen, Streitfällen und Bewertungen; Anbieterprofile; und das Treuhandjournal der Finanzen.",
+          "Inserate mit ihren Paketen, Zusatzleistungen und Promotionen; Aufträge und Gebote; Bestellungen mit Lieferungen, Meilensteinen, Überarbeitungen, Buchungen, Streitfällen und Bewertungen; Anbieterprofile; und das Treuhandjournal der Finanzen.",
           "Klicken Sie auf einen Knoten für Beschreibung, Schlüsselfelder, API-Pfad, Aktionen und Panel-Seite."
         ]
       },
@@ -42,7 +42,6 @@
     "Listing": "Inserat",
     "ListingPackage": "Inseratpaket",
     "ListingAddOn": "Inserat-Zusatzleistung",
-    "ListingFlag": "Inserat-Meldung",
     "Promotion": "Promotion",
     "TaskRequest": "Ausschreibung",
     "Bid": "Angebot",

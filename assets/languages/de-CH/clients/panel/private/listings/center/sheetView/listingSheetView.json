@@ -64,28 +64,15 @@
   "ordersGroup": "Aufträge",
   "bookingsGroup": "Buchungen",
   "reviewsGroup": "Bewertungen",
-  "flagsGroup": "Meldungen",
   "orderRow": "Auftrag",
   "bookingRow": "Buchung",
   "reviewRow": "Bewertung",
-  "flagRow": "Meldung",
   "orderStatus": {
     "pending": "Ausstehend",
     "accepted": "Angenommen",
     "in_progress": "In Bearbeitung",
     "completed": "Abgeschlossen",
     "cancelled": "Storniert"
-  },
-  "listingFlagStatus": {
-    "pending": "Ausstehend",
-    "reviewed": "Geprüft",
-    "dismissed": "Verworfen"
-  },
-  "listingFlagReason": {
-    "inappropriate": "Unangemessener Inhalt",
-    "spam": "Spam",
-    "misleading": "Irreführend",
-    "other": "Andere"
   },
   "deliveryDaysValue": {
     "one": "{value} Tag",
@@ -95,5 +82,7 @@
   "serviceAreaValue": {
     "one": "Im Umkreis von {value} km",
     "other": "Im Umkreis von {value} km"
-  }
+  },
+  "hiddenByPlatform": "Von der Plattform ausgeblendet",
+  "hiddenByPlatformNote": "Nach einer Meldung hat die Plattform dieses Inserat vom Portal, aus der Suche und von Ihrer Website genommen. Nur die Plattform kann es wieder anzeigen."
 }

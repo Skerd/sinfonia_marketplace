@@ -24,6 +24,7 @@ import {taskRoom} from "armonia/src/modules/marketplace/websocket/types.ts";
 import {JOB_AREA_RADIUS_M} from "armonia/src/modules/marketplace/helpers/jobArea.ts";
 import type {ShopTaskResponse} from "armonia/src/modules/marketplace/api/marketplace/public/shopTask/shopTask.types.ts";
 import {PortalKeepButton} from "@coreModule/clients/portal/shared/portalSaved.tsx";
+import ReportButton from "@coreModule/components/custom/report/reportButton.tsx";
 
 const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/tasks/taskPage.tsx";
 
@@ -183,6 +184,8 @@ function TaskPage({resolveLanguageKey}: WithLanguageType) {
                             </div>
                         ) : null}
                         {task.approxPoint ? <p className="text-xs text-muted-foreground">{resolveLanguageKey("areaNote")}</p> : null}
+                        {/* To the platform (D191), for a signed-in visitor: the report desk needs an account. */}
+                        {isAuthenticated ? <ReportButton kind="marketplace.job" recordId={task._id} className="self-start" /> : null}
                     </div>
                     {/* Who quoted, never at what price (sealed quotes, D172); the apex only, where every seller is named. */}
                     {site?.scope === "platform" && task.quotedBy.length > 0 ? (
