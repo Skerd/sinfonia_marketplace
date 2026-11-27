@@ -86,7 +86,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             cluster: "marketplace",
             module: "marketplace",
             description:
-                "A job open 30 days. Portal jobs live in the marketplace operator (D143); on-site jobs carry an address and an approximate point shown to pros before the award, remote ones none; the budget is an optional 'up to'.",
+                "A job open 30 days. Portal jobs live in the platform company (D197); on-site jobs carry an address and an approximate point shown to pros before the award, remote ones none; the budget is an optional 'up to'.",
             keyFields: ["requester", "title", "category", "address?", "approxPoint", "budgetMax?", "currency", "status", "expiresAt"],
             apiPath: "/api/marketplace/taskRequest",
             panelRoute: "/marketplace/taskrequests",
@@ -160,7 +160,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             cluster: "marketplace",
             module: "marketplace",
             description:
-                "One per non-final order; freezes the order's money. The marketplace operator decides (D191): resolve = provider wins (complete + release); close = customer wins (cancel + refund).",
+                "One per non-final order; freezes the order's money. The platform company decides (D191, D197): resolve = provider wins (complete + release); close = customer wins (cancel + refund).",
             keyFields: ["order", "initiator", "reason", "status", "resolution"],
             apiPath: "/api/marketplace/dispute",
             panelRoute: "/marketplace/disputes",
@@ -429,7 +429,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             id: "marketplace-dispute",
             title: "Disputes → refund",
             summary:
-                "A party raises a dispute, the order's money freezes, and the marketplace operator decides: resolve (provider wins, release) or close (customer wins, refund).",
+                "A party raises a dispute, the order's money freezes, and the platform company decides: resolve (provider wins, release) or close (customer wins, refund).",
             module: "marketplace",
             steps: [
                 {
@@ -449,7 +449,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
                 {
                     id: "md-review",
                     label: "Under review",
-                    description: "Marketplace operator",
+                    description: "Platform company",
                     detail: "Start review moves it from open to under review.",
                     position: {x: 440, y: 80},
                 },
@@ -596,7 +596,7 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
                 },
                 {
                     title: "Disputes & reviews",
-                    description: "Disputes the marketplace operator decides, which freeze the order's money; one review per completed order, published as written.",
+                    description: "Disputes the platform company decides, which freeze the order's money; one review per completed order, published as written.",
                 },
             ],
             apis: [
