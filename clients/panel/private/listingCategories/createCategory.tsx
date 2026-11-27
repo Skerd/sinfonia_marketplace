@@ -11,6 +11,7 @@ export default createGenericCreatePage<CreateListingCategoryFormType>({
     // No parent means a top-level category; the cleared select sends "".
     mapSubmitPayload: (data) => ({
         name: data.name,
+        ...(data.names ? {names: data.names} : {}),
         delivery: data.delivery,
         parentListingCategory: data.parentListingCategory || undefined,
         order: data.order ?? 0,

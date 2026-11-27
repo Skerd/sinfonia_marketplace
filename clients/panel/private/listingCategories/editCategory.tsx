@@ -14,7 +14,9 @@ export default createGenericEditPage<ListingCategory, EditCategoryPayload>({
     schema: editListingCategoryFormSchema,
     buildInitialValues: (category, writeFields) => ({
         _id: category._id,
-        name: writeFields.name ? category.name : undefined,
+        // `name` is the English one; the read names the category in the reader's language, so take it from `names` (D196).
+        name: writeFields.name ? category.names?.en || category.name : undefined,
+        names: writeFields.names ? category.names : undefined,
         delivery: writeFields.delivery ? category.delivery : undefined,
         parentListingCategory: writeFields.parentListingCategory ? category.parentListingCategory?._id : undefined,
         order: writeFields.order ? category.order : undefined,
@@ -23,6 +25,7 @@ export default createGenericEditPage<ListingCategory, EditCategoryPayload>({
     mapSubmitPayload: (data, {writeFields}) => ({
         _id: data._id,
         ...(writeFields.name ? {name: data.name} : {}),
+        ...(writeFields.names && data.names ? {names: data.names} : {}),
         ...(writeFields.delivery ? {delivery: data.delivery} : {}),
         ...(writeFields.parentListingCategory && data.parentListingCategory !== undefined
             ? {parentListingCategory: data.parentListingCategory === "" ? null : data.parentListingCategory}

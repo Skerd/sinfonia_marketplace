@@ -38,6 +38,7 @@ const CREATE_JOB_REQUEST: HttpRequest = {method: "PUT", url: "/api/marketplace/t
 const EMPTY_FORM = {
     title: "",
     description: "",
+    section: "",
     category: "",
     budgetMax: "",
     street: "",
@@ -69,7 +70,14 @@ function NewJobPage({resolveLanguageKey}: WithLanguageType) {
     const [image, setImage] = useState<File | null>(null);
     const taxonomy = useHttpRequest<ShopListingTaxonomyResponse>(TAXONOMY_REQUEST, {}, 1);
     const countryList = useHttpRequest<{data: ShopCountry[]}>(COUNTRIES_REQUEST, {}, 1);
-    const categories: ShopListingCategory[] = taxonomy.data?.data.categories ?? [];
+    // The platform tree has thousands of services (D196): the buyer picks a section, then a service in that section only.
+    const sections: ShopListingCategory[] = (taxonomy.data?.data.categories ?? []).filter(category => !category.parent);
+    const [sectionCount, setSectionCount] = useState(0);
+    useEffect(() => {
+        if (form.section) setSectionCount((count) => count + 1);
+    }, [form.section]);
+    const branch = useHttpRequest<ShopListingTaxonomyResponse>(TAXONOMY_REQUEST, {section: form.section}, sectionCount);
+    const categories: ShopListingCategory[] = form.section && !branch.error ? branch.data?.data.categories ?? [] : [];
     const countries: ShopCountry[] = countryList.data?.data ?? [];
 
     const [citiesCount, setCitiesCount] = useState(0);
@@ -153,15 +161,24 @@ function NewJobPage({resolveLanguageKey}: WithLanguageType) {
                         {resolveLanguageKey("descriptionLabel")}
                         <Textarea rows={5} maxLength={5000} value={form.description} onChange={event => setField("description", event.target.value)} placeholder={resolveLanguageKey("descriptionPlaceholder")} className="h-auto py-2.5" />
                     </Label>
-                    <Label className="flex-col items-stretch gap-1.5">
-                        {resolveLanguageKey("categoryLabel")}
-                        <NativeSelect required value={form.category} onChange={event => setField("category", event.target.value)} className="w-full">
-                            <option value="">{resolveLanguageKey("categoryPlaceholder")}</option>
-                            {orderedCategories(categories).map(({category, depth}) => (
-                                <option key={category._id} value={category._id}>{`${"  ".repeat(depth)}${category.name}`}</option>
-                            ))}
-                        </NativeSelect>
-                    </Label>
+                    <div className="grid gap-4 sm:grid-cols-2">
+                        <Label className="flex-col items-stretch gap-1.5">
+                            {resolveLanguageKey("sectionLabel")}
+                            <NativeSelect required value={form.section} onChange={event => setForm(current => ({...current, section: event.target.value, category: ""}))} className="w-full">
+                                <option value="">{resolveLanguageKey("sectionPlaceholder")}</option>
+                                {sections.map(section => <option key={section._id} value={section._id}>{section.name}</option>)}
+                            </NativeSelect>
+                        </Label>
+                        <Label className="flex-col items-stretch gap-1.5">
+                            {resolveLanguageKey("categoryLabel")}
+                            <NativeSelect required disabled={!form.section} value={form.category} onChange={event => setField("category", event.target.value)} className="w-full">
+                                <option value="">{resolveLanguageKey("categoryPlaceholder")}</option>
+                                {orderedCategories(categories).map(({category, depth}) => (
+                                    <option key={category._id} value={category._id}>{`${"  ".repeat(depth)}${category.name}`}</option>
+                                ))}
+                            </NativeSelect>
+                        </Label>
+                    </div>
                     <div className="flex flex-col gap-1.5 text-sm font-medium">
                         {resolveLanguageKey("imageLabel")}
                         <label className="flex cursor-pointer items-center gap-4 rounded-2xl border border-dashed border-border p-4 hover:border-foreground">

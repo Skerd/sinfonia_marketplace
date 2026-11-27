@@ -8,6 +8,11 @@
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Devise",
     "currencyPlaceholder": "Choisir une devise",
+    "whatWeProvideSectionTitle": "Ce que nous proposons",
+    "whatWeProvideHint": "Choisissez les sections dans lesquelles votre entreprise travaille. Le sélecteur de catégorie du formulaire de service ne proposera alors que celles-ci. Laissez vide pour proposer toutes les catégories.",
+    "branchesLabel": "Sections dans lesquelles vous travaillez",
+    "selectBranch": "Ajouter une section",
+    "removeBranch": "Retirer",
     "operatorSectionTitle": "Demandes du portail",
     "operatorSectionHint": "En tant qu'opérateur de la place de marché, vous décidez combien de prestataires chaque demande atteint et combien de demandes ouvertes un client peut avoir.",
     "leadCapLabel": "Prestataires par demande",
@@ -43,6 +48,13 @@
         "items": [
           "Afficher sur le portail : une fois activé, vos services apparaissent aussi dans la rubrique services du portail, où des clients qui ne connaissent pas votre site peuvent vous trouver. Votre propre site les affiche dans tous les cas.",
           "Devise : utilisée pour une annonce, un package ou un module complémentaire dont vous fixez le prix sans choisir de devise, et pour le budget quand un client publie une demande sur votre propre site."
+        ]
+      },
+      {
+        "title": "Ce que nous proposons",
+        "items": [
+          "Sections dans lesquelles vous travaillez : les grandes sections de services (par exemple Services à domicile ou Services juridiques). Le sélecteur de catégorie du formulaire de service ne propose alors que leurs catégories, pour trouver la vôtre plus vite.",
+          "Vide signifie que toutes les catégories sont proposées. Les catégories de services forment une seule liste pour toute la plateforme ; s'il manque un service, demandez-le sur la page Catégories d'annonces."
         ]
       },
       {

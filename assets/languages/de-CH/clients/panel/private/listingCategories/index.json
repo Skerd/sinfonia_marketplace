@@ -1,19 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
   "title": "Inseratkategorien",
-  "description": "Organisieren Sie den Marktplatz-Katalog in einer Eltern-/Kind-Kategoriestruktur für Inserate und Auftragsanfragen.",
+  "description": "Die Dienstleistungskategorien der Plattform, für jede Firma dieselben.",
   "help": {
     "ariaLabel": "Über Inseratkategorien",
     "title": "Über Inseratkategorien",
-    "overview": "Die Kategorien der Dienstleistungen: ein einziger Baum für die ganze Plattform. Jede Firma ordnet ihre Inserate darin ein, und Kunden schreiben darin Aufträge aus. Nur die Firma, die die Plattform betreibt, kann sie ändern; die anderen sehen sie nur an.",
+    "overview": "Die Kategorien gehören der Plattform: ein detaillierter Baum mit rund 3'000 Dienstleistungen, den alle Firmen teilen, damit Kunden zum Beispiel alle Anbieter für Heizungsreparaturen zusammen finden. Wählen Sie die Kategorie, zu der Ihr Inserat gehört; Kunden geben Aufträge in denselben Kategorien auf.",
     "sections": [
       {
         "title": "Jede Kategorie",
         "items": [
-          "Lassen Sie die übergeordnete Kategorie leer für die oberste Ebene. Die Reihenfolge sortiert Kategorien derselben Ebene, die kleinste zuerst.",
-          "Wo die Arbeit stattfindet: vor Ort, zugeordnet nach der Entfernung zum Einsatzgebiet eines Inserats, oder online, überall zugeordnet. Eine Unterkategorie übernimmt zuerst die Wahl der übergeordneten.",
-          "Schreibt ein Kunde einen Auftrag aus, können Anbieter mit einem aktiven Inserat in ihrer Kategorie, in einer übergeordneten oder in einer Unterkategorie davon erfahren.",
-          "Verschieben Sie die Inserate in eine andere Kategorie, bevor Sie eine noch genutzte löschen."
+          "Die passende fehlt? Nutzen Sie Kategorie beantragen. Die Plattform prüft sie; bis dahin sieht nur Ihre Firma sie.",
+          "Ohne übergeordnete Kategorie wird sie zu einem obersten Bereich. Die Reihenfolge sortiert Kategorien derselben Ebene, die kleinste Zahl zuerst.",
+          "Wo die Arbeit stattfindet: vor Ort, nach Entfernung zum Einsatzgebiet eines Inserats zugeordnet, oder online, überall zugeordnet.",
+          "Gibt ein Kunde einen Auftrag auf, können Anbieter mit einem aktiven Inserat in dessen Kategorie oder einer über- oder untergeordneten davon erfahren.",
+          "Damit das Inseratformular nur Ihre Bereiche zeigt, wählen Sie sie unter Marktplatz-Einstellungen → Was wir anbieten."
         ]
       }
     ]
@@ -35,5 +36,9 @@
       }
     }
   },
-  "managedByOperator": "Die Kategorien teilen sich alle Firmen der Plattform; der Betreiber des Marktplatzes pflegt sie."
+  "views": {
+    "label": "Ansichten",
+    "list": "Liste",
+    "hierarchy": "Hierarchie"
+  }
 }

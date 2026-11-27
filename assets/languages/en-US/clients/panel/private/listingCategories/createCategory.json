@@ -16,7 +16,13 @@
     "delivery": {
       "onsite": "On site",
       "remote": "Online"
-    }
+    },
+    "namesSectionTitle": "Name in every language",
+    "nameEnLabel": "English",
+    "nameSqLabel": "Albanian",
+    "nameDeLabel": "German",
+    "nameFrLabel": "French",
+    "nameItLabel": "Italian"
   },
   "axios": {
     "start": {

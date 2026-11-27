@@ -13,8 +13,8 @@ export const MARKETPLACE_SYSTEM_MAP: SystemMapDataset = {
             cluster: "marketplace",
             module: "marketplace",
             description:
-                "One shared category tree for every company (D144), kept by the marketplace operator; each category is on-site or remote, which decides how jobs match.",
-            keyFields: ["name", "slug", "parentListingCategory", "delivery", "order"],
+                "The platform's service category tree (D196): about 3,000 services every company shares, kept by the platform company, which approves the ones companies request; each category is on-site or remote, which decides how jobs match.",
+            keyFields: ["name", "names", "slug", "parentListingCategory", "delivery", "order", "requestStatus?"],
             apiPath: "/api/marketplace/listingCategory",
             panelRoute: "/tenancy/systemSettings/listingcategories",
             position: {x: 280, y: 40},

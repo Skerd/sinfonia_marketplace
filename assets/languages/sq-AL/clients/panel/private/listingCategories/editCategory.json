@@ -21,7 +21,13 @@
     "delivery": {
       "onsite": "Në vend",
       "remote": "Online"
-    }
+    },
+    "namesSectionTitle": "Emri në çdo gjuhë",
+    "nameEnLabel": "Anglisht",
+    "nameSqLabel": "Shqip",
+    "nameDeLabel": "Gjermanisht",
+    "nameFrLabel": "Frëngjisht",
+    "nameItLabel": "Italisht"
   },
   "axios": {
     "start": {

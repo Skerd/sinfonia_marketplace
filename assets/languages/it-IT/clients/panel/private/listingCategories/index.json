@@ -1,19 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
   "title": "Categorie di annunci",
-  "description": "Organizza il catalogo marketplace in un albero categorie padre/figlio usato da annunci e richieste di attività.",
+  "description": "Le categorie di servizi della piattaforma, comuni a tutte le aziende.",
   "help": {
     "ariaLabel": "Informazioni sulle categorie di annunci",
     "title": "Informazioni sulle categorie di annunci",
-    "overview": "Le categorie dei servizi: un unico albero per tutta la piattaforma. Ogni azienda vi archivia i suoi annunci, e i clienti vi pubblicano i lavori. Solo l'azienda che gestisce la piattaforma può cambiarle; le altre le vedono in sola lettura.",
+    "overview": "Le categorie sono della piattaforma: un albero dettagliato di circa 3.000 servizi condiviso da tutte le aziende, così i clienti trovano insieme, per esempio, tutti i fornitori di riparazione caldaie. Scegli la categoria del tuo annuncio; i clienti pubblicano lavori nelle stesse categorie.",
     "sections": [
       {
         "title": "Ogni categoria",
         "items": [
-          "Lascia vuoto il padre per un primo livello. Ordine ordina le categorie dello stesso livello, dal più basso.",
-          "Dove si svolge il lavoro: sul posto, abbinato in base alla distanza dalla zona di servizio di un annuncio, oppure online, abbinato ovunque. Una sottocategoria parte con la scelta del padre.",
-          "Quando un cliente pubblica un lavoro, possono esserne avvisati i fornitori con un annuncio attivo nella sua categoria, o in una sua categoria padre o sottocategoria.",
-          "Sposta gli annunci in un'altra categoria prima di eliminarne una ancora in uso."
+          "Non trovi quella giusta? Usa Richiedi una categoria. La piattaforma la esamina; fino ad allora la vede solo la tua azienda.",
+          "Lascia vuoto il genitore per una sezione di primo livello. L'ordine ordina le categorie dello stesso livello, il numero più basso prima.",
+          "Dove si svolge il lavoro: in loco, abbinato in base alla distanza dall'area di servizio di un annuncio, oppure online, ovunque.",
+          "Quando un cliente pubblica un lavoro, i fornitori con un annuncio attivo nella sua categoria, o in una categoria superiore o in una sottocategoria, possono esserne informati.",
+          "Per vedere solo le tue sezioni nel modulo dell'annuncio, sceglile in Impostazioni del marketplace → Cosa offriamo."
         ]
       }
     ]
@@ -35,5 +36,9 @@
       }
     }
   },
-  "managedByOperator": "Le categorie sono condivise da tutte le aziende della piattaforma e gestite dall'operatore del marketplace."
+  "views": {
+    "label": "Viste",
+    "list": "Elenco",
+    "hierarchy": "Gerarchia"
+  }
 }

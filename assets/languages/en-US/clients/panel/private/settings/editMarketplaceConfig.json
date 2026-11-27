@@ -8,6 +8,11 @@
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Currency",
     "currencyPlaceholder": "Select currency",
+    "whatWeProvideSectionTitle": "What we provide",
+    "whatWeProvideHint": "Pick the sections your company works in. The category picker of your service form then offers only those. Leave it empty to offer every category.",
+    "branchesLabel": "Sections you work in",
+    "selectBranch": "Add a section",
+    "removeBranch": "Remove",
     "operatorSectionTitle": "Portal jobs",
     "operatorSectionHint": "As the marketplace operator you decide how many providers each job reaches and how many open jobs one client may have.",
     "leadCapLabel": "Providers per job",
@@ -43,6 +48,13 @@
         "items": [
           "List on the portal: when on, your services also show in the portal's services section, where clients who don't know your website can find you. Your own website shows them either way.",
           "Currency: used for a listing, package or add-on you price without choosing a currency, and for the budget when a client posts a job on your own website."
+        ]
+      },
+      {
+        "title": "What we provide",
+        "items": [
+          "Sections you work in: the top-level service sections (for example Home Services or Legal Services). Your service form's category picker then offers only the categories in them, so you find yours faster.",
+          "Empty means every category is offered. The service categories themselves are one list for the whole platform; if a service is missing, request it on the Listing categories page."
         ]
       },
       {

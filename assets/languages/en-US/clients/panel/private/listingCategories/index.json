@@ -1,19 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
   "title": "Listing categories",
-  "description": "Organize the marketplace catalog into a parent/child category tree used by listings and task requests.",
+  "description": "The platform's service categories, shared by every company.",
   "help": {
     "ariaLabel": "About listing categories",
     "title": "About listing categories",
-    "overview": "The categories of services: one tree for the whole platform. Every company files its listings under them, and clients post jobs in them. Only the company that runs the platform can change them; others see them read-only.",
+    "overview": "Categories are the platform's: one detailed tree of about 3,000 services that every company shares, so clients can find every provider of, say, boiler repair together. Pick the category your listing belongs to; clients post jobs in the same categories.",
     "sections": [
       {
         "title": "Each category",
         "items": [
-          "Leave the parent empty for a top level. Order sorts categories on the same level, lowest first.",
-          "Where the work happens: on site, matched by distance to a listing's service area, or online, matched anywhere. A subcategory starts with its parent's choice.",
+          "Can't find the right one? Use Request a category. The platform reviews it; until then only your company sees it.",
+          "Leave the parent empty for a top-level section. Order sorts categories on the same level, lowest first.",
+          "Where the work happens: on site, matched by distance to a listing's service area, or online, matched anywhere.",
           "When a client posts a job, providers with an active listing in its category, or a parent or subcategory of it, can hear about it.",
-          "Move listings to another category before deleting one that is still in use."
+          "To see only your sections in the listing form, pick them under Marketplace settings → What we provide."
         ]
       }
     ]
@@ -35,5 +36,9 @@
       }
     }
   },
-  "managedByOperator": "Categories are shared by every company on the platform and kept by the marketplace operator."
+  "views": {
+    "label": "Views",
+    "list": "List",
+    "hierarchy": "Hierarchy"
+  }
 }

@@ -8,6 +8,11 @@
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Valuta",
     "currencyPlaceholder": "Seleziona valuta",
+    "whatWeProvideSectionTitle": "Cosa offriamo",
+    "whatWeProvideHint": "Scegli le sezioni in cui lavora la tua azienda. Il selettore di categoria del modulo del servizio offrirà solo quelle. Lascia vuoto per offrire tutte le categorie.",
+    "branchesLabel": "Sezioni in cui lavori",
+    "selectBranch": "Aggiungi una sezione",
+    "removeBranch": "Rimuovi",
     "operatorSectionTitle": "Lavori del portale",
     "operatorSectionHint": "Come operatore del marketplace decidi quanti fornitori raggiunge ogni lavoro e quanti lavori aperti può avere un cliente.",
     "leadCapLabel": "Fornitori per lavoro",
@@ -43,6 +48,13 @@
         "items": [
           "Mostra sul portale: se attivo, i tuoi servizi compaiono anche nella sezione servizi del portale, dove ti trovano anche i clienti che non conoscono il tuo sito. Il tuo sito li mostra comunque.",
           "Valuta: usata per un annuncio, un pacchetto o un componente aggiuntivo a cui dai un prezzo senza scegliere la valuta, e per il budget quando un cliente pubblica un lavoro sul tuo sito."
+        ]
+      },
+      {
+        "title": "Cosa offriamo",
+        "items": [
+          "Sezioni in cui lavori: le sezioni principali dei servizi (per esempio Servizi per la casa o Servizi legali). Il selettore di categoria del modulo del servizio offre allora solo le loro categorie, così trovi prima la tua.",
+          "Vuoto significa che vengono offerte tutte le categorie. Le categorie di servizi sono un'unica lista per tutta la piattaforma; se manca un servizio, richiedilo nella pagina Categorie di annunci."
         ]
       },
       {

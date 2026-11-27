@@ -1,19 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
   "title": "Catégories d'annonces",
-  "description": "Organisez le catalogue marketplace en une arborescence parent/enfant utilisée par les annonces et les demandes de tâches.",
+  "description": "Les catégories de services de la plateforme, communes à toutes les entreprises.",
   "help": {
     "ariaLabel": "À propos des catégories d'annonces",
     "title": "À propos des catégories d'annonces",
-    "overview": "Les catégories de services : un seul arbre pour toute la plateforme. Chaque entreprise y classe ses annonces, et les clients y publient leurs travaux. Seule l'entreprise qui gère la plateforme peut les modifier ; les autres les voient en lecture seule.",
+    "overview": "Les catégories appartiennent à la plateforme : un arbre détaillé d'environ 3 000 services que toutes les entreprises partagent, pour que les clients trouvent ensemble, par exemple, tous les prestataires de réparation de chaudière. Choisissez la catégorie de votre annonce ; les clients publient leurs demandes dans les mêmes catégories.",
     "sections": [
       {
         "title": "Chaque catégorie",
         "items": [
-          "Laissez le parent vide pour un premier niveau. L'ordre trie les catégories d'un même niveau, du plus petit au plus grand.",
-          "Où se fait le travail : sur place, rapproché selon la distance à la zone d'intervention d'une annonce, ou en ligne, rapproché partout. Une sous-catégorie part du choix de son parent.",
-          "Quand un client publie un travail, les prestataires ayant une annonce active dans sa catégorie, ou dans une catégorie parente ou une sous-catégorie, peuvent en être prévenus.",
-          "Déplacez les annonces vers une autre catégorie avant d'en supprimer une encore utilisée."
+          "Vous ne trouvez pas la bonne ? Utilisez Demander une catégorie. La plateforme l'examine ; d'ici là, seule votre entreprise la voit.",
+          "Laissez le parent vide pour une section de premier niveau. L'ordre trie les catégories d'un même niveau, la plus petite valeur d'abord.",
+          "Où le travail a lieu : sur place, selon la distance à la zone de service d'une annonce, ou en ligne, partout.",
+          "Quand un client publie une demande, les prestataires ayant une annonce active dans sa catégorie, ou dans une catégorie parente ou une sous-catégorie, peuvent en être informés.",
+          "Pour ne voir que vos sections dans le formulaire d'annonce, choisissez-les dans Paramètres de la place de marché → Ce que nous proposons."
         ]
       }
     ]
@@ -35,5 +36,9 @@
       }
     }
   },
-  "managedByOperator": "Les catégories sont partagées par toutes les entreprises de la plateforme et tenues par l'opérateur de la place de marché."
+  "views": {
+    "label": "Vues",
+    "list": "Liste",
+    "hierarchy": "Hiérarchie"
+  }
 }

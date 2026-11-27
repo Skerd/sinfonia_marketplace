@@ -1,19 +1,20 @@
 {
   "path": "src/modules/marketplace/clients/panel/private/listingCategories/index.tsx",
   "title": "Kategoritë e listimeve",
-  "description": "Organizoni katalogun e tregut në një pemë kategorish prind/fëmijë që përdoret nga listimet dhe kërkesat për detyra.",
+  "description": "Kategoritë e shërbimeve të platformës, të përbashkëta për çdo kompani.",
   "help": {
     "ariaLabel": "Rreth kategorive të listimeve",
     "title": "Rreth kategorive të listimeve",
-    "overview": "Kategoritë e shërbimeve: një pemë e vetme për gjithë platformën. Çdo kompani i rendit listimet e saj nën to, dhe klientët postojnë punë në to. Vetëm kompania që drejton platformën mund t'i ndryshojë; të tjerët vetëm i shohin.",
+    "overview": "Kategoritë janë të platformës: një pemë e detajuar me rreth 3,000 shërbime që e ndajnë të gjitha kompanitë, që klientët të gjejnë bashkë të gjithë ofruesit, për shembull, të riparimit të kaldajave. Zgjidhni kategorinë ku bën pjesë listimi juaj; klientët postojnë punë në të njëjtat kategori.",
     "sections": [
       {
         "title": "Çdo kategori",
         "items": [
-          "Lëreni bosh prindin për një nivel të parë. Rendi rendit kategoritë e të njëjtit nivel, numri më i vogël i pari.",
-          "Ku bëhet puna: në vend, e përputhur sipas largësisë nga zona e shërbimit e një listimi, ose online, e përputhur kudo. Një nënkategori fillon me zgjedhjen e prindit.",
+          "Nuk e gjeni të duhurën? Përdorni Kërko një kategori. Platforma e shqyrton; deri atëherë e sheh vetëm kompania juaj.",
+          "Lëreni bosh prindin për një seksion të nivelit të parë. Rendi rendit kategoritë e të njëjtit nivel, numri më i vogël i pari.",
+          "Ku bëhet puna: në vend, e përputhur sipas largësisë nga zona e shërbimit e një listimi, ose online, e përputhur kudo.",
           "Kur një klient poston një punë, ofruesit me një listim aktiv në kategorinë e saj, ose në një kategori prind apo nënkategori të saj, mund të njoftohen.",
-          "Kaloni listimet në një kategori tjetër para se të fshini një kategori që ende përdoret."
+          "Që formulari i listimit të tregojë vetëm seksionet tuaja, zgjidhini te Cilësimet e tregut → Çfarë ofrojmë."
         ]
       }
     ]
@@ -35,5 +36,9 @@
       }
     }
   },
-  "managedByOperator": "Kategoritë i ndajnë të gjitha kompanitë e platformës dhe i mban operatori i tregut."
+  "views": {
+    "label": "Pamjet",
+    "list": "Lista",
+    "hierarchy": "Hierarkia"
+  }
 }

@@ -71,7 +71,7 @@ function TaskBoard({resolveLanguageKey}: WithLanguageType) {
         }
     });
 
-    const categories = useHttpRequest<{data: ApiSelectDatum[]}>(CATEGORIES_REQUEST, {limit: 100, offset: 0}, 1);
+    const categories = useHttpRequest<{data: ApiSelectDatum[]}>(CATEGORIES_REQUEST, {limit: 100, offset: 0, topLevel: true}, 1);
     const categoryOptions = categories.data?.data ?? [];
     const categoryLabel = categoryOptions.find((option) => option.value === category)?.label;
 

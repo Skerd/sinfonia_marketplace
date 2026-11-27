@@ -8,6 +8,11 @@
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Währung",
     "currencyPlaceholder": "Währung auswählen",
+    "whatWeProvideSectionTitle": "Was wir anbieten",
+    "whatWeProvideHint": "Wählen Sie die Bereiche, in denen Ihre Firma tätig ist. Die Kategorieauswahl im Dienstleistungsformular bietet dann nur diese an. Leer lassen, um alle Kategorien anzubieten.",
+    "branchesLabel": "Bereiche, in denen Sie tätig sind",
+    "selectBranch": "Bereich hinzufügen",
+    "removeBranch": "Entfernen",
     "operatorSectionTitle": "Portal-Aufträge",
     "operatorSectionHint": "Als Betreiber des Marktplatzes legen Sie fest, wie viele Anbieter ein Auftrag erreicht und wie viele offene Aufträge ein Kunde haben darf.",
     "leadCapLabel": "Anbieter pro Auftrag",
@@ -43,6 +48,13 @@
         "items": [
           "Im Portal anzeigen: Eingeschaltet erscheinen Ihre Dienstleistungen auch im Dienstleistungsbereich des Portals, wo auch Kunden Sie finden, die Ihre Website nicht kennen. Ihre eigene Website zeigt sie so oder so.",
           "Währung: gilt für ein Inserat, ein Paket oder eine Zusatzleistung, deren Preis Sie ohne Währung erfassen, und für das Budget, wenn ein Kunde einen Auftrag auf Ihrer eigenen Website ausschreibt."
+        ]
+      },
+      {
+        "title": "Was wir anbieten",
+        "items": [
+          "Bereiche, in denen Sie tätig sind: die obersten Dienstleistungsbereiche (zum Beispiel Dienstleistungen rund ums Haus oder Rechtsdienstleistungen). Die Kategorieauswahl im Dienstleistungsformular bietet dann nur die Kategorien darin an, damit Sie Ihre schneller finden.",
+          "Leer heisst: Alle Kategorien werden angeboten. Die Inseratkategorien selbst sind eine Liste für die ganze Plattform; fehlt eine Dienstleistung, beantragen Sie sie auf der Seite Inseratkategorien."
         ]
       },
       {

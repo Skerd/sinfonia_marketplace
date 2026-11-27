@@ -8,6 +8,11 @@
     "listedOnPortalPlaceholder": "",
     "currencyLabel": "Monedha",
     "currencyPlaceholder": "Zgjidh monedhën",
+    "whatWeProvideSectionTitle": "Çfarë ofrojmë",
+    "whatWeProvideHint": "Zgjidhni seksionet ku punon kompania juaj. Zgjedhësi i kategorisë në formularin e shërbimit do të ofrojë vetëm ato. Lëreni bosh për të ofruar të gjitha kategoritë.",
+    "branchesLabel": "Seksionet ku punoni",
+    "selectBranch": "Shtoni një seksion",
+    "removeBranch": "Hiqni",
     "operatorSectionTitle": "Punët e portalit",
     "operatorSectionHint": "Si operator i tregut vendosni sa ofrues arrin çdo punë dhe sa punë të hapura mund të ketë një klient.",
     "leadCapLabel": "Ofrues për punë",
@@ -43,6 +48,13 @@
         "items": [
           "Shfaq në portal: kur është aktiv, shërbimet tuaja shfaqen edhe në seksionin e shërbimeve të portalit, ku ju gjejnë edhe klientët që nuk e njohin faqen tuaj. Faqja juaj i shfaq gjithsesi.",
           "Monedha: përdoret për një listim, paketë ose shtesë që i vendosni çmim pa zgjedhur monedhë, dhe për buxhetin kur një klient poston një punë në faqen tuaj."
+        ]
+      },
+      {
+        "title": "Çfarë ofrojmë",
+        "items": [
+          "Seksionet ku punoni: seksionet kryesore të shërbimeve (për shembull Shërbime shtëpiake ose Shërbime ligjore). Zgjedhësi i kategorisë në formularin e shërbimit ofron atëherë vetëm kategoritë brenda tyre, që ta gjeni më shpejt tuajën.",
+          "Bosh do të thotë që ofrohen të gjitha kategoritë. Vetë kategoritë e shërbimeve janë një listë e vetme për gjithë platformën; nëse mungon një shërbim, kërkojeni te faqja Kategoritë e listimeve."
         ]
       },
       {

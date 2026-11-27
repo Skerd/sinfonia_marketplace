@@ -21,7 +21,13 @@
     "delivery": {
       "onsite": "A domicilio",
       "remote": "Online"
-    }
+    },
+    "namesSectionTitle": "Nome in ogni lingua",
+    "nameEnLabel": "Inglese",
+    "nameSqLabel": "Albanese",
+    "nameDeLabel": "Tedesco",
+    "nameFrLabel": "Francese",
+    "nameItLabel": "Italiano"
   },
   "axios": {
     "start": {

@@ -48,6 +48,8 @@ function safeDecode(value: string | null): string | undefined {
 const marketplaceRouteConfigContribution: RouteConfigContribution = {
     id: "marketplace",
     order: 41,
+    // The service categories are a platform list (D196): the platform company keeps them without running the marketplace.
+    platformListUrls: ["/tenancy/systemSettings/listingcategories"],
     contributeRoutes({
         menu,
         subview,
