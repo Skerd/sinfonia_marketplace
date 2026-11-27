@@ -2,6 +2,7 @@ import {compose} from "redux";
 import {useMemo} from "react";
 import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLanguage.tsx";
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
+import {useIsPlatformCompany} from "@coreModule/helpers/hooks/useIsPlatformCompany.ts";
 import EntityListPage, {EntityListCreateButton, EntityListHeader, type QuickFilterDef} from "@coreModule/components/entityPage/pages/entityListPage.tsx";
 import {COLUMN_TYPE} from "armonia/src/modules/core/database/filter/typeOperators.ts";
 import type {BidStatus} from "armonia/src/modules/marketplace/api/marketplace/private/bid/bid.dto.ts";
@@ -21,6 +22,7 @@ function bidDisplayLabel(bid: Bid): string | undefined {
 const BID_STATUSES: readonly BidStatus[] = ["pending", "accepted", "rejected"];
 
 function AllBids({resolveLanguageKey}: WithLanguageType) {
+    const isPlatform = useIsPlatformCompany();
     const quickFilters = useMemo<QuickFilterDef[]>(() => [
         {
             field: "status",
@@ -41,12 +43,15 @@ function AllBids({resolveLanguageKey}: WithLanguageType) {
             tableConfigKey="marketplacebids"
             header={(ctx) => (
                 <EntityListHeader ctx={ctx}>
-                    <EntityListCreateButton
-                        ctx={ctx}
-                        path="/marketplace/bids/create"
-                        icon={<IconPlus />}
-                        labelKey="createBid"
-                    />
+                    {/* The platform company keeps the portal's quotes but never quotes itself (D197). */}
+                    {isPlatform ? null : (
+                        <EntityListCreateButton
+                            ctx={ctx}
+                            path="/marketplace/bids/create"
+                            icon={<IconPlus />}
+                            labelKey="createBid"
+                        />
+                    )}
                 </EntityListHeader>
             )}
             buildEditPath={() => ""}

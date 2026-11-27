@@ -2,6 +2,7 @@ import {compose} from "redux";
 import {useMemo} from "react";
 import withLanguage, {WithLanguageType} from "@coreModule/helpers/hocs/withLanguage.tsx";
 import withDebug from "@coreModule/helpers/hocs/withDebug.tsx";
+import {useIsPlatformCompany} from "@coreModule/helpers/hooks/useIsPlatformCompany.ts";
 import EntityListPage, {EntityListCreateButton, EntityListHeader, type QuickFilterDef} from "@coreModule/components/entityPage/pages/entityListPage.tsx";
 import {COLUMN_TYPE} from "armonia/src/modules/core/database/filter/typeOperators.ts";
 import {taskRequestStatuses} from "armonia/src/modules/marketplace/api/marketplace/private/taskRequest/taskRequest.schema-def.ts";
@@ -23,6 +24,7 @@ export function taskRequestEditPath(entity: Pick<TaskRequest, "_id" | "title">) 
 }
 
 function AllTaskRequests({resolveLanguageKey}: WithLanguageType) {
+    const isPlatform = useIsPlatformCompany();
     const quickFilters = useMemo<QuickFilterDef[]>(() => [
         {
             field: "status",
@@ -43,12 +45,15 @@ function AllTaskRequests({resolveLanguageKey}: WithLanguageType) {
             tableConfigKey="taskrequests"
             header={(ctx) => (
                 <EntityListHeader ctx={ctx}>
-                    <EntityListCreateButton
-                        ctx={ctx}
-                        path="/marketplace/taskrequests/create"
-                        icon={<IconPlus />}
-                        labelKey="createTaskRequest"
-                    />
+                    {/* The platform company keeps the jobs clients post on the portal; it posts none itself (D197). */}
+                    {isPlatform ? null : (
+                        <EntityListCreateButton
+                            ctx={ctx}
+                            path="/marketplace/taskrequests/create"
+                            icon={<IconPlus />}
+                            labelKey="createTaskRequest"
+                        />
+                    )}
                 </EntityListHeader>
             )}
             buildEditPath={taskRequestEditPath}
