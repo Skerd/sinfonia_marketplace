@@ -79,8 +79,8 @@ const services: PortalContribution = {
 };
 
 /**
- * The public task board (D172): the open tasks clients posted, on the apex and the operator's own site, where anyone
- * browses them and posts one; services companies quote on them.
+ * The public task board (D172): the open tasks clients posted, on the apex, where the platform company keeps them (D197);
+ * anyone browses them and posts one, and services companies quote on them.
  */
 const tasks: PortalContribution = {
     id: "tasks",

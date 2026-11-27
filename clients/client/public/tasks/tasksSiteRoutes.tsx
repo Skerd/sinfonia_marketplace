@@ -24,7 +24,7 @@ function TasksCatalog() {
 }
 
 /**
- * The public task board (D172), under `/tasks` on the apex and the operator's own site: the board, one task, and the
+ * The public task board (D172), under `/tasks` on the apex, where the platform company keeps it (D197): the board, one task, and the
  * buyer's own tasks (the same pages as under `/services`, which a provider's own site keeps for its private tasks).
  */
 export default function TasksSiteRoutes() {

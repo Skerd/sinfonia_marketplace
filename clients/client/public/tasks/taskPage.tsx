@@ -31,7 +31,8 @@ const LANGUAGE_PATH = "src/modules/marketplace/clients/client/public/tasks/taskP
 /**
  * One task of the public board (D172), for anyone: what the client needs, where roughly (the D148 area, never the
  * address), the budget, until when, and how the quoting goes (the count, and the average from three quotes on). On the
- * apex it names the board it is posted on and the companies that quoted, each with its site, like any seller.
+ * apex it names the platform company that keeps the board (D197; it has no site, so no link) and the companies that
+ * quoted, each with its site, like any seller.
  */
 function TaskPage({resolveLanguageKey}: WithLanguageType) {
     const base = useSectionBase();
