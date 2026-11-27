@@ -306,7 +306,6 @@
       "createdBy": "Créé par",
       "updatedAt": "Mis à jour le",
       "ensure": "Créer les paramètres s'ils manquent",
-      "isOperator": "Opérateur de la place de marché",
       "leadCap": "Prestataires contactés par demande de tâche",
       "openJobLimit": "Demandes de tâches ouvertes par acheteur"
     },

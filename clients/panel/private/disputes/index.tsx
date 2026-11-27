@@ -18,8 +18,8 @@ import DisputeSheetView from "./center/sheetView/disputeSheetView.tsx";
 
 const ACCESS_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/dispute/access"};
 const PARTY_API = "/api/marketplace/dispute";
-/** The marketplace operator's list of every company's disputes, which its admins decide (D191). */
-const OPERATOR_API = "/api/marketplace/dispute/operator";
+/** The platform company's list of every company's disputes, which its admins decide (D191, D197). */
+const PLATFORM_API = "/api/marketplace/dispute/platform";
 
 /** Disputes are not edited via a form page; lifecycle uses actions only (mirrors promotions). */
 function noopDisputeEditPath(_dispute: Pick<Dispute, "_id">): string {
@@ -31,13 +31,13 @@ function disputeRowLabel(dispute: Dispute): string {
 }
 
 /**
- * The parties' disputes, or, at the marketplace operator, every company's (D191). Only the operator's admins decide one;
+ * The parties' disputes, or, at the platform company, every company's (D191, D197). Only the platform's admins decide one;
  * the seller and the buyer see it and its decision.
  */
 function AllDisputes({resolveLanguageKey}: WithLanguageType) {
     const access = useHttpRequest<DisputeAccessResponse>(ACCESS_REQUEST, {}, 1);
-    const isOperator = access.data?.data.isOperator === true;
-    const apiUrl = isOperator ? OPERATOR_API : PARTY_API;
+    const isPlatform = access.data?.data.isPlatform === true;
+    const apiUrl = isPlatform ? PLATFORM_API : PARTY_API;
     const quickFilters = useMemo<QuickFilterDef[]>(() => [
         {
             field: "status",
@@ -62,8 +62,8 @@ function AllDisputes({resolveLanguageKey}: WithLanguageType) {
             tableConfigKey="disputes"
             header={(ctx) => (
                 <EntityListHeader ctx={ctx}>
-                    {/* The parties open disputes; the operator only decides them (D191). */}
-                    {isOperator ? null : (
+                    {/* The parties open disputes; the platform only decides them (D191, D197). */}
+                    {isPlatform ? null : (
                         <EntityListCreateButton
                             ctx={ctx}
                             path="/marketplace/disputes/create"

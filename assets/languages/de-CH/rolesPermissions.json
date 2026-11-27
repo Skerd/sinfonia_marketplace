@@ -306,7 +306,6 @@
       "createdBy": "Erstellt von",
       "updatedAt": "Aktualisiert am",
       "ensure": "Einstellungen anlegen, falls sie fehlen",
-      "isOperator": "Marktplatz-Betreiber",
       "leadCap": "Erreichte Anbieter pro Ausschreibung",
       "openJobLimit": "Offene Ausschreibungen pro Käufer"
     },

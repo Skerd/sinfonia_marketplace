@@ -306,7 +306,6 @@
       "createdBy": "Created by",
       "updatedAt": "Updated at",
       "ensure": "Create settings if missing",
-      "isOperator": "Marketplace operator",
       "leadCap": "Providers reached per task request",
       "openJobLimit": "Open task requests per buyer"
     },

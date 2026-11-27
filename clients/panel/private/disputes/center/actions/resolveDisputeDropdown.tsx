@@ -15,7 +15,7 @@ function ResolveDisputeDropdown({dispute, onAction, resolveLanguageKey}: Props) 
     const {write} = useAccess("disputes");
 
     const openish = dispute.status === "open" || dispute.status === "under_review";
-    // Only the marketplace operator's admins decide a dispute (D191); its list marks the rows they decide.
+    // Only the platform company's admins decide a dispute (D191, D197); its list marks the rows they decide.
     const canShow = !!write && !!dispute.canDecide && !dispute.deletedAt && openish;
 
     if (!canShow) {

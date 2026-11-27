@@ -39,7 +39,7 @@ type DisputeCardProps = WithLanguageType & {
     sheetOnly?: boolean;
     onLifecyclePatched?: (patch: Partial<Dispute>) => void;
     innerRef?: RefObject<WithAxiosLifecycleRef<Dispute> | null>;
-    /** The marketplace operator reads every company's disputes through its own route (D191). */
+    /** The platform company reads every company's disputes through its own route (D191, D197). */
     singleUrl?: string;
 };
 
@@ -122,7 +122,7 @@ function DisputeCard({
                         <CloseDisputeDropdown dispute={row} onAction={setAction} />
                     </EntityCard.Header>
                     <EntityCard.Body>
-                        {/* Only on the marketplace operator's list (D191): whose order is disputed. */}
+                        {/* Only on the platform company's list (D191, D197): whose order is disputed. */}
                         {row.company?.name ? (
                             <EntityCardRow
                                 icon={IconBuildingStore}

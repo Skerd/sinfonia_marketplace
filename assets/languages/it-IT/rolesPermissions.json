@@ -306,7 +306,6 @@
       "createdBy": "Creato da",
       "updatedAt": "Aggiornato il",
       "ensure": "Crea le impostazioni se mancano",
-      "isOperator": "Gestore del marketplace",
       "leadCap": "Fornitori raggiunti per richiesta di attività",
       "openJobLimit": "Richieste di attività aperte per acquirente"
     },

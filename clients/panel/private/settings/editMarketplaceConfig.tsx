@@ -16,8 +16,8 @@ export default createGenericEditPage<MarketplaceConfig, EditMarketplaceConfigFor
     accessModel: "marketplaceconfigs",
     apiUrl: "/api/marketplace/marketplaceConfig",
     schema: editMarketplaceConfigFormSchema,
-    // `isOperator` is not a form value: it only decides whether the operator's own section shows (D143).
-    mapEntityData: ({isOperator: _isOperator, ...data}) => ({
+    // `isPlatform` is not a form value: it only decides which sections show (the platform's job settings, D197).
+    mapEntityData: ({isPlatform: _isPlatform, ...data}) => ({
         ...data,
         currency: data.currency?._id,
         branches: data.branches?.map((branch) => branch._id) ?? [],
@@ -31,7 +31,7 @@ export default createGenericEditPage<MarketplaceConfig, EditMarketplaceConfigFor
         const branches = entity?.branches ?? [];
         for (const branch of branches) chipLabelState.branches.current[branch._id] = branch.name;
         return {
-            isOperator: entity?.isOperator === true,
+            isPlatform: entity?.isPlatform === true,
             branches: branches.map((branch) => ({value: branch._id, label: branch.name})),
             [FORM_EXTRAS_OBJECT_ID_CHIP_LABEL_REFS]: {branches: chipLabelState.branches},
         };

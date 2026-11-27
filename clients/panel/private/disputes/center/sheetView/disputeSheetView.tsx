@@ -24,7 +24,7 @@ export type DisputeSheetViewOwnProps = {
     onRestore?: () => void;
     onListLifecyclePatched?: (patch: Partial<Dispute>) => void;
     fetchId?: string;
-    /** The marketplace operator reads every company's disputes through its own route (D191). */
+    /** The platform company reads every company's disputes through its own route (D191, D197). */
     singleUrl?: string;
 };
 
@@ -105,7 +105,7 @@ function DisputeSheetView({
                 headerDescription={
                     <>
                         <StatusBadge tableConfigKey="disputes" field="status" value={row.status} label={String(resolveLanguageKey(`status_values.${row.status}`))} />
-                        {/* Only on the marketplace operator's list (D191): whose order is disputed. */}
+                        {/* Only on the platform company's list (D191, D197): whose order is disputed. */}
                         {row.company?.name ? <Badge variant="outline">{row.company.name}</Badge> : null}
                     </>
                 }
