@@ -18,14 +18,14 @@ const TAXONOMY_REQUEST: HttpRequest = {method: "POST", url: "/api/marketplace/sh
  */
 function PostJobBanner({resolveLanguageKey}: WithLanguageType) {
     const base = useSectionBase();
-    const {site, sections} = usePortalSite();
+    const {site} = usePortalSite();
     const {isAuthenticated} = usePortalSession();
     const taxonomy = useHttpRequest<ShopListingTaxonomyResponse>(TAXONOMY_REQUEST, {}, 1);
 
     if (!taxonomy.data?.data.listingCount) return null;
-    // A provider's own site takes jobs for that provider (D143); a site that carries the task board (the platform
-    // company's, D197) takes public ones like the apex (D172).
-    const companySite = site?.scope === "company" && !sections.some((section) => section.section === "tasks");
+    // A provider's own site takes jobs for that provider (D143); the apex, which carries the task board, takes public
+    // ones (D172, D197).
+    const companySite = site?.scope === "company";
     const target = `${base}/account/jobs/new`;
     const href = isAuthenticated ? target : `/login?next=${encodeURIComponent(target)}`;
 
